@@ -1,0 +1,144 @@
+\documentclass[a4j,11pt, oneside, openany]{ujbook}
+
+%package
+\usepackage{subfiles}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx, hidelinks]{hyperref}
+\usepackage{lineno}
+\usepackage{pxjahyper}
+\hypersetup{
+colorlinks=false,
+%bookmarks=true,
+bookmarksnumbered=true,
+bookmarkstype=toc
+}
+\usepackage{siunitx}
+%\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{here}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{braket}
+\usepackage[format=hang, margin=50pt, font=small]{caption}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage[hang]{footmisc}
+\usepackage{ulem}
+\usepackage{physics}
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+\renewcommand{\thefootnote}{*\arabic{footnote}}
+
+\graphicspath{{./fig/}}
+
+%page setting
+\setlength{\oddsidemargin}{-0.4mm}
+\setlength{\evensidemargin}{-0.4mm}
+\setlength{\topmargin}{-5.4mm}
+\setlength{\textheight}{240mm}
+\setlength{\textwidth}{160mm}
+\setlength{\footskip}{18mm}
+
+% \setstretch{1.1}
+
+%bib setting
+\renewcommand{\bibname}{参考文献}
+
+\makeatletter
+ \DeclareRobustCommand\cite{\unskip
+\@ifnextchar[{\@tempswatrue\@citex}{\@tempswafalse\@citex[]}}
+ \def\@cite#1#2{$^{\hbox{\scriptsize[{#1\if@tempswa , #2\fi}]}}$}
+ \def\@biblabel#1{[#1]}
+ \makeatother
+
+ \makeatletter
+\renewcommand{\chapter}{%
+  \if@openright\cleardoublepage\else\clearpage\fi
+  \global\@topnum\z@
+  \secdef\@chapter\@schapter}
+\makeatother
+
+\makeatletter
+\newcommand{\figcaption}[1]{\def\@captype{figure}\caption{#1}}
+\newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
+\makeatother
+
+\setcounter{secnumdepth}{3}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+    \begin{center}
+        \vspace*{5cm}
+
+        \Large{修士論文}\\
+
+        \vspace{0.2cm}
+
+        \huge{Simons Observatory実験で用いる偏光角較正装置の系統誤差に関する研究}\\
+
+        \vspace{1.5cm}
+
+        \Large{京都大学大学院理学研究科 物理学・宇宙物理学専攻\\
+        物理学第二分野 高エネルギー物理学研究室\\aaa
+        星野 大輝}
+
+        \vspace{1cm}
+        \today
+        %2024年12月4日
+
+        \vspace{2cm}
+
+        \includegraphics[width=6cm]{./fig/ku_logo.png}
+
+    \end{center}
+\end{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{document}
+
+\setlength{\abovedisplayskip}{15pt}
+\setlength{\belowdisplayskip}{15pt}
+
+\thispagestyle{empty}
+\mbox{}\newpage
+\pagenumbering{roman}
+\subfile{./sub/abstract/abstract}
+
+\tableofcontents
+\mainmatter
+
+\clearpage
+
+%head,food
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{第\ \thechapter\ 章~#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection #1}{}}
+\fancyhf{}
+\fancyhead[LO,LE]{\leftmark}
+\fancyhead[RO,RE]{\thepage}
+
+%\linenumbers
+
+\subfile{./sub/introduction/introduction}
+\subfile{./sub/future/future}
+\subfile{./sub/summary/summary}
+\subfile{./sub/acknowledgement/acknowledgement}
+
+\renewcommand{\chaptermark}[1]{\markboth{付録\ \thechapter\ ~#1}{}}
+
+%\clearpage
+
+\fancyhead[LO,LE]{}
+
+\addcontentsline{toc}{chapter}{表目次}
+\listoftables
+\clearpage
+\addcontentsline{toc}{chapter}{図目次}
+\listoffigures
+
+\input{./bib.tex}
+
+\end{document}
