@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 DEC 2024 17:10
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 DEC 2024 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,8 +440,16 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+\symboldmincho=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-LaTeX Info: Redefining \cite on input line 47.
+LaTeX Info: Redefining \cite on input line 50.
 ))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
  (.tex_intermediates/future.aux)
@@ -501,19 +509,34 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
- [1
+
+第 1 章
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 7.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 7.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 7.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 7.
+[1
+
 
 ] (.tex_intermediates/future.aux)
 Package rerunfilecheck Info: File `future.out' has not changed.
-(rerunfilecheck)             Checksum: 05B9FF7757FE6A446D8F294B02146D28;54.
+(rerunfilecheck)             Checksum: F6D29B116A4DF7F74E526FC5487E1061;166.
  ) 
 Here is how much of TeX's memory you used:
- 16794 strings out of 476677
- 326631 string characters out of 5804957
- 1843490 words of memory out of 5000000
- 37069 multiletter control sequences out of 15000+600000
- 546515 words of font info for 56 fonts, out of 8000000 for 9000
+ 16897 strings out of 476677
+ 327990 string characters out of 5804957
+ 1844490 words of memory out of 5000000
+ 37167 multiletter control sequences out of 15000+600000
+ 547695 words of font info for 62 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,5n,94p,357b,953s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,5n,94p,357b,955s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/future.dvi (1 page, 860 bytes).
+Output written on .tex_intermediates/future.dvi (1 page, 1180 bytes).

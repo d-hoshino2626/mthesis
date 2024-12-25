@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 DEC 2024 17:42
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 DEC 2024 15:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,8 +440,16 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+\symboldmincho=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-LaTeX Info: Redefining \cite on input line 47.
+LaTeX Info: Redefining \cite on input line 50.
 ))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
  (.tex_intermediates/introduction.aux)
@@ -515,150 +523,20 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 8.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 12.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 12.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 12.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 12.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 12.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 12.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 14.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 14.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 14.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 14.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 14.
-
-LaTeX Warning: Citation `intro:nupauli' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Citation `intro:reinescowan' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation `intro:reinescowan' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation `intro:nu3gen' on page 1 undefined on input line 17.
-
-
-LaTeX Warning: Citation `intro:taunu' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: Citation `intro:mns' on page 1 undefined on input line 25.
-
-
-LaTeX Warning: Citation `intro:SKneuosi' on page 1 undefined on input line 27.
-
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 31.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 31.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 31.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 31.
 [1
 
 
-]
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 71.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 71.
-
-Overfull \hbox (8.69687pt too wide) detected at line 111
-[]
- []
-
-[2]
-
-LaTeX Warning: Citation `intro:MSWwolfenstein' on page 3 undefined on input line 119.
-
-
-LaTeX Warning: Citation `intro:MSWsmirnov' on page 3 undefined on input line 119.
-
-File: ../../fig//intro/SKneutrinoosc.png Graphic file (type bmp)
-<../../fig//intro/SKneutrinoosc.png>
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 134.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 134.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 134.
-
-LaTeX Warning: Citation `intro:SKneuosi' on page 3 undefined on input line 134.
-
-
-LaTeX Warning: Citation `intro:SKneuosi' on page 3 undefined on input line 134.
-
-
-LaTeX Warning: Citation `intro:Homestake' on page 3 undefined on input line 138.
-
-
-LaTeX Warning: Citation `intro:kamiokande' on page 3 undefined on input line 139.
-
-
-LaTeX Warning: Citation `intro:SAGE' on page 3 undefined on input line 139.
-
-
-LaTeX Warning: Citation `intro:GALLEX' on page 3 undefined on input line 139.
-
-[3]
-
-LaTeX Warning: Citation `intro:SKneuosi' on page 4 undefined on input line 143.
-
-
-LaTeX Warning: Citation `intro:SNO' on page 4 undefined on input line 146.
-
-[4]
-
-LaTeX Warning: Citation `intro:oscipara' on page 5 undefined on input line 192.
-
-
-LaTeX Warning: Citation `intro:oscipara' on page 5 undefined on input line 192.
-
-
-Overfull \hbox (4.273pt too wide) in paragraph at lines 193--202
- [][] 
- []
-
-
-LaTeX Warning: Citation `intro:t2k2023' on page 5 undefined on input line 211.
-
-
-LaTeX Warning: Citation `intro:sakhanov' on page 5 undefined on input line 214.
-
-[5]
-
-LaTeX Warning: Citation `intro:octant' on page 6 undefined on input line 230.
-
-[6] (.tex_intermediates/introduction.aux)
-
-LaTeX Warning: There were undefined references.
-
+] (.tex_intermediates/introduction.aux)
 Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: AF512C6FA6E46540993F9C0B979F13D4;1111.
+(rerunfilecheck)             Checksum: 3581B8504590AE0921491582315173ED;141.
  ) 
 Here is how much of TeX's memory you used:
- 16906 strings out of 476677
- 328312 string characters out of 5804957
- 1875490 words of memory out of 5000000
- 37151 multiletter control sequences out of 15000+600000
- 558193 words of font info for 105 fonts, out of 8000000 for 9000
+ 16897 strings out of 476677
+ 328092 string characters out of 5804957
+ 1844490 words of memory out of 5000000
+ 37167 multiletter control sequences out of 15000+600000
+ 547695 words of font info for 62 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,16n,94p,602b,1041s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,5n,94p,363b,955s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/introduction.dvi (6 pages, 39872 bytes).
+Output written on .tex_intermediates/introduction.dvi (1 page, 1132 bytes).
