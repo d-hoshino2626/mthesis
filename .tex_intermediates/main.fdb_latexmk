@@ -1,17 +1,16 @@
 # Fdb version 4
-["dvipdf"] 1735023707 "main.dvi" "main.pdf" "main" 1735023707 0
-  "main.dvi" 1735023707 31788 bd33ee3409353bf46a8ff8b1905af687 "latex"
+["dvipdf"] 1735113627 "main.dvi" "main.pdf" "main" 1735113627 0
+  "main.dvi" 1735113627 36120 eb75b21da25e1738003fd15939efbbe8 "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1735023706 "main.tex" "main.dvi" "main" 1735023707 0
-  ".tex_intermediates/main.aux" 1735023707 4923 8b35a47ef6be05ca9cc1351a52fb05bf "latex"
-  ".tex_intermediates/main.lof" 1735023707 625 6d66f4342834e6187862acc80de214a5 "latex"
-  ".tex_intermediates/main.lot" 1735023707 100 4353d675f6b597e3aa3d5147c8369dec "latex"
-  ".tex_intermediates/main.out" 1735023707 2681 9cad65f73a38d0211b67048bc872097b "latex"
-  ".tex_intermediates/main.toc" 1735023707 1446 7b3c83bbbf3371d2551cc796665f32f7 "latex"
+["latex"] 1735113626 "main.tex" "main.dvi" "main" 1735113627 0
+  ".tex_intermediates/main.aux" 1735113627 4577 967c53233a0a8fc2c8434f853eb74c07 "latex"
+  ".tex_intermediates/main.lof" 1735113627 453 ddf7e7846abad30270c646f8ffb25518 "latex"
+  ".tex_intermediates/main.lot" 1735113627 100 4353d675f6b597e3aa3d5147c8369dec "latex"
+  ".tex_intermediates/main.out" 1735113627 2681 3207e8ccbc539c78069a74f1a73b2a27 "latex"
+  ".tex_intermediates/main.toc" 1735113627 1446 38733043fe8369af9db689932e8f109c "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -137,7 +136,7 @@
   "sub/acknowledgement/acknowledgement.tex" 1734771423 156 75eabfb98aaf5970e88fb171241abf29 ""
   "sub/future/future.tex" 1735023553 198 fa2a72b1f06ed4db38b5461360d24e9a ""
   "sub/introduction/introduction.tex" 1735023358 170 a00008050058bd2e00b873c8fee5f280 ""
-  "sub/simons_observatory/simons_observatory.tex" 1735023500 3142 823d074bab97eada8d76798722b37dee ""
+  "sub/simons_observatory/simons_observatory.tex" 1735113608 6023 b406dd5d4963d477a03605691f9e0c09 ""
   "sub/summary/summary.tex" 1734771423 143 40dc9340879c969703b802174d3f104c ""
   "sub/title/title.tex" 1734771423 705 fe5e58f2ba15b9f207490cf4eb9a2a2f ""
   "sub/wiregrid/wiregrid.tex" 1735023666 2064 164929bb0492dd6a8e9a4c0fadcbad6a ""

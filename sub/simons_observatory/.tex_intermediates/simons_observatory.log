@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  25 DEC 2024 16:38
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  25 DEC 2024 17:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -546,17 +546,17 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 10.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 20.
+(Font)              scaled to size 11.54663pt on input line 24.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 20.
+(Font)              scaled to size 11.54663pt on input line 24.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 20.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 20.
+(Font)              scaled to size 11.54663pt on input line 24.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 20.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 20.
+(Font)              scaled to size 11.54663pt on input line 24.
 [1
 
 
@@ -564,19 +564,19 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 File: ../../fig//simons_observatory/hwp_satoru.pdf Graphic file (type pdf)
 <../../fig//simons_observatory/hwp_satoru.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 71.
+(Font)              scaled to size 9.6222pt on input line 75.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 71.
+(Font)              scaled to size 9.6222pt on input line 75.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 71.
+(Font)              scaled to size 6.73553pt on input line 75.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 71.
+(Font)              scaled to size 4.8111pt on input line 75.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 71.
+(Font)              scaled to size 9.6222pt on input line 75.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 71.
+(Font)              scaled to size 6.73553pt on input line 75.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 71.
+(Font)              scaled to size 4.8111pt on input line 75.
  [2] (.tex_intermediates/simons_observatory.aux)
 Package rerunfilecheck Info: File `simons_observatory.out' has not changed.
 (rerunfilecheck)             Checksum: FF2CB18024AA4119FD4847C92FCC5942;1267.
@@ -584,10 +584,10 @@ Package rerunfilecheck Info: File `simons_observatory.out' has not changed.
 Here is how much of TeX's memory you used:
  16990 strings out of 476677
  329581 string characters out of 5804957
- 1856490 words of memory out of 5000000
+ 1855490 words of memory out of 5000000
  37231 multiletter control sequences out of 15000+600000
  559463 words of font info for 106 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,20n,94p,440b,959s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/simons_observatory.dvi (2 pages, 11668 bytes).
+Output written on .tex_intermediates/simons_observatory.dvi (2 pages, 12708 bytes).
