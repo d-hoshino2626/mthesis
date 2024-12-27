@@ -6,10 +6,12 @@
 \begin{document}
 \chapter{Simons Observatory実験}
 \section{Simons Observatory実験}
-Simons Observatory実験 (以後、SOと呼ぶ) は、史上最大規模の地上CMB観測実験である。
-チリのアタカマ砂漠を拠点とし、口径 $0.5\ \mathrm{m}$ の小口径望遠鏡 (Small Aperture Telescope, SAT) 3台と
-口径 $6\ \mathrm{m}$ の大口径望遠鏡 (Large Aperture Telescope, LAT) 1台を用いた観測が進められている。
-検出器としてはTES (Transition Edge Sensor) 検出器を採用しており、SATにはそれぞれ約1万個、LATには約3万個の検出器が搭載されている。
+Simons Observatory実験 (以後、SOと呼ぶ) は、チリのアタカマ砂漠を拠点とする史上最大規模の地上CMB観測実験である。
+現在、口径 $0.5\ \mathrm{m}$ の小口径望遠鏡 (Small Aperture Telescope, SAT) 3台と、
+口径 $6\ \mathrm{m}$ の大口径望遠鏡 (Large Aperture Telescope, LAT) 1台を用いた観測が進められている。\cite{so:current_status}
+検出器としてはTES (Transition Edge Sensor) 検出器を採用しており、SATにはそれぞれ約1万個ずつ、LATには約3万個の検出器が搭載されている。
+合計約6万個もの検出器を通してCMBの変更を高精度で測定し、インフレーションに由来する原始重力波の検出や、
+ニュートリノの有効世代数、ニュートリノ質量和の測定を目指す。\cite{so:science_forecast}
 
 立体角 $\Omega$ 、開口面積 $A$、観測波長 $\lambda$ について、回折限界の関係式
 \begin{equation}
@@ -48,6 +50,7 @@ HWPの角振動数を $\omega_{\mathrm{HWP}}$ とすると、$\chi = \omega_{\ma
 \end{equation}
 となる。検出器はある偏光角方向 $\theta_{\mathrm{det}}$ にのみ感度を持つため、最終的に検出器が読み出す信号 $d_{\mathrm{m}, \mathrm{det}}$ は
 \begin{equation}
+    \label{eq:so-hwp_modulation}
     d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t - 2\theta_{\mathrm{det}})}]
 \end{equation}
 となる。この信号のフーリエ変換は
@@ -64,7 +67,7 @@ $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HW
 つまり、復調後に得られる信号 $d_{\mathrm{d, det}}$ は
 \begin{align}
     d_{\mathrm{d, det}}(t) &= \mathcal{F}^{\mathrm{BPF}}\qty[d_{\mathrm{m,det}}(t)]\times 2\exp\qty(i4\omega_{\mathrm{HWP}}t) \\
-    &= \varepsilon\qty[Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t)]
+    &= \varepsilon\qty[Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t)]\exp\qty[i2\theta_{\mathrm{det}}]
 \end{align}
 となっている。
 

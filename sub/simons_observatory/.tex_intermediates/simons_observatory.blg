@@ -1,10 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '.tex_intermediates/simons_observatory.blg'
-[35] biber-darwin:340> INFO - === 金 12 27, 2024, 21:54:00
+[35] biber-darwin:340> INFO - === 土 12 28, 2024, 00:39:41
 [44] Biber.pm:419> INFO - Reading '.tex_intermediates/simons_observatory.bcf'
-[89] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[96] bbl.pm:660> INFO - Writing '.tex_intermediates/simons_observatory.bbl' with encoding 'UTF-8'
-[96] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[96] bbl.pm:763> INFO - Output to .tex_intermediates/simons_observatory.bbl
-[96] Biber.pm:131> WARN - The file '.tex_intermediates/simons_observatory.bcf' does not contain any citations!
-[96] Biber.pm:133> INFO - WARNINGS: 1
+[88] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[96] Biber.pm:4419> INFO - Processing section 0
+[108] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[185] Utils.pm:410> ERROR - Cannot find 'refs.bib'!
+[185] Biber.pm:136> INFO - ERRORS: 1

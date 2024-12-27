@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>simons_observatory.bcf</file>
+      <file>wiregrid.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>simons_observatory.bbl</file>
+      <file>wiregrid.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -60,23 +60,23 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>simons_observatory</infile>
+      <infile>wiregrid</infile>
     </cmdline>
     <input>
-      <file>simons_observatory.bcf</file>
+      <file>wiregrid.bcf</file>
     </input>
     <output>
-      <file>simons_observatory.bbl</file>
+      <file>wiregrid.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>simons_observatory.bbl</file>
+      <file>wiregrid.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>simons_observatory.bcf</file>
+      <file>wiregrid.bcf</file>
     </requires>
     <requires type="editable">
       <file>refs.bib</file>

@@ -1,16 +1,16 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '.tex_intermediates/main.blg'
-[36] biber-darwin:340> INFO - === 金 12 27, 2024, 22:05:53
-[46] Biber.pm:419> INFO - Reading '.tex_intermediates/main.bcf'
-[91] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
-[100] Biber.pm:4419> INFO - Processing section 0
-[105] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[36] biber-darwin:340> INFO - === 金 12 27, 2024, 23:28:46
+[44] Biber.pm:419> INFO - Reading '.tex_intermediates/main.bcf'
+[89] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[98] Biber.pm:4419> INFO - Processing section 0
+[104] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
 [110] bibtex.pm:1713> INFO - LaTeX decoding ...
-[114] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[150] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[150] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[150] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[150] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[154] bbl.pm:660> INFO - Writing '.tex_intermediates/main.bbl' with encoding 'UTF-8'
-[154] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[160] bbl.pm:763> INFO - Output to .tex_intermediates/main.bbl
+[117] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[316] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[316] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[316] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[316] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[327] bbl.pm:660> INFO - Writing '.tex_intermediates/main.bbl' with encoding 'UTF-8'
+[327] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[576] bbl.pm:763> INFO - Output to .tex_intermediates/main.bbl
