@@ -28,6 +28,9 @@ bookmarkstype=toc
 \usepackage{physics}
 \usepackage{chngcntr}
 \usepackage{bm}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{refs.bib}
+
 \counterwithout{footnote}{chapter}
 \renewcommand{\thefootnote}{*\arabic{footnote}}
 
@@ -46,12 +49,12 @@ bookmarkstype=toc
 %bib setting
 \renewcommand{\bibname}{参考文献}
 
-\makeatletter
- \DeclareRobustCommand\cite{\unskip
-\@ifnextchar[{\@tempswatrue\@citex}{\@tempswafalse\@citex[]}}
- \def\@cite#1#2{$^{\hbox{\scriptsize[{#1\if@tempswa , #2\fi}]}}$}
- \def\@biblabel#1{[#1]}
- \makeatother
+% \makeatletter
+%  \DeclareRobustCommand\cite{\unskip
+% \@ifnextchar[{\@tempswatrue\@citex}{\@tempswafalse\@citex[]}}
+%  \def\@cite#1#2{$^{\hbox{\scriptsize[{#1\if@tempswa , #2\fi}]}}$}
+%  \def\@biblabel#1{[#1]}
+%  \makeatother
 
  \makeatletter
 \renewcommand{\chapter}{%
@@ -101,6 +104,8 @@ bookmarkstype=toc
 \subfile{./sub/introduction/introduction}
 \subfile{./sub/simons_observatory/simons_observatory}
 \subfile{./sub/wiregrid/wiregrid}
+\subfile{./sub/tiltsensor/tiltsensor}
+\subfile{./sub/wiresag/wiresag}
 \subfile{./sub/future/future}
 \subfile{./sub/summary/summary}
 \subfile{./sub/acknowledgement/acknowledgement}
@@ -117,6 +122,7 @@ bookmarkstype=toc
 \addcontentsline{toc}{chapter}{図目次}
 \listoffigures
 
-\input{./bib.tex}
+% \nocite{*}
+\printbibliography[title=参考文献]
 
 \end{document}

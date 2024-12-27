@@ -1,10 +1,10 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  27 DEC 2024 21:54
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  27 DEC 2024 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**simons_observatory.tex
-(./simons_observatory.tex
+**wiresag.tex
+(./wiresag.tex
 pLaTeX2e <2023-02-14u04>+1 (based on LaTeX2e <2022-11-01> patch level 1)
 L3 programming layer <2023-03-30> (/usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
 Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
@@ -667,14 +667,12 @@ Package biblatex Info: ... and expl3
 (biblatex)             setting 'casechanger=expl3'.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-))
-LaTeX Info: Redefining \cite on input line 53.
-))
+))))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
 \@quotelevel=\count449
 \@quotereset=\count450
- (.tex_intermediates/simons_observatory.aux)
-\openout1 = `simons_observatory.aux'.
+ (.tex_intermediates/wiresag.aux)
+\openout1 = `wiresag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -699,9 +697,9 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 Package hyperref Info: Link coloring OFF on input line 6.
- (.tex_intermediates/simons_observatory.out) (.tex_intermediates/simons_observatory.out)
+ (.tex_intermediates/wiresag.out) (.tex_intermediates/wiresag.out)
 \@outlinefile=\write4
-\openout4 = `simons_observatory.out'.
+\openout4 = `wiresag.out'.
 
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
@@ -738,111 +736,60 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `simons_observatory.bcf'.
+\openout3 = `wiresag.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'simons_observatory.bbl' found.
- (.tex_intermediates/simons_observatory.bbl)
+Package biblatex Info: ... file 'wiresag.bbl' found.
+ (.tex_intermediates/wiresag.bbl)
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
 
 第 1 章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 7.
+(Font)              scaled to size 19.95642pt on input line 8.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 7.
+(Font)              scaled to size 19.95642pt on input line 8.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 7.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 7.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 8.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 8.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 8.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
+(Font)              scaled to size 19.95642pt on input line 8.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 8.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 10.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 10.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 10.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 10.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 10.
+(Font)              scaled to size 19.95642pt on input line 8.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 24.
+(Font)              scaled to size 11.54663pt on input line 11.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 24.
+(Font)              scaled to size 11.54663pt on input line 11.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 24.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 24.
+(Font)              scaled to size 11.54663pt on input line 11.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 24.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 24.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 29.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 29.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 29.
+(Font)              scaled to size 11.54663pt on input line 11.
 
-LaTeX Warning: Citation `so:hwp_yamada' on page 1 undefined on input line 29.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 11.
 
 [1
 
 
-]
-File: ../../fig//simons_observatory/hwp_satoru.pdf Graphic file (type pdf)
-<../../fig//simons_observatory/hwp_satoru.pdf>
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 75.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 75.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 75.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 75.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 75.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 75.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 75.
- [2] (.tex_intermediates/simons_observatory.aux)
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `simons_observatory.out' has not changed.
-(rerunfilecheck)             Checksum: FF2CB18024AA4119FD4847C92FCC5942;1267.
-Package logreq Info: Writing requests to 'simons_observatory.run.xml'.
-\openout1 = `simons_observatory.run.xml'.
+] (.tex_intermediates/wiresag.aux)
+Package rerunfilecheck Info: File `wiresag.out' has not changed.
+(rerunfilecheck)             Checksum: 96ABC7AF9FD8CDED08692A166542EA57;1253.
+Package logreq Info: Writing requests to 'wiresag.run.xml'.
+\openout1 = `wiresag.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23942 strings out of 476677
- 469473 string characters out of 5804957
- 1856490 words of memory out of 5000000
- 44133 multiletter control sequences out of 15000+600000
- 559681 words of font info for 108 fonts, out of 8000000 for 9000
+ 23852 strings out of 476677
+ 467874 string characters out of 5804957
+ 1847490 words of memory out of 5000000
+ 44071 multiletter control sequences out of 15000+600000
+ 548300 words of font info for 64 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,20n,94p,1143b,961s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,5n,94p,1132b,953s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/simons_observatory.dvi (2 pages, 12776 bytes).
+Output written on .tex_intermediates/wiresag.dvi (1 page, 3076 bytes).

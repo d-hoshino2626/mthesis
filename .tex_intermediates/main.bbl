@@ -1,0 +1,189 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{so:hwp_yamada}{article}{}
+      \name{author}{27}{}{%
+        {{hash=f8d386bd533a50057734b62a68e29532}{%
+           family={Yamada},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=68fdfda697c3eb82420dccb155c82a99}{%
+           family={Bixler},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=fbc7d1489d486a90aea2799cb2d32f6c}{%
+           family={Sakurai},
+           familyi={S\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bd8faa5ee4a51733044bb62deccdf688}{%
+           family={Ashton},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d428eb1d180dd1618bdfd5377ce9e601}{%
+           family={Sugiyama},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=45af098d9254034b55c32839966322a7}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=02e1da059b99273f9148d4d5a75ec9d3}{%
+           family={Begin},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e7505d7227562f5a45cf41d2928f10b0}{%
+           family={Corbett},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d473f89ecfc683192520d12906496ced}{%
+           family={Day-Weiss},
+           familyi={D\bibinithyphendelim W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=87a8eb7bef8ece65e57ab0654ad92978}{%
+           family={Galitzki},
+           familyi={G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5ae7eaf0d29f63b833185765453c78ea}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=eea9c114d000c5986f227e3fb52f58f3}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={B.\bibnamedelimi R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=07eef4c5c7a9f008bffb8f8022968ff4}{%
+           family={Jost},
+           familyi={J\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cce9fdaa0dd35655738d890401d5ba5f}{%
+           family={Kusaka},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=48b2dde2dcc778010e6795b514b75cd0}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=06eedde7ed79feafd175e5824753db5f}{%
+           family={Lashner},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e4e8e23ec01016b59f9df1bc107f6552}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={A.\bibnamedelimi T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8744c5d0f5003fe056c19488a7b09d65}{%
+           family={Mangu},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e29391a386b9e12daaa6a751dfcd0a0}{%
+           family={Nishino},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f236b4b72a7be9cb0160c680477a4e5b}{%
+           family={Page},
+           familyi={P\bibinitperiod},
+           given={L.\bibnamedelimi A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7084dc2e37af950319a6b8a667cbcf27}{%
+           family={Randall},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c6da6c8a346773558a6424303d037358}{%
+           family={Sasaki},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=82a54dcd8adfe1dbaa1df514f4a3ca89}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=440ec94c4d9d6fc950b25f7b40e21767}{%
+           family={Spisak},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d59a4e8b23f1ce5800640ad278032e8e}{%
+           family={Tsan},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f5e17155e554c261a9bec1f31b200fd1}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ea0875488b61dbfb60042196fefff97}
+      \strng{fullhash}{0a3ae1709f662fd0fef13d5b6cdcc2b2}
+      \strng{bibnamehash}{8ea0875488b61dbfb60042196fefff97}
+      \strng{authorbibnamehash}{8ea0875488b61dbfb60042196fefff97}
+      \strng{authornamehash}{8ea0875488b61dbfb60042196fefff97}
+      \strng{authorfullhash}{0a3ae1709f662fd0fef13d5b6cdcc2b2}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{The Simons Observatory: Cryogenic half wave plate rotation mechanism for the small aperture telescopes}
+      \field{volume}{95}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1063/5.0178066
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85185746530&origin=inward
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85185746530&origin=inward
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
