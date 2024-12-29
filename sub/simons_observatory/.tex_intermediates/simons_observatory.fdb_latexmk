@@ -1,23 +1,23 @@
 # Fdb version 4
-["biber .tex_intermediates/simons_observatory"] 1735472917 ".tex_intermediates/simons_observatory.bcf" ".tex_intermediates/simons_observatory.bbl" ".tex_intermediates/simons_observatory" 1735475838 200
-  ".tex_intermediates/simons_observatory.bcf" 1735475837 107767 bc82dcee6e3bd377114dfe99c8af468f "latex"
+["biber .tex_intermediates/simons_observatory"] 1735484249 ".tex_intermediates/simons_observatory.bcf" ".tex_intermediates/simons_observatory.bbl" ".tex_intermediates/simons_observatory" 1735484377 200
+  ".tex_intermediates/simons_observatory.bcf" 1735484376 107767 bc82dcee6e3bd377114dfe99c8af468f "latex"
   "refs.bib" 0 -1 0 ""
   (generated)
   ".tex_intermediates/simons_observatory.bbl"
   ".tex_intermediates/simons_observatory.blg"
   (rewritten before read)
-["dvipdf"] 1735475837 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1735475838 0
-  "simons_observatory.dvi" 1735475837 29024 ac6b0df8d8d98e61bb2376de44e1045f "latex"
+["dvipdf"] 1735484376 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1735484377 0
+  "simons_observatory.dvi" 1735484376 31164 f44512a4046f217aa4bd6b574c8899b5 "latex"
   (generated)
   "simons_observatory.pdf"
   (rewritten before read)
-["latex"] 1735475836 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1735475838 0
+["latex"] 1735484375 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1735484377 0
   "../../fig//simons_observatory/hwp_satoru.pdf" 1735004181 806394 963a34679832e498b41dc5260657a8f8 ""
   "../../main.tex" 1735304749 2966 c7ed95efa2b154fefb378164776444cb ""
-  ".tex_intermediates/simons_observatory.aux" 1735475837 4384 f67a4f3fd99698930c818c34d114ef90 "latex"
-  ".tex_intermediates/simons_observatory.bbl" 1735472919 0 d41d8cd98f00b204e9800998ecf8427e "biber .tex_intermediates/simons_observatory"
-  ".tex_intermediates/simons_observatory.out" 1735475837 1836 37fe982c9622102deecd6cfe5a5e0db1 "latex"
-  ".tex_intermediates/simons_observatory.run.xml" 1735475837 2397 6139e3efb16459e5cb2620911eb92963 "latex"
+  ".tex_intermediates/simons_observatory.aux" 1735484376 4729 0a2ce66f450728bd9d189a5584bcc5d0 "latex"
+  ".tex_intermediates/simons_observatory.bbl" 1735484251 0 d41d8cd98f00b204e9800998ecf8427e "biber .tex_intermediates/simons_observatory"
+  ".tex_intermediates/simons_observatory.out" 1735484376 1836 37fe982c9622102deecd6cfe5a5e0db1 "latex"
+  ".tex_intermediates/simons_observatory.run.xml" 1735484376 2397 6139e3efb16459e5cb2620911eb92963 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -151,7 +151,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "simons_observatory.tex" 1735475836 14464 21650700684965fc5c1bea61a31056da ""
+  "simons_observatory.tex" 1735484374 16167 5c077764a3081e5e5be5cf2b5cf18c3c ""
   (generated)
   ".tex_intermediates/simons_observatory.aux"
   ".tex_intermediates/simons_observatory.bcf"
