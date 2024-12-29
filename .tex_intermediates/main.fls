@@ -1027,6 +1027,10 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
 INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./sub/wiregrid/wiregrid.tex

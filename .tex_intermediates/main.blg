@@ -1,19 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '.tex_intermediates/main.blg'
-[39] biber-darwin:340> INFO - === 日 12 29, 2024, 02:13:59
-[49] Biber.pm:419> INFO - Reading '.tex_intermediates/main.bcf'
-[95] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
-[105] Biber.pm:4419> INFO - Processing section 0
-[111] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
-[117] bibtex.pm:1713> INFO - LaTeX decoding ...
-[130] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[343] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[343] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[343] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[343] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[355] bbl.pm:660> INFO - Writing '.tex_intermediates/main.bbl' with encoding 'UTF-8'
-[355] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[621] bbl.pm:763> INFO - Output to .tex_intermediates/main.bbl
-[621] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'so:Kaufman_2014' is not an integer - this will probably not sort properly.
-[621] Biber.pm:131> WARN - I didn't find a database entry for 'so:Keeting_2023' (section 0)
-[621] Biber.pm:133> INFO - WARNINGS: 2
+[36] biber-darwin:340> INFO - === 日 12 29, 2024, 17:17:33
+[45] Biber.pm:419> INFO - Reading '.tex_intermediates/main.bcf'
+[88] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[98] Biber.pm:4419> INFO - Processing section 0
+[103] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[110] bibtex.pm:1713> INFO - LaTeX decoding ...
+[120] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[328] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[328] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[328] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[328] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[338] bbl.pm:660> INFO - Writing '.tex_intermediates/main.bbl' with encoding 'UTF-8'
+[338] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[596] bbl.pm:763> INFO - Output to .tex_intermediates/main.bbl
+[596] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'so:Kaufman_2014' is not an integer - this will probably not sort properly.
+[596] Biber.pm:131> WARN - I didn't find a database entry for 'so:Keeting_2023' (section 0)
+[596] Biber.pm:133> INFO - WARNINGS: 2

@@ -105,33 +105,51 @@ Eモード、Bモード偏光を表現する係数 $a_{lm}^{E}, a_{lm}^{B}$ を�
 \begin{equation}
     C_{l}^{XX'} = \dfrac{1}{2l+1}\sum_{m=-l}^{l}\left\langle \qty(a_{lm}^{X})^{*} a_{lm}^{X'} \right\rangle
 \end{equation}
-\begin{equation}
-    C_{l}^{XX'} = \dfrac{1}{2l+1}\sum_{m=-l}^{l}\left\langle a_{lm}^{*\,X} a_{lm}^{X'} \right\rangle
-\end{equation}
 は、偏光角の誤較正によって
 \begin{equation}
     \mqty( C_{\mathrm{obs},\,l}^{TT} \\[1ex]
            C_{\mathrm{obs},\,l}^{TE} \\[1ex]
            C_{\mathrm{obs},\,l}^{TB} \\[1ex]
            C_{\mathrm{obs},\,l}^{EE} \\[1ex]
-           C_{\mathrm{obs},\,l}^{EB} \\[1ex]
-           C_{\mathrm{obs},\,l}^{BB} )
+           C_{\mathrm{obs},\,l}^{BB} \\[1ex]
+           C_{\mathrm{obs},\,l}^{EB} )
     = \mqty( 1 & 0 & 0 & 0 & 0 & 0 \\[1ex]
              0 & \cos\qty(2\delta\theta) & 0 & -\sin\qty(2\delta\theta) & 0 & 0 \\[1ex]
-             0 & 0 & \cos^2\qty(2\delta\theta) & 0 & -\sin\qty(4\delta\theta) & \sin^2\qty(2\delta\theta) \\[1ex]
              0 & \sin\qty(2\delta\theta) & 0 & \cos\qty(2\delta\theta) & 0 & 0 \\[1ex]
-             0 & 0 & \sin\qty(4\delta\theta)/2 & 0 & \cos\qty(4\delta\theta)/2 & -\sin\qty(4\delta\theta)/2 \\[1ex]
-             0 & 0 & 0 & \sin^2\qty(2\delta\theta) & \sin(4\delta\theta) & \cos^2\qty(2\delta\theta) \\[1ex] )
+             0 & 0 & 0 & \cos^2\qty(2\delta\theta) & \sin^2\qty(2\delta\theta) & -\sin\qty(4\delta\theta) \\[1ex]
+             0 & 0 & 0 & \sin^2\qty(2\delta\theta) & \cos^2\qty(2\delta\theta) & \sin(4\delta\theta) \\[1ex]
+             0 & 0 & 0 & \sin\qty(4\delta\theta)/2 & -\sin\qty(4\delta\theta)/2 & \cos\qty(4\delta\theta)/2 )
     \mqty( C_{l}^{TT} \\[1ex]
               C_{l}^{TE} \\[1ex]
               C_{l}^{TB} \\[1ex]
               C_{l}^{EE} \\[1ex]
-              C_{l}^{EB} \\[1ex]
-              C_{l}^{BB} ) 
+              C_{l}^{BB} \\[1ex]
+              C_{l}^{EB} )
 \end{equation}
-aaa
+となる。
+標準宇宙モデルが正しく、原始密度ゆらぎがパリティ不変だった場合であっても $C_{l}^{TB}=C_{l}^{EB}=0$ であるが、
+偏光角の誤較正は $C_{l}^{EE}$ から $C_{l}^{BB}$ への漏れ込みを引き起こす
+\begin{equation}
+    \label{eq:so-EtoBleakage}
+    C_{\mathrm{obs},\,l}^{BB} = \sin^2\qty(2\delta\theta)C_{l}^{EE} + \cos^2\qty(2\delta\theta)C_{l}^{BB} .
+\end{equation}
+
+式\eqref{eq:so-EtoBleakage}に基づき、偏光角の誤較正が $C_{l}^{EE}$ から $C_{\mathrm{obs}, l}^{BB}$ への漏れ込みとして及ぼす影響を図\ref{}に示す。
+誤較正の目安として、 $\delta\theta = 10, 1, 0.1\ \mathrm{deg}$ の場合をプロットした。
+
+偏光角較正の要求精度は望遠鏡の感度やdelensingの能率、ノイズなどによって変化する。
+SOにおいては、delensingの能率を 50\% とし、ノイズとして最も悲観的な場合を考えた場合においても、
+$\delta\theta \leq 0.1\ \mathrm{deg}$ であればこの漏れ込みが生む $r$ への系統誤差は無視できるほどに小さくなる。\cite{so:Bryan_2018}
+以上の理由から、SOでの偏光角較正の要求精度を $\delta\theta \leq 0.1\ \mathrm{deg}$ と定める。
+
+\begin{figure}[H]
+    \centering
+    \caption{LAMBDA}を使って作成したEtoB leakageの図と、Lyth boundを示す図を載せる予定。
+\end{figure}
+
 \subsection{偏光角較正手法}
-\subsubsection{Tauras A (Tau A)}
+\subsubsection{牡牛座かに星雲 (Tau A)}
+Tau Aは強い直線偏光を持つ天体である。
 \subsubsection{月}
 \subsubsection{誘電体シート}
 \subsubsection{デンスワイヤーグリッド}
