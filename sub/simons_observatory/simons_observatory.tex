@@ -193,14 +193,19 @@ $\delta\theta$ を求め、絶対角度較正を行う手法を自己較正と�
 しかし、$C_{l}^{EB}=0$ を仮定してしまうため、宇宙がパリティを破るような物理に対する感度を捨てることとなる。
 そのため、これらの物理を探る上では自己較正以外の手法を用いて絶対角度較正を行うことが重要である。
 
-\begin{table}
+\begin{table}[H]
     \centering
-    \caption{先行研究における偏光角較正手法とその精度の比較}
+    \caption{先行研究における偏光角較正手法とその精度の比較。絶対角度較正の場合には $\delta\theta$ にと記載している。}
     \begin{tabular}{cccc}
-        $\delta\theta$ & 観測周波数帯 [GHz] & 実験 & 較正手法 \\
+        実験 & 観測周波数帯 [GHz] & 較正手法 & $\delta\theta$ \\
         \hline
         \hline
-        0.2 & 150 & POLARBEAR & 自己較正 \\
+        \multirow{2}{*}{POLARBEAR\cite{so:polarbear_cal}} & \multirow{2}{*}{$150$} & Tau A & $0.43\tcdegree$ \\
+                                                          &                        & 自己較正 & $0.2\tcdegree$ \\
+        DASI\cite{so:Leitch_2002} & $26\sim36$ & 月, デンスワイヤーグリッド & $0.4\tcdegree$ \\
+        BICEP\cite{so:Takahashi_2008} & $100,\,150,\,220$ & 誘電体シート & $0.7\tcdegree$ \\
+        BICEP2\cite{} \\
+        BICEP3\cite{so:bicep3_cal} & $95$ & デンスワイヤーグリッド & $0.3\tcdegree$ \\
     \end{tabular}
     \label{tab:so-polarization_calibration}
 \end{table}

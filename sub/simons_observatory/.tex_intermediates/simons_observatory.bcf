@@ -2367,6 +2367,10 @@
     <bcf:citekey order="4" intorder="1">so:Keeting_2023</bcf:citekey>
     <bcf:citekey order="5" intorder="1">so:Kaufman_2014</bcf:citekey>
     <bcf:citekey order="6" intorder="1">so:Bryan_2018</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">so:polarbear_cal</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">so:Leitch_2002</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">so:Takahashi_2008</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">so:bicep3_cal</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

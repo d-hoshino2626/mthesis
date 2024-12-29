@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  29 DEC 2024 23:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  30 DEC 2024 02:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -448,73 +448,89 @@ Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 \symboldmincho=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathcomp/mathcomp.sty
+Package: mathcomp 2001/01/07 v0.1f (TBo)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+\symTC=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `TC' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 48.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip70
+\multirow@cntb=\count323
+\multirow@dima=\skip71
+\bigstrutjot=\dimen270
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count323
+\lrq@indent=\count324
  (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count324
-\c@listtotal=\count325
-\c@listcount=\count326
-\c@liststart=\count327
-\c@liststop=\count328
-\c@citecount=\count329
-\c@citetotal=\count330
-\c@multicitecount=\count331
-\c@multicitetotal=\count332
-\c@instcount=\count333
-\c@maxnames=\count334
-\c@minnames=\count335
-\c@maxitems=\count336
-\c@minitems=\count337
-\c@citecounter=\count338
-\c@maxcitecounter=\count339
-\c@savedcitecounter=\count340
-\c@uniquelist=\count341
-\c@uniquename=\count342
-\c@refsection=\count343
-\c@refsegment=\count344
-\c@maxextratitle=\count345
-\c@maxextratitleyear=\count346
-\c@maxextraname=\count347
-\c@maxextradate=\count348
-\c@maxextraalpha=\count349
-\c@abbrvpenalty=\count350
-\c@highnamepenalty=\count351
-\c@lownamepenalty=\count352
-\c@maxparens=\count353
-\c@parenlevel=\count354
-\blx@tempcnta=\count355
-\blx@tempcntb=\count356
-\blx@tempcntc=\count357
-\c@blx@maxsection=\count358
-\blx@maxsegment@0=\count359
-\blx@notetype=\count360
-\blx@parenlevel@text=\count361
-\blx@parenlevel@foot=\count362
-\blx@sectionciteorder@0=\count363
-\blx@sectionciteorderinternal@0=\count364
-\blx@entrysetcounter=\count365
-\blx@biblioinstance=\count366
-\labelnumberwidth=\skip70
-\labelalphawidth=\skip71
-\biblabelsep=\skip72
-\bibitemsep=\skip73
-\bibnamesep=\skip74
-\bibinitsep=\skip75
-\bibparsep=\skip76
-\bibhang=\skip77
+\c@tabx@nest=\count325
+\c@listtotal=\count326
+\c@listcount=\count327
+\c@liststart=\count328
+\c@liststop=\count329
+\c@citecount=\count330
+\c@citetotal=\count331
+\c@multicitecount=\count332
+\c@multicitetotal=\count333
+\c@instcount=\count334
+\c@maxnames=\count335
+\c@minnames=\count336
+\c@maxitems=\count337
+\c@minitems=\count338
+\c@citecounter=\count339
+\c@maxcitecounter=\count340
+\c@savedcitecounter=\count341
+\c@uniquelist=\count342
+\c@uniquename=\count343
+\c@refsection=\count344
+\c@refsegment=\count345
+\c@maxextratitle=\count346
+\c@maxextratitleyear=\count347
+\c@maxextraname=\count348
+\c@maxextradate=\count349
+\c@maxextraalpha=\count350
+\c@abbrvpenalty=\count351
+\c@highnamepenalty=\count352
+\c@lownamepenalty=\count353
+\c@maxparens=\count354
+\c@parenlevel=\count355
+\blx@tempcnta=\count356
+\blx@tempcntb=\count357
+\blx@tempcntc=\count358
+\c@blx@maxsection=\count359
+\blx@maxsegment@0=\count360
+\blx@notetype=\count361
+\blx@parenlevel@text=\count362
+\blx@parenlevel@foot=\count363
+\blx@sectionciteorder@0=\count364
+\blx@sectionciteorderinternal@0=\count365
+\blx@entrysetcounter=\count366
+\blx@biblioinstance=\count367
+\labelnumberwidth=\skip72
+\labelalphawidth=\skip73
+\biblabelsep=\skip74
+\bibitemsep=\skip75
+\bibnamesep=\skip76
+\bibinitsep=\skip77
+\bibparsep=\skip78
+\bibhang=\skip79
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language87
-\c@mincomprange=\count367
-\c@maxcomprange=\count368
-\c@mincompwidth=\count369
+\c@mincomprange=\count368
+\c@maxcomprange=\count369
+\c@mincompwidth=\count370
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -522,88 +538,88 @@ File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count370
-\c@savedafterword=\count371
-\c@annotator=\count372
-\c@savedannotator=\count373
-\c@author=\count374
-\c@savedauthor=\count375
-\c@bookauthor=\count376
-\c@savedbookauthor=\count377
-\c@commentator=\count378
-\c@savedcommentator=\count379
-\c@editor=\count380
-\c@savededitor=\count381
-\c@editora=\count382
-\c@savededitora=\count383
-\c@editorb=\count384
-\c@savededitorb=\count385
-\c@editorc=\count386
-\c@savededitorc=\count387
-\c@foreword=\count388
-\c@savedforeword=\count389
-\c@holder=\count390
-\c@savedholder=\count391
-\c@introduction=\count392
-\c@savedintroduction=\count393
-\c@namea=\count394
-\c@savednamea=\count395
-\c@nameb=\count396
-\c@savednameb=\count397
-\c@namec=\count398
-\c@savednamec=\count399
-\c@translator=\count400
-\c@savedtranslator=\count401
-\c@shortauthor=\count402
-\c@savedshortauthor=\count403
-\c@shorteditor=\count404
-\c@savedshorteditor=\count405
-\c@labelname=\count406
-\c@savedlabelname=\count407
-\c@institution=\count408
-\c@savedinstitution=\count409
-\c@lista=\count410
-\c@savedlista=\count411
-\c@listb=\count412
-\c@savedlistb=\count413
-\c@listc=\count414
-\c@savedlistc=\count415
-\c@listd=\count416
-\c@savedlistd=\count417
-\c@liste=\count418
-\c@savedliste=\count419
-\c@listf=\count420
-\c@savedlistf=\count421
-\c@location=\count422
-\c@savedlocation=\count423
-\c@organization=\count424
-\c@savedorganization=\count425
-\c@origlocation=\count426
-\c@savedoriglocation=\count427
-\c@origpublisher=\count428
-\c@savedorigpublisher=\count429
-\c@publisher=\count430
-\c@savedpublisher=\count431
-\c@language=\count432
-\c@savedlanguage=\count433
-\c@origlanguage=\count434
-\c@savedoriglanguage=\count435
-\c@pageref=\count436
-\c@savedpageref=\count437
-\shorthandwidth=\skip78
-\shortjournalwidth=\skip79
-\shortserieswidth=\skip80
-\shorttitlewidth=\skip81
-\shortauthorwidth=\skip82
-\shorteditorwidth=\skip83
-\locallabelnumberwidth=\skip84
-\locallabelalphawidth=\skip85
-\localshorthandwidth=\skip86
-\localshortjournalwidth=\skip87
-\localshortserieswidth=\skip88
-\localshorttitlewidth=\skip89
-\localshortauthorwidth=\skip90
-\localshorteditorwidth=\skip91
+\c@afterword=\count371
+\c@savedafterword=\count372
+\c@annotator=\count373
+\c@savedannotator=\count374
+\c@author=\count375
+\c@savedauthor=\count376
+\c@bookauthor=\count377
+\c@savedbookauthor=\count378
+\c@commentator=\count379
+\c@savedcommentator=\count380
+\c@editor=\count381
+\c@savededitor=\count382
+\c@editora=\count383
+\c@savededitora=\count384
+\c@editorb=\count385
+\c@savededitorb=\count386
+\c@editorc=\count387
+\c@savededitorc=\count388
+\c@foreword=\count389
+\c@savedforeword=\count390
+\c@holder=\count391
+\c@savedholder=\count392
+\c@introduction=\count393
+\c@savedintroduction=\count394
+\c@namea=\count395
+\c@savednamea=\count396
+\c@nameb=\count397
+\c@savednameb=\count398
+\c@namec=\count399
+\c@savednamec=\count400
+\c@translator=\count401
+\c@savedtranslator=\count402
+\c@shortauthor=\count403
+\c@savedshortauthor=\count404
+\c@shorteditor=\count405
+\c@savedshorteditor=\count406
+\c@labelname=\count407
+\c@savedlabelname=\count408
+\c@institution=\count409
+\c@savedinstitution=\count410
+\c@lista=\count411
+\c@savedlista=\count412
+\c@listb=\count413
+\c@savedlistb=\count414
+\c@listc=\count415
+\c@savedlistc=\count416
+\c@listd=\count417
+\c@savedlistd=\count418
+\c@liste=\count419
+\c@savedliste=\count420
+\c@listf=\count421
+\c@savedlistf=\count422
+\c@location=\count423
+\c@savedlocation=\count424
+\c@organization=\count425
+\c@savedorganization=\count426
+\c@origlocation=\count427
+\c@savedoriglocation=\count428
+\c@origpublisher=\count429
+\c@savedorigpublisher=\count430
+\c@publisher=\count431
+\c@savedpublisher=\count432
+\c@language=\count433
+\c@savedlanguage=\count434
+\c@origlanguage=\count435
+\c@savedoriglanguage=\count436
+\c@pageref=\count437
+\c@savedpageref=\count438
+\shorthandwidth=\skip80
+\shortjournalwidth=\skip81
+\shortserieswidth=\skip82
+\shorttitlewidth=\skip83
+\shortauthorwidth=\skip84
+\shorteditorwidth=\skip85
+\locallabelnumberwidth=\skip86
+\locallabelalphawidth=\skip87
+\localshorthandwidth=\skip88
+\localshortjournalwidth=\skip89
+\localshortserieswidth=\skip90
+\localshorttitlewidth=\skip91
+\localshortauthorwidth=\skip92
+\localshorteditorwidth=\skip93
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -613,19 +629,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count438
-\c@textcitetotal=\count439
-\c@textcitemaxnames=\count440
-\c@biburlbigbreakpenalty=\count441
-\c@biburlbreakpenalty=\count442
-\c@biburlnumpenalty=\count443
-\c@biburlucpenalty=\count444
-\c@biburllcpenalty=\count445
+\c@textcitecount=\count439
+\c@textcitetotal=\count440
+\c@textcitemaxnames=\count441
+\c@biburlbigbreakpenalty=\count442
+\c@biburlbreakpenalty=\count443
+\c@biburlnumpenalty=\count444
+\c@biburlucpenalty=\count445
+\c@biburllcpenalty=\count446
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count446
+\c@smartand=\count447
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -635,8 +651,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count447
-\c@bbx:relatedtotal=\count448
+\c@bbx:relatedcount=\count448
+\c@bbx:relatedtotal=\count449
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -669,8 +685,8 @@ Package biblatex Info: ... and expl3
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
-\@quotelevel=\count449
-\@quotereset=\count450
+\@quotelevel=\count450
+\@quotereset=\count451
  (.tex_intermediates/simons_observatory.aux)
 \openout1 = `simons_observatory.aux'.
 
@@ -845,6 +861,33 @@ LaTeX Warning: Citation 'so:Bryan_2018' on page 3 undefined on input line 143.
 
 LaTeX Warning: Reference `' on page 5 undefined on input line 181.
 
+
+LaTeX Warning: Citation 'so:polarbear_cal' on page 5 undefined on input line 203.
+
+
+LaTeX Warning: Citation 'so:Leitch_2002' on page 5 undefined on input line 205.
+
+
+LaTeX Warning: Citation 'so:Takahashi_2008' on page 5 undefined on input line 206.
+
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 207.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 207.
+
+
+LaTeX Warning: Citation '' on page 5 undefined on input line 207.
+
+
+LaTeX Warning: Citation 'so:bicep3_cal' on page 5 undefined on input line 208.
+
+
+Overfull \hbox (6.59962pt too wide) in paragraph at lines 199--211
+ [][] 
+ []
+
 [5] (.tex_intermediates/simons_observatory.aux)
 
 LaTeX Warning: There were undefined references.
@@ -861,12 +904,12 @@ Package logreq Info: Writing requests to 'simons_observatory.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24131 strings out of 476677
- 473232 string characters out of 5804957
+ 24301 strings out of 476677
+ 476671 string characters out of 5804957
  1868490 words of memory out of 5000000
- 44322 multiletter control sequences out of 15000+600000
- 559572 words of font info for 107 fonts, out of 8000000 for 9000
+ 44472 multiletter control sequences out of 15000+600000
+ 561603 words of font info for 113 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,20n,94p,1143b,1191s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,20n,94p,1143b,1487s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/simons_observatory.dvi (5 pages, 31164 bytes).
+Output written on .tex_intermediates/simons_observatory.dvi (5 pages, 31876 bytes).
