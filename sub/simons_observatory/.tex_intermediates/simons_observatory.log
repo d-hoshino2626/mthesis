@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  28 DEC 2024 00:42
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  29 DEC 2024 03:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -828,12 +828,19 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 6.73553pt on input line 78.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 4.8111pt on input line 78.
- [2] (.tex_intermediates/simons_observatory.aux)
+ [2]
+
+LaTeX Warning: Citation 'so:Keeting_2023' on page 3 undefined on input line 93.
+
+
+LaTeX Warning: Citation 'so:Kaufman_2014' on page 3 undefined on input line 93.
+
+[3] [4] (.tex_intermediates/simons_observatory.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `simons_observatory.out' has not changed.
-(rerunfilecheck)             Checksum: FF2CB18024AA4119FD4847C92FCC5942;1267.
+(rerunfilecheck)             Checksum: 37FE982C9622102DEECD6CFE5A5E0DB1;1836.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                simons_observatory
@@ -844,12 +851,12 @@ Package logreq Info: Writing requests to 'simons_observatory.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24125 strings out of 476677
- 473130 string characters out of 5804957
- 1856490 words of memory out of 5000000
- 44316 multiletter control sequences out of 15000+600000
+ 24126 strings out of 476677
+ 473143 string characters out of 5804957
+ 1867490 words of memory out of 5000000
+ 44317 multiletter control sequences out of 15000+600000
  559572 words of font info for 107 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,20n,94p,1143b,1191s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/simons_observatory.dvi (2 pages, 13332 bytes).
+Output written on .tex_intermediates/simons_observatory.dvi (4 pages, 21872 bytes).

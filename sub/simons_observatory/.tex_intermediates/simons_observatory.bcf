@@ -2364,6 +2364,8 @@
     <bcf:citekey order="1" intorder="1">so:current_status</bcf:citekey>
     <bcf:citekey order="2" intorder="1">so:science_forecast</bcf:citekey>
     <bcf:citekey order="3" intorder="1">so:hwp_yamada</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">so:Keeting_2023</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">so:Kaufman_2014</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

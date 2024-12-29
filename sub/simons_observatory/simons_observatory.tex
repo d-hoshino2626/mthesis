@@ -79,5 +79,61 @@ $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HW
     \label{fig:so-hwp_satoru}
 \end{figure}
 
+\section{偏光角較正の重要性とその手法}
+CMB偏光観測実験でのB-mode観測において、検出器の偏光角を精度よく知ることは極めて重要である。
+本節では、偏光角の誤較正が観測されたB-mode偏光にどのような影響を及ぼすかを説明し、
+CMB偏光観測実験においてどのような偏光角較正手法が歴史的に取られてきたかについて述べる。
+\subsection{偏光角の誤較正に伴う偏光の漏れ込み}
+今、すべての検出器における偏光角を $\delta \theta$ だけ誤って較正してしまったとすると、
+観測されるストークスパラメータ $Q_{\mathrm{obs}},\ U_{\mathrm{obs}}$ は真のストークスパラメータ $Q,\ U$ に対して
+\begin{align}
+    Q_{\mathrm{obs}} \pm iU_{\mathrm{obs}} &= e^{\pm i2\delta\theta}\qty(Q \pm iU) \\
+    &= e^{\pm i2\delta\theta}\sum_{l=2}\sum_{m=-l}^{l} {}_{\pm 2}a_{lm}\ {}_{\pm 2}Y_{lm}(\theta, \phi)
+\end{align}
+と表される。\cite{so:Keeting_2023}\cite{so:Kaufman_2014}
+Eモード、Bモード偏光を表現する係数 $a_{lm}^{E}, a_{lm}^{B}$ を用いると、
+スピン2の球面調和関数で展開する際の係数 ${}_{\pm 2}a_{lm}$ は
+\begin{equation}
+    {}_{\pm 2}a_{lm} = -\qty(a_{lm}^{E} \pm i a_{lm}^{B})
+\end{equation}
+であるから
+\begin{align}
+    Q_{\mathrm{obs}} \pm iU_{\mathrm{obs}} &= \sum_{l=2}\sum_{m=-l}^{l} \qty[-\qty(a_{lm}^{E} \pm i a_{lm}^{B})]e^{\pm i2\delta\theta}\ {}_{\pm 2}Y_{lm}(\theta, \phi) \\
+    &= \sum_{l=2}\sum_{m=-l}^{l} \qty[-\qty(a_{lm,\,\mathrm{obs}}^{E} \pm i a_{lm,\,\mathrm{obs}}^{B})] {}_{\pm2}Y_{lm}(\theta, \phi)
+\end{align}
+が観測されることとなる。したがって、パワースペクトル
+\begin{equation}
+    C_{l}^{XX'} = \dfrac{1}{2l+1}\sum_{m=-l}^{l}\left\langle \qty(a_{lm}^{X})^{*} a_{lm}^{X'} \right\rangle
+\end{equation}
+\begin{equation}
+    C_{l}^{XX'} = \dfrac{1}{2l+1}\sum_{m=-l}^{l}\left\langle a_{lm}^{*\,X} a_{lm}^{X'} \right\rangle
+\end{equation}
+は、偏光角の誤較正によって
+\begin{equation}
+    \mqty( C_{\mathrm{obs},\,l}^{TT} \\[1ex]
+           C_{\mathrm{obs},\,l}^{TE} \\[1ex]
+           C_{\mathrm{obs},\,l}^{TB} \\[1ex]
+           C_{\mathrm{obs},\,l}^{EE} \\[1ex]
+           C_{\mathrm{obs},\,l}^{EB} \\[1ex]
+           C_{\mathrm{obs},\,l}^{BB} )
+    = \mqty( 1 & 0 & 0 & 0 & 0 & 0 \\[1ex]
+             0 & \cos\qty(2\delta\theta) & 0 & -\sin\qty(2\delta\theta) & 0 & 0 \\[1ex]
+             0 & 0 & \cos^2\qty(2\delta\theta) & 0 & -\sin\qty(4\delta\theta) & \sin^2\qty(2\delta\theta) \\[1ex]
+             0 & \sin\qty(2\delta\theta) & 0 & \cos\qty(2\delta\theta) & 0 & 0 \\[1ex]
+             0 & 0 & \sin\qty(4\delta\theta)/2 & 0 & \cos\qty(4\delta\theta)/2 & -\sin\qty(4\delta\theta)/2 \\[1ex]
+             0 & 0 & 0 & \sin^2\qty(2\delta\theta) & \sin(4\delta\theta) & \cos^2\qty(2\delta\theta) \\[1ex] )
+    \mqty( C_{l}^{TT} \\[1ex]
+              C_{l}^{TE} \\[1ex]
+              C_{l}^{TB} \\[1ex]
+              C_{l}^{EE} \\[1ex]
+              C_{l}^{EB} \\[1ex]
+              C_{l}^{BB} ) 
+\end{equation}
 
+\subsection{偏光角較正手法}
+\subsubsection{Tauras A (Tau A)}
+\subsubsection{月}
+\subsubsection{誘電体シート}
+\subsubsection{デンスワイヤーグリッド}
+\subsubsection{スパースワイヤーグリッド}
 \end{document}
