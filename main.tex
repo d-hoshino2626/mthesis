@@ -30,7 +30,12 @@ bookmarkstype=toc
 \usepackage{bm}
 \usepackage{mathcomp}
 \usepackage{multirow}
-\usepackage[backend=biber]{biblatex}
+%\usepackage[style=phys]{biblatex}
+\usepackage[%
+style=phys,%
+articletitle=false,biblabel=brackets,%
+chaptertitle=false,pageranges=false%
+]{biblatex}
 \addbibresource{refs.bib}
 
 \counterwithout{footnote}{chapter}
@@ -47,9 +52,6 @@ bookmarkstype=toc
 \setlength{\footskip}{18mm}
 
 % \setstretch{1.1}
-
-%bib setting
-\renewcommand{\bibname}{参考文献}
 
 % \makeatletter
 %  \DeclareRobustCommand\cite{\unskip

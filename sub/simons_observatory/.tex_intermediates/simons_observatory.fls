@@ -1050,10 +1050,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
 INPUT .tex_intermediates/simons_observatory.aux
 INPUT .tex_intermediates/simons_observatory.out
 INPUT .tex_intermediates/simons_observatory.out

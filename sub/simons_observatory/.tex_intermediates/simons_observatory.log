@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  30 DEC 2024 02:58
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  30 DEC 2024 04:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -846,7 +846,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 4.8111pt on input line 78.
  [2]
 
-LaTeX Warning: Citation 'so:Keeting_2023' on page 3 undefined on input line 94.
+LaTeX Warning: Citation 'so:Keating_2013' on page 3 undefined on input line 94.
 
 
 LaTeX Warning: Citation 'so:Kaufman_2014' on page 3 undefined on input line 94.
@@ -870,18 +870,11 @@ LaTeX Warning: Citation 'so:Leitch_2002' on page 5 undefined on input line 205.
 
 LaTeX Warning: Citation 'so:Takahashi_2008' on page 5 undefined on input line 206.
 
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 207.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 207.
+
+LaTeX Warning: Citation 'so:bicep2_syserr' on page 5 undefined on input line 207.
 
 
-LaTeX Warning: Citation '' on page 5 undefined on input line 207.
-
-
-LaTeX Warning: Citation 'so:bicep3_cal' on page 5 undefined on input line 208.
+LaTeX Warning: Citation 'so:bicep3' on page 5 undefined on input line 208.
 
 
 Overfull \hbox (6.59962pt too wide) in paragraph at lines 199--211
@@ -904,12 +897,12 @@ Package logreq Info: Writing requests to 'simons_observatory.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24301 strings out of 476677
- 476671 string characters out of 5804957
+ 24282 strings out of 476677
+ 476338 string characters out of 5804957
  1868490 words of memory out of 5000000
- 44472 multiletter control sequences out of 15000+600000
+ 44456 multiletter control sequences out of 15000+600000
  561603 words of font info for 113 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,20n,94p,1143b,1487s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,20n,94p,1143b,1441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/simons_observatory.dvi (5 pages, 31876 bytes).
+Output written on .tex_intermediates/simons_observatory.dvi (5 pages, 31900 bytes).

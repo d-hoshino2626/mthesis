@@ -1,5 +1,20 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '.tex_intermediates/main.blg'
-[38] biber-darwin:340> INFO - === 月 12 30, 2024, 02:59:58
-[48] Utils.pm:410> ERROR - .tex_intermediates/main.bcf is malformed, last biblatex run probably failed. Deleted .tex_intermediates/main.bbl
-[48] Biber.pm:136> INFO - ERRORS: 1
+[35] biber-darwin:340> INFO - === 月 12 30, 2024, 04:22:13
+[46] Biber.pm:419> INFO - Reading '.tex_intermediates/main.bcf'
+[94] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
+[108] Biber.pm:4419> INFO - Processing section 0
+[121] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[130] bibtex.pm:1713> INFO - LaTeX decoding ...
+[147] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[491] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[491] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[491] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[491] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[507] bbl.pm:660> INFO - Writing '.tex_intermediates/main.bbl' with encoding 'UTF-8'
+[507] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[820] bbl.pm:763> INFO - Output to .tex_intermediates/main.bbl
+[820] Biber.pm:131> WARN - legacy month field 'dec' in entry 'so:Keating_2013' is not an integer - this will probably not sort properly.
+[820] Biber.pm:131> WARN - legacy month field 'oct' in entry 'so:polarbear_cal' is not an integer - this will probably not sort properly.
+[820] Biber.pm:131> WARN - I didn't find a database entry for 'so:bicep3' (section 0)
+[820] Biber.pm:133> INFO - WARNINGS: 3
