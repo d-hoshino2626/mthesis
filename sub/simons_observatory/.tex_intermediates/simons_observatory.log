@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  30 DEC 2024 04:02
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  30 DEC 2024 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -536,6 +536,11 @@ Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'phys.dbx' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-phys/phys.dbx
+File: phys.dbx 2019/12/03 v1.1b biblatex database model extension
+)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count371
@@ -643,6 +648,14 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count447
 )
+Package biblatex Info: Trying to load bibliography style 'phys'...
+Package biblatex Info: ... file 'phys.bbx' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+File: phys.bbx 2019/12/03 v1.1b biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
@@ -653,11 +666,19 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count448
 \c@bbx:relatedtotal=\count449
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+))))
+Package biblatex Info: Trying to load citation style 'phys'...
+Package biblatex Info: ... file 'phys.cbx' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+File: phys.cbx 2019/12/03 v1.1b biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count450
+\c@cbx@tempcntb=\count451
+\c@cbx@tempcntc=\count452
+\c@cbx@tempcntd=\count453
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -669,7 +690,7 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
-)
+))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
@@ -685,8 +706,8 @@ Package biblatex Info: ... and expl3
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
-\@quotelevel=\count450
-\@quotereset=\count451
+\@quotelevel=\count454
+\@quotereset=\count455
  (.tex_intermediates/simons_observatory.aux)
 \openout1 = `simons_observatory.aux'.
 
@@ -874,9 +895,6 @@ LaTeX Warning: Citation 'so:Takahashi_2008' on page 5 undefined on input line 20
 LaTeX Warning: Citation 'so:bicep2_syserr' on page 5 undefined on input line 207.
 
 
-LaTeX Warning: Citation 'so:bicep3' on page 5 undefined on input line 208.
-
-
 Overfull \hbox (6.59962pt too wide) in paragraph at lines 199--211
  [][] 
  []
@@ -897,12 +915,12 @@ Package logreq Info: Writing requests to 'simons_observatory.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24282 strings out of 476677
- 476338 string characters out of 5804957
+ 24384 strings out of 476677
+ 478930 string characters out of 5804957
  1868490 words of memory out of 5000000
- 44456 multiletter control sequences out of 15000+600000
+ 44546 multiletter control sequences out of 15000+600000
  561603 words of font info for 113 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,20n,94p,1143b,1441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,20n,94p,1143b,1446s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/simons_observatory.dvi (5 pages, 31900 bytes).
+Output written on .tex_intermediates/simons_observatory.dvi (5 pages, 31796 bytes).

@@ -11,8 +11,8 @@ $max_repeat = 5;
 
 # bibtex系
 $bibtex_use=2;
+$biber = 'biber';
 $bibtex = 'upbibtex %O %S';
-$biber = 'biber --bblencoding=utf8 -u -U --output_safechars %O %S';
 
 # index
 $makeindex = 'upmendex %O -o %D %S -s jpbase';

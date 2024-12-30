@@ -1,4 +1,4 @@
-\documentclass[a4j,11pt, oneside, openany]{ujbook}
+\documentclass[a4j,11pt,oneside,openany]{ujbook}
 
 %package
 \usepackage{subfiles}
@@ -30,13 +30,6 @@ bookmarkstype=toc
 \usepackage{bm}
 \usepackage{mathcomp}
 \usepackage{multirow}
-%\usepackage[style=phys]{biblatex}
-\usepackage[%
-style=phys,%
-articletitle=false,biblabel=brackets,%
-chaptertitle=false,pageranges=false%
-]{biblatex}
-\addbibresource{refs.bib}
 
 \counterwithout{footnote}{chapter}
 \renewcommand{\thefootnote}{*\arabic{footnote}}
@@ -53,12 +46,14 @@ chaptertitle=false,pageranges=false%
 
 % \setstretch{1.1}
 
-% \makeatletter
-%  \DeclareRobustCommand\cite{\unskip
-% \@ifnextchar[{\@tempswatrue\@citex}{\@tempswafalse\@citex[]}}
-%  \def\@cite#1#2{$^{\hbox{\scriptsize[{#1\if@tempswa , #2\fi}]}}$}
-%  \def\@biblabel#1{[#1]}
-%  \makeatother
+\renewcommand{\bibname}{参考文献}
+
+\makeatletter
+ \DeclareRobustCommand\cite{\unskip
+\@ifnextchar[{\@tempswatrue\@citex}{\@tempswafalse\@citex[]}}
+ \def\@cite#1#2{$^{\hbox{\scriptsize[{#1\if@tempswa , #2\fi}]}}$}
+ \def\@biblabel#1{[#1]}
+ \makeatother
 
  \makeatletter
 \renewcommand{\chapter}{%
@@ -126,7 +121,7 @@ chaptertitle=false,pageranges=false%
 \addcontentsline{toc}{chapter}{図目次}
 \listoffigures
 
-% \nocite{*}
-\printbibliography[title=参考文献]
+\bibliography{refs} %hoge.bibから拡張子を外した名前
+\bibliographystyle{unsrt} %参考文献出力スタイル
 
 \end{document}
