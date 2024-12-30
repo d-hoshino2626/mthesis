@@ -1,9 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is '.tex_intermediates/simons_observatory.blg'
-[37] biber-darwin:340> INFO - === 月 12 30, 2024, 22:29:06
-[46] Biber.pm:419> INFO - Reading '.tex_intermediates/simons_observatory.bcf'
-[91] Biber.pm:979> INFO - Found 10 citekeys in bib section 0
-[100] Biber.pm:4419> INFO - Processing section 0
-[105] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
-[261] Utils.pm:410> ERROR - Cannot find 'refs.bib'!
-[261] Biber.pm:136> INFO - ERRORS: 1

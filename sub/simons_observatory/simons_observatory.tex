@@ -195,17 +195,33 @@ $\delta\theta$ を求め、絶対角度較正を行う手法を自己較正と�
 
 \begin{table}[H]
     \centering
-    \caption{先行研究における偏光角較正手法とその精度の比較。絶対角度較正の場合には $\delta\theta$ にと記載している。}
+    \caption[先行研究における偏光角較正手法とその精度の比較]{先行研究における偏光角較正手法とその精度の比較}
     \begin{tabular}{cccc}
         実験 & 観測周波数帯 [GHz] & 較正手法 & $\delta\theta$ \\
         \hline
         \hline
         \multirow{2}{*}{POLARBEAR\cite{so:polarbear_cal}} & \multirow{2}{*}{$150$} & Tau A & $0.43\tcdegree$ \\
                                                           &                        & 自己較正 & $0.2\tcdegree$ \\
+        \hline
         DASI\cite{so:Leitch_2002} & $26\sim36$ & 月, デンスワイヤーグリッド & $0.4\tcdegree$ \\
+        \hline
         BICEP\cite{so:Takahashi_2008} & $100,\,150,\,220$ & 誘電体シート & $0.7\tcdegree$ \\
-        BICEP2\cite{so:bicep2_syserr} & $150$ & 自己較正 & $1\tcdegree$ \\
-        % BICEP3\cite{so:bicep3} & $95$ & デンスワイヤーグリッド & $0.3\tcdegree$ 
+        \hline
+        \multirow{2}{*}{BICEP2\cite{so:bicep2_syserr}} & \multirow{2}{*}{$150$} & 誘電体シート & $0.2\tcdegree$ (rel) \\
+                                                       & & 自己較正 & $1\tcdegree$\\
+        \hline
+        % BICEP3\cite{so:bicep3} & $95$ & デンスワイヤーグリッド & $0.3\tcdegree$ \\
+        \multirow{2}{*}{SPTpol\cite{so:Hanson_2013}} & $150$ & \multirow{2}{*}{デンスワイヤーグリッド} & $1\tcdegree$ \\
+                                                     & $95$  & & $1.5\tcdegree$ \\
+        \hline
+        \multirow{3}{*}{ABS\cite{}} & \multirow{3}{*}{$145$} & スパースワイヤーグリッド & $1.1\tcdegree$ \\
+                                    &                        & Tau A & $1.9\tcdegree$ \\
+                                    &                        & 自己較正 & $1.6\tcdegree$ \\
+        \hline
+        \multirow{2}{*}{QUIET\cite{so:Bischoff_2011}} & \multirow{2}{*}{$43,\,94$} & 月 & $1\tcdegree$ \\
+                                                      &                            & Tau A, スパースワイヤーグリッド & $3\tcdegree$ \\
+        \hline
+
     \end{tabular}
     \label{tab:so-polarization_calibration}
 \end{table}
