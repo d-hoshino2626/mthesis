@@ -9,11 +9,12 @@
 \contentsline {subsection}{\numberline {2.4.1}偏光角の誤較正に伴う偏光の漏れ込み}{4}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}偏光角較正手法}{5}{subsection.2.4.2}%
 \contentsline {subsubsection}{\numberline {2.4.2.1}牡牛座かに星雲 (Tau A)}{5}{subsubsection.2.4.2.1}%
-\contentsline {subsubsection}{\numberline {2.4.2.2}月}{5}{subsubsection.2.4.2.2}%
-\contentsline {subsubsection}{\numberline {2.4.2.3}誘電体シート}{6}{subsubsection.2.4.2.3}%
-\contentsline {subsubsection}{\numberline {2.4.2.4}デンスワイヤーグリッド}{6}{subsubsection.2.4.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.2.5}スパースワイヤーグリッド}{6}{subsubsection.2.4.2.5}%
-\contentsline {subsubsection}{\numberline {2.4.2.6}自己較正}{6}{subsubsection.2.4.2.6}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}\textcolor {blue}{ケンタウルス座A (Cen A)}}{5}{subsubsection.2.4.2.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.3}月}{6}{subsubsection.2.4.2.3}%
+\contentsline {subsubsection}{\numberline {2.4.2.4}誘電体シート}{6}{subsubsection.2.4.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.2.5}デンスワイヤーグリッド}{6}{subsubsection.2.4.2.5}%
+\contentsline {subsubsection}{\numberline {2.4.2.6}スパースワイヤーグリッド}{6}{subsubsection.2.4.2.6}%
+\contentsline {subsubsection}{\numberline {2.4.2.7}自己較正}{7}{subsubsection.2.4.2.7}%
 \contentsline {chapter}{\numberline {第3章}スパースワイヤーグリッドを用いた偏光角較正装置}{8}{chapter.3}%
 \contentsline {section}{\numberline {3.1}概要}{8}{section.3.1}%
 \contentsline {section}{\numberline {3.2}スパースワイヤーグリッド}{8}{section.3.2}%

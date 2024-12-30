@@ -1,14 +1,14 @@
 # Fdb version 4
-["dvipdf"] 1735581403 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1735581403 0
-  "simons_observatory.dvi" 1735581403 32340 bd1802a5dbf18da2043b16d1e59de3cc "latex"
+["dvipdf"] 1735591432 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1735591433 0
+  "simons_observatory.dvi" 1735591432 33768 196be60de26aa78271fbbc77ddccf23c "latex"
   (generated)
   "simons_observatory.pdf"
   (rewritten before read)
-["latex"] 1735581401 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1735581403 0
+["latex"] 1735591431 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1735591433 0
   "../../fig//simons_observatory/hwp_satoru.pdf" 1735004181 806394 963a34679832e498b41dc5260657a8f8 ""
-  "../../main.tex" 1735571912 2989 808365326832a74bd146f5c7687b789d ""
-  ".tex_intermediates/simons_observatory.aux" 1735581403 4482 bd37cb7f34307da540431d4b128a0c28 "latex"
-  ".tex_intermediates/simons_observatory.out" 1735581403 1836 37fe982c9622102deecd6cfe5a5e0db1 "latex"
+  "../../main.tex" 1735590077 3079 4767f414ae418e53a8df8a71e140d79b ""
+  ".tex_intermediates/simons_observatory.aux" 1735591432 4815 6fe3c622b2b2edbb769fc370be3bab14 "latex"
+  ".tex_intermediates/simons_observatory.out" 1735591432 1836 37fe982c9622102deecd6cfe5a5e0db1 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -90,8 +90,8 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/dvipdfmx.def" 1663965824 12296 04d6453afafd99986deba3629756d9ec ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/dvips.def" 1663965824 6282 3d1fff8973f8803fd81ea577dda4f3ef ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty" 1654720880 7233 e46ce9241d2b2ca2a78155475fdd557a ""
-  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def" 1654720880 5009 d242512eef244b70f2fc3fde14419206 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty" 1654720880 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty" 1654720880 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
@@ -130,6 +130,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl" 1644096163 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations.sty" 1644096163 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty" 1655066402 56148 51a9a8571c07b9921892ae11063ae853 ""
   "/usr/local/texlive/2023/texmf-dist/tex/platex/pxjahyper/pxjahyper-enc.sty" 1677704611 3306 d83802fcf53efd41181daaeea54c0111 ""
   "/usr/local/texlive/2023/texmf-dist/tex/platex/pxjahyper/pxjahyper-uni.def" 1677704611 2847 e2db6afefc89086cc759491532d66ab4 ""
   "/usr/local/texlive/2023/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty" 1677704611 56813 c694c4db885bdd5f3076d42fc6e6b573 ""
@@ -138,7 +139,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "simons_observatory.tex" 1735581401 17822 02b94f44d9a2c450edcb49137ae72499 ""
+  "simons_observatory.tex" 1735591430 18747 3de4d77debca394f6b32ce64e34486c0 ""
   (generated)
   ".tex_intermediates/simons_observatory.aux"
   ".tex_intermediates/simons_observatory.log"

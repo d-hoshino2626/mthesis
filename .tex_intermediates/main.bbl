@@ -30,6 +30,11 @@ Sean~A. Bryan, Grant~P. Teply, Sara~M. Simon, Martina Gerbino, Amir Ali, Yuji Ch
 \newblock {Development of calibration strategies for the Simons Observatory}.
 \newblock In Jonas Zmuidzinas and Jian-Rong Gao, editors, {\em Millimeter, Submillimeter, and Far-Infrared Detectors and Instrumentation for Astronomy IX}, page 135. SPIE, 7 2018.
 
+\bibitem{so:Zemcov_2010}
+M.~Zemcov, P.~Ade, J.~Bock, M.~Bowden, M.~L. Brown, G.~Cahill, P.~G. Castro, S.~Church, T.~Culverhouse, R.~B. Friedman, K.~Ganga, W.~K. Gear, S.~Gupta, J.~Hinderks, J.~Kovac, A.~E. Lange, E.~Leitch, S.~J. Melhuish, Y.~Memari, J.~A. Murphy, A.~Orlando, C.~O’ Sullivan, L.~Piccirillo, C.~Pryke, N.~Rajguru, B.~Rusholme, R.~Schwarz, A.~N. Taylor, K.~L. Thompson, A.~H. Turner, E.~Y.~S. Wu, and (QUaD collaboration).
+\newblock Characterization of the millimeter-wave polarization of centaurus a with quad.
+\newblock {\em The Astrophysical Journal}, 710(2):1541, feb 2010.
+
 \bibitem{so:polarbear_cal}
 The Polarbear Collaboration: P. A.~R. Ade, Y.~Akiba, A.~E. Anthony, K.~Arnold, M.~Atlas, D.~Barron, D.~Boettger, J.~Borrill, S.~Chapman, Y.~Chinone, M.~Dobbs, T.~Elleflot, J.~Errard, G.~Fabbian, C.~Feng, D.~Flanigan, A.~Gilbert, W.~Grainger, N.~W. Halverson, M.~Hasegawa, K.~Hattori, M.~Hazumi, W.~L. Holzapfel, Y.~Hori, J.~Howard, P.~Hyland, Y.~Inoue, G.~C. Jaehnig, A.~H. Jaffe, B.~Keating, Z.~Kermish, R.~Keskitalo, T.~Kisner, M.~Le Jeune, A.~T. Lee, E.~M. Leitch, E.~Linder, M.~Lungu, F.~Matsuda, T.~Matsumura, X.~Meng, N.~J. Miller, H.~Morii, S.~Moyerman, M.~J. Myers, M.~Navaroli, H.~Nishino, A.~Orlando, H.~Paar, J.~Peloton, D.~Poletti, E.~Quealy, G.~Rebeiz, C.~L. Reichardt, P.~L. Richards, C.~Ross, I.~Schanning, D.~E. Schenck, B.~D. Sherwin, A.~Shimizu, C.~Shimmin, M.~Shimon, P.~Siritanasak, G.~Smecher, H.~Spieler, N.~Stebor, B.~Steinbach, R.~Stompor, A.~Suzuki, S.~Takakura, T.~Tomaru, B.~Wilson, A.~Yadav, and O.~Zahn.
 \newblock {A MEASUREMENT OF THE COSMIC MICROWAVE BACKGROUND B-MODE POLARIZATION POWER SPECTRUM AT SUB-DEGREE SCALES WITH POLARBEAR}.
@@ -52,7 +57,22 @@ P.~A.~R. Ade, R.~W. Aikin, D.~Barkats, S.~J. Benton, C.~A. Bischoff, J.~J. Bock,
 
 \bibitem{so:Hanson_2013}
 D.~Hanson, S.~Hoover, A.~Crites, P.~A.~R. Ade, K.~A. Aird, J.~E. Austermann, J.~A. Beall, A.~N. Bender, B.~A. Benson, L.~E. Bleem, J.~J. Bock, J.~E. Carlstrom, C.~L. Chang, H.~C. Chiang, H-M. Cho, A.~Conley, T.~M. Crawford, T.~de~Haan, M.~A. Dobbs, W.~Everett, J.~Gallicchio, J.~Gao, E.~M. George, N.~W. Halverson, N.~Harrington, J.~W. Henning, G.~C. Hilton, G.~P. Holder, W.~L. Holzapfel, J.~D. Hrubes, N.~Huang, J.~Hubmayr, K.~D. Irwin, R.~Keisler, L.~Knox, A.~T. Lee, E.~Leitch, D.~Li, C.~Liang, D.~Luong-Van, G.~Marsden, J.~J. McMahon, J.~Mehl, S.~S. Meyer, L.~Mocanu, T.~E. Montroy, T.~Natoli, J.~P. Nibarger, V.~Novosad, S.~Padin, C.~Pryke, C.~L. Reichardt, J.~E. Ruhl, B.~R. Saliwanchik, J.~T. Sayre, K.~K. Schaffer, B.~Schulz, G.~Smecher, A.~A. Stark, K.~T. Story, C.~Tucker, K.~Vanderlinde, J.~D. Vieira, M.~P. Viero, G.~Wang, V.~Yefremenko, O.~Zahn, and M.~Zemcov.
-\newblock Detection of<mml:math xmlns:mml="http://www.w3.org/1998/math/mathml" display="inline"><mml:mi>b</mml:mi></mml:math>-mode polarization in the cosmic microwave background with data from the south pole telescope.
+\newblock {Detection of B-Mode Polarization in the Cosmic Microwave Background with Data from the South Pole Telescope}.
 \newblock {\em Physical Review Letters}, 111(14), September 2013.
+
+\bibitem{so:Kusaka_2018}
+Akito Kusaka, John Appel, Thomas Essinger-Hileman, James~A. Beall, Luis~E. Campusano, Hsiao-Mei Cho, Steve~K. Choi, Kevin Crowley, Joseph~W. Fowler, Patricio Gallardo, Matthew Hasselfield, Gene Hilton, Shuay-Pwu~P. Ho, Kent Irwin, Norman Jarosik, Michael~D. Niemack, Glen~W. Nixon, Michael Nolta, Lyman A.~Page Jr., Gonzalo~A. Palma, Lucas Parker, Srinivasan Raghunathan, Carl~D. Reintsema, Jonathan Sievers, Sara~M. Simon, Suzanne~T. Staggs, Katerina Visnjic, and Ki-Won Yoon.
+\newblock {Results from the Atacama B-mode Search (ABS) experiment}.
+\newblock {\em Journal of Cosmology and Astroparticle Physics}, 2018(09):005--005, September 2018.
+
+\bibitem{so:Bischoff_2011}
+QUIET Collaboration, C.~Bischoff, A.~Brizius, I.~Buder, Y.~Chinone, K.~Cleary, R.~N. Dumoulin, A.~Kusaka, R.~Monsalve, S.~K. Næss, L.~B. Newburgh, R.~Reeves, K.~M. Smith, I.~K. Wehus, J.~A. Zuntz, J.~T.~L. Zwart, L.~Bronfman, R.~Bustos, S.~E. Church, C.~Dickinson, H.~K. Eriksen, P.~G. Ferreira, T.~Gaier, J.~O. Gundersen, M.~Hasegawa, M.~Hazumi, K.~M. Huffenberger, M.~E. Jones, P.~Kangaslahti, D.~J. Kapner, C.~R. Lawrence, M.~Limon, J.~May, J.~J. McMahon, A.~D. Miller, H.~Nguyen, G.~W. Nixon, T.~J. Pearson, L.~Piccirillo, S.~J.~E. Radford, A.~C.~S. Readhead, J.~L. Richards, D.~Samtleben, M.~Seiffert, M.~C. Shepherd, S.~T. Staggs, O.~Tajima, K.~L. Thompson, K.~Vanderlinde, R.~Williamson, and B.~Winstein.
+\newblock {FIRST SEASON QUIET OBSERVATIONS: MEASUREMENTS OF COSMIC MICROWAVE BACKGROUND POLARIZATION POWER SPECTRA AT 43 GHz IN THE MULTIPOLE RANGE {$25 \leq \ell \leq 475$}}.
+\newblock {\em The Astrophysical Journal}, 741(2):111, oct 2011.
+
+\bibitem{so:SPT3G}
+J.~A. Sobrin, A.~J. Anderson, A.~N. Bender, B.~A. Benson, D.~Dutcher, A.~Foster, N.~Goeckner-Wald, J.~Montgomery, A.~Nadolski, A.~Rahlin, P.~A.~R. Ade, Z.~Ahmed, E.~Anderes, M.~Archipley, J.~E. Austermann, J.~S. Avva, K.~Aylor, L.~Balkenhol, P.~S. Barry, R.~Basu Thakur, K.~Benabed, F.~Bianchini, L.~E. Bleem, F.~R. Bouchet, L.~Bryant, K.~Byrum, J.~E. Carlstrom, F.~W. Carter, T.~W. Cecil, C.~L. Chang, P.~Chaubal, G.~Chen, H.-M. Cho, T.-L. Chou, J.-F. Cliche, T.~M. Crawford, A.~Cukierman, C.~Daley, T.~de~Haan, E.~V. Denison, K.~Dibert, J.~Ding, M.~A. Dobbs, W.~Everett, C.~Feng, K.~R. Ferguson, J.~Fu, S.~Galli, A.~E. Gambrel, R.~W. Gardner, R.~Gualtieri, S.~Guns, N.~Gupta, R.~Guyser, N.~W. Halverson, A.~H. Harke-Hosemann, N.~L. Harrington, J.~W. Henning, G.~C. Hilton, E.~Hivon, G.~P. Holder, W.~L. Holzapfel, J.~C. Hood, D.~Howe, N.~Huang, K.~D. Irwin, O.~B. Jeong, M.~Jonas, A.~Jones, T.~S. Khaire, L.~Knox, A.~M. Kofman, M.~Korman, D.~L. Kubik, S.~Kuhlmann, C.-L. Kuo, A.~T. Lee, E.~M. Leitch, A.~E. Lowitz, C.~Lu, S.~S. Meyer, D.~Michalik, M.~Millea, T.~Natoli, H.~Nguyen, G.~I. Noble, V.~Novosad, Y.~Omori, S.~Padin, Z.~Pan, P.~Paschos, J.~Pearson, C.~M. Posada, K.~Prabhu, W.~Quan, C.~L. Reichardt, D.~Riebel, B.~Riedel, M.~Rouble, J.~E. Ruhl, B.~Saliwanchik, J.~T. Sayre, E.~Schiappucci, E.~Shirokoff, G.~Smecher, A.~A. Stark, J.~Stephen, K.~T. Story, A.~Suzuki, C.~Tandoi, K.~L. Thompson, B.~Thorne, C.~Tucker, C.~Umilta, L.~R. Vale, K.~Vanderlinde, J.~D. Vieira, G.~Wang, N.~Whitehorn, W.~L.~K. Wu, V.~Yefremenko, K.~W. Yoon, and M.~R. Young.
+\newblock {The Design and Integrated Performance of SPT-3G}.
+\newblock {\em The Astrophysical Journal Supplement Series}, 258(2):42, feb 2022.
 
 \end{thebibliography}

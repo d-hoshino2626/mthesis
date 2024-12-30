@@ -30,6 +30,10 @@ bookmarkstype=toc
 \usepackage{bm}
 \usepackage{mathcomp}
 \usepackage{multirow}
+\usepackage{xcolor}
+
+% color text settings
+\newcommand{\colortext}[2]{\textcolor{#1}{#2}}
 
 \counterwithout{footnote}{chapter}
 \renewcommand{\thefootnote}{*\arabic{footnote}}
@@ -121,7 +125,7 @@ bookmarkstype=toc
 \addcontentsline{toc}{chapter}{図目次}
 \listoffigures
 
-\bibliography{refs} %hoge.bibから拡張子を外した名前
-\bibliographystyle{unsrt} %参考文献出力スタイル
+\bibliography{refs}
+\bibliographystyle{unsrt}
 
 \end{document}

@@ -3,45 +3,45 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
-You've used 11 entries,
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            538 strings with 16146 characters,
-and the built_in function-call counts, 9789 in all, are:
-= -- 235
-> -- 1763
+            565 strings with 20437 characters,
+and the built_in function-call counts, 13548 in all, are:
+= -- 307
+> -- 2473
 < -- 4
-+ -- 590
-- -- 579
-* -- 1298
-:= -- 2064
-add.period$ -- 36
-call.type$ -- 11
-change.case$ -- 11
++ -- 828
+- -- 813
+* -- 1823
+:= -- 2875
+add.period$ -- 48
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 133
-empty$ -- 253
-format.name$ -- 579
-if$ -- 1703
+cite$ -- 15
+duplicate$ -- 169
+empty$ -- 337
+format.name$ -- 813
+if$ -- 2333
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 11
-newline$ -- 58
-num.names$ -- 15
-pop$ -- 23
+int.to.str$ -- 15
+missing$ -- 15
+newline$ -- 78
+num.names$ -- 19
+pop$ -- 27
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 70
+skip$ -- 82
 stack$ -- 0
-substring$ -- 119
-swap$ -- 42
+substring$ -- 171
+swap$ -- 46
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 24
-width$ -- 13
-write$ -- 128
+while$ -- 33
+width$ -- 17
+write$ -- 172
 is.kanji.str$ -- 0
