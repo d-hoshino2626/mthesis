@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  2 JAN 2025 01:53
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  2 JAN 2025 01:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,20 +615,32 @@ LaTeX Warning: Reference `eq:so-hwp_demod' on page 2 undefined on input line 40.
 
 LaTeX Warning: Reference `fig:' on page 2 undefined on input line 46.
 
-[2] (.tex_intermediates/wiregrid.aux)
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 59.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 59.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 59.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 59.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 59.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 59.
+[2] [3] (.tex_intermediates/wiregrid.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `wiregrid.out' has not changed.
-(rerunfilecheck)             Checksum: 6D5B7B7CA4C10B9B87D02FA0B1E7D570;911.
+(rerunfilecheck)             Checksum: B3180EE0A938FE220D592F38C233578C;1131.
  ) 
 Here is how much of TeX's memory you used:
- 17484 strings out of 476677
- 336279 string characters out of 5804957
+ 17489 strings out of 476677
+ 336349 string characters out of 5804957
  1850490 words of memory out of 5000000
- 37706 multiletter control sequences out of 15000+600000
- 561107 words of font info for 112 fonts, out of 8000000 for 9000
+ 37711 multiletter control sequences out of 15000+600000
+ 561712 words of font info for 114 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,8n,94p,359b,960s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiregrid.dvi (2 pages, 10496 bytes).
+Output written on .tex_intermediates/wiregrid.dvi (3 pages, 11276 bytes).
