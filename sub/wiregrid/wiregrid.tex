@@ -1,19 +1,23 @@
 \documentclass[../../main.tex]{subfiles}
 
-\graphicspath{{../../fig/}}
+\graphicspath{{../../fig/wiregrid/}}
 \setcounter{section}{0}
 
 \begin{document}
 \chapter{スパースワイヤーグリッドを用いた偏光角較正装置}
-SO
+SOでは検出器の偏光角較正のために、人工偏光光源としてスパースワイヤーグリッドを用いた偏光角較正装置を使用する。
+本章では、スパースワイヤーグリッドの外観を共有した後に偏光角の較正原理について触れ、装置の設計、系統誤差要素について述べる。
 \section{概要}
-スパースワイヤーグリッドの外観を図\ref{hogehoge}に示す。
+スパースワイヤーグリッドの外観を図\ref{fig:wiregrid_appearance}に示す。
 これは金属製のワイヤーを、入射光よりも十分長い間隔で平行に張ったものであり、ワイヤー軸に沿った偏光を生成する。
-Simons Observatory実験では、検出器の偏光角較正のために、人工偏光光源としてスパースワイヤーグリッドを用いた偏光角較正装置を使用する。
+SOではアルミニウム製の内径$\SI{790}{mm}$、外径 $\SI{830}{mm}$ の円環に、直径 $\SI{0.1}{mm}$ のタングステンワイヤーを $\SI{20}{mm}$ 間隔で $39$ 本張り巡らせたものを使用する。
 
-\section{スパースワイヤーグリッド}
-これはアルミニウム製の直径830mmの円環に、直径0.1mmのタングステンワイヤーを20mm間隔で張り巡らせたものである。
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{wiregrid_appearance.pdf}
+    \caption[スパースワイヤーグリッドの外観]{スパースワイヤーグリッドの外観。}
+    \label{fig:wiregrid_appearance}    
+\end{figure}
 \section{偏光信号の生成原理}
 金属製のワイヤーが、周囲から来た入射光を反射することを考える。
 入射光の波長がワイヤーの直径よりも十分に長い場合、ワイヤー中の自由電子はワイヤーに沿う方向のみに動くと見なすことができ、ワイヤーは自身の軸に沿った偏光状態を持つ光のみを反射する。
@@ -26,25 +30,29 @@ Simons Observatory実験では、検出器の偏光角較正のために、人�
 式\eqref{eq:so-hwp_modulation}において、入射光としてワイヤー由来の偏光角 $\theta_{\mathrm{WG}}$ の直線偏光した光を考える。
 $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{WG}}]$ となるため、
 \begin{equation}
-    d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t - 2\theta_{\mathrm{det}} - 2\theta_{\mathrm{WG}})}]
+    d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0 - 2\theta_{\mathrm{det}} - 2\theta_{\mathrm{WG}})}]
 \end{equation}
 となる。
 ワイヤー由来の光の強度はほとんど時間変化しないため、$I_{\mathrm{in}}(t) \simeq \mathrm{const.}$ とみなせる。
-したがって、この変調信号は時系列データとして位相オフセット $2(\theta_{\mathrm{det}} + \theta_{\mathrm{WG}})$ を持った
+したがって、この変調信号は時系列データとして位相オフセット $4\chi_0 + 2(\theta_{\mathrm{det}} + \theta_{\mathrm{WG}})$ を持った
 角振動数 $4\omega_{\mathrm{HWP}}$ の正弦波としてみえる。
-理想的な時系列データのイメージを図\ref{}に示す。
+理想的な時系列データのイメージを図\ref{fig:}に示す。
 これを復調することで、式\eqref{eq:so-hwp_demod}より
 \begin{equation}
     d_{\mathrm{d, det}} = \varepsilon\exp\qty[i2\qty(\theta_{\mathrm{WG}} + \theta_{\mathrm{det}})]
 \end{equation}
 という偏光情報のみを得る。
-ワイヤーの角度 $\theta_{\mathrm{WG}}$ を変化させると、この $d_{\mathrm{d, det}}$ は複素平面上で円(較正円と呼ぶ)を描く。
-実際には、$\theta_{\mathrm{WG}}$ を $22.5^{\circ}$ ごとに変化させ、較正円を描く。
-較正円上では、
-
-
+望遠鏡では光学系により生まれる偽偏光や、環境熱放射が比等方だった場合にはワイヤー角度に対して非等方な強度のワイヤー由来の偏光が観測され得る。
+これを取り除くため、さまざまなワイヤーの角度 $\theta_{\mathrm{WG}}$ でこの $d_{\mathrm{d, det}}$ を測定し、複素平面上で円(較正円と呼ぶ)を描く(\ref{fig:})。
+光学系による偽偏光は較正円の原点がズレる効果として現れ、環境熱放射の非等方性は較正円を歪ませる効果として現れる。
+この較正円を用いて補正を加え、最終的に検出器の偏光角 $\theta_{\mathrm{det}}$ を較正する。
+\begin{figure}
+    \centering
+    \caption[スパースワイヤーグリッドによって生成される偏光信号の時系列データイメージ]{スパースワイヤーグリッドによって生成される偏光信号の時系列データイメージ。}
+\end{figure}
 \section{設計}
 
-\section{}
+\section{系統誤差要素}
+
 
 \end{document}

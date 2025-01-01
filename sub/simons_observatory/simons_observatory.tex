@@ -8,10 +8,11 @@
 \section{Simons Observatory実験}
 Simons Observatory実験 (以後、SOと呼ぶ) は、チリのアタカマ砂漠を拠点とする史上最大規模の地上CMB観測実験である。
 現在、口径 $0.5\ \mathrm{m}$ の小口径望遠鏡 (Small Aperture Telescope, SAT) 3台と、
-口径 $6\ \mathrm{m}$ の大口径望遠鏡 (Large Aperture Telescope, LAT) 1台を用いた観測が進められている。\cite{so:current_status}
-検出器としてはTES (Transition Edge Sensor) 検出器を採用しており、SATにはそれぞれ約1万個ずつ、LATには約3万個の検出器が搭載されている。
+口径 $6\ \mathrm{m}$ の大口径望遠鏡 (Large Aperture Telescope, LAT) 1台を用いた観測が進められており\cite{so:current_status}、
+今後さらにイギリス製の2台のSATと、日本製の1台のSAT(JSAT)が追加される予定である。
+検出器としてはTES (Transition Edge Sensor) を採用しており、SATにはそれぞれ約1万個ずつ、LATには約3万個の検出器が搭載されている。
 合計約6万個もの検出器を通してCMBの変更を高精度で測定し、インフレーションに由来する原始重力波の検出や、
-ニュートリノの有効世代数、ニュートリノ質量和の測定を目指す。\cite{so:science_forecast}
+ニュートリノの有効世代数、ニュートリノ質量和の測定を目指す\cite{so:science_forecast}。
 
 立体角 $\Omega$ 、開口面積 $A$、観測波長 $\lambda$ について、回折限界の関係式
 \begin{equation}
@@ -23,7 +24,9 @@ Simons Observatory実験 (以後、SOと呼ぶ) は、チリのアタカマ砂�
 
 \section{Large Aperture Telescope (LAT)}
 \section{Small Aperture Telescope (SAT)}
-\subsection{TES検出器}
+\subsection{Transition Edge Sensor (TES)}
+TESは超伝導の転移点付近で急激に電気抵抗が変化する性質を利用した検出器である。
+あらかじめ転移点付近に保持しておき、光子が入ってくることで急激に変化する電気抵抗読み取ることで光子のエネルギーを測定する。
 
 \subsection{極低温連続回転式半波長板 (HWP)}
 大気による熱放射は常に揺らいでいる。
@@ -44,21 +47,21 @@ HWPを通過した後の偏光角は $-\chi$ となり、偏光が1軸対称に�
     d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i 4\chi)]
 \end{equation}
 となる。ここで、$\varepsilon$ は変調効率である。SOでは、HWPを $2\ \mathrm{Hz}$ で回転させることで、連続的に入射する直線偏光による信号を $8\ \mathrm{Hz}$ に変調して出力する。
-HWPの角振動数を $\omega_{\mathrm{HWP}}$ とすると、$\chi = \omega_{\mathrm{HWP}}t$ と表され、出力信号は
+HWPの角振動数を $\omega_{\mathrm{HWP}}$ とし、初期位相を $\chi_0$ とすると、$\chi(t) = \omega_{\mathrm{HWP}}t + \chi_{0}$ と表され、出力信号は
 \begin{equation}
-    d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i 4\omega_{\mathrm{HWP}}t)]
+    d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0))]
 \end{equation}
 となる。検出器はある偏光角方向 $\theta_{\mathrm{det}}$ にのみ感度を持つため、最終的に検出器が読み出す信号 $d_{\mathrm{m}, \mathrm{det}}$ は
 \begin{equation}
     \label{eq:so-hwp_modulation}
-    d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t - 2\theta_{\mathrm{det}})}]
+    d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0 - 2\theta_{\mathrm{det}})}]
 \end{equation}
 となる。この信号のフーリエ変換は
 \begin{equation}
     \begin{split}
         \tilde{d}_{\mathrm{m}, \mathrm{det}}(\Omega) = &\tilde{I}_{\mathrm{in}}(\Omega) \\
-            &+ \dfrac{\varepsilon}{2}\qty[\qty{\tilde{Q}_{\mathrm{in}}(\Omega+4\omega_{\mathrm{HWP}})+i\tilde{U}_{\mathrm{in}}(\Omega+4\omega_{\mathrm{HWP}})}\exp\qty(i2\theta_{\mathrm{det}})] \\
-            &+ \dfrac{\varepsilon}{2}\qty[\qty{\tilde{Q}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})-i\tilde{U}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})}\exp\qty(i2\theta_{\mathrm{det}})]
+            &+ \dfrac{\varepsilon}{2}\qty[\qty{\tilde{Q}_{\mathrm{in}}(\Omega+4\omega_{\mathrm{HWP}})+i\tilde{U}_{\mathrm{in}}(\Omega+4\omega_{\mathrm{HWP}})}\exp\qty{-i\qty(4\chi_0 - 2\theta_{\mathrm{det}})}] \\
+            &+ \dfrac{\varepsilon}{2}\qty[\qty{\tilde{Q}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})-i\tilde{U}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})}\exp\qty{-i\qty(4\chi_0 - 2\theta_{\mathrm{det}})}]
     \end{split}
 \end{equation}
 である。この式はほとんど時間変化しない信号$(\Omega\sim0)$がHWPを通過することで、周波数 $\pm 4\omega_{\mathrm{HWP}}$ のところに移ることを示している。
@@ -66,10 +69,10 @@ HWPの角振動数を $\omega_{\mathrm{HWP}}$ とすると、$\chi = \omega_{\ma
 $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HWP}}$ のまわりのみを通すバンドパスフィルタ $\mathcal{F}^{\mathrm{BPF}}$ を通した後、2倍して位相を元に戻せば良い。
 つまり、復調後に得られる信号 $d_{\mathrm{d, det}}$ は
 \begin{align}
-    d_{\mathrm{d, det}}(t) &= \mathcal{F}^{\mathrm{BPF}}\qty[d_{\mathrm{m,det}}(t)]\times 2\exp\qty(i4\omega_{\mathrm{HWP}}t) \\
+    d_{\mathrm{d, det}}(t) &= \mathcal{F}^{\mathrm{BPF}}\qty[d_{\mathrm{m,det}}(t)]\times 2\exp\qty{i\qty(4\omega_{\mathrm{HWP}}t + 4\chi_0)} \\
     &= \varepsilon\qty[Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t)]\exp\qty[i2\theta_{\mathrm{det}}]
 \end{align}
-となっている。
+となる。ここで、$\chi_0$ はエンコーダによって決定される。
 
 \begin{figure}[H]
     \centering
