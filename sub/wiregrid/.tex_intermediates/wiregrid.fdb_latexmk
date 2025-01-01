@@ -4,7 +4,7 @@
   (generated)
   "wiregrid.pdf"
   (rewritten before read)
-["latex"] 1735718387 "wiregrid.tex" "wiregrid.dvi" "wiregrid" 1735718388 2
+["latex"] 1735720547 "wiregrid.tex" "wiregrid.dvi" "wiregrid" 1735720548 2
   "../../main.tex" 1735592344 3004 9409131a1b6f5dafd93bb9de5e37e165 ""
   ".tex_intermediates/wiregrid.aux" 1735391604 1582 719489f85b4c5c7e800e5fbe5c14f9fb "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -99,7 +99,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiregrid.tex" 1735718387 3619 0172bdc17a2b4162d4d703f49a88ad37 ""
+  "wiregrid.tex" 1735720547 3495 f6fd3805621da8eaf6d9ffb4cc07466d ""
   (generated)
   ".tex_intermediates/wiregrid.aux"
   ".tex_intermediates/wiregrid.log"
