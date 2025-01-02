@@ -3,11 +3,6 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 238 of file refs.bib
- :   
- :   author = {村田雅彬},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--empty school in swg:nakata
 You've used 16 entries,
             1791 wiz_defined-function locations,
@@ -51,4 +46,4 @@ while$ -- 34
 width$ -- 18
 write$ -- 182
 is.kanji.str$ -- 0
-(There was 1 error message)
+(There was 1 warning)
