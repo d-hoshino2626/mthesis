@@ -989,6 +989,9 @@ INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_appearance.pdf
+INPUT ./fig//wiregrid/rotation_parts.pdf
+INPUT ./fig//wiregrid/rotation_parts.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/rotation_parts.pdf
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
