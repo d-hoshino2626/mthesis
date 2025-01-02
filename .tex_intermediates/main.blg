@@ -3,32 +3,33 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
+Warning--empty school in swg:nakata
 You've used 16 entries,
             1791 wiz_defined-function locations,
-            569 strings with 20576 characters,
-and the built_in function-call counts, 13667 in all, are:
-= -- 319
+            568 strings with 20564 characters,
+and the built_in function-call counts, 13668 in all, are:
+= -- 318
 > -- 2477
 < -- 4
 + -- 830
 - -- 814
-* -- 1825
-:= -- 2900
+* -- 1827
+:= -- 2899
 add.period$ -- 51
 call.type$ -- 16
 change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 16
+cite$ -- 17
 duplicate$ -- 175
 empty$ -- 348
 format.name$ -- 814
-if$ -- 2358
+if$ -- 2357
 int.to.chr$ -- 0
 int.to.str$ -- 16
 missing$ -- 15
 newline$ -- 83
 num.names$ -- 20
-pop$ -- 29
+pop$ -- 30
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
@@ -40,8 +41,9 @@ text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
+warning$ -- 1
 while$ -- 34
 width$ -- 18
-write$ -- 183
+write$ -- 182
 is.kanji.str$ -- 0
+(There was 1 warning)
