@@ -3,37 +3,39 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "swg:nakata"
-You've used 15 entries,
+Warning--empty title in swg:nakata
+Warning--empty school in swg:nakata
+Warning--empty year in swg:nakata
+You've used 16 entries,
             1791 wiz_defined-function locations,
-            566 strings with 20447 characters,
-and the built_in function-call counts, 13548 in all, are:
-= -- 307
-> -- 2473
+            567 strings with 20453 characters,
+and the built_in function-call counts, 13664 in all, are:
+= -- 315
+> -- 2477
 < -- 4
-+ -- 828
-- -- 813
-* -- 1823
-:= -- 2875
-add.period$ -- 48
-call.type$ -- 15
++ -- 830
+- -- 814
+* -- 1832
+:= -- 2896
+add.period$ -- 50
+call.type$ -- 16
 change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 169
-empty$ -- 337
-format.name$ -- 813
-if$ -- 2333
+cite$ -- 19
+duplicate$ -- 175
+empty$ -- 348
+format.name$ -- 814
+if$ -- 2354
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 16
 missing$ -- 15
-newline$ -- 78
-num.names$ -- 19
-pop$ -- 27
+newline$ -- 82
+num.names$ -- 20
+pop$ -- 32
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 82
+skip$ -- 84
 stack$ -- 0
 substring$ -- 171
 swap$ -- 46
@@ -41,9 +43,9 @@ text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 33
-width$ -- 17
-write$ -- 172
+warning$ -- 3
+while$ -- 34
+width$ -- 18
+write$ -- 179
 is.kanji.str$ -- 0
-(There was 1 warning)
+(There were 3 warnings)
