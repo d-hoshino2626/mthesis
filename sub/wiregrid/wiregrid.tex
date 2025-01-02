@@ -17,23 +17,23 @@ SOでは検出器の偏光角較正のために、人工偏光光源としてス
 また、ワイヤー間隔を調整することで実行的な放射温度を調整し、CMB望遠鏡の検出器に入射する光の強度を調整することができる。
 
 \section{偏光角較正の原理}
-式\eqref{eq:so-hwp_modulation}において、入射光としてワイヤー由来の偏光角 $\theta_{\mathrm{WG}}$ の直線偏光した光を考える。
-$Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{WG}}]$ となるため、
+式\eqref{eq:so-hwp_modulation}において、入射光としてワイヤー由来の偏光角 $\theta_{\mathrm{wire}}$ の直線偏光した光を考える。
+$Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ となるため、
 \begin{equation}
-    d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0 - 2\theta_{\mathrm{det}} - 2\theta_{\mathrm{WG}})}]
+    d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0 - 2\theta_{\mathrm{det}} - 2\theta_{\mathrm{wire}})}]
 \end{equation}
 となる。
 ワイヤー由来の光の強度はほとんど時間変化しないため、$I_{\mathrm{in}}(t) \simeq \mathrm{const.}$ とみなせる。
-したがって、この変調信号は時系列データとして位相オフセット $4\chi_0 + 2(\theta_{\mathrm{det}} + \theta_{\mathrm{WG}})$ を持った
+したがって、この変調信号は時系列データとして位相オフセット $4\chi_0 + 2(\theta_{\mathrm{det}} + \theta_{\mathrm{wire}})$ を持った
 角振動数 $4\omega_{\mathrm{HWP}}$ の正弦波としてみえる。
 理想的な時系列データのイメージを図\ref{fig:}に示す。
 これを復調することで、式\eqref{eq:so-hwp_demod}より
 \begin{equation}
-    d_{\mathrm{d, det}} = \varepsilon\exp\qty[i2\qty(\theta_{\mathrm{WG}} + \theta_{\mathrm{det}})]
+    d_{\mathrm{d, det}} = \varepsilon\exp\qty[i2\qty(\theta_{\mathrm{wire}} + \theta_{\mathrm{det}})]
 \end{equation}
 という偏光情報のみを得る。
 望遠鏡では光学系により生まれる偽偏光や、環境熱放射が比等方だった場合にはワイヤー角度に対して非等方な強度のワイヤー由来の偏光が観測され得る。
-これを取り除くため、さまざまなワイヤーの角度 $\theta_{\mathrm{WG}}$ でこの $d_{\mathrm{d, det}}$ を測定し、複素平面上で円(較正円と呼ぶ)を描く(\ref{fig:})。
+これを取り除くため、さまざまなワイヤーの角度 $\theta_{\mathrm{wire}}$ でこの $d_{\mathrm{d, det}}$ を測定し、複素平面上で円(較正円と呼ぶ)を描く(\ref{fig:})。
 光学系による偽偏光は較正円の原点がズレる効果として現れ、環境熱放射の非等方性は較正円を歪ませる効果として現れる。
 この較正円を用いて補正を加え、最終的に検出器の偏光角 $\theta_{\mathrm{det}}$ を較正する。
 \begin{figure}
@@ -81,8 +81,11 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
     \caption[スパースワイヤーグリッドに搭載された切り替え機構の概観]{スパースワイヤーグリッドに搭載された切り替え機構の概観}
     \label{fig:gridloader}
 \end{figure}
-\subsection{重力参照計を用いた $\theta_{\mathrm{WG}}$ の測定}
-式\eqref{}において、 $\theta_{\mathrm{WG}}$ は天球面上の
+\subsection{重力参照計を用いた $\theta_{\mathrm{wire}}$ の測定}
+式\eqref{}において、 $\theta_{\mathrm{wire}}$ は天球面上における偏光角である。
+エンコーダはスパースワイヤーグリッドが、その平面内において回転したワイヤーの角度を出力するので、
+この平面が天球面上のどこに位置しているかを知る必要がある。
+
 
 
 \section{系統誤差要素}
