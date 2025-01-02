@@ -3,11 +3,16 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
+I was expecting a `,' or a `}'---line 238 of file refs.bib
+ :   
+ :   author = {村田雅彬},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty school in swg:nakata
 You've used 16 entries,
             1791 wiz_defined-function locations,
-            568 strings with 20563 characters,
-and the built_in function-call counts, 13668 in all, are:
+            569 strings with 20575 characters,
+and the built_in function-call counts, 13669 in all, are:
 = -- 318
 > -- 2477
 < -- 4
@@ -17,7 +22,7 @@ and the built_in function-call counts, 13668 in all, are:
 := -- 2899
 add.period$ -- 51
 call.type$ -- 16
-change.case$ -- 16
+change.case$ -- 17
 chr.to.int$ -- 0
 cite$ -- 17
 duplicate$ -- 175
@@ -29,11 +34,11 @@ int.to.str$ -- 16
 missing$ -- 15
 newline$ -- 83
 num.names$ -- 20
-pop$ -- 30
+pop$ -- 31
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 84
+skip$ -- 83
 stack$ -- 0
 substring$ -- 171
 swap$ -- 46
@@ -46,4 +51,4 @@ while$ -- 34
 width$ -- 18
 write$ -- 182
 is.kanji.str$ -- 0
-(There was 1 warning)
+(There was 1 error message)
