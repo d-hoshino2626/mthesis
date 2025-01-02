@@ -989,6 +989,7 @@ INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_appearance.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
