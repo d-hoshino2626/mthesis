@@ -51,12 +51,13 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 これは金属製のワイヤーを、入射光よりも十分長い間隔で平行に張ったものであり、ワイヤー軸に沿った偏光を生成する。
 SOではアルミニウム製の内径$\SI{790}{mm}$、外径 $\SI{830}{mm}$ の円環に、直径 $\SI{0.1}{mm}$ の
 タングステンワイヤーを $\SI{20}{mm}$ 間隔で $39$ 本張り巡らせたものを使用する\cite{swg:murata}。
-\begin{figure}[H]
+\begin{figure}[tp]
     \centering
     \includegraphics[width=0.5\textwidth]{wiregrid/wiregrid_appearance.pdf}
     \caption[スパースワイヤーグリッド本体の外観]{スパースワイヤーグリッド本体の概観}
     \label{fig:wiregrid_appearance}
 \end{figure}
+実際にワイヤーを張る際には、\colortext{blue}{stycastで張る旨や、張り方}
 \subsection{回転機構}
 Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使用し、スパースワイヤーグリッドを回転させる。
 図\ref{fig:rotation_parts}に回転機構の概観を示す。
@@ -82,12 +83,39 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
     \label{fig:gridloader}
 \end{figure}
 \subsection{重力参照計を用いた $\theta_{\mathrm{wire}}$ の測定}
-式\eqref{}において、 $\theta_{\mathrm{wire}}$ は天球面上におけるワイヤーが作り出す偏光角である。
-エンコーダはスパースワイヤーグリッドがその平面内において回転したワイヤーの角度を出力するので、
-この平面が天球面上のどこに位置しているかを知る必要がある。
+式\eqref{}において、 $\theta_{\mathrm{wire}}$ は天球面上におけるワイヤーが作り出す偏光角(絶対角度)である。
+エンコーダはスパースワイヤーグリッドがその平面内において回転したワイヤーの角度(相対角度)を出力するので、
+別の手段を用いてこの平面が天球面上のどこに位置しているかを知る必要がある。
 これを知るために、重力を参照してその平面がどう傾いているのかを出力する2軸の重力参照計を導入する。
-これまで、Digi-Pas 社の DWL5000-XY という製品の使用を予定されていたが、先行研究\cite{swg:iijima}にて時間安定性を欠くことが示された。
-この研究結果を受け、
+ここでは、絶対角度がどのように測られるかについて述べる。
+
+図\ref{}のように各種平面、角度を定義する。$xy$ 平面として重力に対して垂直な平面を取り、$z$ 軸負の方向が重力方向となるように座標系を取る。
+図中に円環として描かれているのがスパースワイヤーグリッドであり、重力参照計が持つ2軸を $x',\,y'$ 軸とする。
+$\alpha,\,\beta$ は重力参照計が測定する角度であり、$x',\,y'$ 軸が $xy$ 平面となす角度である。
+図中にある horizontal line とは、$xy$ 平面と $x',\,y'$ 平面が交わる直線である。
+以上の定義から、$x'$ 軸と horizontal line がなす角 $\theta_{\mathrm{sens}}$ は
+\begin{equation}
+    \theta_{\mathrm{sens}} = \arctan\qty(\dfrac{\sin\alpha}{\sin\beta})
+\end{equation}
+と表される\cite{}。
+\begin{figure}[tbp]
+    \begin{minipage}[b]{0.48\columnwidth}
+      \centering
+      \includegraphics[width=\columnwidth]{wiregrid/abs_angle_overview.pdf}
+      \caption{hoge画像です}
+    \end{minipage}
+    \hspace{0.04\columnwidth} % ここで隙間作成
+    \begin{minipage}[b]{0.48\columnwidth}
+      \centering
+      \includegraphics[width=\columnwidth]{wiregrid/abs_angle_WG_plane.pdf}
+      \caption{huga画像です}
+    \end{minipage}
+  \end{figure}
+
+これまで、Digi-Pas 社製の DWL5000-XY という製品の使用を予定されていたが、先行研究\cite{swg:iijima}にてその精度を欠き、
+SOにおけることが示された。
+この研究結果を受け、新たに Sherborne 社製の DSIC-205-60 という重力参照計の導入を予定している。
+\ref{}にて、その精度を議論する。
 
 
 
