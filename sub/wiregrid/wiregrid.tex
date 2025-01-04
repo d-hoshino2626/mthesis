@@ -5,8 +5,8 @@
 
 \begin{document}
 \chapter{スパースワイヤーグリッドを用いた偏光角較正装置}
-SOでは検出器の偏光角較正のために、人工偏光光源としてスパースワイヤーグリッドを用いた偏光角較正装置を使用する。
-本章では、スパースワイヤーグリッドの外観を共有した後に偏光角の較正原理について触れ、装置の設計、系統誤差要素について述べる。
+SOでは検出器の偏光角較正のために、人工偏光光源としてスパースワイヤーグリッドを用いた偏光角較正装置を使用する~\cite{swg:Murata_2023}。
+本章では、光角の較正原理について述べたのちに、装置の設計、考えられている系統誤差の要因とその測定値について述べる。
 
 \section{偏光信号の生成原理}
 金属製のワイヤーが、周囲から来た入射光を反射することを考える。
@@ -52,13 +52,31 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 これは金属製のワイヤーを、入射光よりも十分長い間隔で平行に張ったものであり、ワイヤー軸に沿った偏光を生成する。
 SOではアルミニウム製の内径$\SI{790}{mm}$、外径 $\SI{830}{mm}$ の円環に、直径 $\SI{0.1}{mm}$ の
 タングステンワイヤーを $\SI{20}{mm}$ 間隔で $39$ 本張り巡らせたものを使用する\cite{swg:murata}。
+
+アルミニウムリング上には $\SI{0.2}{mm}$ の幅で刻まれた溝があり、これによりワイヤーの位置を決める。
+$\SI{230}{g}$ の重りをワイヤーにくくりつけることでピンと張った状態にし、この溝の上にワイヤーが沿うように設置したのち、
+Henkel 社製 の LOCTITE STYUCAST 2850FTJ という接着剤を用いて固定する。
+接着剤による固定部分はサンドブラストされたネジ頭となっており、このネジを取り替えることで接着後であってもワイヤーを張り直すことができるようになっている。
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{wiregrid/wiregrid_appearance.pdf}
-    \caption[スパースワイヤーグリッド本体の外観]{スパースワイヤーグリッド本体の概観}
-    \label{fig:wiregrid_appearance}
+    \begin{minipage}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{wiregrid/wiregrid_appearance.pdf}
+        \subcaption{}
+        \label{fig:wiregrid_appearance}
+    \end{minipage}
+    \hspace{0.02\columnwidth}
+    \begin{minipage}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{wiregrid/wire_detail_view.pdf}
+        \subcaption{}
+        \label{fig:wire_detail_view}
+    \end{minipage}
+    \caption{(\subref{fig:wiregrid_appearance})スパースワイヤーグリッドの概観 (\subref{fig:wire_detail_view})ワイヤー接着部分の詳細}
+    \label{fig:abs_angle}
 \end{figure}
-実際にワイヤーを張る際には、\colortext{blue}{stycastで張る旨や、張り方}
+\begin{figure}
+    
+\end{figure}
 \subsection{回転機構}
 Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使用し、スパースワイヤーグリッドを回転させる。
 図\ref{fig:rotation_parts}に回転機構の概観を示す。
@@ -131,7 +149,8 @@ SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ �
 \ref{}にて、その精度を議論する。
 \section{系統誤差}
 本節では、ワイヤーの絶対角度を測定するにあたって考えられる系統誤差の要因と、過去に測定されたその値について述べる。
-\subsection{ワイヤーの}
+\subsection{ワイヤーの設置精度に伴う系統誤差}
+
 \subsection{エンコーダの測定精度に伴う系統誤差}
 \ref{}にて述べた磁気エンコーダが行う回転角度 $\theta_{\mathrm{enc}}$ の測定において、
 磁気エンコーダ自体の角度分解能は $0.004\tcdegree$ に相当する。

@@ -75,6 +75,11 @@ J.~A. Sobrin, A.~J. Anderson, A.~N. Bender, B.~A. Benson, D.~Dutcher, A.~Foster,
 \newblock {The Design and Integrated Performance of SPT-3G}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 258(2):42, feb 2022.
 
+\bibitem{swg:Murata_2023}
+Masaaki Murata, Hironobu Nakata, Kengo Iijima, Shunsuke Adachi, Yudai Seino, Kenji Kiuchi, Frederick Matsuda, Michael~J. Randall, Kam Arnold, Nicholas Galitzki, Bradley~R. Johnson, Brian Keating, Akito Kusaka, John~B. Lloyd, Joseph Seibert, Maximiliano Silva-Feaver, Osamu Tajima, Tomoki Terasaki, and Kyohei Yamada.
+\newblock The simons observatory: A fully remote controlled calibration system with a sparse wire grid for cosmic microwave background telescopes.
+\newblock {\em Review of Scientific Instruments}, 94(12), December 2023.
+
 \bibitem{swg:murata}
 村田雅彬.
 \newblock {Simons Observatory 実験のためのスパースワイヤーグリッドを用いた偏光較正装置の開発 (Development of the sparse wire grid polarization calibrator for Simons Observatory experiment)}.

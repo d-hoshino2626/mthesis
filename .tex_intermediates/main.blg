@@ -6,46 +6,46 @@ Database file #1: refs.bib
 Warning--empty school in swg:murata
 Warning--empty school in swg:nakata
 Warning--empty school in swg:iijima
-You've used 18 entries,
+You've used 19 entries,
             1791 wiz_defined-function locations,
-            577 strings with 21039 characters,
-and the built_in function-call counts, 13911 in all, are:
-= -- 340
-> -- 2485
+            583 strings with 21604 characters,
+and the built_in function-call counts, 14290 in all, are:
+= -- 353
+> -- 2544
 < -- 4
-+ -- 834
-- -- 816
-* -- 1835
-:= -- 2947
-add.period$ -- 57
-call.type$ -- 18
-change.case$ -- 21
++ -- 854
+- -- 835
+* -- 1881
+:= -- 3026
+add.period$ -- 60
+call.type$ -- 19
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 187
-empty$ -- 370
-format.name$ -- 816
-if$ -- 2405
+cite$ -- 22
+duplicate$ -- 195
+empty$ -- 385
+format.name$ -- 835
+if$ -- 2473
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 15
-newline$ -- 93
-num.names$ -- 22
-pop$ -- 39
+int.to.str$ -- 19
+missing$ -- 16
+newline$ -- 98
+num.names$ -- 23
+pop$ -- 40
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 85
+skip$ -- 89
 stack$ -- 0
 substring$ -- 171
-swap$ -- 46
+swap$ -- 47
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 36
-width$ -- 20
-write$ -- 202
+while$ -- 37
+width$ -- 21
+write$ -- 213
 is.kanji.str$ -- 0
 (There were 3 warnings)
