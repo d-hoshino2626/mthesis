@@ -24,9 +24,11 @@
 \contentsline {subsection}{\numberline {3.3.3}切り替え機構}{11}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}重力参照計を用いた $\theta _{\mathrm {wire}}$ の測定}{11}{subsection.3.3.4}%
 \contentsline {section}{\numberline {3.4}系統誤差}{12}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}ワイヤーの設置精度に伴う系統誤差}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}ワイヤーの設置精度に伴う系統誤差}{12}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}エンコーダの測定精度に伴う系統誤差}{13}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}ワイヤーのたわみに伴う系統誤差}{13}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.3}エンコーダの零点測定に伴う系統誤差}{13}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}重力参照計の精度に伴う系統誤差}{13}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}ワイヤーのたわみに伴う系統誤差}{13}{subsection.3.4.5}%
 \contentsline {chapter}{\numberline {第4章}角度計}{14}{chapter.4}%
 \contentsline {subsection}{\numberline {4.0.1}角度計の精度による絶対角較正への影響}{14}{subsection.4.0.1}%
 \contentsline {subsection}{\numberline {4.0.2}電源の入れ直しによるオフセット変動の評価}{14}{subsection.4.0.2}%

@@ -30,6 +30,7 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 これを復調することで、式\eqref{eq:so-hwp_demod}より
 \begin{equation}
     d_{\mathrm{d, det}} = \varepsilon\exp\qty[i2\qty(\theta_{\mathrm{wire}} + \theta_{\mathrm{det}})]
+    \label{eq:wiregrid_mod}
 \end{equation}
 という偏光情報のみを得る。
 望遠鏡では光学系により生まれる偽偏光や、環境熱放射が比等方だった場合にはワイヤー角度に対して非等方な強度のワイヤー由来の偏光が観測され得る。
@@ -106,7 +107,7 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
     \label{fig:gridloader}
 \end{figure}
 \subsection{重力参照計を用いた $\theta_{\mathrm{wire}}$ の測定}
-式\eqref{}において、 $\theta_{\mathrm{wire}}$ は天球面上におけるワイヤーが作り出す偏光角(絶対角度)である。
+式\eqref{eq:wiregrid_mod}において、 $\theta_{\mathrm{wire}}$ は天球面上におけるワイヤーが作り出す偏光角(絶対角度)である。
 エンコーダはスパースワイヤーグリッドがその平面内において回転したワイヤーの角度(相対角度)を出力するので、
 別の手段を用いてこの平面が天球面上のどこに位置しているかを知る必要がある。
 これを知るために、重力を参照してその平面がどう傾いているのかを出力する2軸の重力参照計を導入する。
@@ -171,7 +172,7 @@ $\theta_{\mathrm{enc}0}$ は実験室にて測られるエンコーダの零点�
 重力参照計が出力する角度の精度は、$\theta_{\mathrm{sens}}$ の誤差として現れる。
 これまで、Digi-Pas 社製の DWL5000-XY という製品の使用を予定されていたが、先行研究\cite{swg:iijima}にてその精度を欠き、
 SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ を満たさないことが示された。
-この研究結果を受け、新たに Sherborne 社製の DSIC-205-60 という重力参照計の導入を予定している。
+この研究結果を受け、新たに Sherborne 社製の DSIC-2051-60 という重力参照計の導入を予定している。
 この新しい重力参照計の精度の検証を、\ref{chap:tiltsensor}章にて行う。
 
 \subsection{ワイヤーのたわみに伴う系統誤差}
