@@ -48,11 +48,11 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 そこで、本装置ではワイヤーの回転と観測・較正の切り替えを自動で行う機構が開発・搭載され、10分程度での較正が実現されている。
 本節では、スパースワイヤーグリッド本体の設計に加え、この自動化機構について述べる。
 \subsection{スパースワイヤーグリッドの設計}
-スパースワイヤーグリッドの外観を図\ref{fig:wiregrid_appearance}に示す。
+スパースワイヤーグリッドの概観を図\ref{fig:wiregrid_appearance}に示す。
 これは金属製のワイヤーを、入射光よりも十分長い間隔で平行に張ったものであり、ワイヤー軸に沿った偏光を生成する。
 SOではアルミニウム製の内径$\SI{790}{mm}$、外径 $\SI{830}{mm}$ の円環に、直径 $\SI{0.1}{mm}$ の
 タングステンワイヤーを $\SI{20}{mm}$ 間隔で $39$ 本張り巡らせたものを使用する\cite{swg:murata}。
-\begin{figure}[tbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{wiregrid/wiregrid_appearance.pdf}
     \caption[スパースワイヤーグリッド本体の外観]{スパースワイヤーグリッド本体の概観}
@@ -62,7 +62,7 @@ SOではアルミニウム製の内径$\SI{790}{mm}$、外径 $\SI{830}{mm}$ の
 \subsection{回転機構}
 Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使用し、スパースワイヤーグリッドを回転させる。
 図\ref{fig:rotation_parts}に回転機構の概観を示す。
-回転角度は RENISHAW 社製の LM15IC という磁気エンコーダを用いて測定されており、$0.003\tcdegree$ の精度で常にモニターされる。
+回転角度は RENISHAW 社製の LM15IC という $0.004\tcdegree$ の分解能を持つ磁気エンコーダを用いて測定されており、$0.03\tcdegree$ の精度で常にモニターされる。
 モニターされた角度を用いてDCモーターへの電流を制御するシステムが開発されており、
 これによりスパースワイヤーグリッドを$\order{1\tcdegree}$ の精度で $22.5\tcdegree$ ずつ回転させ、較正円を描く\cite{swg:nakata}。
 \begin{figure}[H]
@@ -101,8 +101,12 @@ $\alpha,\,\beta$ は重力参照計が測定する角度であり、$x',\,y'$ �
 と表される\cite{}。
 図\ref{fig:abs_angle}(\subref{fig:abs_angle_WG_plane})にスパースワイヤーグリッド平面における各種測定角度と、
 ワイヤーの絶対角度 $\theta_{\mathrm{wire}}$ の関係を示す。
-$\theta_{\mathrm{enc}}$ はエンコーダによって測定された
-
+$\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であり、$\theta_{\mathrm{enc}0}$ はエンコーダの零点と $x'$ 軸のなす角である。
+以上を用いることで、絶対角度は
+\begin{equation}
+    \theta_{\mathrm{wire}} = \theta_{\mathrm{enc}} + \theta_{\mathrm{enc}0} + \theta_{\mathrm{sens}}
+\end{equation}
+と測定される。
 \begin{figure}[tbp]
     \begin{minipage}[b]{0.48\columnwidth}
         \centering
@@ -125,10 +129,19 @@ $\theta_{\mathrm{enc}}$ はエンコーダによって測定された
 SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ を満たさないことが示された。
 この研究結果を受け、新たに Sherborne 社製の DSIC-205-60 という重力参照計の導入を予定している。
 \ref{}にて、その精度を議論する。
+\section{系統誤差}
+本節では、ワイヤーの絶対角度を測定するにあたって考えられる系統誤差の要因と、過去に測定されたその値について述べる。
+\subsection{ワイヤーの}
+\subsection{エンコーダの測定精度に伴う系統誤差}
+\ref{}にて述べた磁気エンコーダが行う回転角度 $\theta_{\mathrm{enc}}$ の測定において、
+磁気エンコーダ自体の角度分解能は $0.004\tcdegree$ に相当する。
+しかし、回転機構のベアリングのステーターと巻きつけられた磁気テープの中心が完全に一致しない偏心の影響や、
+磁気テープが巻き付けられる回転部分の金属部品が工作精度の下で楕円に歪むことの影響を受け、
+$\theta_{\mathrm{enc}}$ の精度は必ずしも $0.004\tcdegree$ になるとは限らない。
+先行研究~\cite{swg:iijima}では Faro 社製の3次元測定器 Faro Edge を用いてこの精度を確認し、
+その精度として $0.03\tcdegree$ を得ている。
+\subsection{ワイヤーのたわみに伴う系統誤差}
 
-
-
-\section{系統誤差要素}
 
 
 
