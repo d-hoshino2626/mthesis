@@ -75,9 +75,19 @@ J.~A. Sobrin, A.~J. Anderson, A.~N. Bender, B.~A. Benson, D.~Dutcher, A.~Foster,
 \newblock {The Design and Integrated Performance of SPT-3G}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 258(2):42, feb 2022.
 
+\bibitem{swg:murata}
+村田雅彬.
+\newblock {Simons Observatory 実験のためのスパースワイヤーグリッドを用いた偏光較正装置の開発 (Development of the sparse wire grid polarization calibrator for Simons Observatory experiment)}.
+\newblock 修士論文, 2021.
+
 \bibitem{swg:nakata}
 中田嘉信.
 \newblock {CMB偏光の精密観測にむけた遠隔較正システムSparse Wire Grid Calibratorの開発研究}.
 \newblock 修士論文, 2022.
+
+\bibitem{swg:iijima}
+飯島健五.
+\newblock {Simons Observatory 実験に用いる偏光角度較正手法の開発と性能評価(Development and characterization of a method for polarization-angle calibration for Simons Observatory experiment)}.
+\newblock 修士論文, 2023.
 
 \end{thebibliography}

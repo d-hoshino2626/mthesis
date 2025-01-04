@@ -992,6 +992,21 @@ INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT ./fig//wiregrid/rotation_parts.pdf
 INPUT ./fig//wiregrid/rotation_parts.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/rotation_parts.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT ./fig//wiregrid/abs_angle_overview.pdf
+INPUT ./fig//wiregrid/abs_angle_overview.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/abs_angle_overview.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ./fig//wiregrid/abs_angle_WG_plane.pdf
+INPUT ./fig//wiregrid/abs_angle_WG_plane.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/abs_angle_WG_plane.pdf
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
@@ -1027,14 +1042,6 @@ INPUT ./sub/acknowledgement/acknowledgement.tex
 INPUT ./sub/acknowledgement/acknowledgement.tex
 INPUT ./sub/acknowledgement/acknowledgement.tex
 INPUT ./sub/acknowledgement/acknowledgement.tex
-INPUT .tex_intermediates/main.lot
-INPUT .tex_intermediates/main.lot
-INPUT .tex_intermediates/main.lot
-OUTPUT .tex_intermediates/main.lot
-INPUT .tex_intermediates/main.lof
-INPUT .tex_intermediates/main.lof
-INPUT .tex_intermediates/main.lof
-OUTPUT .tex_intermediates/main.lof
 INPUT .tex_intermediates/main.bbl
 INPUT .tex_intermediates/main.bbl
 INPUT .tex_intermediates/main.bbl
