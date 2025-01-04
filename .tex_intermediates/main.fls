@@ -995,6 +995,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT ./fig//wiregrid/wire_detail_view.pdf
 INPUT ./fig//wiregrid/wire_detail_view.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_detail_view.pdf
+INPUT ./fig//wiregrid/wire_attachment.pdf
+INPUT ./fig//wiregrid/wire_attachment.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_attachment.pdf
 INPUT ./fig//wiregrid/rotation_parts.pdf
 INPUT ./fig//wiregrid/rotation_parts.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/rotation_parts.pdf

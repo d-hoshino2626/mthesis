@@ -48,7 +48,7 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 そこで、本装置ではワイヤーの回転と観測・較正の切り替えを自動で行う機構が開発・搭載され、10分程度での較正が実現されている。
 本節では、スパースワイヤーグリッド本体の設計に加え、この自動化機構について述べる。
 \subsection{スパースワイヤーグリッドの設計}
-スパースワイヤーグリッドの概観を図\ref{fig:wiregrid_appearance}に示す。
+スパースワイヤーグリッドの概観を図\ref{fig:swg}(\subref{fig:wiregrid_appearance})に示す。
 これは金属製のワイヤーを、入射光よりも十分長い間隔で平行に張ったものであり、ワイヤー軸に沿った偏光を生成する。
 SOではアルミニウム製の内径$\SI{790}{mm}$、外径 $\SI{830}{mm}$ の円環に、直径 $\SI{0.1}{mm}$ の
 タングステンワイヤーを $\SI{20}{mm}$ 間隔で $39$ 本張り巡らせたものを使用する\cite{swg:murata}。
@@ -57,6 +57,7 @@ SOではアルミニウム製の内径$\SI{790}{mm}$、外径 $\SI{830}{mm}$ の
 $\SI{230}{g}$ の重りをワイヤーにくくりつけることでピンと張った状態にし、この溝の上にワイヤーが沿うように設置したのち、
 Henkel 社製 の LOCTITE STYUCAST 2850FTJ という接着剤を用いて固定する。
 接着剤による固定部分はサンドブラストされたネジ頭となっており、このネジを取り替えることで接着後であってもワイヤーを張り直すことができるようになっている。
+図\ref{fig:swg}(\subref{fig:wire_detail_view})にワイヤー接着部分の詳細を示す。
 \begin{figure}[H]
     \begin{minipage}[b]{0.48\columnwidth}
         \centering
@@ -71,16 +72,19 @@ Henkel 社製 の LOCTITE STYUCAST 2850FTJ という接着剤を用いて固定�
         \subcaption{}
         \label{fig:wire_detail_view}
     \end{minipage}
-    \caption{(\subref{fig:wiregrid_appearance})スパースワイヤーグリッドの概観 (\subref{fig:wire_detail_view})ワイヤー接着部分の詳細}
-    \label{fig:abs_angle}
+    \caption{(\subref{fig:wiregrid_appearance})スパースワイヤーグリッドの概観~\cite{swg:Murata_2023}\ (\subref{fig:wire_detail_view})ワイヤー接着部分の詳細}
+    \label{fig:swg}
 \end{figure}
-\begin{figure}
-    
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiregrid/wire_attachment.pdf}
+    \caption[ワイヤーを張るときの様子]{ワイヤーを張るときの様子。ワイヤーの両端に $\SI{230}{g}$ の重りをつけ、張力をかけている。}
+    \label{fig:wire_attachment}
 \end{figure}
 \subsection{回転機構}
 Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使用し、スパースワイヤーグリッドを回転させる。
 図\ref{fig:rotation_parts}に回転機構の概観を示す。
-回転角度は RENISHAW 社製の LM15IC という $0.004\tcdegree$ の分解能を持つ磁気エンコーダを用いて測定されており、$0.03\tcdegree$ の精度で常にモニターされる。
+回転角度は RENISHAW 社製の LM15IC という角度にして $0.004\tcdegree$ の分解能を持つ磁気エンコーダを用いて測定されており、$0.03\tcdegree$ の精度で常にモニターされる。
 モニターされた角度を用いてDCモーターへの電流を制御するシステムが開発されており、
 これによりスパースワイヤーグリッドを$\order{1\tcdegree}$ の精度で $22.5\tcdegree$ ずつ回転させ、較正円を描く\cite{swg:nakata}。
 \begin{figure}[H]
@@ -108,7 +112,7 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
 これを知るために、重力を参照してその平面がどう傾いているのかを出力する2軸の重力参照計を導入する。
 ここでは、絶対角度がどのように測られるかについて述べる。
 
-図\ref{fig:abs_angle}(\ref{fig:abs_angle_overview})のように各種平面、角度を定義する。$xy$ 平面として重力に対して垂直な平面を取り、$z$ 軸負の方向が重力方向となるように座標系を取る。
+図\ref{fig:abs_angle}(\subref{fig:abs_angle_overview})のように各種平面、角度を定義する。$xy$ 平面として重力に対して垂直な平面を取り、$z$ 軸負の方向が重力方向となるように座標系を取る。
 図中に円環として描かれているのがスパースワイヤーグリッドであり、重力参照計が持つ2軸を $x',\,y'$ 軸とする。
 $\alpha,\,\beta$ は重力参照計が測定する角度であり、$x',\,y'$ 軸が $xy$ 平面となす角度である。
 図中にある horizontal line とは、$xy$ 平面と $x',\,y'$ 平面が交わる直線である。
@@ -116,7 +120,7 @@ $\alpha,\,\beta$ は重力参照計が測定する角度であり、$x',\,y'$ �
 \begin{equation}
     \theta_{\mathrm{sens}} = \arctan\qty(\dfrac{\sin\alpha}{\sin\beta})
 \end{equation}
-と表される\cite{}。
+と表される\cite{swg:Murata_2023}。
 図\ref{fig:abs_angle}(\subref{fig:abs_angle_WG_plane})にスパースワイヤーグリッド平面における各種測定角度と、
 ワイヤーの絶対角度 $\theta_{\mathrm{wire}}$ の関係を示す。
 $\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であり、$\theta_{\mathrm{enc}0}$ はエンコーダの零点と $x'$ 軸のなす角である。
@@ -143,14 +147,13 @@ $\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であ�
     \label{fig:abs_angle}
 \end{figure}
 
-これまで、Digi-Pas 社製の DWL5000-XY という製品の使用を予定されていたが、先行研究\cite{swg:iijima}にてその精度を欠き、
-SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ を満たさないことが示された。
-この研究結果を受け、新たに Sherborne 社製の DSIC-205-60 という重力参照計の導入を予定している。
-\ref{}にて、その精度を議論する。
 \section{系統誤差}
 本節では、ワイヤーの絶対角度を測定するにあたって考えられる系統誤差の要因と、過去に測定されたその値について述べる。
-\subsection{ワイヤーの設置精度に伴う系統誤差}
 
+\subsection{ワイヤーの設置精度に伴う系統誤差}
+ワイヤーは $\SI{0.2}{mm}$ の溝に沿うような形で設置される。
+この範囲でのみワイヤーは動くと考えると、アルミニウムリングの中心部では $0.02\tcdegree$ の精度でワイヤーを張ることが可能である。
+この系統誤差は機械工作精度によって決まっている。
 \subsection{エンコーダの測定精度に伴う系統誤差}
 \ref{}にて述べた磁気エンコーダが行う回転角度 $\theta_{\mathrm{enc}}$ の測定において、
 磁気エンコーダ自体の角度分解能は $0.004\tcdegree$ に相当する。
@@ -159,9 +162,18 @@ SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ �
 $\theta_{\mathrm{enc}}$ の精度は必ずしも $0.004\tcdegree$ になるとは限らない。
 先行研究~\cite{swg:iijima}では Faro 社製の3次元測定器 Faro Edge を用いてこの精度を確認し、
 その精度として $0.03\tcdegree$ を得ている。
+\subsection{エンコーダの零点測定に伴う系統誤差}
+$\theta_{\mathrm{enc}0}$ は実験室にて測られるエンコーダの零点である。
+ワイヤーの絶対角度が $\theta_{\mathrm{wire}} = 0\tcdegree$ となった状態で $\theta_{\mathrm{enc}}$ と $\theta_{\mathrm{sens}}$ を測定することで決定され、
+その精度は $0.03\tcdegree$ と測定されている~\cite{swg:iijima}。
+
+\subsection{重力参照計の精度に伴う系統誤差}
+重力参照計が出力する角度の精度は、$\theta_{\mathrm{sens}}$ の誤差として現れる。
+これまで、Digi-Pas 社製の DWL5000-XY という製品の使用を予定されていたが、先行研究\cite{swg:iijima}にてその精度を欠き、
+SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ を満たさないことが示された。
+この研究結果を受け、新たに Sherborne 社製の DSIC-205-60 という重力参照計の導入を予定している。
+この新しい重力参照計の精度の検証を、\ref{chap:tiltsensor}章にて行う。
+
 \subsection{ワイヤーのたわみに伴う系統誤差}
-
-
-
 
 \end{document}
