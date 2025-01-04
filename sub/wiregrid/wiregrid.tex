@@ -97,13 +97,17 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
 \subsection{切り替え機構}
 本較正装置ではCMB観測モードと較正モードの切り替えを2本のアクチュエータによって
 スパースワイヤーグリッドを出し入れすることで実現している。
-図\ref{}に切り替え機構の概観を示す。
+図\ref{fig:gridloader}に切り替え機構の概観を示す。
 アクチュエータのモーターには Oriental motor 社製の PK269JDA という2相式ステッピングモーターを使用しており、
 アクチュエータの両端にあるリミットスイッチによりスパースワイヤーグリッドが端まで移動したことを認識、動作を止める。
 本機構によるスパースワイヤーグリッドの出し入れは片道で $90$ 秒程度となっており、CMB観測の時間を無駄にすることなく較正を行うことに貢献している\cite{swg:nakata}。
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \caption[スパースワイヤーグリッドに搭載された切り替え機構の概観]{スパースワイヤーグリッドに搭載された切り替え機構の概観}
+    \includegraphics[width=0.8\textwidth]{wiregrid/wiregrid_actuator.pdf}
+    \caption[スパースワイヤーグリッドに搭載された切り替え機構の概観]{スパースワイヤーグリッドに搭載された切り替え機構の概観。
+    上図が観測サイトにインストールされた較正装置であり、オレンジの線で囲んだ部分の詳細を下図に示している。
+    \colortext{blue}{初見で分かりにくい図な気がしている。もう少しまともな図を作りたい。}
+    }
     \label{fig:gridloader}
 \end{figure}
 \subsection{重力参照計を用いた $\theta_{\mathrm{wire}}$ の測定}
@@ -176,5 +180,8 @@ SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ �
 この新しい重力参照計の精度の検証を、\ref{chap:tiltsensor}章にて行う。
 
 \subsection{ワイヤーのたわみに伴う系統誤差}
+ワイヤーがたわんでいると、
+ワイヤーは $\SI{230}{g}$ の重りをつけて張力をかけているが、実際にその通りの張力がかかっているとは限らない。
+
 
 \end{document}

@@ -976,6 +976,9 @@ INPUT extractbb -B cropbox -O ../../fig//wiregrid/wire_attachment.pdf
 INPUT ../../fig//wiregrid/rotation_parts.pdf
 INPUT ../../fig//wiregrid/rotation_parts.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/rotation_parts.pdf
+INPUT ../../fig//wiregrid/wiregrid_actuator.pdf
+INPUT ../../fig//wiregrid/wiregrid_actuator.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_actuator.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
