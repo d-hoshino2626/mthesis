@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  27 DEC 2024 22:33
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  5 JAN 2025 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -448,229 +448,43 @@ Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 \symboldmincho=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count323
- (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathcomp/mathcomp.sty
+Package: mathcomp 2001/01/07 v0.1f (TBo)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-\c@tabx@nest=\count324
-\c@listtotal=\count325
-\c@listcount=\count326
-\c@liststart=\count327
-\c@liststop=\count328
-\c@citecount=\count329
-\c@citetotal=\count330
-\c@multicitecount=\count331
-\c@multicitetotal=\count332
-\c@instcount=\count333
-\c@maxnames=\count334
-\c@minnames=\count335
-\c@maxitems=\count336
-\c@minitems=\count337
-\c@citecounter=\count338
-\c@maxcitecounter=\count339
-\c@savedcitecounter=\count340
-\c@uniquelist=\count341
-\c@uniquename=\count342
-\c@refsection=\count343
-\c@refsegment=\count344
-\c@maxextratitle=\count345
-\c@maxextratitleyear=\count346
-\c@maxextraname=\count347
-\c@maxextradate=\count348
-\c@maxextraalpha=\count349
-\c@abbrvpenalty=\count350
-\c@highnamepenalty=\count351
-\c@lownamepenalty=\count352
-\c@maxparens=\count353
-\c@parenlevel=\count354
-\blx@tempcnta=\count355
-\blx@tempcntb=\count356
-\blx@tempcntc=\count357
-\c@blx@maxsection=\count358
-\blx@maxsegment@0=\count359
-\blx@notetype=\count360
-\blx@parenlevel@text=\count361
-\blx@parenlevel@foot=\count362
-\blx@sectionciteorder@0=\count363
-\blx@sectionciteorderinternal@0=\count364
-\blx@entrysetcounter=\count365
-\blx@biblioinstance=\count366
-\labelnumberwidth=\skip70
-\labelalphawidth=\skip71
-\biblabelsep=\skip72
-\bibitemsep=\skip73
-\bibnamesep=\skip74
-\bibinitsep=\skip75
-\bibparsep=\skip76
-\bibhang=\skip77
-\blx@bcfin=\read2
-\blx@bcfout=\write3
-\blx@langwohyphens=\language87
-\c@mincomprange=\count367
-\c@maxcomprange=\count368
-\c@mincompwidth=\count369
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+\symTC=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `TC' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 48.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip70
+\multirow@cntb=\count323
+\multirow@dima=\skip71
+\bigstrutjot=\dimen270
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count370
-\c@savedafterword=\count371
-\c@annotator=\count372
-\c@savedannotator=\count373
-\c@author=\count374
-\c@savedauthor=\count375
-\c@bookauthor=\count376
-\c@savedbookauthor=\count377
-\c@commentator=\count378
-\c@savedcommentator=\count379
-\c@editor=\count380
-\c@savededitor=\count381
-\c@editora=\count382
-\c@savededitora=\count383
-\c@editorb=\count384
-\c@savededitorb=\count385
-\c@editorc=\count386
-\c@savededitorc=\count387
-\c@foreword=\count388
-\c@savedforeword=\count389
-\c@holder=\count390
-\c@savedholder=\count391
-\c@introduction=\count392
-\c@savedintroduction=\count393
-\c@namea=\count394
-\c@savednamea=\count395
-\c@nameb=\count396
-\c@savednameb=\count397
-\c@namec=\count398
-\c@savednamec=\count399
-\c@translator=\count400
-\c@savedtranslator=\count401
-\c@shortauthor=\count402
-\c@savedshortauthor=\count403
-\c@shorteditor=\count404
-\c@savedshorteditor=\count405
-\c@labelname=\count406
-\c@savedlabelname=\count407
-\c@institution=\count408
-\c@savedinstitution=\count409
-\c@lista=\count410
-\c@savedlista=\count411
-\c@listb=\count412
-\c@savedlistb=\count413
-\c@listc=\count414
-\c@savedlistc=\count415
-\c@listd=\count416
-\c@savedlistd=\count417
-\c@liste=\count418
-\c@savedliste=\count419
-\c@listf=\count420
-\c@savedlistf=\count421
-\c@location=\count422
-\c@savedlocation=\count423
-\c@organization=\count424
-\c@savedorganization=\count425
-\c@origlocation=\count426
-\c@savedoriglocation=\count427
-\c@origpublisher=\count428
-\c@savedorigpublisher=\count429
-\c@publisher=\count430
-\c@savedpublisher=\count431
-\c@language=\count432
-\c@savedlanguage=\count433
-\c@origlanguage=\count434
-\c@savedoriglanguage=\count435
-\c@pageref=\count436
-\c@savedpageref=\count437
-\shorthandwidth=\skip78
-\shortjournalwidth=\skip79
-\shortserieswidth=\skip80
-\shorttitlewidth=\skip81
-\shortauthorwidth=\skip82
-\shorteditorwidth=\skip83
-\locallabelnumberwidth=\skip84
-\locallabelalphawidth=\skip85
-\localshorthandwidth=\skip86
-\localshortjournalwidth=\skip87
-\localshortserieswidth=\skip88
-\localshorttitlewidth=\skip89
-\localshortauthorwidth=\skip90
-\localshorteditorwidth=\skip91
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+Package xcolor Info: Driver file: dvips.def on input line 227.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count438
-\c@textcitetotal=\count439
-\c@textcitemaxnames=\count440
-\c@biburlbigbreakpenalty=\count441
-\c@biburlbreakpenalty=\count442
-\c@biburlnumpenalty=\count443
-\c@biburlucpenalty=\count444
-\c@biburllcpenalty=\count445
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count446
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count447
-\c@bbx:relatedtotal=\count448
+LaTeX Info: Redefining \cite on input line 56.
 ))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2023-03-30 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-))))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
-\@quotelevel=\count449
-\@quotereset=\count450
  (.tex_intermediates/wiresag.aux)
 \openout1 = `wiresag.aux'.
 
@@ -698,18 +512,10 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 Package hyperref Info: Link coloring OFF on input line 6.
  (.tex_intermediates/wiresag.out) (.tex_intermediates/wiresag.out)
-\@outlinefile=\write4
-\openout4 = `wiresag.out'.
+\@outlinefile=\write3
+\openout3 = `wiresag.out'.
 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: dvipdfmx.def on input line 149.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -728,21 +534,6 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `wiresag.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'wiresag.bbl' found.
- (.tex_intermediates/wiresag.bbl)
-Package biblatex Info: Reference section=0 on input line 6.
-Package biblatex Info: Reference segment=0 on input line 6.
 
 第 1 章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
@@ -758,38 +549,31 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 8.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 11.
+(Font)              scaled to size 13.85594pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 11.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 11.
+(Font)              scaled to size 13.85594pt on input line 12.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 11.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 11.
+(Font)              scaled to size 13.85594pt on input line 12.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 11.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 11.
-
+(Font)              scaled to size 13.85594pt on input line 12.
 [1
 
 
 ] (.tex_intermediates/wiresag.aux)
 Package rerunfilecheck Info: File `wiresag.out' has not changed.
-(rerunfilecheck)             Checksum: 96ABC7AF9FD8CDED08692A166542EA57;1253.
-Package logreq Info: Writing requests to 'wiresag.run.xml'.
-\openout1 = `wiresag.run.xml'.
-
+(rerunfilecheck)             Checksum: 5A5A51E5D1C842B64F820EB39D71AABB;1150.
  ) 
 Here is how much of TeX's memory you used:
- 23852 strings out of 476677
- 467874 string characters out of 5804957
- 1847490 words of memory out of 5000000
- 44071 multiletter control sequences out of 15000+600000
- 548300 words of font info for 64 fonts, out of 8000000 for 9000
+ 17386 strings out of 476677
+ 334857 string characters out of 5804957
+ 1846490 words of memory out of 5000000
+ 37642 multiletter control sequences out of 15000+600000
+ 548874 words of font info for 68 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,5n,94p,1132b,953s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,5n,94p,358b,955s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (1 page, 3076 bytes).
+Output written on .tex_intermediates/wiresag.dvi (1 page, 3028 bytes).
