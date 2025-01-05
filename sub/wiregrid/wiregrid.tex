@@ -88,12 +88,6 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
 回転角度は RENISHAW 社製の LM15IC という角度にして $0.004\tcdegree$ の分解能を持つ磁気エンコーダを用いて測定されており、$0.03\tcdegree$ の精度で常にモニターされる。
 モニターされた角度を用いてDCモーターへの電流を制御するシステムが開発されており、
 これによりスパースワイヤーグリッドを$\order{1\tcdegree}$ の精度で $22.5\tcdegree$ ずつ回転させ、較正円を描く\cite{swg:nakata}。
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/rotation_parts.pdf}
-    \caption{スパースワイヤーグリッドに搭載された回転機構の概観}
-    \label{fig:rotation_parts}
-\end{figure}
 \subsection{切り替え機構}
 本較正装置ではCMB観測モードと較正モードの切り替えを2本のアクチュエータによって
 スパースワイヤーグリッドを出し入れすることで実現している。
@@ -103,10 +97,16 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
 本機構によるスパースワイヤーグリッドの出し入れは片道で $90$ 秒程度となっており、CMB観測の時間を無駄にすることなく較正を行うことに貢献している\cite{swg:nakata}。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wiregrid_actuator.pdf}
+    \includegraphics[width=0.65\textwidth]{wiregrid/rotation_parts.pdf}
+    \caption{スパースワイヤーグリッドに搭載された回転機構の概観}
+    \label{fig:rotation_parts}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\textwidth]{wiregrid/wiregrid_actuator.pdf}
     \caption[スパースワイヤーグリッドに搭載された切り替え機構の概観]{スパースワイヤーグリッドに搭載された切り替え機構の概観。
     上図が観測サイトにインストールされた較正装置であり、オレンジの線で囲んだ部分の詳細を下図に示している。
-    \colortext{blue}{初見で分かりにくい図な気がしている。もう少しまともな図を作りたい。}
+    \colortext{blue}{初見で分かりにくい？もう少しまともな図を作りたい。}
     }
     \label{fig:gridloader}
 \end{figure}
@@ -243,8 +243,10 @@ SOにおいて要求される絶対角度較正精度は $\delta\theta < 0.1\tcd
 新たに Sherborne 社製の DSIC-2051-60 という重力参照計の導入を予定している。
 この新しい重力参照計の精度の検証を、\ref{chap:tiltsensor}章にて行う。
 
-ワイヤーのたわみに関しては写真の撮影箇所が両端と中心のみと少ないことや、撮影箇所を人が決めていることに起因するバイアスが含まれている可能性がある。
-また、
+次点で系統誤差を生んでいるワイヤーのたわみに関しては、写真の撮影箇所が両端と中心のみと少ないことや、
+撮影箇所を人が決めていることに起因するバイアスが含まれている可能性がある。
+さらに、観測サイトにおける品質管理の面を考えると、定期的に測定できるようなシステムの開発が望まれる。
+こういった状況を受け、より正確にワイヤーのたわみ量を評価する手法と、その自動化手法について\ref{chap:wiresag}にて論ずる。
 
 \begin{table}[H]
     \centering
