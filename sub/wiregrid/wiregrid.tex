@@ -153,8 +153,8 @@ $\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であ�
 \end{figure}
 
 \section{系統誤差}
-本節では、ワイヤーの絶対角度を測定するにあたって考えられる系統誤差の要因と、過去に測定されたその値について述べる。
-
+本節では、ワイヤーの絶対角度を測定するにあたって考えられる系統誤差の要因と、先行研究によって評価されたその値について述べる。
+その後、評価を見直すべき点をまとめ、本論文の位置付けについて述べる。
 \subsection{ワイヤーの設置精度に伴う系統誤差}
 ワイヤーは $\SI{0.2}{mm}$ の溝に沿うような形で設置される。
 この範囲でのみワイヤーは動くと考えると、アルミニウムリングの中心部では $0.02\tcdegree$ の精度でワイヤーを張ることが可能である。
@@ -170,29 +170,100 @@ $\theta_{\mathrm{enc}}$ の精度は必ずしも $0.004\tcdegree$ になると�
 \subsection{エンコーダの零点測定に伴う系統誤差}
 $\theta_{\mathrm{enc}0}$ は実験室にて測られるエンコーダの零点である。
 ワイヤーの絶対角度が $\theta_{\mathrm{wire}} = 0\tcdegree$ となった状態で $\theta_{\mathrm{enc}}$ と $\theta_{\mathrm{sens}}$ を測定することで決定され、
-その精度は $0.03\tcdegree$ と測定されている~\cite{swg:iijima}。
-
+その精度は $0.04\tcdegree$ と測定されている~\cite{swg:iijima}。\\
 \colortext{blue}{もう少し測定方法について述べるべきだろうか？}
 
 \subsection{重力参照計の精度に伴う系統誤差}
 重力参照計が出力する角度の精度は、$\theta_{\mathrm{sens}}$ の誤差として現れる。
 これまで、Digi-Pas 社製の DWL5000-XY という製品の使用を予定されていたが、先行研究\cite{swg:iijima}にてその精度を欠き、
 SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ を満たさないことが示された。
-この研究結果を受け、新たに Sherborne 社製の DSIC-2051-60 という重力参照計の導入を予定している。
-この新しい重力参照計の精度の検証を、\ref{chap:tiltsensor}章にて行う。
 
 \subsection{ワイヤーのたわみに伴う系統誤差}
 較正に使う光はワイヤーに沿う形で生成されるため、ワイヤーがたわんでいる部分から生成される光はその偏光角が
 ワイヤーの絶対角度 $\theta_{\mathrm{wire}}$ からずれてしまい、系統誤差になる。
-本項では、先行研究\cite{swg:murata}にて行われているワイヤーのたわみ量の評価について述べる。
+本項では、先行研究\cite{swg:murata}および\cite{swg:iijima}にて行われているワイヤーのたわみ量の評価について述べる。
 
-先行研究ではスパースワイヤーグリッドを重力に対して垂直な水平面上に起き、その上にストレートエッジと呼ばれる
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_setup_old.pdf}
+    \caption{先行研究におけるワイヤーのたわみ量評価系のセットアップ\cite{swg:murata}}
+    \label{fig:wiresag_setup_old}
+\end{figure}
+\begin{table}[H]
+    \centering
+    \caption{たわみ量評価における各種パラメータの定義}
+    \begin{tabular}{|c|c|}
+        \hline
+        パラメータ & 定義 \\
+        \hline
+        $L$ & アルミニウムリング上面からカメラまでの鉛直距離 \\
+        $\phi$ & ストレートエッジの下端を見るカメラの視線がリング上面となす角 \\
+        $\alpha$ & ストレートエッジからワイヤーまでの水平距離 \\
+        $\beta$ & カメラからワイヤーまでの水平距離 \\
+        $z_{\mathrm{s}}$ & ストレートエッジの真直度 \\
+        $z$ & ワイヤーのたわみ量 \\
+        $z'$ & カメラで撮影した画像から測定されるストレートエッジとワイヤーの距離 \\
+        \hline
+    \end{tabular}
+    \label{tab:wiresag_setup_old}
+\end{table}
+スパースワイヤーグリッドを重力に対して垂直な水平面上に置き、その上に十分な真直度が保証されたストレートエッジを置く。
+ストレートエッジの位置をワイヤーの近くに調節し、横からカメラで撮影すると、撮影された画像におけるストレートエッジとワイヤーの間の距離 $z'$ を測定できる。
+セットアップの概念図を図\ref{fig:wiresag_setup_old}に示す。
+使用されたストレートエッジは大西測定株式会社製の 140-1000B であり、このストレートエッジは真直度A級 $\SI{30}{\mu m}$ が保証されている。
+各種パラメータを表\ref{tab:wiresag_setup_old}のように定義すると、$z'$ と実際のワイヤーのたわみ $z$ の間の関係は
+\begin{align}
+    z &= \dfrac{z'}{\cos\phi} - \alpha\tan\phi - z_{\mathrm{s}} \\
+    \phi &= \arctan\qty(\dfrac{L}{\alpha+\beta})
+\end{align}
+となる。
 
-ワイヤーは $\SI{230}{g}$ の重りをつけて張力をかけており、
+写真はワイヤーの中央と両端の3箇所で撮影された。
+両端で測定される $z$ はたわみのオフセットであり、中央で測定された $z$ からこのオフセットを差し引いたものが正味のたわみ量として測定された。
+また、ストレートエッジにはスケーラを貼り付けており、スケーラの目盛が写真のpixel数にしていくつなのかを測ることで
+$\SI{1}{pixel}$ が何\,$\mathrm{mm}$ に対応するのか較正している。
 
+実際に撮影された写真を図\ref{fig:wiresag_picture_old}に示す。
+撮影された写真に対して、先行研究\cite{swg:murata}では画像寸法測定ツール「Click Measure」を用いて手動で、
+\cite{swg:iijima}ではOpenCVライブラリを用いて二値化して、検出したストレートエッジの端とワイヤーの中心位置の距離を算出し、
+ワイヤーのたわみ量を $\theta_{\mathrm{sag}} < 0.05\tcdegree$ と評価している。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_picture_old.pdf}
+    \caption{ワイヤーのたわみ量評価の撮影された写真の例。}
+    \label{fig:wiresag_picture_old}
+\end{figure}
 \subsection{系統誤差のまとめと本論文の位置付け}
-表\ref{}に、先行研究において調べられた系統誤差の結果をまとめる。
+表\ref{tab:systematic_errors_old}に、先行研究において調べられた系統誤差の結果をまとめる。
+SOにおいて要求される絶対角度較正精度は $\delta\theta < 0.1\tcdegree$ であるが、
+表\ref{tab:systematic_errors_old}中の評価値はこれを満たしていない。
 
+特に問題となるのが重力参照計の精度である。要求精度を満たすため、
+新たに Sherborne 社製の DSIC-2051-60 という重力参照計の導入を予定している。
+この新しい重力参照計の精度の検証を、\ref{chap:tiltsensor}章にて行う。
+
+ワイヤーのたわみに関しては写真の撮影箇所が両端と中心のみと少ないことや、撮影箇所を人が決めていることに起因するバイアスが含まれている可能性がある。
+また、
+
+\begin{table}[H]
+    \centering
+    \caption{先行研究によって評価された系統誤差}
+    \begin{tabular}{|c|c|}
+        \hline
+        系統誤差要因 & 評価値 \\
+        \hline
+        ワイヤー設置精度 & $< 0.02\tcdegree$ \\
+        エンコーダ精度 & $<0.03\tcdegree$ \\
+        エンコーダ零点 & $<0.04\tcdegree$ \\
+        重力参照計 & $>0.1\tcdegree$ \\
+        ワイヤーのたわみ & $<0.05\tcdegree$ \\
+        \hline
+        合計 & $>0.1\tcdegree$ \\
+        \hline
+    \end{tabular}
+    \label{tab:systematic_errors_old}
+\end{table}
 
 
 \end{document}

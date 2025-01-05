@@ -991,6 +991,12 @@ INPUT extractbb -B cropbox -O ../../fig//wiregrid/abs_angle_overview.pdf
 INPUT ../../fig//wiregrid/abs_angle_WG_plane.pdf
 INPUT ../../fig//wiregrid/abs_angle_WG_plane.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/abs_angle_WG_plane.pdf
+INPUT ../../fig//wiregrid/wiresag_setup_old.pdf
+INPUT ../../fig//wiregrid/wiresag_setup_old.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_setup_old.pdf
+INPUT ../../fig//wiregrid/wiresag_picture_old.pdf
+INPUT ../../fig//wiregrid/wiresag_picture_old.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_picture_old.pdf
 INPUT .tex_intermediates/wiregrid.aux
 INPUT .tex_intermediates/wiregrid.out
 INPUT .tex_intermediates/wiregrid.out
