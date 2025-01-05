@@ -11,24 +11,32 @@ SOでは検出器の偏光角較正のために、人工偏光光源としてス
 \section{偏光信号の生成原理}
 金属製のワイヤーが、周囲から来た入射光を反射することを考える。
 入射光の波長がワイヤーの直径よりも十分に長い場合、ワイヤー中の自由電子はワイヤーに沿う方向のみに動くと見なすことができ、ワイヤーは自身の軸に沿った偏光状態を持つ光のみを反射する。
+図\ref{fig:wire_polarization}に、異なる偏光方向をもつ入射光に対するワイヤーの振る舞いを示す。
 このようなワイヤーを望遠鏡の視野に置くと、ワイヤーは周囲の環境から来る熱放射を反射し、ワイヤー軸と同じ方向に偏光した光を望遠鏡に送り込む。
 実際には望遠鏡は空も視野に含み、無偏光な大気放射、ワイヤーからの偏光信号の重ね合わせが見える。
-\ref{sec:HWP}項にて述べた、回転半波長板という光学素子を用いることで無偏光な大気放射を取り除き、ワイヤーからの偏光信号のみを抽出して偏光角較正に用いる。
+\ref{sec:HWP}項にて述べた、極低温連続回転式半波長板という光学素子を用いることで無偏光な大気放射を取り除き、ワイヤーからの偏光信号のみを抽出して偏光角較正に用いる。
 また、ワイヤー間隔を調整することで実行的な放射温度を調整し、CMB望遠鏡の検出器に入射する光の強度を調整することができる。
-\begin{figure}
-    \begin{minipage}
+\begin{figure}[H]
+    \begin{minipage}[b]{0.48\columnwidth}
         \centering
-        % \includegraphics[draft, width=0.5]{wiregrid/hogehoge.pdf}
+        \includegraphics[width=\columnwidth]{wiregrid/wire_reflect.pdf}
+        \subcaption{}
+        \label{fig:wire_reflect}
     \end{minipage}
-
-    \begin{minipage}
+    \hspace{0.02\columnwidth}
+    \begin{minipage}[b]{0.48\columnwidth}
         \centering
-        \includegraphics{}    
+        \includegraphics[width=\columnwidth]{wiregrid/wire_through.pdf}
+        \subcaption{}
+        \label{fig:wire_through}
     \end{minipage}
     \centering
-    \caption{ワイヤーが作る偏光信号のイメージ}
+    \caption{ワイヤーが作る偏光信号のイメージ。
+             (\subref{fig:wire_reflect})はワイヤーに沿う方向に偏光した光が入射し、周りに散乱する様子。
+             (\subref{fig:wire_through})はワイヤーに対し垂直な方向に偏光した光が反射されることなく通過する様子。
+             }
+    \label{fig:wire_polarization}
 \end{figure}
-
 \section{偏光角較正の原理}
 式\eqref{eq:so-hwp_modulation}において、入射光としてワイヤー由来の偏光角 $\theta_{\mathrm{wire}}$ の直線偏光した光を考える。
 $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ となるため、
@@ -258,13 +266,14 @@ SOにおいて要求される絶対角度較正精度は $\delta\theta < 0.1\tcd
 表\ref{tab:systematic_errors_old}中の評価値はこれを満たしていない。
 
 特に問題となるのが重力参照計の精度である。要求精度を満たすため、
-新たに Sherborne 社製の DSIC-2051-60 という重力参照計の導入を予定している。
+新たに Sherborne Sensors 社製の DSIC-2051-60 という重力参照計の導入を予定している。
 この新しい重力参照計の精度の検証を、\ref{chap:tiltsensor}章にて行う。
 
 次点で系統誤差を生んでいるワイヤーのたわみに関しては、写真の撮影箇所が両端と中心のみと少ないことや、
 撮影箇所を人が決めていることに起因するバイアスが含まれている可能性がある。
 さらに、観測サイトにおける品質管理の面を考えると、定期的に測定できるようなシステムの開発が望まれる。
-こういった状況を受け、より正確にワイヤーのたわみ量を評価する手法と、その自動化手法について\ref{chap:wiresag}にて論ずる。
+こういった状況を受け、より正確にワイヤーのたわみ量を評価する手法と、その自動化手法を確立した。
+\ref{chap:wiresag}章にてこの詳細を論ずる。
 
 \begin{table}[H]
     \centering

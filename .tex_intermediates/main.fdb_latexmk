@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex .tex_intermediates/main"] 1736043444 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1736043451 0
+["bibtex .tex_intermediates/main"] 1736054557 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1736054561 0
   "./refs.bib" 1736006127 27097 2dcdcf03b5bd591cdb38fce0896c360a ""
-  ".tex_intermediates/main.aux" 1736043450 15420 9ebca2d4a93bf90dac13a1580bb4d8c7 "latex"
+  ".tex_intermediates/main.aux" 1736054560 16764 2036da959e9ab3b6fb377ff9a35fa02a "latex"
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   ".tex_intermediates/main.bbl"
   ".tex_intermediates/main.blg"
   (rewritten before read)
-["dvipdf"] 1736043450 "main.dvi" "main.pdf" "main" 1736043451 0
-  "main.dvi" 1736043450 128980 6ac46a012e6300094ac185be65f342e0 "latex"
+["dvipdf"] 1736054560 "main.dvi" "main.pdf" "main" 1736054561 0
+  "main.dvi" 1736054560 131712 fa2114c693223b459acdeed5d7a8a9c5 "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1736043445 "main.tex" "main.dvi" "main" 1736043451 0
-  ".tex_intermediates/main.aux" 1736043450 15420 9ebca2d4a93bf90dac13a1580bb4d8c7 "latex"
-  ".tex_intermediates/main.bbl" 1736043445 16180 84bc5f554e55cab3777f782502ca0804 "bibtex .tex_intermediates/main"
-  ".tex_intermediates/main.out" 1736043450 7649 2a5f81e833e50b1130341a3499704f49 "latex"
-  ".tex_intermediates/main.toc" 1736043450 4892 c597ebbb5018c65ee2027b9036836129 "latex"
+["latex"] 1736054557 "main.tex" "main.dvi" "main" 1736054561 0
+  ".tex_intermediates/main.aux" 1736054560 16764 2036da959e9ab3b6fb377ff9a35fa02a "latex"
+  ".tex_intermediates/main.bbl" 1736054557 16180 84bc5f554e55cab3777f782502ca0804 "bibtex .tex_intermediates/main"
+  ".tex_intermediates/main.out" 1736054560 7586 a1646dc5d2570e691c47ab48a4f1078f "latex"
+  ".tex_intermediates/main.toc" 1736054560 4857 337058f46c47349c6ab5fc62aa9f3974 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -155,6 +155,8 @@
   "fig//wiregrid/rotation_parts.pdf" 1735809903 2449408 504bc9f4363248aeddf2ceb9aa5dc67f ""
   "fig//wiregrid/wire_attachment.pdf" 1736015925 3521102 77035975c8b96d136eeb5db51b26c9bb ""
   "fig//wiregrid/wire_detail_view.pdf" 1736010431 3160784 302b67eb592cdb7e8ffcd8883e3e59dd ""
+  "fig//wiregrid/wire_reflect.pdf" 1736053010 491883 396826954b0d9194e9906648a7572824 ""
+  "fig//wiregrid/wire_through.pdf" 1736053031 344032 515266bb7e49c5905367e6e5bb47418f ""
   "fig//wiregrid/wiregrid_actuator.pdf" 1736019593 2814242 f1b739bda89c268a6f685964c7de0277 ""
   "fig//wiregrid/wiregrid_appearance.pdf" 1735747397 1000562 53a007677c690799e344dda96d63197a ""
   "fig//wiregrid/wiresag_picture_old.pdf" 1736039654 2778040 5a3ac617a7a3fef3e4e4f0bb82b11efa ""
@@ -166,10 +168,10 @@
   "sub/introduction/introduction.tex" 1735023358 170 a00008050058bd2e00b873c8fee5f280 ""
   "sub/simons_observatory/simons_observatory.tex" 1736036960 20196 f2adaf418d6043746e077821ac8e8196 ""
   "sub/summary/summary.tex" 1734771423 143 40dc9340879c969703b802174d3f104c ""
-  "sub/tiltsensor/tiltsensor.tex" 1736043125 417 b533bc85d9021af3d149d098052cdd08 ""
+  "sub/tiltsensor/tiltsensor.tex" 1736054468 698 eee67fd73109b9bfd2ec0081669e8a33 ""
   "sub/title/title.tex" 1734771423 705 fe5e58f2ba15b9f207490cf4eb9a2a2f ""
-  "sub/wiregrid/wiregrid.tex" 1736043408 20652 b9828f07657dcfebda2c933a21b87712 ""
-  "sub/wiresag/wiresag.tex" 1735306431 515 65f71f0382fe0da2725a8aab4a64e17b ""
+  "sub/wiregrid/wiregrid.tex" 1736053946 21847 cdadbc7a41e3b3f3cd88269c411a69b1 ""
+  "sub/wiresag/wiresag.tex" 1736048630 521 b60daf0f64c1d94fddfb158ae9c09004 ""
   (generated)
   ".tex_intermediates/main.aux"
   ".tex_intermediates/main.log"
