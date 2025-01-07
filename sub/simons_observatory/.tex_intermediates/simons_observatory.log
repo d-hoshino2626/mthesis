@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  5 JAN 2025 09:29
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  7 JAN 2025 13:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -692,4 +692,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  92i,22n,94p,440b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/simons_observatory.dvi (6 pages, 36124 bytes).
+Output written on .tex_intermediates/simons_observatory.dvi (6 pages, 36116 bytes).

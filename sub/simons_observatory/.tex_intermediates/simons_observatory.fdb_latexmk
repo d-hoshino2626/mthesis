@@ -1,14 +1,14 @@
 # Fdb version 4
-["dvipdf"] 1736036963 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1736036964 0
-  "simons_observatory.dvi" 1736036963 36124 c9c9a4a7d4ae9bbf5578a572c839abda "latex"
+["dvipdf"] 1736224198 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1736224198 0
+  "simons_observatory.dvi" 1736224198 36116 9792224a83f679bce098a9f622d3f52f "latex"
   (generated)
   "simons_observatory.pdf"
   (rewritten before read)
-["latex"] 1736036961 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1736036964 0
+["latex"] 1736224196 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1736224198 0
   "../../fig//simons_observatory/hwp_satoru.pdf" 1735004181 806394 963a34679832e498b41dc5260657a8f8 ""
   "../../main.tex" 1735999817 3010 b8a841bcaa93ea110c0c940725b0c8e5 ""
-  ".tex_intermediates/simons_observatory.aux" 1736036963 5178 04e2bea66234aa3e110891b8025186c6 "latex"
-  ".tex_intermediates/simons_observatory.out" 1736036963 2222 713d566236540c4dc38691157b7f784a "latex"
+  ".tex_intermediates/simons_observatory.aux" 1736224198 5178 04e2bea66234aa3e110891b8025186c6 "latex"
+  ".tex_intermediates/simons_observatory.out" 1736224198 2222 713d566236540c4dc38691157b7f784a "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -139,7 +139,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "simons_observatory.tex" 1736036960 20196 f2adaf418d6043746e077821ac8e8196 ""
+  "simons_observatory.tex" 1736224195 20194 729247cb96a9a204076ac5ed617c66bb ""
   (generated)
   ".tex_intermediates/simons_observatory.aux"
   ".tex_intermediates/simons_observatory.log"
