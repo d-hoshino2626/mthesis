@@ -136,7 +136,8 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
     }
     \label{fig:gridloader}
 \end{figure}
-\subsection{重力参照計を用いた $\theta_{\mathrm{wire}}$ の測定}
+\subsection{重力参照計}
+\subsubsection{重力参照計を用いた $\theta_{\mathrm{wire}}$ の測定}
 式\eqref{eq:wiregrid_mod}において、 $\theta_{\mathrm{wire}}$ は天球面上におけるワイヤーが作り出す偏光角(絶対角度)である。
 エンコーダはスパースワイヤーグリッドがその平面内において回転したワイヤーの角度(相対角度)を出力するので、
 別の手段を用いてこの平面が天球面上のどこに位置しているかを知る必要がある。
@@ -176,6 +177,22 @@ $\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であ�
     \end{minipage}
     \caption{(\subref{fig:abs_angle_overview})絶対角度測定のための各種平面と角度の定義 (\subref{fig:abs_angle_WG_plane})スパースワイヤーグリッド平面における回転角と絶対角度}
     \label{fig:abs_angle}
+\end{figure}
+
+\subsubsection{重力参照計の設置}
+図\ref{fig:tiltsensor_at_site}に重力参照計の設置状況を示す。
+重力参照計はスパースワイヤーグリッドの回転機構のベースプレートに取り付けられている。
+SATはelevation $50\tcdegree$ での観測を主要としており、
+スパースワイヤーグリッドは boresight $60\tcdegree$ のオフセットを持って設置されているため、
+これらのオフセットを打ち消し、重力参照計が両軸ともに $0\tcdegree$ を指すように設置されている。
+また、重力参照計は自身のX軸、Y軸が重力に対して
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiregrid/tiltsensor_at_site.pdf}
+    \caption{重力参照計の設置状況}
+    \label{fig:tiltsensor_at_site}
 \end{figure}
 
 \section{系統誤差}

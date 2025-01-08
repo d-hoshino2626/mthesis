@@ -1,13 +1,14 @@
 # Fdb version 4
-["dvipdf"] 1736130724 "wiregrid.dvi" "wiregrid.pdf" "wiregrid" 1736130725 0
-  "wiregrid.dvi" 1736130724 39496 3ff773f74b5acc7d716745cd415cc769 "latex"
+["dvipdf"] 1736376650 "wiregrid.dvi" "wiregrid.pdf" "wiregrid" 1736376650 0
+  "wiregrid.dvi" 1736376649 41172 55f960debcf30d20c2a123a21da87db2 "latex"
   (generated)
   "wiregrid.pdf"
   (rewritten before read)
-["latex"] 1736130721 "wiregrid.tex" "wiregrid.dvi" "wiregrid" 1736130725 0
+["latex"] 1736376647 "wiregrid.tex" "wiregrid.dvi" "wiregrid" 1736376650 0
   "../../fig//wiregrid/abs_angle_WG_plane.pdf" 1735999011 336852 e167de44f325d4b1b8ce7370fb183359 ""
   "../../fig//wiregrid/abs_angle_overview.pdf" 1735998992 856057 30bf6de958ff6450ce6051144fe76dad ""
   "../../fig//wiregrid/rotation_parts.pdf" 1735809903 2449408 504bc9f4363248aeddf2ceb9aa5dc67f ""
+  "../../fig//wiregrid/tiltsensor_at_site.pdf" 1736376436 4329204 39cba58f26dc65674d4f477f9a4c9462 ""
   "../../fig//wiregrid/wire_attachment.pdf" 1736015925 3521102 77035975c8b96d136eeb5db51b26c9bb ""
   "../../fig//wiregrid/wire_detail_view.pdf" 1736010431 3160784 302b67eb592cdb7e8ffcd8883e3e59dd ""
   "../../fig//wiregrid/wire_reflect.pdf" 1736053010 491883 396826954b0d9194e9906648a7572824 ""
@@ -17,8 +18,8 @@
   "../../fig//wiregrid/wiresag_picture_old.pdf" 1736039654 2778040 5a3ac617a7a3fef3e4e4f0bb82b11efa ""
   "../../fig//wiregrid/wiresag_setup_old.pdf" 1736033058 439879 b630e8850ca4116a8b7428165d89749c ""
   "../../main.tex" 1735999817 3010 b8a841bcaa93ea110c0c940725b0c8e5 ""
-  ".tex_intermediates/wiregrid.aux" 1736130724 8856 527bb901a948eccf9179c147773a636c "latex"
-  ".tex_intermediates/wiregrid.out" 1736130724 2920 090d553b940f772cbc43b3f67882fd51 "latex"
+  ".tex_intermediates/wiregrid.aux" 1736376649 9405 c6c283418240a41e9a163f524ab345ba "latex"
+  ".tex_intermediates/wiregrid.out" 1736376649 2828 fd1201cdcc6956fd47418181c4e0dc16 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -26,7 +27,6 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -48,7 +48,6 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm" 1136768653 1524 554068197b70979a55370e6c6495f441 ""
@@ -152,7 +151,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiregrid.tex" 1736130718 21876 9e77043b4e2b4c2b6ff7259291e32e1e ""
+  "wiregrid.tex" 1736376647 22756 6ef7a69eb9673ba4c358bc7a2ab3e2f7 ""
   (generated)
   ".tex_intermediates/wiregrid.aux"
   ".tex_intermediates/wiregrid.log"
