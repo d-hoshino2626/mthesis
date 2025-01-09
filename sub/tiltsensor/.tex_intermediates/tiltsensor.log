@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  9 JAN 2025 21:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  9 JAN 2025 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -627,13 +627,6 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 4.8111pt on input line 73.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 73.
-
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 79.
-
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 80.
-
 File: ../../fig//tiltsensor/evaluation_system.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/evaluation_system.pdf>
 File: ../../fig//tiltsensor/bath_temp_usb.pdf Graphic file (type pdf)
@@ -642,17 +635,18 @@ File: ../../fig//tiltsensor/camera_12degC.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/camera_12degC.pdf>
 File: ../../fig//tiltsensor/camera_m18degC.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/camera_m18degC.pdf>
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 113.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 113.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 113.
+ [2]
 
-Overfull \hbox (13.96654pt too wide) in paragraph at lines 96--109
-[][]   [] 
- []
-
-[2]
-
-LaTeX Warning: Reference `' on page 3 undefined on input line 115.
+LaTeX Warning: Reference `' on page 3 undefined on input line 119.
 
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 115.
+LaTeX Warning: Reference `' on page 3 undefined on input line 120.
 
 [3] [4] (.tex_intermediates/tiltsensor.aux)
 
@@ -662,12 +656,12 @@ Package rerunfilecheck Info: File `tiltsensor.out' has not changed.
 (rerunfilecheck)             Checksum: B51FC7AB68377B61D6A9C1B044EE25D7;1181.
  ) 
 Here is how much of TeX's memory you used:
- 17539 strings out of 476677
- 337916 string characters out of 5804957
+ 17553 strings out of 476677
+ 338077 string characters out of 5804957
  1870490 words of memory out of 5000000
- 37754 multiletter control sequences out of 15000+600000
- 561939 words of font info for 117 fonts, out of 8000000 for 9000
+ 37763 multiletter control sequences out of 15000+600000
+ 564681 words of font info for 126 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,13n,94p,361b,985s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,13n,94p,455b,988s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/tiltsensor.dvi (4 pages, 16588 bytes).
+Output written on .tex_intermediates/tiltsensor.dvi (4 pages, 18332 bytes).

@@ -68,7 +68,7 @@ $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ �
 このプレートには3つのアジャスターが取り付けられており、これを回すことでプレートの傾きを調整できる。
 プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ、互いに垂直になるように設置し、これを参照して
 プレート全体が水平になるようにアジャスターで調整した。
-この時の水平度の精度は気泡管水準器の精度によって決まり、 $0.01\tcdegree$ である。
+この時の水平度の精度は気泡管水準器の精度によって決まり、 $< 0.01\tcdegree$ である。
 また、プレート上にはUSB温度計を設置し、周囲の空気の温度を測定した。
 以上の測定系を恒温槽\footnote{恒温槽は京都市産業技術研究所より拝借した。}に入れ、温度を変化させたときの出力を測定した。
 
@@ -76,8 +76,10 @@ $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ �
 $\SI{20}{\degreeCelsius}$ から $\SI{-20}{\degreeCelsius}$ まで冷却したのち、再び $\SI{20}{\degreeCelsius}$ まで昇温し、出力の変化を測定した。
 各温度 $\SI{10}{\tcdegree}$ 刻みで$\SI{3}{時間}$ ほどかけて変化させ、温度が安定している状態が生まれるようにした。
 測定中にはWebカメラを用いて10分ごとに撮影し、気泡管水準器の気泡の位置が変化していないかを確認した。
-例として、図\ref{}に $T_{\mathrm{USB}} \sim \SI{12}{\degreeCelsius}$ で撮影された写真を、
-図\ref{}に $T_{\mathrm{USB}} \sim \SI{-18}{\degreeCelsius}$ で撮影された写真を示す。
+例として、図\ref{fig:evaluation_bath_camera}(\subref{fig:camera_12degC})に
+$T_{\mathrm{USB}} \sim \SI{12}{\degreeCelsius}$ で撮影された写真を、
+図\ref{fig:evaluation_bath_camera}(\subref{fig:camera_m18degC})に
+$T_{\mathrm{USB}} \sim \SI{-18}{\degreeCelsius}$ で撮影された写真を示す。
 全ての写真を確認したところ、気泡の位置に変動はあったものの水平度が $< 0.01\tcdegree$ に収まっていることが確認できた。
 
 \begin{figure}
@@ -93,26 +95,32 @@ $\SI{20}{\degreeCelsius}$ から $\SI{-20}{\degreeCelsius}$ まで冷却した�
     \label{fig:bath_temp_usb}
 \end{figure}
 \begin{figure}[tbp]
-    \begin{minipage}[b]{0.48\columnwidth}
+    \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=1.0\columnwidth]{tiltsensor/camera_12degC.pdf}
         \subcaption{}
         \label{fig:camera_12degC}
     \end{minipage}
     \hspace{0.06\columnwidth}
-    \begin{minipage}[b]{0.48\columnwidth}
+    \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=1.0\columnwidth]{tiltsensor/camera_m18degC.pdf}
         \subcaption{}
         \label{fig:camera_m18degC}
     \end{minipage}
-    \caption{}
+    \caption{Webカメラを用いて撮影された恒温槽内の様子。
+             (\subref{fig:camera_12degC}) $T_{\mathrm{USB}} \simeq \SI{12}{\degreeCelsius}$ で撮影された写真。
+             (\subref{fig:camera_m18degC}) $T_{\mathrm{USB}} \simeq \SI{-18}{\degreeCelsius}$ で撮影された写真。}
     \label{fig:evaluation_bath_camera}
 \end{figure}
 \subsection{評価結果}
 観測サイトでの気温変動は十分ゆっくりであるか、較正の時間帯を選ぶことで急激な温度変化を避けることができるため、
-恒温槽の温度が安定し、評価計全体と熱平衡であるような状態のデータを用いて評価を行った。
-図\ref{}、\ref{}に重力参照計の $X,\,Y$ 軸が出力する温度 $T_{X},\,T_{Y}$ と、
+恒温槽の温度が安定し、評価計全体と熱平衡であるような状態のデータを用いて評価を行う。
+図\ref{}に重力参照計の $X$ 軸が出力する温度 $T_{X}$ と、その温度が安定的になったときの出力角度 $\theta_{X}$ の変化を、
+図\ref{}に $Y$ 軸について同様の結果を示す。
+各温度安定時の出力角度は、それぞれ平均を取り、その標準偏差と気泡管水準器が保証する $0.01\tcdegree$ を誤差として示している。
+どちらの軸に関しても、ヒステリシスを見るために冷却時と昇温時のデータを分けて示している。
+
 \subsection{評価結果の考察}
 \subsection{まとめ}
 \end{document}
