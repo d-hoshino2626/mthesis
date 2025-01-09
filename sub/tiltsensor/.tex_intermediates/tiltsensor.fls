@@ -987,6 +987,18 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
+INPUT ../../fig//tiltsensor/bath_tempX.pdf
+INPUT ../../fig//tiltsensor/bath_tempX.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_tempX.pdf
+INPUT ../../fig//tiltsensor/angleX_temp_dep.pdf
+INPUT ../../fig//tiltsensor/angleX_temp_dep.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleX_temp_dep.pdf
+INPUT ../../fig//tiltsensor/bath_tempY.pdf
+INPUT ../../fig//tiltsensor/bath_tempY.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_tempY.pdf
+INPUT ../../fig//tiltsensor/angleY_temp_dep.pdf
+INPUT ../../fig//tiltsensor/angleY_temp_dep.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleY_temp_dep.pdf
 INPUT .tex_intermediates/tiltsensor.aux
 INPUT .tex_intermediates/tiltsensor.out
 INPUT .tex_intermediates/tiltsensor.out

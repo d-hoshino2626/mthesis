@@ -113,14 +113,65 @@ $T_{\mathrm{USB}} \sim \SI{-18}{\degreeCelsius}$ で撮影された写真を示�
              (\subref{fig:camera_m18degC}) $T_{\mathrm{USB}} \simeq \SI{-18}{\degreeCelsius}$ で撮影された写真。}
     \label{fig:evaluation_bath_camera}
 \end{figure}
-\subsection{評価結果}
+\subsection{評価結果とその考察}
 観測サイトでの気温変動は十分ゆっくりであるか、較正の時間帯を選ぶことで急激な温度変化を避けることができるため、
 恒温槽の温度が安定し、評価計全体と熱平衡であるような状態のデータを用いて評価を行う。
-図\ref{}に重力参照計の $X$ 軸が出力する温度 $T_{X}$ と、その温度が安定的になったときの出力角度 $\theta_{X}$ の変化を、
-図\ref{}に $Y$ 軸について同様の結果を示す。
+図\ref{fig:evaluation_bath_Xaxis}に重力参照計の $X$ 軸が出力する温度 $T_{X}$ と、その温度が安定的になったときの出力角度 $\theta_{X}$ の変化を、
+図\ref{fig:evaluation_bath_Yaxis}に $Y$ 軸について同様の結果を示す。
+温度安定区間は、図\ref{fig:evaluation_bath_Xaxis}(\subref{fig:bath_tempX})、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:bath_tempY})において、緑色でマスクした部分である。
 各温度安定時の出力角度は、それぞれ平均を取り、その標準偏差と気泡管水準器が保証する $0.01\tcdegree$ を誤差として示している。
 どちらの軸に関しても、ヒステリシスを見るために冷却時と昇温時のデータを分けて示している。
 
-\subsection{評価結果の考察}
+$X$ 軸については、温度変化に対する出力角度の平均が $-0.023\tcdegree$ となり、その誤差の平均は $0.011\tcdegree$ であった。
+この結果から、それぞれの絶対値の和を取ることで $\theta_{X}$ の精度を $<0.04\tcdegree$ であると結論づける。
+$Y$ 軸については、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_temp_dep})に示すように
+温度変化に対する出力角度の変化が $2.0\tcdegree$ 以上と非常に大きく、絶対角度較正には使用できない精度であった。
+しかし、この結果は公称精度 $0.08\tcdegree$ を大きく上回っており、初期不良の可能性が疑われる。
+次節にて、この初期不良の可能性を検証する。
+\begin{figure}[H]
+    \begin{minipage}[b]{0.45\columnwidth}
+        \centering
+        \includegraphics[width=1.1\columnwidth]{tiltsensor/bath_tempX.pdf}
+        \subcaption{}
+        \label{fig:bath_tempX}
+    \end{minipage}
+    \hspace{0.005\columnwidth}
+    \begin{minipage}[b]{0.45\columnwidth}
+        \centering
+        \includegraphics[width=1.065\columnwidth]{tiltsensor/angleX_temp_dep.pdf}
+        \subcaption{}
+        \label{fig:angleX_temp_dep}
+    \end{minipage}
+    \caption{重力参照計の $X$ 軸の温度変化と出力角度の変化。
+             (\subref{fig:bath_tempX}) $X$ 軸の温度 $T_{X}$ の変化と切り取った温度安定区間。
+             (\subref{fig:angleX_temp_dep}) $X$ 軸の出力角度 $\theta_{X}$ の温度依存性。}
+    \label{fig:evaluation_bath_Xaxis}
+\end{figure}
+\begin{figure}[H]
+    \begin{minipage}[b]{0.45\columnwidth}
+        \centering
+        \includegraphics[width=1.1\columnwidth]{tiltsensor/bath_tempY.pdf}
+        \subcaption{}
+        \label{fig:bath_tempY}
+    \end{minipage}
+    \hspace{0.005\columnwidth}
+    \begin{minipage}[b]{0.45\columnwidth}
+        \centering
+        \includegraphics[width=1.03\columnwidth]{tiltsensor/angleY_temp_dep.pdf}
+        \subcaption{}
+        \label{fig:angleY_temp_dep}
+    \end{minipage}
+    \caption{重力参照計の $Y$ 軸の温度変化と出力角度の変化。
+             (\subref{fig:bath_tempY}) $Y$ 軸の温度 $T_{Y}$ の変化と切り取った温度安定区間。
+             (\subref{fig:angleY_temp_dep}) $Y$ 軸の出力角度 $\theta_{Y}$ の温度依存性。}
+    \label{fig:evaluation_bath_Yaxis}
+\end{figure}
+\section{初期不良の検証}
+\subsection{評価系}
+前節にて行った温度変化に対する出力角度の評価にて判明した $Y$ 軸の出力角度の精度不良が初期不良によるものなのか、
+それとも評価系の問題によるものなのかを検証するため、京都大学にて以下のような評価を行った。
+\begin{itemize}
+    \item 
+\end{itemize}
 \subsection{まとめ}
 \end{document}
