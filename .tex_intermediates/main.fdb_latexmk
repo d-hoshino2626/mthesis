@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex .tex_intermediates/main"] 1736431994 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1736431998 0
+["bibtex .tex_intermediates/main"] 1736435759 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1736435764 0
   "./refs.bib" 1736006127 27097 2dcdcf03b5bd591cdb38fce0896c360a ""
-  ".tex_intermediates/main.aux" 1736431997 21787 89f9cd99cc440ba63c9feca06e825f20 "latex"
+  ".tex_intermediates/main.aux" 1736435763 22249 df5b5301550d73c81fe7c5ff410760fb "latex"
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   ".tex_intermediates/main.bbl"
   ".tex_intermediates/main.blg"
   (rewritten before read)
-["dvipdf"] 1736431997 "main.dvi" "main.pdf" "main" 1736431998 0
-  "main.dvi" 1736431997 154664 c2139ad5374606435518fe8ae5c88104 "latex"
+["dvipdf"] 1736435763 "main.dvi" "main.pdf" "main" 1736435764 0
+  "main.dvi" 1736435763 158092 0c28777b13bb1824e3123a636e2c67b8 "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1736431994 "main.tex" "main.dvi" "main" 1736431998 0
-  ".tex_intermediates/main.aux" 1736431997 21787 89f9cd99cc440ba63c9feca06e825f20 "latex"
-  ".tex_intermediates/main.bbl" 1736431994 16180 84bc5f554e55cab3777f782502ca0804 "bibtex .tex_intermediates/main"
-  ".tex_intermediates/main.out" 1736431997 7532 bb98762d57c269ccacc5bf5147d97335 "latex"
-  ".tex_intermediates/main.toc" 1736431997 5104 fc9ab375761b8678e5264d54f46d9356 "latex"
+["latex"] 1736435759 "main.tex" "main.dvi" "main" 1736435764 0
+  ".tex_intermediates/main.aux" 1736435763 22249 df5b5301550d73c81fe7c5ff410760fb "latex"
+  ".tex_intermediates/main.bbl" 1736435759 16180 84bc5f554e55cab3777f782502ca0804 "bibtex .tex_intermediates/main"
+  ".tex_intermediates/main.out" 1736435763 7674 219f97619c0f5df74a3a3d8133da4ec6 "latex"
+  ".tex_intermediates/main.toc" 1736435763 5189 2adb7afa182f7d2fd23c32bf3d7323ab "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -163,6 +163,7 @@
   "fig//tiltsensor/camera_12degC.pdf" 1736426646 1006672 4cc18ed85d8b44aaf31e7f1e378e940d ""
   "fig//tiltsensor/camera_m18degC.pdf" 1736426743 979987 2dabd54b4ed7243d0aa72021236c60a0 ""
   "fig//tiltsensor/evaluation_system.pdf" 1736404467 3494040 b34be3dc8c77bafc5d6b63e8aac22cbd ""
+  "fig//tiltsensor/evaluation_system_kyoto.pdf" 1736435637 3561247 b034168caadf89a1a591c52bb120b9c9 ""
   "fig//tiltsensor/tiltsensor_overview.pdf" 1736389395 2926446 993dc94ce7f1927e8893afc66a250314 ""
   "fig//wiregrid/abs_angle_WG_plane.pdf" 1735999011 336852 e167de44f325d4b1b8ce7370fb183359 ""
   "fig//wiregrid/abs_angle_overview.pdf" 1735998992 856057 30bf6de958ff6450ce6051144fe76dad ""
@@ -183,7 +184,7 @@
   "sub/introduction/introduction.tex" 1735023358 170 a00008050058bd2e00b873c8fee5f280 ""
   "sub/simons_observatory/simons_observatory.tex" 1736224195 20194 729247cb96a9a204076ac5ed617c66bb ""
   "sub/summary/summary.tex" 1734771423 143 40dc9340879c969703b802174d3f104c ""
-  "sub/tiltsensor/tiltsensor.tex" 1736431950 11093 5903a7d8f99c112b95714719011d6b3c ""
+  "sub/tiltsensor/tiltsensor.tex" 1736435577 12687 9a0d56135d3b77ba468eaee29c325bee ""
   "sub/title/title.tex" 1734771423 705 fe5e58f2ba15b9f207490cf4eb9a2a2f ""
   "sub/wiregrid/wiregrid.tex" 1736408444 24348 c57581c0baaefbd6c4a9b0181672d9c1 ""
   "sub/wiresag/wiresag.tex" 1736048630 521 b60daf0f64c1d94fddfb158ae9c09004 ""

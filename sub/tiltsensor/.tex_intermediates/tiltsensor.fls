@@ -999,6 +999,18 @@ INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_tempY.pdf
 INPUT ../../fig//tiltsensor/angleY_temp_dep.pdf
 INPUT ../../fig//tiltsensor/angleY_temp_dep.pdf
 INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleY_temp_dep.pdf
+INPUT ../../fig//tiltsensor/evaluation_system_kyoto.pdf
+INPUT ../../fig//tiltsensor/evaluation_system_kyoto.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evaluation_system_kyoto.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto1.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto1.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evalu_kyoto1.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto2.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto2.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evalu_kyoto2.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto3.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto3.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evalu_kyoto3.pdf
 INPUT .tex_intermediates/tiltsensor.aux
 INPUT .tex_intermediates/tiltsensor.out
 INPUT .tex_intermediates/tiltsensor.out

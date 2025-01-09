@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1736434715 "tiltsensor.dvi" "tiltsensor.pdf" "tiltsensor" 1736434716 0
-  "tiltsensor.dvi" 1736434715 23412 ee993831cf51c44f8099112290986c73 "latex"
+["dvipdf"] 1736438340 "tiltsensor.dvi" "tiltsensor.pdf" "tiltsensor" 1736438341 0
+  "tiltsensor.dvi" 1736438340 28848 f39b1f2cdf74523210b19755a703da05 "latex"
   (generated)
   "tiltsensor.pdf"
   (rewritten before read)
-["latex"] 1736434713 "tiltsensor.tex" "tiltsensor.dvi" "tiltsensor" 1736434716 0
+["latex"] 1736438338 "tiltsensor.tex" "tiltsensor.dvi" "tiltsensor" 1736438341 0
   "../../fig//tiltsensor/angleX_temp_dep.pdf" 1736430860 392778 c9bf1e1f483118f5a1f2304c8dee9de5 ""
   "../../fig//tiltsensor/angleY_temp_dep.pdf" 1736430872 346811 6efff8a2585deb464421917b56180a45 ""
   "../../fig//tiltsensor/bath_tempX.pdf" 1736429305 107561 8c318a5cb48d3ff82bc00adcf0b066f8 ""
@@ -12,11 +12,15 @@
   "../../fig//tiltsensor/bath_temp_usb.pdf" 1736407908 128930 aef773c4259258c54193e1bdd7237f70 ""
   "../../fig//tiltsensor/camera_12degC.pdf" 1736426646 1006672 4cc18ed85d8b44aaf31e7f1e378e940d ""
   "../../fig//tiltsensor/camera_m18degC.pdf" 1736426743 979987 2dabd54b4ed7243d0aa72021236c60a0 ""
+  "../../fig//tiltsensor/evalu_kyoto1.pdf" 1736438125 2221992 ded16404d7416993e3991528dda17b89 ""
+  "../../fig//tiltsensor/evalu_kyoto2.pdf" 1736437686 2660825 765a2668cad89352cc66f53a53d5e33a ""
+  "../../fig//tiltsensor/evalu_kyoto3.pdf" 1736437795 2787591 e3db20689e06ee90dc257113044c67ba ""
   "../../fig//tiltsensor/evaluation_system.pdf" 1736404467 3494040 b34be3dc8c77bafc5d6b63e8aac22cbd ""
+  "../../fig//tiltsensor/evaluation_system_kyoto.pdf" 1736435637 3561247 b034168caadf89a1a591c52bb120b9c9 ""
   "../../fig//tiltsensor/tiltsensor_overview.pdf" 1736389395 2926446 993dc94ce7f1927e8893afc66a250314 ""
   "../../main.tex" 1735999817 3010 b8a841bcaa93ea110c0c940725b0c8e5 ""
-  ".tex_intermediates/tiltsensor.aux" 1736434715 5822 72075b9df9ee109e4c8cedbf762408ac "latex"
-  ".tex_intermediates/tiltsensor.out" 1736434715 1322 9b6a3870938334ad1e08b83b2029d094 "latex"
+  ".tex_intermediates/tiltsensor.aux" 1736438340 7073 f93af325fb6609afef8724d8df3ae9ac "latex"
+  ".tex_intermediates/tiltsensor.out" 1736438340 1472 917774bf1bd9920396799bc9dfc69462 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -155,7 +159,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "tiltsensor.tex" 1736434712 12243 44894b7170f193a9c4b9f6ba5d0e1cdf ""
+  "tiltsensor.tex" 1736438337 15632 4486c40f62b913bf23b4cfbff144774e ""
   (generated)
   ".tex_intermediates/tiltsensor.aux"
   ".tex_intermediates/tiltsensor.log"
