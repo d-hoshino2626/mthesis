@@ -6,6 +6,17 @@
 \begin{document}
 \chapter{重力参照計の評価}
 \ref{}にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定する。
+要求される精度は、表\ref{}中にある重力参照計以外の系統誤差の値から合計誤差が $<0.1\tcdegree$ となる値であり、
+式\ref{}中の $\theta_{\mathrm{sens}}$ にして $\theta_{\mathrm{sens}}<0.06\tcdegree$ である。
+これを重力参照計の要求精度に換算する。
+式\eqref{}より、重力参照計の各 $X$ 軸、$Y$ 軸の誤差を $\delta\theta_{\mathrm{X}}$、$\delta\theta_{\mathrm{Y}}$ とすると、
+$\theta_{\mathrm{sens}}$ の誤差 $\delta\theta_{\mathrm{sens}}$ は
+\begin{align}
+    \delta\theta_{\mathrm{sens}} &= 
+        \sqrt{\qty(\dfrac{\sin\beta}{\sin^2\alpha+\sin^2\beta} \delta\qty(\sin\alpha))^2 + \qty(\dfrac{\sin\alpha}{\sin^2\alpha+\sin^2\beta} \delta\qty(\sin\beta))^2}\\ 
+    \delta\qty(\sin\alpha) &= \sqrt{\qty(\dv{\theta_X}\sin\alpha\,\delta\theta_X)^2}
+    \
+\end{align}
 その要求性能としては
 \begin{itemize}
     \item 他の系統誤差の評価値を加味して、測定精度が $<0.06\tcdegree$ であること
