@@ -5,22 +5,22 @@
 
 \begin{document}
 \chapter{重力参照計の評価}
-\ref{}にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定するが、
+\ref{subsec:wg_tiltsensor}にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定するが、
 これまでに使用が想定されていた Digi-Pas 社製の DWL5000-XY は要求性能を満たさなかった。
 今回、新たに候補となった Sherborne Sensors 社製の DSIC-2051-60 を評価した。
-図\ref{}に本重力参照計の外観を示す。
+図\ref{fig:tiltsensor_DSIC-2051-60}に本重力参照計の外観を示す。
 図中の $X$ 軸、$Y$ 軸と重力に対して垂直に交わる水平面のなす角が $\theta_{X},\,\theta_{Y}$ であり、これを出力する。
 本章では、はじめに要求精度と評価すべき項目について確認したのち、
 新しい重力参照計の概要の共有、各評価項目の手法と結果について述べる。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{tiltsensor/tiltsensor_overview.pdf}
-    \figcaption{Sherborne Sensors 社製 DSIC-2051-60 の外観}
+    \figcaption{重力参照計 Sherborne Sensors 社 DSIC-2051-60 の外観}
     \label{fig:tiltsensor_DSIC-2051-60}
 \end{figure}
 \section{要求精度と評価内容}
-要求される精度は、表\ref{}中にある値から合計誤差が $\delta\theta < 0.1\tcdegree$ となることであり、
-式\ref{}中の $\theta_{\mathrm{sens}}$ にして $\delta\theta_{\mathrm{sens}}<0.06\tcdegree$ である。
+要求される精度は、表\ref{tab:systematic_errors_old}中にある値から合計誤差が $\delta\theta < 0.1\tcdegree$ となることであり、
+式\eqref{eq:wg_theta_sens}で表される $\theta_{\mathrm{sens}}$ にして $\delta\theta_{\mathrm{sens}}<0.06\tcdegree$ である。
 これを重力参照計の要求精度に換算する。
 式\eqref{}より、重力参照計の各 $X$ 軸、$Y$ 軸の誤差を $\delta\theta_{X},\,\delta\theta_{Y}$ とすると、
 $\theta_{\mathrm{sens}}$ の誤差 $\delta\theta_{\mathrm{sens}}$ は
@@ -51,15 +51,29 @@ $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ �
 %\subsection{測定結果}
 %図\ref{}に電源を入れた直後に10分間測定した結果を示す。
 \section{温度による出力の変化の評価}
-\subsection{評価系}
+\subsection{評価手法}
 図\ref{}に評価系を示す。
-重力参照計をアルミニウム製の厚みが $\SI{30}{mm}$ のプレートの上に設置した。
+重力参照計をアルミニウム製の厚み $\SI{30}{mm}$ のプレートの上に設置した。
 このプレートには3つのアジャスターが取り付けられており、これを回すことでプレートの傾きを調整できる。
 プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ、互いに垂直になるように設置し、これを参照して
 プレート全体が水平になるようにアジャスターで調整した。
-この時の水平度の精度は $\pm 0.01\tcdegree$ である。
-また、プレートの上には温度計が設置されており、これにより
+この時の水平度の精度は気泡管水準器の精度によって決まり、 $\pm 0.01\tcdegree$ である。
+以上の測定系を恒温槽\footnote{恒温槽は京都市産業技術研究所より拝借した。}に入れ、
+$\SI{20}{\degreeCelsius}$ から $\SI{-15}{\degreeCelsius}$ まで冷却した。
+その後、再び $\SI{20}{\degreeCelsius}$ まで昇温し、出力の変化を測定した。
 
+図\ref{fig:bath_temperature_change}に恒温槽の温度変化の様子を示す。
+各温度はおよそ $\SI{3}{時間}$ ほどかけて変化させ、温度が安定している状態が生まれるようにした。
+観測サイトでの気温変動は十分ゆっくりであるか、較正の時間帯を選ぶことで急激な温度変化を避けることができるため、
+恒温槽の
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{tiltsensor/bath_temperature.pdf}
+    \figcaption{恒温槽の温度変化}
+    \label{fig:bath_temperature_change}
+\end{figure}
 \subsection{評価結果}
 \subsection{評価結果の考察}
 \subsection{まとめ}
