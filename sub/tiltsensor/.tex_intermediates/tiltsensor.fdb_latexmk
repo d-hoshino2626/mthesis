@@ -1,16 +1,18 @@
 # Fdb version 4
-["dvipdf"] 1736408235 "tiltsensor.dvi" "tiltsensor.pdf" "tiltsensor" 1736408236 0
-  "tiltsensor.dvi" 1736408235 15892 525898b0ad9bebd505892e6f365c1faf "latex"
+["dvipdf"] 1736427595 "tiltsensor.dvi" "tiltsensor.pdf" "tiltsensor" 1736427596 0
+  "tiltsensor.dvi" 1736427595 16588 473f407362581288d92dc5896162bdf4 "latex"
   (generated)
   "tiltsensor.pdf"
   (rewritten before read)
-["latex"] 1736408234 "tiltsensor.tex" "tiltsensor.dvi" "tiltsensor" 1736408236 0
+["latex"] 1736427592 "tiltsensor.tex" "tiltsensor.dvi" "tiltsensor" 1736427596 0
   "../../fig//tiltsensor/bath_temp_usb.pdf" 1736407908 128930 aef773c4259258c54193e1bdd7237f70 ""
+  "../../fig//tiltsensor/camera_12degC.pdf" 1736426646 1006672 4cc18ed85d8b44aaf31e7f1e378e940d ""
+  "../../fig//tiltsensor/camera_m18degC.pdf" 1736426743 979987 2dabd54b4ed7243d0aa72021236c60a0 ""
   "../../fig//tiltsensor/evaluation_system.pdf" 1736404467 3494040 b34be3dc8c77bafc5d6b63e8aac22cbd ""
   "../../fig//tiltsensor/tiltsensor_overview.pdf" 1736389395 2926446 993dc94ce7f1927e8893afc66a250314 ""
   "../../main.tex" 1735999817 3010 b8a841bcaa93ea110c0c940725b0c8e5 ""
-  ".tex_intermediates/tiltsensor.aux" 1736408235 2642 d4a6ceafe1c9eb790652e010b6a16ced "latex"
-  ".tex_intermediates/tiltsensor.out" 1736408235 1181 b51fc7ab68377b61d6a9c1b044ee25d7 "latex"
+  ".tex_intermediates/tiltsensor.aux" 1736427595 3127 fa6ce3b3e4e3f6e445c30755e972d5f8 "latex"
+  ".tex_intermediates/tiltsensor.out" 1736427595 1181 b51fc7ab68377b61d6a9c1b044ee25d7 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -144,7 +146,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "tiltsensor.tex" 1736408234 7777 5135f30b56c94d98c8b92907b941f78a ""
+  "tiltsensor.tex" 1736427592 8345 759308ddcf974dbf1368f57f3f6ffb1c ""
   (generated)
   ".tex_intermediates/tiltsensor.aux"
   ".tex_intermediates/tiltsensor.log"

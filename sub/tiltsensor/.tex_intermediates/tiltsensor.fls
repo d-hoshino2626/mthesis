@@ -972,6 +972,12 @@ INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evaluation_system.pdf
 INPUT ../../fig//tiltsensor/bath_temp_usb.pdf
 INPUT ../../fig//tiltsensor/bath_temp_usb.pdf
 INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_temp_usb.pdf
+INPUT ../../fig//tiltsensor/camera_12degC.pdf
+INPUT ../../fig//tiltsensor/camera_12degC.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/camera_12degC.pdf
+INPUT ../../fig//tiltsensor/camera_m18degC.pdf
+INPUT ../../fig//tiltsensor/camera_m18degC.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/camera_m18degC.pdf
 INPUT .tex_intermediates/tiltsensor.aux
 INPUT .tex_intermediates/tiltsensor.out
 INPUT .tex_intermediates/tiltsensor.out

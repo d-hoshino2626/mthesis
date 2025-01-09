@@ -63,7 +63,7 @@ $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ �
 %図\ref{}に電源を入れた直後に10分間測定した結果を示す。
 \section{温度による出力の変化の評価}
 \subsection{評価手法}
-図\ref{}に評価系を示す。
+図\ref{fig:evaluation_system}に評価系を示す。
 重力参照計をアルミニウム製の厚み $\SI{30}{mm}$ のプレートの上に設置した。
 このプレートには3つのアジャスターが取り付けられており、これを回すことでプレートの傾きを調整できる。
 プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ、互いに垂直になるように設置し、これを参照して
@@ -91,6 +91,23 @@ $\SI{20}{\degreeCelsius}$ から $\SI{-20}{\degreeCelsius}$ まで冷却した�
     \includegraphics[width=0.8\textwidth]{tiltsensor/bath_temp_usb.pdf}
     \figcaption{恒温槽の温度変化}
     \label{fig:bath_temp_usb}
+\end{figure}
+\begin{figure}[tbp]
+    \begin{minipage}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=1.0\columnwidth]{tiltsensor/camera_12degC.pdf}
+        \subcaption{}
+        \label{fig:camera_12degC}
+    \end{minipage}
+    \hspace{0.06\columnwidth}
+    \begin{minipage}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=1.0\columnwidth]{tiltsensor/camera_m18degC.pdf}
+        \subcaption{}
+        \label{fig:camera_m18degC}
+    \end{minipage}
+    \caption{}
+    \label{fig:evaluation_bath_camera}
 \end{figure}
 \subsection{評価結果}
 観測サイトでの気温変動は十分ゆっくりであるか、較正の時間帯を選ぶことで急激な温度変化を避けることができるため、
