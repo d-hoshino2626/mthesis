@@ -8,9 +8,17 @@
 \ref{}にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定するが、
 これまでに使用が想定されていた Digi-Pas 社製の DWL5000-XY は要求性能を満たさなかった。
 今回、新たに候補となった Sherborne Sensors 社製の DSIC-2051-60 を評価した。
+図\ref{}に本重力参照計の外観を示す。
+図中の $X$ 軸、$Y$ 軸と重力に対して垂直に交わる水平面のなす角が $\theta_{X},\,\theta_{Y}$ であり、これを出力する。
 本章では、はじめに要求精度と評価すべき項目について確認したのち、
 新しい重力参照計の概要の共有、各評価項目の手法と結果について述べる。
-\section{要求精度と評価項目}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{tiltsensor/tiltsensor_overview.pdf}
+    \figcaption{Sherborne Sensors 社製 DSIC-2051-60 の外観}
+    \label{fig:tiltsensor_DSIC-2051-60}
+\end{figure}
+\section{要求精度と評価内容}
 要求される精度は、表\ref{}中にある値から合計誤差が $\delta\theta < 0.1\tcdegree$ となることであり、
 式\ref{}中の $\theta_{\mathrm{sens}}$ にして $\delta\theta_{\mathrm{sens}}<0.06\tcdegree$ である。
 これを重力参照計の要求精度に換算する。
@@ -30,28 +38,29 @@ $\theta_{\mathrm{sens}}$ の誤差 $\delta\theta_{\mathrm{sens}}$ は
 $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ は\ref{subsubsec:wg_tiltsensor_slope}にて導入したスロープの角度である。
 重力参照計の両軸ともに同程度の誤差を持つと仮定し、スロープの角度から生じる誤差を無視すると、およそ $\delta\theta_{X} \sim \delta\theta_{Y} \leq 0.04\tcdegree$ が要求精度となる。
 
-\colortext{blue}{いい文章が思いつかないなぁ。}
 観測サイトはその気温が $\SI{-15}{\degreeCelsius} \sim \SI{20}{\degreeCelsius}$ と変動する過酷な環境である。
-\begin{itemize}
-    \item 電源の入れ直しによるオフセットの変動
-    \item 観測サイトの環境 $\SI{-15}{\degreeCelsius} \sim \SI{20}{\degreeCelsius}$ にて、温度変動による出力の変動
-\end{itemize}
-となる。
-
-\section{重力参照計の概要}
-図\ref{}に重力参照計の外観を示す。図中の $X$ 軸、$Y$ 軸と水平面。
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\textwidth]{tiltsensor/tiltsensor_overview.pdf}
-    \figcaption{Sherborne Sensors 社製 DSIC-2051-60 の外観}
-    \label{fig:tiltsensor_DSIC-2051-60}
-\end{figure}
-\section{電源の入れ直しによるオフセット変動の評価}
-\subsection{評価系}
-\subsection{測定結果}
+そのため、恒温槽を用いてこの温度の下で出力結果を測定し、温度変動による出力の変動を評価を行った。
+% \section{電源の入れ直しによるオフセット変動の評価}
+% \subsection{評価系}
+% 本評価における測定系を図\ref{}に示す。
+%水平な机の上に重力参照計を設置した上で、以下の2つの測定を行った。
+%\begin{itemize}
+%    \item 電源を入れた直後から、10分間データを取得
+%    \item 電源を入れた直後100秒待ち、その後30秒間データを取得
+%\end{itemize}
+%\subsection{測定結果}
+%図\ref{}に電源を入れた直後に10分間測定した結果を示す。
 \section{温度による出力の変化の評価}
-\subsection{評価系の概要}
-\subsection{測定結果}
-\subsection{測定結果の考察}
+\subsection{評価系}
+図\ref{}に評価系を示す。
+重力参照計をアルミニウム製の厚みが $\SI{30}{mm}$ のプレートの上に設置した。
+このプレートには3つのアジャスターが取り付けられており、これを回すことでプレートの傾きを調整できる。
+プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ、互いに垂直になるように設置し、これを参照して
+プレート全体が水平になるようにアジャスターで調整した。
+この時の水平度の精度は $\pm 0.01\tcdegree$ である。
+また、プレートの上には温度計が設置されており、これにより
+
+\subsection{評価結果}
+\subsection{評価結果の考察}
 \subsection{まとめ}
 \end{document}
