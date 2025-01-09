@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  10 JAN 2025 00:15
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  10 JAN 2025 01:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -56,7 +56,15 @@ File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvipdfmx.def on input line 149.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
  (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -199,8 +207,8 @@ File: pxjahyper-uni.def 2023/03/01 v1.3
 )
 Package pxjahyper Info: The setup for hyperref 'unicode' is applied.
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 14.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 14.
+Package hyperref Info: Option `colorlinks' set `false' on input line 15.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 15.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-04-13 v3.2.5 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen170
@@ -422,15 +430,13 @@ Package: ulem 2019/11/18
 Package: physics 
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-03-30 L3 programming layer (loader) 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2023-03-30 L3 backend support: dvips
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+File: l3backend-dvipdfmx.def 2023-03-30 L3 backend support: dvipdfmx
+\g__graphics_track_int=\count319
 \l__pdf_internal_box=\box88
-\g__pdf_backend_object_int=\count319
-\l__pdf_backend_content_box=\box89
-\l__pdf_backend_model_box=\box90
-\g__pdf_backend_annotation_int=\count320
-\g__pdf_backend_link_int=\count321
-\g__pdf_backend_link_sf_int=\count322
+\g__pdf_backend_object_int=\count320
+\g__pdf_backend_annotation_int=\count321
+\g__pdf_backend_link_int=\count322
 ))
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/chngcntr/chngcntr.sty
@@ -466,10 +472,9 @@ Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 227.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Driver file: dvipdfmx.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1369.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
@@ -479,34 +484,34 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-LaTeX Info: Redefining \cite on input line 56.
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 75.
+LaTeX Info: Redefining \cite on input line 57.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 76.
  (.tex_intermediates/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-Package hyperref Info: Link coloring OFF on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+Package hyperref Info: Link coloring OFF on input line 76.
  (.tex_intermediates/main.out) (.tex_intermediates/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -526,7 +531,7 @@ Package siunitx Warning: Detected the "physics" package:
 (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 75.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 76.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -553,13 +558,13 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 8.
 ) [1]
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 92.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 92.
+(Font)              scaled to size 19.95642pt on input line 93.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 92.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 92.
+(Font)              scaled to size 19.95642pt on input line 93.
  (.tex_intermediates/main.toc
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 1.
@@ -586,11 +591,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
  [3]
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 102.
+(fancyhdr)                Please consider using the `twoside' option on input line 103.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 103.
+(fancyhdr)                Please consider using the `twoside' option on input line 104.
 
 (./sub/introduction/introduction.tex
 第 1 章
@@ -643,19 +648,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./fig//simons_observatory/hwp_satoru.pdf Graphic file (type pdf)
 <./fig//simons_observatory/hwp_satoru.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 86.
+(Font)              scaled to size 9.6222pt on input line 87.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 86.
+(Font)              scaled to size 9.6222pt on input line 87.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 86.
+(Font)              scaled to size 6.73553pt on input line 87.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 86.
+(Font)              scaled to size 4.8111pt on input line 87.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 86.
+(Font)              scaled to size 9.6222pt on input line 87.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 86.
+(Font)              scaled to size 6.73553pt on input line 87.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 86.
+(Font)              scaled to size 4.8111pt on input line 87.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -665,8 +670,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [4]
-
-LaTeX Warning: Reference `' on page 5 undefined on input line 146.
+File: ./fig//draft/not-yet.png Graphic file (type bmp)
+<./fig//draft/not-yet.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -676,9 +681,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [5]
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 196.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -699,9 +701,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./fig//wiregrid/wire_reflect.pdf Graphic file (type pdf)
 <./fig//wiregrid/wire_reflect.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 23.
+(Font)              scaled to size 8.65997pt on input line 25.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 23.
+(Font)              scaled to size 8.65997pt on input line 25.
 File: ./fig//wiregrid/wire_through.pdf Graphic file (type pdf)
 <./fig//wiregrid/wire_through.pdf>
 
@@ -714,19 +716,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8
 
 ]
+File: ./fig//draft/not-yet.png Graphic file (type bmp)
+<./fig//draft/not-yet.png>
+File: ./fig//draft/not-yet.png Graphic file (type bmp)
+<./fig//draft/not-yet.png>
 
-LaTeX Warning: Reference `fig:' on page 9 undefined on input line 50.
-
-
-LaTeX Warning: Reference `eq:so-hwp_demod' on page 9 undefined on input line 51.
-
-
-LaTeX Warning: Reference `fig:' on page 9 undefined on input line 58.
-
-File: ./fig//wiregrid/wiregrid_appearance.pdf Graphic file (type pdf)
-<./fig//wiregrid/wiregrid_appearance.pdf>
-File: ./fig//wiregrid/wire_detail_view.pdf Graphic file (type pdf)
-<./fig//wiregrid/wire_detail_view.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -735,6 +729,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [9]
+File: ./fig//wiregrid/wiregrid_appearance.pdf Graphic file (type pdf)
+<./fig//wiregrid/wiregrid_appearance.pdf>
+File: ./fig//wiregrid/wire_detail_view.pdf Graphic file (type pdf)
+<./fig//wiregrid/wire_detail_view.pdf>
 File: ./fig//wiregrid/wire_attachment.pdf Graphic file (type pdf)
 <./fig//wiregrid/wire_attachment.pdf>
 
@@ -746,6 +744,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[11]
 File: ./fig//wiregrid/rotation_parts.pdf Graphic file (type pdf)
 <./fig//wiregrid/rotation_parts.pdf>
 File: ./fig//wiregrid/wiregrid_actuator.pdf Graphic file (type pdf)
@@ -758,20 +764,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[11]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
 [12]
-File: ./fig//wiregrid/abs_angle_overview.pdf Graphic file (type pdf)
-<./fig//wiregrid/abs_angle_overview.pdf>
-File: ./fig//wiregrid/abs_angle_WG_plane.pdf Graphic file (type pdf)
-<./fig//wiregrid/abs_angle_WG_plane.pdf>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -780,6 +773,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [13]
+File: ./fig//wiregrid/abs_angle_overview.pdf Graphic file (type pdf)
+<./fig//wiregrid/abs_angle_overview.pdf>
+File: ./fig//wiregrid/abs_angle_WG_plane.pdf Graphic file (type pdf)
+<./fig//wiregrid/abs_angle_WG_plane.pdf>
 File: ./fig//wiregrid/tiltsensor_at_site.pdf Graphic file (type pdf)
 <./fig//wiregrid/tiltsensor_at_site.pdf>
 
@@ -791,6 +788,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[15]
 File: ./fig//wiregrid/wiresag_setup_old.pdf Graphic file (type pdf)
 <./fig//wiregrid/wiresag_setup_old.pdf>
 
@@ -801,18 +806,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[15]
+[16]
 File: ./fig//wiregrid/wiresag_picture_old.pdf Graphic file (type pdf)
 <./fig//wiregrid/wiresag_picture_old.pdf>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
-[16]) (./sub/tiltsensor/tiltsensor.tex
+) (./sub/tiltsensor/tiltsensor.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -821,9 +818,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [17]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[18]
 第 4 章
 
-LaTeX Warning: Reference `' on page 18 undefined on input line 17.
+Package hyperref Warning: Suppressing empty link on input line 9.
+
+
+LaTeX Warning: Reference `' on page 19 undefined on input line 17.
 
 File: ./fig//tiltsensor/tiltsensor_overview.pdf Graphic file (type pdf)
 <./fig//tiltsensor/tiltsensor_overview.pdf>
@@ -834,7 +842,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[18
+[19
 
 ]
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
@@ -857,7 +865,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[19]
+[20]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -865,7 +873,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[20]
+[21]
 File: ./fig//tiltsensor/bath_tempX.pdf Graphic file (type pdf)
 <./fig//tiltsensor/bath_tempX.pdf>
 
@@ -901,18 +909,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[21]
+[22]
 File: ./fig//tiltsensor/evaluation_system_kyoto.pdf Graphic file (type pdf)
 <./fig//tiltsensor/evaluation_system_kyoto.pdf>
-) (./sub/wiresag/wiresag.tex
+File: ./fig//tiltsensor/evalu_kyoto1.pdf Graphic file (type pdf)
+<./fig//tiltsensor/evalu_kyoto1.pdf>
+File: ./fig//tiltsensor/evalu_kyoto2.pdf Graphic file (type pdf)
+<./fig//tiltsensor/evalu_kyoto2.pdf>
+File: ./fig//tiltsensor/evalu_kyoto3.pdf Graphic file (type pdf)
+<./fig//tiltsensor/evalu_kyoto3.pdf>
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
-[22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -921,6 +927,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [23]
+File: ./fig//tiltsensor/angleY_huryou_test.pdf Graphic file (type pdf)
+<./fig//tiltsensor/angleY_huryou_test.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[24]) (./sub/wiresag/wiresag.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[25]
 第 5 章
 ) (./sub/future/future.tex
 
@@ -930,7 +955,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[24
+[26
 
 ]
 第 6 章
@@ -942,7 +967,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[25
+[27
 
 ]
 第 7 章
@@ -954,7 +979,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[26
+[28
 
 ]) (.tex_intermediates/main.bbl
 
@@ -964,7 +989,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[27
+[29
 
 ]
 
@@ -974,7 +999,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[28
+[30
 
 ]
 
@@ -984,7 +1009,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[29]
+[31]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -992,7 +1017,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[30]
+[32]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1000,7 +1025,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[31])
+[33])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1008,20 +1033,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[32] (.tex_intermediates/main.aux)
+[34] (.tex_intermediates/main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 219F97619C0F5DF74A3A3D8133DA4EC6;7674.
+(rerunfilecheck)             Checksum: AB8D19E790B1B4F748543B80FE2A2D90;7824.
  ) 
 Here is how much of TeX's memory you used:
- 17831 strings out of 476677
- 346086 string characters out of 5804957
+ 17964 strings out of 476677
+ 349209 string characters out of 5804957
  1864490 words of memory out of 5000000
- 37964 multiletter control sequences out of 15000+600000
+ 38079 multiletter control sequences out of 15000+600000
  564681 words of font info for 126 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 72i,22n,81p,4007b,1112s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,22n,81p,4007b,1117s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/main.dvi (37 pages, 158092 bytes).
+Output written on .tex_intermediates/main.dvi (39 pages, 167548 bytes).

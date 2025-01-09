@@ -76,13 +76,14 @@ $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HW
 \begin{align}
     d_{\mathrm{d, det}}(t) &= \mathcal{F}^{\mathrm{BPF}}\qty[d_{\mathrm{m,det}}(t)]\times 2\exp\qty{i\qty(4\omega_{\mathrm{HWP}}t + 4\chi_0)} \\
     &= \varepsilon\qty[Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t)]\exp\qty[i2\theta_{\mathrm{det}}]
+    \label{eq:so-hwp_demod}
 \end{align}
-となる。ここで、$\chi_0$ はエンコーダによって決定される。
+となる。ここで、$\chi_0$ はHWPに搭載されているエンコーダによって決定される。
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{simons_observatory/hwp_satoru.pdf}
-    \caption{HWPを通過することで、偏光角が変化することを示した概念図。青い軸が1軸、緑の軸が2軸に対応する。
+    \caption{HWPを通過することで、偏光角が変化することを示した概念図~\cite{takakura_PhD}。青い軸が1軸、緑の軸が2軸に対応する。
     入射した直線偏光の偏光角が1軸に対して $\chi$ であり、複屈折によって $-2\chi$ だけ変化する。}
     \label{fig:so-hwp_satoru}
 \end{figure}
@@ -143,7 +144,8 @@ Eモード、Bモード偏光を表現する係数 $a_{\ell m}^{E}, a_{\ell m}^{
     C_{\mathrm{obs},\,\ell}^{BB} = \sin^2\qty(2\delta\theta)C_{\ell}^{EE} + \cos^2\qty(2\delta\theta)C_{\ell}^{BB}
 \end{equation}
 
-式\eqref{eq:so-EtoBleakage}に基づき、偏光角の誤較正が $C_{\ell}^{EE}$ から $C_{\mathrm{obs}, \ell}^{BB}$ への漏れ込みとして及ぼす影響を図\ref{}に示す。
+式\eqref{eq:so-EtoBleakage}に基づき、偏光角の誤較正が $C_{\ell}^{EE}$ から 
+$C_{\mathrm{obs}, \ell}^{BB}$ への漏れ込みとして及ぼす影響を図\ref{fig:so-EtoBleakage}に示す。
 誤較正の目安として、 $\delta\theta = 10, 1, 0.1\tcdegree$ の場合をプロットした。
 
 偏光角較正の要求精度は望遠鏡の感度やdelensingの能率、ノイズなどによって変化する。
@@ -153,7 +155,9 @@ $\delta\theta \leq 0.1\tcdegree$ であればこの漏れ込みが生む $r$ へ
 
 \begin{figure}[H]
     \centering
-    \caption{LAMBDAを使って作成したEtoB leakageの図と、Lyth boundを示す図を載せる予定。}
+    \includegraphics[width=0.5\textwidth]{draft/not-yet.png}
+    \caption{LAMBDAを使って作成したEtoB leakageの図を載せる予定。}
+    \label{fig:so-EtoBleakage}
 \end{figure}
 
 \subsection{偏光角較正手法}
@@ -166,11 +170,9 @@ Tau Aは北天に昇る、強い直線偏光を放射する超新星残骸であ
 また、偏光角は他の実験の観測結果にも依存しており、これらが潜在的な系統誤差として考慮される必要がある。
 SOの拠点であるチリのアタカマ砂漠は南半球に位置するため、SATでは検出器の一部でしか観測できない。
 \subsubsection{\colortext{blue}{ケンタウルス座A (Cen A)}}
-\colortext{blue}{(入れるか悩み中)
 Cen Aは南天に昇る、直線偏光を放射する電波銀河である。
 QUaD実験にて、$0.5\tcdegree$ の絶対角度較正精度が保証された検出器群を用いて $90,\,\SI{150}{GHZ}$ の波長帯で観測され、その偏光角が測定されている~\cite{so:Zemcov_2010}。
 南天に登るため南半球で比較的観測しやすいが、偏光角の観測周波数依存性や高分解能望遠鏡での内部構造の影響、他の実験の観測結果による依存といったTau Aと同様の要因による系統誤差を持ち得る。
-}
 \subsubsection{月}
 月はその表面で反射された光が月の中心から放射状に広がった偏光信号となる。
 月の観測もTau Aと同じく構造による偏光角の違いが問題となり、ポインティング精度由来の系統誤差を生じる。
@@ -193,7 +195,7 @@ QUaD実験にて、$0.5\tcdegree$ の絶対角度較正精度が保証された�
 
 \subsubsection{スパースワイヤーグリッド}
 スパースワイヤーグリッドは、金属ワイヤーを入射光に対して十分長い間隔で平行に張り巡らせた光学素子である。
-原理は\ref{}にて後述するが、環境熱放射をワイヤーが反射することによりワイヤーに沿った方向に偏光した光を作り出す。
+原理は\ref{sec:wiregrid_principle}節にて後述するが、環境熱放射をワイヤーが反射することによりワイヤーに沿った方向に偏光した光を作り出す。
 
 スパースワイヤーグリッドはワイヤー間隔が広いために多重反射を起こしにくく、望遠鏡の口径に対して平行に設置することができる。
 そのため、デンスワイヤーグリッドよりも小型化が可能であり、製造難易度が比較的低い。
@@ -237,9 +239,9 @@ $\delta\theta$ を求め、絶対角度較正を行う手法を自己較正と�
         \multirow{2}{*}{QUIET\cite{so:Bischoff_2011}} & \multirow{2}{*}{$43,\,94$} & 月 & $1\tcdegree$ \\
                                                       &                            & Tau A, スパースワイヤーグリッド & $3\tcdegree$ \\
         \hline
-        \multirow{3}{*}{\colortext{blue}{SPT-3G}\cite{so:SPT3G}} & $90$  & \multirow{3}{*}{Cen A} & $2.0\tcdegree$ \\
-                                                                 & $150$ &                        & $2.2\tcdegree$ \\
-                                                                 & $220$ &                        & $4.5\tcdegree$ \\
+        \multirow{3}{*}{SPT-3G\cite{so:SPT3G}} & $90$  & \multirow{3}{*}{Cen A} & $2.0\tcdegree$ \\
+                                               & $150$ &                        & $2.2\tcdegree$ \\
+                                               & $220$ &                        & $4.5\tcdegree$ \\
         \hline
     \end{tabular}
     \label{tab:so-polarization_calibration}

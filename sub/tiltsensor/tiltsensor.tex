@@ -6,7 +6,7 @@
 \begin{document}
 \chapter{重力参照計の評価}
 \label{chap:tiltsensor}
-\ref{subsec:wg_tiltsensor}にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定するが、
+\ref{chap:wiregrid}にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定するが、
 これまでに使用が想定されていた Digi-Pas 社製の DWL5000-XY は要求性能を満たさなかった。
 今回、新たに候補となった Sherborne Sensors 社製の DSIC-2051-60 を評価した。
 本章では、はじめに要求精度と評価すべき事項について確認したのち、本重力参照計の概要を共有、評価手法と結果について述べる。
@@ -170,54 +170,76 @@ $Y$ 軸については、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_t
 \subsection{評価系}
 前節にて行った温度変化に対する出力角度の評価にて判明した $Y$ 軸の出力角度の精度不良が初期不良によるものなのか、
 それとも評価系の問題によるものなのかを検証するため、京都大学にていくつかの条件のもと評価を行った。
-評価系を図\ref{fig:evaluation_system_kyoto}および図\ref{}に示す。
+評価系を図\ref{fig:evaluation_system_kyoto}および図\ref{fig:evaluation_kyoto}に示す。
 \begin{enumerate}
-    \item 前節と同じ評価系を再現し、恒温槽に入れて温度変化に対する出力角度の変化を測定する。(図\ref{}(\subref{}))
-    \item 1.の評価系において、アルミプレートごと系全体を $90\tcdegree$ 回転させ、温度変化に対する出力角度の変化を測定する。
-          これにより、恒温槽の床が温度変化により傾き、 $Y$ 軸の出力角度に影響を与えたのかを検証する。
-    \item 2.の評価系において、重力参照計を $90\tcdegree$ 回転させ、再び温度変化に対する出力角度の変化を測定する。
-          これにより、アルミプレート自体が温度変化により傾き、それが $Y$ 軸の出力角度に影響を与えたのかを検証する。
+    \item[条件1.] 前節と同じ評価系を再現し、恒温槽に入れて温度変化に対する出力角度の変化を測定する。
+                 (図\ref{fig:evaluation_kyoto}(\subref{fig:evaluation_kyoto1}))
+    \item[条件2.] 条件1.の評価系において、アルミプレートごと系全体を $90\tcdegree$ 回転させ、温度変化に対する出力角度の変化を測定する。
+                 これにより、恒温槽の床が温度変化により傾き、 $Y$ 軸の出力角度に影響を与えたのかを検証する。
+                 (図\ref{fig:evaluation_kyoto}(\subref{fig:evaluation_kyoto2}))
+    \item[条件3.] 条件2.の評価系において、重力参照計を $90\tcdegree$ 回転させ、再び温度変化に対する出力角度の変化を測定する。
+                 これにより、アルミプレート自体が温度変化により傾き、それが $Y$ 軸の出力角度に影響を与えたのかを検証する。
+                 (図\ref{fig:evaluation_kyoto}(\subref{fig:evaluation_kyoto3}))
 \end{enumerate}
 恒温槽は ETAC 社の HIFLEX FL211C を使用した。
 温度変化は $\SI{30}{\degreeCelsius}$ から $\SI{-20}{\degreeCelsius}$ まで $90$ 分かけて冷却し、
-その後再び $90$ 分ほどかけて $\SI{30}{\degreeCelsius}$ まで昇温した。
+恒温槽の温度と重力参照計の温度が安定するまで待った。その後再び $90$ 分ほどかけて $\SI{30}{\degreeCelsius}$ まで昇温した。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{tiltsensor/evaluation_system_kyoto.pdf}
+    \includegraphics[width=0.75\textwidth]{tiltsensor/evaluation_system_kyoto.pdf}
     \figcaption{京都大学における重力参照計の初期不良検証系と恒温槽}
     \label{fig:evaluation_system_kyoto}
 \end{figure}
 \begin{figure}[H]
-    \begin{minipage}[b]{0.45\columnwidth}
+    \centering
+    \begin{minipage}[b]{0.5\columnwidth}
         \centering
         \includegraphics[width=0.9\textwidth]{tiltsensor/evalu_kyoto1.pdf}
         \subcaption{}
         \label{fig:evaluation_kyoto1}
+    \end{minipage}
+    %\hspace{0.005\columnwidth}
+    \\
+    \begin{minipage}[b]{0.42\columnwidth}
         \centering
-        \includegraphics[width=0.7\textwidth]{tiltsensor/evalu_kyoto2.pdf}
+        \includegraphics[width=0.8\textwidth]{tiltsensor/evalu_kyoto2.pdf}
         \subcaption{}
         \label{fig:evaluation_kyoto2}
     \end{minipage}
-    \hspace{0.005\columnwidth}
-    \begin{minipage}[b]{0.45\columnwidth}
+    %\hspace{0.005\columnwidth}
+    \begin{minipage}[b]{0.455\columnwidth}
         \centering
         \includegraphics[width=0.8\textwidth]{tiltsensor/evalu_kyoto3.pdf}
         \subcaption{}
         \label{fig:evaluation_kyoto3}
     \end{minipage}
-    \caption{京都大学における重力参照計の初期不良検証系の詳細}
-    \label{aaa}
+    \caption{各条件による重力参照計の初期不良検証系の違い。
+             (\subref{fig:evaluation_kyoto1}) 条件1.の評価系。
+             (\subref{fig:evaluation_kyoto2}) 条件2.の評価系。
+             (\subref{fig:evaluation_kyoto3}) 条件3.の評価系。}
+    \label{fig:evaluation_kyoto}
 \end{figure}
 \subsection{評価結果とその考察}
-図\ref{}に、評価系1において温度変化に対する $X$ 軸、$Y$ 軸の出力角度の変化を示す。
+図\ref{fig:angleY_huryou_test}に、各条件$1\sim3$での温度変化に対する $Y$ 軸の出力角度の変化を示す。
+いずれの条件においても、公称精度である $0.08\tcdegree$ を大きく上回る出力角度の変化が見られた。
+また、その傾向はいずれの条件においても一致しており、恒温槽の床の変形やアルミプレートの変形が原因ではないと結論づけられる。
+以上の検証をもとに本重力参照計は初期不良があると判断し、メーカーによる修理を依頼した。
+修理が終了し次第、$Y$ 軸の精度を再評価する必要がある。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{tiltsensor/angleY_huryou_test.pdf}
+    \figcaption{各条件における $Y$ 軸の出力角度の温度変化}
+    \label{fig:angleY_huryou_test}
+\end{figure}
 \section{まとめ}
 本章では、重力参照計 Sherborne Sensors 社 DSIC-2051-60 の評価を行った。
 観測サイトの気温の変化に耐えうるかを確認するため、恒温槽を用いて温度変化に対する出力角度の変化を測定した。
 $X$ 軸に関しては、温度に対する出力角度の平均が $=0.023\tcdegree$ であり、その誤差の平均は $0.011\tcdegree$ であった。
 この結果から、 $\theta_{X}$ の精度を $<0.04\tcdegree$ であると結論づけた。
+これは必要要求精度を満たすものである。
 $Y$ 軸に関しては、公称精度を大きく上回る $2.0\tcdegree$ 以上の出力角度の変化が見られ、初期不良の可能性が疑われた。
 その後の検証を経て、初期不良であることが確認され、メーカーによる修理を依頼した。
 
 $Y$ 軸は初期不良により要求を満たさなかったが、修理により $X$ 軸と同程度の精度を達成できると期待される。
-すなわち、本重力参照計の各軸の精度は $<0.04\tcdegree$ であり、要求精度を満たすことができると見込まれる。
+すなわち、本重力参照計の各軸の精度は $\delta\theta_X\sim\delta\theta_Y<0.04\tcdegree$ となり、要求精度を満たすことができると見込まれる。
 \end{document}

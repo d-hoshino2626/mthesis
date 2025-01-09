@@ -4,11 +4,13 @@
 \setcounter{section}{0}
 
 \begin{document}
+\label{chap:wiregrid}
 \chapter{スパースワイヤーグリッドを用いた偏光角較正装置}
 SOでは検出器の偏光角較正のために、人工偏光光源としてスパースワイヤーグリッドを用いた偏光角較正装置を使用する~\cite{swg:Murata_2023}。
 本章では、光角の較正原理について述べたのちに、装置の設計、考えられている系統誤差の要因とその測定値について述べる。
 
 \section{偏光信号の生成原理}
+\label{sec:wiregrid_principle}
 金属製のワイヤーが、周囲から来た入射光を反射することを考える。
 入射光の波長がワイヤーの直径よりも十分に長い場合、ワイヤー中の自由電子はワイヤーに沿う方向のみに動くと見なすことができ、ワイヤーは自身の軸に沿った偏光状態を持つ光のみを反射する。
 図\ref{fig:wire_polarization}に、異なる偏光方向をもつ入射光に対するワイヤーの振る舞いを示す。
@@ -47,7 +49,7 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 ワイヤー由来の光の強度はほとんど時間変化しないため、$I_{\mathrm{in}}(t) \simeq \mathrm{const.}$ とみなせる。
 したがって、この変調信号は時系列データとして位相オフセット $4\chi_0 + 2(\theta_{\mathrm{det}} + \theta_{\mathrm{wire}})$ を持った
 角振動数 $4\omega_{\mathrm{HWP}}$ の正弦波としてみえる。
-理想的な時系列データのイメージを図\ref{fig:}に示す。
+理想的な時系列データのイメージを図\ref{fig:wiregrid_mod}に示す。
 これを復調することで、式\eqref{eq:so-hwp_demod}より
 \begin{equation}
     d_{\mathrm{d, det}} = \varepsilon\exp\qty[i2\qty(\theta_{\mathrm{wire}} + \theta_{\mathrm{det}})]
@@ -55,18 +57,20 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 \end{equation}
 という偏光情報のみを得る。
 望遠鏡では光学系により生まれる偽偏光や、環境熱放射が比等方だった場合にはワイヤー角度に対して非等方な強度のワイヤー由来の偏光が観測され得る。
-これを取り除くため、さまざまなワイヤーの角度 $\theta_{\mathrm{wire}}$ でこの $d_{\mathrm{d, det}}$ を測定し、複素平面上で円(較正円と呼ぶ)を描く(\ref{fig:})。
+これを取り除くため、さまざまなワイヤーの角度 $\theta_{\mathrm{wire}}$ でこの $d_{\mathrm{d, det}}$ を測定し、複素平面上で円(較正円と呼ぶ)を描く(\ref{fig:calibration_circle})。
 光学系による偽偏光は較正円の原点がズレる効果として現れ、環境熱放射の非等方性は較正円を歪ませる効果として現れる。
 この較正円を用いて補正を加え、最終的に検出器の偏光角 $\theta_{\mathrm{det}}$ を較正する。
-\begin{figure}[tbp]
+\begin{figure}[H]
     \centering
-    % \includegraphics[draft, width=0.5]{wiregrid/hogehoge.pdf}
+    \includegraphics[width=0.8\columnwidth]{draft/not-yet.png}
     \caption[スパースワイヤーグリッドによって生成される偏光信号の時系列データイメージ]{スパースワイヤーグリッドによって生成される偏光信号の時系列データイメージ}
+    \label{fig:wiregrid_mod}
 \end{figure}
-\begin{figure}[tbp]
+\begin{figure}[H]
     \centering
-    % \includegraphics[draft, width=0.5]{wiregrid/hogehoge.pdf}
+    \includegraphics[width=0.8\columnwidth]{draft/not-yet.png}
     \caption{較正円のイメージ}
+    \label{fig:calibration_circle}
 \end{figure}
 \section{較正装置の設計と特徴}
 較正円を描くためにはスパースワイヤーグリッドを回転させ、ワイヤーの角度を変化させる必要がある。
@@ -105,7 +109,7 @@ Henkel 社製 の LOCTITE STYCAST 2850FTJ という接着剤を用いて固定�
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wire_attachment.pdf}
+    \includegraphics[width=0.75\textwidth]{wiregrid/wire_attachment.pdf}
     \caption[ワイヤーを張るときの様子]{ワイヤーを張るときの様子。ワイヤーの両端に $\SI{230}{g}$ の重りをつけ、張力をかけている。}
     \label{fig:wire_attachment}
 \end{figure}
@@ -132,9 +136,7 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
     \centering
     \includegraphics[width=0.65\textwidth]{wiregrid/wiregrid_actuator.pdf}
     \caption[スパースワイヤーグリッドに搭載された切り替え機構の概観]{スパースワイヤーグリッドに搭載された切り替え機構の概観。
-    上図が観測サイトにインストールされた較正装置であり、オレンジの線で囲んだ部分の詳細を下図に示している。
-    \colortext{blue}{初見で分かりにくい？もう少しまともな図を作りたい。}
-    }
+    上図が観測サイトにインストールされた較正装置であり、オレンジの線で囲んだ部分の詳細を下図に示している。}
     \label{fig:gridloader}
 \end{figure}
 \subsection{重力参照計}

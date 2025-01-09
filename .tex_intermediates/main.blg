@@ -3,49 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
+Warning--empty school in takakura_PhD
 Warning--empty school in swg:murata
 Warning--empty school in swg:nakata
 Warning--empty school in swg:iijima
-You've used 19 entries,
+You've used 20 entries,
             1791 wiz_defined-function locations,
-            583 strings with 21604 characters,
-and the built_in function-call counts, 14290 in all, are:
-= -- 353
-> -- 2544
+            588 strings with 21811 characters,
+and the built_in function-call counts, 14413 in all, are:
+= -- 364
+> -- 2548
 < -- 4
-+ -- 854
-- -- 835
-* -- 1881
-:= -- 3026
-add.period$ -- 60
-call.type$ -- 19
++ -- 856
+- -- 836
+* -- 1887
+:= -- 3050
+add.period$ -- 63
+call.type$ -- 20
 change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 195
-empty$ -- 385
-format.name$ -- 835
-if$ -- 2473
+cite$ -- 24
+duplicate$ -- 202
+empty$ -- 396
+format.name$ -- 836
+if$ -- 2497
 int.to.chr$ -- 0
-int.to.str$ -- 19
+int.to.str$ -- 20
 missing$ -- 16
-newline$ -- 98
-num.names$ -- 23
-pop$ -- 40
+newline$ -- 103
+num.names$ -- 24
+pop$ -- 43
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 89
+skip$ -- 91
 stack$ -- 0
 substring$ -- 171
-swap$ -- 47
+swap$ -- 48
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 37
-width$ -- 21
-write$ -- 213
+warning$ -- 4
+while$ -- 38
+width$ -- 22
+write$ -- 223
 is.kanji.str$ -- 0
-(There were 3 warnings)
+(There were 4 warnings)
