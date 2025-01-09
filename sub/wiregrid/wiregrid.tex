@@ -73,7 +73,8 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 また、本装置は望遠鏡の窓の前に設置されるという特性上、CMB観測時にはそれを取り外さなければならない。
 先行研究ではこのような回転・切り替え作業を手動にて行ってきたが、それに伴って短期間での再較正が困難であった。
 そこで、本装置ではワイヤーの回転と観測・較正の切り替えを自動で行う機構が開発・搭載され、10分程度での較正が実現されている。
-本節では、スパースワイヤーグリッド本体の設計に加え、この自動化機構について述べる。
+また、重力参照計を搭載しワイヤー絶対角度の高精度な測定を実現する。
+本節ではスパースワイヤーグリッド本体の設計、自動化機構と重力参照計を用いた絶対角度の測定方法について述べる。
 \subsection{スパースワイヤーグリッドの設計}
 スパースワイヤーグリッドの概観を図\ref{fig:swg}(\subref{fig:wiregrid_appearance})に示す。
 これは金属製のワイヤーを、入射光よりも十分長い間隔で平行に張ったものであり、ワイヤー軸に沿った偏光を生成する。
@@ -151,6 +152,7 @@ $\alpha,\,\beta$ は重力参照計が測定する角度であり、$x',\,y'$ �
 以上の定義から、$x'$ 軸と horizontal line がなす角 $\theta_{\mathrm{sens}}$ は
 \begin{equation}
     \theta_{\mathrm{sens}} = \arctan\qty(\dfrac{\sin\alpha}{\sin\beta})
+    \label{eq:wg_theta_sens}
 \end{equation}
 と表される\cite{swg:Murata_2023}。
 図\ref{fig:abs_angle}(\subref{fig:abs_angle_WG_plane})にスパースワイヤーグリッド平面における各種測定角度と、
@@ -180,6 +182,7 @@ $\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であ�
 \end{figure}
 
 \subsubsection{重力参照計の設置}
+\label{subsubsec:wg_tiltsensor_slope}
 重力参照計はスパースワイヤーグリッドの回転機構のベースプレートに取り付けられている。
 SATはelevation $50\tcdegree$ での観測を主要としており、
 スパースワイヤーグリッドは boresight $60\tcdegree$ のオフセットを持って設置されているため、
@@ -188,7 +191,7 @@ SATはelevation $50\tcdegree$ での観測を主要としており、
 図\ref{fig:tiltsensor_at_site}に重力参照計の設置状況を示す。
 
 望遠鏡の姿勢からくる角度のオフセットを消すことにより、
-重力参照計が出力する角度は式\eqref{}における $\alpha,\,\beta$ と一致しなくなる。
+重力参照計が出力する角度は式\eqref{eq:wg_theta_sens}における $\alpha,\,\beta$ と一致しなくなる。
 このオフセットを考慮して、重力参照計の出力角度 $\theta_{X},\,\theta_{Y}$ を用いて $\alpha,\,\beta$ は
 \begin{align}
     &\begin{split}
