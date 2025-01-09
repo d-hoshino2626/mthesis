@@ -30,7 +30,7 @@ $\theta_{\mathrm{sens}}$ の誤差 $\delta\theta_{\mathrm{sens}}$ は
 $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ は\ref{subsubsec:wg_tiltsensor_slope}にて導入したスロープの角度である。
 重力参照計の両軸ともに同程度の誤差を持つと仮定し、スロープの角度から生じる誤差を無視すると、およそ $\delta\theta_{X} \sim \delta\theta_{Y} \leq 0.04\tcdegree$ が要求精度となる。
 
-観測サイトはその気温が $\SI{-15}{\degreeCelsius} \sim \SI{20}{\degreeCelsius}$ と変動する過酷な環境である。
+観測サイトはその気温が $\SI{-20}{\degreeCelsius} \sim \SI{20}{\degreeCelsius}$ と変動する過酷な環境である。
 そのため、恒温槽を用いてこの温度の下で出力結果を測定し、温度変動による出力の変動を評価を行う。
 
 \section{重力参照計の概要}
@@ -68,15 +68,17 @@ $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ �
 このプレートには3つのアジャスターが取り付けられており、これを回すことでプレートの傾きを調整できる。
 プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ、互いに垂直になるように設置し、これを参照して
 プレート全体が水平になるようにアジャスターで調整した。
-この時の水平度の精度は気泡管水準器の精度によって決まり、 $\pm 0.01\tcdegree$ である。
+この時の水平度の精度は気泡管水準器の精度によって決まり、 $0.01\tcdegree$ である。
 また、プレート上にはUSB温度計を設置し、周囲の空気の温度を測定した。
 以上の測定系を恒温槽\footnote{恒温槽は京都市産業技術研究所より拝借した。}に入れ、温度を変化させたときの出力を測定した。
 
-図\ref{fig:bath_temp_usb}にUSB温度計を用いて測定した恒温槽の温度変化の様子を示す。
-$\SI{20}{\degreeCelsius}$ から $\SI{-15}{\degreeCelsius}$ まで冷却したのち、再び $\SI{20}{\degreeCelsius}$ まで昇温し、出力の変化を測定した。
+図\ref{fig:bath_temp_usb}にUSB温度計を用いて測定した恒温槽内の温度 $T_{\mathrm{USB}}$ の変化の様子を示す。
+$\SI{20}{\degreeCelsius}$ から $\SI{-20}{\degreeCelsius}$ まで冷却したのち、再び $\SI{20}{\degreeCelsius}$ まで昇温し、出力の変化を測定した。
 各温度 $\SI{10}{\tcdegree}$ 刻みで$\SI{3}{時間}$ ほどかけて変化させ、温度が安定している状態が生まれるようにした。
-観測サイトでの気温変動は十分ゆっくりであるか、較正の時間帯を選ぶことで急激な温度変化を避けることができるため、
-恒温槽の
+測定中にはWebカメラを用いて10分ごとに撮影し、気泡管水準器の気泡の位置が変化していないかを確認した。
+例として、図\ref{}に $T_{\mathrm{USB}} \sim \SI{12}{\degreeCelsius}$ で撮影された写真を、
+図\ref{}に $T_{\mathrm{USB}} \sim \SI{-18}{\degreeCelsius}$ で撮影された写真を示す。
+全ての写真を確認したところ、気泡の位置に変動はあったものの水平度が $< 0.01\tcdegree$ に収まっていることが確認できた。
 
 \begin{figure}
     \centering
@@ -91,6 +93,9 @@ $\SI{20}{\degreeCelsius}$ から $\SI{-15}{\degreeCelsius}$ まで冷却した�
     \label{fig:bath_temp_usb}
 \end{figure}
 \subsection{評価結果}
+観測サイトでの気温変動は十分ゆっくりであるか、較正の時間帯を選ぶことで急激な温度変化を避けることができるため、
+恒温槽の温度が安定し、評価計全体と熱平衡であるような状態のデータを用いて評価を行った。
+図\ref{}、\ref{}に重力参照計の $X,\,Y$ 軸が出力する温度 $T_{X},\,T_{Y}$ と、
 \subsection{評価結果の考察}
 \subsection{まとめ}
 \end{document}
