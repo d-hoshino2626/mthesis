@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  9 JAN 2025 14:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  9 JAN 2025 15:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -705,25 +705,25 @@ LaTeX Warning: Citation `swg:iijima' on page 8 undefined on input line 246.
 File: ../../fig//wiregrid/wiresag_setup_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_setup_old.pdf>
 
-LaTeX Warning: Citation `swg:murata' on page 8 undefined on input line 251.
+LaTeX Warning: Citation `swg:murata' on page 8 undefined on input line 250.
 
 
-LaTeX Warning: Citation `swg:murata' on page 8 undefined on input line 251.
+LaTeX Warning: Citation `swg:murata' on page 8 undefined on input line 250.
 
 [8]
 
-LaTeX Warning: Citation `swg:murata' on page 9 undefined on input line 289.
+LaTeX Warning: Citation `swg:murata' on page 9 undefined on input line 288.
 
 
-LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 290.
+LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 289.
 
 File: ../../fig//wiregrid/wiresag_picture_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_picture_old.pdf>
 
-LaTeX Warning: Reference `chap:tiltsensor' on page 9 undefined on input line 306.
+LaTeX Warning: Reference `chap:tiltsensor' on page 9 undefined on input line 305.
 
 
-LaTeX Warning: Reference `chap:wiresag' on page 9 undefined on input line 312.
+LaTeX Warning: Reference `chap:wiresag' on page 9 undefined on input line 311.
 
 [9] [10] (.tex_intermediates/wiregrid.aux)
 

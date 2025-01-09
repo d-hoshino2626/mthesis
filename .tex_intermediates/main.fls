@@ -1032,6 +1032,21 @@ INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
+INPUT ./fig//tiltsensor/tiltsensor_overview.pdf
+INPUT ./fig//tiltsensor/tiltsensor_overview.pdf
+INPUT extractbb -B cropbox -O ./fig//tiltsensor/tiltsensor_overview.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT ./fig//tiltsensor/bath_temperature.pdf
+INPUT ./fig//tiltsensor/bath_temperature.pdf
+INPUT extractbb -B cropbox -O ./fig//tiltsensor/bath_temperature.pdf
 INPUT ./sub/wiresag/wiresag.tex
 INPUT ./sub/wiresag/wiresag.tex
 INPUT ./sub/wiresag/wiresag.tex
