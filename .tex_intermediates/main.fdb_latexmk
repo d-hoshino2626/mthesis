@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex .tex_intermediates/main"] 1736054557 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1736054561 0
+["bibtex .tex_intermediates/main"] 1736379890 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1736379893 0
   "./refs.bib" 1736006127 27097 2dcdcf03b5bd591cdb38fce0896c360a ""
-  ".tex_intermediates/main.aux" 1736054560 16764 2036da959e9ab3b6fb377ff9a35fa02a "latex"
+  ".tex_intermediates/main.aux" 1736379893 17701 c5d4720a1ca22c417939f923f8f3c15c "latex"
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   ".tex_intermediates/main.bbl"
   ".tex_intermediates/main.blg"
   (rewritten before read)
-["dvipdf"] 1736054560 "main.dvi" "main.pdf" "main" 1736054561 0
-  "main.dvi" 1736054560 131712 fa2114c693223b459acdeed5d7a8a9c5 "latex"
+["dvipdf"] 1736379893 "main.dvi" "main.pdf" "main" 1736379893 0
+  "main.dvi" 1736379893 138744 fc6ede28968b73b98fb8c1d24547fddb "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1736054557 "main.tex" "main.dvi" "main" 1736054561 0
-  ".tex_intermediates/main.aux" 1736054560 16764 2036da959e9ab3b6fb377ff9a35fa02a "latex"
-  ".tex_intermediates/main.bbl" 1736054557 16180 84bc5f554e55cab3777f782502ca0804 "bibtex .tex_intermediates/main"
-  ".tex_intermediates/main.out" 1736054560 7586 a1646dc5d2570e691c47ab48a4f1078f "latex"
-  ".tex_intermediates/main.toc" 1736054560 4857 337058f46c47349c6ab5fc62aa9f3974 "latex"
+["latex"] 1736379890 "main.tex" "main.dvi" "main" 1736379893 0
+  ".tex_intermediates/main.aux" 1736379893 17701 c5d4720a1ca22c417939f923f8f3c15c "latex"
+  ".tex_intermediates/main.bbl" 1736379890 16180 84bc5f554e55cab3777f782502ca0804 "bibtex .tex_intermediates/main"
+  ".tex_intermediates/main.out" 1736379893 7897 30c101d360d09a483ef50a2054e4c6bd "latex"
+  ".tex_intermediates/main.toc" 1736379893 5316 c95039e34ddb51aa9db2571737dc9e27 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -24,7 +24,6 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -46,7 +45,6 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm" 1136768653 1524 554068197b70979a55370e6c6495f441 ""
@@ -153,6 +151,7 @@
   "fig//wiregrid/abs_angle_WG_plane.pdf" 1735999011 336852 e167de44f325d4b1b8ce7370fb183359 ""
   "fig//wiregrid/abs_angle_overview.pdf" 1735998992 856057 30bf6de958ff6450ce6051144fe76dad ""
   "fig//wiregrid/rotation_parts.pdf" 1735809903 2449408 504bc9f4363248aeddf2ceb9aa5dc67f ""
+  "fig//wiregrid/tiltsensor_at_site.pdf" 1736376436 4329204 39cba58f26dc65674d4f477f9a4c9462 ""
   "fig//wiregrid/wire_attachment.pdf" 1736015925 3521102 77035975c8b96d136eeb5db51b26c9bb ""
   "fig//wiregrid/wire_detail_view.pdf" 1736010431 3160784 302b67eb592cdb7e8ffcd8883e3e59dd ""
   "fig//wiregrid/wire_reflect.pdf" 1736053010 491883 396826954b0d9194e9906648a7572824 ""
@@ -166,11 +165,11 @@
   "sub/acknowledgement/acknowledgement.tex" 1734771423 156 75eabfb98aaf5970e88fb171241abf29 ""
   "sub/future/future.tex" 1735294291 198 fa2a72b1f06ed4db38b5461360d24e9a ""
   "sub/introduction/introduction.tex" 1735023358 170 a00008050058bd2e00b873c8fee5f280 ""
-  "sub/simons_observatory/simons_observatory.tex" 1736036960 20196 f2adaf418d6043746e077821ac8e8196 ""
+  "sub/simons_observatory/simons_observatory.tex" 1736224195 20194 729247cb96a9a204076ac5ed617c66bb ""
   "sub/summary/summary.tex" 1734771423 143 40dc9340879c969703b802174d3f104c ""
-  "sub/tiltsensor/tiltsensor.tex" 1736054468 698 eee67fd73109b9bfd2ec0081669e8a33 ""
+  "sub/tiltsensor/tiltsensor.tex" 1736373583 1411 1852bd63e30f01e5c8e4ea5725615a1a ""
   "sub/title/title.tex" 1734771423 705 fe5e58f2ba15b9f207490cf4eb9a2a2f ""
-  "sub/wiregrid/wiregrid.tex" 1736053946 21847 cdadbc7a41e3b3f3cd88269c411a69b1 ""
+  "sub/wiregrid/wiregrid.tex" 1736379100 24118 b4bf8b1225c401f3c8ed3477d472e6fc ""
   "sub/wiresag/wiresag.tex" 1736048630 521 b60daf0f64c1d94fddfb158ae9c09004 ""
   (generated)
   ".tex_intermediates/main.aux"

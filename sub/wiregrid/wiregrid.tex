@@ -180,14 +180,29 @@ $\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であ�
 \end{figure}
 
 \subsubsection{重力参照計の設置}
-図\ref{fig:tiltsensor_at_site}に重力参照計の設置状況を示す。
 重力参照計はスパースワイヤーグリッドの回転機構のベースプレートに取り付けられている。
 SATはelevation $50\tcdegree$ での観測を主要としており、
 スパースワイヤーグリッドは boresight $60\tcdegree$ のオフセットを持って設置されているため、
 これらのオフセットを打ち消し、重力参照計が両軸ともに $0\tcdegree$ を指すように設置されている。
-また、重力参照計は自身のX軸、Y軸が重力に対して
+また、重力参照計は自身のX軸、Y軸が重力に対して垂直な水平面に対する角度を出力する。
+図\ref{fig:tiltsensor_at_site}に重力参照計の設置状況を示す。
 
-
+望遠鏡の姿勢からくる角度のオフセットを消すことにより、
+重力参照計が出力する角度は式\eqref{}における $\alpha,\,\beta$ と一致しなくなる。
+このオフセットを考慮して、重力参照計の出力角度 $\theta_{X},\,\theta_{Y}$ を用いて $\alpha,\,\beta$ は
+\begin{align}
+    &\begin{split}
+        \sin\alpha &= \cos\theta_{\mathrm{slope}1}\sin\theta_{X}-\sin\theta_{\mathrm{slope}1}\cos\theta_{\mathrm{slope}2}\sin\theta_{Y} \\
+                   &\hspace{3cm} +\sin\theta_{\mathrm{slope}1}\sin\theta_{\mathrm{slope}2}\sqrt{1-\sin^2\theta_{X}-\sin^2\theta_{Y}}
+    \end{split} \\
+    &\begin{split}
+        \sin\beta &= \sin\theta_{\mathrm{slope}1}\sin\theta_{X}-\sin\theta_{\mathrm{slope}1}\cos\theta_{\mathrm{slope}2}\sin\theta_{Y} \\
+                  &\hspace{3cm}-\cos\theta_{\mathrm{slope}1}\sin\theta_{\mathrm{slope}2}\sqrt{1-\sin^2\theta_{X}-\sin^2\theta_{Y}}
+    \end{split}
+\end{align}
+と表される。ここで、 $\theta_{\mathrm{slope}1},\,\theta_{\mathrm{slope}2}$ は
+図\ref{fig:abs_angle}(\subref{fig:abs_angle_WG_plane})中の $x'$ 軸と $y'$ 軸から測った重力参照計の設置角度であり、
+それぞれの設計値は $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ である。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/tiltsensor_at_site.pdf}
