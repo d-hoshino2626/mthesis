@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1736441715 "wiregrid.dvi" "wiregrid.pdf" "wiregrid" 1736441715 0
-  "wiregrid.dvi" 1736441715 44056 e3ded1e5cae0311aa54b9d778c5f751b "latex"
+["dvipdf"] 1736442325 "wiregrid.dvi" "wiregrid.pdf" "wiregrid" 1736442325 0
+  "wiregrid.dvi" 1736442325 43896 92b4ffc4afb7243364f3b04124cd4f2b "latex"
   (generated)
   "wiregrid.pdf"
   (rewritten before read)
-["latex"] 1736441711 "/Users/hoshinodaiki/pg/latex/mthesis/sub/wiregrid/wiregrid.tex" "wiregrid.dvi" "wiregrid" 1736441715 0
+["latex"] 1736442323 "/Users/hoshinodaiki/pg/latex/mthesis/sub/wiregrid/wiregrid.tex" "wiregrid.dvi" "wiregrid" 1736442325 0
   "../../fig//draft/not-yet.png" 1736440887 79503 13c7db87abaede38c8e4ccd52ffeab0f ""
   "../../fig//wiregrid/abs_angle_WG_plane.pdf" 1735999011 336852 e167de44f325d4b1b8ce7370fb183359 ""
   "../../fig//wiregrid/abs_angle_overview.pdf" 1735998992 856057 30bf6de958ff6450ce6051144fe76dad ""
@@ -19,7 +19,7 @@
   "../../fig//wiregrid/wiresag_picture_old.pdf" 1736039654 2778040 5a3ac617a7a3fef3e4e4f0bb82b11efa ""
   "../../fig//wiregrid/wiresag_setup_old.pdf" 1736033058 439879 b630e8850ca4116a8b7428165d89749c ""
   "../../main.tex" 1736441628 3049 34eeb52d368d3a8c08bce76f25e851fd ""
-  "/Users/hoshinodaiki/pg/latex/mthesis/sub/wiregrid/wiregrid.tex" 1736441688 24468 e814a3155ea887369ddc048e1a4c8ab7 ""
+  "/Users/hoshinodaiki/pg/latex/mthesis/sub/wiregrid/wiregrid.tex" 1736442314 24459 7dd3c746ed35d4dec58abba887c09c25 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -151,9 +151,9 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiregrid.aux" 1736441715 10070 50c457e866696a9b9819fbd8b857ba54 "latex"
-  "wiregrid.out" 1736441715 2828 fd1201cdcc6956fd47418181c4e0dc16 "latex"
-  "wiregrid.tex" 1736441688 24468 e814a3155ea887369ddc048e1a4c8ab7 ""
+  "wiregrid.aux" 1736442325 10295 060a013b2566598644554042242a9e4b "latex"
+  "wiregrid.out" 1736442325 2828 fd1201cdcc6956fd47418181c4e0dc16 "latex"
+  "wiregrid.tex" 1736442314 24459 7dd3c746ed35d4dec58abba887c09c25 ""
   (generated)
   "wiregrid.aux"
   "wiregrid.dvi"

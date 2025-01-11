@@ -6,7 +6,8 @@
 \begin{document}
 \chapter{重力参照計の評価}
 \label{chap:tiltsensor}
-\ref{chap:wiregrid}にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定するが、
+
+\ref{chap:wiregrid}章にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定するが、
 これまでに使用が想定されていた Digi-Pas 社製の DWL5000-XY は要求性能を満たさなかった。
 今回、新たに候補となった Sherborne Sensors 社製の DSIC-2051-60 を評価した。
 本章では、はじめに要求精度と評価すべき事項について確認したのち、本重力参照計の概要を共有、評価手法と結果について述べる。
@@ -14,7 +15,7 @@
 要求される精度は、表\ref{tab:systematic_errors_old}中にある値から合計誤差が $\delta\theta < 0.1\tcdegree$ となることであり、
 式\eqref{eq:wg_theta_sens}で表される $\theta_{\mathrm{sens}}$ にして $\delta\theta_{\mathrm{sens}}<0.06\tcdegree$ である。
 これを重力参照計の要求精度に換算する。
-式\eqref{}より、重力参照計の各 $X$ 軸、$Y$ 軸の誤差を $\delta\theta_{X},\,\delta\theta_{Y}$ とすると、
+式\eqref{eq:wg_tiltsensor_slope1}\eqref{eq:wg_tiltsensor_slope2}より、重力参照計の各 $X$ 軸、$Y$ 軸の誤差を $\delta\theta_{X},\,\delta\theta_{Y}$ とすると、
 $\theta_{\mathrm{sens}}$ の誤差 $\delta\theta_{\mathrm{sens}}$ は
 \begin{align}
     \delta\theta_{\mathrm{sens}} &= 
@@ -225,6 +226,9 @@ $Y$ 軸については、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_t
 また、その傾向はいずれの条件においても一致しており、恒温槽の床の変形やアルミプレートの変形が原因ではないと結論づけられる。
 以上の検証をもとに本重力参照計は初期不良があると判断し、メーカーによる修理を依頼した。
 修理が終了し次第、$Y$ 軸の精度を再評価する必要がある。
+
+なお、氷点下の温度において測定値のばらつきが生じているが、重力参照計の温度が安定しているときには
+このようなばらつきは見られなかったため、較正装置として使用する際には問題ないと考えられる。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{tiltsensor/angleY_huryou_test.pdf}

@@ -4,8 +4,8 @@
 \setcounter{section}{0}
 
 \begin{document}
-\label{chap:wiregrid}
 \chapter{スパースワイヤーグリッドを用いた偏光角較正装置}
+\label{chap:wiregrid}
 SOでは検出器の偏光角較正のために、人工偏光光源としてスパースワイヤーグリッドを用いた偏光角較正装置を使用する~\cite{swg:Murata_2023}。
 本章では、光角の較正原理について述べたのちに、装置の設計、考えられている系統誤差の要因とその測定値について述べる。
 
@@ -200,11 +200,13 @@ SATはelevation $50\tcdegree$ での観測を主要としており、
     &\begin{split}
         \sin\alpha &= \cos\theta_{\mathrm{slope}1}\sin\theta_{X}-\sin\theta_{\mathrm{slope}1}\cos\theta_{\mathrm{slope}2}\sin\theta_{Y} \\
                    &\hspace{3cm} +\sin\theta_{\mathrm{slope}1}\sin\theta_{\mathrm{slope}2}\sqrt{1-\sin^2\theta_{X}-\sin^2\theta_{Y}}
-    \end{split} \\
+    \end{split}
+    \label{eq:wg_tiltsensor_slope1} \\
     &\begin{split}
         \sin\beta &= \sin\theta_{\mathrm{slope}1}\sin\theta_{X}-\sin\theta_{\mathrm{slope}1}\cos\theta_{\mathrm{slope}2}\sin\theta_{Y} \\
                   &\hspace{3cm}-\cos\theta_{\mathrm{slope}1}\sin\theta_{\mathrm{slope}2}\sqrt{1-\sin^2\theta_{X}-\sin^2\theta_{Y}}
     \end{split}
+    \label{eq:wg_tiltsensor_slope2}
 \end{align}
 と表される。ここで、 $\theta_{\mathrm{slope}1},\,\theta_{\mathrm{slope}2}$ は
 図\ref{fig:abs_angle}(\subref{fig:abs_angle_WG_plane})中の $x'$ 軸と $y'$ 軸から測った重力参照計の設置角度であり、
