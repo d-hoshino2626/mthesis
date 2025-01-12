@@ -9,9 +9,63 @@
 \section{ストークスパラメータの定義}
 \label{sec:stokes}
 $xyz$ 直交座標系において、$z$ 軸正の方向に進行する光を考える。
-この光の電場ベクトルを $\bm{E}$ とすると、これは
+この光の電場ベクトルを $\bm{E}(t)$ とすると、これは一般に
+\begin{align}
+    \bm{E}(t) &= E_{x} \bm{\hat{e}}_{x} + E_{y} \bm{\hat{e}}_{y} \\
+        &= a_{x}\cos(\omega t - kz + \delta_x) \bm{\hat{e}}_{x} + a_{y}\cos(\omega t - kz + \delta_y) \bm{\hat{e}}_{y}
+\end{align}
+と表される。ここで、$E_{x}, E_{y}$ は振幅、$\omega$ は角振動数、$k$ は波数、$\delta_x, \delta_y$ は位相オフセットであり、
+$\bm{\hat{e}}_x,\,\bm{\hat{e}}_y$ はそれぞれ $x$ 軸、$y$ 軸正の方向の単位ベクトルである。
+$\delta = \delta_y - \delta_x$ とすると、ストークスパラメータ $I,\,Q,\,U,\,V$ は
+\begin{align}
+    I &= a_{x}^{2} + a_{y}^{2} \\
+    Q &= a_{x}^{2} - a_{y}^{2} \\
+    U &= 2a_{x}a_{y}\cos\delta \\
+    V &= 2a_{x}a_{y}\sin\delta
+\end{align}
+と定義される。
+複素電場ベクトル $\bm{\mathcal{E}}$ を用いてストークスパラメータを表すことを考える。
+$\bm{\mathcal{E}}$ は一般に
+\begin{align}
+    \bm{\mathcal{E}} &= \mathcal{E}_{x}\bm{\hat{e}}_{x} + \mathcal{E}_{y}\bm{\hat{e}}_{y} \\
+    &= a_{x}e^{i\qty(\omega t-kz+\delta_x)}\bm{\hat{e}}_{x} + a_{y}e^{\qty(\omega t-kz+\delta_y)}\bm{\hat{e}}_{y}
+    \label{eq:complex_electric_field}
+\end{align}
+と表される。ここで、$\mathcal{E}_{x}, \mathcal{E}_{y}$ は複素振幅である。
+ストークスパラメータは
+\begin{align}
+    I &= \abs{\mathcal{E}_{x}}^{2} + \abs{\mathcal{E}_{y}}^{2} \\
+    Q &= \abs{\mathcal{E}_{x}}^{2} - \abs{\mathcal{E}_{y}}^{2} \\
+    U &= 2\Re\qty[\mathcal{E}_{x}\mathcal{E}_{y}^{*}] = \mathcal{E}_x\mathcal{E}_{y}^{*}+\mathcal{E}_{x}^{*}\mathcal{E}_{y} \\
+    V &= 2\Im\qty[\mathcal{E}_{x}\mathcal{E}_{y}^{*}] = \mathcal{E}_x\mathcal{E}_{y}^{*}-\mathcal{E}_{x}^{*}\mathcal{E}_{y}
+\end{align}
+と表される。
+\section{座標変換に対するストークスパラメータの変換}
+\label{sec:stokes_transform}
+$xyz$ 直交座標系を $z$ 軸周りに $\theta$ だけ回転させた $x'y'z$ 直交座標系を考える。
+このとき、$x',y',z$ 軸の単位ベクトル $\bm{\hat{e}}_{x'},\bm{\hat{e}}_{y'},\bm{\hat{e}}_{z}$ はそれぞれ
 \begin{equation}
-    \bm{E} = \bm{E}_0 e^{i(kz-\omega t)}
+    \mqty(\bm{\hat{e}}_{x},\,\bm{\hat{e}}_{y},\bm{\hat{e}}_{z}) = 
+        \mqty(\bm{\hat{e}}_{x'},\,\bm{\hat{e}}_{y'},\bm{\hat{e}}_{z})
+        \mqty(\cos\theta & -\sin\theta & 0 \\
+              \sin\theta & \cos\theta & 0 \\
+              0 & 0 & 1
+              )
 \end{equation}
+と表される。複素電場ベクトル\eqref{eq:complex_electric_field}を $x'y'z$ 直交座標系で表すと
+\begin{align}
+    \bm{\mathcal{E}} &= \mathcal{E}_{x}e^{i\qty(\omega t-kz+\delta_x)}\qty(\cos\theta \bm{\hat{e}}_{x'} + \sin\theta \bm{\hat{e}}_{y'}) \notag \\
+        &\hspace{3cm} + \mathcal{E}_{y}e^{\qty(\omega t-kz+\delta_y)}(-\sin\theta \bm{\hat{e}}_{x'} + \cos\theta\bm{\hat{e}}_{y'}) \\
+    &= \qty(\mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta)e^{i\qty(\omega t-kz+\delta_x)}\bm{\hat{e}}_{x'} \notag \\
+        &\hspace{3cm} + \qty(\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta)e^{i\qty(\omega t-kz+\delta_y)}\bm{\hat{e}}_{y'}
+\end{align}
+となる。このとき、$x'y'z$ 直交座標系でのストークスパラメータは
+% \begin{align}
+%     \begin{split}
+%         I' &= \abs(\mathcal{E}_{x})^{2} + \abs(\mathcal{E}_{y})^{2} \\
+%         &= \abs(\cos\theta)
+%     \end{split}
+%     aaa
+% \end{align}
 
 \end{document}
