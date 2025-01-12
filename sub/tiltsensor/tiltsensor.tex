@@ -36,7 +36,7 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 この温度変動に対してもその精度を欠くことがない性能が必要である。
 これらの状況を踏まえ、以下の2点について評価を行う。
 \begin{enumerate}
-    \item 長期間測定における出力の変化
+    \item 長期間測定における出力の安定性
     \item 温度変動による出力の変化
 \end{enumerate}
 
@@ -47,7 +47,7 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 公称の精度は $0.08\tcdegree$ であるため、その精度を再評価し、要求精度を満たすかを確認する必要がある。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{tiltsensor/tiltsensor_overview.pdf}
+    \includegraphics[width=0.65\textwidth]{tiltsensor/tiltsensor_overview.pdf}
     \figcaption{重力参照計 Sherborne Sensors 社 DSIC-2051-60 の外観}
     \label{fig:tiltsensor_DSIC-2051-60}
 \end{figure}
@@ -68,7 +68,7 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 %\end{itemize}
 %\subsection{測定結果}
 %図\ref{}に電源を入れた直後に10分間測定した結果を示す。
-\section{長期間測定における出力の変化の評価}
+\section{長期間測定における出力の安定性の評価}
 \subsection{評価手法}
 図\ref{fig:timedrift_evaluation_system}に評価系を示す。
 重力参照計を鉄製の厚み $\SI{10}{mm}$ のプレートの上に設置した。
@@ -77,12 +77,12 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 プレート全体が水平になるようにアジャスターで調整した。
 この時の水平度の精度は気泡管水準器の精度によって決まり、 $< 0.01\tcdegree$ である。
 この系を長期間保持したまま、重力参照計の出力する温度と角度を測定した。
-測定期間は2024年3月8日から4月10日までの約1ヶ月間である。
+測定期間は2024年3月8日から4月9日までの32日間である。
 また、測定系はカメラによって1時間ごとに撮影され、気泡管水準器の気泡の位置が変化していないかを確認した。
 その結果、気泡の位置に変動はあったものの水平度が $< 0.01\tcdegree$ に収まっていることが確認できた。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{tiltsensor/timedrift_evaluation_system.pdf}
+    \includegraphics[width=0.7\textwidth]{tiltsensor/timedrift_evaluation_system.pdf}
     \caption{長期間測定における重力参照計の評価系}
     \label{fig:timedrift_evaluation_system}
 \end{figure}
@@ -94,11 +94,12 @@ $X$ 軸については、日毎に平均された出力角度の平均が $-0.05
 この結果から、時間変化による出力角度の変化の精度を $\delta\theta_{X,\mathrm{time}} = 0.003\tcdegree$ であると結論づける。
 $Y$ 軸については、日毎に平均された出力角度の平均が $-0.012\tcdegree$ となり、その標準偏差は $0.034\tcdegree$ であった。
 この結果から、時間変化による出力角度の変化の精度を $\delta\theta_{Y,\mathrm{time}} = 0.034\tcdegree$ であると結論づける。
+表\ref{tab:timedrift_result}にこれらの結果をまとめる。
 $Y$ 軸の結果は $X$ 軸の結果に比べ非常に大きな値となっている。
 図\ref{fig:timedrift_Yaxis}(\subref{fig:timedrift_tempY})と
 図\ref{fig:timedrift_Yaxis}(\subref{fig:timedrift_angleY})を見比べると
 温度の変動に伴って出力角度が大きく変化しており、この精度の違いは温度変動による出力角度の変化が $X$ 軸と $Y$ 軸で異なることが原因であると考えられる。
-次節の温度変動による出力の変化の評価にて、これを検証する。
+次節の温度変動による出力の変化の評価にてこれを検証する。
 \begin{figure}[H]
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
@@ -118,7 +119,7 @@ $Y$ 軸の結果は $X$ 軸の結果に比べ非常に大きな値となって�
              (\subref{fig:timedrift_angleX}) $X$ 軸の出力角度 $\theta_{X}$ の変化。}
     \label{fig:timedrift_Xaxis}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=1.0\columnwidth]{tiltsensor/timedrift_tempY_daily.pdf}
@@ -133,10 +134,20 @@ $Y$ 軸の結果は $X$ 軸の結果に比べ非常に大きな値となって�
         \label{fig:timedrift_angleY}
     \end{minipage}
     \caption{日毎に平均化された1ヶ月間の $Y$ 軸の温度と角度の変化。
-             (\subref{fig:timedrift_tempY}) $Y$ 軸の出力温度 $T_{Y}$ の変化。
-             (\subref{fig:timedrift_angleY}) $Y$ 軸の出力角度 $\theta_{Y}$ の変化。}
+    (\subref{fig:timedrift_tempY}) $Y$ 軸の出力温度 $T_{Y}$ の変化。
+    (\subref{fig:timedrift_angleY}) $Y$ 軸の出力角度 $\theta_{Y}$ の変化。}
     \label{fig:timedrift_Yaxis}
 \end{figure}
+\begin{table}[H]
+    \centering
+    \caption{長期間測定における重力参照計の出力の安定性の評価結果}
+    \begin{tabular}{cccc} \hline
+        & 平均 & 標準偏差 & 精度 \\ \hline\hline
+        $X$ 軸 & $-0.0598\tcdegree$ & $0.0028\tcdegree$ & $0.003\tcdegree$ \\ \hline
+        $Y$ 軸 & $-0.012\tcdegree$ & $0.034\tcdegree$ & $0.034\tcdegree$ \\ \hline
+    \end{tabular}
+    \label{tab:timedrift_result}
+\end{table}
 
 \section{温度変動による出力の変化の評価}
 \subsection{評価手法}
@@ -203,10 +214,14 @@ $T_{\mathrm{USB}} \sim \SI{-18}{\degreeCelsius}$ で撮影された写真を示�
 $X$ 軸については、温度変化に対する出力角度の平均が $-0.023\tcdegree$ となり、その誤差の平均は $0.011\tcdegree$ であった。
 この結果から、それぞれの絶対値の和を取ることで $\theta_{X}$ の精度を 
 $\delta\theta_{X,\mathrm{temp}} = 0.033\tcdegree$ であると結論づける。
-$Y$ 軸については、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_temp_dep})に示すように
-温度変化に対する出力角度の変化が $2.0\tcdegree$ 以上と非常に大きく、絶対角度較正には使用できない精度であった。
-しかし、この結果は公称精度 $0.08\tcdegree$ を大きく上回っており、初期不良の可能性が疑われる。
+$Y$ 軸については、温度変化に対する出力角度の平均が $1.18\tcdegree$ となり、その誤差の平均は $0.014\tcdegree$ であった。
+図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_temp_dep})に示すように
+温度変化に対する出力角度の変化が $2.0\tcdegree$ 以上と非常に大きく、絶対角度較正には使用できない精度であることがわかる。
+これにより、前節の長期間の出力の安定性の評価において $Y$ 軸の精度が $X$ 軸に比べて悪かったことが、
+温度変動による出力角度の変化によるものであると説明できる。
+要求精度を満たさない結果が得られたが、この結果は公称精度 $0.08\tcdegree$ を大きく上回っており、初期不良の可能性が疑われる。
 次節にて、この初期不良の可能性を検証する。
+また、表\ref{tab:temp_result}にこれらの結果をまとめる。
 \begin{figure}[H]
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
@@ -245,6 +260,16 @@ $Y$ 軸については、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_t
              (\subref{fig:angleY_temp_dep}) $Y$ 軸の出力角度 $\theta_{Y}$ の温度依存性。}
     \label{fig:evaluation_bath_Yaxis}
 \end{figure}
+\begin{table}[H]
+    \centering
+    \caption{温度変動による重力参照計の出力の変化の評価結果}
+    \begin{tabular}{cccc} \hline
+        & 平均 & 誤差の平均 & 精度 \\ \hline\hline
+        $X$ 軸 & $-0.023\tcdegree$ & $0.011\tcdegree$ & $0.033\tcdegree$ \\ \hline
+        $Y$ 軸 & $1.18\tcdegree$ & $0.014\tcdegree$ & $>1\tcdegree$ \\ \hline
+    \end{tabular}
+    \label{tab:temp_result}
+\end{table}
 \section{初期不良の検証}
 \subsection{評価系}
 前節にて行った温度変化に対する出力角度の評価にて判明した $Y$ 軸の出力角度の精度不良が初期不良によるものなのか、
@@ -305,8 +330,9 @@ $Y$ 軸については、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_t
 以上の検証をもとに本重力参照計は初期不良があると判断し、メーカーによる修理を依頼した。
 修理が終了し次第、$Y$ 軸の精度を再評価する必要がある。
 
-なお、氷点下の温度において測定値のばらつきが生じているが、重力参照計の温度が安定しているときには
-このようなばらつきは見られなかったため、較正装置として使用する際には問題ないと考えられる。
+なお、氷点下の温度において測定値のばらつきが生じているが、本測定では90分で $\SI{50}{\degreeCelsius}$ 近くの温度変化を行っており、
+重力参照計の温度が安定しているときにはこのようなばらつきは見られなかったため、このばらつきは温度の急激な変化によるものだとみなすことができる。
+観測サイトではこのような急激な温度変化は生じないため、偏光角較正装置に搭載する際には問題ないと考えられる。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{tiltsensor/angleY_huryou_test.pdf}
@@ -315,10 +341,17 @@ $Y$ 軸については、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_t
 \end{figure}
 \section{まとめ}
 本章では、重力参照計 Sherborne Sensors 社 DSIC-2051-60 の評価を行った。
-観測サイトの気温の変化に耐えうるかを確認するため、恒温槽を用いて温度変化に対する出力角度の変化を測定した。
-$X$ 軸に関しては、温度に対する出力角度の平均が $=0.023\tcdegree$ であり、その誤差の平均は $0.011\tcdegree$ であった。
-この結果から、 $\theta_{X}$ の精度を $<0.04\tcdegree$ であると結論づけた。
-これは必要要求精度を満たすものである。
+長期間の実験期間にて絶対角度の精度を保証するため、長期間の出力の安定性を評価した。
+また、観測サイトの気温の変化に耐えうるかを確認するため、恒温槽を用いて温度変化に対する出力角度の変化を測定した。
+長期安定性に関しては、 $X$ 軸の精度が $\delta\theta_{X,\mathrm{time}} = 0.003\tcdegree$ であり、
+$Y$ 軸の精度が $\delta\theta_{Y,\mathrm{time}} = 0.034\tcdegree$ と評価された。
+温度変化に対する出力角度の変化に関しては、 $X$ 軸の精度が $\delta\theta_{X,\mathrm{temp}} = 0.033\tcdegree$ であり、
+$Y$ 軸の精度が $\delta\theta_{Y,\mathrm{temp}} > 1\tcdegree$ と評価された。
+この結果から、 $\theta_{X}$ の精度を 
+\begin{equation}
+    \delta\theta_X = \sqrt{\qty(\delta\theta_{X,\mathrm{time}})^2 + \qty(\delta\theta_{X,\mathrm{temp}})^2}\simeq 0.033\tcdegree < 0.04\tcdegree
+\end{equation}
+であると結論づけた。これは要求精度を満たすものである。
 $Y$ 軸に関しては、公称精度を大きく上回る $2.0\tcdegree$ 以上の出力角度の変化が見られ、初期不良の可能性が疑われた。
 その後の検証を経て、初期不良であることが確認され、メーカーによる修理を依頼した。
 
