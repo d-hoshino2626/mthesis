@@ -10,7 +10,7 @@
 \ref{chap:wiregrid}章にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定するが、
 これまでに使用が想定されていた Digi-Pas 社製の DWL5000-XY は要求性能を満たさなかった。
 今回、新たに候補となった Sherborne Sensors 社製の DSIC-2051-60 を評価した。
-本章では、はじめに要求精度と評価すべき事項について確認したのち、本重力参照計の概要を共有、評価手法と結果について述べる。
+本章では、はじめに要求精度と評価すべき事項について確認したのち、本重力参照計の概要を共有、各評価手法と結果について述べる。
 \section{要求精度と評価内容}
 要求される精度は、表\ref{tab:systematic_errors_old}中にある値から合計誤差が $\delta\theta < 0.1\tcdegree$ となることであり、
 式\eqref{eq:wg_theta_sens}で表される $\theta_{\mathrm{sens}}$ にして $\delta\theta_{\mathrm{sens}}<0.06\tcdegree$ である。
@@ -31,8 +31,14 @@ $\theta_{\mathrm{sens}}$ の誤差 $\delta\theta_{\mathrm{sens}}$ は
 $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ は\ref{subsubsec:wg_tiltsensor_slope}にて導入したスロープの角度である。
 重力参照計の両軸ともに同程度の誤差を持つと仮定し、スロープの角度から生じる誤差を無視すると、およそ $\delta\theta_{X} \sim \delta\theta_{Y} \leq 0.04\tcdegree$ が要求精度となる。
 
-観測サイトはその気温が $\SI{-20}{\degreeCelsius} \sim \SI{20}{\degreeCelsius}$ と変動する過酷な環境である。
-そのため、恒温槽を用いてこの温度の下で出力結果を測定し、温度変動による出力の変動を評価を行う。
+SOは数年以上の長期間の実験期間が見込まれるため、それに応じて重力参照計も長期使用に耐え得る性能であることが求められる。
+また、観測サイトはその気温が $\SI{-20}{\degreeCelsius} \sim \SI{20}{\degreeCelsius}$ と変動する過酷な環境であり、
+この温度変動に対してもその精度を欠くことがない性能が必要である。
+これらの状況を踏まえ、以下の2点について評価を行う。
+\begin{enumerate}
+    \item 長期間測定におけるオフセットの変動
+    \item 温度変動による出力の変化
+\end{enumerate}
 
 \section{重力参照計の概要}
 図\ref{fig:tiltsensor_DSIC-2051-60}に本重力参照計の外観を示す。
@@ -62,7 +68,12 @@ $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ �
 %\end{itemize}
 %\subsection{測定結果}
 %図\ref{}に電源を入れた直後に10分間測定した結果を示す。
-\section{温度による出力の変化の評価}
+\section{長期間測定におけるオフセットの変動の評価}
+\subsection{評価手法}
+図\ref{fig:evaluation_system}に評価系を示す。
+
+
+\section{温度変動による出力の変化の評価}
 \subsection{評価手法}
 図\ref{fig:evaluation_system}に評価系を示す。
 重力参照計をアルミニウム製の厚み $\SI{30}{mm}$ のプレートの上に設置した。
