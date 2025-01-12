@@ -36,7 +36,7 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 この温度変動に対してもその精度を欠くことがない性能が必要である。
 これらの状況を踏まえ、以下の2点について評価を行う。
 \begin{enumerate}
-    \item 長期間測定におけるオフセットの変動
+    \item 長期間測定における出力の変化
     \item 温度変動による出力の変化
 \end{enumerate}
 
@@ -68,17 +68,40 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 %\end{itemize}
 %\subsection{測定結果}
 %図\ref{}に電源を入れた直後に10分間測定した結果を示す。
-\section{長期間測定におけるオフセットの変動の評価}
+\section{長期間測定における出力の変化の評価}
 \subsection{評価手法}
-図\ref{fig:evaluation_system}に評価系を示す。
+図\ref{fig:timedrift_evaluation_system}に評価系を示す。
+重力参照計を鉄製の厚み $\SI{10}{mm}$ のプレートの上に設置した。
+このプレートには3つのアジャスターが取り付けられており、これを回すことでプレートの傾きを調整できる。
+プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ互いに垂直になるように設置し、これを参照して
+プレート全体が水平になるようにアジャスターで調整した。
+この時の水平度の精度は気泡管水準器の精度によって決まり、 $< 0.01\tcdegree$ である。
+この系を長期間保持したまま、重力参照計の出力する温度と角度を測定した。
+測定期間は2024年3月8日から4月10日までの約1ヶ月間である。
+また、測定系はカメラによって1時間ごとに撮影され、気泡管水準器の気泡の位置が変化していないかを確認した。
+その結果、気泡の位置に変動はあったものの水平度が $< 0.01\tcdegree$ に収まっていることが確認できた。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{tiltsensor/timedrift_evaluation_system.pdf}
+    \caption{長期間測定における重力参照計の評価系}
+    \label{fig:timedrift_evaluation_system}
+\end{figure}
 
+\subsection{評価結果とその考察}
+図\ref{}に測定された温度と角度を日毎に平均をとった結果を示す。
+誤差として、各日のデータ群の標準偏差を示している。
+
+\begin{figure}[H]
+    
+\end{figure}
 
 \section{温度変動による出力の変化の評価}
 \subsection{評価手法}
-図\ref{fig:evaluation_system}に評価系を示す。
+図\ref{fig:temp_evaluation_system}に評価系を示す。
 重力参照計をアルミニウム製の厚み $\SI{30}{mm}$ のプレートの上に設置した。
+長期間測定における出力の変化の評価の際と同様に、
 このプレートには3つのアジャスターが取り付けられており、これを回すことでプレートの傾きを調整できる。
-プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ、互いに垂直になるように設置し、これを参照して
+プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ互いに垂直になるように設置し、これを参照して
 プレート全体が水平になるようにアジャスターで調整した。
 この時の水平度の精度は気泡管水準器の精度によって決まり、 $< 0.01\tcdegree$ である。
 また、プレート上にはUSB温度計を設置し、周囲の空気の温度を測定した。
@@ -94,11 +117,11 @@ $T_{\mathrm{USB}} \sim \SI{12}{\degreeCelsius}$ で撮影された写真を、
 $T_{\mathrm{USB}} \sim \SI{-18}{\degreeCelsius}$ で撮影された写真を示す。
 全ての写真を確認したところ、気泡の位置に変動はあったものの水平度が $< 0.01\tcdegree$ に収まっていることが確認できた。
 
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\textwidth]{tiltsensor/evaluation_system.pdf}
+    \includegraphics[width=1.0\textwidth]{tiltsensor/temp_evaluation_system.pdf}
     \figcaption{恒温槽を用いた重力参照計の温度変化評価系}
-    \label{fig:evaluation_system}
+    \label{fig:temp_evaluation_system}
 \end{figure}
 \begin{figure}[H]
     \centering
@@ -135,7 +158,8 @@ $T_{\mathrm{USB}} \sim \SI{-18}{\degreeCelsius}$ で撮影された写真を示�
 どちらの軸に関しても、ヒステリシスを見るために冷却時と昇温時のデータを分けて示している。
 
 $X$ 軸については、温度変化に対する出力角度の平均が $-0.023\tcdegree$ となり、その誤差の平均は $0.011\tcdegree$ であった。
-この結果から、それぞれの絶対値の和を取ることで $\theta_{X}$ の精度を $<0.04\tcdegree$ であると結論づける。
+この結果から、それぞれの絶対値の和を取ることで $\theta_{X}$ の精度を 
+$\delta\theta_{X,\mathrm{temp}} = 0.033\tcdegree < 0.04\tcdegree$ であると結論づける。
 $Y$ 軸については、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_temp_dep})に示すように
 温度変化に対する出力角度の変化が $2.0\tcdegree$ 以上と非常に大きく、絶対角度較正には使用できない精度であった。
 しかし、この結果は公称精度 $0.08\tcdegree$ を大きく上回っており、初期不良の可能性が疑われる。
