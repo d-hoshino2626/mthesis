@@ -52,6 +52,7 @@ SATでは、この大気による熱放射を取り除くために、極低温�
     \mathcal{E}_{y} &= -\mathcal{E}_{y}
 \end{align}
 となる。1軸($x$軸)に対して電場成分が反転している。
+これにより、1軸に対して $\chi$ だけ傾いて直線偏光している入射光は、$-\chi$ だけ傾いて直線偏光した光に変換される(図\ref{fig:so-hwp_satoru})。
 入射してくる光のストークスパラメータを $I_{\mathrm{in}},\,Q_{\mathrm{in}},\,U_{\mathrm{in}},\,V_{\mathrm{in}}$ とすると、
 HWPを通過した後の光のストークスパラメータ $I_{\mathrm{out}},\,Q_{\mathrm{out}},\,U_{\mathrm{out}},\,V_{\mathrm{out}}$ は
 式\eqref{eq:stokes_I_complex}$\sim$\eqref{eq:stokes_V_complex}を用いて
@@ -73,35 +74,52 @@ HWPを通過した後の光のストークスパラメータ $I_{\mathrm{out}},\
           )
 \end{equation}
 と計算でき、$Q,\,U$ を反転させることがわかる。
+HWPが行うストークスパラメータの変換行列 $M_{\mathrm{HWP}}$ を
+\begin{equation}
+    M_{\mathrm{HWP}} = 
+    \mqty(1 & 0 & 0 & 0 \\ 
+          0 & 1 & 0 & 0 \\
+          0 & 0 & -1 & 0 \\
+          0 & 0 & 0 & -1
+          )
+\end{equation}
+と定義する。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{simons_observatory/hwp_satoru.pdf}
+    \caption{HWPを通過することで、偏光角が変化することを示した概念図~\cite{takakura_PhD}。青い軸が1軸、緑の軸が2軸に対応する。
+    入射した直線偏光の偏光角が1軸に対して $\chi$ であり、複屈折によって $-2\chi$ だけ変化する。}
+    \label{fig:so-hwp_satoru}
+\end{figure}
 
 次に、HWPの1軸が $x$ 軸から測って $\theta_{\mathrm{HWP}}$ だけ回転しているような場合を考える(図\ref{})。
 入射光のストークスパラメータを測る基底を $x,\,y$ 軸から 1,\,2軸に変換したあと、
 $U,\,V$ を反転、基底をもとに戻すという操作を行えば、HWPを通過した後の光のストークスパラメータを計算できる。
-したがって
+そこで、座標を $\theta$ だけ回転したときのストークスパラメータの変換行列を $R(\theta)$ とすると、式\ref{eq:stokes_transform}より
+\begin{equation}
+    R_{\theta} = 
+    \mqty(1 & 0 & 0 & 0 \\ 
+          0 & \cos 2\theta  & \sin 2\theta & 0 \\
+          0 & -\sin 2\theta & \cos 2\theta & 0 \\
+          0 & 0 & 0 & 1
+          )
+\end{equation}
+である。この行列を用いて、HWPを通過した後の光のストークスパラメータは
 \begin{equation}
     \mqty(I_{\mathrm{\mathrm{out}}} \\
           Q_{\mathrm{\mathrm{out}}} \\
           U_{\mathrm{\mathrm{out}}} \\
           V_{\mathrm{\mathrm{out}}}
     ) = 
-    \mqty(1 & 0 & 0 & 0 \\ 
-          0 & \cos (2\theta_{\mathrm{HWP}})  & \sin (2\theta_{\mathrm{HWP}}) & 0 \\
-          0 & -\sin (2\theta_{\mathrm{HWP}}) & \cos (2\theta_{\mathrm{HWP}}) & 0 \\
-          0 & 0 & 0 & 1
-          )
-    \mqty(1 & 0 & 0 & 0 \\ 
-          0 & \cos (2\theta_{\mathrm{HWP}}) & -\sin (2\theta_{\mathrm{HWP}}) & 0 \\
-          0 & \sin (2\theta_{\mathrm{HWP}}) & \cos (2\theta_{\mathrm{HWP}}) & 0 \\
-          0 & 0 & 0 & 1
-          )
+    R\qty(-\theta_{\mathrm{HWP}}) M_{\mathrm{HWP}} R\qty(\theta_{\mathrm{HWP}})
     \mqty(I_{\mathrm{in}} \\
           Q_{\mathrm{in}} \\
           U_{\mathrm{in}} \\
           V_{\mathrm{in}}
           )
 \end{equation}
-
-HWPを通過した後の偏光角は $-\chi$ となり、偏光が1軸対称に反転、つまり $-2\chi$ だけ変化する。(図\ref{fig:so-hwp_satoru})
+となる。
 この性質により、入力信号のストークスパラメータがそれぞれ $I_{\mathrm{in}}(t), Q_{\mathrm{in}}(t), U_{\mathrm{in}}(t)$ であるとき、出力信号 $d_m(t)$ は
 \begin{equation}
     d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i 4\chi)]
@@ -124,7 +142,8 @@ HWPの角振動数を $\omega_{\mathrm{HWP}}$ とし、初期位相を $\chi_0$ 
             &+ \dfrac{\varepsilon}{2}\qty[\qty{\tilde{Q}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})-i\tilde{U}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})}\exp\qty{-i\qty(4\chi_0 - 2\theta_{\mathrm{det}})}]
     \end{split}
 \end{equation}
-である。この式はほとんど時間変化しない信号$(\Omega\sim0)$がHWPを通過することで、周波数 $\pm 4\omega_{\mathrm{HWP}}$ のところに移ることを示している。
+である。この式はその偏光角をほとんど時間変化しない$(\Omega\sim0)$ 信号 $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ がHWPを通過することで、
+周波数 $\pm 4\omega_{\mathrm{HWP}}$ のところに変調されることを示している。
 このようにして、元々 $1/f$ ノイズが大きかった低周波帯の信号を、ノイズの少ない高周波帯に変換できる。
 $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HWP}}$ のまわりのみを通すバンドパスフィルタ $\mathcal{F}^{\mathrm{BPF}}$ を通した後、2倍して位相を元に戻せば良い。
 つまり、復調後に得られる信号 $d_{\mathrm{d, det}}$ は
@@ -133,15 +152,7 @@ $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HW
     &= \varepsilon\qty[Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t)]\exp\qty[i2\theta_{\mathrm{det}}]
     \label{eq:so-hwp_demod}
 \end{align}
-となる。ここで、$\chi_0$ はHWPに搭載されているエンコーダによって決定される。
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{simons_observatory/hwp_satoru.pdf}
-    \caption{HWPを通過することで、偏光角が変化することを示した概念図~\cite{takakura_PhD}。青い軸が1軸、緑の軸が2軸に対応する。
-    入射した直線偏光の偏光角が1軸に対して $\chi$ であり、複屈折によって $-2\chi$ だけ変化する。}
-    \label{fig:so-hwp_satoru}
-\end{figure}
+となる。ここで、$\chi_0$ はHWPに搭載されているエンコーダによって決定されるオフセットである。
 
 \section{偏光角較正の重要性とその手法}
 \subsection{偏光角の誤較正に伴う偏光の漏れ込み}
@@ -217,7 +228,7 @@ $\delta\theta \leq 0.1\tcdegree$ であればこの漏れ込みが生む $r$ へ
 
 \subsection{偏光角較正手法}
 偏光角較正には、検出器間の相対的な偏光角を較正する相対角度較正と、
-天球面上においてどの向きに偏光角を持っているかを較正する絶対角度較正が存在する。
+天球面上においてどの向きに偏光角を持ってを較正する絶対角度較正が存在する。
 本項では代表的な較正手法を紹介したのち、先行研究においてどのような手法をとり、その精度がどの程度であったかをまとめる。
 \subsubsection{牡牛座かに星雲 (Tau A)}
 Tau Aは北天に昇る、強い直線偏光を放射する超新星残骸である。
