@@ -1,11 +1,37 @@
-PWD /Users/hoshinodaiki/pg/latex/mthesis
+PWD /Users/hoshinodaiki/pg/latex/mthesis/sub/appendix
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt
-INPUT main.tex
-OUTPUT .tex_intermediates/main.log
+INPUT appendix.tex
+OUTPUT .tex_intermediates/appendix.log
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT ../../main.tex
+INPUT ../../main.tex
+INPUT ../../main.tex
+INPUT ../../main.tex
 INPUT /usr/local/texlive/2023/texmf-dist/tex/uplatex/base/ujbook.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/uplatex/base/ujbook.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/uplatex/base/ujbook.cls
@@ -36,16 +62,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -885,72 +901,39 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT .tex_intermediates/main.aux
-INPUT .tex_intermediates/main.aux
-INPUT .tex_intermediates/main.aux
-OUTPUT .tex_intermediates/main.aux
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
-OUTPUT .tex_intermediates/main.out
+INPUT .tex_intermediates/appendix.aux
+INPUT .tex_intermediates/appendix.aux
+INPUT .tex_intermediates/appendix.aux
+OUTPUT .tex_intermediates/appendix.aux
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out
+OUTPUT .tex_intermediates/appendix.out
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT ./sub/title/title.tex
-INPUT ./sub/title/title.tex
-INPUT ./sub/title/title.tex
-INPUT ./sub/title/title.tex
-INPUT ./sub/title/title.tex
-INPUT ./sub/title/title.tex
-INPUT ./sub/title/title.tex
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-OUTPUT .tex_intermediates/main.dvi
-INPUT ./sub/abstract/abstract.tex
-INPUT ./sub/abstract/abstract.tex
-INPUT ./sub/abstract/abstract.tex
-INPUT ./sub/abstract/abstract.tex
-INPUT ./sub/abstract/abstract.tex
-INPUT ./sub/abstract/abstract.tex
-INPUT ./sub/abstract/abstract.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT .tex_intermediates/main.toc
-INPUT .tex_intermediates/main.toc
-INPUT .tex_intermediates/main.toc
-OUTPUT .tex_intermediates/main.toc
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/simons_observatory/simons_observatory.tex
-INPUT ./sub/simons_observatory/simons_observatory.tex
-INPUT ./sub/simons_observatory/simons_observatory.tex
-INPUT ./sub/simons_observatory/simons_observatory.tex
-INPUT ./sub/simons_observatory/simons_observatory.tex
-INPUT ./sub/simons_observatory/simons_observatory.tex
-INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -979,168 +962,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./fig//simons_observatory/hwp_satoru.pdf
-INPUT ./fig//simons_observatory/hwp_satoru.pdf
-INPUT extractbb -B cropbox -O ./fig//simons_observatory/hwp_satoru.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
-INPUT ./fig//draft/not-yet.png
-INPUT ./fig//draft/not-yet.png
-INPUT extractbb -B cropbox -O ./fig//draft/not-yet.png
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-INPUT ./sub/wiregrid/wiregrid.tex
-INPUT ./sub/wiregrid/wiregrid.tex
-INPUT ./sub/wiregrid/wiregrid.tex
-INPUT ./sub/wiregrid/wiregrid.tex
-INPUT ./sub/wiregrid/wiregrid.tex
-INPUT ./sub/wiregrid/wiregrid.tex
-INPUT ./sub/wiregrid/wiregrid.tex
-INPUT ./fig//wiregrid/wire_reflect.pdf
-INPUT ./fig//wiregrid/wire_reflect.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_reflect.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
-INPUT ./fig//wiregrid/wire_through.pdf
-INPUT ./fig//wiregrid/wire_through.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_through.pdf
-INPUT ./fig//draft/not-yet.png
-INPUT ./fig//draft/not-yet.png
-INPUT ./fig//draft/not-yet.png
-INPUT ./fig//draft/not-yet.png
-INPUT ./fig//wiregrid/wiregrid_appearance.pdf
-INPUT ./fig//wiregrid/wiregrid_appearance.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_appearance.pdf
-INPUT ./fig//wiregrid/wire_detail_view.pdf
-INPUT ./fig//wiregrid/wire_detail_view.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_detail_view.pdf
-INPUT ./fig//wiregrid/wire_attachment.pdf
-INPUT ./fig//wiregrid/wire_attachment.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_attachment.pdf
-INPUT ./fig//wiregrid/rotation_parts.pdf
-INPUT ./fig//wiregrid/rotation_parts.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/rotation_parts.pdf
-INPUT ./fig//wiregrid/wiregrid_actuator.pdf
-INPUT ./fig//wiregrid/wiregrid_actuator.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_actuator.pdf
-INPUT ./fig//wiregrid/abs_angle_overview.pdf
-INPUT ./fig//wiregrid/abs_angle_overview.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/abs_angle_overview.pdf
-INPUT ./fig//wiregrid/abs_angle_WG_plane.pdf
-INPUT ./fig//wiregrid/abs_angle_WG_plane.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/abs_angle_WG_plane.pdf
-INPUT ./fig//wiregrid/tiltsensor_at_site.pdf
-INPUT ./fig//wiregrid/tiltsensor_at_site.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/tiltsensor_at_site.pdf
-INPUT ./fig//wiregrid/wiresag_setup_old.pdf
-INPUT ./fig//wiregrid/wiresag_setup_old.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_old.pdf
-INPUT ./fig//wiregrid/wiresag_picture_old.pdf
-INPUT ./fig//wiregrid/wiresag_picture_old.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_picture_old.pdf
-INPUT ./sub/tiltsensor/tiltsensor.tex
-INPUT ./sub/tiltsensor/tiltsensor.tex
-INPUT ./sub/tiltsensor/tiltsensor.tex
-INPUT ./sub/tiltsensor/tiltsensor.tex
-INPUT ./sub/tiltsensor/tiltsensor.tex
-INPUT ./sub/tiltsensor/tiltsensor.tex
-INPUT ./sub/tiltsensor/tiltsensor.tex
-INPUT ./fig//tiltsensor/tiltsensor_overview.pdf
-INPUT ./fig//tiltsensor/tiltsensor_overview.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/tiltsensor_overview.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-INPUT ./fig//tiltsensor/evaluation_system.pdf
-INPUT ./fig//tiltsensor/evaluation_system.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/evaluation_system.pdf
-INPUT ./fig//tiltsensor/bath_temp_usb.pdf
-INPUT ./fig//tiltsensor/bath_temp_usb.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/bath_temp_usb.pdf
-INPUT ./fig//tiltsensor/camera_12degC.pdf
-INPUT ./fig//tiltsensor/camera_12degC.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/camera_12degC.pdf
-INPUT ./fig//tiltsensor/camera_m18degC.pdf
-INPUT ./fig//tiltsensor/camera_m18degC.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/camera_m18degC.pdf
-INPUT ./fig//tiltsensor/bath_tempX.pdf
-INPUT ./fig//tiltsensor/bath_tempX.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/bath_tempX.pdf
-INPUT ./fig//tiltsensor/angleX_temp_dep.pdf
-INPUT ./fig//tiltsensor/angleX_temp_dep.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/angleX_temp_dep.pdf
-INPUT ./fig//tiltsensor/bath_tempY.pdf
-INPUT ./fig//tiltsensor/bath_tempY.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/bath_tempY.pdf
-INPUT ./fig//tiltsensor/angleY_temp_dep.pdf
-INPUT ./fig//tiltsensor/angleY_temp_dep.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/angleY_temp_dep.pdf
-INPUT ./fig//tiltsensor/evaluation_system_kyoto.pdf
-INPUT ./fig//tiltsensor/evaluation_system_kyoto.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/evaluation_system_kyoto.pdf
-INPUT ./fig//tiltsensor/evalu_kyoto1.pdf
-INPUT ./fig//tiltsensor/evalu_kyoto1.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/evalu_kyoto1.pdf
-INPUT ./fig//tiltsensor/evalu_kyoto2.pdf
-INPUT ./fig//tiltsensor/evalu_kyoto2.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/evalu_kyoto2.pdf
-INPUT ./fig//tiltsensor/evalu_kyoto3.pdf
-INPUT ./fig//tiltsensor/evalu_kyoto3.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/evalu_kyoto3.pdf
-INPUT ./fig//tiltsensor/angleY_huryou_test.pdf
-INPUT ./fig//tiltsensor/angleY_huryou_test.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/angleY_huryou_test.pdf
-INPUT ./sub/wiresag/wiresag.tex
-INPUT ./sub/wiresag/wiresag.tex
-INPUT ./sub/wiresag/wiresag.tex
-INPUT ./sub/wiresag/wiresag.tex
-INPUT ./sub/wiresag/wiresag.tex
-INPUT ./sub/wiresag/wiresag.tex
-INPUT ./sub/wiresag/wiresag.tex
-INPUT ./sub/future/future.tex
-INPUT ./sub/future/future.tex
-INPUT ./sub/future/future.tex
-INPUT ./sub/future/future.tex
-INPUT ./sub/future/future.tex
-INPUT ./sub/future/future.tex
-INPUT ./sub/future/future.tex
-INPUT ./sub/summary/summary.tex
-INPUT ./sub/summary/summary.tex
-INPUT ./sub/summary/summary.tex
-INPUT ./sub/summary/summary.tex
-INPUT ./sub/summary/summary.tex
-INPUT ./sub/summary/summary.tex
-INPUT ./sub/summary/summary.tex
-INPUT ./sub/acknowledgement/acknowledgement.tex
-INPUT ./sub/acknowledgement/acknowledgement.tex
-INPUT ./sub/acknowledgement/acknowledgement.tex
-INPUT ./sub/acknowledgement/acknowledgement.tex
-INPUT ./sub/acknowledgement/acknowledgement.tex
-INPUT ./sub/acknowledgement/acknowledgement.tex
-INPUT ./sub/acknowledgement/acknowledgement.tex
-INPUT ./sub/appendix/appendix.tex
-INPUT ./sub/appendix/appendix.tex
-INPUT ./sub/appendix/appendix.tex
-INPUT ./sub/appendix/appendix.tex
+OUTPUT .tex_intermediates/appendix.dvi
+INPUT .tex_intermediates/appendix.aux
+INPUT .tex_intermediates/appendix.out
+INPUT .tex_intermediates/appendix.out

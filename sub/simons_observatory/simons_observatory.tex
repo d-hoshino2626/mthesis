@@ -37,15 +37,35 @@ TESは超伝導の転移点付近で急激に電気抵抗が変化する性質�
 \label{sec:HWP}
 大気による熱放射は常に揺らいでいる。
 これは大気による $1/f$ ノイズとして知られ、CMB偏光観測実験においては、このノイズとCMB偏光信号を分離することが重要である。
-SATでは、この大気による熱放射を取り除くために、極低温連続回転式半波長板(cryogenic continuously rotating Half-Wave Plate, 以後、単にHWPと呼ぶ)を用いる。\cite{so:hwp_yamada}
+SATでは、この大気による熱放射を取り除くために、極低温連続回転式半波長板(cryogenic continuously rotating Half-Wave Plate, 以後、単にHWPと呼ぶ)を用いる~\cite{so:hwp_yamada}。
 
 一般に、HWPは複屈折の特性を持つ素材からなり、素子中のある決まった軸(光軸)に対して電場成分を反転させる。
+今、$xyz$ 直交座標系を考え、$z$ 軸正の方向に進む光を考える。HWPの光軸を 1軸、1軸に対して垂直なHWP平面上の軸を 2軸 と定める。
 すなわち、HWPに入射する光の電場 $\bm{E}$ はHWPを通過することで
 \begin{align}
     E_{1} &= E_{1} \\
     E_{2} &= -E_{2}
 \end{align}
-となる。ここで、1軸はHWPの光軸、2軸は1軸に垂直なHWP平面上の軸を表し、1軸に対して電場成分が反転している。
+となる。ここで、1軸をHWPの光軸、2軸を1軸に対して垂直なHWP平面上の軸として定めた。1軸に対して電場成分が反転している。
+入射してくる光のストークスパラメータを $I_{\mathrm{in}},\,Q_{\mathrm{in}},\,U_{\mathrm{in}},\,V_{\mathrm{in}}$ とすると、
+HWPを通過した後の光のストークスパラメータ $I_{\mathrm{out}},\,Q_{\mathrm{out}},\,U_{\mathrm{out}},\,V_{\mathrm{out}}$ は
+\begin{equation}
+    \mqty(I_{\mathrm{\mathrm{out}}} \\
+          Q_{\mathrm{\mathrm{out}}} \\
+          U_{\mathrm{\mathrm{out}}} \\
+          V_{\mathrm{\mathrm{out}}}
+    ) = 
+    \mqty(1 & 0 & 0 & 0 \\ 
+          0 & 1 & 0 & 0 \\
+          0 & 0 & -1 & 0 \\
+          0 & 0 & 0 & -1
+          )
+    \mqty(I_{\mathrm{in}} \\
+          Q_{\mathrm{in}} \\
+          U_{\mathrm{in}} \\
+          V_{\mathrm{in}}
+          )
+\end{equation}
 入射光として偏光角がHWPの1軸から測って $\chi$ であるような直線偏光した光を考える。
 HWPを通過した後の偏光角は $-\chi$ となり、偏光が1軸対称に反転、つまり $-2\chi$ だけ変化する。(図\ref{fig:so-hwp_satoru})
 この性質により、入力信号のストークスパラメータがそれぞれ $I_{\mathrm{in}}(t), Q_{\mathrm{in}}(t), U_{\mathrm{in}}(t)$ であるとき、出力信号 $d_m(t)$ は
