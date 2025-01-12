@@ -39,13 +39,13 @@ TESは超伝導の転移点付近で急激に電気抵抗が変化する性質�
 これは大気による $1/f$ ノイズとして知られ、CMB偏光観測実験においては、このノイズとCMB偏光信号を分離することが重要である。
 SATでは、この大気による熱放射を取り除くために、極低温連続回転式半波長板(cryogenic continuously rotating Half-Wave Plate, 以後、単にHWPと呼ぶ)を用いる~\cite{so:hwp_yamada}。
 
-一般に、HWPは複屈折の特性を持つ素材からなり、素子中のある決まった軸(光軸)に対して電場成分を反転させる。
+一般に、HWPは複屈折の特性を持つ素材からなり、素子中のある決まった軸(光軸)に対して電場成分を反転させる光学素子である。
+この光軸を1軸とし、光軸に対して垂直なHWP平面上の軸を2軸と定める。
 今、$xyz$ 直交座標系を考え、$z$ 軸正の方向に進む光を考える。その複素電場 $\bm{\mathcal{E}}$ は一般に
 \begin{equation}
     \bm{\mathcal{E}} = \mathcal{E}_{x}\bm{\hat{e}}_{x} + \mathcal{E}_{y}\bm{\hat{e}}_{y}
 \end{equation}
 と表される。
-HWPの光軸を1軸、1軸に対して垂直なHWP平面上の軸を2軸と定める。
 初めに、$x$ 軸と1軸が一致し、$y$ 軸が2軸と一致するような場合を考える。この時、電場 $\bm{\mathcal{E}}$ がHWPを通過することで
 \begin{align}
     \mathcal{E}_{x} &= \mathcal{E}_{x} \\
@@ -73,7 +73,34 @@ HWPを通過した後の光のストークスパラメータ $I_{\mathrm{out}},\
           )
 \end{equation}
 と計算でき、$Q,\,U$ を反転させることがわかる。
-次に、HWPの1軸が $x$ 軸から測って $\chi$ であるような場合を考える。
+
+次に、HWPの1軸が $x$ 軸から測って $\theta_{\mathrm{HWP}}$ だけ回転しているような場合を考える(図\ref{})。
+入射光のストークスパラメータを測る基底を $x,\,y$ 軸から 1,\,2軸に変換したあと、
+$U,\,V$ を反転、基底をもとに戻すという操作を行えば、HWPを通過した後の光のストークスパラメータを計算できる。
+したがって
+\begin{equation}
+    \mqty(I_{\mathrm{\mathrm{out}}} \\
+          Q_{\mathrm{\mathrm{out}}} \\
+          U_{\mathrm{\mathrm{out}}} \\
+          V_{\mathrm{\mathrm{out}}}
+    ) = 
+    \mqty(1 & 0 & 0 & 0 \\ 
+          0 & \cos (2\theta_{\mathrm{HWP}})  & \sin (2\theta_{\mathrm{HWP}}) & 0 \\
+          0 & -\sin (2\theta_{\mathrm{HWP}}) & \cos (2\theta_{\mathrm{HWP}}) & 0 \\
+          0 & 0 & 0 & 1
+          )
+    \mqty(1 & 0 & 0 & 0 \\ 
+          0 & \cos (2\theta_{\mathrm{HWP}}) & -\sin (2\theta_{\mathrm{HWP}}) & 0 \\
+          0 & \sin (2\theta_{\mathrm{HWP}}) & \cos (2\theta_{\mathrm{HWP}}) & 0 \\
+          0 & 0 & 0 & 1
+          )
+    \mqty(I_{\mathrm{in}} \\
+          Q_{\mathrm{in}} \\
+          U_{\mathrm{in}} \\
+          V_{\mathrm{in}}
+          )
+\end{equation}
+
 HWPを通過した後の偏光角は $-\chi$ となり、偏光が1軸対称に反転、つまり $-2\chi$ だけ変化する。(図\ref{fig:so-hwp_satoru})
 この性質により、入力信号のストークスパラメータがそれぞれ $I_{\mathrm{in}}(t), Q_{\mathrm{in}}(t), U_{\mathrm{in}}(t)$ であるとき、出力信号 $d_m(t)$ は
 \begin{equation}
