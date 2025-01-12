@@ -37,90 +37,20 @@ TESは超伝導の転移点付近で急激に電気抵抗が変化する性質�
 \label{sec:HWP}
 大気による熱放射は常に揺らいでいる。
 これは大気による $1/f$ ノイズとして知られ、CMB偏光観測実験においては、このノイズとCMB偏光信号を分離することが重要である。
-SATでは、この大気による熱放射を取り除くために、極低温連続回転式半波長板(cryogenic continuously rotating Half-Wave Plate, 以後、単にHWPと呼ぶ)を用いる~\cite{so:hwp_yamada}。
+SATでは、この大気による熱放射を取り除くために、極低温連続回転式半波長板(cryogenic continuously rotating Half-Wave Plate, 以後、単にHWPと呼ぶ)を用いる。\cite{so:hwp_yamada}
 
-一般に、HWPは複屈折の特性を持つ素材からなり、素子中のある決まった軸(光軸)に対して電場成分を反転させる光学素子である。
-この光軸を1軸とし、光軸に対して垂直なHWP平面上の軸を2軸と定める。
-今、$xyz$ 直交座標系を考え、$z$ 軸正の方向に進む光を考える。その複素電場 $\bm{\mathcal{E}}$ は一般に
-\begin{equation}
-    \bm{\mathcal{E}} = \mathcal{E}_{x}\bm{\hat{e}}_{x} + \mathcal{E}_{y}\bm{\hat{e}}_{y}
-\end{equation}
-と表される。
-初めに、$x$ 軸と1軸が一致し、$y$ 軸が2軸と一致するような場合を考える。この時、電場 $\bm{\mathcal{E}}$ がHWPを通過することで
+一般に、HWPは複屈折の特性を持つ素材からなり、素子中のある決まった軸(光軸)に対して電場成分を反転させる。
+すなわち、HWPに入射する光の電場 $\bm{E}$ はHWPを通過することで
 \begin{align}
-    \mathcal{E}_{x} &= \mathcal{E}_{x} \\
-    \mathcal{E}_{y} &= -\mathcal{E}_{y}
+    E_{1} &= E_{1} \\
+    E_{2} &= -E_{2}
 \end{align}
-となる。1軸($x$軸)に対して電場成分が反転している。
-これにより、1軸に対して $\chi$ だけ傾いて直線偏光している入射光は、$-\chi$ だけ傾いて直線偏光した光に変換される(図\ref{fig:so-hwp_satoru})。
-入射してくる光のストークスパラメータを $I_{\mathrm{in}},\,Q_{\mathrm{in}},\,U_{\mathrm{in}},\,V_{\mathrm{in}}$ とすると、
-HWPを通過した後の光のストークスパラメータ $I_{\mathrm{out}},\,Q_{\mathrm{out}},\,U_{\mathrm{out}},\,V_{\mathrm{out}}$ は
-式\eqref{eq:stokes_I_complex}$\sim$\eqref{eq:stokes_V_complex}を用いて
-\begin{equation}
-    \mqty(I_{\mathrm{\mathrm{out}}} \\
-          Q_{\mathrm{\mathrm{out}}} \\
-          U_{\mathrm{\mathrm{out}}} \\
-          V_{\mathrm{\mathrm{out}}}
-    ) = 
-    \mqty(1 & 0 & 0 & 0 \\ 
-          0 & 1 & 0 & 0 \\
-          0 & 0 & -1 & 0 \\
-          0 & 0 & 0 & -1
-          )
-    \mqty(I_{\mathrm{in}} \\
-          Q_{\mathrm{in}} \\
-          U_{\mathrm{in}} \\
-          V_{\mathrm{in}}
-          )
-\end{equation}
-と計算でき、$Q,\,U$ を反転させることがわかる。
-HWPが行うストークスパラメータの変換行列 $M_{\mathrm{HWP}}$ を
-\begin{equation}
-    M_{\mathrm{HWP}} = 
-    \mqty(1 & 0 & 0 & 0 \\ 
-          0 & 1 & 0 & 0 \\
-          0 & 0 & -1 & 0 \\
-          0 & 0 & 0 & -1
-          )
-\end{equation}
-と定義する。
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{simons_observatory/hwp_satoru.pdf}
-    \caption{HWPを通過することで、偏光角が変化することを示した概念図~\cite{takakura_PhD}。青い軸が1軸、緑の軸が2軸に対応する。
-    入射した直線偏光の偏光角が1軸に対して $\chi$ であり、複屈折によって $-2\chi$ だけ変化する。}
-    \label{fig:so-hwp_satoru}
-\end{figure}
-
-次に、HWPの1軸が $x$ 軸から測って $\theta_{\mathrm{HWP}}$ だけ回転しているような場合を考える(図\ref{})。
-入射光のストークスパラメータを測る基底を $x,\,y$ 軸から 1,\,2軸に変換したあと、
-$U,\,V$ を反転、基底をもとに戻すという操作を行えば、HWPを通過した後の光のストークスパラメータを計算できる。
-そこで、座標を $\theta$ だけ回転したときのストークスパラメータの変換行列を $R(\theta)$ とすると、式\ref{eq:stokes_transform}より
-\begin{equation}
-    R_{\theta} = 
-    \mqty(1 & 0 & 0 & 0 \\ 
-          0 & \cos 2\theta  & \sin 2\theta & 0 \\
-          0 & -\sin 2\theta & \cos 2\theta & 0 \\
-          0 & 0 & 0 & 1
-          )
-\end{equation}
-である。この行列を用いて、HWPを通過した後の光のストークスパラメータは
-\begin{equation}
-    \mqty(I_{\mathrm{\mathrm{out}}} \\
-          Q_{\mathrm{\mathrm{out}}} \\
-          U_{\mathrm{\mathrm{out}}} \\
-          V_{\mathrm{\mathrm{out}}}
-    ) = 
-    R\qty(-\theta_{\mathrm{HWP}}) M_{\mathrm{HWP}} R\qty(\theta_{\mathrm{HWP}})
-    \mqty(I_{\mathrm{in}} \\
-          Q_{\mathrm{in}} \\
-          U_{\mathrm{in}} \\
-          V_{\mathrm{in}}
-          )
-\end{equation}
-となる。
-この性質により、入力信号のストークスパラメータがそれぞれ $I_{\mathrm{in}}(t), Q_{\mathrm{in}}(t), U_{\mathrm{in}}(t)$ であるとき、出力信号 $d_m(t)$ は
+となる。ここで、1軸はHWPの光軸、2軸は1軸に垂直なHWP平面上の軸を表し、1軸に対して電場成分が反転している。
+入射光として偏光角がHWPの1軸から測って $\chi$ であるような直線偏光した光を考える。
+HWPを通過した後の偏光角は $-\chi$ となり、偏光が1軸対称に反転、つまり $-2\chi$ だけ変化する。(図\ref{fig:so-hwp_satoru})
+この性質により、ストークスパラメータ(定義は\ref{chap:stokes}を参照)が
+それぞれ $I_{\mathrm{in}}(t), Q_{\mathrm{in}}(t), U_{\mathrm{in}}(t)$ であるような直線偏光した入射光を、
+HWPを通過したあとに片偏波のアンテナで電場強度を測った際の出力信号 $d_m(t)$ は
 \begin{equation}
     d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i 4\chi)]
 \end{equation}
@@ -136,16 +66,17 @@ HWPの角振動数を $\omega_{\mathrm{HWP}}$ とし、初期位相を $\chi_0$ 
 \end{equation}
 となる。この信号のフーリエ変換は
 \begin{equation}
+    \label{eq:so-hwp_fourier}
     \begin{split}
         \tilde{d}_{\mathrm{m}, \mathrm{det}}(\Omega) = &\tilde{I}_{\mathrm{in}}(\Omega) \\
             &+ \dfrac{\varepsilon}{2}\qty[\qty{\tilde{Q}_{\mathrm{in}}(\Omega+4\omega_{\mathrm{HWP}})+i\tilde{U}_{\mathrm{in}}(\Omega+4\omega_{\mathrm{HWP}})}\exp\qty{-i\qty(4\chi_0 - 2\theta_{\mathrm{det}})}] \\
             &+ \dfrac{\varepsilon}{2}\qty[\qty{\tilde{Q}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})-i\tilde{U}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})}\exp\qty{-i\qty(4\chi_0 - 2\theta_{\mathrm{det}})}]
     \end{split}
 \end{equation}
-である。この式はその偏光角をほとんど時間変化しない$(\Omega\sim0)$ 信号 $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ がHWPを通過することで、
-周波数 $\pm 4\omega_{\mathrm{HWP}}$ のところに変調されることを示している。
+である。この式はその偏光角をほとんど時間変化しない $\Omega\sim0$ であるような信号 $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ がHWPを通過することで、
+周波数 $\Omega + 4\omega_{\mathrm{HWP}}$ のところに変調されることを示している。
 このようにして、元々 $1/f$ ノイズが大きかった低周波帯の信号を、ノイズの少ない高周波帯に変換できる。
-$Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HWP}}$ のまわりのみを通すバンドパスフィルタ $\mathcal{F}^{\mathrm{BPF}}$ を通した後、2倍して位相を元に戻せば良い。
+式\eqref{eq:so-hwp_fourier}より、$Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HWP}}$ のまわりのみを通すバンドパスフィルタ $\mathcal{F}^{\mathrm{BPF}}$ を通した後、2倍して位相を元に戻せば良い。
 つまり、復調後に得られる信号 $d_{\mathrm{d, det}}$ は
 \begin{align}
     d_{\mathrm{d, det}}(t) &= \mathcal{F}^{\mathrm{BPF}}\qty[d_{\mathrm{m,det}}(t)]\times 2\exp\qty{i\qty(4\omega_{\mathrm{HWP}}t + 4\chi_0)} \\
@@ -153,6 +84,14 @@ $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HW
     \label{eq:so-hwp_demod}
 \end{align}
 となる。ここで、$\chi_0$ はHWPに搭載されているエンコーダによって決定されるオフセットである。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{simons_observatory/hwp_satoru.pdf}
+    \caption{HWPを通過することで、偏光角が変化することを示した概念図~\cite{takakura_PhD}。青い軸が1軸、緑の軸が2軸に対応する。
+    入射した直線偏光の偏光角が1軸に対して $\chi$ であり、複屈折によって $-2\chi$ だけ変化する。}
+    \label{fig:so-hwp_satoru}
+\end{figure}
 
 \section{偏光角較正の重要性とその手法}
 \subsection{偏光角の誤較正に伴う偏光の漏れ込み}
@@ -228,20 +167,23 @@ $\delta\theta \leq 0.1\tcdegree$ であればこの漏れ込みが生む $r$ へ
 
 \subsection{偏光角較正手法}
 偏光角較正には、検出器間の相対的な偏光角を較正する相対角度較正と、
-天球面上においてどの向きに偏光角を持ってを較正する絶対角度較正が存在する。
+天球面上においてどの向きに検出器の偏光角が対応するかを較正する絶対角度較正が存在する。
 本項では代表的な較正手法を紹介したのち、先行研究においてどのような手法をとり、その精度がどの程度であったかをまとめる。
 \subsubsection{牡牛座かに星雲 (Tau A)}
 Tau Aは北天に昇る、強い直線偏光を放射する超新星残骸である。
-その光の偏光角は観測周波数に依存している可能性が指摘されており、さらに高分解能望遠鏡による観測ではその構造が見えるため、偏光角を一意に決定することが難しいという課題がある。
-また、偏光角は他の実験の観測結果にも依存しており、これらが潜在的な系統誤差として考慮される必要がある。
-SOの拠点であるチリのアタカマ砂漠は南半球に位置するため、SATでは検出器の一部でしか観測できない。
-\subsubsection{\colortext{blue}{ケンタウルス座A (Cen A)}}
+その光の偏光角は観測周波数に依存している可能性が指摘されており、さらに高分解能望遠鏡による観測では
+天体表面上の異なる位置での偏光方向の違いが見えるため、偏光角を一意に決定することが難しいという課題がある。
+また、偏光角は他の実験の観測結果にも依存しており、これらが潜在的な系統誤差として存在する。
+小さい天体であるために検出器全てを一度に照らすことができず、全ての検出器を較正するためにはスキャンを行う必要がある。
+さらに、SOの拠点であるチリのアタカマ砂漠は南半球に位置しており、
+TauA の昇る高度が高くないためSATでは検出器の一部でしか観測できない。
+\subsubsection{ケンタウルス座A (Cen A)}
 Cen Aは南天に昇る、直線偏光を放射する電波銀河である。
 QUaD実験にて、$0.5\tcdegree$ の絶対角度較正精度が保証された検出器群を用いて $90,\,\SI{150}{GHZ}$ の波長帯で観測され、その偏光角が測定されている~\cite{so:Zemcov_2010}。
-南天に登るため南半球で比較的観測しやすいが、偏光角の観測周波数依存性や高分解能望遠鏡での内部構造の影響、他の実験の観測結果による依存といったTau Aと同様の要因による系統誤差を持ち得る。
+南天に登るため南半球で比較的観測しやすいが、偏光角の観測周波数依存性や高分解能望遠鏡で見える内部構造の影響、他の実験の観測結果による依存といったTau Aと同様の要因による系統誤差を持ち得る。
 \subsubsection{月}
 月はその表面で反射された光が月の中心から放射状に広がった偏光信号となる。
-月の観測もTau Aと同じく構造による偏光角の違いが問題となり、ポインティング精度由来の系統誤差を生じる。
+月の観測は TauA と同様に観測する月の表面上の位置による偏光角の違いが問題となり、ポインティング精度由来の系統誤差を生じる。
 また、月は非常に明るいためTES検出器のダイナミックレンジを超えてしまい、SATでは観測が困難である。
 \subsubsection{誘電体シート}
 誘電体シートとは、膜状に張られたポリマーによって環境熱放射を反射させ、直線偏光を作り出す装置である。
@@ -266,16 +208,21 @@ QUaD実験にて、$0.5\tcdegree$ の絶対角度較正精度が保証された�
 スパースワイヤーグリッドはワイヤー間隔が広いために多重反射を起こしにくく、望遠鏡の口径に対して平行に設置することができる。
 そのため、デンスワイヤーグリッドよりも小型化が可能であり、製造難易度が比較的低い。
 ワイヤー間隔が十分長いとみなせる範囲においては周波数依存性が小さいため、広い周波数帯で均一に偏光を生成することが可能である。
-これらの特性から、複数の観測波長帯を持つすべての検出器を同時に較正することが可能であり、SOではスパースワイヤーグリッドを用いた偏光角較正装置が採用されている。
 
 \subsubsection{自己較正}
-標準宇宙モデルでは $C_{l}^{EB}=0$ である。
-これを利用して、相対角度較正を十分に行なった上で $C_{l}^{EB} = 0$ とおくことで
+標準宇宙モデルでは $C_{\ell}^{EB}=0$ である。
+これを利用して、相対角度較正を十分に行なった上で $C_{\ell}^{EB} = 0$ とおくことで
 $\delta\theta$ を求め、絶対角度較正を行う手法を自己較正と呼ぶ。
 自己較正の精度は相対角度較正の精度と検出データ量に依存するため、検出器数が増大によって精度の向上が期待される。
-しかし、$C_{l}^{EB}=0$ を仮定してしまうため、宇宙がパリティを破るような物理に対する感度を捨てることとなる。
+しかし、$C_{\ell}^{EB}=0$ を仮定してしまうため、標準宇宙モデルを超えるような物理に対する感度を捨てる可能性がある。
 そのため、これらの物理を探る上では自己較正以外の手法を用いて絶対角度較正を行うことが重要である。
 
+\subsubsection{偏光角較正手法のまとめとスパースワイヤーグリッドの採用理由}
+先行研究における偏光角較正の手法と、その精度を表\ref{tab:so-polarization_calibration}にまとめる。
+いずれの手法においても、精度 $\delta\theta < 0.1\tcdegree$ を達成したものはない。
+SATでは、スパースワイヤーグリッドを用いた偏光角較正を採用することで、この精度を達成する。
+スパースワイヤーグリッド
+複数の観測波長帯を持つすべての検出器を同時に較正することが可能であり、SOではスパースワイヤーグリッドを用いた偏光角較正装置が採用されている。
 \begin{table}[H]
     \centering
     \caption[先行研究における偏光角較正手法とその精度の比較]{先行研究における偏光角較正手法とその精度の比較。相対角度較正の場合には、精度の欄に(rel.)と記載している。}
