@@ -54,3 +54,4 @@
 \contentsline {chapter}{\numberline {第7章}結論}{29}{chapter.7}%
 \contentsline {chapter}{\numberline {第8章}ストークスパラメータ}{31}{chapter.8}%
 \contentsline {section}{\numberline {8.1}ストークスパラメータの定義}{31}{section.8.1}%
+\contentsline {section}{\numberline {8.2}座標回転に対するストークスパラメータの変換}{32}{section.8.2}%

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  12 JAN 2025 09:41
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  12 JAN 2025 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,81 +610,87 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
 LaTeX Warning: Citation `so:hwp_yamada' on page 2 undefined on input line 40.
 
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 57.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 57.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 57.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 57.
+
+LaTeX Warning: Reference `eq:stokes_I_complex' on page 2 undefined on input line 57.
+
+
+LaTeX Warning: Reference `eq:stokes_V_complex' on page 2 undefined on input line 57.
+
 [2]
 File: ../../fig//simons_observatory/hwp_satoru.pdf Graphic file (type pdf)
 <../../fig//simons_observatory/hwp_satoru.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 108.
+(Font)              scaled to size 9.6222pt on input line 115.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 108.
+(Font)              scaled to size 9.6222pt on input line 115.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 108.
+(Font)              scaled to size 6.73553pt on input line 115.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 108.
+(Font)              scaled to size 4.8111pt on input line 115.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 108.
+(Font)              scaled to size 9.6222pt on input line 115.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 108.
+(Font)              scaled to size 6.73553pt on input line 115.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 108.
+(Font)              scaled to size 4.8111pt on input line 115.
 
 
-LaTeX Warning: Citation `takakura_PhD' on page 3 undefined on input line 108.
+LaTeX Warning: Citation `takakura_PhD' on page 3 undefined on input line 115.
 
 
-LaTeX Warning: Citation `takakura_PhD' on page 3 undefined on input line 108.
+LaTeX Warning: Citation `takakura_PhD' on page 3 undefined on input line 115.
 
 
-LaTeX Warning: Citation `so:Keating_2013' on page 3 undefined on input line 124.
+LaTeX Warning: Citation `so:Keating_2013' on page 3 undefined on input line 131.
 
 
-LaTeX Warning: Citation `so:Kaufman_2014' on page 3 undefined on input line 124.
+LaTeX Warning: Citation `so:Kaufman_2014' on page 3 undefined on input line 131.
 
 [3]
 
-LaTeX Warning: Citation `so:Bryan_2018' on page 4 undefined on input line 174.
+LaTeX Warning: Citation `so:Bryan_2018' on page 4 undefined on input line 181.
 
 File: ../../fig//draft/not-yet.png Graphic file (type bmp)
 <../../fig//draft/not-yet.png>
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 188.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 188.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 188.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 188.
 [4]
 
-LaTeX Warning: Citation `so:Zemcov_2010' on page 5 undefined on input line 195.
+LaTeX Warning: Citation `so:Zemcov_2010' on page 5 undefined on input line 202.
 
 
-LaTeX Warning: Reference `sec:wiregrid_principle' on page 5 undefined on input line 219.
+LaTeX Warning: Reference `sec:wiregrid_principle' on page 5 undefined on input line 226.
 
 [5]
 
-LaTeX Warning: Citation `so:polarbear_cal' on page 6 undefined on input line 242.
+LaTeX Warning: Citation `so:polarbear_cal' on page 6 undefined on input line 249.
 
 
-LaTeX Warning: Citation `so:Leitch_2002' on page 6 undefined on input line 245.
+LaTeX Warning: Citation `so:Leitch_2002' on page 6 undefined on input line 252.
 
 
-LaTeX Warning: Citation `so:Takahashi_2008' on page 6 undefined on input line 247.
+LaTeX Warning: Citation `so:Takahashi_2008' on page 6 undefined on input line 254.
 
 
-LaTeX Warning: Citation `so:bicep2_syserr' on page 6 undefined on input line 249.
+LaTeX Warning: Citation `so:bicep2_syserr' on page 6 undefined on input line 256.
 
 
-LaTeX Warning: Citation `so:Hanson_2013' on page 6 undefined on input line 253.
+LaTeX Warning: Citation `so:Hanson_2013' on page 6 undefined on input line 260.
 
 
-LaTeX Warning: Citation `so:Kusaka_2018' on page 6 undefined on input line 256.
+LaTeX Warning: Citation `so:Kusaka_2018' on page 6 undefined on input line 263.
 
 
-LaTeX Warning: Citation `so:Bischoff_2011' on page 6 undefined on input line 260.
+LaTeX Warning: Citation `so:Bischoff_2011' on page 6 undefined on input line 267.
 
 
-LaTeX Warning: Citation `so:SPT3G' on page 6 undefined on input line 263.
+LaTeX Warning: Citation `so:SPT3G' on page 6 undefined on input line 270.
 
 [6] (.tex_intermediates/simons_observatory.aux)
 
@@ -694,12 +700,12 @@ Package rerunfilecheck Info: File `simons_observatory.out' has not changed.
 (rerunfilecheck)             Checksum: 713D566236540C4DC38691157B7F784A;2222.
  ) 
 Here is how much of TeX's memory you used:
- 17588 strings out of 476677
- 338465 string characters out of 5804957
- 1861490 words of memory out of 5000000
- 37799 multiletter control sequences out of 15000+600000
- 561821 words of font info for 115 fonts, out of 8000000 for 9000
+ 17596 strings out of 476677
+ 338577 string characters out of 5804957
+ 1864490 words of memory out of 5000000
+ 37804 multiletter control sequences out of 15000+600000
+ 562850 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,22n,94p,478b,975s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,22n,94p,478b,967s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/simons_observatory.dvi (6 pages, 38004 bytes).
+Output written on .tex_intermediates/simons_observatory.dvi (6 pages, 38484 bytes).

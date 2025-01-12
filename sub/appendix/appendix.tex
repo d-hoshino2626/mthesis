@@ -14,8 +14,9 @@ $xyz$ 直交座標系において、$z$ 軸正の方向に進行する光を考�
     \bm{E}(t) &= E_{x} \bm{\hat{e}}_{x} + E_{y} \bm{\hat{e}}_{y} \\
         &= a_{x}\cos(\omega t - kz + \delta_x) \bm{\hat{e}}_{x} + a_{y}\cos(\omega t - kz + \delta_y) \bm{\hat{e}}_{y}
 \end{align}
-と表される。ここで、$E_{x}, E_{y}$ は振幅、$\omega$ は角振動数、$k$ は波数、$\delta_x, \delta_y$ は位相オフセットであり、
-$\bm{\hat{e}}_x,\,\bm{\hat{e}}_y$ はそれぞれ $x$ 軸、$y$ 軸正の方向の単位ベクトルである。
+と表される。ここで、$E_{x}, E_{y}$ は $x$ 軸、$y$ 軸方向成分であり、
+$a_{x}, a_{y}$ は振幅、$\omega$ は角振動数、$k$ は波数、$\delta_x, \delta_y$ は位相オフセットである。
+また、$\bm{\hat{e}}_x,\,\bm{\hat{e}}_y$ はそれぞれ $x$ 軸、$y$ 軸正の方向の単位ベクトルである。
 $\delta = \delta_y - \delta_x$ とすると、ストークスパラメータ $I,\,Q,\,U,\,V$ は
 \begin{align}
     I &= a_{x}^{2} + a_{y}^{2} \\
@@ -27,23 +28,27 @@ $\delta = \delta_y - \delta_x$ とすると、ストークスパラメータ $I,
 複素電場ベクトル $\bm{\mathcal{E}}$ を用いてストークスパラメータを表すことを考える。
 $\bm{\mathcal{E}}$ は一般に
 \begin{align}
-    \bm{\mathcal{E}} &= \mathcal{E}_{x}\bm{\hat{e}}_{x} + \mathcal{E}_{y}\bm{\hat{e}}_{y} \\
-    &= a_{x}e^{i\qty(\omega t-kz+\delta_x)}\bm{\hat{e}}_{x} + a_{y}e^{\qty(\omega t-kz+\delta_y)}\bm{\hat{e}}_{y}
+    \bm{\mathcal{E}} &= a_{x}e^{i\qty(\omega t-kz+\delta_x)}\bm{\hat{e}}_{x} + a_{y}e^{i\qty(\omega t-kz+\delta_y)}\bm{\hat{e}}_{y} \\
+    &= \mathcal{E}_{x}\bm{\hat{e}}_{x} + \mathcal{E}_{y}\bm{\hat{e}}_{y}
     \label{eq:complex_electric_field}
 \end{align}
-と表される。ここで、$\mathcal{E}_{x}, \mathcal{E}_{y}$ は複素振幅である。
+と表される。ここで、$\mathcal{E}_{x},\,\mathcal{E}_{y}$ は $x$ 軸、$y$ 軸方向成分である。
 ストークスパラメータは
 \begin{align}
+    \label{eq:stokes_I_complex}
     I &= \abs{\mathcal{E}_{x}}^{2} + \abs{\mathcal{E}_{y}}^{2} \\
+    \label{eq:stokes_Q_complex}
     Q &= \abs{\mathcal{E}_{x}}^{2} - \abs{\mathcal{E}_{y}}^{2} \\
+    \label{eq:stokes_U_complex}
     U &= 2\Re\qty[\mathcal{E}_{x}\mathcal{E}_{y}^{*}] = \mathcal{E}_x\mathcal{E}_{y}^{*}+\mathcal{E}_{x}^{*}\mathcal{E}_{y} \\
-    V &= 2\Im\qty[\mathcal{E}_{x}\mathcal{E}_{y}^{*}] = \mathcal{E}_x\mathcal{E}_{y}^{*}-\mathcal{E}_{x}^{*}\mathcal{E}_{y}
+    \label{eq:stokes_V_complex}
+    V &= 2\Im\qty[\mathcal{E}_{x}\mathcal{E}_{y}^{*}] = \dfrac{1}{i}\qty(\mathcal{E}_x\mathcal{E}_{y}^{*}-\mathcal{E}_{x}^{*}\mathcal{E}_{y})
 \end{align}
 と表される。
-\section{座標変換に対するストークスパラメータの変換}
+\section{座標回転に対するストークスパラメータの変換}
 \label{sec:stokes_transform}
 $xyz$ 直交座標系を $z$ 軸周りに $\theta$ だけ回転させた $x'y'z$ 直交座標系を考える。
-このとき、$x',y',z$ 軸の単位ベクトル $\bm{\hat{e}}_{x'},\bm{\hat{e}}_{y'},\bm{\hat{e}}_{z}$ はそれぞれ
+このとき、$x',\,y',\,z$ 軸の単位ベクトル $\bm{\hat{e}}_{x'},\,\bm{\hat{e}}_{y'},\,\bm{\hat{e}}_{z}$ はそれぞれ
 \begin{equation}
     \mqty(\bm{\hat{e}}_{x},\,\bm{\hat{e}}_{y},\bm{\hat{e}}_{z}) = 
         \mqty(\bm{\hat{e}}_{x'},\,\bm{\hat{e}}_{y'},\bm{\hat{e}}_{z})
@@ -54,18 +59,52 @@ $xyz$ 直交座標系を $z$ 軸周りに $\theta$ だけ回転させた $x'y'z$
 \end{equation}
 と表される。複素電場ベクトル\eqref{eq:complex_electric_field}を $x'y'z$ 直交座標系で表すと
 \begin{align}
-    \bm{\mathcal{E}} &= \mathcal{E}_{x}e^{i\qty(\omega t-kz+\delta_x)}\qty(\cos\theta \bm{\hat{e}}_{x'} + \sin\theta \bm{\hat{e}}_{y'}) \notag \\
-        &\hspace{3cm} + \mathcal{E}_{y}e^{\qty(\omega t-kz+\delta_y)}(-\sin\theta \bm{\hat{e}}_{x'} + \cos\theta\bm{\hat{e}}_{y'}) \\
-    &= \qty(\mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta)e^{i\qty(\omega t-kz+\delta_x)}\bm{\hat{e}}_{x'} \notag \\
-        &\hspace{3cm} + \qty(\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta)e^{i\qty(\omega t-kz+\delta_y)}\bm{\hat{e}}_{y'}
+    \bm{\mathcal{E}} &= \mathcal{E}_{x}\qty(\cos\theta \bm{\hat{e}}_{x'} + \sin\theta \bm{\hat{e}}_{y'}) + \mathcal{E}_{y}(-\sin\theta \bm{\hat{e}}_{x'} + \cos\theta\bm{\hat{e}}_{y'}) \\
+    &= \qty(\mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta)\bm{\hat{e}}_{x'} + \qty(\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta)\bm{\hat{e}}_{y'} \\
+    &= \mathcal{E}_{x'}\bm{\hat{e}}_{x'} + \mathcal{E}_{y'}\bm{\hat{e}}_{y'}
 \end{align}
-となる。このとき、$x'y'z$ 直交座標系でのストークスパラメータは
+となる。ここで、$\mathcal{E}_{x'} = \mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta,\,\mathcal{E}_{y'}=\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta$ である。
+このとき、$x'y'z$ 直交座標系でのストークスパラメータは
 % \begin{align}
+%     I'
 %     \begin{split}
-%         I' &= \abs(\mathcal{E}_{x})^{2} + \abs(\mathcal{E}_{y})^{2} \\
+%         & =\abs(\mathcal{E}_{x})^{2} + \abs(\mathcal{E}_{y})^{2} \\
 %         &= \abs(\cos\theta)
-%     \end{split}
+%     \end{split} \\
 %     aaa
 % \end{align}
-
+\begin{align}
+    \begin{split}
+        I' &= \abs{\mathcal{E}_{x'}}^{2} + \abs{\mathcal{E}_{y'}}^{2} \\
+           &= \abs{\mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta}^{2} + \abs{\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta}^{2} \\
+           &= \abs{\mathcal{E}_{x}}^{2} + \abs{\mathcal{E}_{y}}^{2} \\
+           &= I
+    \end{split} \\
+    \begin{split}
+        Q' &= \abs{\mathcal{E}_{x'}}^{2} - \abs{\mathcal{E}_{y'}}^{2} \\
+           &= \abs{\mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta}^{2} - \abs{\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta}^{2} \\
+           &= \qty(\abs{\mathcal{E}_{x}}^{2} - \abs{\mathcal{E}_{y}}^{2})\cos2\theta - \qty(\mathcal{E}_{x}\mathcal{E}_{y}^{*} + \mathcal{E}_{x}^{*}\mathcal{E}_{y})\sin2\theta \\
+           &= Q\cos2\theta - U\sin2\theta
+    \end{split} \\
+    \begin{split}
+        U' &= \mathcal{E}_{x'}\mathcal{E}_{y'}^{*} - \mathcal{E}_{x'}^{*}\mathcal{E}_{y'} \\
+           &= (\mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta)(\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta)^{*} \\
+                &\hspace{2cm} - (\mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta)^{*}(\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta) \\
+           &= \qty(\abs{\mathcal{E}_{x}}^{2} - \abs{\mathcal{E}_{y}}^{2})\sin2\theta + \qty(\mathcal{E}_{x}\mathcal{E}_{y}^{*} + \mathcal{E}_{x}^{*}\mathcal{E}_{y})\cos2\theta \\
+           &= Q\sin2\theta + U\cos2\theta
+    \end{split} \\
+    \begin{split}
+        V' &= \dfrac{1}{i}\qty(\mathcal{E}_{x'}\mathcal{E}_{y'}^{*} - \mathcal{E}_{x'}^{*}\mathcal{E}_{y'}) \\
+              &= \dfrac{1}{i}\left[(\mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta)(\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta)^{*} \right. \\
+              &\hspace{2cm} \left.- (\mathcal{E}_{x}\cos\theta - \mathcal{E}_{y}\sin\theta)^{*}(\mathcal{E}_{x}\sin\theta + \mathcal{E}_{y}\cos\theta) \right] \\
+           &= \dfrac{1}{i}\qty(\mathcal{E}_{x}\mathcal{E}_{y}^{*} - \mathcal{E}_{x}^{*}\mathcal{E}_{y}) \\
+           &= V
+    \end{split}
+\end{align}
+となる。すなわち
+\begin{equation}
+    \mqty(I' \\ Q' \\ U' \\ V') = \mqty(1 & 0 & 0 & 0 \\ 0 & \cos2\theta & -\sin2\theta & 0 \\ 0 & \sin2\theta & \cos2\theta & 0 \\ 0 & 0 & 0 & 1)\mqty(I \\ Q \\ U \\ V)
+    \label{eq:stokes_transform}
+\end{equation}
+と座標の回転に対して2倍の角度で回転することがわかる。
 \end{document}
