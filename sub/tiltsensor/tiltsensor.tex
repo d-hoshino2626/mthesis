@@ -7,10 +7,10 @@
 \chapter{重力参照計の評価}
 \label{chap:tiltsensor}
 
-\ref{chap:wiregrid}章にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定するが、
-これまでに使用が想定されていた Digi-Pas 社製の DWL5000-XY は要求性能を満たさなかった。
-今回、新たに候補となった Sherborne Sensors 社製の DSIC-2051-60 を評価した。
-本章では、はじめに要求精度と評価すべき事項について確認したのち、本重力参照計の概要を共有、各評価手法と結果について述べる。
+\ref{chap:wiregrid}章にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定する。
+これまでに使用が想定されていた Digi-Pas 社製の DWL5000-XY は長期間の測定における出力の変化が約 $0.3\tcdegree$ となり、要求性能を満たさなかった。
+今回新たに候補となった Sherborne Sensors 社製の DSIC-2051-60 を、長期間における出力の安定性と出力の温度依存性という観点から評価し、その精度を決定した。
+本章では、はじめに要求精度と評価すべき項目について確認したのち、本重力参照計の概要を共有、各評価項目の手法と結果について述べる。
 \section{要求精度と評価内容}
 要求される精度は、表\ref{tab:systematic_errors_old}中にある値から合計誤差が $\delta\theta < 0.1\tcdegree$ となることであり、
 式\eqref{eq:wg_theta_sens}で表される $\theta_{\mathrm{sens}}$ にして $\delta\theta_{\mathrm{sens}}<0.06\tcdegree$ である。
@@ -88,11 +88,54 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 \end{figure}
 
 \subsection{評価結果とその考察}
-図\ref{}に測定された温度と角度を日毎に平均をとった結果を示す。
+図\ref{fig:timedrift_Xaxis}および\ref{fig:timedrift_Yaxis}に測定された温度と角度を日毎に平均をとった結果を示す。
 誤差として、各日のデータ群の標準偏差を示している。
-
+$X$ 軸については、日毎に平均された出力角度の平均が $-0.0598\tcdegree$ となり、その標準偏差は $0.0028\tcdegree$ であった。
+この結果から、時間変化による出力角度の変化の精度を $\delta\theta_{X,\mathrm{time}} = 0.003\tcdegree$ であると結論づける。
+$Y$ 軸については、日毎に平均された出力角度の平均が $-0.012\tcdegree$ となり、その標準偏差は $0.034\tcdegree$ であった。
+この結果から、時間変化による出力角度の変化の精度を $\delta\theta_{Y,\mathrm{time}} = 0.034\tcdegree$ であると結論づける。
+$Y$ 軸の結果は $X$ 軸の結果に比べ非常に大きな値となっている。
+図\ref{fig:timedrift_Yaxis}(\subref{fig:timedrift_tempY})と
+図\ref{fig:timedrift_Yaxis}(\subref{fig:timedrift_angleY})を見比べると
+温度の変動に伴って出力角度が大きく変化しており、この精度の違いは温度変動による出力角度の変化が $X$ 軸と $Y$ 軸で異なることが原因であると考えられる。
+次節の温度変動による出力の変化の評価にて、これを検証する。
 \begin{figure}[H]
-    
+    \begin{minipage}[b]{0.45\columnwidth}
+        \centering
+        \includegraphics[width=1.0\columnwidth]{tiltsensor/timedrift_tempX_daily.pdf}
+        \subcaption{}
+        \label{fig:timedrift_tempX}
+    \end{minipage}
+    \hspace{2mm}
+    \begin{minipage}[b]{0.527\columnwidth}
+        \centering
+        \includegraphics[width=0.95\columnwidth]{tiltsensor/timedrift_angleX_daily.pdf}
+        \subcaption{}
+        \label{fig:timedrift_angleX}
+    \end{minipage}
+    \caption{日毎に平均化された1ヶ月間の $X$ 軸の温度と角度の変化。
+             (\subref{fig:timedrift_tempX}) $X$ 軸の出力温度 $T_{X}$ の変化。
+             (\subref{fig:timedrift_angleX}) $X$ 軸の出力角度 $\theta_{X}$ の変化。}
+    \label{fig:timedrift_Xaxis}
+\end{figure}
+\begin{figure}
+    \begin{minipage}[b]{0.45\columnwidth}
+        \centering
+        \includegraphics[width=1.0\columnwidth]{tiltsensor/timedrift_tempY_daily.pdf}
+        \subcaption{}
+        \label{fig:timedrift_tempY}
+    \end{minipage}
+    \hspace{2mm}
+    \begin{minipage}[b]{0.49\columnwidth}
+        \centering
+        \includegraphics[width=0.985\columnwidth]{tiltsensor/timedrift_angleY_daily.pdf}
+        \subcaption{}
+        \label{fig:timedrift_angleY}
+    \end{minipage}
+    \caption{日毎に平均化された1ヶ月間の $Y$ 軸の温度と角度の変化。
+             (\subref{fig:timedrift_tempY}) $Y$ 軸の出力温度 $T_{Y}$ の変化。
+             (\subref{fig:timedrift_angleY}) $Y$ 軸の出力角度 $\theta_{Y}$ の変化。}
+    \label{fig:timedrift_Yaxis}
 \end{figure}
 
 \section{温度変動による出力の変化の評価}
@@ -159,7 +202,7 @@ $T_{\mathrm{USB}} \sim \SI{-18}{\degreeCelsius}$ で撮影された写真を示�
 
 $X$ 軸については、温度変化に対する出力角度の平均が $-0.023\tcdegree$ となり、その誤差の平均は $0.011\tcdegree$ であった。
 この結果から、それぞれの絶対値の和を取ることで $\theta_{X}$ の精度を 
-$\delta\theta_{X,\mathrm{temp}} = 0.033\tcdegree < 0.04\tcdegree$ であると結論づける。
+$\delta\theta_{X,\mathrm{temp}} = 0.033\tcdegree$ であると結論づける。
 $Y$ 軸については、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:angleY_temp_dep})に示すように
 温度変化に対する出力角度の変化が $2.0\tcdegree$ 以上と非常に大きく、絶対角度較正には使用できない精度であった。
 しかし、この結果は公称精度 $0.08\tcdegree$ を大きく上回っており、初期不良の可能性が疑われる。
