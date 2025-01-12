@@ -1017,6 +1017,12 @@ INPUT extractbb -B cropbox -O ../../fig//wiregrid/abs_angle_overview.pdf
 INPUT ../../fig//wiregrid/abs_angle_WG_plane.pdf
 INPUT ../../fig//wiregrid/abs_angle_WG_plane.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/abs_angle_WG_plane.pdf
+INPUT ../../fig//wiregrid/tiltsensor_slope.pdf
+INPUT ../../fig//wiregrid/tiltsensor_slope.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/tiltsensor_slope.pdf
+INPUT ../../fig//wiregrid/tiltsensor_WGplane.pdf
+INPUT ../../fig//wiregrid/tiltsensor_WGplane.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/tiltsensor_WGplane.pdf
 INPUT ../../fig//wiregrid/tiltsensor_at_site.pdf
 INPUT ../../fig//wiregrid/tiltsensor_at_site.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/tiltsensor_at_site.pdf

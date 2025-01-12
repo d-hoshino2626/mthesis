@@ -136,7 +136,7 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
     \centering
     \includegraphics[width=0.65\textwidth]{wiregrid/wiregrid_actuator.pdf}
     \caption[スパースワイヤーグリッドに搭載された切り替え機構の概観]{スパースワイヤーグリッドに搭載された切り替え機構の概観。
-    上図が観測サイトにインストールされた較正装置であり、オレンジの線で囲んだ部分の詳細を下図に示している。}
+    上図が観測サイトにインストールされた較正装置であり、オレンジの線で囲んだ部分の詳細を下図に示している~\cite{swg:Murata_2023}。}
     \label{fig:gridloader}
 \end{figure}
 \subsection{重力参照計}
@@ -152,7 +152,7 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
 図中に円環として描かれているのがスパースワイヤーグリッドであり、重力参照計が持つ2軸を $x',\,y'$ 軸とする。
 $\alpha,\,\beta$ は重力参照計が測定する角度であり、$x',\,y'$ 軸が $xy$ 平面となす角度である。
 図中にある horizontal line とは、$xy$ 平面と $x',\,y'$ 平面が交わる直線である。
-以上の定義から、$x'$ 軸と horizontal line がなす角 $\theta_{\mathrm{sens}}$ は
+以上の定義から、$x'$ 軸と horizontal line がなす角 $\theta_{\mathrm{sens}}$ (図\ref{fig:abs_angle}(\subref{fig:abs_angle_WG_plane}))は
 \begin{equation}
     \theta_{\mathrm{sens}} = \arctan\qty(\dfrac{\sin\alpha}{\sin\beta})
     \label{eq:wg_theta_sens}
@@ -212,6 +212,22 @@ SATはelevation $50\tcdegree$ での観測を主要としており、
 図\ref{fig:abs_angle}(\subref{fig:abs_angle_WG_plane})中の $x'$ 軸と $y'$ 軸から測った重力参照計の設置角度であり、
 それぞれの設計値は $\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ である。
 \begin{figure}[H]
+    \begin{minipage}[b]{0.55\columnwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{wiregrid/tiltsensor_slope.pdf}
+        \caption{重力参照計を設置するスロープが切られた治具}
+        \label{fig:tiltsensor_slope}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.46\columnwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{wiregrid/tiltsensor_WGplane.pdf}
+        \caption{設置された重力参照計の詳細と各軸のイメージ}
+        \label{fig:tiltsensor_WGplane}
+    \end{minipage}
+    \label{fig:abs_angle_slope}
+\end{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/tiltsensor_at_site.pdf}
     \caption{重力参照計の設置状況}
@@ -241,11 +257,18 @@ $\theta_{\mathrm{enc}0}$ は実験室にて測られるエンコーダの零点�
 
 \subsection{重力参照計の精度に伴う系統誤差}
 重力参照計が出力する角度の精度は、$\theta_{\mathrm{sens}}$ の誤差として現れる。
-これまで、Digi-Pas 社製の DWL5000-XY という製品の使用を予定されていたが、先行研究\cite{swg:iijima}にてその精度を欠き、
+重力参照計が満たすべき要求として、
+\begin{itemize}
+    \item 長期間の測定において、そのオフセットの変動が小さいこと
+    \item 観測サイトにおける気温変動を考慮し、$\SI{-20}{\degreeCelsius}\sim\SI{20}{\degreeCelsius}$ での出力変動が小さいこと
+\end{itemize}
+が挙げられる。
+これまで、Digi-Pas 社製の DWL5000-XY という製品の使用を予定されていたが、先行研究\cite{swg:iijima}にて
+2ヶ月の期間をあけて測定されたオフセットに $0.3\tcdegree$ 近くの変動があり、
 SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ を満たさないことが示された。
 
 \subsection{ワイヤーのたわみに伴う系統誤差}
-較正に使う光はワイヤーに沿う形で生成されるため、ワイヤーがたわんでいる部分から生成される光はその偏光角が
+較正に使う直線偏光はワイヤーに沿う形で生成されるため、ワイヤーがたわんでいる部分から生成される光はその偏光角が
 ワイヤーの絶対角度 $\theta_{\mathrm{wire}}$ からずれてしまい、系統誤差になる。
 本項では、先行研究\cite{swg:murata}および\cite{swg:iijima}にて行われているワイヤーのたわみ量の評価について述べる。
 \begin{figure}[H]
@@ -284,7 +307,7 @@ SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ �
 となる。
 
 写真はワイヤーの中央と両端の3箇所で撮影された。
-両端で測定される $z$ はたわみのオフセットであり、中央で測定された $z$ からこのオフセットを差し引いたものが正味のたわみ量として測定された。
+両端ではたわみがないと考えられるため、中央で測定された $z$ から両端で測定された $z$ を差し引くことで正味のたわみ量を測定できる。
 また、ストレートエッジにはスケーラを貼り付けており、スケーラの目盛が写真のpixel数にしていくつなのかを測ることで
 $\SI{1}{pixel}$ が何\,$\mathrm{mm}$ に対応するのか較正している。
 

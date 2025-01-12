@@ -11,12 +11,13 @@
 \contentsline {subsection}{\numberline {2.4.1}偏光角の誤較正に伴う偏光の漏れ込み}{4}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}偏光角較正手法}{6}{subsection.2.4.2}%
 \contentsline {subsubsection}{\numberline {2.4.2.1}牡牛座かに星雲 (Tau A)}{6}{subsubsection.2.4.2.1}%
-\contentsline {subsubsection}{\numberline {2.4.2.2}\textcolor {blue}{ケンタウルス座A (Cen A)}}{6}{subsubsection.2.4.2.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}ケンタウルス座A (Cen A)}{6}{subsubsection.2.4.2.2}%
 \contentsline {subsubsection}{\numberline {2.4.2.3}月}{6}{subsubsection.2.4.2.3}%
 \contentsline {subsubsection}{\numberline {2.4.2.4}誘電体シート}{7}{subsubsection.2.4.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.2.5}デンスワイヤーグリッド}{7}{subsubsection.2.4.2.5}%
 \contentsline {subsubsection}{\numberline {2.4.2.6}スパースワイヤーグリッド}{7}{subsubsection.2.4.2.6}%
 \contentsline {subsubsection}{\numberline {2.4.2.7}自己較正}{7}{subsubsection.2.4.2.7}%
+\contentsline {subsubsection}{\numberline {2.4.2.8}偏光角較正手法のまとめとスパースワイヤーグリッドの採用理由}{7}{subsubsection.2.4.2.8}%
 \contentsline {chapter}{\numberline {第3章}スパースワイヤーグリッドを用いた偏光角較正装置}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}偏光信号の生成原理}{9}{section.3.1}%
 \contentsline {section}{\numberline {3.2}偏光角較正の原理}{10}{section.3.2}%
@@ -29,11 +30,11 @@
 \contentsline {subsubsection}{\numberline {3.3.4.2}重力参照計の設置}{15}{subsubsection.3.3.4.2}%
 \contentsline {section}{\numberline {3.4}系統誤差}{16}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}ワイヤーの設置精度に伴う系統誤差}{16}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}エンコーダの測定精度に伴う系統誤差}{16}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}エンコーダの零点測定に伴う系統誤差}{16}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.2}エンコーダの測定精度に伴う系統誤差}{17}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}エンコーダの零点測定に伴う系統誤差}{17}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}重力参照計の精度に伴う系統誤差}{17}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}ワイヤーのたわみに伴う系統誤差}{17}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}系統誤差のまとめと本論文の位置付け}{18}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.6}系統誤差のまとめと本論文の位置付け}{19}{subsection.3.4.6}%
 \contentsline {chapter}{\numberline {第4章}重力参照計の評価}{20}{chapter.4}%
 \contentsline {section}{\numberline {4.1}要求精度と評価内容}{20}{section.4.1}%
 \contentsline {section}{\numberline {4.2}重力参照計の概要}{21}{section.4.2}%
