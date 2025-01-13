@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1736685052 "wiregrid.dvi" "wiregrid.pdf" "wiregrid" 1736685052 0
-  "wiregrid.dvi" 1736685052 49164 2caada34722cb64cfb6fa36b0a4ba933 "latex"
+["dvipdf"] 1736751550 "wiregrid.dvi" "wiregrid.pdf" "wiregrid" 1736751550 0
+  "wiregrid.dvi" 1736751550 50460 81137ffdfd4fcb50cbf9a77334c1fb5b "latex"
   (generated)
   "wiregrid.pdf"
   (rewritten before read)
-["latex"] 1736685049 "wiregrid.tex" "wiregrid.dvi" "wiregrid" 1736685052 0
+["latex"] 1736751547 "wiregrid.tex" "wiregrid.dvi" "wiregrid" 1736751550 0
   "../../fig//draft/not-yet.png" 1736440887 79503 13c7db87abaede38c8e4ccd52ffeab0f ""
   "../../fig//wiregrid/abs_angle_WG_plane.pdf" 1735999011 336852 e167de44f325d4b1b8ce7370fb183359 ""
   "../../fig//wiregrid/abs_angle_overview.pdf" 1735998992 856057 30bf6de958ff6450ce6051144fe76dad ""
@@ -18,11 +18,12 @@
   "../../fig//wiregrid/wire_through.pdf" 1736053031 344032 515266bb7e49c5905367e6e5bb47418f ""
   "../../fig//wiregrid/wiregrid_actuator.pdf" 1736019593 2814242 f1b739bda89c268a6f685964c7de0277 ""
   "../../fig//wiregrid/wiregrid_appearance.pdf" 1735747397 1000562 53a007677c690799e344dda96d63197a ""
+  "../../fig//wiregrid/wiresag_def.pdf" 1736751173 229278 e581cab0b6244a550310933f60a18d4c ""
   "../../fig//wiregrid/wiresag_picture_old.pdf" 1736039654 2778040 5a3ac617a7a3fef3e4e4f0bb82b11efa ""
   "../../fig//wiregrid/wiresag_setup_old.pdf" 1736033058 439879 b630e8850ca4116a8b7428165d89749c ""
   "../../main.tex" 1736683117 3119 e94477ac2c464ad09bd7ff870978697b ""
-  ".tex_intermediates/wiregrid.aux" 1736685052 11346 240fe11aa6806cdc1a0b9a4875a84dd3 "latex"
-  ".tex_intermediates/wiregrid.out" 1736685052 2828 fd1201cdcc6956fd47418181c4e0dc16 "latex"
+  ".tex_intermediates/wiregrid.aux" 1736751550 11684 4a4e09d37cff7808f6f062a1f8596467 "latex"
+  ".tex_intermediates/wiregrid.out" 1736751550 2828 fd1201cdcc6956fd47418181c4e0dc16 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -154,7 +155,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiregrid.tex" 1736685049 27438 3252ffe760f8ec4dc97700fec5c56b78 ""
+  "wiregrid.tex" 1736751545 28262 9e48a8ed19ba08a962992404f05b9a65 ""
   (generated)
   ".tex_intermediates/wiregrid.aux"
   ".tex_intermediates/wiregrid.log"
