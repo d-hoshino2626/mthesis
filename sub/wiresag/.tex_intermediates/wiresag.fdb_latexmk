@@ -1,16 +1,17 @@
 # Fdb version 4
-["dvipdf"] 1736048632 "wiresag.dvi" "wiresag.pdf" "wiresag" 1736048633 0
-  "wiresag.dvi" 1736048632 3028 d3c8b8a99eddd2ca911e5ee1ea0aff86 "latex"
+["dvipdf"] 1736747939 "wiresag.dvi" "wiresag.pdf" "wiresag" 1736747939 0
+  "wiresag.dvi" 1736747939 3180 93ed14cb4e89c3fec680d725fe925c0e "latex"
   (generated)
   "wiresag.pdf"
   (rewritten before read)
-["latex"] 1736048631 "wiresag.tex" "wiresag.dvi" "wiresag" 1736048633 0
-  "../../main.tex" 1735999817 3010 b8a841bcaa93ea110c0c940725b0c8e5 ""
-  ".tex_intermediates/wiresag.aux" 1736048632 1563 d3c337a06275e19ce5c4738eb45d92af "latex"
-  ".tex_intermediates/wiresag.out" 1736048632 1150 5a5a51e5d1c842b64f820eb39d71aabb "latex"
+["latex"] 1736747938 "wiresag.tex" "wiresag.dvi" "wiresag" 1736747939 0
+  "../../main.tex" 1736683117 3119 e94477ac2c464ad09bd7ff870978697b ""
+  ".tex_intermediates/wiresag.aux" 1736747939 1581 5f6055852d91e855724186343061e67b "latex"
+  ".tex_intermediates/wiresag.out" 1736747939 1198 c7f3c46d8c80d7169a42fd335faa675f "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/bxjatoucs/bxjatoucs-cid.tfm" 1571867428 92388 7031e5a1936cb30180e7c99464bb574a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/bxjatoucs/bxjatoucs-jis.tfm" 1571867428 31380 1d09ef146eecd6f0f49e1f330de6fb2e ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
@@ -57,8 +58,8 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/dvipdfmx.def" 1663965824 12296 04d6453afafd99986deba3629756d9ec ""
-  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/dvips.def" 1663965824 6282 3d1fff8973f8803fd81ea577dda4f3ef ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty" 1654720880 7233 e46ce9241d2b2ca2a78155475fdd557a ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def" 1654720880 5009 d242512eef244b70f2fc3fde14419206 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty" 1654720880 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty" 1654720880 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
@@ -74,7 +75,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty" 1586645574 6201 0ad8b5da8e12f60a88d546b2198a56f2 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1655478651 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1665067230 13815 760b0c02f691ea230f5359c4e1de23a7 ""
-  "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvips.def" 1680206705 35616 ee881fd8745dfd0e451578d8b656c40a ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def" 1680206705 30023 a086bd8d9aef8f9c6efca291fd92ba8b ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty" 1680206705 6107 315d4fb3eadc8324d4c14694285a7ca1 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1675461949 6812 3c152a1c8d562d7b7291c4839b61a5c3 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1575499565 5766 13a9e8766c47f30327caf893ece86ac8 ""
@@ -106,7 +107,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiresag.tex" 1736048630 521 b60daf0f64c1d94fddfb158ae9c09004 ""
+  "wiresag.tex" 1736747938 625 c65cf91f95d5fced7a6df5141ef382ea ""
   (generated)
   ".tex_intermediates/wiresag.aux"
   ".tex_intermediates/wiresag.log"
