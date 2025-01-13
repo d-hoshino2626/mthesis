@@ -1053,12 +1053,22 @@ INPUT extractbb -B cropbox -O ./fig//wiregrid/tiltsensor_WGplane.pdf
 INPUT ./fig//wiregrid/tiltsensor_at_site.pdf
 INPUT ./fig//wiregrid/tiltsensor_at_site.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/tiltsensor_at_site.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT ./fig//wiregrid/wiresag_def.pdf
+INPUT ./fig//wiregrid/wiresag_def.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_def.pdf
+INPUT ./fig//wiregrid/wiresag_setup_overview_old.pdf
+INPUT ./fig//wiregrid/wiresag_setup_overview_old.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_overview_old.pdf
 INPUT ./fig//wiregrid/wiresag_setup_old.pdf
 INPUT ./fig//wiregrid/wiresag_setup_old.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_old.pdf
 INPUT ./fig//wiregrid/wiresag_picture_old.pdf
 INPUT ./fig//wiregrid/wiresag_picture_old.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_picture_old.pdf
+INPUT ./fig//wiregrid/wiresag_result_old.pdf
+INPUT ./fig//wiregrid/wiresag_result_old.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_result_old.pdf
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
@@ -1092,7 +1102,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT ./fig//tiltsensor/temp_evaluation_system.pdf
 INPUT ./fig//tiltsensor/temp_evaluation_system.pdf
 INPUT extractbb -B cropbox -O ./fig//tiltsensor/temp_evaluation_system.pdf
