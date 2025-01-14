@@ -79,7 +79,7 @@ $R_{\mathrm{W}}$ をワイヤーの半径、$L_{\mathrm{frame}}$ をワイヤー
     a &= \dfrac{T}{\rho_{\mathrm{W}}\cdot\pi R_{\mathrm{W}}^2}
 \end{align}
 と表される。なお、この式は原点 $(0,\,0)$ と $(L_{\mathrm{frame}},\,0)$ を通る拘束条件を課したカテナリー曲線を表している。
-スパースワイヤーグリッドにはタングステン製のワイヤーを使うため、その密度は $\rho_{\mathrm{W}}=\SI{19.3}{g/cm^3}$ であり、
+スパースワイヤーグリッドにはタングステン製のワイヤーを使うため、その密度はタングステンの密度 $\rho_{\mathrm{W}}=\SI{19.3}{g/cm^3}$ であり、
 ワイヤーの半径は $R_{\mathrm{W}}=\SI{0.1}{mm}$ である。
 $L_{\mathrm{frame}}$ はどのワイヤーを評価するかによって異なる。
 図\ref{fig:wire_number}のようにスパースワイヤーグリッドに張られたワイヤーに通し番号をつけたとき、
@@ -89,14 +89,21 @@ $n$ 番目のワイヤーにおける $L_{\mathrm{frame},\,n}$ は
     L_{\mathrm{frame}, n} = 2\sqrt{395^2-(20\cdot(19-n))^2}\ [\mathrm{mm}] \quad (n=1,2,\cdots,19)
 \end{align}
 と表される。以下ではワイヤー番号を省略し、単純に $L_{\mathrm{frame}}$ と表す。
-$a$ は張力に関わるパラメータであり、
-
+$a$ は張力に関わるパラメータであり、ワイヤーが緩んでいることを示す指標となる。
+そのため、得られた測定値 ($x_{i},\,z_{i}$) に対して、カテナリー曲線のパラメータ $a$ を fitting parameter として
+fitting を行い、best fit により得られた $a$ を用いてワイヤーのたわみ量を算出する。
 式\eqref{eq:wiresag_catenary_nominal}より、張られたワイヤーの中心部で生じるたわみ量は
 \begin{align}
     \label{eq:wiresag_sag}
     d_{\mathrm{sag}} &= f(L_{\mathrm{frame}}/2;a) \\
-                     &= a\qty(1-\cosh\qty(\dfrac{L_{\mathrm{frame}}}{2a}))
+                     &= a\qty[1-\cosh\qty(\dfrac{L_{\mathrm{frame}}}{2a})]
 \end{align}
+であり、たわみ角 $\theta_{\mathrm{sag}}$ は
+\begin{align}
+    \label{eq:wiresag_sag_angle}
+    \theta_{\mathrm{sag}} &= \arctan\qty(\dfrac{d_{\mathrm{sag}}}{L_{\mathrm{frame}}})
+\end{align}
+となる。
 
 \begin{figure}[H]
     \centering
@@ -111,6 +118,20 @@ $a$ は張力に関わるパラメータであり、
     \label{fig:wire_number}
 \end{figure}
 
+実際の評価系においては、スパースワイヤーグリッド自体が回転し、ワイヤーを固定する両端が水平面上に位置しない。
+図\ref{}のように、ワイヤーの左端が $(0,\,0)$ に位置し、ワイヤーの右端が $(X,\,Y)$ に位置する場合を考える。
+このとき、ワイヤーの描くカテナリー曲線は
+\begin{align}
+    f_{\mathrm{tilt}}(x;a) &= a\cosh\qty(\dfrac{x+c_1}{a}) + c_2 \\
+    c_1 &= a\sinh^{-1}\qty[\dfrac{Y}{2a\sinh\qty(\dfrac{X}{2a})}] \\
+    c_2 &= -a\cosh\qty(\dfrac{c_1}{a})
+\end{align}
+となる。ただし、$X,\,Y$ は
+\begin{align}
+    L_{\mathrm{frame}} &= \sqrt{X^2+Y^2}
+\end{align}
+を満たす。
+
 図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
 これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて変更したものであり、
 カメラから見るとストレートエッジが手前に位置し、ワイヤーがその奥に位置するような配置になっている。
@@ -120,7 +141,12 @@ $a$ は張力に関わるパラメータであり、
     z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
     \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\beta})
 \end{align}
-となる。
+となるが、$L_{\mathrm{camera}}$ は $\SI{0}{mm}$ であるため、
+\begin{align}
+    z = z'
+\end{align}
+として問題ない。
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept_yoko.pdf}
@@ -143,12 +169,14 @@ $a$ は張力に関わるパラメータであり、
 \end{table}
 
 \subsection{評価系の機械設計により生まれる $z$ 誤差の見積もり}
-過去の手法における誤差の主原因として、$\phi$ が典型的に $5\tcdegree$ 程度と小さくない値であったために、
-$L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じていたことが挙げられる\cite{swg:murata}。
-過去の評価系において $\phi\sim0$ すなわち $L_{\mathrm{camera}} \sim 0\tcdegree$ で撮影ができていなかった理由は、
-スパースワイヤーグリッドを水平面上に設置して撮影しており、他のワイヤーが撮影対象のワイヤーに重なってしまうためである(図\ref{fig:wiresag_picture_old})。
+過去の手法においては、$\phi$ が典型的に $5\tcdegree$ 程度と小さくない値であったために、
+$L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じていた\cite{swg:murata}。
+この誤差を抑えるためには、$\phi$ を小さくすることが重要であるが、
+過去の評価系ではスパースワイヤーグリッドを水平面上に設置して撮影しており、
+他のワイヤーが撮影対象のワイヤーに重なってしまうため $\phi\sim 0\tcdegree$、すなわち 
+$L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった(図\ref{fig:wiresag_picture_old})。
 これを解決するため、スパースワイヤーグリッドを鉛直方向に立てて撮影を行うことで、$L_{\mathrm{camera}}=0\pm\SI{0.5}{mm}$ で撮影を行い、誤差の低減を図った。
-$z$ の誤差は
+新しい評価系において、$z$ の誤差は
 \begin{align}
     \delta z = \sqrt{\qty(\dfrac{1}{\cos\phi})^2\delta z'^2 + \qty(\dfrac{\tan\phi}{\cos\phi}+\dfrac{\beta}{\cos^2\phi})^2\delta\phi^2 + \tan^2\phi\delta\beta^2}
 \end{align}
@@ -156,14 +184,13 @@ $z$ の誤差は
 \begin{equation}
     \delta z \sim \SI{39}{\mu m}
 \end{equation}
-となる。$z'$ の誤差についてはカメラの $\SI{1}{pixel}$ が対応する長さになる。
-のちの解析にて明らかになるが、これは典型的に $\SI{6}{\mu m}$ 程度である。
+となる。$z'$ の誤差についてはカメラの $\SI{1}{pixel}$ が対応する長さであり、
+次節の解析にて明らかになるがこれは典型的に $5\sim\SI{6}{\mu m}$ 程度である。
 また、$z$ にはストレートエッジの真直度由来の誤差 $\SI{30}{\mu m}$ が含まれるため、これも考慮に入れると $z$ の誤差は
 \begin{equation}
     \delta z = \sqrt{39^2+30^2}\ \mu\mathrm{m} = \SI{49}{\mu m}
 \end{equation}
 程度だと見積もられる。
-
 
 
 \section{解析手法}
