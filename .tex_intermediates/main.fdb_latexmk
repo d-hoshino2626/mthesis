@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex .tex_intermediates/main"] 1736830895 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1736830917 0
+["bibtex .tex_intermediates/main"] 1736847012 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1736847019 0
   "./refs.bib" 1736441144 27099 2fd420c47df81c2608fa08eff3459e8b ""
-  ".tex_intermediates/main.aux" 1736830917 32105 ad62008c4c7141f4bcb2e5e80c2c293b "latex"
+  ".tex_intermediates/main.aux" 1736847017 32906 a4d49ebe5601b6c333a17012c1d5f6bc "latex"
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   ".tex_intermediates/main.bbl"
   ".tex_intermediates/main.blg"
   (rewritten before read)
-["dvipdf"] 1736830917 "main.dvi" "main.pdf" "main" 1736830917 0
-  "main.dvi" 1736830917 214712 524e26549c3d170c559f664c5475cb9c "latex"
+["dvipdf"] 1736847018 "main.dvi" "main.pdf" "main" 1736847019 0
+  "main.dvi" 1736847017 219868 67245398e3c3600efad88b85d7448f17 "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1736830912 "main.tex" "main.dvi" "main" 1736830917 0
-  ".tex_intermediates/main.aux" 1736830917 32105 ad62008c4c7141f4bcb2e5e80c2c293b "latex"
-  ".tex_intermediates/main.bbl" 1736830895 16431 879835d6331d9cd2afdb8660dd294527 "bibtex .tex_intermediates/main"
-  ".tex_intermediates/main.out" 1736830917 9082 954d44e78063bb35656e7509ea474e59 "latex"
-  ".tex_intermediates/main.toc" 1736830917 6104 466600115e8c127e49f60f0324e47f59 "latex"
+["latex"] 1736847012 "main.tex" "main.dvi" "main" 1736847019 0
+  ".tex_intermediates/main.aux" 1736847017 32906 a4d49ebe5601b6c333a17012c1d5f6bc "latex"
+  ".tex_intermediates/main.bbl" 1736847012 16431 879835d6331d9cd2afdb8660dd294527 "bibtex .tex_intermediates/main"
+  ".tex_intermediates/main.out" 1736847017 9352 d5f50975e40cc8d7fd62aa84a12f6c86 "latex"
+  ".tex_intermediates/main.toc" 1736847017 6276 9c7080147d1d245dbb1b16d71630c4da "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0600.tfm" 1136768653 1536 a00dc4928e5f91bd0b0c0839944035dd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0800.tfm" 1136768653 1536 f9f377d0a7a6ab86b894ea3edc27e42b ""
@@ -190,11 +190,13 @@
   "fig//wiregrid/wire_through.pdf" 1736053031 344032 515266bb7e49c5905367e6e5bb47418f ""
   "fig//wiregrid/wiregrid_actuator.pdf" 1736019593 2814242 f1b739bda89c268a6f685964c7de0277 ""
   "fig//wiregrid/wiregrid_appearance.pdf" 1735747397 1000562 53a007677c690799e344dda96d63197a ""
-  "fig//wiregrid/wiresag_def.pdf" 1736751173 229278 e581cab0b6244a550310933f60a18d4c ""
+  "fig//wiregrid/wiresag_def.pdf" 1736840190 262586 9fafb550022a659d859a8f5b04477721 ""
   "fig//wiregrid/wiresag_picture_old.pdf" 1736039654 2778040 5a3ac617a7a3fef3e4e4f0bb82b11efa ""
   "fig//wiregrid/wiresag_result_old.pdf" 1736754342 249068 56a5a1f14204d4810b7e4e033a49c74e ""
   "fig//wiregrid/wiresag_setup_old.pdf" 1736033058 439879 b630e8850ca4116a8b7428165d89749c ""
   "fig//wiregrid/wiresag_setup_overview_old.pdf" 1736752997 1455857 62267be06c4e0e87dde311be9c55c98b ""
+  "fig//wiresag/wiresag_concept.pdf" 1736841345 320862 c251b1bc3165b649d1d38e2fdf30ada3 ""
+  "fig//wiresag/wiresag_system.pdf" 1736837184 1979785 6c5353e4e239683ce011be559d80e0c8 ""
   "main.tex" 1736683117 3119 e94477ac2c464ad09bd7ff870978697b ""
   "sub/abstract/abstract.tex" 1734771423 190 629c8e32225222863d7beca31ed8050d ""
   "sub/acknowledgement/acknowledgement.tex" 1734771423 156 75eabfb98aaf5970e88fb171241abf29 ""
@@ -205,8 +207,8 @@
   "sub/summary/summary.tex" 1734771423 143 40dc9340879c969703b802174d3f104c ""
   "sub/tiltsensor/tiltsensor.tex" 1736696615 25003 01cd031cbd67aaf4bdf3418d8abe156d ""
   "sub/title/title.tex" 1734771423 705 fe5e58f2ba15b9f207490cf4eb9a2a2f ""
-  "sub/wiregrid/wiregrid.tex" 1736755248 30287 c9cf37598e2ca5cbba0f91c320448b40 ""
-  "sub/wiresag/wiresag.tex" 1736830907 3029 f347d26fef6d5936b569ea402375bfda ""
+  "sub/wiregrid/wiregrid.tex" 1736840051 30464 010449093029e6e5123c3ae94826dd63 ""
+  "sub/wiresag/wiresag.tex" 1736846445 4961 8a440b8885fbdfe81ab21a7c693cfb3b ""
   (generated)
   ".tex_intermediates/main.aux"
   ".tex_intermediates/main.log"
