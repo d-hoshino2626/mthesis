@@ -106,14 +106,15 @@ $n$ 番目のワイヤーにおける $L_{\mathrm{frame}}$ は
 各パラメータの意味とその値を表\ref{}に示す。
 この系において、測定される量 $z'$ を用いてストレートエッジとワイヤー間の距離 $z$ を表すと、
 \begin{align}
-    z = z'\cos\phi - \alpha\sin\phi \\
+    z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
     \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\beta})
 \end{align}
 となる。
 過去の手法における誤差の主原因として、$\phi$ が典型的に $5\tcdegree$ 程度と小さくない値であったために、
 $L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じていたことが挙げられる\cite{swg:murata}。
-過去の評価系において $\phi\sim0$ すなわち $L_{\mathrm{camera}} \sim 0$ で撮影ができていなかった理由は、
-スパースワイヤーグリッドを水平面上に設置して撮影しており、他のワイヤーが撮影対象のワイヤーに重なってしまうためである。(図\ref{})
+過去の評価系において $\phi\sim0$ すなわち $L_{\mathrm{camera}} \sim 0\tcdegree$ で撮影ができていなかった理由は、
+スパースワイヤーグリッドを水平面上に設置して撮影しており、他のワイヤーが撮影対象のワイヤーに重なってしまうためである。(図\ref{fig:wiresag_picture_old})
+これを解決するため、スパースワイヤーグリッドを鉛直方向に立てて撮影を行うことで、$L_{\mathrm{camera}}=0\pm\SI{0.5}{mm}$ で撮影を行い、誤差の低減を図った。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept_yoko.pdf}
@@ -123,13 +124,12 @@ $L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じてい�
 \begin{table}[H]
     \centering
     \caption{図\ref{}における各パラメータの意味と値}
-    \begin{tabular}{ccc}
-        パラメータ & 意味 & 値 \\
+    \begin{tabular}{cccc}
+        パラメータ & 意味 & 値 & 誤差 \\
         \hline\hline
-        $L_{\mathrm{frame}}$ & ワイヤーを固定している両端間距離 & $\SI{100}{mm}$ \\
-        $L_{\mathrm{camera}}$ & カメラからストレートエッジまでの距離 & $\SI{100}{mm}$ \\
-        $\beta$ & ストレートエッジとワイヤーの角度 & $\SI{45}{\degree}$ \\
-        $\alpha$ & ストレートエッジとワイヤーの距離のオフセット & $\SI{10}{mm}$ \\
+        $\alpha$ & ストレートエッジとワイヤーまでの水平距離 & $\SI{15}{mm}$ & $\pm\SI{2}{mm}$ \\
+        $\beta$ & ストレートエッジからカメラまでの水平距離 & $\SI{205}{\mm}$ & $\pm\SI{5}{mm}$ \\
+        $L_{\mathrm{camera}}$ & ストレートエッジ下端の面からカメラまでの鉛直距離 & $\SI{0}{mm}$ & $\pm\SI{0.5}{mm}$ \\
     \end{tabular}
 \end{table}
 
