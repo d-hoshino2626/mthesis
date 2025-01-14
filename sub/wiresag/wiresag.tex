@@ -18,7 +18,7 @@
 それとも\ref{subsec:wg_wiresag}項をもっと簡素にし、詳細な内容をこちらに持ってくるべきか、
 現在のようにrefするだけにするべきか悩んでいる。}
 
-過去の測定手法については、\ref{subsec:wg_wiresag}項にて述べたとおりであり、その手法にはいくつかの問題点があった。
+過去の測定手法については\ref{subsec:wg_wiresag}項にて述べたとおりであり、その手法にはいくつかの問題点があった。
 一つ目の問題点は、その測定精度が低いことである。これはたわみ量の系統誤差への寄与を必要以上に大きくしている。
 また、図\ref{fig:wiresag_result_old}にて示されているように、
 全てのワイヤーに対してそのたわみ量は期待される量からどの程度外れているかを判別できておらず、
@@ -29,7 +29,7 @@
 
 以上の問題点を解決するため、
 \begin{enumerate}
-    \item ワイヤーのたわみ量 $\order{0.01\tcdegree}$ の精度で評価可能であること
+    \item ワイヤーのたわみ量を $\order{\SI{10}{\mu m}}$ の精度で評価可能であること
     \item 全てのワイヤーのたわみ量を自動的に評価可能であること
 \end{enumerate}
 という2点の開発目標をもって新たなワイヤーのたわみ量の評価系を開発した。
@@ -46,7 +46,7 @@
     \item 一つのワイヤーに対して両端と中央だけでなく、複数の点で撮影を行う
 \end{enumerate}
 
-スパースワイヤーグリッドを鉛直方向に立てることで、アクチュエータによる自動化を容易にするとともに、後述する理由により、高精度な評価を可能にした。
+アクチュエータによる自動化を容易にするため、スパースワイヤーグリッドを鉛直方向に立てる。
 たわみの測定の基準となるストレートエッジはスパースワイヤーグリッドの目の前 $\SI{5}{mm}$ のところに固定されている。
 自動化の要であるアクチュエータは、スパースワイヤーグリッドを鉛直方向に動かすために Openbuilds 社の V-Slot NEMA 23 Linear Actuator (Belt Driven) を、
 カメラを水平方向に動かすために Openbuilds 社の V-Slot NEMA 17 Linear Actuator (Belt Driven) を用いた。
@@ -69,27 +69,23 @@ $x_{0},\,x_{1},\,\cdots,\,x_{n}$ は撮影箇所の位置を表し、$z_{0},\,z_
 ワイヤーの理論曲線はワイヤーの素材、かかっている張力により決まるカテナリー曲線であるため、
 得られた曲線をカテナリー曲線で fitting することでワイヤーのたわみ量を評価することができる。
 
-ワイヤーの概形を表すカテナリー曲線は以下のような式で表される:
+ワイヤーの概形を表すカテナリー曲線は、$T$ をワイヤーにかかる張力、$\rho_{\mathrm{W}}$ をワイヤーの密度、
+$R_{\mathrm{W}}$ をワイヤーの半径、$L_{\mathrm{frame}}$ をワイヤーを固定している両端間の距離として
 \begin{align}
-    f(x) &= a\cosh\qty(\dfrac{x+L_{\mathrm{frame}}/2}{a}) - a\cosh\qty(\dfrac{L_{\mathrm{frame}}}{2a}) \\
+    f(x;a) &= a\cosh\qty(\dfrac{x+L_{\mathrm{frame}}/2}{a}) - a\cosh\qty(\dfrac{L_{\mathrm{frame}}}{2a}) \\
     a &= \dfrac{T}{\rho_{\mathrm{W}}\cdot\pi R_{\mathrm{W}}^2}
 \end{align}
-ここで、$T$ はワイヤーにかかる張力、$\rho_{\mathrm{W}}$ はワイヤーの密度、
-$R_{\mathrm{W}}$ はワイヤーの半径、$L_{\mathrm{frame}}$ はワイヤーを固定している両端間距離である。
+と表される。なお、この式は原点 $(0,\,0)$ と $(L_{\mathrm{frame}},\,0)$ を通る拘束条件を課したカテナリー曲線を表している。
+スパースワイヤーグリッドにはタングステン製のワイヤーを使うため、その密度は $\rho_{\mathrm{W}}=\SI{19.3}{g/cm^3}$ であり、
+ワイヤーの半径は $R_{\mathrm{W}}=\SI{0.1}{mm}$ である。
 $L_{\mathrm{frame}}$ はどのワイヤーを評価するかによって異なる。
-なお、この式は原点 $(0,\,0)$ と $(L_{\mathrm{frame}},\,0)$ を通る拘束条件を課したカテナリー曲線を表している。
-
-図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
-これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて修正したものである。
-各パラメータの意味とその値を表\ref{}に示す。
-主たる変更点としては、ストレートエッジとワイヤーの位置が逆になっており、カメラから見るとストレートエッジの方が手前に位置している点である。
-この系において、測定される量 $z'$ を用いてストレートエッジとワイヤー間の距離 $z$ を表すと、
+図\ref{fig:wire_number}のようにスパースワイヤーグリッドに張られたワイヤーに通し番号をつけたとき、
+スパースワイヤーグリッドの内径が $\SI{790}{mm}$ であり、ワイヤー間のピッチが $\SI{20}{mm}$ であることから、
+$n$ 番目のワイヤーにおける $L_{\mathrm{frame}}$ は
 \begin{align}
-    z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
-    \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\beta})
+    L_{\mathrm{frame}, n} = 2\sqrt{395^2-(20\cdot(19-n))^2}\ [\mathrm{mm}] \quad (n=1,2,\cdots,19)
 \end{align}
-となる。
-過去の手法における誤差の主原因として、
+と表される。
 
 \begin{figure}[H]
     \centering
@@ -99,11 +95,32 @@ $L_{\mathrm{frame}}$ はどのワイヤーを評価するかによって異な�
 \end{figure}
 \begin{figure}[H]
     \centering
+    \includegraphics[width=0.5\textwidth]{wiresag/wire_number.pdf}
+    \caption{スパースワイヤーグリッドにおけるワイヤー番号}
+    \label{fig:wire_number}
+\end{figure}
+
+図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
+これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて変更したものであり、
+カメラから見るとストレートエッジが手前に位置し、ワイヤーがその奥に位置するような配置になっている。
+各パラメータの意味とその値を表\ref{}に示す。
+この系において、測定される量 $z'$ を用いてストレートエッジとワイヤー間の距離 $z$ を表すと、
+\begin{align}
+    z = z'\cos\phi - \alpha\sin\phi \\
+    \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\beta})
+\end{align}
+となる。
+過去の手法における誤差の主原因として、$\phi$ が典型的に $5\tcdegree$ 程度と小さくない値であったために、
+$L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じていたことが挙げられる\cite{swg:murata}。
+過去の評価系において $\phi\sim0$ すなわち $L_{\mathrm{camera}} \sim 0$ で撮影ができていなかった理由は、
+スパースワイヤーグリッドを水平面上に設置して撮影しており、他のワイヤーが撮影対象のワイヤーに重なってしまうためである。(図\ref{})
+\begin{figure}[H]
+    \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept_yoko.pdf}
     \caption{ワイヤーのたわみ量の評価原理の横から見た概念図}
     \label{fig:wiresag_concept_yoko}
 \end{figure}
-\begin{table}
+\begin{table}[H]
     \centering
     \caption{図\ref{}における各パラメータの意味と値}
     \begin{tabular}{ccc}
@@ -119,7 +136,9 @@ $L_{\mathrm{frame}}$ はどのワイヤーを評価するかによって異な�
 
 \section{解析手法}
 
-\section{開発した評価系のパフォーマンスチェック}
+\section{開発した評価系の原理検証}
+\subsection{評価手法}
+\subsection{評価結果とその考察}
 
 \section{スパースワイヤーグリッドのたわみ量の評価}
 

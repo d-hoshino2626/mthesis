@@ -1148,12 +1148,18 @@ INPUT ./sub/wiresag/wiresag.tex
 INPUT ./sub/wiresag/wiresag.tex
 INPUT ./sub/wiresag/wiresag.tex
 INPUT ./sub/wiresag/wiresag.tex
-INPUT ./fig//wiresag/wiresag_concept.pdf
-INPUT ./fig//wiresag/wiresag_concept.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_concept.pdf
 INPUT ./fig//wiresag/wiresag_system.pdf
 INPUT ./fig//wiresag/wiresag_system.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_system.pdf
+INPUT ./fig//wiresag/wiresag_concept.pdf
+INPUT ./fig//wiresag/wiresag_concept.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_concept.pdf
+INPUT ./fig//wiresag/wire_number.pdf
+INPUT ./fig//wiresag/wire_number.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wire_number.pdf
+INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
+INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_concept_yoko.pdf
 INPUT ./sub/future/future.tex
 INPUT ./sub/future/future.tex
 INPUT ./sub/future/future.tex
