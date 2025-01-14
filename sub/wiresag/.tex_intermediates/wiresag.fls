@@ -966,12 +966,15 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT .tex_intermediates/wiresag.dvi
-INPUT ../../fig//wiresag/wiresag_concept.pdf
-INPUT ../../fig//wiresag/wiresag_concept.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept.pdf
 INPUT ../../fig//wiresag/wiresag_system.pdf
 INPUT ../../fig//wiresag/wiresag_system.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_system.pdf
+INPUT ../../fig//wiresag/wiresag_concept.pdf
+INPUT ../../fig//wiresag/wiresag_concept.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept.pdf
+INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
+INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept_yoko.pdf
 INPUT .tex_intermediates/wiresag.aux
 INPUT .tex_intermediates/wiresag.out
 INPUT .tex_intermediates/wiresag.out

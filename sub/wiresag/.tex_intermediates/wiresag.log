@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  14 JAN 2025 19:57
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  14 JAN 2025 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -606,34 +606,41 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 38.
 
-LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 39.
+LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 40.
 
 [1
 
 
 ]
-File: ../../fig//wiresag/wiresag_concept.pdf Graphic file (type pdf)
-<../../fig//wiresag/wiresag_concept.pdf>
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 61.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 61.
 File: ../../fig//wiresag/wiresag_system.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_system.pdf>
- [2] [3] (.tex_intermediates/wiresag.aux)
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 56.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 56.
+
+
+LaTeX Warning: Reference `fig:wiresag_setup_old' on page 2 undefined on input line 77.
+
+[2]
+File: ../../fig//wiresag/wiresag_concept.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_concept.pdf>
+File: ../../fig//wiresag/wiresag_concept_yoko.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_concept_yoko.pdf>
+ [3] (.tex_intermediates/wiresag.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `wiresag.out' has not changed.
-(rerunfilecheck)             Checksum: C3C010C4DECC89FEA09638E1B22F297E;1563.
+(rerunfilecheck)             Checksum: 8DF48402B86C948F370ACE56257079F9;1705.
  ) 
 Here is how much of TeX's memory you used:
- 17551 strings out of 476677
- 337794 string characters out of 5804957
+ 17560 strings out of 476677
+ 338140 string characters out of 5804957
  1852490 words of memory out of 5000000
- 37774 multiletter control sequences out of 15000+600000
+ 37782 multiletter control sequences out of 15000+600000
  557379 words of font info for 99 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,9n,94p,358b,958s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,13n,94p,358b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (3 pages, 11068 bytes).
+Output written on .tex_intermediates/wiresag.dvi (3 pages, 13796 bytes).

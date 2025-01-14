@@ -34,16 +34,30 @@
 \end{enumerate}
 という2点の開発目標をもって新たなワイヤーのたわみ量の評価系を開発した。
 
-\section{評価原理と評価系の概要}
-\subsection{評価原理}
-基本的な評価原理は\ref{subsec:wg_wiresag}項にて述べた過去の手法と同様である。
-ストレートエッジとワイヤーを同一写真内に映るように撮影し、ストレートエッジとワイヤー間の距離からワイヤーのたわみを評価する。
-過去の評価原理と異なる点は、
+\section{評価系の概要と評価原理}
+\subsection{評価系の概要}
+初めに、作成した評価系の概観を図\ref{fig:wiresag_system}に示す。
+基本的な評価原理は\ref{subsec:wg_wiresag}項にて述べた過去の手法と同様であり、
+ストレートエッジとワイヤーを同一写真内に映るように撮影することで、
+ストレートエッジとワイヤー間の距離からワイヤーのたわみを評価する。
+過去の評価系と異なる点は、
 \begin{enumerate}
     \item スパースワイヤーグリッドを鉛直方向に立てて撮影を行う
+    \item スパースワイヤーグリッドとカメラをアクチュエータを用いて自動的に動かす
     \item 一つのワイヤーに対して両端と中央だけでなく、複数の点で撮影を行う
 \end{enumerate}
 という点である。
+自動化の要であるアクチュエータは、スパースワイヤーグリッドを鉛直方向に動かすために Openbuilds 社の V-Slot Nema 23 Linear Actuator を、
+カメラを水平方向に動かすために
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_system.pdf}
+    \caption{ワイヤーのたわみ量評価系の概観}
+    \label{fig:wiresag_system}
+\end{figure}
+
+\subsection{評価原理}
 図\ref{fig:wiresag_concept}に評価原理の概念図を示す。
 $x_{0},\,x_{1},\,\cdots,\,x_{n}$ は撮影箇所の位置を表し、$z_{0},\,z_{1},\,\cdots,\,z_{n}$ は各写真から測定されるストレートエッジとワイヤーの距離である。
 得られた $x_{i},\,z_{i}$ を横軸 $x$、縦軸 $z$ でプロットすると、ワイヤーの概形を表す曲線が得られる。
@@ -52,8 +66,15 @@ $x_{0},\,x_{1},\,\cdots,\,x_{n}$ は撮影箇所の位置を表し、$z_{0},\,z_
 
 ワイヤーの概形を表すカテナリー曲線は以下のような式で表される:
 \begin{align}
-    f(x) = a\cosh\qty()
+    f(x) &= a\cosh\qty(\dfrac{x+L_{\mathrm{frame}}/2}{a}) - a\cosh\qty(\dfrac{L_{\mathrm{frame}}}{2a}) \\
+    a &= \dfrac{T}{\rho_{\mathrm{W}}\cdot\pi R_{\mathrm{W}}^2}
 \end{align}
+ここで、$T$ はワイヤーにかかる張力、$\rho_{\mathrm{W}}$ はワイヤーの密度、
+$R_{\mathrm{W}}$ はワイヤーの半径、$L_{\mathrm{frame}}$ はワイヤーを固定している両端間距離である。
+なお、この式は原点 $(0,\,0)$ と $(L_{\mathrm{frame}},\,0)$ を通る拘束条件を課したカテナリー曲線を表している。
+
+図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
+これは過去の手法における概念図\ref{fig:wiresag_setup_old}を
 
 \begin{figure}[H]
     \centering
@@ -61,18 +82,15 @@ $x_{0},\,x_{1},\,\cdots,\,x_{n}$ は撮影箇所の位置を表し、$z_{0},\,z_
     \caption{ワイヤーのたわみ量の評価原理}
     \label{fig:wiresag_concept}
 \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept_yoko.pdf}
+    \caption{ワイヤーのたわみ量の評価原理の横から見た概念図}
+    \label{fig:wiresag_concept_yoko}
+\end{figure}
 
 \subsection{評価系の概要}
 図\ref{fig:wiresag_system}に開発し、組み上げた評価系の概観を示す。
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_system.pdf}
-    \caption{ワイヤーのたわみ量評価系の概観}
-    \label{fig:wiresag_system}
-\end{figure}
 
 
 \section{解析手法}
