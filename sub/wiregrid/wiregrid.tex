@@ -301,12 +301,12 @@ SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ �
 \label{subsec:wg_wiresag}
 較正に使う直線偏光はワイヤーに沿う形で生成されるため、ワイヤーがたわんでいる部分から生成される光はその偏光角が
 ワイヤーの絶対角度 $\theta_{\mathrm{wire}}$ からずれてしまい、系統誤差になる。
-本項では、先行研究\cite{swg:murata}および\cite{swg:iijima}にて行われているワイヤーのたわみ量 $\theta_{\mathrm{sag}}$ の評価について述べる。
+本項では、先行研究\cite{swg:murata}および\cite{swg:iijima}にて行われているワイヤーのたわみ角 $\theta_{\mathrm{sag}}$ の評価について述べる。
 
-まず、ワイヤーのたわみ量 $\theta_{\mathrm{sag}}$ の定義を述べる。
+まず、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ とたわみ角 $\theta_{\mathrm{sag}}$ の定義を述べる。
 図\ref{fig:wiresag_def}に示すように、ワイヤーは両端を固定された状態で重力によってたわんでいる。
-固定された両端を直線で結び、その直線とワイヤーの最下部との距離を $d_{\mathrm{sag}}$ とする。
-また、固定された両端の距離を $L$ としたとき、たわみ量 $\theta_{\mathrm{sag}}$ を
+固定された両端を直線で結び、その直線とワイヤーの最下部との距離をたわみ量 $d_{\mathrm{sag}}$ とする。
+また、固定された両端の距離を $L$ としたとき、たわみ角 $\theta_{\mathrm{sag}}$ を
 \begin{equation}
     \theta_{\mathrm{sag}} = \arctan\qty(\dfrac{d_{\mathrm{sag}}}{2L})
 \end{equation}
@@ -315,15 +315,15 @@ SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ �
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_def.pdf}
-    \caption{ワイヤーのたわみ量の定義}
+    \caption{ワイヤーのたわみの定義}
     \label{fig:wiresag_def}
 \end{figure}
-評価系の概要を図\ref{fig:wiresag_setup_overview_old}に示す。
+実際の評価系の概要を図\ref{fig:wiresag_setup_overview_old}に示す。
 スパースワイヤーグリッドを重力に対して垂直な水平面上に置き、その上に十分な真直度が保証されたストレートエッジを置く。
 ストレートエッジの位置をワイヤーの近くに調節し、横からカメラで撮影すると、撮影された画像におけるストレートエッジとワイヤーの間の距離 $z'$ を測定できる。
 セットアップの横から見た概念図を図\ref{fig:wiresag_setup_old}に示す。
 使用されたストレートエッジは大西測定株式会社製の 140-1000B であり、このストレートエッジは真直度A級 $\SI{30}{\mu m}$ が保証されている。
-各種パラメータを表\ref{tab:wiresag_setup_old}のように定義すると、$z'$ とオフセットのついた実際のワイヤーのたわみ $z$ の間の関係は
+各種パラメータを表\ref{tab:wiresag_setup_old}のように定義すると、$z'$ とストレートエッジから測った実際のワイヤーのたわみ $z$ の間の関係は
 \begin{align}
     z &= \dfrac{z'}{\cos\phi} - \alpha\tan\phi - z_{\mathrm{s}} \\
     \phi &= \arctan\qty(\dfrac{L}{\alpha+\beta})
@@ -333,18 +333,18 @@ SOにおける要求絶対角度較正精度 $\delta\theta \leq 0.1\tcdegree$ �
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_setup_overview_old.pdf}
-    \caption{ワイヤーのたわみ量を評価する系の概要}
+    \caption{ワイヤーのたわみを評価する系の概要}
     \label{fig:wiresag_setup_overview_old}    
 \end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_setup_old.pdf}
-    \caption{先行研究におけるワイヤーのたわみ量を評価する系の概念図\cite{swg:murata}}
+    \caption{先行研究におけるワイヤーのたわみを評価する系の概念図\cite{swg:murata}}
     \label{fig:wiresag_setup_old}
 \end{figure}
 \begin{table}[H]
     \centering
-    \caption{たわみ量評価における各種パラメータの定義}
+    \caption{たわみ評価における各種パラメータの定義}
     \begin{tabular}{|c|c|}
         \hline
         パラメータ & 定義 \\
@@ -371,21 +371,21 @@ $\SI{1}{pixel}$ が何\,$\mathrm{mm}$ に対応するのか較正している。
 実際に撮影された写真を図\ref{fig:wiresag_picture_old}に示す。
 撮影された写真に対して、先行研究\cite{swg:murata}では画像寸法測定ツール「Click Measure」を用いて手動で、
 \cite{swg:iijima}ではOpenCVライブラリを用いて二値化して、検出したストレートエッジの端とワイヤーの中心位置の距離を算出し、
-ワイヤーのたわみ量を $\theta_{\mathrm{sag}} < 0.05\tcdegree$ と評価している。
-全てのワイヤーに対する、評価されたたわみ量 $\theta_{\mathrm{sag}}$ の例を図\ref{fig:wiresag_result_old}に示す。
-横軸の wire number は測定されたワイヤーの番号を示し、縦軸はそのワイヤーのたわみ量を示す。
-また、青色の点は各ワイヤーに対して張られた際の張力から期待されるたわみ量を示している。
-いずれのワイヤーに対しても測定誤差が大きく、期待されるたわみ量から大きく外れたワイヤーが存在しているのかどうかの判別ができていない。
+ワイヤーのたわみ角を $\theta_{\mathrm{sag}} < 0.05\tcdegree$ と評価している。
+全てのワイヤーに対する、評価されたたわみ角 $\theta_{\mathrm{sag}}$ の例を図\ref{fig:wiresag_result_old}に示す。
+横軸の wire number は測定されたワイヤーの番号を示し、縦軸はそのワイヤーのたわみ角を示す。
+また、青色の点は各ワイヤーに対して張られた際の張力から期待されるたわみ角を示している。
+いずれのワイヤーに対しても測定誤差が大きく、期待されるたわみ角から大きく外れたワイヤーが存在しているのかどうかの判別ができていない。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_picture_old.pdf}
-    \caption{ワイヤーのたわみ量評価の撮影された写真の例}
+    \caption{ワイヤーのたわみ評価にて撮影された写真の例}
     \label{fig:wiresag_picture_old}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_result_old.pdf}
-    \caption{ワイヤーのたわみ量評価の結果の例\cite{swg:murata}}
+    \caption{ワイヤーのたわみ評価の結果の例\cite{swg:murata}}
     \label{fig:wiresag_result_old}    
 \end{figure}
 
@@ -394,16 +394,16 @@ $\SI{1}{pixel}$ が何\,$\mathrm{mm}$ に対応するのか較正している。
 SOにおいて要求される絶対角度較正精度は $\delta\theta < 0.1\tcdegree$ であるが、
 表\ref{tab:systematic_errors_old}中の評価値はこれを満たしていない。
 
-特に問題となるのが重力参照計の精度である。要求精度を満たすため、
-新たに Sherborne Sensors 社製の DSIC-2051-60 という重力参照計の導入を予定している。
+特に問題となるのが重力参照計の精度であり、特に長期間の出力安定性という点で要求精度を満たしていない。
+要求精度を満たすため、新たに Sherborne Sensors 社製の DSIC-2051-60 という重力参照計の導入を予定している。
 この新しい重力参照計の精度の検証を、\ref{chap:tiltsensor}章にて行う。
 
 次点で系統誤差を生んでいるワイヤーのたわみに関しては、写真の撮影箇所が両端と中心のみと少ないことや、
 撮影箇所を人が決めていることに起因するバイアスが含まれている可能性がある。
-また、測定精度が低く測定にかかる時間が長いことから、測定されたたわみ量から品質の低いワイヤーを選別し、
-そのワイヤーを張り直したのちに再びたわみ量の評価を行う、といった品質を保証するためのフィードバックをかけることが困難である。
-さらに、観測サイトにおける品質管理の面を考えると、定期的に測定できるようなシステムの開発が望まれる。
-こういった状況を受け、より正確にワイヤーのたわみ量を評価する手法と、その自動化手法を確立した。
+また、測定精度が低く測定にかかる時間が長いことから、測定されたたわみから品質の低いワイヤーを選別し、
+そのワイヤーを張り直したのちに再びたわみの評価を行う、といった品質を保証するためのフィードバックをかけることが困難である。
+さらに、観測サイトにおける品質管理の面を考えると、定期的かつ容易に測定できるようなシステムの開発が望まれる。
+こういった状況を受け、より正確にワイヤーのたわみを評価する手法と、その自動化手法を確立した。
 \ref{chap:wiresag}章にてこの詳細を論ずる。
 \begin{table}[H]
     \centering
