@@ -118,11 +118,11 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
     \label{fig:wire_number}
 \end{figure}
 
-実際の評価系においては、スパースワイヤーグリッド自体が回転し、ワイヤーを固定する両端が水平面上に位置しない。
+実際の評価系においては、スパースワイヤーグリッド自体が回転し、ワイヤーを固定する両端が水平面上に位置しない場合がある。
 図\ref{}のように、ワイヤーの左端が $(0,\,0)$ に位置し、ワイヤーの右端が $(X,\,Y)$ に位置する場合を考える。
 このとき、ワイヤーの描くカテナリー曲線は
 \begin{align}
-    f_{\mathrm{tilt}}(x;a) &= a\cosh\qty(\dfrac{x+c_1}{a}) + c_2 \\
+    f_{\mathrm{tilt}}(x;a,\,X,\,Y) &= a\cosh\qty(\dfrac{x+c_1}{a}) + c_2 \\
     c_1 &= a\sinh^{-1}\qty[\dfrac{Y}{2a\sinh\qty(\dfrac{X}{2a})}] \\
     c_2 &= -a\cosh\qty(\dfrac{c_1}{a})
 \end{align}
@@ -131,6 +131,14 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
     L_{\mathrm{frame}} &= \sqrt{X^2+Y^2}
 \end{align}
 を満たす。
+測定される $z$ はストレートエッジとワイヤー間の距離であるため、その概形はカテナリー曲線を $-1$ 倍したものであり
+\begin{align}
+    z_{i} &= -f_{\mathrm{tilt}}(x_{i};a)
+\end{align}
+として測定値 $(x_{i},\,z_{i})$ に対して fitting を行う。
+\begin{figure}
+    
+\end{figure}
 
 図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
 これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて変更したものであり、
@@ -192,8 +200,9 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
 \end{equation}
 程度だと見積もられる。
 
-
 \section{解析手法}
+\subsection{解析の流れ}
+
 \subsection{スケーラのfitting}
 \subsection{ストレートエッジのfitting}
 \subsection{ワイヤーのfitting}
