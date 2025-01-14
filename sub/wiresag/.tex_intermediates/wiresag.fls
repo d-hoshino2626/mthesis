@@ -975,6 +975,7 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept.pdf
 INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
 INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept_yoko.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT .tex_intermediates/wiresag.aux
 INPUT .tex_intermediates/wiresag.out
 INPUT .tex_intermediates/wiresag.out
