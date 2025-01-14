@@ -1,14 +1,15 @@
 # Fdb version 4
-["dvipdf"] 1736837990 "wiresag.dvi" "wiresag.pdf" "wiresag" 1736837991 0
-  "wiresag.dvi" 1736837990 7584 fdc6026654fd91e11d2ae5b21f01d8a7 "latex"
+["dvipdf"] 1736841272 "wiresag.dvi" "wiresag.pdf" "wiresag" 1736841272 0
+  "wiresag.dvi" 1736841272 9820 d1193d9b8b2f6bb3f12f0878e683b852 "latex"
   (generated)
   "wiresag.pdf"
   (rewritten before read)
-["latex"] 1736837989 "wiresag.tex" "wiresag.dvi" "wiresag" 1736837991 0
+["latex"] 1736841271 "wiresag.tex" "wiresag.dvi" "wiresag" 1736841272 0
+  "../../fig//wiresag/wiresag_concept.pdf" 1736841061 289033 b5704df137e6f71ce4761c16a4ace8bd ""
   "../../fig//wiresag/wiresag_system.pdf" 1736837184 1979785 6c5353e4e239683ce011be559d80e0c8 ""
   "../../main.tex" 1736683117 3119 e94477ac2c464ad09bd7ff870978697b ""
-  ".tex_intermediates/wiresag.aux" 1736837990 1971 07b019049cb163d6485a83620fcc4e20 "latex"
-  ".tex_intermediates/wiresag.out" 1736837990 1295 8a8309c9063f966906cf137e028d065f "latex"
+  ".tex_intermediates/wiresag.aux" 1736841272 2505 e2a85113882c98b667ca992b00de65af "latex"
+  ".tex_intermediates/wiresag.out" 1736841272 1563 c3c010c4decc89fea09638e1b22f297e "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -130,7 +131,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiresag.tex" 1736837989 3288 e1d386625069191fb0e475a40ba0735f ""
+  "wiresag.tex" 1736841269 4212 96e2f8d7ec84ca7dc5ba813fdcfc7b9a ""
   (generated)
   ".tex_intermediates/wiresag.aux"
   ".tex_intermediates/wiresag.log"

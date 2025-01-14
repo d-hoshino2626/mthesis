@@ -34,9 +34,28 @@
 \end{enumerate}
 という2点の開発目標をもって新たなワイヤーのたわみ量の評価系を開発した。
 
-\section{評価原理と評価系の設計}
+\section{評価原理と評価系の概要}
+\subsection{評価原理}
+基本的な評価原理は\ref{subsec:wg_wiresag}項にて述べた過去の手法と同様である。
+ストレートエッジとワイヤーを同一写真内に映るように撮影し、ストレートエッジとワイヤー間の距離からワイヤーのたわみを評価する。
+過去の評価原理と異なる点は、
+\begin{enumerate}
+    \item スパースワイヤーグリッドを鉛直方向に立てて撮影を行う
+    \item 一つのワイヤーに対して両端と中央だけでなく、複数の点で撮影を行う
+\end{enumerate}
+という点である。
+図\ref{fig:wiresag_concept}に評価原理の概念図を示す。
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept.pdf}
+    \caption{ワイヤーのたわみ量の評価原理}
+    \label{fig:wiresag_concept}
+\end{figure}
+
+\subsection{評価系の概要}
 図\ref{fig:wiresag_system}に開発し、組み上げた評価系の概観を示す。
+
 
 
 \begin{figure}
