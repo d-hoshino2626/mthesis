@@ -136,8 +136,11 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
     z_{i} &= -f_{\mathrm{tilt}}(x_{i};a)
 \end{align}
 として測定値 $(x_{i},\,z_{i})$ に対して fitting を行う。
-\begin{figure}
-    
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wire_catenary_tilt.pdf}
+    \caption{ワイヤーの両端が重力に対して傾いている場合のワイヤーの描くカテナリーの概念図}
+    \label{fig:wiresag_concept_tilt}
 \end{figure}
 
 図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
@@ -202,6 +205,9 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
 
 \section{解析手法}
 \subsection{解析の流れ}
+図\ref{}に実際に撮影された写真の一例を示す。
+画像の出力フォーマットは yuyv であり、これは輝度に関する情報を
+ストレートエッジとワイヤー間の距離 $z$ を算出するため、以下の手順で解析を行う。
 
 \subsection{スケーラのfitting}
 \subsection{ストレートエッジのfitting}

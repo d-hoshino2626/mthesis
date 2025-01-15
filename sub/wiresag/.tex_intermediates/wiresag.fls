@@ -975,6 +975,9 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept.pdf
 INPUT ../../fig//wiresag/wire_number.pdf
 INPUT ../../fig//wiresag/wire_number.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wire_number.pdf
+INPUT ../../fig//wiresag/wire_catenary_tilt.pdf
+INPUT ../../fig//wiresag/wire_catenary_tilt.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wire_catenary_tilt.pdf
 INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
 INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept_yoko.pdf
