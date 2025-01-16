@@ -260,14 +260,14 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
 画像の解像度は $\SI{3264}{pixel}\times\SI{2448}{pixel}$ である。
 画像の横軸を $x_{\mathrm{pix}}$、縦軸を $y_{\mathrm{pix}}$ と定め、画像の左上を原点 $(0,\,0)$ とする。
 また、画像の出力フォーマットは yuyv であり、これは各pixelの輝度に関する情報を失うことなく保存される。
-ストレートエッジとワイヤー間の距離 $z$ を算出し、たわみ量を評価するため、輝度の情報を用いて以下の手順で解析を行う。
+一枚の画像に対して代表的なストレートエッジとワイヤー間の距離 $z$ を算出し、たわみ量を評価するため、輝度の情報を用いて以下の手順で解析を行う。
 \begin{enumerate}
     \item スケーラの目盛の輝度をfittingし、その間隔のpixel数を求めることで画像の 1 pixel が対応する長さを決める
-    \item ワイヤーの輝度をfittingし、ワイヤーの位置を決める
     \item ストレートエッジの下端の輝度をfittingし、その位置を決める
     \item ストレートエッジの下端が水平になるように画像を回転させる
-    \item 回転したワイヤーの位置とストレートエッジの位置から $z$ を算出する
-    \item $z$ をカテナリー曲線で fitting し、ワイヤーのたわみ量を算出する
+    \item ワイヤーの輝度をfittingし、ワイヤーの位置を決める
+    \item 回転したストレートエッジの位置とワイヤーの位置から $z$ を算出する
+    \item 複数の写真から得られた $z$ をカテナリー曲線で fitting し、ワイヤーのたわみ量を算出する
 \end{enumerate}
 
 \subsection{スケーラのfitting}
@@ -352,22 +352,79 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_straight_edge_fit.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ ストレートエッジの輝度のfittingの結果}
+    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ におけるストレートエッジの輝度のfittingの結果}
     \label{fig:wiresag_edge_fit}
 \end{figure}
 
 \ref{subsec:wiresag_principle}にて述べた画像の回転を行うため、ストレートエッジの下端の fitting を $1132 < x_{\mathrm{pix}} < 2132$、
 すなわち、中心から左右 $\SI{500}{pixel}$ の範囲に対して行い、ストレートエッジの位置を直線でfittingする。
-図\ref{}(\subref{})に、求めたストレートエッジの位置と、それを直線でfittingした結果を示す。
-また、図\ref{}(\subref{})に、ストレートエッジの下端が水平になるように画像を回転させた結果を示す。
-
-\begin{figure}
-    
+図\ref{fig:wiresag_straight_edge}(\subref{fig:wiresag_straight_edge_positions_line})に、求めたストレートエッジの位置と、それを直線でfittingした結果を示す。
+また、図\ref{fig:wiresag_straight_edge}(\subref{fig:wiresag_straight_edge_positions_rot})に、ストレートエッジの下端が水平になるように画像を回転させた結果を示す。
+回転により、ストレートエッジが水平になっていることが確認できる。
+回転後のストレートエッジの位置の標準偏差は、典型的に $\SI{1}{pixel}$ 程度であった。
+\begin{figure}[H]
+    \begin{minipage}[b]{0.5\hsize}
+        \centering
+        \includegraphics[width=0.95\textwidth]{wiresag/wiresag_straight_edge_positions_line.pdf}
+        \subcaption{}
+        \label{fig:wiresag_straight_edge_positions_line}
+    \end{minipage}
+    \begin{minipage}[b]{0.5\hsize}
+        \centering
+        \includegraphics[width=0.95\textwidth]{wiresag/wiresag_straight_edge_positions_rot.pdf}
+        \subcaption{}
+        \label{fig:wiresag_straight_edge_positions_rot}
+    \end{minipage}
+    \caption{(\subref{fig:wiresag_straight_edge_positions_line}) 回転前のストレートエッジの位置と直線による fitting の結果
+             (\subref{fig:wiresag_straight_edge_positions_rot}) 回転後のストレートエッジの位置
+             }
+    \label{fig:wiresag_straight_edge}
 \end{figure}
 
-
 \subsubsection{ワイヤーのfitting}
+ワイヤーの輝度は理想的には階段関数的であり、急激に輝度を上げた後に急激に下げる。
+しかし、ワイヤーの直径は $\SI{0.1}{mm}$ と短く、カメラのピントによりぼやけてしまうため、ガウス関数を用いて fitting を行う。
+すなわち、ワイヤーの輝度 $B_{\mathrm{wire}}(x)$ を
+\begin{align}
+    B_{\mathrm{wire}}(x;\,A,\,\mu,\,\sigma,\,\text{offset}) = A\exp\qty(-\dfrac{(x-\mu)^2}{2\sigma^2}) + \mathrm{offset}
+\end{align}
+として fitting を行う。$A,\,\mu,\,\sigma,\,\text{offset}$ は fitting parameter であり、$\mu$ はワイヤーの中心の位置を表す。
+図\ref{fig:wiresag_edge_target}におけるワイヤーの部分を実際にfittingした結果を図\ref{fig:wiresag_wire_fit}に示す。
+
+一枚の画像に対して、$z$ は代表点として一つのみ算出するため、複数の $x_{\mathrm{pix}}$ に対してワイヤーの位置を求める必要がある。
+たわみが大きいようなワイヤーに対しては、画像の中でもその位置を大きく変えてしまう。
+これを考慮して、$1132 < x_{\mathrm{pix}} < 2132$ の範囲に対してワイヤーの位置を求める。
+また、前項にて行ったストレートエッジを水平にするための回転をここでも行う必要がある。
+回転前後のワイヤー位置を図\ref{fig:wiresag_wire_positions}に示す。
+回転後のワイヤーの位置の標準偏差は、ワイヤーのたわみ方によって大きく異なるが、典型的には $\order{\SI{1}{pixel}}$ 程度であった。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_wire_fit.pdf}
+    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ におけるワイヤーの輝度のfittingの結果}
+    \label{fig:wiresag_wire_fit}
+\end{figure}
+\begin{figure}
+    \begin{minipage}[b]{0.5\hsize}
+        \centering
+        \includegraphics[width=0.95\textwidth]{wiresag/wiresag_wire_positions.pdf}
+        \subcaption{}
+        \label{fig:wiresag_wire_positions_line}
+    \end{minipage}
+    \begin{minipage}[b]{0.5\hsize}
+        \centering
+        \includegraphics[width=0.95\textwidth]{wiresag/wiresag_wire_positions_rot.pdf}
+        \subcaption{}
+        \label{fig:wiresag_wire_positions_rot}
+    \end{minipage}
+    \caption{(\subref{fig:wiresag_wire_positions_line}) 回転前のワイヤーの位置
+             (\subref{fig:wiresag_wire_positions_rot}) 回転後のワイヤーの位置
+             }
+    \label{fig:wiresag_wire_positions}
+\end{figure}
+
+\subsection{$z$ の算出}
 \subsection{カテナリーでのfitting}
+
 
 \section{開発した評価系の原理検証}
 \subsection{評価手法}

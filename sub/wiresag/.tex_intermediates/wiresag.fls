@@ -1028,6 +1028,24 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_edge_brightness.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_straight_edge_fit.pdf
+INPUT ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf
+INPUT ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf
+INPUT ../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf
+INPUT ../../fig//wiresag/wiresag_wire_fit.pdf
+INPUT ../../fig//wiresag/wiresag_wire_fit.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_wire_fit.pdf
+INPUT ../../fig//wiresag/wiresag_wire_positions.pdf
+INPUT ../../fig//wiresag/wiresag_wire_positions.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_wire_positions.pdf
+INPUT ../../fig//wiresag/wiresag_wire_positions_rot.pdf
+INPUT ../../fig//wiresag/wiresag_wire_positions_rot.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_wire_positions_rot.pdf
 INPUT .tex_intermediates/wiresag.aux
 INPUT .tex_intermediates/wiresag.out
 INPUT .tex_intermediates/wiresag.out
