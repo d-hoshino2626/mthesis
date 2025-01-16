@@ -36,8 +36,9 @@
 \section{評価系の概要と評価原理}
 \subsection{評価系の概要}
 初めに、作成した評価系の概観を図\ref{fig:wiresag_system}に示す。
-基本的な評価原理は\ref{subsec:wg_wiresag}項にて述べた過去の手法と同様であり、
-ストレートエッジとワイヤーを同一写真内に映るように撮影することで、ストレートエッジとワイヤー間の距離からワイヤーのたわみを評価する。
+基本的な評価原理は\ref{subsec:wg_wiresag}項にて述べた過去の手法と同様である。
+ストレートエッジとワイヤーを同一写真内に映るように撮影することでストレートエッジとワイヤー間の距離 $z$ を測定し、ワイヤーのたわみを評価する。
+今後の説明のため、撮影された写真の例を図\ref{fig:wiresag_picture}に示す。
 より高精度な評価と自動化を実現するため、過去の評価系をもとに以下のような変更を加えた評価系を作成した。
 \begin{enumerate}
     \item スパースワイヤーグリッドを鉛直方向に立てて撮影を行う
@@ -65,7 +66,16 @@
     \label{fig:wiresag_system}
 \end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{wiresag/20241217_UHF_3_wire2_x467_gray.png}
+    \caption{撮影されたストレートエッジとワイヤーの写真の例}
+    \label{fig:wiresag_picture}    
+\end{figure}
+
 \subsection{評価原理}
+\label{subsec:wiresag_principle}
+まず、理想的な評価系について考える。
 図\ref{fig:wiresag_concept}に評価原理の概念図を示す。
 $x_{0},\,x_{1},\,\cdots,\,x_{n}$ は撮影箇所の位置を表し、$z_{0},\,z_{1},\,\cdots,\,z_{n}$ は各写真から測定されるストレートエッジとワイヤーの距離である。
 得られた $x_{i},\,z_{i}$ を横軸 $x$、縦軸 $z$ でプロットすると、ワイヤーの概形を表す曲線が得られる。
@@ -119,8 +129,46 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
     \label{fig:wire_number}
 \end{figure}
 
-実際の評価系においては、スパースワイヤーグリッド自体が回転し、ワイヤーを固定する両端が水平面上に位置しない場合がある。
-図\ref{}のように、ワイヤーの左端が $(0,\,0)$ に位置し、ワイヤーの右端が $(X,\,Y)$ に位置する場合を考える。
+評価系が理想的でない場合について考える。
+実際の評価系においてはカメラの回転、水平面からのストレートエッジの傾き、スパースワイヤーグリッドの回転により、重力方向を見誤る効果が生じる。
+これは測定した $z$ が重力に沿う方向で測っていないことを意味し、その効果を消去するためには補正が必要である。
+そこで、
+\begin{enumerate}
+    \item カメラの回転とストレートエッジの傾きによる効果
+    \item スパースワイヤーグリッドの回転による効果
+\end{enumerate}
+と分け、それぞれの効果がどのように $z$ に影響を与えるか、もしくはどのように補正をするべきかについて考える。
+
+\paragraph{カメラの回転とストレートエッジの傾きによる効果}\quad\\
+\indent
+カメラの回転による効果を消すためには、ストレートエッジが水平になるように画像を回転させればよい。
+図\ref{fig:wiresag_rotation}に、回転前後のストレートエッジとワイヤーの概念図を示す。
+$\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm{SE}}$ はストレートエッジの傾きを表す。
+回転後の系においてストレートエッジに垂直な方向にワイヤーまでの距離を測り、 $z$ として算出する。
+ただし、この回転はストレートエッジが傾いている効果を消去しない。
+測定された $z$ と本来測るべき $z_{\mathrm{true}}$ との間にストレートエッジの傾きにより生じる誤差について考える。
+図\ref{fig:wiresag_rotation}より、$z$ と $z_{\mathrm{true}}$ の関係は
+\begin{align}
+    z &= z_{\mathrm{true}}\cos\theta_{\mathrm{SE}} \\
+    &\simeq z_{\mathrm{true}}\qty(1-\dfrac{\theta_{\mathrm{SE}}^2}{2})
+\end{align}
+と表される。
+ストレートエッジの傾き $\theta_{\mathrm{SE}}$ は、ストレートエッジが長さ $\SI{1000}{mm}$ 
+であるのに対して両端の高さのずれは多くても $\SI{10}{mm}$ 程度であることから、$\theta_{\mathrm{SE}} \sim \SI{0.01}{rad}$ と見積もられる。
+したがって、$z$ と $z_{\mathrm{true}}$ の間に生じる誤差は多くとも $\SI{0.01}{\%}$ 程度であり、無視できる。
+
+以上をまとめると、カメラの回転とストレートエッジの傾きによる効果を補正するには、ストレートエッジが水平になるように画像を回転させればよいということがわかる。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_rotation.pdf}
+    \caption{ストレートエッジとワイヤーの回転前後の概念図}
+    \label{fig:wiresag_rotation}
+\end{figure}
+
+\paragraph{スパースワイヤーグリッドの回転による効果}\quad\\
+\indent
+図\ref{fig:wiresag_concept_tilt}のように、ワイヤーの左端が $(0,\,0)$ に位置し、ワイヤーの右端が $(X,\,Y)$ に位置する場合を考える。
+ワイヤーの両端を結んだ直線と $x$ 軸のなす角度が $\theta_{\mathrm{SWG}}$ であり、これはスパースワイヤーグリッドが回転している角度である。
 このとき、ワイヤーの描くカテナリー曲線は
 \begin{align}
     f_{\mathrm{tilt}}(x;a,\,X,\,Y) &= a\cosh\qty(\dfrac{x+c_1}{a}) + c_2 \\
@@ -145,6 +193,7 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
     \label{fig:wiresag_concept_tilt}
 \end{figure}
 
+\subsection{評価系の光学系を考慮した $z$ の測定原理}
 図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
 これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて変更したものであり、
 カメラから見るとストレートエッジが手前に位置し、ワイヤーがその奥に位置するような配置になっている。
@@ -207,9 +256,9 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
 
 \section{解析手法}
 \subsection{解析の流れ}
-図\ref{fig:wiresag_picture}に実際に撮影された写真の一例を示す。
+撮影された画像は既に図\ref{fig:wiresag_picture}にて示した。
 画像の解像度は $\SI{3264}{pixel}\times\SI{2448}{pixel}$ である。
-画像の横軸を $x_{\mathrm{pix}}$、縦軸を $y_{\mathrm{pix}}$ とし、画像の左上を原点 $(0,\,0)$ とする。
+画像の横軸を $x_{\mathrm{pix}}$、縦軸を $y_{\mathrm{pix}}$ と定め、画像の左上を原点 $(0,\,0)$ とする。
 また、画像の出力フォーマットは yuyv であり、これは各pixelの輝度に関する情報を失うことなく保存される。
 ストレートエッジとワイヤー間の距離 $z$ を算出し、たわみ量を評価するため、輝度の情報を用いて以下の手順で解析を行う。
 \begin{enumerate}
@@ -220,12 +269,6 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
     \item 回転したワイヤーの位置とストレートエッジの位置から $z$ を算出する
     \item $z$ をカテナリー曲線で fitting し、ワイヤーのたわみ量を算出する
 \end{enumerate}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{wiresag/20241217_UHF_3_wire2_x467_gray.png}
-    \caption{撮影されたストレートエッジとワイヤーの写真の例}
-    \label{fig:wiresag_picture}    
-\end{figure}
 
 \subsection{スケーラのfitting}
 図\ref{fig:wiresag_scaler_target}、図\ref{fig:wiresag_scaler_brightness}に
@@ -313,34 +356,15 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
     \label{fig:wiresag_edge_fit}
 \end{figure}
 
-図\ref{fig:wiresag_picture}から見て取れるように、ストレートエッジは写真中において水平になっていないが、
-これはカメラ自体が回転しており、その水平面がストレートエッジと一致していないことが原因である。
-この効果を消すためにストレートエッジが画像内で水平になるように画像を回転させる。
-こうして得られた画像にて、ストレートエッジに垂直な方向にワイヤーまでの距離を測り、 $z$ として算出する。
-図\ref{fig:wiresag_rotation}に、回転前後のストレートエッジとワイヤーの概念図を示す。
-$\theta_{\mathrm{camera}}$ はカメラの回転により重力方向が変わる角度であり、
-$\theta_{\mathrm{SE}}$ はストレートエッジが傾いているために重力方向が変わる角度である。
-この回転はストレートエッジが回転している効果を消去しないので、この効果により
-測定された $z$ と本来測るべき $z_{\mathrm{true}}$ との間には誤差が生じる。
-その誤差について考える。
-$z$ と $z_{\mathrm{true}}$ の関係は
-\begin{align}
-    z &= z_{\mathrm{true}}\cos\theta_{\mathrm{SE}} \\
-    &\simeq z_{\mathrm{true}}\qty(1-\dfrac{\theta_{\mathrm{SE}}^2}{2})
-\end{align}
-と表される(図\ref{fig:wiresag_rotation})。
-ストレートエッジの傾き $\theta_{\mathrm{SE}}$ は、ストレートエッジが長さ $\SI{1000}{mm}$ 
-であるのに対して両端の高さのずれは多くても $\SI{10}{mm}$ 程度であることから、$\theta_{\mathrm{SE}} \sim \SI{0.01}{rad}$ と見積もられる。
-したがって、$z$ と $z_{\mathrm{true}}$ の間に生じる誤差は多くとも $\SI{0.01}{\%}$ 程度であり、無視できる。
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_rotation.pdf}
-    \caption{ストレートエッジとワイヤーの回転前後の概念図}
-    \label{fig:wiresag_rotation}
+\ref{subsec:wiresag_principle}にて述べた画像の回転を行うため、ストレートエッジの下端の fitting を $1132 < x_{\mathrm{pix}} < 2132$、
+すなわち、中心から左右 $\SI{500}{pixel}$ の範囲に対して行い、ストレートエッジの位置を直線でfittingする。
+図\ref{}(\subref{})に、求めたストレートエッジの位置と、それを直線でfittingした結果を示す。
+また、図\ref{}(\subref{})に、ストレートエッジの下端が水平になるように画像を回転させた結果を示す。
+
+\begin{figure}
+    
 \end{figure}
 
-ストレートエッジの下端の fitting を $1132 < x_{\mathrm{pix}} < 2132$、すなわち、中心から左右 $\SI{500}{pixel}$ の範囲に対して行う。
-これによって得られたストレート
 
 \subsubsection{ワイヤーのfitting}
 \subsection{カテナリーでのfitting}

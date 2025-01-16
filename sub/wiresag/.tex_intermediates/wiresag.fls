@@ -969,29 +969,32 @@ OUTPUT .tex_intermediates/wiresag.dvi
 INPUT ../../fig//wiresag/wiresag_system.pdf
 INPUT ../../fig//wiresag/wiresag_system.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_system.pdf
+INPUT ../../fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
+INPUT ../../fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
+INPUT extractbb -B cropbox -O ../../fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
 INPUT ../../fig//wiresag/wiresag_concept.pdf
 INPUT ../../fig//wiresag/wiresag_concept.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept.pdf
 INPUT ../../fig//wiresag/wire_number.pdf
 INPUT ../../fig//wiresag/wire_number.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wire_number.pdf
+INPUT ../../fig//wiresag/wiresag_rotation.pdf
+INPUT ../../fig//wiresag/wiresag_rotation.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_rotation.pdf
 INPUT ../../fig//wiresag/wire_catenary_tilt.pdf
 INPUT ../../fig//wiresag/wire_catenary_tilt.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wire_catenary_tilt.pdf
-INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
-INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept_yoko.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
+INPUT ../../fig//wiresag/wiresag_concept_yoko.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept_yoko.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-INPUT ../../fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
-INPUT ../../fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
-INPUT extractbb -B cropbox -O ../../fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT ../../fig//wiresag/wiresag_scaler_target.pdf
 INPUT ../../fig//wiresag/wiresag_scaler_target.pdf
@@ -1025,9 +1028,6 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_edge_brightness.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_straight_edge_fit.pdf
-INPUT ../../fig//wiresag/wiresag_rotation.pdf
-INPUT ../../fig//wiresag/wiresag_rotation.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_rotation.pdf
 INPUT .tex_intermediates/wiresag.aux
 INPUT .tex_intermediates/wiresag.out
 INPUT .tex_intermediates/wiresag.out
