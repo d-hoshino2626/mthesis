@@ -208,8 +208,8 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
 図\ref{}に実際に撮影された写真の一例を示す。
 画像の解像度は $\SI{3264}{pixel}\times\SI{2448}{pixel}$ である。
 画像の横軸を $x_{\mathrm{pix}}$、縦軸を $y_{\mathrm{pix}}$ とし、画像の左上を原点 $(0,\,0)$ とする。
-また、画像の出力フォーマットは yuyv であり、これは輝度に関する情報を失うことなく保存される。
-ストレートエッジとワイヤー間の距離 $z$ を算出するため、輝度の情報を用いて以下の手順で解析を行う。
+また、画像の出力フォーマットは yuyv であり、これは各pixelの輝度に関する情報を失うことなく保存される。
+ストレートエッジとワイヤー間の距離 $z$ を算出し、たわみ量を評価するため、輝度の情報を用いて以下の手順で解析を行う。
 \begin{enumerate}
     \item スケーラの目盛の輝度をfittingし、その間隔のpixel数を求めることで画像の 1 pixel が対応する長さを決める
     \item ワイヤーの輝度をfittingし、ワイヤーの位置を決める
@@ -218,11 +218,23 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
     \item 回転したワイヤーの位置とストレートエッジの位置から $z$ を算出する
     \item $z$ をカテナリー曲線で fitting し、ワイヤーのたわみ量を算出する
 \end{enumerate}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/20241217_UHF_3_wire2_x467_gray.png}
+    \caption{撮影されたストレートエッジとワイヤーの写真の例}
+    \label{fig:wiresag_picture}    
+\end{figure}
 
 \subsection{スケーラのfitting}
-図\ref{}に $y_{\mathrm{pix}}=\SI{100}{pixel}$ のスケーラの目盛を示す。
-\subsection{ストレートエッジのfitting}
+図\ref{}に $y_{\mathrm{pix}}=\SI{100}{pixel}$ における輝度を示す。
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/}
+\end{figure}
 \subsection{ワイヤーのfitting}
+\subsection{ストレートエッジのfitting}
+\subsection{画像の回転}
+\subsection{カテナリーでのfitting}
 
 \section{開発した評価系の原理検証}
 \subsection{評価手法}
