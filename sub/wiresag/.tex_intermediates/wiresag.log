@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 00:48
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 01:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -691,20 +691,22 @@ File: ../../fig//wiresag/wiresag_edge_brightness.pdf Graphic file (type pdf)
  [9] [10]
 File: ../../fig//wiresag/wiresag_straight_edge_fit.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_straight_edge_fit.pdf>
+File: ../../fig//wiresag/wiresag_rotation.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_rotation.pdf>
  [11] [12] (.tex_intermediates/wiresag.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `wiresag.out' has not changed.
-(rerunfilecheck)             Checksum: 7554D28746446414AEE0AB8E929C7C3F;2809.
+(rerunfilecheck)             Checksum: 74828EBC345AC7DC62AE300F7A073B01;2801.
  ) 
 Here is how much of TeX's memory you used:
- 17680 strings out of 476677
- 341758 string characters out of 5804957
+ 17688 strings out of 476677
+ 342049 string characters out of 5804957
  1855490 words of memory out of 5000000
- 37881 multiletter control sequences out of 15000+600000
+ 37888 multiletter control sequences out of 15000+600000
  563719 words of font info for 122 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,15n,94p,358b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (12 pages, 45596 bytes).
+Output written on .tex_intermediates/wiresag.dvi (12 pages, 48220 bytes).

@@ -5,7 +5,7 @@
 
 \begin{document}
 
-\chapter{ワイヤーのたわみ量評価系の開発と、自動化手法の確立}
+\chapter{ワイヤーのたわみ量評価系の開発と自動化手法の確立}
 \label{chap:wiresag}
 較正に使う直線偏光はワイヤーに沿う形で生成されるため、ワイヤーがたわんでいる部分から生成される光はその偏光角が
 ワイヤーに沿う方向からずれて生成される。そのため、ワイヤーのたわみは較正の精度に影響を及ぼし、系統誤差を生む。
@@ -272,7 +272,7 @@ $a,\,b,\,c,\,d,\,\mathrm{offset}$ は fitting parameter であり、 $d$ は目�
 図\ref{fig:wiresag_scaler_fitting}に実際にfittingした結果を示す。
 $d_i$ の fitting error は典型的に $\SI{0.02}{pixel}$ 程度であった。
 fittingに求められた $d_i$ から、目盛間の pixel 数を求めると、その平均は $\SI{173}{pixel}$、誤差は $\SI{0.007}{pixel}$ であった。
-目盛間は $\SI{1}{mm}$ であるため、1 pixel が対応する長さは $\SI{5.78}{\mu m} \pm \SI{2e-4}{\mu m}$ となった。
+目盛間は $\SI{1}{mm}$ であるため、1 pixel が対応する長さは $\SI{5.78}{\mu m}\,\pm\,\SI{2e-4}{\mu m}$ となった。
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{wiresag/wiresag_scaler_fitting.pdf}
@@ -313,10 +313,35 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
     \label{fig:wiresag_edge_fit}
 \end{figure}
 
-図\ref{fig:wiresag_picture}から見て取れるように、ストレートエッジは写真中において水平になっていない。
-$z$ を求める際には、画像全体を回転し、ストレートエッジが水平になるようにする。
-この原因として、ストレートエッジ自体が重力に垂直な水平面上に置かれていないことと、カメラ自体が回転していることが考えられる。
-前者に関しては、ストレートエッジが $\SI{1000}{mm}$ の長さに対して両端の高さのずれは多くても $\SI{10}{mm}$ 程度であることから、
+図\ref{fig:wiresag_picture}から見て取れるように、ストレートエッジは写真中において水平になっていないが、
+これはカメラ自体が回転しており、その水平面がストレートエッジと一致していないことが原因である。
+この効果を消すためにストレートエッジが画像内で水平になるように画像を回転させる。
+こうして得られた画像にて、ストレートエッジに垂直な方向にワイヤーまでの距離を測り、 $z$ として算出する。
+図\ref{fig:wiresag_rotation}に、回転前後のストレートエッジとワイヤーの概念図を示す。
+$\theta_{\mathrm{camera}}$ はカメラの回転により重力方向が変わる角度であり、
+$\theta_{\mathrm{SE}}$ はストレートエッジが傾いているために重力方向が変わる角度である。
+この回転はストレートエッジが回転している効果を消去しないので、この効果により
+測定された $z$ と本来測るべき $z_{\mathrm{true}}$ との間には誤差が生じる。
+その誤差について考える。
+$z$ と $z_{\mathrm{true}}$ の関係は
+\begin{align}
+    z &= z_{\mathrm{true}}\cos\theta_{\mathrm{SE}} \\
+    &\simeq z_{\mathrm{true}}\qty(1-\dfrac{\theta_{\mathrm{SE}}^2}{2})
+\end{align}
+と表される(図\ref{fig:wiresag_rotation})。
+ストレートエッジの傾き $\theta_{\mathrm{SE}}$ は、ストレートエッジが長さ $\SI{1000}{mm}$ 
+であるのに対して両端の高さのずれは多くても $\SI{10}{mm}$ 程度であることから、$\theta_{\mathrm{SE}} \sim \SI{0.01}{rad}$ と見積もられる。
+したがって、$z$ と $z_{\mathrm{true}}$ の間に生じる誤差は多くとも $\SI{0.01}{\%}$ 程度であり、無視できる。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_rotation.pdf}
+    \caption{ストレートエッジとワイヤーの回転前後の概念図}
+    \label{fig:wiresag_rotation}
+\end{figure}
+
+ストレートエッジの下端の fitting を $1132 < x_{\mathrm{pix}} < 2132$、すなわち、中心から左右 $\SI{500}{pixel}$ の範囲に対して行う。
+これによって得られたストレート
+
 \subsubsection{ワイヤーのfitting}
 \subsection{カテナリーでのfitting}
 

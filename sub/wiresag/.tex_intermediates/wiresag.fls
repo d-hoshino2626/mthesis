@@ -1025,6 +1025,9 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_edge_brightness.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_straight_edge_fit.pdf
+INPUT ../../fig//wiresag/wiresag_rotation.pdf
+INPUT ../../fig//wiresag/wiresag_rotation.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_rotation.pdf
 INPUT .tex_intermediates/wiresag.aux
 INPUT .tex_intermediates/wiresag.out
 INPUT .tex_intermediates/wiresag.out
