@@ -49,6 +49,7 @@
 また、詳細は次節にて述べるが、この配置によりたわみの評価精度が向上する。
 たわみの測定の基準となるストレートエッジはスパースワイヤーグリッドの目の前 $\SI{5}{mm}$ のところに固定されている。
 使用したストレートエッジは過去のものと同じく大西測定株式会社製の 140-1000B であり、このストレートエッジは真直度A級 $\SI{30}{\mu m}$ が保証されている。
+また、ストレートエッジにはカメラの $\SI{1}{pixel}$ が対応する長さを較正するためのスケーラが取り付けられている。
 自動化の要であるアクチュエータは、スパースワイヤーグリッドを鉛直方向に動かすために Openbuilds 社の V-Slot NEMA 23 Linear Actuator (Belt Driven) を、
 カメラを水平方向に動かすために Openbuilds 社の V-Slot NEMA 17 Linear Actuator (Belt Driven) を用いた。
 どちらもベルト駆動式であり、ステッピングモーターを用いて位置制御を行うことができる。
@@ -96,6 +97,7 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
 \begin{align}
     \label{eq:wiresag_sag}
     d_{\mathrm{sag}} &= f(L_{\mathrm{frame}}/2;a) \\
+    \label{eq:wiresag_sag}
                      &= a\qty[1-\cosh\qty(\dfrac{L_{\mathrm{frame}}}{2a})]
 \end{align}
 であり、たわみ角 $\theta_{\mathrm{sag}}$ は
@@ -136,6 +138,7 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
     z_{i} &= -f_{\mathrm{tilt}}(x_{i};a)
 \end{align}
 として測定値 $(x_{i},\,z_{i})$ に対して fitting を行う。
+こうして得られた $a$ を式\eqref{}に代入することで、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ を得る。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wire_catenary_tilt.pdf}
@@ -179,7 +182,7 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
     \label{tab:wiresag_concept_yoko_params}
 \end{table}
 
-\subsection{評価系の機械設計により生まれる $z$ 誤差の見積もり}
+\subsection{評価系の設計から生まれる $z$ の誤差の見積もり}
 過去の手法においては、$\phi$ が典型的に $5\tcdegree$ 程度と小さくない値であったために、
 $L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じていた\cite{swg:murata}。
 この誤差を抑えるためには、$\phi$ を小さくすることが重要であるが、
@@ -256,7 +259,7 @@ $a,\,b,\,c,\,d,\,\mathrm{offset}$ は fitting parameter であり、 $d$ は目�
 と表される。$n_{\mathrm{scaler}}$ は写真中に写っているスケーラの数であり、offsetはすべての目盛に対して共通のパラメータである。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{wiresag/wiresag_scaler_target.pdf}
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_scaler_target.pdf}
     \caption{写真中における $y_{\mathrm{pix}}=\SI{200}{pixel}$ の目安}
     \label{fig:wiresag_scaler_target}
 \end{figure}
@@ -278,25 +281,41 @@ fittingに求められた $d_i$ から、目盛間の pixel 数を求めると�
     \label{fig:wiresag_scaler_fitting}
 \end{figure}
 
-\subsection{ワイヤーとストレートエッジのfitting}
-図\ref{}、図\ref{}に、$x_{\mathrm{pix}}=\SI{1575}{pixel}$ における輝度を示す。
-図\ref{}において、$x_{\mathrm{pix}}<600$ あたりの輝度が低いところはスケーラの目盛の部分であり、
-$600<x_{\mathrm{pix}}<1100$ あたりの輝度が高くなっている部分がストレートエッジの表面を、
-その後再び急激に低くなるところがストレートエッジの下端を示している。
-また、
+\subsection{ストレートエッジとワイヤーのfitting}
+図\ref{fig:wiresag_edge_target}、図\ref{fig:wiresag_edge_brightness}に、$x_{\mathrm{pix}}=\SI{1575}{pixel}$ における輝度を示す。
+図\ref{fig:wiresag_edge_brightness}において、$x_{\mathrm{pix}}<600$ あたりの輝度が低いところはスケーラの目盛の部分を表しており、
+$600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分がストレートエッジの表面を、その後再び急激に低くなるところがストレートエッジの下端を表している。
+また、$1400 < x_{\mathrm{pix}} < 1600$ あたりの急激に輝度が上がり、再び急激に下がっている部分がワイヤーを表している。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth]{wiresag/wiresag_edge_target.pdf}
+    \includegraphics[width=0.7\textwidth]{wiresag/wiresag_edge_target.pdf}
     \caption{写真中における $x_{\mathrm{pix}}=\SI{1575}{pixel}$ の目安}
-    \label{fig:wiresag_edge_target}    
+    \label{fig:wiresag_edge_target}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth]{wiresag/wiresag_edge_brightness.pdf}
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_edge_brightness.pdf}
     \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ における輝度}
     \label{fig:wiresag_edge_brightness}
 \end{figure}
-\subsection{画像の回転}
+\subsubsection{ストレートエッジのfitting}
+ストレートエッジの下端の輝度は、理想的な場合は階段関数的である。
+実際にはカメラのピントによりぼやけてしまうため、シグモイド関数を用いてfittingを行う。
+つまり、ストレートエッジの下端の輝度 $B_{\mathrm{SE}}(x)$ を
+\begin{align}
+    B_{\mathrm{SE}}(x;\,a,\,b,\,c,\,\text{offset}) = \dfrac{a}{1+\exp(-b(-x-c))} + \mathrm{offset}
+\end{align}
+としてfittingを行う。$a,\,b,\,c,\,\text{offset}$ は fitting parameter であり、$c$ はストレートエッジの下端の位置を表す。
+図\ref{fig:wiresag_edge_fit}に実際にfittingした結果を示す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_straight_edge_fit.pdf}
+    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ ストレートエッジの輝度のfittingの結果}
+    \label{fig:wiresag_edge_fit}
+\end{figure}
+
+ストレートエッジをあ
+\subsubsection{ワイヤーのfitting}
 \subsection{カテナリーでのfitting}
 
 \section{開発した評価系の原理検証}
