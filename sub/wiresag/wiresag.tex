@@ -55,7 +55,7 @@
 スパースワイヤーグリッドに取り付けられたアクチュエータは、ストレートエッジとワイヤーの距離をカメラの画角に収まるように近づけるために使用され、
 カメラに取り付けられたアクチュエータは、撮影位置を変え、ストレートエッジとワイヤーの距離を複数の点で測定するために使用される。
 アクチュエータの制御には、Galil 社の DMC-4020 というモーションコントローラを用いた。
-また、カメラは
+% また、カメラは
 
 \begin{figure}[H]
     \centering
@@ -279,9 +279,23 @@ fittingに求められた $d_i$ から、目盛間の pixel 数を求めると�
 \end{figure}
 
 \subsection{ワイヤーとストレートエッジのfitting}
-図\ref{}、図\ref{}に、$x_{\mathrm{pix}}=\SI{1582}{pixel}$ に輝度を示す。
-図\ref{}において、
-
+図\ref{}、図\ref{}に、$x_{\mathrm{pix}}=\SI{1575}{pixel}$ における輝度を示す。
+図\ref{}において、$x_{\mathrm{pix}}<600$ あたりの輝度が低いところはスケーラの目盛の部分であり、
+$600<x_{\mathrm{pix}}<1100$ あたりの輝度が高くなっている部分がストレートエッジの表面を、
+その後再び急激に低くなるところがストレートエッジの下端を示している。
+また、
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{wiresag/wiresag_edge_target.pdf}
+    \caption{写真中における $x_{\mathrm{pix}}=\SI{1575}{pixel}$ の目安}
+    \label{fig:wiresag_edge_target}    
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{wiresag/wiresag_edge_brightness.pdf}
+    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ における輝度}
+    \label{fig:wiresag_edge_brightness}
+\end{figure}
 \subsection{画像の回転}
 \subsection{カテナリーでのfitting}
 

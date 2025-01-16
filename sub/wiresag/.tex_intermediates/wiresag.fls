@@ -1016,6 +1016,4 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_scaler_brightness.pdf
 INPUT ../../fig//wiresag/wiresag_scaler_fitting.pdf
 INPUT ../../fig//wiresag/wiresag_scaler_fitting.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_scaler_fitting.pdf
-INPUT .tex_intermediates/wiresag.aux
-INPUT .tex_intermediates/wiresag.out
-INPUT .tex_intermediates/wiresag.out
+INPUT extractbb -B cropbox -O wiresag/wiresag_edge_target.pdf
