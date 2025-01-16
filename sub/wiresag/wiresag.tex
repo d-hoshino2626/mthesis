@@ -310,7 +310,7 @@ $a,\,b,\,c,\,d,\,\mathrm{offset}$ は fitting parameter であり、 $d$ は目�
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{wiresag/wiresag_scaler_brightness.pdf}
-    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ における輝度}
+    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ における輝度の例}
     \label{fig:wiresag_scaler_brightness}
 \end{figure}
 
@@ -321,7 +321,7 @@ fittingに求められた $d_i$ から、目盛間の pixel 数を求めると�
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{wiresag/wiresag_scaler_fitting.pdf}
-    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ スケーラの輝度のfittingの結果}
+    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ スケーラの輝度のfittingの結果の例}
     \label{fig:wiresag_scaler_fitting}
 \end{figure}
 
@@ -339,7 +339,7 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_edge_brightness.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ における輝度}
+    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ における輝度の例}
     \label{fig:wiresag_edge_brightness}
 \end{figure}
 \subsubsection{ストレートエッジのfitting}
@@ -354,7 +354,7 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_straight_edge_fit.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ におけるストレートエッジの輝度のfittingの結果}
+    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ におけるストレートエッジの輝度のfittingの結果の例}
     \label{fig:wiresag_edge_fit}
 \end{figure}
 
@@ -377,8 +377,8 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
         \subcaption{}
         \label{fig:wiresag_straight_edge_positions_rot}
     \end{minipage}
-    \caption{(\subref{fig:wiresag_straight_edge_positions_line}) 回転前のストレートエッジの位置と直線による fitting の結果
-             (\subref{fig:wiresag_straight_edge_positions_rot}) 回転後のストレートエッジの位置
+    \caption{(\subref{fig:wiresag_straight_edge_positions_line}) 回転前のストレートエッジの位置と直線による fitting の結果の例
+             (\subref{fig:wiresag_straight_edge_positions_rot}) 回転後のストレートエッジの位置の例
              }
     \label{fig:wiresag_straight_edge}
 \end{figure}
@@ -402,7 +402,7 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_wire_fit.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ におけるワイヤーの輝度のfittingの結果}
+    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ におけるワイヤーの輝度のfittingの結果の例}
     \label{fig:wiresag_wire_fit}
 \end{figure}
 \begin{figure}[H]
@@ -418,8 +418,8 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
         \subcaption{}
         \label{fig:wiresag_wire_positions_rot}
     \end{minipage}
-    \caption{(\subref{fig:wiresag_wire_positions_line}) 回転前のワイヤーの位置
-             (\subref{fig:wiresag_wire_positions_rot}) 回転後のワイヤーの位置
+    \caption{(\subref{fig:wiresag_wire_positions_line}) 回転前のワイヤーの位置の例
+             (\subref{fig:wiresag_wire_positions_rot}) 回転後のワイヤーの位置の例
              }
     \label{fig:wiresag_wire_positions}
 \end{figure}
@@ -465,7 +465,21 @@ $X,\,Y$ の間には、式\eqref{eq:wiresag_frame_length}によりワイヤー�
 \end{align}
 となることに注意。
 図\ref{fig:wiresag_catenary}に、$z$ とカテナリー曲線で fitting した結果を示す。
-
+$z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{\mu m}$ と、fitting ここまでの処理で得られた誤差を考えた。
+このfittingにより求めた $a$ を式\eqref{eq:wiresag_sag}に代入することで、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ を得る。
+さらに、求めた $d_{\mathrm{sag}}$ を式\eqref{eq:wiresag_sag_angle}に代入することで、ワイヤーのたわみ角を得る。
+今回の例では
+\begin{align}
+    d_{\mathrm{sag}} &= 38.2 \pm \SI{1}{\mu m} \\
+    \theta_{\mathrm{sag}} &= 0.011\tcdegree \pm 0.0003 \tcdegree
+\end{align}
+を得た。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_catenary.pdf}
+    \caption{カテナリー曲線で fitting した結果の例}
+    \label{fig:wiresag_catenary}
+\end{figure}
 \section{開発した評価系の原理検証}
 \subsection{評価手法}
 \subsection{評価結果とその考察}
