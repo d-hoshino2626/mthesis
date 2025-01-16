@@ -152,7 +152,7 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
     z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
     \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\beta})
 \end{align}
-となるが、$L_{\mathrm{camera}}$ は $\SI{0}{mm}$ であるため、
+となるが、今、$L_{\mathrm{camera}}$ は $\SI{0}{mm}$ であるため、
 \begin{align}
     z = z'
 \end{align}
@@ -205,7 +205,7 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
 
 \section{解析手法}
 \subsection{解析の流れ}
-図\ref{}に実際に撮影された写真の一例を示す。
+図\ref{fig:wiresag_picture}に実際に撮影された写真の一例を示す。
 画像の解像度は $\SI{3264}{pixel}\times\SI{2448}{pixel}$ である。
 画像の横軸を $x_{\mathrm{pix}}$、縦軸を $y_{\mathrm{pix}}$ とし、画像の左上を原点 $(0,\,0)$ とする。
 また、画像の出力フォーマットは yuyv であり、これは各pixelの輝度に関する情報を失うことなく保存される。
@@ -234,7 +234,7 @@ $y_{\mathrm{pix}}=\SI{200}{pixel}$ における輝度を示す。
 理想的には、この輝度の変化は階段関数的である。
 一つの目盛とその周りに対して、その輝度は目盛上で低く $B_{\mathrm{scaler}}^{\mathrm{single}}(x)$ は
 \begin{align}
-    B_{\mathrm{scaler, ideal}}^{\mathrm{single}}(x) &= a\qty[\theta(x-x_{\mathrm{left}})+\theta(x_{\mathrm{right}}-x)] + \mathrm{offset} \\
+    B_{\mathrm{scaler,\,ideal}}^{\mathrm{single}}(x) &= a\qty[\theta(x-x_{\mathrm{left}})+\theta(x_{\mathrm{right}}-x)] + \mathrm{offset} \\
     \theta(x) &= \begin{cases}
         1 & (x>0) \\
         0 & (x\leq 0)
@@ -251,9 +251,9 @@ $a,\,b,\,c,\,d,\,\mathrm{offset}$ は fitting parameter であり、 $d$ は目�
 さらに、写真中には複数のスケーラが写っているため、最終的にスケーラの輝度のfitting関数 $B_{\mathrm{scaler}}$ は
 \begin{align}
     &B_{\mathrm{scaler}}(x;\,a_i,\,b_i,\,c_i,\,d_i,\,\text{offset}) = \notag\\
-    &\qquad\qquad\sum_{i=1}^{n} a_i\qty[\dfrac{1}{1+\exp\qty(-b_i\qty(x-c_i-d_i))} + \dfrac{1}{1+\exp\qty(-b_i\qty(-x-c_i+d_i))}] + \mathrm{offset}
+    &\qquad\qquad\sum_{i=1}^{n_{\mathrm{scaler}}} a_i\qty[\dfrac{1}{1+\exp\qty(-b_i\qty(x-c_i-d_i))} + \dfrac{1}{1+\exp\qty(-b_i\qty(-x-c_i+d_i))}] + \mathrm{offset}
 \end{align}
-と表される。$n$ は写真中に写っているスケーラの数であり、offsetはすべての目盛に対して共通のパラメータである。
+と表される。$n_{\mathrm{scaler}}$ は写真中に写っているスケーラの数であり、offsetはすべての目盛に対して共通のパラメータである。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{wiresag/wiresag_scaler_target.pdf}
@@ -268,17 +268,20 @@ $a,\,b,\,c,\,d,\,\mathrm{offset}$ は fitting parameter であり、 $d$ は目�
 \end{figure}
 
 図\ref{fig:wiresag_scaler_fitting}に実際にfittingした結果を示す。
-このfittingにより、各目盛の中心の位置 $d_i$ が決まり、その間のpixel数を求めることができる。
-$d_i$ の fitting error は典型的に $\SI{}$
-\begin{figure}
+$d_i$ の fitting error は典型的に $\SI{0.02}{pixel}$ 程度であった。
+fittingに求められた $d_i$ から、目盛間の pixel 数を求めると、その平均は $\SI{173}{pixel}$、誤差は $\SI{0.007}{pixel}$ であった。
+目盛間は $\SI{1}{mm}$ であるため、1 pixel が対応する長さは $\SI{5.78}{\mu m} \pm \SI{2e-4}{\mu m}$ となった。
+\begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{wiresag/wiresag_scaler_fitting.pdf}
-    \caption{スケーラの輝度のfittingの結果}
+    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ スケーラの輝度のfittingの結果}
     \label{fig:wiresag_scaler_fitting}
 \end{figure}
 
-\subsection{ワイヤーのfitting}
-\subsection{ストレートエッジのfitting}
+\subsection{ワイヤーとストレートエッジのfitting}
+図\ref{}、図\ref{}に、$x_{\mathrm{pix}}=\SI{1582}{pixel}$ に輝度を示す。
+図\ref{}において、
+
 \subsection{画像の回転}
 \subsection{カテナリーでのfitting}
 
