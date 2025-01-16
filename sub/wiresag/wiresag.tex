@@ -97,6 +97,7 @@ $L_{\mathrm{frame}}$ はどのワイヤーを評価するかによって異な�
 スパースワイヤーグリッドの内径が $\SI{790}{mm}$ であり、ワイヤー間のピッチが $\SI{20}{mm}$ であることから、
 $n$ 番目のワイヤーにおける $L_{\mathrm{frame},\,n}$ は
 \begin{align}
+    \label{eq:wiresag_frame_length}
     L_{\mathrm{frame}, n} = 2\sqrt{395^2-(20\cdot(19-n))^2}\ [\mathrm{mm}] \quad (n=1,2,\cdots,19)
 \end{align}
 と表される。以下ではワイヤー番号を省略し、単純に $L_{\mathrm{frame}}$ と表す。
@@ -171,6 +172,7 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
 ワイヤーの両端を結んだ直線と $x$ 軸のなす角度が $\theta_{\mathrm{SWG}}$ であり、これはスパースワイヤーグリッドが回転している角度である。
 このとき、ワイヤーの描くカテナリー曲線は
 \begin{align}
+    \label{eq:wiresag_catenary_tilt}
     f_{\mathrm{tilt}}(x;a,\,X,\,Y) &= a\cosh\qty(\dfrac{x+c_1}{a}) + c_2 \\
     c_1 &= a\sinh^{-1}\qty[\dfrac{Y}{2a\sinh\qty(\dfrac{X}{2a})}] \\
     c_2 &= -a\cosh\qty(\dfrac{c_1}{a})
@@ -182,7 +184,7 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
 を満たす。
 測定される $z$ はストレートエッジとワイヤー間の距離であるため、その概形はカテナリー曲線を $-1$ 倍したものであり
 \begin{align}
-    z_{i} &= -f_{\mathrm{tilt}}(x_{i};a)
+    z_{i} &= -f_{\mathrm{tilt}}(x_{i};\,a,\,X,\,Y)
 \end{align}
 として測定値 $(x_{i},\,z_{i})$ に対して fitting を行う。
 こうして得られた $a$ を式\eqref{eq:wiresag_sag}に代入することで、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ を得る。
@@ -365,13 +367,13 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 \begin{figure}[H]
     \begin{minipage}[b]{0.5\hsize}
         \centering
-        \includegraphics[width=0.95\textwidth]{wiresag/wiresag_straight_edge_positions_line.pdf}
+        \includegraphics[width=0.97\textwidth]{wiresag/wiresag_straight_edge_positions_line.pdf}
         \subcaption{}
         \label{fig:wiresag_straight_edge_positions_line}
     \end{minipage}
     \begin{minipage}[b]{0.5\hsize}
         \centering
-        \includegraphics[width=0.95\textwidth]{wiresag/wiresag_straight_edge_positions_rot.pdf}
+        \includegraphics[width=0.97\textwidth]{wiresag/wiresag_straight_edge_positions_rot.pdf}
         \subcaption{}
         \label{fig:wiresag_straight_edge_positions_rot}
     \end{minipage}
@@ -403,16 +405,16 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
     \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ におけるワイヤーの輝度のfittingの結果}
     \label{fig:wiresag_wire_fit}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
     \begin{minipage}[b]{0.5\hsize}
         \centering
-        \includegraphics[width=0.95\textwidth]{wiresag/wiresag_wire_positions.pdf}
+        \includegraphics[width=0.97\textwidth]{wiresag/wiresag_wire_positions.pdf}
         \subcaption{}
         \label{fig:wiresag_wire_positions_line}
     \end{minipage}
     \begin{minipage}[b]{0.5\hsize}
         \centering
-        \includegraphics[width=0.95\textwidth]{wiresag/wiresag_wire_positions_rot.pdf}
+        \includegraphics[width=0.97\textwidth]{wiresag/wiresag_wire_positions_rot.pdf}
         \subcaption{}
         \label{fig:wiresag_wire_positions_rot}
     \end{minipage}
@@ -423,8 +425,46 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 \end{figure}
 
 \subsection{$z$ の算出}
+前々項にて求めた回転後のストレートエッジの位置と、前項にて求めたワイヤーの位置から $z$ を算出する。
+図\ref{}に、回転後のワイヤーの位置からストレートエッジの位置を引いた値 $y_{\mathrm{wire}}-y_{\mathrm{SE}}$ を示す。
+この平均を取ることで、代表的な $z$ と誤差(標準偏差) $\delta z$ を得る。
+今回の例の場合、
+\begin{align}
+    z &= \SI{353}{pixel} \\
+    \delta z &= \SI{1}{pixel}
+\end{align}
+であった。
+スケーラのfittingによれば、1 pixel が対応する長さおよそ $\SI{5.78}{\mu m}$ であった。
+これを用いて $z$ と $\delta z$ を実際の長さに変換すると
+\begin{align}
+    z &= \SI{2040}{\mu m} \\
+    \delta z &= \SI{6e-3}{\mu m}
+\end{align}
+となる。
+評価系の設計から生まれる誤差は $\SI{49}{\mu m}$ であったため、この誤差は無視できる程度である。
+このようにして、撮影された画像から代表点として $z$ を一つ算出することができる。
 \subsection{カテナリーでのfitting}
-
+一本のワイヤーに対して複数の写真を撮り、それぞれの写真から得られた $z$ をカテナリー曲線で fitting することで、ワイヤーのたわみ量を算出する。
+このとき、fitting に用いるカテナリーは式\eqref{eq:wiresag_catenary_tilt}で表されるものである。
+ただし、式\eqref{eq:wiresag_catenary_tilt}ではワイヤーの左端が $(0,\,0)$ に位置していることを仮定していたので、
+これを並行移動する自由度を入れることで、より一般的なカテナリー曲線を得る。
+すなわち、fitting に用いるカテナリー曲線は
+\begin{align}
+    f_{\mathrm{tilt}}(x;a,\,X,\,Y,\,x_{\mathrm{offset}},\,y_{\mathrm{offset}}) &= a\cosh\qty(\dfrac{x+x_{\mathrm{offset}}+c_1}{a}) + c_2 - y_{\mathrm{offset}}\\
+    c_1 &= a\sinh^{-1}\qty[\dfrac{Y}{2a\sinh\qty(\dfrac{X}{2a})}] \\
+    c_2 &= -a\cosh\qty(\dfrac{c_1}{a})
+\end{align}
+となる。fitting parameter は $a,\,X,\,Y,\,x_{\mathrm{offset}},\,y_{\mathrm{offset}}$ であり、
+$X,\,Y$ の間には、式\eqref{eq:wiresag_frame_length}によりワイヤーに対して定まる $L_{\mathrm{frame}}$ を用いて
+\begin{align}
+    L_{\mathrm{frame}} &= \sqrt{X^2+Y^2}
+\end{align}
+という拘束条件がある。また、$z$ は距離を表しているので、fitting を行う時には
+\begin{align}
+    z_{i} &= -f_{\mathrm{tilt}}(x_{i};a,\,X,\,Y,\,x_{\mathrm{offset}},\,y_{\mathrm{offset}})
+\end{align}
+となることに注意。
+図\ref{fig:wiresag_catenary}に、$z$ とカテナリー曲線で fitting した結果を示す。
 
 \section{開発した評価系の原理検証}
 \subsection{評価手法}
