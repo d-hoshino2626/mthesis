@@ -992,3 +992,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT ../../fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
 INPUT ../../fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
 INPUT extractbb -B cropbox -O ../../fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
+INPUT ../../fig//wiresag/wiresag_picture_scalar.pdf
+INPUT ../../fig//wiresag/wiresag_picture_scalar.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_picture_scalar.pdf
+INPUT .tex_intermediates/wiresag.aux
+INPUT .tex_intermediates/wiresag.out
+INPUT .tex_intermediates/wiresag.out
