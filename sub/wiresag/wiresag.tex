@@ -218,25 +218,48 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
     \item 回転したワイヤーの位置とストレートエッジの位置から $z$ を算出する
     \item $z$ をカテナリー曲線で fitting し、ワイヤーのたわみ量を算出する
 \end{enumerate}
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{wiresag/20241217_UHF_3_wire2_x467_gray.png}
+    \includegraphics[width=0.7\textwidth]{wiresag/20241217_UHF_3_wire2_x467_gray.png}
     \caption{撮影されたストレートエッジとワイヤーの写真の例}
     \label{fig:wiresag_picture}    
 \end{figure}
 
 \subsection{スケーラのfitting}
-図\ref{}に $y_{\mathrm{pix}}=\SI{100}{pixel}$ における輝度を示す。
+図\ref{fig:wiresag_scaler_target}、図\ref{fig:wiresag_scaler_brightness}に
+$y_{\mathrm{pix}}=\SI{200}{pixel}$ における輝度を示す。
+図\ref{fig:wiresag_scaler_brightness}では、横軸を $\SI{1100}{pixel} \leq x_{\mathrm{pix}} \leq \SI{1700}{pixel}$
+に拡大したものを合わせて示している。
+スケーラの目盛は黒く塗られており、その間は金属により光を反射しているため、その輝度は目盛上で低く、目盛間で高くなる。
+理想的には、この輝度の変化は階段関数的である。
+一つの目盛とその周りに対して、その輝度は目盛上で低く $B_{\mathrm{scaler}}^{\mathrm{single}}(x)$ は
+\begin{align}
+    B_{\mathrm{scaler, ideal}}^{\mathrm{single}}(x) &= -\dfrac{B}{2}\qty[\theta(x-x_{\mathrm{left}})+\theta(x_{\mathrm{right}}-x)] + \mathrm{offset} \\
+    \theta(x) &= \begin{cases}
+        1 & (x>0) \\
+        0 & (x\leq 0)
+    \end{cases}
+\end{align}
+のように表せる。$B$ は輝度の最大値と最小値の差、$x_{\mathrm{left}},\,x_{\mathrm{right}}$ は目盛の左端と右端の位置、$\mathrm{offset}$ は輝度のオフセットである。
+しかし、実際には写真のピントにより輝度がぼやけてしまい、図\ref{fig:wiresag_scaler_brightness} のように滑らかに輝度が変化する。
+そこで、この階段関数をシグモイド間数に置き換えることでこの輝度の変化をモデル化する。
+\begin{align}
+    B_{\mathrm{scaler}}^{\mathrm{single}}(x) = \dfrac{B}{2}
+\end{align}
 \begin{figure}[H]
-    \begin{minipage}[b]{0.5\hsize}
-        \centering
-        \includegraphics[width=0.8\textwidth]{wiresag/wiresag_picture_scalar.pdf}
-        \caption{スケーラの輝度}
-    \end{minipage}
-    \begin{minipage}[b]{0.5\hsize}
-        
-    \end{minipage}
+    \centering
+    \includegraphics[width=0.7\textwidth]{wiresag/wiresag_scaler_target.pdf}
+    \caption{写真中における $y_{\mathrm{pix}}=\SI{200}{pixel}$ の目安}
+    \label{fig:wiresag_scaler_target}
 \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{wiresag/wiresag_scaler_brightness.pdf}
+    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ における輝度}
+    \label{fig:wiresag_scaler_brightness}
+\end{figure}
+
+
 \subsection{ワイヤーのfitting}
 \subsection{ストレートエッジのfitting}
 \subsection{画像の回転}
