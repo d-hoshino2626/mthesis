@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 18:15
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 19:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1144,7 +1144,7 @@ File: ./fig//wiresag/wiresag_straight_edge_positions_line.pdf Graphic file (type
 File: ./fig//wiresag/wiresag_straight_edge_positions_rot.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_straight_edge_positions_rot.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 368--382
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 365--379
 [][] [] 
  []
 
@@ -1163,7 +1163,7 @@ File: ./fig//wiresag/wiresag_wire_positions.pdf Graphic file (type pdf)
 File: ./fig//wiresag/wiresag_wire_positions_rot.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_wire_positions_rot.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 409--423
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 406--420
 [][] [] 
  []
 
@@ -1177,11 +1177,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [44]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 427.
+(hyperref)                removing `math shift' on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 427.
+(hyperref)                removing `math shift' on input line 424.
 
 File: ./fig//wiresag/wiresag_wire_se_positions_diff.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_wire_se_positions_diff.pdf>
@@ -1227,35 +1227,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [48]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 525.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 525.
-
 File: ./fig//wiresag/wiresag_concept_yoko.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_concept_yoko.pdf>
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
-[49]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
-
-
-LaTeX Warning: Reference `' on page 50 undefined on input line 588.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1263,7 +1237,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[50]) (./sub/future/future.tex
+[49]) (./sub/future/future.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[50]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1375,19 +1357,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [62] (.tex_intermediates/main.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5AC5B3E1F803788B01C877798537B48C;11269.
+(rerunfilecheck)             Checksum: FA900BD78A498A2D67B5C37BF732CC3C;10478.
  ) 
 Here is how much of TeX's memory you used:
- 18295 strings out of 476677
- 361450 string characters out of 5804957
+ 18293 strings out of 476677
+ 361435 string characters out of 5804957
  1876490 words of memory out of 5000000
- 38364 multiletter control sequences out of 15000+600000
+ 38362 multiletter control sequences out of 15000+600000
  567499 words of font info for 135 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,22n,81p,4007b,1163s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/main.dvi (67 pages, 286036 bytes).
+Output written on .tex_intermediates/main.dvi (67 pages, 283568 bytes).
