@@ -177,7 +177,7 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
     c_1 &= a\sinh^{-1}\qty[\dfrac{Y}{2a\sinh\qty(\dfrac{X}{2a})}] \\
     c_2 &= -a\cosh\qty(\dfrac{c_1}{a})
 \end{align}
-となる。ただし、$X,\,Y$ は
+となる。ただし、$X,\,Y$は
 \begin{align}
     L_{\mathrm{frame}} &= \sqrt{X^2+Y^2}
 \end{align}
@@ -203,9 +203,9 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
 この系において、測定される量 $z'$ を用いてストレートエッジとワイヤー間の距離 $z$ を表すと、
 \begin{align}
     z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
-    \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\beta})
+    \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\alpha})
 \end{align}
-となるが、今、$L_{\mathrm{camera}}$ は $\SI{0}{mm}$ であるため、
+となるが、今、$L_{\mathrm{camera}}$は$\SI{0}{mm}$であるため、
 \begin{align}
     z = z'
 \end{align}
@@ -242,7 +242,7 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
 これを解決するため、スパースワイヤーグリッドを鉛直方向に立てて撮影を行うことで、$L_{\mathrm{camera}}=0\pm\SI{0.5}{mm}$ で撮影を行い、誤差の低減を図った。
 新しい評価系において、$z$ の誤差は
 \begin{align}
-    \delta z = \sqrt{\qty(\dfrac{1}{\cos\phi})^2\delta z'^2 + \qty(\dfrac{\tan\phi}{\cos\phi}+\dfrac{\beta}{\cos^2\phi})^2\delta\phi^2 + \tan^2\phi\delta\beta^2}
+    \delta z = \sqrt{\qty(\dfrac{1}{\cos\phi})^2\delta z'^2 + \qty(\dfrac{\tan\phi}{\cos\phi}+\dfrac{\alpha}{\cos^2\phi})^2\delta\phi^2 + \tan^2\phi\delta\alpha^2}
 \end{align}
 と表され、表\ref{tab:wiresag_concept_yoko_params}に示したパラメータの誤差を代入すると、
 \begin{equation}
@@ -332,7 +332,7 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 また、$1400 < x_{\mathrm{pix}} < 1600$ あたりの急激に輝度が上がり、再び急激に下がっている部分がワイヤーを表している。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{wiresag/wiresag_edge_target.pdf}
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_edge_target.pdf}
     \caption{写真中における $x_{\mathrm{pix}}=\SI{1575}{pixel}$ の目安}
     \label{fig:wiresag_edge_target}
 \end{figure}
@@ -441,31 +441,31 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
     \delta z &= \SI{6e-3}{\mu m}
 \end{align}
 となる。
-評価系の設計から生まれる誤差は $\SI{49}{\mu m}$ であったため、この誤差は無視できる程度である。
-このようにして、撮影された画像から代表点として $z$ を一つ算出することができる。
+評価系の設計から生まれる誤差は$\SI{49}{\mu m}$であったため、この誤差は無視できる程度である。
+このようにして、撮影された画像から代表点として$z$を一つ算出することができる。
 \subsection{カテナリーでのfitting}
-一本のワイヤーに対して複数の写真を撮り、それぞれの写真から得られた $z$ をカテナリー曲線で fitting することで、ワイヤーのたわみ量を算出する。
-このとき、fitting に用いるカテナリーは式\eqref{eq:wiresag_catenary_tilt}で表されるものである。
+一本のワイヤーに対して複数の写真を撮り、それぞれの写真から得られた$z$をカテナリー曲線でfittingすることで、ワイヤーのたわみ量を算出する。
+このとき、fittingに用いるカテナリーは式\eqref{eq:wiresag_catenary_tilt}で表されるものである。
 ただし、式\eqref{eq:wiresag_catenary_tilt}ではワイヤーの左端が $(0,\,0)$ に位置していることを仮定していたので、
 これを並行移動する自由度を入れることで、より一般的なカテナリー曲線を得る。
-すなわち、fitting に用いるカテナリー曲線は
+すなわち、fittingに用いるカテナリー曲線は
 \begin{align}
     f_{\mathrm{tilt}}(x;a,\,X,\,Y,\,x_{\mathrm{offset}},\,y_{\mathrm{offset}}) &= a\cosh\qty(\dfrac{x+x_{\mathrm{offset}}+c_1}{a}) + c_2 - y_{\mathrm{offset}}\\
     c_1 &= a\sinh^{-1}\qty[\dfrac{Y}{2a\sinh\qty(\dfrac{X}{2a})}] \\
     c_2 &= -a\cosh\qty(\dfrac{c_1}{a})
 \end{align}
-となる。fitting parameter は $a,\,X,\,Y,\,x_{\mathrm{offset}},\,y_{\mathrm{offset}}$ であり、
-$X,\,Y$ の間には、式\eqref{eq:wiresag_frame_length}によりワイヤーに対して定まる $L_{\mathrm{frame}}$ を用いて
+となる。fitting parameterは$a,\,X,\,Y,\,x_{\mathrm{offset}},\,y_{\mathrm{offset}}$であり、
+$X,\,Y$ の間には、式\eqref{eq:wiresag_frame_length}によりワイヤーに対して定まる$L_{\mathrm{frame}}$を用いて
 \begin{align}
     L_{\mathrm{frame}} &= \sqrt{X^2+Y^2}
 \end{align}
-という拘束条件がある。また、$z$ は距離を表しているので、fitting を行う時には
+という拘束条件がある。また、$z$ は距離を表しているので、fittingを行う時には
 \begin{align}
-    z_{i} &= -f_{\mathrm{tilt}}(x_{i};a,\,X,\,Y,\,x_{\mathrm{offset}},\,y_{\mathrm{offset}})
+    z_{i} &= -f_{\mathrm{tilt}}(x_{i};\,a,\,X,\,Y,\,x_{\mathrm{offset}},\,y_{\mathrm{offset}})
 \end{align}
 となることに注意。
-図\ref{fig:wiresag_catenary}に、$z$ とカテナリー曲線で fitting した結果を示す。
-$z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{\mu m}$ と、fitting ここまでの処理で得られた誤差を考えた。
+図\ref{fig:wiresag_catenary}に、$z$ とカテナリー曲線でfittingした結果を示す。
+$z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{\mu m}$ と、fittingここまでの処理で得られた誤差を考えた。
 このfittingにより求めた $a$ を式\eqref{eq:wiresag_sag}に代入することで、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ を得る。
 さらに、求めた $d_{\mathrm{sag}}$ を式\eqref{eq:wiresag_sag_angle}に代入することで、ワイヤーのたわみ角を得る。
 今回の例では
@@ -483,8 +483,22 @@ $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{
 \section{開発した評価系の原理検証}
 \subsection{評価手法}
 これまで述べてきた手法の原理検証として、張力を変えた時のたわみの変化を測定する。
-評価系に図\ref{}のような治具をつけ、治具の溝に沿うようにワイヤーを張る。
-溝は水平方向と鉛直方向を滑らかに接続しており、鉛直方向に出てきたワイヤーにフックをつけ、フックに重りをつけることでワイヤーの張力を調節できるようにする。
+評価系に図\ref{fig:wiresag_performance_zig}のような治具をつけ、治具の溝に沿うようにワイヤーを張る。
+溝は水平方向と鉛直方向を滑らかに接続しており、鉛直方向に出てきたワイヤーにフックをつけ、
+フックに重りをつけることでワイヤーの張力を調節できるようになっている。
+図\ref{}に実際に評価系に治具を取り付け、ワイヤーを張ったときの様子を示す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{wiresag/wiresag_performance_zig.pdf}
+    \caption{張力を変えた時のたわみの変化の原理検証の概念図}
+    \label{fig:wiresag_performance_zig}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{wiresag/wiresag_performance_check_system.pdf}
+    \caption{作成した評価系の原理検証のための測定時の様子}
+    \label{fig:wiresag_performance_cehck_system}    
+\end{figure}
 \subsection{評価結果とその考察}
 
 \section{スパースワイヤーグリッドのたわみ量の評価}
