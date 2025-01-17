@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 16:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -631,49 +631,11 @@ File: ../../fig//wiresag/wiresag_rotation.pdf Graphic file (type pdf)
  [5]
 File: ../../fig//wiresag/wire_catenary_tilt.pdf Graphic file (type pdf)
 <../../fig//wiresag/wire_catenary_tilt.pdf>
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 198.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 198.
-
-
-LaTeX Warning: Reference `fig:wiresag_setup_old' on page 6 undefined on input line 200.
-
-File: ../../fig//wiresag/wiresag_concept_yoko.pdf Graphic file (type pdf)
-<../../fig//wiresag/wiresag_concept_yoko.pdf>
-[6]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 235.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 235.
-
+ [6]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 237.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 237.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 237.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 237.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 237.
-
-LaTeX Warning: Citation `swg:murata' on page 7 undefined on input line 237.
-
-
-LaTeX Warning: Reference `fig:wiresag_picture_old' on page 7 undefined on input line 241.
-
-[7]
+(Font)              scaled to size 7.69775pt on input line 302.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 302.
- [8]
 File: ../../fig//wiresag/wiresag_scaler_target.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_scaler_target.pdf>
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -688,16 +650,18 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 4.8111pt on input line 307.
 File: ../../fig//wiresag/wiresag_scaler_brightness.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_scaler_brightness.pdf>
+ [7]
 File: ../../fig//wiresag/wiresag_scaler_fitting.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_scaler_fitting.pdf>
- [9]
+ [8]
 File: ../../fig//wiresag/wiresag_edge_target.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_edge_target.pdf>
 File: ../../fig//wiresag/wiresag_edge_brightness.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_edge_brightness.pdf>
- [10] [11]
+ [9]
 File: ../../fig//wiresag/wiresag_straight_edge_fit.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_straight_edge_fit.pdf>
+ [10]
 File: ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_straight_edge_positions_line.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
@@ -711,7 +675,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 368--382
 [][] [] 
  []
 
-[12]
+[11]
 File: ../../fig//wiresag/wiresag_wire_fit.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_wire_fit.pdf>
 File: ../../fig//wiresag/wiresag_wire_positions.pdf Graphic file (type pdf)
@@ -723,7 +687,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 409--423
 [][] [] 
  []
 
-[13]
+[12]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 427.
@@ -732,29 +696,64 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 427.
 
-[14]
 File: ../../fig//wiresag/wiresag_wire_se_positions_diff.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_wire_se_positions_diff.pdf>
- [15]
+[13] [14]
 File: ../../fig//wiresag/wiresag_catenary.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_catenary.pdf>
 File: ../../fig//wiresag/wiresag_performance_zig.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_performance_zig.pdf>
 File: ../../fig//wiresag/wiresag_performance_check_system.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_performance_check_system.pdf>
- [16]
+ [15]
 File: ../../fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_performance_check_result.pdf>
- [17]
+ [16]
 
-LaTeX Warning: Reference `' on page 18 undefined on input line 526.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 525.
 
-[18] (.tex_intermediates/wiresag.aux)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 525.
+
+
+LaTeX Warning: Reference `fig:wiresag_setup_old' on page 17 undefined on input line 527.
+
+File: ../../fig//wiresag/wiresag_concept_yoko.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_concept_yoko.pdf>
+[17]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 562.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 562.
+
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 564.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 564.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 564.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 564.
+
+LaTeX Warning: Citation `swg:murata' on page 18 undefined on input line 564.
+
+
+LaTeX Warning: Reference `fig:wiresag_picture_old' on page 18 undefined on input line 568.
+
+
+LaTeX Warning: Reference `' on page 18 undefined on input line 588.
+
+[18] [19] (.tex_intermediates/wiresag.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `wiresag.out' has not changed.
-(rerunfilecheck)             Checksum: 4CC68191A8AB06C8613F624D9E1F82A3;3312.
+(rerunfilecheck)             Checksum: 20D49D1C3284C21D6C562480395BE507;3479.
  ) 
 Here is how much of TeX's memory you used:
  17789 strings out of 476677
@@ -763,6 +762,6 @@ Here is how much of TeX's memory you used:
  37978 multiletter control sequences out of 15000+600000
  564305 words of font info for 125 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,15n,94p,411b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,15n,94p,411b,1048s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (18 pages, 70444 bytes).
+Output written on .tex_intermediates/wiresag.dvi (19 pages, 71016 bytes).

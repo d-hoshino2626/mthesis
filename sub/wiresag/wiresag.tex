@@ -195,66 +195,66 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
     \label{fig:wiresag_concept_tilt}
 \end{figure}
 
-\subsection{評価系の光学系を考慮した $z$ の測定原理}
-図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
-これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて変更したものであり、
-カメラから見るとストレートエッジが手前に位置し、ワイヤーがその奥に位置するような配置になっている。
-各パラメータの意味とその値、誤差を表\ref{tab:wiresag_concept_yoko_params}に示す。
-この系において、測定される量 $z'$ を用いてストレートエッジとワイヤー間の距離 $z$ を表すと、
-\begin{align}
-    z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
-    \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\alpha})
-\end{align}
-となるが、今、$L_{\mathrm{camera}}$は$\SI{0}{mm}$であるため、
-\begin{align}
-    z = z'
-\end{align}
-として問題ない。
+% \subsection{評価系の光学系を考慮した $z$ の測定原理}
+% 図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
+% これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて変更したものであり、
+% カメラから見るとストレートエッジが手前に位置し、ワイヤーがその奥に位置するような配置になっている。
+% 各パラメータの意味とその値、誤差を表\ref{tab:wiresag_concept_yoko_params}に示す。
+% この系において、測定される量 $z'$ を用いてストレートエッジとワイヤー間の距離 $z$ を表すと、
+% \begin{align}
+%     z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
+%     \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\alpha})
+% \end{align}
+% となるが、今、$L_{\mathrm{camera}}$は$\SI{0}{mm}$であるため、
+% \begin{align}
+%     z = z'
+% \end{align}
+% として問題ない。
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept_yoko.pdf}
-    \caption{ワイヤーのたわみ量の評価原理の横から見た概念図}
-    \label{fig:wiresag_concept_yoko}
-\end{figure}
-\begin{table}[H]
-    \centering
-    \caption{図\ref{fig:wiresag_concept_yoko}における各パラメータの意味と値}
-    \begin{tabular}{cccc}
-        \hline
-        パラメータ & 意味 & 値 & 誤差 \\
-        \hline\hline
-        $\alpha$ & ストレートエッジとワイヤーまでの水平距離 & $\SI{15}{mm}$ & $\pm\SI{2}{mm}$ \\
-        $\beta$ & ストレートエッジからカメラまでの水平距離 & $\SI{205}{\mm}$ & $\pm\SI{5}{mm}$ \\
-        $L_{\mathrm{camera}}$ & ストレートエッジ下端の面からカメラまでの鉛直距離 & $\SI{0}{mm}$ & $\pm\SI{0.5}{mm}$ \\
-        \hline
-    \end{tabular}
-    \label{tab:wiresag_concept_yoko_params}
-\end{table}
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept_yoko.pdf}
+%     \caption{ワイヤーのたわみ量の評価原理の横から見た概念図}
+%     \label{fig:wiresag_concept_yoko}
+% \end{figure}
+% \begin{table}[H]
+%     \centering
+%     \caption{図\ref{fig:wiresag_concept_yoko}における各パラメータの意味と値}
+%     \begin{tabular}{cccc}
+%         \hline
+%         パラメータ & 意味 & 値 & 誤差 \\
+%         \hline\hline
+%         $\alpha$ & ストレートエッジとワイヤーまでの水平距離 & $\SI{15}{mm}$ & $\pm\SI{2}{mm}$ \\
+%         $\beta$ & ストレートエッジからカメラまでの水平距離 & $\SI{205}{\mm}$ & $\pm\SI{5}{mm}$ \\
+%         $L_{\mathrm{camera}}$ & ストレートエッジ下端の面からカメラまでの鉛直距離 & $\SI{0}{mm}$ & $\pm\SI{0.5}{mm}$ \\
+%         \hline
+%     \end{tabular}
+%     \label{tab:wiresag_concept_yoko_params}
+% \end{table}
 
-\subsection{評価系の設計から生まれる $z$ の誤差の見積もり}
-過去の手法においては、$\phi$ が典型的に $5\tcdegree$ 程度と小さくない値であったために、
-$L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じていた\cite{swg:murata}。
-この誤差を抑えるためには、$\phi$ を小さくすることが重要であるが、
-過去の評価系ではスパースワイヤーグリッドを水平面上に設置して撮影しており、
-他のワイヤーが撮影対象のワイヤーに重なってしまうため $\phi\sim 0\tcdegree$、すなわち 
-$L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった(図\ref{fig:wiresag_picture_old})。
-これを解決するため、スパースワイヤーグリッドを鉛直方向に立てて撮影を行うことで、$L_{\mathrm{camera}}=0\pm\SI{0.5}{mm}$ で撮影を行い、誤差の低減を図った。
-新しい評価系において、$z$ の誤差は
-\begin{align}
-    \delta z = \sqrt{\qty(\dfrac{1}{\cos\phi})^2\delta z'^2 + \qty(\dfrac{\tan\phi}{\cos\phi}+\dfrac{\alpha}{\cos^2\phi})^2\delta\phi^2 + \tan^2\phi\delta\alpha^2}
-\end{align}
-と表され、表\ref{tab:wiresag_concept_yoko_params}に示したパラメータの誤差を代入すると、
-\begin{equation}
-    \delta z \sim \SI{39}{\mu m}
-\end{equation}
-となる。$z'$ の誤差についてはカメラの $\SI{1}{pixel}$ が対応する長さであり、
-次節の解析にて明らかになるがこれは典型的に $5\sim\SI{6}{\mu m}$ 程度である。
-また、$z$ にはストレートエッジの真直度由来の誤差 $\SI{30}{\mu m}$ が含まれるため、これも考慮に入れると $z$ の誤差は
-\begin{equation}
-    \delta z = \sqrt{39^2+30^2}\ \mu\mathrm{m} = \SI{49}{\mu m}
-\end{equation}
-程度だと見積もられる。
+% \subsection{評価系の設計から生まれる $z$ の誤差の見積もり}
+% 過去の手法においては、$\phi$ が典型的に $5\tcdegree$ 程度と小さくない値であったために、
+% $L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じていた\cite{swg:murata}。
+% この誤差を抑えるためには、$\phi$ を小さくすることが重要であるが、
+% 過去の評価系ではスパースワイヤーグリッドを水平面上に設置して撮影しており、
+% 他のワイヤーが撮影対象のワイヤーに重なってしまうため $\phi\sim 0\tcdegree$、すなわち 
+% $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった(図\ref{fig:wiresag_picture_old})。
+% これを解決するため、スパースワイヤーグリッドを鉛直方向に立てて撮影を行うことで、$L_{\mathrm{camera}}=0\pm\SI{0.5}{mm}$ で撮影を行い、誤差の低減を図った。
+% 新しい評価系において、$z$ の誤差は
+% \begin{align}
+%     \delta z = \sqrt{\qty(\dfrac{1}{\cos\phi})^2\delta z'^2 + \qty(\dfrac{\tan\phi}{\cos\phi}+\dfrac{\alpha}{\cos^2\phi})^2\delta\phi^2 + \tan^2\phi\delta\alpha^2}
+% \end{align}
+% と表され、表\ref{tab:wiresag_concept_yoko_params}に示したパラメータの誤差を代入すると、
+% \begin{equation}
+%     \delta z \sim \SI{39}{\mu m}
+% \end{equation}
+% となる。$z'$ の誤差についてはカメラの $\SI{1}{pixel}$ が対応する長さであり、
+% 次節の解析にて明らかになるがこれは典型的に $5\sim\SI{6}{\mu m}$ 程度である。
+% また、$z$ にはストレートエッジの真直度由来の誤差 $\SI{30}{\mu m}$ が含まれるため、これも考慮に入れると $z$ の誤差は
+% \begin{equation}
+%     \delta z = \sqrt{39^2+30^2}\ \mu\mathrm{m} = \SI{49}{\mu m}
+% \end{equation}
+% 程度だと見積もられる。
 
 \section{解析手法}
 \subsection{解析の流れ}
@@ -464,19 +464,19 @@ $X,\,Y$ の間には、式\eqref{eq:wiresag_frame_length}によりワイヤー�
 \begin{align}
     L_{\mathrm{frame}} &= \sqrt{X^2+Y^2}
 \end{align}
-という拘束条件がある。また、$z$ は距離を表しているので、fittingを行う時には
+という拘束条件がある。また、$z$ は距離を表しているので
 \begin{align}
     z_{i} &= -f_{\mathrm{tilt}}(x_{i};\,a,\,X,\,Y,\,x_{\mathrm{offset}},\,y_{\mathrm{offset}})
 \end{align}
-となることに注意。
+としてfittingを行う。
 図\ref{fig:wiresag_catenary}に、$z$ とカテナリー曲線でfittingした結果を示す。
 $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{\mu m}$ と、fittingここまでの処理で得られた誤差を考えた。
 このfittingにより求めた $a$ を式\eqref{eq:wiresag_sag}に代入することで、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ を得る。
 さらに、求めた $d_{\mathrm{sag}}$ を式\eqref{eq:wiresag_sag_angle}に代入することで、ワイヤーのたわみ角を得る。
 今回の例では
 \begin{align}
-    d_{\mathrm{sag}} &= 38.2 \pm \SI{1}{\mu m} \\
-    \theta_{\mathrm{sag}} &= 0.011\tcdegree \pm 0.0003 \tcdegree
+    d_{\mathrm{sag}} &= 275 \pm \SI{5}{\mu m} \\
+    \theta_{\mathrm{sag}} &= 0.041\tcdegree \pm 0.0007 \tcdegree
 \end{align}
 を得た。
 \begin{figure}[H]
@@ -508,18 +508,80 @@ $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{
 \end{figure}
 
 \subsection{評価結果とその考察}
-図\ref{fig:wiresag_performance_check_result}に、張力を変えた時のたわみ量の変化を示す。
+図\ref{fig:wiresag_performance_check_result}に張力を変えた時の評価されたたわみ量の遷移を示す。
 横軸は吊るした重りの重さ、縦軸はワイヤーのたわみ量を示している。
 青点は評価されたたわみ量を表し、オレンジの線はワイヤーの長さと重りの重さを決めることで
-式\eqref{eq:wiresag_catenary_nominal}より求められる理論的なたわみ量を表している。
+式\eqref{eq:wiresag_sag_angle}より求められる理論的なたわみ量を表している。
 また、参考としてスパースワイヤーグリッドのワイヤーを張る時に使う重りの重さ$\SI{230}{g}$のところに点線を入れている。
-この結果から、スパースワイヤーグリッドにかかる張力付近でのたわみ量を$\order{\SI{10}{\mu m}}$の程度の精度で測定できることがわかった。
+この結果から、得られた評価値と理論値の差は最大で$\SI{50}{\mu m}$程度であるとわかった。
+そのため、この評価系で評価されるたわみ量の精度は、$\SI{50}{\mu m}$程度であると結論づける。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_performance_check_result.pdf}
     \caption{張力を変えた時のたわみ量の変化}
     \label{fig:wiresag_performance_check_result}
 \end{figure}
+\subsection{得られた誤差の考察}
+\subsection{評価系の光学系を考慮した $z$ の測定原理}
+図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
+これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて変更したものであり、
+カメラから見るとストレートエッジが手前に位置し、ワイヤーがその奥に位置するような配置になっている。
+各パラメータの意味とその値、誤差を表\ref{tab:wiresag_concept_yoko_params}に示す。
+この系において、測定される量 $z'$ を用いてストレートエッジとワイヤー間の距離 $z$ を表すと、
+\begin{align}
+    z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
+    \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\alpha})
+\end{align}
+となるが、今、$L_{\mathrm{camera}}$は$\SI{0}{mm}$であるため、
+\begin{align}
+    z = z'
+\end{align}
+として問題ない。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept_yoko.pdf}
+    \caption{ワイヤーのたわみ量の評価原理の横から見た概念図}
+    \label{fig:wiresag_concept_yoko}
+\end{figure}
+\begin{table}[H]
+    \centering
+    \caption{図\ref{fig:wiresag_concept_yoko}における各パラメータの意味と値}
+    \begin{tabular}{cccc}
+        \hline
+        パラメータ & 意味 & 値 & 誤差 \\
+        \hline\hline
+        $\alpha$ & ストレートエッジとワイヤーまでの水平距離 & $\SI{15}{mm}$ & $\pm\SI{2}{mm}$ \\
+        $\beta$ & ストレートエッジからカメラまでの水平距離 & $\SI{205}{\mm}$ & $\pm\SI{5}{mm}$ \\
+        $L_{\mathrm{camera}}$ & ストレートエッジ下端の面からカメラまでの鉛直距離 & $\SI{0}{mm}$ & $\pm\SI{0.5}{mm}$ \\
+        \hline
+    \end{tabular}
+    \label{tab:wiresag_concept_yoko_params}
+\end{table}
+
+\subsection{評価系の設計から生まれる $z$ の誤差の見積もり}
+過去の手法においては、$\phi$ が典型的に $5\tcdegree$ 程度と小さくない値であったために、
+$L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じていた\cite{swg:murata}。
+この誤差を抑えるためには、$\phi$ を小さくすることが重要であるが、
+過去の評価系ではスパースワイヤーグリッドを水平面上に設置して撮影しており、
+他のワイヤーが撮影対象のワイヤーに重なってしまうため $\phi\sim 0\tcdegree$、すなわち 
+$L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった(図\ref{fig:wiresag_picture_old})。
+これを解決するため、スパースワイヤーグリッドを鉛直方向に立てて撮影を行うことで、$L_{\mathrm{camera}}=0\pm\SI{0.5}{mm}$ で撮影を行い、誤差の低減を図った。
+新しい評価系において、$z$ の誤差は
+\begin{align}
+    \delta z = \sqrt{\qty(\dfrac{1}{\cos\phi})^2\delta z'^2 + \qty(\dfrac{\tan\phi}{\cos\phi}+\dfrac{\alpha}{\cos^2\phi})^2\delta\phi^2 + \tan^2\phi\delta\alpha^2}
+\end{align}
+と表され、表\ref{tab:wiresag_concept_yoko_params}に示したパラメータの誤差を代入すると、
+\begin{equation}
+    \delta z \sim \SI{39}{\mu m}
+\end{equation}
+となる。$z'$ の誤差についてはカメラの $\SI{1}{pixel}$ が対応する長さであり、
+次節の解析にて明らかになるがこれは典型的に $5\sim\SI{6}{\mu m}$ 程度である。
+また、$z$ にはストレートエッジの真直度由来の誤差 $\SI{30}{\mu m}$ が含まれるため、これも考慮に入れると $z$ の誤差は
+\begin{equation}
+    \delta z = \sqrt{39^2+30^2}\ \mu\mathrm{m} = \SI{49}{\mu m}
+\end{equation}
+程度だと見積もられる。
 \section{スパースワイヤーグリッドのたわみ量の評価}
 \subsection{評価手法}
 作成した評価系を用いて、スパースワイヤーグリッドのたわみ量を評価する。
