@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 09:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -739,19 +739,15 @@ LaTeX Warning: Reference `' on page 14 undefined on input line 429.
 [14]
 File: ../../fig//wiresag/wiresag_catenary.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_catenary.pdf>
-
-
-LaTeX Warning: Reference `fig:' on page 15 undefined on input line 486.
-
-
-LaTeX Warning: Reference `' on page 15 undefined on input line 489.
-
 File: ../../fig//wiresag/wiresag_performance_zig.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_performance_zig.pdf>
-[15]
+ [15]
 File: ../../fig//wiresag/wiresag_performance_check_system.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_performance_check_system.pdf>
- [16] [17] (.tex_intermediates/wiresag.aux)
+ [16]
+File: ../../fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_performance_check_result.pdf>
+ [17] [18] (.tex_intermediates/wiresag.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -759,12 +755,12 @@ Package rerunfilecheck Info: File `wiresag.out' has not changed.
 (rerunfilecheck)             Checksum: F6D3D26963DDA2E9AD69510CDF64AD6D;3185.
  ) 
 Here is how much of TeX's memory you used:
- 17773 strings out of 476677
- 345492 string characters out of 5804957
+ 17780 strings out of 476677
+ 345905 string characters out of 5804957
  1858490 words of memory out of 5000000
- 37964 multiletter control sequences out of 15000+600000
+ 37970 multiletter control sequences out of 15000+600000
  564305 words of font info for 125 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,15n,94p,411b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (17 pages, 66572 bytes).
+Output written on .tex_intermediates/wiresag.dvi (18 pages, 68276 bytes).

@@ -1055,6 +1055,9 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_performance_zig.pdf
 INPUT ../../fig//wiresag/wiresag_performance_check_system.pdf
 INPUT ../../fig//wiresag/wiresag_performance_check_system.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_performance_check_system.pdf
+INPUT ../../fig//wiresag/wiresag_performance_check_result.pdf
+INPUT ../../fig//wiresag/wiresag_performance_check_result.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_performance_check_result.pdf
 INPUT .tex_intermediates/wiresag.aux
 INPUT .tex_intermediates/wiresag.out
 INPUT .tex_intermediates/wiresag.out

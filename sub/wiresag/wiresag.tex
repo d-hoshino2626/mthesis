@@ -482,11 +482,13 @@ $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{
 \end{figure}
 \section{開発した評価系の原理検証}
 \subsection{評価手法}
-これまで述べてきた手法の原理検証として、張力を変えた時のたわみの変化を測定する。
+これまで述べてきた手法の原理検証として、張力を変えながらのたわみ量を測定する。
 評価系に図\ref{fig:wiresag_performance_zig}のような治具をつけ、治具の溝に沿うようにワイヤーを張る。
 溝は水平方向と鉛直方向を滑らかに接続しており、鉛直方向に出てきたワイヤーにフックをつけ、
 フックに重りをつけることでワイヤーの張力を調節できるようになっている。
-図\ref{}に実際に評価系に治具を取り付け、ワイヤーを張ったときの様子を示す。
+実際に評価系に治具を取り付け、ワイヤーを張ったときの様子を図\ref{fig:wiresag_performance_cehck_system}に示す。
+このとき、張られたワイヤーの両端間の距離は$\SI{757}{mm}$で、
+重りは$\SI{158}{g},\,\SI{178}{g},\,\SI{190}{g},\,\SI{218}{g},\,\SI{228}{g},\,\SI{239}{g},\,\SI{250}{g}$のものを使用した。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{wiresag/wiresag_performance_zig.pdf}
@@ -499,8 +501,17 @@ $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{
     \caption{作成した評価系の原理検証のための測定時の様子}
     \label{fig:wiresag_performance_cehck_system}    
 \end{figure}
-\subsection{評価結果とその考察}
 
+\subsection{評価結果とその考察}
+図\ref{fig:wiresag_performance_check_result}に、張力を変えた時のたわみ量の変化を示す。
+横軸は吊るした重りの重さ、縦軸はワイヤーのたわみ量を示しており、
+参考としてスパースワイヤーグリッドのワイヤーを張る時に使う重りの重さ$\SI{230}{g}$に点線を入れている。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_performance_check_result.pdf}
+    \caption{張力を変えた時のたわみ量の変化}
+    \label{fig:wiresag_performance_check_result}
+\end{figure}
 \section{スパースワイヤーグリッドのたわみ量の評価}
 
 \end{document}
