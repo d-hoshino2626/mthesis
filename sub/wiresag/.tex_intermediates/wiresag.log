@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 17:50
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  17 JAN 2025 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -710,58 +710,24 @@ File: ../../fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type
 <../../fig//wiresag/wiresag_performance_check_result.pdf>
  [16]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 525.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 525.
-
-
-LaTeX Warning: Reference `fig:wiresag_setup_old' on page 17 undefined on input line 527.
+LaTeX Warning: Reference `fig:wiresag_setup_old' on page 17 undefined on input line 526.
 
 File: ../../fig//wiresag/wiresag_concept_yoko.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_concept_yoko.pdf>
-[17]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
-
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 564.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 564.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 564.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 564.
-
-LaTeX Warning: Citation `swg:murata' on page 18 undefined on input line 564.
-
-
-LaTeX Warning: Reference `fig:wiresag_picture_old' on page 18 undefined on input line 568.
-
-
-LaTeX Warning: Reference `' on page 18 undefined on input line 588.
-
-[18] [19] (.tex_intermediates/wiresag.aux)
+[17] [18] (.tex_intermediates/wiresag.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `wiresag.out' has not changed.
-(rerunfilecheck)             Checksum: 20D49D1C3284C21D6C562480395BE507;3479.
+(rerunfilecheck)             Checksum: 343201CE97945B6F09325D42D406FBB5;2688.
  ) 
 Here is how much of TeX's memory you used:
- 17789 strings out of 476677
- 346328 string characters out of 5804957
+ 17783 strings out of 476677
+ 346250 string characters out of 5804957
  1857490 words of memory out of 5000000
- 37978 multiletter control sequences out of 15000+600000
- 564305 words of font info for 125 fonts, out of 8000000 for 9000
+ 37972 multiletter control sequences out of 15000+600000
+ 564196 words of font info for 124 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,15n,94p,411b,1048s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (19 pages, 71016 bytes).
+Output written on .tex_intermediates/wiresag.dvi (18 pages, 68968 bytes).

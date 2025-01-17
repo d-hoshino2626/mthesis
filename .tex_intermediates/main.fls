@@ -1151,9 +1151,9 @@ INPUT ./sub/wiresag/wiresag.tex
 INPUT ./fig//wiresag/wiresag_system.pdf
 INPUT ./fig//wiresag/wiresag_system.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_system.pdf
-INPUT ./fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
-INPUT ./fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
-INPUT extractbb -B cropbox -O ./fig//wiresag/20241217_UHF_3_wire2_x467_gray.png
+INPUT ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
+INPUT ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
+INPUT extractbb -B cropbox -O ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
 INPUT ./fig//wiresag/wiresag_concept.pdf
 INPUT ./fig//wiresag/wiresag_concept.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_concept.pdf
@@ -1166,15 +1166,6 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_rotation.pdf
 INPUT ./fig//wiresag/wire_catenary_tilt.pdf
 INPUT ./fig//wiresag/wire_catenary_tilt.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wire_catenary_tilt.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
-INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_concept_yoko.pdf
 INPUT ./fig//wiresag/wiresag_scaler_target.pdf
 INPUT ./fig//wiresag/wiresag_scaler_target.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_scaler_target.pdf
@@ -1208,6 +1199,15 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_wire_positions.pdf
 INPUT ./fig//wiresag/wiresag_wire_positions_rot.pdf
 INPUT ./fig//wiresag/wiresag_wire_positions_rot.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_wire_positions_rot.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT ./fig//wiresag/wiresag_wire_se_positions_diff.pdf
+INPUT ./fig//wiresag/wiresag_wire_se_positions_diff.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_wire_se_positions_diff.pdf
 INPUT ./fig//wiresag/wiresag_catenary.pdf
 INPUT ./fig//wiresag/wiresag_catenary.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_catenary.pdf
@@ -1217,6 +1217,12 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_performance_zig.pdf
 INPUT ./fig//wiresag/wiresag_performance_check_system.pdf
 INPUT ./fig//wiresag/wiresag_performance_check_system.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_performance_check_system.pdf
+INPUT ./fig//wiresag/wiresag_performance_check_result.pdf
+INPUT ./fig//wiresag/wiresag_performance_check_result.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_performance_check_result.pdf
+INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
+INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_concept_yoko.pdf
 INPUT ./sub/future/future.tex
 INPUT ./sub/future/future.tex
 INPUT ./sub/future/future.tex

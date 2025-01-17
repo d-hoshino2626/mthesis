@@ -195,12 +195,12 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
     \label{fig:wiresag_concept_tilt}
 \end{figure}
 
-% \subsection{評価系の光学系を考慮した $z$ の測定原理}
+% \subsection{光学系を考慮した$z$の測定原理}
 % 図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
 % これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて変更したものであり、
 % カメラから見るとストレートエッジが手前に位置し、ワイヤーがその奥に位置するような配置になっている。
 % 各パラメータの意味とその値、誤差を表\ref{tab:wiresag_concept_yoko_params}に示す。
-% この系において、測定される量 $z'$ を用いてストレートエッジとワイヤー間の距離 $z$ を表すと、
+% この系において、測定される量$z'$を用いてストレートエッジとワイヤー間の距離$z$を表すと、
 % \begin{align}
 %     z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
 %     \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\alpha})
@@ -390,15 +390,15 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの赤でマスクされた輝度が高
 \begin{align}
     B_{\mathrm{wire}}(x;\,A,\,\mu,\,\sigma,\,\text{offset}) = A\exp\qty(-\dfrac{(x-\mu)^2}{2\sigma^2}) + \mathrm{offset}
 \end{align}
-として fitting を行う。$A,\,\mu,\,\sigma,\,\text{offset}$ は fitting parameter であり、$\mu$ はワイヤーの中心の位置を表す。
+として fitting を行う。$A,\,\mu,\,\sigma,\,\text{offset}$はfitting parameterであり、$\mu$はワイヤーの中心の位置を表す。
 図\ref{fig:wiresag_edge_target}におけるワイヤーの部分を実際にfittingした結果を図\ref{fig:wiresag_wire_fit}に示す。
 
-一枚の画像に対して、$z$ は代表点として一つのみ算出するため、複数の $x_{\mathrm{pix}}$ に対してワイヤーの位置を求める必要がある。
+一枚の画像に対して、$z$は代表点として一つのみ算出するため、複数の$x_{\mathrm{pix}}$に対してワイヤーの位置を求める必要がある。
 たわみが大きいようなワイヤーに対しては、画像の中でもその位置を大きく変えてしまう。
-これを考慮して、$1132 < x_{\mathrm{pix}} < 2132$ の範囲に対してワイヤーの位置を求める。
+これを考慮して、$1132 < x_{\mathrm{pix}} < 2132$の範囲に対してワイヤーの位置を求める。
 また、前項にて行ったストレートエッジを水平にするための回転をここでも行う必要がある。
 回転前後のワイヤー位置を図\ref{fig:wiresag_wire_positions}に示す。
-回転後のワイヤーの位置の標準偏差は、ワイヤーのたわみ方によって大きく異なるが、典型的には $\order{\SI{1}{pixel}}$ 程度であった。
+回転後のワイヤーの位置の標準偏差は、ワイヤーのたわみ方によって大きく異なるが、典型的には$\order{\SI{1}{pixel}}$程度であった。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_wire_fit.pdf}
@@ -522,12 +522,11 @@ $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{
     \label{fig:wiresag_performance_check_result}
 \end{figure}
 \subsection{得られた誤差の考察}
-\subsection{評価系の光学系を考慮した $z$ の測定原理}
-図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価原理の横から見た概念図を示す。
+図\ref{fig:wiresag_concept_yoko}にワイヤーのたわみ量の評価系を横から見た概念図を示す。
 これは過去の手法における概念図\ref{fig:wiresag_setup_old}を新しい系に合わせて変更したものであり、
 カメラから見るとストレートエッジが手前に位置し、ワイヤーがその奥に位置するような配置になっている。
 各パラメータの意味とその値、誤差を表\ref{tab:wiresag_concept_yoko_params}に示す。
-この系において、測定される量 $z'$ を用いてストレートエッジとワイヤー間の距離 $z$ を表すと、
+この系において、測定される量$z'$を用いてストレートエッジとワイヤー間の距離$z$を表すと、
 \begin{align}
     z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
     \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\alpha})
@@ -537,6 +536,7 @@ $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{
     z = z'
 \end{align}
 として問題ない。
+すなわち、これまでの解析手順に変更はないが、この系を用いて得られるたわみ量の誤差を見積もることができる。
 
 \begin{figure}[H]
     \centering
@@ -559,15 +559,7 @@ $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{
     \label{tab:wiresag_concept_yoko_params}
 \end{table}
 
-\subsection{評価系の設計から生まれる $z$ の誤差の見積もり}
-過去の手法においては、$\phi$ が典型的に $5\tcdegree$ 程度と小さくない値であったために、
-$L_{\mathrm{camera}}$ や $\alpha$ から $z$ へ大きな誤差が生じていた\cite{swg:murata}。
-この誤差を抑えるためには、$\phi$ を小さくすることが重要であるが、
-過去の評価系ではスパースワイヤーグリッドを水平面上に設置して撮影しており、
-他のワイヤーが撮影対象のワイヤーに重なってしまうため $\phi\sim 0\tcdegree$、すなわち 
-$L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった(図\ref{fig:wiresag_picture_old})。
-これを解決するため、スパースワイヤーグリッドを鉛直方向に立てて撮影を行うことで、$L_{\mathrm{camera}}=0\pm\SI{0.5}{mm}$ で撮影を行い、誤差の低減を図った。
-新しい評価系において、$z$ の誤差は
+この評価系において、$z$の誤差は
 \begin{align}
     \delta z = \sqrt{\qty(\dfrac{1}{\cos\phi})^2\delta z'^2 + \qty(\dfrac{\tan\phi}{\cos\phi}+\dfrac{\alpha}{\cos^2\phi})^2\delta\phi^2 + \tan^2\phi\delta\alpha^2}
 \end{align}
@@ -582,10 +574,25 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
     \delta z = \sqrt{39^2+30^2}\ \mu\mathrm{m} = \SI{49}{\mu m}
 \end{equation}
 程度だと見積もられる。
-\section{スパースワイヤーグリッドのたわみ量の評価}
-\subsection{評価手法}
-作成した評価系を用いて、スパースワイヤーグリッドのたわみ量を評価する。
-スパースワイヤーグリッドには\ref{}項で述べたように$\SI{230}{g}$の重りを使用し、
-ワイヤー番号が奇数番目のものと偶数番目のものに分け、二回に分けてワイヤーを張ることで作成された。
+これは$z$についての誤差であるが、ワイヤーの端と中心でこれだけの誤差があり得ると言い換えることもできる。
+すなわち、たわみ量についてはおよそ$\SI{49}{\mu m}$程度の誤差が生じ得る。
+これは性能評価で得た誤差と一致している。
+% \section{スパースワイヤーグリッドのたわみ量の評価}
+% \subsection{評価手法}
+% 作成した評価系を用いて、スパースワイヤーグリッドのたわみ量を評価する。
+% スパースワイヤーグリッドには\ref{}項で述べたように$\SI{230}{g}$の重りを使用し、
+% ワイヤー番号が奇数番目のものと偶数番目のものに分け、二回に分けてワイヤーを張ることで作成された。
+% 作成されたスパースワイヤーグリッドを評価系に取り付けた。
+% 図\ref{}にその様子を示す。
+
+% \subsection{評価結果とその考察}
+% 図\ref{}にスパースワイヤーグリッドでのたわみ量の評価結果を
+
+\section{まとめ}
+本章では、スパースワイヤーグリッドに張られるワイヤーのたわみ量を評価する手法と、その自動化について述べた。
+二本のアクチュエータを駆使することにより、
+作成された評価系の誤差は、既知の張力がかけられたワイヤーのたわみ量を評価することで得られ、その誤差は$\SI{50}{\mu m}$程度であることが確認された。
+
+
 
 \end{document}
