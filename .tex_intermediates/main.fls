@@ -1208,6 +1208,9 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_wire_positions.pdf
 INPUT ./fig//wiresag/wiresag_wire_positions_rot.pdf
 INPUT ./fig//wiresag/wiresag_wire_positions_rot.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_wire_positions_rot.pdf
+INPUT ./fig//wiresag/wiresag_catenary.pdf
+INPUT ./fig//wiresag/wiresag_catenary.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_catenary.pdf
 INPUT ./sub/future/future.tex
 INPUT ./sub/future/future.tex
 INPUT ./sub/future/future.tex
