@@ -68,7 +68,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{wiresag/20241217_UHF_3_wire2_x467_gray.png}
+    \includegraphics[width=0.7\textwidth]{wiresag/20241219_UHF_0_wire23_x467_gray.png}
     \caption{撮影されたストレートエッジとワイヤーの写真の例}
     \label{fig:wiresag_picture}    
 \end{figure}
@@ -258,7 +258,7 @@ $L_{\mathrm{camera}} \sim \SI{0}{mm}$ で撮影することができなかった
 
 \section{解析手法}
 \subsection{解析の流れ}
-撮影された画像は既に図\ref{fig:wiresag_picture}にて示した。
+撮影された画像は既に図\ref{fig:wiresag_picture}にて示した。この図を例として、実際に行う解析の流れを説明する。
 画像の解像度は $\SI{3264}{pixel}\times\SI{2448}{pixel}$ である。
 画像の横軸を $x_{\mathrm{pix}}$、縦軸を $y_{\mathrm{pix}}$ と定め、画像の左上を原点 $(0,\,0)$ とする。
 また、画像の出力フォーマットは yuyv であり、これは各pixelの輝度に関する情報を失うことなく保存される。
@@ -326,20 +326,20 @@ fittingに求められた $d_i$ から、目盛間の pixel 数を求めると�
 \end{figure}
 
 \subsection{ストレートエッジとワイヤーのfitting}
-図\ref{fig:wiresag_edge_target}、図\ref{fig:wiresag_edge_brightness}に、$x_{\mathrm{pix}}=\SI{1575}{pixel}$ における輝度を示す。
-図\ref{fig:wiresag_edge_brightness}において、$x_{\mathrm{pix}}<600$ あたりの輝度が低いところはスケーラの目盛の部分を表しており、
-$600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分がストレートエッジの表面を、その後再び急激に低くなるところがストレートエッジの下端を表している。
-また、$1400 < x_{\mathrm{pix}} < 1600$ あたりの急激に輝度が上がり、再び急激に下がっている部分がワイヤーを表している。
+図\ref{fig:wiresag_edge_target}、図\ref{fig:wiresag_edge_brightness}に、$x_{\mathrm{pix}}=\SI{1665}{pixel}$ における輝度を示す。
+図\ref{fig:wiresag_edge_brightness}において、$x_{\mathrm{pix}}<600$ あたりの緑でマスクされた輝度が低いところはスケーラの目盛の部分を表しており、
+$600 < x_{\mathrm{pix}} < 1100$ あたりの赤でマスクされた輝度が高くなっている部分がストレートエッジの表面を、その後再び急激に低くなるところがストレートエッジの下端を表している。
+また、$1550 < x_{\mathrm{pix}} < 1650$ あたりのオレンジでマスクされた輝度が急上昇、急降下している部分がワイヤーを表している。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_edge_target.pdf}
-    \caption{写真中における $x_{\mathrm{pix}}=\SI{1575}{pixel}$ の目安}
+    \caption{写真中における $x_{\mathrm{pix}}=\SI{1665}{pixel}$ の目安}
     \label{fig:wiresag_edge_target}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_edge_brightness.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ における輝度の例}
+    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$ における輝度の例}
     \label{fig:wiresag_edge_brightness}
 \end{figure}
 \subsubsection{ストレートエッジのfitting}
@@ -354,7 +354,7 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_straight_edge_fit.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ におけるストレートエッジの輝度のfittingの結果の例}
+    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$ におけるストレートエッジの輝度のfittingの結果の例}
     \label{fig:wiresag_edge_fit}
 \end{figure}
 
@@ -402,7 +402,7 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_wire_fit.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1575}{pixel}$ におけるワイヤーの輝度のfittingの結果の例}
+    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$ におけるワイヤーの輝度のfittingの結果の例}
     \label{fig:wiresag_wire_fit}
 \end{figure}
 \begin{figure}[H]
@@ -426,23 +426,28 @@ $600 < x_{\mathrm{pix}} < 1100$ あたりの輝度が高くなっている部分
 
 \subsection{$z$ の算出}
 前々項にて求めた回転後のストレートエッジの位置と、前項にて求めたワイヤーの位置から $z$ を算出する。
-図\ref{}に、回転後のワイヤーの位置からストレートエッジの位置を引いた値 $y_{\mathrm{wire}}-y_{\mathrm{SE}}$ を示す。
+図\ref{fig:wiresag_wire_se_positions_diff}に、回転後のワイヤーの位置からストレートエッジの位置を引いた値 $y_{\mathrm{wire}}-y_{\mathrm{SE}}$ を示す。
 この平均を取ることで、代表的な $z$ と誤差(標準偏差) $\delta z$ を得る。
 今回の例の場合、
 \begin{align}
-    z &= \SI{353}{pixel} \\
+    z &= \SI{500}{pixel} \\
     \delta z &= \SI{1}{pixel}
 \end{align}
 であった。
 スケーラのfittingによれば、1 pixel が対応する長さおよそ $\SI{5.78}{\mu m}$ であった。
 これを用いて $z$ と $\delta z$ を実際の長さに変換すると
 \begin{align}
-    z &= \SI{2040}{\mu m} \\
-    \delta z &= \SI{6e-3}{\mu m}
+    z &= \SI{2890}{\mu m} \\
+    \delta z &= \SI{6}{\mu m}
 \end{align}
-となる。
-評価系の設計から生まれる誤差は$\SI{49}{\mu m}$であったため、この誤差は無視できる程度である。
+となる。ここで得られた $\delta z$ は、統計的な誤差によるものである。
 このようにして、撮影された画像から代表点として$z$を一つ算出することができる。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{wiresag/wiresag_wire_se_positions_diff.pdf}
+    \caption{回転後のワイヤーの位置からストレートエッジの位置を引いた値の例}
+    \label{fig:wiresag_wire_se_positions_diff}    
+\end{figure}
 \subsection{カテナリーでのfitting}
 一本のワイヤーに対して複数の写真を撮り、それぞれの写真から得られた$z$をカテナリー曲線でfittingすることで、ワイヤーのたわみ量を算出する。
 このとき、fittingに用いるカテナリーは式\eqref{eq:wiresag_catenary_tilt}で表されるものである。
