@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  19 JAN 2025 04:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  19 JAN 2025 05:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -562,7 +562,7 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 9.
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 9.
+LaTeX Warning: Reference `chap:wiresag' on page 1 undefined on input line 9.
 
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 15.
@@ -596,48 +596,61 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 25.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 25.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 28.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 28.
-File: ../../fig//wiresag_swg/swg_sag_before.pdf Graphic file (type pdf)
-<../../fig//wiresag_swg/swg_sag_before.pdf>
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 44.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 44.
-File: ../../fig//wiresag_swg/swg_sag_angle_before.pdf Graphic file (type pdf)
-<../../fig//wiresag_swg/swg_sag_angle_before.pdf>
-
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 41--54
-[][] [] 
- []
-
 [1
 
 
-] [2] [3] (.tex_intermediates/wiresag_swg.aux)
+]
+File: ../../fig//wiresag_swg/swg_sag_before.pdf Graphic file (type pdf)
+<../../fig//wiresag_swg/swg_sag_before.pdf>
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 58.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 58.
+File: ../../fig//wiresag_swg/swg_sag_angle_before.pdf Graphic file (type pdf)
+<../../fig//wiresag_swg/swg_sag_angle_before.pdf>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 55--68
+[][] [] 
+ []
+
+File: ../../fig//wiresag_swg/swg_sag_before_even_odd.pdf Graphic file (type pdf)
+<../../fig//wiresag_swg/swg_sag_before_even_odd.pdf>
+[2]
+File: ../../fig//wiresag_swg/swg_sag_after.pdf Graphic file (type pdf)
+<../../fig//wiresag_swg/swg_sag_after.pdf>
+File: ../../fig//wiresag_swg/swg_sag_angle_after.pdf Graphic file (type pdf)
+<../../fig//wiresag_swg/swg_sag_angle_after.pdf>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 96--109
+[][] [] 
+ []
+
+File: ../../fig//wiresag_swg/swg_sag_after_even_odd.pdf Graphic file (type pdf)
+<../../fig//wiresag_swg/swg_sag_after_even_odd.pdf>
+[3]
+File: ../../fig//wiresag_swg/swg_sag_odd_comparison.pdf Graphic file (type pdf)
+<../../fig//wiresag_swg/swg_sag_odd_comparison.pdf>
+File: ../../fig//wiresag_swg/swg_sag_even_comparison.pdf Graphic file (type pdf)
+<../../fig//wiresag_swg/swg_sag_even_comparison.pdf>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 119--132
+[][] [] 
+ []
+
+[4] [5] (.tex_intermediates/wiresag_swg.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `wiresag_swg.out' has not changed.
-(rerunfilecheck)             Checksum: D50097C2DFB0A32C54D801F9F2BEBEFF;689.
+(rerunfilecheck)             Checksum: 68D7F2ADB0A90617D6F619036E8E8451;1002.
  ) 
 Here is how much of TeX's memory you used:
- 17574 strings out of 476677
- 338622 string characters out of 5804957
- 1851490 words of memory out of 5000000
- 37795 multiletter control sequences out of 15000+600000
- 557965 words of font info for 102 fonts, out of 8000000 for 9000
+ 17622 strings out of 476677
+ 340938 string characters out of 5804957
+ 1849490 words of memory out of 5000000
+ 37837 multiletter control sequences out of 15000+600000
+ 557360 words of font info for 100 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,8n,94p,387b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,8n,94p,425b,981s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag_swg.dvi (3 pages, 8608 bytes).
+Output written on .tex_intermediates/wiresag_swg.dvi (5 pages, 19540 bytes).

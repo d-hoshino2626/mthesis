@@ -1,16 +1,22 @@
 # Fdb version 4
-["dvipdf"] 1737230396 "wiresag_swg.dvi" "wiresag_swg.pdf" "wiresag_swg" 1737230397 0
-  "wiresag_swg.dvi" 1737230396 8608 dbfef3118b3056353d76fede19a6837a "latex"
+["dvipdf"] 1737233986 "wiresag_swg.dvi" "wiresag_swg.pdf" "wiresag_swg" 1737233986 0
+  "wiresag_swg.dvi" 1737233986 19540 6d1b449f5e4b224a1c0f019b22ffd065 "latex"
   (generated)
   "wiresag_swg.pdf"
   (rewritten before read)
-["latex"] 1737230395 "wiresag_swg.tex" "wiresag_swg.dvi" "wiresag_swg" 1737230397 0
-  "../../fig//wiresag_swg/swg_sag_angle_before.pdf" 1737229487 20535 595668ec47ebae2ef0aaa0b672b2ae9f ""
-  "../../fig//wiresag_swg/swg_sag_before.pdf" 1737229487 22913 2b1855743872dc555f00da9ccc0cce8f ""
+["latex"] 1737233984 "wiresag_swg.tex" "wiresag_swg.dvi" "wiresag_swg" 1737233986 0
+  "../../fig//wiresag_swg/swg_sag_after.pdf" 1737231822 22916 a7b20b071cf65a1a64765cab94df61cf ""
+  "../../fig//wiresag_swg/swg_sag_after_even_odd.pdf" 1737231852 18891 204c3e27e53bbcb83786b6a52edeef84 ""
+  "../../fig//wiresag_swg/swg_sag_angle_after.pdf" 1737231822 20521 042f1732a4d15a2db5ff72eca6dcf3bf ""
+  "../../fig//wiresag_swg/swg_sag_angle_before.pdf" 1737231822 20535 b7b938fd8362661c1e24e34d4a47c3f0 ""
+  "../../fig//wiresag_swg/swg_sag_before.pdf" 1737231822 22913 f31b9ee42b7ba5e385a1a7d8f6b9fa7f ""
+  "../../fig//wiresag_swg/swg_sag_before_even_odd.pdf" 1737231185 18907 dbb36f9ad8a872c6f96977e4398f9c79 ""
+  "../../fig//wiresag_swg/swg_sag_even_comparison.pdf" 1737232449 19924 2f449e1c878c3294120b5f57026bc691 ""
+  "../../fig//wiresag_swg/swg_sag_odd_comparison.pdf" 1737232449 19321 330a25e9386c1a32827cdf48e074d209 ""
   "../../fig//wiresag_swg/wiresag_sparse_wiregrid.pdf" 1737214069 599512 3ca02ef2cf857d42606cf2cf2d55e186 ""
   "../../main.tex" 1737218192 3159 a2ced8fd3b009457d9da459d4ab7ac5d ""
-  ".tex_intermediates/wiresag_swg.aux" 1737230396 2548 05eb184e4ed66a473290ac38a2a56076 "latex"
-  ".tex_intermediates/wiresag_swg.out" 1737230396 689 d50097c2dfb0a32c54d801f9f2bebeff "latex"
+  ".tex_intermediates/wiresag_swg.aux" 1737233986 5592 07ae1f45ce82ee098a56e265eea074f3 "latex"
+  ".tex_intermediates/wiresag_swg.out" 1737233986 1002 68d7f2adb0a90617d6f619036e8e8451 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -133,7 +139,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiresag_swg.tex" 1737230395 4165 f253f9ef756041626c7c9927757dec2f ""
+  "wiresag_swg.tex" 1737233983 11138 47915ac99bc222be976cf80436f59369 ""
   (generated)
   ".tex_intermediates/wiresag_swg.aux"
   ".tex_intermediates/wiresag_swg.log"
