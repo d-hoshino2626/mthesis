@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  18 JAN 2025 22:00
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  18 JAN 2025 22:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -361,4 +361,385 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen192
 \lineht@=\dimen193
 \@envbody=\toks25
-\multlineg
+\multlinegap=\skip63
+\multlinetaggap=\skip64
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\linenoamsmath@ams@eqpen=\count312
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count313
+\calc@Bcount=\count314
+\calc@Adimen=\dimen194
+\calc@Bdimen=\dimen195
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count315
+\calc@Cskip=\skip67
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count316
+\l_MT_multwidth_dim=\dimen196
+\origjot=\skip68
+\l_MT_shortvdotswithinadjustabove_dim=\dimen197
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen198
+\l_MT_above_intertext_sep=\dimen199
+\l_MT_below_intertext_sep=\dimen256
+\l_MT_above_shortintertext_sep=\dimen257
+\l_MT_below_shortintertext_sep=\dimen258
+\xmathstrut@box=\box84
+\xmathstrut@dim=\dimen259
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/braket/braket.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen260
+\TX@old@table=\dimen261
+\TX@old@col=\dimen262
+\TX@target=\dimen263
+\TX@delta=\dimen264
+\TX@cols=\count317
+\TX@ftn=\toks27
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
+\FN@temptoken=\toks28
+\footnotemargin=\dimen265
+\@outputbox@depth=\dimen266
+Package footmisc Info: Declaring symbol style bringhurst on input line 695.
+Package footmisc Info: Declaring symbol style chicago on input line 703.
+Package footmisc Info: Declaring symbol style wiley on input line 712.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
+Package footmisc Info: Declaring symbol style lamport* on input line 743.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 764.
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box85
+\UL@hyphenbox=\box86
+\UL@skip=\skip69
+\UL@hook=\toks29
+\UL@height=\dimen267
+\UL@pe=\count318
+\UL@pixel=\dimen268
+\ULC@box=\box87
+Package: ulem 2019/11/18
+\ULdepth=\dimen269
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-03-30 L3 programming layer (loader) 
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+File: l3backend-dvipdfmx.def 2023-03-30 L3 backend support: dvipdfmx
+\g__graphics_track_int=\count319
+\l__pdf_internal_box=\box88
+\g__pdf_backend_object_int=\count320
+\g__pdf_backend_annotation_int=\count321
+\g__pdf_backend_link_int=\count322
+))
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+\symboldmincho=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathcomp/mathcomp.sty
+Package: mathcomp 2001/01/07 v0.1f (TBo)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+\symTC=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `TC' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 48.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip70
+\multirow@cntb=\count323
+\multirow@dima=\skip71
+\bigstrutjot=\dimen270
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvipdfmx.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+LaTeX Info: Redefining \cite on input line 58.
+))
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
+ (.tex_intermediates/wiresag.aux)
+\openout1 = `wiresag.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+Package hyperref Info: Link coloring OFF on input line 6.
+ (.tex_intermediates/wiresag.out) (.tex_intermediates/wiresag.out)
+\@outlinefile=\write3
+\openout3 = `wiresag.out'.
+
+
+
+Package siunitx Warning: Detected the "physics" package:
+(siunitx)                omitting definition of \qty.
+(siunitx)                
+(siunitx)                If you want to use \qty with the siunitx definition,
+(siunitx)                add 
+(siunitx)                
+(siunitx)                    \AtBeginDocument{\RenewCommandCopy\qty\SI}
+(siunitx)                
+(siunitx)                to your preamble.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 6.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+第 1 章
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 8.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 8.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 8.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 8.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 12.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 12.
+
+LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 12.
+
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 16.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 16.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 16.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 16.
+
+LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Reference `fig:wiresag_result_old' on page 1 undefined on input line 19.
+
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 28.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 28.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 28.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 28.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 33.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 33.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 33.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 33.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 33.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 33.
+
+LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 36.
+
+[1
+
+
+]
+File: ../../fig//wiresag/wiresag_system.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_system.pdf>
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 61.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 61.
+File: ../../fig//wiresag/wiresag_system_front.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_system_front.pdf>
+File: ../../fig//wiresag/20241219_UHF_0_wire23_x467_gray.png Graphic file (type bmp)
+<../../fig//wiresag/20241219_UHF_0_wire23_x467_gray.png>
+ [2] [3]
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 92.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 92.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 92.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 92.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 92.
+
+
+LaTeX Warning: Citation `swg:murata' on page 4 undefined on input line 92.
+
+File: ../../fig//wiresag/wiresag_concept.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_concept.pdf>
+File: ../../fig//wiresag/wire_number.pdf Graphic file (type pdf)
+<../../fig//wiresag/wire_number.pdf>
+[4]
+File: ../../fig//wiresag/wiresag_rotation.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_rotation.pdf>
+ [5]
+File: ../../fig//wiresag/wire_catenary_tilt.pdf Graphic file (type pdf)
+<../../fig//wiresag/wire_catenary_tilt.pdf>
+ [6] [7]
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 305.
+File: ../../fig//wiresag/wiresag_scaler_target.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_scaler_target.pdf>
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 310.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 310.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 310.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 310.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 310.
+File: ../../fig//wiresag/wiresag_scaler_brightness.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_scaler_brightness.pdf>
+ [8]
+File: ../../fig//wiresag/wiresag_scaler_fitting.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_scaler_fitting.pdf>
+File: ../../fig//wiresag/wiresag_edge_target.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_edge_target.pdf>
+File: ../../fig//wiresag/wiresag_edge_brightness.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_edge_brightness.pdf>
+ [9] [10]
+File: ../../fig//wiresag/wiresag_straight_edge_fit.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_straight_edge_fit.pdf>
+File: ../../fig//wiresag/wiresag_edge_target_span.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_edge_target_span.pdf>
+File: ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_straight_edge_positions_line.pdf>
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 380.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 380.
+File: ../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 377--391
+[][] [] 
+ []
+
+[11] [12]
+File: ../../fig//wiresag/wiresag_wire_fit.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_wire_fit.pdf>
+File: ../../fig//wiresag/wiresag_wire_positions.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_wire_positions.pdf>
+File: ../../fig//wiresag/wiresag_wire_positions_rot.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_wire_positions_rot.pdf>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 418--432
+[][] [] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 436.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 436.
+
+[13]
+File: ../../fig//wiresag/wiresag_wire_se_positions_diff.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_wire_se_positions_diff.pdf>
+ [14]
+File: ../../fig//wiresag/wiresag_catenary.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_catenary.pdf>
+File: ../../fig//wiresag/wiresag_performance_zig.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_performance_zig.pdf>
+ [15]
+File: ../../fig//wiresag/wiresag_performance_check_system.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_performance_check_system.pdf>
+ [16]
+File: ../../fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_performance_check_result.pdf>
+ [17]
+
+LaTeX Warning: Reference `fig:wiresag_setup_old' on page 18 undefined on input line 537.
+
+File: ../../fig//wiresag/wiresag_concept_yoko.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_concept_yoko.pdf>
+[18] [19] (.tex_intermediates/wiresag.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `wiresag.out' has not changed.
+(rerunfilecheck)             Checksum: E2BCD0E8FD7D95123BC75287039F6593;2672.
+ ) 
+Here is how much of TeX's memory you used:
+ 17802 strings out of 476677
+ 346966 string characters out of 5804957
+ 1855490 words of memory out of 5000000
+ 37989 multiletter control sequences out of 15000+600000
+ 564305 words of font info for 125 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 92i,15n,94p,411b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on .tex_intermediates/wiresag.dvi (19 pages, 71720 bytes).
