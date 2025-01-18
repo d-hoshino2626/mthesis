@@ -919,6 +919,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT ./fig//title/ku_logo.png
+INPUT ./fig//title/ku_logo.png
+INPUT extractbb -B cropbox -O ./fig//title/ku_logo.png
 OUTPUT .tex_intermediates/main.dvi
 INPUT ./sub/abstract/abstract.tex
 INPUT ./sub/abstract/abstract.tex
@@ -1151,6 +1154,9 @@ INPUT ./sub/wiresag/wiresag.tex
 INPUT ./fig//wiresag/wiresag_system.pdf
 INPUT ./fig//wiresag/wiresag_system.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_system.pdf
+INPUT ./fig//wiresag/wiresag_system_front.pdf
+INPUT ./fig//wiresag/wiresag_system_front.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_system_front.pdf
 INPUT ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
 INPUT ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
 INPUT extractbb -B cropbox -O ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
@@ -1184,6 +1190,9 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_edge_brightness.pdf
 INPUT ./fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT ./fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_straight_edge_fit.pdf
+INPUT ./fig//wiresag/wiresag_edge_target_span.pdf
+INPUT ./fig//wiresag/wiresag_edge_target_span.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_edge_target_span.pdf
 INPUT ./fig//wiresag/wiresag_straight_edge_positions_line.pdf
 INPUT ./fig//wiresag/wiresag_straight_edge_positions_line.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_straight_edge_positions_line.pdf
@@ -1223,6 +1232,16 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_performance_check_result.pd
 INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
 INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_concept_yoko.pdf
+INPUT ./sub/wiresag_swg/wiresag_swg.tex
+INPUT ./sub/wiresag_swg/wiresag_swg.tex
+INPUT ./sub/wiresag_swg/wiresag_swg.tex
+INPUT ./sub/wiresag_swg/wiresag_swg.tex
+INPUT ./sub/wiresag_swg/wiresag_swg.tex
+INPUT ./sub/wiresag_swg/wiresag_swg.tex
+INPUT ./sub/wiresag_swg/wiresag_swg.tex
+INPUT ./fig//wiresag_swg/wiresag_sparse_wiregrid.pdf
+INPUT ./fig//wiresag_swg/wiresag_sparse_wiregrid.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag_swg/wiresag_sparse_wiregrid.pdf
 INPUT ./sub/future/future.tex
 INPUT ./sub/future/future.tex
 INPUT ./sub/future/future.tex
