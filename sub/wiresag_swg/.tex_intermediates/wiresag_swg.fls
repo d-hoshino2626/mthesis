@@ -968,6 +968,15 @@ INPUT ../../fig//wiresag_swg/wiresag_sparse_wiregrid.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/wiresag_sparse_wiregrid.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ../../fig//wiresag_swg/swg_sag_before.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_before.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_before.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ../../fig//wiresag_swg/swg_sag_angle_before.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_before.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_before.pdf
 OUTPUT .tex_intermediates/wiresag_swg.dvi
 INPUT .tex_intermediates/wiresag_swg.aux
 INPUT .tex_intermediates/wiresag_swg.out
