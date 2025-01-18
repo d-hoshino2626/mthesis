@@ -70,9 +70,10 @@
 \contentsline {section}{\numberline {5.5}まとめ}{52}{section.5.5}%
 \contentsline {chapter}{\numberline {第6章}スパースワイヤーグリッドのたわみ量の評価}{54}{chapter.6}%
 \contentsline {section}{\numberline {6.1}評価されたスパースワイヤーグリッドの詳細}{54}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}評価結果とその考察}{54}{subsection.6.1.1}%
-\contentsline {chapter}{\numberline {第7章}今後の展望}{56}{chapter.7}%
-\contentsline {chapter}{\numberline {第8章}結論}{57}{chapter.8}%
-\contentsline {chapter}{\numberline {第9章}ストークスパラメータ}{59}{chapter.9}%
-\contentsline {section}{\numberline {9.1}ストークスパラメータの定義}{59}{section.9.1}%
-\contentsline {section}{\numberline {9.2}座標回転に対するストークスパラメータの変換}{60}{section.9.2}%
+\contentsline {section}{\numberline {6.2}評価結果とその考察}{55}{section.6.2}%
+\contentsline {section}{\numberline {6.3}修繕後のスパースワイヤーグリッドの評価}{56}{section.6.3}%
+\contentsline {section}{\numberline {6.4}まとめ}{58}{section.6.4}%
+\contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{59}{chapter.7}%
+\contentsline {chapter}{\numberline {第8章}ストークスパラメータ}{61}{chapter.8}%
+\contentsline {section}{\numberline {8.1}ストークスパラメータの定義}{61}{section.8.1}%
+\contentsline {section}{\numberline {8.2}座標回転に対するストークスパラメータの変換}{62}{section.8.2}%
