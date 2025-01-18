@@ -80,6 +80,7 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 また、重力参照計を搭載しワイヤー絶対角度の高精度な測定を実現する。
 本節ではスパースワイヤーグリッド本体の設計、自動化機構と重力参照計を用いた絶対角度の測定方法について述べる。
 \subsection{スパースワイヤーグリッドの設計}
+\label{subsec:wg_design}
 スパースワイヤーグリッドの概観を図\ref{fig:swg}(\subref{fig:wiregrid_appearance})に示す。
 これは金属製のワイヤーを、入射光の波長(最大$\SI{11}{mm}$)よりも十分長い間隔で平行に張ったものであり、ワイヤー軸に沿った偏光を生成する。
 SOではアルミニウム製の内径$\SI{790}{mm}$、外径 $\SI{830}{mm}$ の円環に、直径 $\SI{0.1}{mm}$ の
@@ -308,7 +309,7 @@ SOにおける要求絶対角度較正精度$\delta\theta \leq 0.1\tcdegree$を�
 固定された両端を直線で結び、その直線とワイヤーの最下部との距離をたわみ量 $d_{\mathrm{sag}}$ とする。
 また、固定された両端の距離を $L_{\mathrm{frame}}$ としたとき、たわみ角 $\theta_{\mathrm{sag}}$ を
 \begin{equation}
-    \theta_{\mathrm{sag}} = \arctan\qty(\dfrac{d_{\mathrm{sag}}}{2L_{\mathrm{frame}}})
+    \theta_{\mathrm{sag}} = \arctan\qty(\dfrac{d_{\mathrm{sag}}}{L_{\mathrm{frame}}/2})
 \end{equation}
 と定める。
 図中のストレートエッジや、$z_{\text{left}},\,z_{\text{center}},\,z_{\text{right}}$ については後述する。

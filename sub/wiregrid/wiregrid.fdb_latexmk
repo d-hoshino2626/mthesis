@@ -1,25 +1,30 @@
 # Fdb version 4
-["dvipdf"] 1736442325 "wiregrid.dvi" "wiregrid.pdf" "wiregrid" 1736442325 0
-  "wiregrid.dvi" 1736442325 43896 92b4ffc4afb7243364f3b04124cd4f2b "latex"
+["dvipdf"] 1737213238 "wiregrid.dvi" "wiregrid.pdf" "wiregrid" 1737213238 0
+  "wiregrid.dvi" 1737213238 54032 0a5f8c95371af3c68938583039f97dd6 "latex"
   (generated)
   "wiregrid.pdf"
   (rewritten before read)
-["latex"] 1736442323 "/Users/hoshinodaiki/pg/latex/mthesis/sub/wiregrid/wiregrid.tex" "wiregrid.dvi" "wiregrid" 1736442325 0
+["latex"] 1737213235 "/Users/hoshinodaiki/pg/latex/mthesis/sub/wiregrid/wiregrid.tex" "wiregrid.dvi" "wiregrid" 1737213238 0
   "../../fig//draft/not-yet.png" 1736440887 79503 13c7db87abaede38c8e4ccd52ffeab0f ""
   "../../fig//wiregrid/abs_angle_WG_plane.pdf" 1735999011 336852 e167de44f325d4b1b8ce7370fb183359 ""
   "../../fig//wiregrid/abs_angle_overview.pdf" 1735998992 856057 30bf6de958ff6450ce6051144fe76dad ""
   "../../fig//wiregrid/rotation_parts.pdf" 1735809903 2449408 504bc9f4363248aeddf2ceb9aa5dc67f ""
+  "../../fig//wiregrid/tiltsensor_WGplane.pdf" 1736682547 1429927 67b0c38f0fe5db206063dc7a4cf973ac ""
   "../../fig//wiregrid/tiltsensor_at_site.pdf" 1736376436 4329204 39cba58f26dc65674d4f477f9a4c9462 ""
+  "../../fig//wiregrid/tiltsensor_slope.pdf" 1736681679 857497 d7070a1bb20f3dcedec4e12fc3b0927b ""
   "../../fig//wiregrid/wire_attachment.pdf" 1736015925 3521102 77035975c8b96d136eeb5db51b26c9bb ""
   "../../fig//wiregrid/wire_detail_view.pdf" 1736010431 3160784 302b67eb592cdb7e8ffcd8883e3e59dd ""
   "../../fig//wiregrid/wire_reflect.pdf" 1736053010 491883 396826954b0d9194e9906648a7572824 ""
   "../../fig//wiregrid/wire_through.pdf" 1736053031 344032 515266bb7e49c5905367e6e5bb47418f ""
   "../../fig//wiregrid/wiregrid_actuator.pdf" 1736019593 2814242 f1b739bda89c268a6f685964c7de0277 ""
   "../../fig//wiregrid/wiregrid_appearance.pdf" 1735747397 1000562 53a007677c690799e344dda96d63197a ""
+  "../../fig//wiregrid/wiresag_def.pdf" 1736840190 262586 9fafb550022a659d859a8f5b04477721 ""
   "../../fig//wiregrid/wiresag_picture_old.pdf" 1736039654 2778040 5a3ac617a7a3fef3e4e4f0bb82b11efa ""
+  "../../fig//wiregrid/wiresag_result_old.pdf" 1736754342 249068 56a5a1f14204d4810b7e4e033a49c74e ""
   "../../fig//wiregrid/wiresag_setup_old.pdf" 1736033058 439879 b630e8850ca4116a8b7428165d89749c ""
-  "../../main.tex" 1736441628 3049 34eeb52d368d3a8c08bce76f25e851fd ""
-  "/Users/hoshinodaiki/pg/latex/mthesis/sub/wiregrid/wiregrid.tex" 1736442314 24459 7dd3c746ed35d4dec58abba887c09c25 ""
+  "../../fig//wiregrid/wiresag_setup_overview_old.pdf" 1736752997 1455857 62267be06c4e0e87dde311be9c55c98b ""
+  "../../main.tex" 1736683117 3119 e94477ac2c464ad09bd7ff870978697b ""
+  "/Users/hoshinodaiki/pg/latex/mthesis/sub/wiregrid/wiregrid.tex" 1737213209 30426 53144db5f82423ad1ffdf4ba13d56e7b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -151,9 +156,9 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiregrid.aux" 1736442325 10295 060a013b2566598644554042242a9e4b "latex"
-  "wiregrid.out" 1736442325 2828 fd1201cdcc6956fd47418181c4e0dc16 "latex"
-  "wiregrid.tex" 1736442314 24459 7dd3c746ed35d4dec58abba887c09c25 ""
+  "wiregrid.aux" 1737213238 12488 d75758195d4b556e4fc2cf5b54901951 "latex"
+  "wiregrid.out" 1737213238 2828 fd1201cdcc6956fd47418181c4e0dc16 "latex"
+  "wiregrid.tex" 1737213209 30426 53144db5f82423ad1ffdf4ba13d56e7b ""
   (generated)
   "wiregrid.aux"
   "wiregrid.dvi"
