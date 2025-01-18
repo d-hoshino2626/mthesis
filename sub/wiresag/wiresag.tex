@@ -31,7 +31,8 @@
 
 \section{評価系の概要と評価原理}
 \subsection{評価系の概要}
-初めに、作成した評価系の概観を図\ref{fig:wiresag_system}に示す。
+初めに、開発した評価系の概観を図\ref{fig:wiresag_system}に示す。
+また、その正面から見たときの概念図を図\ref{fig:wiresag_system_front}に示す。
 基本的な評価原理は\ref{subsec:wg_wiresag}項にて述べた過去の手法と同様である。
 ストレートエッジとワイヤーを同一写真内に映るように撮影することでストレートエッジとワイヤー間の距離 $z$ を測定し、ワイヤーのたわみを評価する。
 今後の説明のため、撮影された写真の例を図\ref{fig:wiresag_picture}に示す。
@@ -51,7 +52,7 @@
 どちらのアクチュエータもベルト駆動式であり、ステッピングモーターを用いて位置制御を行うことができる。
 スパースワイヤーグリッドを動かすためのアクチュエータは、そのモーターをOpenbuilds社製のNEMA 23 Stepper Motor - High Torque Seriesに変更した。
 スパースワイヤーグリッドに取り付けられたアクチュエータは、ストレートエッジと39本あるワイヤーのうち1つをカメラの画角に収まるように近づけるために使用され、
-カメラに取り付けられたアクチュエータは、1本のワイヤーに対して撮影位置を変え、ストレートエッジとワイヤーの距離を複数の点で測定するために使用される。
+カメラに取り付けられたアクチュエータは、1本のワイヤーに対して横方向に撮影位置を変え、ストレートエッジとワイヤーの距離を複数の点で測定するために使用される。
 アクチュエータの制御には、Galil社のDMC-4020というモーションコントローラを用いた。
 % また、カメラは
 \begin{figure}[H]
@@ -59,6 +60,12 @@
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_system.pdf}
     \caption{ワイヤーのたわみ量評価系の概観}
     \label{fig:wiresag_system}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{wiresag/wiresag_system_front.pdf}
+    \caption{開発したワイヤーのたわみ量評価系を正面から見た概念図}
+    \label{fig:wiresag_system_front}
 \end{figure}
 \begin{figure}[H]
     \centering
@@ -82,7 +89,7 @@ $R_{\mathrm{W}}$ をワイヤーの半径、$L_{\mathrm{frame}}$ をワイヤー
     f(x;a) &= a\cosh\qty(\dfrac{x+L_{\mathrm{frame}}/2}{a}) - a\cosh\qty(\dfrac{L_{\mathrm{frame}}}{2a}) \\
     a &= \dfrac{T}{\rho_{\mathrm{W}}\cdot\pi R_{\mathrm{W}}^2}
 \end{align}
-と表される。なお、この式は原点 $(0,\,0)$ と $(L_{\mathrm{frame}},\,0)$ を通る拘束条件を課したカテナリー曲線を表している。
+と表される~\cite{swg:murata}。なお、この式は原点 $(0,\,0)$ と $(L_{\mathrm{frame}},\,0)$ を通る拘束条件を課したカテナリー曲線を表している。
 スパースワイヤーグリッドにはタングステン製のワイヤーを使うため、その密度はタングステンの密度 $\rho_{\mathrm{W}}=\SI{19.3}{g/cm^3}$ であり、
 ワイヤーの半径は $R_{\mathrm{W}}=\SI{0.1}{mm}$ である。
 $L_{\mathrm{frame}}$ はどのワイヤーを評価するかによって異なる。
@@ -175,12 +182,15 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
     L_{\mathrm{frame}} &= \sqrt{X^2+Y^2}
 \end{align}
 を満たす。
-測定される $z$ はストレートエッジとワイヤー間の距離であるため、その概形はカテナリー曲線を $-1$ 倍したものであり
+ここまでで求めたカテナリー曲線は下に凸なものとして表していたが、
+測定される $z$ はストレートエッジとワイヤー間の距離であるため、
+その概形はワイヤーがたわんでいるところが最大の$z$を取るような上に凸のカテナリー曲線である。
+したがって、$z$のfitting関数は得られたカテナリー曲線を$-1$倍したものであり
 \begin{align}
     z_{i} &= -f_{\mathrm{tilt}}(x_{i};\,a,\,X,\,Y)
 \end{align}
-として測定値 $(x_{i},\,z_{i})$ に対して fitting を行う。
-こうして得られた $a$ を式\eqref{eq:wiresag_sag}に代入することで、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ を得る。
+となる。これを用いて測定値$(x_{i},\,z_{i})$に対してfittingを行う。
+こうして得られた$a$を式\eqref{eq:wiresag_sag}に代入することで、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ を得る。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wire_catenary_tilt.pdf}
@@ -266,7 +276,7 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
 \end{enumerate}
 
 \subsection{スケーラのfitting}
-図\ref{fig:wiresag_scaler_target}、図\ref{fig:wiresag_scaler_brightness}に
+図\ref{fig:wiresag_scaler_target}に用いた写真、図\ref{fig:wiresag_scaler_brightness}に
 $y_{\mathrm{pix}}=\SI{200}{pixel}$ における輝度を示す。
 図\ref{fig:wiresag_scaler_brightness}では、横軸を $\SI{1100}{pixel} \leq x_{\mathrm{pix}} \leq \SI{1700}{pixel}$
 に拡大したものを合わせて示している。
@@ -522,7 +532,7 @@ $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{
 この系において、測定される量$z'$を用いてストレートエッジとワイヤー間の距離$z$を表すと、
 \begin{align}
     z = \dfrac{z'}{\cos\phi} + \alpha\tan\phi \\
-    \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\alpha})
+    \phi = \arctan\qty(\dfrac{L_{\mathrm{camera}}}{\beta})
 \end{align}
 となるが、今、$L_{\mathrm{camera}}$は$\SI{0}{mm}$であるため、
 \begin{align}
@@ -560,9 +570,9 @@ $z$ の誤差としては、評価系の設計から生まれる誤差 $\SI{49}{
 \begin{equation}
     \delta z \sim \SI{39}{\mu m}
 \end{equation}
-となる。$z'$ の誤差についてはカメラの $\SI{1}{pixel}$ が対応する長さであり、
-次節の解析にて明らかになるがこれは典型的に $5\sim\SI{6}{\mu m}$ 程度である。
-また、$z$ にはストレートエッジの真直度由来の誤差 $\SI{30}{\mu m}$ が含まれるため、これも考慮に入れると $z$ の誤差は
+となる。$z'$の誤差$\delta z'$についてはカメラの$\SI{1}{pixel}$が対応する長さであり、
+これは前節での解析により典型的に$5\sim\SI{6}{\mu m}$程度であった。
+また、$z$にはストレートエッジの真直度由来の誤差$\SI{30}{\mu m}$が含まれるため、これも考慮に入れると$z$の誤差は
 \begin{equation}
     \delta z = \sqrt{39^2+30^2}\ \mu\mathrm{m} = \SI{49}{\mu m}
 \end{equation}
