@@ -584,6 +584,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
@@ -964,13 +965,13 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT ../../fig//simons_observatory/so_danmen.pdf
 INPUT ../../fig//simons_observatory/so_danmen.pdf
 INPUT extractbb -B cropbox -O ../../fig//simons_observatory/so_danmen.pdf
 OUTPUT .tex_intermediates/simons_observatory.dvi
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT ../../fig//simons_observatory/hwp_satoru.pdf
 INPUT ../../fig//simons_observatory/hwp_satoru.pdf
 INPUT extractbb -B cropbox -O ../../fig//simons_observatory/hwp_satoru.pdf
@@ -988,9 +989,21 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
-INPUT ../../fig//draft/not-yet.png
-INPUT ../../fig//draft/not-yet.png
-INPUT extractbb -B cropbox -O ../../fig//draft/not-yet.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT ../../fig//simons_observatory/EtoB_leakage.pdf
+INPUT ../../fig//simons_observatory/EtoB_leakage.pdf
+INPUT extractbb -B cropbox -O ../../fig//simons_observatory/EtoB_leakage.pdf
 INPUT .tex_intermediates/simons_observatory.aux
 INPUT .tex_intermediates/simons_observatory.out
 INPUT .tex_intermediates/simons_observatory.out

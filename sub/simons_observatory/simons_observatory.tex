@@ -10,7 +10,7 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
 現在、口径$0.5\ \mathrm{m}$の小口径望遠鏡(Small Aperture Telescope, SAT)3台と、
 口径 $6\ \mathrm{m}$の大口径望遠鏡(Large Aperture Telescope, LAT)1台を用いた観測が進められており\cite{so:current_status}、
 今後さらにイギリス製の2台のSATと、日本製の1台のSAT(JSAT)が追加される予定である。
-検出器としてはTES(Transition Edge Sensor)を採用しており、SATにはそれぞれ約1万個ずつ、LATには約3万個の検出器が搭載されている。
+検出器としてはTES(Transition Edge Sensor)ボロメータを採用しており、SATにはそれぞれ約1万個ずつ、LATには約3万個の検出器が搭載されている。
 この数多の検出器を通したCMBの偏光の高精度測定は、さまざまな物理へのアプローチを可能にする。
 例えば、SATではインフレーションに由来する原始重力波の検出をテンソルスカラー比$r$にして$\sigma(r)=0.003$の精度で行う。
 また、LATではニュートリノの有効世代数$N_\mathrm{eff}$を$\sigma(N_{\mathrm{eff}})=0.07$、ニュートリノ質量和$\Sigma m_\nu$を$\sigma(\Sigma m_\nu)=\SI{0.04}{eV}$の精度での測定を目指す\cite{so:science_forecast}。
@@ -27,16 +27,22 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
 \section{Large Aperture Telescope (LAT)}
 \colortext{blue}{余裕があったら書く。}
 \section{Small Aperture Telescope (SAT)}
-図\ref{}にSATの受信機部分の断面図を示す。
+図\ref{fig:so-sat}にSATの受信機部分の断面図を示す。
+空から降ってきた光は窓を透過後、後述する極低温連続回転式半波長板(HWP)を通過・変調されたのちに光学筒を通って焦点面検出器に到達する。
+光学筒には3枚のシリコンレンズが搭載されており、入射してきた光を集光する。
+また、迷光対策として光学筒の内面には3Dプリンターで作成された黒体\cite{Adachi_2020}や、射出成形によって作成された黒体が取り付けられている。
+焦点面にはTESボロメータと呼ばれる超伝導検出器が搭載されており、受信機に斜めに刺さっている希釈冷凍機システムによって$\SI{100}{mK}$にまで冷却されている\cite{Kiuchi_2020}。
+
+望遠鏡の窓の前面には、本論文にて扱うスパースワイヤーグリッドを用いた偏光角較正装置が取り付けられている。
+
+
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{simons_observatory/so_danmen.pdf}
+    \includegraphics[width=0.9\textwidth]{simons_observatory/so_danmen.pdf}
     \caption{SATの受信機部分の断面図}
     \label{fig:so-sat}
 \end{figure}
-\subsection{フォアバッフル}
-\subsection{光学筒}
 \subsection{Transition Edge Sensor (TES)}
 TESは超伝導の転移点付近で急激に電気抵抗が変化する性質を利用した検出器である。
 あらかじめ転移点付近に保持しておき、光子が入ってくることで急激に変化した電気抵抗に起因する電流の変化を読むことで光子のエネルギーを測定する。
@@ -158,7 +164,7 @@ Eモード、Bモード偏光を表現する係数 $a_{\ell m}^{E}, a_{\ell m}^{
 \end{equation}
 
 式\eqref{eq:so-EtoBleakage}に基づき、偏光角の誤較正が $C_{\ell}^{EE}$ から 
-$C_{\mathrm{obs}, \ell}^{BB}$ への漏れ込みとして及ぼす影響を図\ref{fig:so-EtoBleakage}に示す。
+$C_{\mathrm{obs}, \ell}^{BB}$ への漏れ込みとして及ぼす影響を図\ref{fig:so-EtoBleakage}に示す\footnote{図の作成には\href{http://class-code.net}{CLASS}を用いた。}。
 誤較正の目安として、 $\delta\theta = 10, 1, 0.1\tcdegree$ の場合をプロットした。
 
 偏光角較正の要求精度は望遠鏡の感度やdelensingの能率、ノイズなどによって変化する。
@@ -168,8 +174,8 @@ $\delta\theta \leq 0.1\tcdegree$ であればこの漏れ込みが生む $r$ へ
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{draft/not-yet.png}
-    \caption{LAMBDAを使って作成したEtoB leakageの図を載せる予定。}
+    \includegraphics[width=0.9\textwidth]{simons_observatory/EtoB_leakage.pdf}
+    \caption{偏光角の誤較正が $C_{\ell}^{EE}$ から $C_{\ell}^{BB}$ への漏れ込みとして及ぼす影響}
     \label{fig:so-EtoBleakage}
 \end{figure}
 
