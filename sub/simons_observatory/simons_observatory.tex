@@ -9,11 +9,17 @@
 Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠を拠点とする史上最大規模の地上CMB観測実験である。
 現在、口径$0.5\ \mathrm{m}$の小口径望遠鏡(Small Aperture Telescope, SAT)3台と、
 口径 $6\ \mathrm{m}$の大口径望遠鏡(Large Aperture Telescope, LAT)1台を用いた観測が進められており\cite{so:current_status}、
-今後さらにイギリス製の2台のSATと、日本製の1台のSAT(JSAT)が追加される予定である。
+今後さらにイギリス製の2台のSATと、日本製の1台のSAT(JSAT)が追加される予定である。図\ref{fig:so_site}に観測サイトの概観を示す。
 検出器としてはTES(Transition Edge Sensor)ボロメータを採用しており、SATにはそれぞれ約1万個ずつ、LATには約3万個の検出器が搭載されている。
 この数多の検出器を通したCMBの偏光の高精度測定は、さまざまな物理へのアプローチを可能にする。
 例えば、SATではインフレーションに由来する原始重力波の検出をテンソルスカラー比$r$にして$\sigma(r)=0.003$の精度で行う。
 また、LATではニュートリノの有効世代数$N_\mathrm{eff}$を$\sigma(N_{\mathrm{eff}})=0.07$、ニュートリノ質量和$\Sigma m_\nu$を$\sigma(\Sigma m_\nu)=\SI{0.04}{eV}$の精度での測定を目指す\cite{so:science_forecast}。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{simons_observatory/so_site.pdf}
+    \caption{Simons Observatory実験の概観}
+    \label{fig:so_site}
+\end{figure}
 
 立体角 $\Omega$ 、開口面積 $A$、観測波長 $\lambda$ について、回折限界の関係式
 \begin{equation}
@@ -24,16 +30,24 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
 以上の理由から、小口径で大角度相関を調べるSATと、大口径で小角度相関を調べるLATを組み合わせることで、
 広大な$\ell$に渡ってCMBパワースペクトルの精密な測定を行い、前述した様々な物理へのアプローチを実現する。
 \section{Small Aperture Telescope (SAT)}
-前述の通り、SATは小口径の望遠鏡であり、CMBの大角度相関を観測するために最適化されている。
+前述の通り、SATは小口径の望遠鏡であり、CMBの大角度相関、特に$30<\ell<300$を観測するために最適化されている。
 3台のSATのうち2台は$\SI{93}{GHz}$、$\SI{145}{GHz}$帯(MF帯)での観測を行い、1台は$\SI{225}{GHz}$、$\SI{280}{GHz}$帯(UHF帯)での観測を行う。
-また、日本により追加される1台のSATは$\SI{27}{GHz}$、$\SI{39}{GHz}$帯(LF帯)での観測を行う。
-このように複数の帯域に渡って観測を行う理由は、前傾放射と呼ばれる銀河による放射や、シンクロトロン放射などの銀河による放射を除去するためである。
+また、日本グループが主導して追加される1台のSATは$\SI{27}{GHz}$、$\SI{39}{GHz}$帯(LF帯)での観測を行う。
+このように複数の帯域に渡って観測を行う理由は、星間物質中の塵が熱的に放射するダスト放射や、
+超新星残骸中の磁場などによって加速された荷電粒子が放出するシンクロトロン放射などのフォアグラウンドを除去するためである。
+図\ref{fig:so_noise_freq}にSATの観測帯域と、lensingによるCMBのBモード偏光信号、ダスト放射、シンクロトロン放射の輝度温度の周波数依存性を示す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{simons_observatory/so_noise_freq.pdf}
+    \caption{SATの観測帯域と、CMB、ダスト放射、シンクロトロン放射の輝度温度の周波数依存性の比較}
+    \label{fig:so_noise_freq}
+\end{figure}
 
 図\ref{fig:so-sat_overview}にSATの概観を示す。
-SATにはフォアバッフル・コムービングシールド・グラウンドスクリーンの3つのバッフル群を用いて地面から照り返しや、近くの山からの照り返しから受信機を保護している。
+SATにはフォアバッフル・コムービングシールド・グラウンドスクリーンの3つのバッフル群を用いて地面から照り返しや、近くの山からの照り返しから受信機を保護している\cite{Kiuchi_2020}。
 フォアバッフルはSATの受信機に取り付けられており、コムービングシールドはSATを支える構造物に取り付けられ、望遠鏡と共に動く。
 グラウンドスクリーンはSATを取り囲むように設置され、地面からの照り返しを遮断する。
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{simons_observatory/sat_overview.pdf}
     \caption{SATの概観と3つのバッフル群}
@@ -44,20 +58,25 @@ SATにはフォアバッフル・コムービングシールド・グラウン�
 空から降ってきた光は窓を透過後、後述する極低温連続回転式半波長板(HWP)を通過・変調されたのちに光学筒を通って焦点面検出器に到達する。
 光学筒には3枚のシリコンレンズが搭載されており、入射してきた光を集光する。
 また、迷光対策として光学筒の内面には3Dプリンターで作成された黒体\cite{Adachi_2020}や、射出成形によって作成された黒体が取り付けられている。
-焦点面にはTESボロメータと呼ばれる超伝導検出器が搭載されており、受信機に斜めに刺さっている希釈冷凍機システムによって$\SI{100}{mK}$にまで冷却されている\cite{Kiuchi_2020}。
+焦点面には後述するTESボロメータと呼ばれる超伝導検出器が搭載されており、受信機に斜めに刺さっている希釈冷凍機システムによって$\SI{100}{mK}$にまで冷却されている\cite{galitzki2024simonsobservatorydesignintegration}。
 
 望遠鏡の窓の前面には、本論文にて扱うスパースワイヤーグリッドを用いた偏光角較正装置が取り付けられている。
 光学系の目の前に設置されているため、望遠鏡の窓から焦点面に至るまでのすべての光学系により生まれる偏光角の系統誤差を丸ごと較正することができる。
 また、望遠鏡の視野を覆うように配置されているため、すべての検出器を一度に較正することができる。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{simons_observatory/sat_danmen.pdf}
+    \includegraphics[width=1.0\textwidth]{simons_observatory/sat_danmen.pdf}
     \caption{SATの受信機部分の断面図}
     \label{fig:so-sat}
 \end{figure}
 
-\subsection{Transition Edge Sensor (TES)}
-TESは超伝導の転移点付近で急激に電気抵抗が変化する性質を利用した検出器である。
+\subsection{焦点面検出器}
+超伝導物質は転移点付近で電気抵抗が急激にゼロに近づく性質を持つ。
+転移点近傍の温度に制御された超伝導物質に吸収体を接続すると、光子が入射してきた場合に吸収体が光子を熱に変換し、超伝導物質を温める。
+これによりその温度が転移点を超え、超伝導物質の電気抵抗が急激に増加するような装置、すなわちボロメータを作ることができる。
+このような装置はTESボロメータ（Transition Edge Sensor）と呼ばれる。
+
+焦点面検出器には、TESボロメータが使用されている。
 あらかじめ転移点付近に保持しておき、光子が入ってくることで急激に変化した電気抵抗に起因する電流の変化を読むことで光子のエネルギーを測定する。
 
 \subsection{極低温連続回転式半波長板 (HWP)}

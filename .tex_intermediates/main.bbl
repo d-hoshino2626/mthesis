@@ -10,15 +10,19 @@ Peter Ade, James Aguirre, Zeeshan Ahmed, Simone Aiola, Aamir Ali, David Alonso, 
 \newblock {The Simons Observatory: science goals and forecasts}.
 \newblock {\em Journal of Cosmology and Astroparticle Physics}, 2019(02):056--056, February 2019.
 
+\bibitem{Kiuchi_2020}
+Kenji Kiuchi, Shunsuke Adachi, Aamir~M. Ali, Kam Arnold, Peter Ashton, Jason~E. Austermann, Andrew Bazako, James~A. Beall, Yuji Chinone, Gabriele Coppi, Kevin~D. Crowley, Kevin~T. Crowley, Simon Dicker, Bradley Dober, Shannon~M. Duff, Giulio Fabbian, Nicholas Galitzki, Joseph~E. Golec, Jon~E. Gudmundsson, Kathleen Harrington, Masaya Hasegawa, Makoto Hattori, Charles~A. Hill, Shuay-Pwu~Patty Ho, Johannes Hubmayr, Bradley~R. Johnson, Daisuke Kaneko, Nobuhiko Katayama, Brian Keating, Akito Kusaka, Jack Lashner, Adrian~T. Lee, Frederick Matsuda, Heather McCarrick, Masaaki Murata, Federico Nati, Yume Nishinomiya, Lyman Page, Mayuri~Sathyanarayana Rao, Christian~L. Reichardt, Kana Sakaguri, Yuki Sakurai, Joseph Sibert, Jacob Spisak, Osamu Tajima, Grant~P. Teply, Tomoki Terasaki, Tran Tsan, Samantha Walker, Edward~J. Wollack, Zhilei Xu, Kyohei Yamada, Mario Zannoni, and Ningfeng Zhu.
+\newblock The simons observatory small aperture telescope overview.
+\newblock In Heather~K. Marshall, Jason Spyromilio, and Tomonori Usuda, editors, {\em Ground-based and Airborne Telescopes VIII}, page 162. SPIE, December 2020.
+
 \bibitem{Adachi_2020}
 S.~Adachi, M.~Hattori, F.~Kanno, K.~Kiuchi, T.~Okada, and O.~Tajima.
 \newblock Production method of millimeter-wave absorber with 3d-printed mold.
 \newblock {\em Review of Scientific Instruments}, 91(1), January 2020.
 
-\bibitem{Kiuchi_2020}
-Kenji Kiuchi, Shunsuke Adachi, Aamir~M. Ali, Kam Arnold, Peter Ashton, Jason~E. Austermann, Andrew Bazako, James~A. Beall, Yuji Chinone, Gabriele Coppi, Kevin~D. Crowley, Kevin~T. Crowley, Simon Dicker, Bradley Dober, Shannon~M. Duff, Giulio Fabbian, Nicholas Galitzki, Joseph~E. Golec, Jon~E. Gudmundsson, Kathleen Harrington, Masaya Hasegawa, Makoto Hattori, Charles~A. Hill, Shuay-Pwu~Patty Ho, Johannes Hubmayr, Bradley~R. Johnson, Daisuke Kaneko, Nobuhiko Katayama, Brian Keating, Akito Kusaka, Jack Lashner, Adrian~T. Lee, Frederick Matsuda, Heather McCarrick, Masaaki Murata, Federico Nati, Yume Nishinomiya, Lyman Page, Mayuri~Sathyanarayana Rao, Christian~L. Reichardt, Kana Sakaguri, Yuki Sakurai, Joseph Sibert, Jacob Spisak, Osamu Tajima, Grant~P. Teply, Tomoki Terasaki, Tran Tsan, Samantha Walker, Edward~J. Wollack, Zhilei Xu, Kyohei Yamada, Mario Zannoni, and Ningfeng Zhu.
-\newblock The simons observatory small aperture telescope overview.
-\newblock In Heather~K. Marshall, Jason Spyromilio, and Tomonori Usuda, editors, {\em Ground-based and Airborne Telescopes VIII}, page 162. SPIE, December 2020.
+\bibitem{galitzki2024simonsobservatorydesignintegration}
+Nicholas Galitzki, Tran Tsan, Jake Spisak, Michael Randall, Max Silva-Feaver, Joseph Seibert, Jacob Lashner, Shunsuke Adachi, Sean~M. Adkins, Thomas Alford, Kam Arnold, Peter~C. Ashton, Jason~E. Austermann, Carlo Baccigalupi, Andrew Bazarko, James~A. Beall, Sanah Bhimani, Bryce Bixler, Gabriele Coppi, Lance Corbett, Kevin~D. Crowley, Kevin~T. Crowley, Samuel Day-Weiss, Simon Dicker, Peter~N. Dow, Cody~J. Duell, Shannon~M. Duff, Remington~G. Gerras, John~C. Groh, Jon~E. Gudmundsson, Kathleen Harrington, Masaya Hasegawa, Erin Healy, Shawn~W. Henderson, Johannes Hubmayr, Jeffrey Iuliano, Bradley~R. Johnson, Brian Keating, Ben Keller, Kenji Kiuchi, Anna~M. Kofman, Brian~J. Koopman, Akito Kusaka, Adrian~T. Lee, Richard~A. Lew, Lawrence~T. Lin, Michael~J Link, Tammy~J. Lucas, Marius Lungu, Aashrita Mangu, Jeffrey~J McMahon, Amber~D. Miller, Jenna~E. Moore, Magdy Morshed, Hironobu Nakata, Federico Nati, Laura~B. Newburgh, David~V. Nguyen, Michael~D. Niemack, Lyman~A. Page, Kana Sakaguri, Yuki Sakurai, Mayuri~Sathyanarayana Rao, Lauren~J. Saunders, Jordan~E. Shroyer, Junna Sugiyama, Osamu Tajima, Atsuto Takeuchi, Refilwe~Tanah Bua, Grant Teply, Tomoki Terasaki, Joel~N. Ullom, Jeffrey L.~Van Lanen, Eve~M. Vavagiakis, Michael~R Vissers, Liam Walters, Yuhan Wang, Zhilei Xu, Kyohei Yamada, and Kaiwen Zheng.
+\newblock The simons observatory: Design, integration, and testing of the small aperture telescopes, 2024.
 
 \bibitem{so:hwp_yamada}
 K.~Yamada, B.~Bixler, Y.~Sakurai, P.~C. Ashton, J.~Sugiyama, K.~Arnold, J.~Begin, L.~Corbett, S.~Day-Weiss, N.~Galitzki, C.~A. Hill, B.~R. Johnson, B.~Jost, A.~Kusaka, B.~J. Koopman, J.~Lashner, A.~T. Lee, A.~Mangu, H.~Nishino, L.~A. Page, M.~J. Randall, D.~Sasaki, X.~Song, J.~Spisak, T.~Tsan, Y.~Wang, and P.~A. Williams.

@@ -985,9 +985,18 @@ INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-INPUT ./fig//simons_observatory/so_danmen.pdf
-INPUT ./fig//simons_observatory/so_danmen.pdf
-INPUT extractbb -B cropbox -O ./fig//simons_observatory/so_danmen.pdf
+INPUT ./fig//simons_observatory/so_site.pdf
+INPUT ./fig//simons_observatory/so_site.pdf
+INPUT extractbb -B cropbox -O ./fig//simons_observatory/so_site.pdf
+INPUT ./fig//simons_observatory/so_noise_freq.pdf
+INPUT ./fig//simons_observatory/so_noise_freq.pdf
+INPUT extractbb -B cropbox -O ./fig//simons_observatory/so_noise_freq.pdf
+INPUT ./fig//simons_observatory/sat_overview.pdf
+INPUT ./fig//simons_observatory/sat_overview.pdf
+INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_overview.pdf
+INPUT ./fig//simons_observatory/sat_danmen.pdf
+INPUT ./fig//simons_observatory/sat_danmen.pdf
+INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_danmen.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./fig//simons_observatory/hwp_satoru.pdf
