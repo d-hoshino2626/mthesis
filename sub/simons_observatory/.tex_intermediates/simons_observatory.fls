@@ -965,10 +965,13 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-INPUT ../../fig//simons_observatory/so_danmen.pdf
-INPUT ../../fig//simons_observatory/so_danmen.pdf
-INPUT extractbb -B cropbox -O ../../fig//simons_observatory/so_danmen.pdf
+INPUT ../../fig//simons_observatory/sat_overview.pdf
+INPUT ../../fig//simons_observatory/sat_overview.pdf
+INPUT extractbb -B cropbox -O ../../fig//simons_observatory/sat_overview.pdf
 OUTPUT .tex_intermediates/simons_observatory.dvi
+INPUT ../../fig//simons_observatory/sat_danmen.pdf
+INPUT ../../fig//simons_observatory/sat_danmen.pdf
+INPUT extractbb -B cropbox -O ../../fig//simons_observatory/sat_danmen.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm

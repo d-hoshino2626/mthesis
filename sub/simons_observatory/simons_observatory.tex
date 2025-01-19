@@ -23,10 +23,23 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
 その一方で、大口径の望遠鏡は一度に観測できる範囲も小さくなるため、大角度の相関を観測するのに時間を要し、大気揺らぎの影響を受けやすくなってしまう。
 以上の理由から、小口径で大角度相関を調べるSATと、大口径で小角度相関を調べるLATを組み合わせることで、
 広大な$\ell$に渡ってCMBパワースペクトルの精密な測定を行い、前述した様々な物理へのアプローチを実現する。
-
-\section{Large Aperture Telescope (LAT)}
-\colortext{blue}{余裕があったら書く。}
 \section{Small Aperture Telescope (SAT)}
+前述の通り、SATは小口径の望遠鏡であり、CMBの大角度相関を観測するために最適化されている。
+3台のSATのうち2台は$\SI{93}{GHz}$、$\SI{145}{GHz}$帯(MF帯)での観測を行い、1台は$\SI{225}{GHz}$、$\SI{280}{GHz}$帯(UHF帯)での観測を行う。
+また、日本により追加される1台のSATは$\SI{27}{GHz}$、$\SI{39}{GHz}$帯(LF帯)での観測を行う。
+このように複数の帯域に渡って観測を行う理由は、前傾放射と呼ばれる銀河による放射や、シンクロトロン放射などの銀河による放射を除去するためである。
+
+図\ref{fig:so-sat_overview}にSATの概観を示す。
+SATにはフォアバッフル・コムービングシールド・グラウンドスクリーンの3つのバッフル群を用いて地面から照り返しや、近くの山からの照り返しから受信機を保護している。
+フォアバッフルはSATの受信機に取り付けられており、コムービングシールドはSATを支える構造物に取り付けられ、望遠鏡と共に動く。
+グラウンドスクリーンはSATを取り囲むように設置され、地面からの照り返しを遮断する。
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{simons_observatory/sat_overview.pdf}
+    \caption{SATの概観と3つのバッフル群}
+    \label{fig:so-sat_overview}
+\end{figure}
+
 図\ref{fig:so-sat}にSATの受信機部分の断面図を示す。
 空から降ってきた光は窓を透過後、後述する極低温連続回転式半波長板(HWP)を通過・変調されたのちに光学筒を通って焦点面検出器に到達する。
 光学筒には3枚のシリコンレンズが搭載されており、入射してきた光を集光する。
@@ -34,15 +47,15 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
 焦点面にはTESボロメータと呼ばれる超伝導検出器が搭載されており、受信機に斜めに刺さっている希釈冷凍機システムによって$\SI{100}{mK}$にまで冷却されている\cite{Kiuchi_2020}。
 
 望遠鏡の窓の前面には、本論文にて扱うスパースワイヤーグリッドを用いた偏光角較正装置が取り付けられている。
-
-
-
+光学系の目の前に設置されているため、望遠鏡の窓から焦点面に至るまでのすべての光学系により生まれる偏光角の系統誤差を丸ごと較正することができる。
+また、望遠鏡の視野を覆うように配置されているため、すべての検出器を一度に較正することができる。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{simons_observatory/so_danmen.pdf}
+    \includegraphics[width=0.9\textwidth]{simons_observatory/sat_danmen.pdf}
     \caption{SATの受信機部分の断面図}
     \label{fig:so-sat}
 \end{figure}
+
 \subsection{Transition Edge Sensor (TES)}
 TESは超伝導の転移点付近で急激に電気抵抗が変化する性質を利用した検出器である。
 あらかじめ転移点付近に保持しておき、光子が入ってくることで急激に変化した電気抵抗に起因する電流の変化を読むことで光子のエネルギーを測定する。
