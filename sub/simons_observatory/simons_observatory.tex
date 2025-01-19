@@ -72,12 +72,16 @@ SATにはフォアバッフル・コムービングシールド・グラウン�
 
 \subsection{焦点面検出器}
 超伝導物質は転移点付近で電気抵抗が急激にゼロに近づく性質を持つ。
-転移点近傍の温度に制御された超伝導物質に吸収体を接続すると、光子が入射してきた場合に吸収体が光子を熱に変換し、超伝導物質を温める。
-これによりその温度が転移点を超え、超伝導物質の電気抵抗が急激に増加するような装置、すなわちボロメータを作ることができる。
-このような装置はTESボロメータ（Transition Edge Sensor）と呼ばれる。
+転移点近傍の温度に制御された超伝導物質に吸収体を接続すると、光が入射してきた場合に吸収体が光を熱に変換し、超伝導物質を温める。
+これによりその温度が転移点を超え、超伝導物質の電気抵抗が急激に増加する。
+この電気抵抗が急激に増加するのを読み取ることで、入射した光の強度を測定する装置、すなわちボロメータを作ることができる。
+このような装置はTES(Transition Edge Sensor)ボロメータと呼ばれる。
 
-焦点面検出器には、TESボロメータが使用されている。
-あらかじめ転移点付近に保持しておき、光子が入ってくることで急激に変化した電気抵抗に起因する電流の変化を読むことで光子のエネルギーを測定する。
+SOの焦点面検出器には、TESボロメータが使用されている。
+TESボロメータにはOMT(Ortho-Mode Transducer)とフィードホーンが取り付けられており、
+入射してきた光をフィードホーンによってOMTに導き、OMTによって直交する2つの偏光方向に分ける\cite{duff2024simonsobservatoryproductionlevelfabrication}。
+分けられた光はそれぞれ別のTESボロメータに導かれ、各TESボロメータで光の強度が測定される。
+このようにして、焦点面検出器は入射してきた光の偏光方向に対して感度を獲得している。
 
 \subsection{極低温連続回転式半波長板 (HWP)}
 \label{sec:HWP}
@@ -92,20 +96,20 @@ SATでは、この大気による熱放射を取り除くために、極低温�
     E_{2} &= -E_{2}
 \end{align}
 となる。ここで、1軸はHWPの光軸、2軸は1軸に垂直なHWP平面上の軸を表し、1軸に対して電場成分が反転している。
-入射光として偏光角がHWPの1軸から測って $\chi$ であるような直線偏光した光を考える。
-HWPを通過した後の偏光角は $-\chi$ となり、偏光が1軸対称に反転、つまり $-2\chi$ だけ変化する。(図\ref{fig:so-hwp_satoru})
+入射光として偏光角がHWPの1軸から測って$\chi$であるような直線偏光した光を考える。
+HWPを通過した後の偏光角は$-\chi$となり、偏光が1軸対称に反転、つまり$-2\chi$だけ変化する(図\ref{fig:so-hwp_satoru})。
 この性質により、ストークスパラメータ(定義は\ref{chap:stokes}を参照)が
-それぞれ $I_{\mathrm{in}}(t), Q_{\mathrm{in}}(t), U_{\mathrm{in}}(t)$ であるような直線偏光した入射光を、
-HWPを通過したあとに片偏波のアンテナで電場強度を測った際の出力信号 $d_m(t)$ は
+それぞれ$I_{\mathrm{in}}(t), Q_{\mathrm{in}}(t), U_{\mathrm{in}}(t)$であるような直線偏光した入射光を、
+HWPを通過したあとに1軸方向に感度を持つ片偏波のアンテナで電場強度を測った際の出力信号$d_m(t)$は
 \begin{equation}
     d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i 4\chi)]
 \end{equation}
-となる。ここで、$\varepsilon$ は変調効率である。SOでは、HWPを $2\ \mathrm{Hz}$ で回転させることで、連続的に入射する直線偏光による信号を $8\ \mathrm{Hz}$ に変調して出力する。
-HWPの角振動数を $\omega_{\mathrm{HWP}}$ とし、初期位相を $\chi_0$ とすると、$\chi(t) = \omega_{\mathrm{HWP}}t + \chi_{0}$ と表され、出力信号は
+となる。ここで、$\varepsilon$ は変調効率である。SOでは、HWPを$\SI{2}{Hz}$で回転させることで、連続的に入射する直線偏光による信号を$\SI{8}{Hz}$に変調して出力する。
+HWPの角振動数を$\omega_{\mathrm{HWP}}$とし、初期位相を$\chi_0$とすると、$\chi(t) = \omega_{\mathrm{HWP}}t + \chi_{0}$と表され、出力信号は
 \begin{equation}
     d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0))]
 \end{equation}
-となる。検出器はある偏光角方向 $\theta_{\mathrm{det}}$ にのみ感度を持つため、最終的に検出器が読み出す信号 $d_{\mathrm{m}, \mathrm{det}}$ は
+となる。検出器はある偏光角方向$\theta_{\mathrm{det}}$にのみ感度を持つため、最終的に検出器が読み出す信号$d_{\mathrm{m}, \mathrm{det}}$は
 \begin{equation}
     \label{eq:so-hwp_modulation}
     d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0 - 2\theta_{\mathrm{det}})}]
@@ -126,16 +130,15 @@ HWPの角振動数を $\omega_{\mathrm{HWP}}$ とし、初期位相を $\chi_0$ 
 つまり、復調後に得られる信号 $d_{\mathrm{d, det}}$ は
 \begin{align}
     d_{\mathrm{d, det}}(t) &= \mathcal{F}^{\mathrm{BPF}}\qty[d_{\mathrm{m,det}}(t)]\times 2\exp\qty{i\qty(4\omega_{\mathrm{HWP}}t + 4\chi_0)} \\
-    &= \varepsilon\qty[Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t)]\exp\qty[i2\theta_{\mathrm{det}}]
+    &= \varepsilon\qty[Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t)]\exp\qty[i\qty(2\theta_{\mathrm{det}}+4\chi_0)]
     \label{eq:so-hwp_demod}
 \end{align}
-となる。ここで、$\chi_0$ はHWPに搭載されているエンコーダによって決定されるオフセットである。
+となる。ここで、$\chi_0$はHWPに搭載されているエンコーダによって決定されるオフセットである。
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{simons_observatory/hwp_satoru.pdf}
-    \caption{HWPを通過することで、偏光角が変化することを示した概念図~\cite{takakura_PhD}。青い軸が1軸、緑の軸が2軸に対応する。
-    入射した直線偏光の偏光角が1軸に対して $\chi$ であり、複屈折によって $-2\chi$ だけ変化する。}
+    \caption{HWPを通過することで偏光角が変化することを示した概念図~\cite{takakura_PhD}}
     \label{fig:so-hwp_satoru}
 \end{figure}
 
@@ -199,7 +202,7 @@ Eモード、Bモード偏光を表現する係数 $a_{\ell m}^{E}, a_{\ell m}^{
 $C_{\mathrm{obs}, \ell}^{BB}$ への漏れ込みとして及ぼす影響を図\ref{fig:so-EtoBleakage}に示す\footnote{図の作成には\href{http://class-code.net}{CLASS}を用いた。}。
 誤較正の目安として、 $\delta\theta = 10, 1, 0.1\tcdegree$ の場合をプロットした。
 
-偏光角較正の要求精度は望遠鏡の感度やdelensingの能率、ノイズなどによって変化する。
+偏光角較正の要求精度は望遠鏡の感度や、重力レンズ効果によって生まれたBモード相関を除去するdelensingの能率、ノイズなどによって変化する。
 SOにおいては、delensingの能率を 50\% とし、ノイズとして最も悲観的な場合を考えた場合においても、
 $\delta\theta \leq 0.1\tcdegree$ であればこの漏れ込みが生む $r$ への系統誤差は無視できるほどに小さくなる。~\cite{so:Bryan_2018}
 以上の理由から、SOでの偏光角較正の要求精度を $\delta\theta \leq 0.1\tcdegree$ と定める。
@@ -220,9 +223,10 @@ Tau Aは北天に昇る、強い直線偏光を放射する超新星残骸であ
 その光の偏光角は観測周波数に依存している可能性が指摘されており、さらに高分解能望遠鏡による観測では
 天体表面上の異なる位置での偏光方向の違いが見えるため、偏光角を一意に決定することが難しいという課題がある。
 また、偏光角は他の実験の観測結果にも依存しており、これらが潜在的な系統誤差として存在する。
-小さい天体であるために検出器全てを一度に照らすことができず、全ての検出器を較正するためにはスキャンを行う必要がある。
-さらに、SOの拠点であるチリのアタカマ砂漠は南半球に位置しており、
-TauA の昇る高度が高くないためSATでは検出器の一部でしか観測できない。
+小さい天体であるために検出器全てを一度に照らすことができず、
+全ての検出器を較正するためにはスキャンを行う必要があるため、
+全検出器を同時に構成することができない。
+さらに、SOの拠点であるチリのアタカマ砂漠は南半球に位置しており、TauA の昇る高度が高くないためSATでは検出器の一部でしか観測できない。
 \subsubsection{ケンタウルス座A (Cen A)}
 Cen Aは南天に昇る、直線偏光を放射する電波銀河である。
 QUaD実験にて、$0.5\tcdegree$ の絶対角度較正精度が保証された検出器群を用いて $90,\,\SI{150}{GHZ}$ の波長帯で観測され、その偏光角が測定されている~\cite{so:Zemcov_2010}。
@@ -245,7 +249,6 @@ QUaD実験にて、$0.5\tcdegree$ の絶対角度較正精度が保証された�
 これを抑制するため、デンスワイヤーグリッドを口径に対して傾けて設置する使用例が多い。
 望遠鏡の口径を覆い、全検出器を同時に較正するためにはデンスワイヤーグリッド自体が大型化する必要があり、
 作成する際にはワイヤー間隔を高精度に制御、長期間保つことが困難である。
-また、デンスワイヤーグリッドはCMB観測実験で典型的な広い観測周波数帯で均一に偏光を生成することが難しいといった欠点も有する。
 
 \subsubsection{スパースワイヤーグリッド}
 スパースワイヤーグリッドは、金属ワイヤーを入射光に対して十分長い間隔で平行に張り巡らせた光学素子である。
