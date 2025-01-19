@@ -38,20 +38,30 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
 図\ref{fig:so_noise_freq}にSATの観測帯域と、lensingによるCMBのBモード偏光信号、ダスト放射、シンクロトロン放射の輝度温度の周波数依存性を示す。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{simons_observatory/so_noise_freq.pdf}
+    \includegraphics[width=0.75\textwidth]{simons_observatory/so_noise_freq.pdf}
     \caption{SATの観測帯域と、CMB、ダスト放射、シンクロトロン放射の輝度温度の周波数依存性の比較}
     \label{fig:so_noise_freq}
 \end{figure}
 
-図\ref{fig:so-sat_overview}にSATの概観を示す。
+図\ref{fig:so-sat_baffle}にSATの概観を示す。
 SATにはフォアバッフル・コムービングシールド・グラウンドスクリーンの3つのバッフル群を用いて地面から照り返しや、近くの山からの照り返しから受信機を保護している\cite{Kiuchi_2020}。
 フォアバッフルはSATの受信機に取り付けられており、コムービングシールドはSATを支える構造物に取り付けられ、望遠鏡と共に動く。
 グラウンドスクリーンはSATを取り囲むように設置され、地面からの照り返しを遮断する。
+
+図\ref{fig:so-sat_angle}にSATの回転軸を示す。
+SATはelevationと呼ばれる仰角方向の角度と、azimuthと呼ばれる方位各方向に回転させることができる。
+また、一部のSATではboresightと呼ばれる視線方向に対する回転も可能である。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{simons_observatory/sat_overview.pdf}
-    \caption{SATの概観と3つのバッフル群}
-    \label{fig:so-sat_overview}
+    \includegraphics[width=0.75\textwidth]{simons_observatory/sat_baffle.pdf}
+    \caption{SATのもつ3つのバッフル群の概観}
+    \label{fig:so-sat_baffle}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{simons_observatory/sat_angle.pdf}
+    \caption{SATの回転軸の概観}
+    \label{fig:so-sat_angle}    
 \end{figure}
 
 図\ref{fig:so-sat}にSATの受信機部分の断面図を示す。
@@ -137,7 +147,7 @@ HWPの角振動数を$\omega_{\mathrm{HWP}}$とし、初期位相を$\chi_0$と�
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{simons_observatory/hwp_satoru.pdf}
+    \includegraphics[width=1.0\textwidth]{simons_observatory/hwp_satoru.pdf}
     \caption{HWPを通過することで偏光角が変化することを示した概念図~\cite{takakura_PhD}}
     \label{fig:so-hwp_satoru}
 \end{figure}
