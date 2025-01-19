@@ -6,28 +6,35 @@
 \begin{document}
 \chapter{Simons Observatory実験}
 \section{Simons Observatory実験}
-Simons Observatory実験 (以後、SOと呼ぶ) は、チリのアタカマ砂漠を拠点とする史上最大規模の地上CMB観測実験である。
-現在、口径 $0.5\ \mathrm{m}$ の小口径望遠鏡 (Small Aperture Telescope, SAT) 3台と、
-口径 $6\ \mathrm{m}$ の大口径望遠鏡 (Large Aperture Telescope, LAT) 1台を用いた観測が進められており\cite{so:current_status}、
+Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠を拠点とする史上最大規模の地上CMB観測実験である。
+現在、口径$0.5\ \mathrm{m}$の小口径望遠鏡(Small Aperture Telescope, SAT)3台と、
+口径 $6\ \mathrm{m}$の大口径望遠鏡(Large Aperture Telescope, LAT)1台を用いた観測が進められており\cite{so:current_status}、
 今後さらにイギリス製の2台のSATと、日本製の1台のSAT(JSAT)が追加される予定である。
-検出器としてはTES (Transition Edge Sensor) を採用しており、SATにはそれぞれ約1万個ずつ、LATには約3万個の検出器が搭載されている。
+検出器としてはTES(Transition Edge Sensor)を採用しており、SATにはそれぞれ約1万個ずつ、LATには約3万個の検出器が搭載されている。
 この数多の検出器を通したCMBの偏光の高精度測定は、さまざまな物理へのアプローチを可能にする。
-例えば、SATではインフレーションに由来する原始重力波の検出をテンソルスカラー比$r$にして$\sigma(r)\sim0.003$の精度で行う。
-LATではニュートリノの有効世代数、ニュートリノ質量和の測定を目指す\cite{so:science_forecast}。
+例えば、SATではインフレーションに由来する原始重力波の検出をテンソルスカラー比$r$にして$\sigma(r)=0.003$の精度で行う。
+また、LATではニュートリノの有効世代数$N_\mathrm{eff}$を$\sigma(N_{\mathrm{eff}})=0.07$、ニュートリノ質量和$\Sigma m_\nu$を$\sigma(\Sigma m_\nu)=\SI{0.04}{eV}$の精度での測定を目指す\cite{so:science_forecast}。
 
 立体角 $\Omega$ 、開口面積 $A$、観測波長 $\lambda$ について、回折限界の関係式
 \begin{equation}
-    \Omega = \dfrac{\lambda^2}{A}
+    \Omega \approx \dfrac{\lambda^2}{A}
 \end{equation}
-を考えると、より大きな口径 $A$ を持つ望遠鏡ほどより高い角度分解能を有し、小角度の相関を観測するのに適していることがわかる。
+を考えると、より大きな口径$A$を持つ望遠鏡ほどより高い角度分解能を有し、小角度の相関を観測するのに適していることがわかる。
 その一方で、大口径の望遠鏡は一度に観測できる範囲も小さくなるため、大角度の相関を観測するのに時間を要し、大気揺らぎの影響を受けやすくなってしまう。
 以上の理由から、小口径で大角度相関を調べるSATと、大口径で小角度相関を調べるLATを組み合わせることで、
-広大な $\ell$ に渡ってCMBパワースペクトルの精密な測定を行い、様々な物理へのアプローチを実現する。
+広大な$\ell$に渡ってCMBパワースペクトルの精密な測定を行い、前述した様々な物理へのアプローチを実現する。
 
 \section{Large Aperture Telescope (LAT)}
 \colortext{blue}{余裕があったら書く。}
 \section{Small Aperture Telescope (SAT)}
-\colortext{blue}{SATの断面図を見せて各種装置がどこに位置しているのか述べる。}
+図\ref{}にSATの受信機部分の断面図を示す。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{simons_observatory/so_danmen.pdf}
+    \caption{SATの受信機部分の断面図}
+    \label{fig:so-sat}
+\end{figure}
 \subsection{フォアバッフル}
 \subsection{光学筒}
 \subsection{Transition Edge Sensor (TES)}

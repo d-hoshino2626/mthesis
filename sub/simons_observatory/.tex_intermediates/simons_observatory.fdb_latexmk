@@ -1,15 +1,16 @@
 # Fdb version 4
-["dvipdf"] 1737298606 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1737298607 0
-  "simons_observatory.dvi" 1737298606 38652 5487e58238cf31705e8dfe142818c3a2 "latex"
+["dvipdf"] 1737301754 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1737301754 0
+  "simons_observatory.dvi" 1737301754 39452 c7862d7a350eb465fe8a47516734874f "latex"
   (generated)
   "simons_observatory.pdf"
   (rewritten before read)
-["latex"] 1737298605 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1737298607 0
+["latex"] 1737301752 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1737301754 0
   "../../fig//draft/not-yet.png" 1736440887 79503 13c7db87abaede38c8e4ccd52ffeab0f ""
   "../../fig//simons_observatory/hwp_satoru.pdf" 1735004181 806394 963a34679832e498b41dc5260657a8f8 ""
+  "../../fig//simons_observatory/so_danmen.pdf" 1737301614 1488129 4eb23b0f3c84befdbc438392c51217e7 ""
   "../../main.tex" 1737234513 3129 ea4b6bf4fcdfc3084e7a6749b2aebd11 ""
-  ".tex_intermediates/simons_observatory.aux" 1737298606 5784 ce5eb712d0d303ea7a12e76a52b1cb6e "latex"
-  ".tex_intermediates/simons_observatory.out" 1737298606 2222 713d566236540c4dc38691157b7f784a "latex"
+  ".tex_intermediates/simons_observatory.aux" 1737301754 6039 2bbe73a20c2a59921f2058952ceaad15 "latex"
+  ".tex_intermediates/simons_observatory.out" 1737301754 2222 713d566236540c4dc38691157b7f784a "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -140,7 +141,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "simons_observatory.tex" 1737298604 21965 f0519855ecd847eb8f843607728de4d0 ""
+  "simons_observatory.tex" 1737301751 22235 67a08280b29e22c7af14eceb8c820587 ""
   (generated)
   ".tex_intermediates/simons_observatory.aux"
   ".tex_intermediates/simons_observatory.log"
