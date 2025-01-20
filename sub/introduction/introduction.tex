@@ -53,15 +53,34 @@
     H^2:=\qty(\dfrac{\dot{a}}{a})^2 &= \dfrac{8\pi G}{3}\rho+\dfrac{\Lambda}{3}-\dfrac{K}{a^2}
 \end{align}
 を得る。これをフリードマン方程式と呼ぶ。$H:=\dot{a}/a$はハッブル定数である。
-これまでのCMBの観測から、宇宙が平坦であると考えられている\cite{Bennett_2003}ため、以下では$K=0$とする。
-$\Lambda\mathrm{CDM}$モデルでは、宇宙を構成する成分として、物質、放射、ダークエネルギーが存在すると考え、
-エネルギー密度$\rho$は各成分のエネルギー密度の和として表される。すなわち、フリードマン方程式は
+エネルギー密度$\rho$は、物質による寄与と放射による寄与大別することができる。
+各々のエネルギー密度$\rho_m$、$\rho_r$はそれぞれ$a^{-3}$、$a^{-4}$に比例するため、フリードマン方程式は
 \begin{equation}
     \label{eq:friedmann2}
-    H^2=H_0^2\qty(\Omega_m(1+z)^3+\Omega_r(1+z)^4+\Omega_{\Lambda})
+    H^2=H_0^2\qty[\dfrac{\Omega_m}{a^3}+\dfrac{\Omega_r}{a^4}+\dfrac{\Omega_{K}}{a^2}+\Omega_{\Lambda}]
 \end{equation}
-と書ける。ここで、$\rho_m$は物質のエネルギー密度、$\rho_r$は放射のエネルギー密度、$\rho_{\Lambda}$はダークエネルギーのエネルギー密度である。
+と書ける。
+ここで、$H_0$は現在のハッブル定数、$\Omega_m,\,\Omega_r,\,\Omega_{K},\,\Omega_{\Lambda}$はそれぞれ物質、放射、曲率、宇宙定数の密度パラメータであり
+% 現在の各成分のエネルギー密度$\rho_{m,\,0},\,\rho_{r,\,0}$を用いて
+\begin{align}
+    \label{eq:omega}
+    \Omega_m&:=\dfrac{8\pi G\rho_{m}}{3H_0^2},\quad
+    \Omega_r:=\dfrac{8\pi G\rho_{r}}{3H_0^2},\quad
+    \Omega_{K}:=\dfrac{-K}{H_0^2a^2},\quad
+    \Omega_{\Lambda}:=\dfrac{\Lambda}{3H_0^2}
+\end{align}
+と表される。これまでのCMBの観測から宇宙が平坦であると考えられている\cite{Bennett_2003}ため、
+$\Omega_{m}+\Omega_{r}+\Omega_{\Lambda}=1$を満たす。
 
+$\Lambda\mathrm{CDM}$モデルには、以下の3つの問題がある。
+\begin{enumerate}
+    \item 地平線問題：CMBの温度揺らぎは天球面上のどの方向を見ても$\Delta T/T\sim 10^{-5}$と非常に小さい。
+    これは因果関係を持たないはずの2点の温度が高い精度で一致していることを意味しており、$\Lambda\mathrm{CDM}$モデルはこの理由を説明できない。
+    \item 平坦性問題：これまでの観測によれば、現在の宇宙は曲率がほとんどゼロである。宇宙の曲率の密度パラメータ$\Omega_{K}$は、時間発展とともに成長するため、
+    宇宙初期に遡ると$\Omega_{K}$は不自然なほどに小さくなければならない。
+    \item モノポール問題：大統一理論などの素粒子標準理論を超えた理論は、しばしば宇宙初期に磁気モノポールが生成されることを予言する。
+    しかし、これまでの観測において磁気モノポールは発見されていない。
+\end{enumerate}
 \section{インフレーション宇宙論}
 
 \section{CMB偏光モード}
