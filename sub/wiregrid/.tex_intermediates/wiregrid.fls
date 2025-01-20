@@ -976,6 +976,9 @@ INPUT ../../fig//wiregrid/wire_through.pdf
 INPUT ../../fig//wiregrid/wire_through.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/wire_through.pdf
 OUTPUT .tex_intermediates/wiregrid.dvi
+INPUT ../../fig//wiregrid/wiregrid_telescope_image.pdf
+INPUT ../../fig//wiregrid/wiregrid_telescope_image.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_telescope_image.pdf
 INPUT ../../fig//wiregrid/wiregrid_tod.pdf
 INPUT ../../fig//wiregrid/wiregrid_tod.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_tod.pdf

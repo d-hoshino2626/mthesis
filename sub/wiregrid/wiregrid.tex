@@ -41,7 +41,8 @@ SOでは検出器の偏光角較正のために、人工偏光光源としてス
 \end{figure}
 \section{偏光角較正の原理}
 スパースワイヤーグリッドは望遠鏡の窓の目の前に設置され、前述した原理により直線偏光した光を望遠鏡に送り込む。
-望遠鏡とその窓の前に置かれたスパースワイヤーグリッドの概念図を図\ref{fig:}に示す。
+望遠鏡とその窓の前に置かれたスパースワイヤーグリッドの概念図を図\ref{fig:wiregrid_telescope}に示す。
+本節では、生成された直線偏光がどのように焦点面検出器に到達し、偏光角較正に用いられるかを述べる。
 式\eqref{eq:so-hwp_modulation}において、入射光としてワイヤー由来の偏光角 $\theta_{\mathrm{wire}}$ の直線偏光した光を考える。
 $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ となるため、
 \begin{equation}
@@ -66,8 +67,13 @@ $\chi_0=0,\,\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\t
 $\theta_{\mathrm{wire}}$を
 光学系による偽偏光は較正円の原点がズレる効果として現れ、環境熱放射の非等方性は較正円を歪ませる効果として現れる。
 この較正円を用いて補正を加え、最終的に検出器の偏光角$\theta_{\mathrm{det}}$を較正する。
-\begin{figure}
-    \
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{wiregrid/wiregrid_telescope_image.pdf}
+    \caption{望遠鏡の窓の前に設置されたスパースワイヤーグリッドの概念図。
+    見やすさのため、スパースワイヤーグリッドは本来設置される位置よりも空側に描いている。
+    }
+    \label{fig:wiregrid_telescope}
 \end{figure}
 \begin{figure}[H]
     \centering
