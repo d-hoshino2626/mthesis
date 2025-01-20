@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 JAN 2025 22:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 JAN 2025 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -620,9 +620,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ]
 
-LaTeX Warning: Citation `Bennett_2003' on page 2 undefined on input line 72.
+LaTeX Warning: Citation `Bennett_2003' on page 2 undefined on input line 77.
 
-[2] (.tex_intermediates/introduction.aux)
+[2] [3] (.tex_intermediates/introduction.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -630,12 +630,12 @@ Package rerunfilecheck Info: File `introduction.out' has not changed.
 (rerunfilecheck)             Checksum: DB228B1A43722DA7B020D8C7C1AE5AA1;783.
  ) 
 Here is how much of TeX's memory you used:
- 17565 strings out of 476677
- 337750 string characters out of 5804957
+ 17566 strings out of 476677
+ 337770 string characters out of 5804957
  1858490 words of memory out of 5000000
- 37782 multiletter control sequences out of 15000+600000
+ 37783 multiletter control sequences out of 15000+600000
  561418 words of font info for 113 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,13n,94p,363b,965s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/introduction.dvi (2 pages, 12280 bytes).
+Output written on .tex_intermediates/introduction.dvi (3 pages, 13556 bytes).
