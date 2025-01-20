@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 JAN 2025 15:08
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 JAN 2025 19:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -748,20 +748,20 @@ File: ../../fig//wiregrid/wiresag_picture_old.pdf Graphic file (type pdf)
 File: ../../fig//wiregrid/wiresag_result_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_result_old.pdf>
 
-LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 404.
+LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 405.
 
 
-LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 404.
+LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 405.
 
 [12] [13]
 
-LaTeX Warning: Reference `chap:tiltsensor' on page 14 undefined on input line 415.
+LaTeX Warning: Reference `chap:tiltsensor' on page 14 undefined on input line 416.
 
 
-LaTeX Warning: Reference `chap:wiresag' on page 14 undefined on input line 423.
+LaTeX Warning: Reference `chap:wiresag' on page 14 undefined on input line 424.
 
 
-LaTeX Warning: Reference `chap:wiresag_swg' on page 14 undefined on input line 425.
+LaTeX Warning: Reference `chap:wiresag_swg' on page 14 undefined on input line 426.
 
 [14] (.tex_intermediates/wiregrid.aux)
 
@@ -779,4 +779,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  92i,15n,94p,480b,1016s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiregrid.dvi (14 pages, 56352 bytes).
+Output written on .tex_intermediates/wiregrid.dvi (14 pages, 56568 bytes).

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 JAN 2025 18:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 JAN 2025 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -522,6 +522,9 @@ Package hyperref Info: Link coloring OFF on input line 6.
 
 
 
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
 (siunitx)                
@@ -579,55 +582,36 @@ LaTeX Warning: Citation `1965ApJ...142..419P' on page 1 undefined on input line 
 
 LaTeX Warning: Citation `1996ApJ...473..576F' on page 1 undefined on input line 11.
 
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 16.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 16.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 16.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 16.
+(Font)              scaled to size 10.53629pt on input line 12.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 16.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 16.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 16.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 16.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 16.
+(Font)              scaled to size 10.53629pt on input line 12.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 16.
+LaTeX Warning: Reference `fig:cobe' on page 1 undefined on input line 12.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Lambda' on input line 16.
+LaTeX Warning: File `cobe.pdf' not found on input line 19.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 16.
+./introduction.tex:19: LaTeX Error: Cannot determine size of graphic in cobe.xbb (no BoundingBox).
 
-[1
-
-
-] (.tex_intermediates/introduction.aux)
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: DB228B1A43722DA7B020D8C7C1AE5AA1;783.
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...udegraphics[width=0.6\textwidth]{cobe.pdf}
+                                                   
 Here is how much of TeX's memory you used:
- 17539 strings out of 476677
- 337277 string characters out of 5804957
- 1847490 words of memory out of 5000000
- 37761 multiletter control sequences out of 15000+600000
- 561418 words of font info for 113 fonts, out of 8000000 for 9000
+ 17584 strings out of 476677
+ 337998 string characters out of 5804957
+ 1843490 words of memory out of 5000000
+ 37790 multiletter control sequences out of 15000+600000
+ 555813 words of font info for 93 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,5n,94p,363b,957s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,4n,94p,363b,913s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/introduction.dvi (1 page, 3764 bytes).
+No pages of output.
