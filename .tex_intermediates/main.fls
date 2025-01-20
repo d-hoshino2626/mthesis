@@ -978,7 +978,9 @@ INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
+INPUT ./fig//intro/cobe.pdf
+INPUT ./fig//intro/cobe.pdf
+INPUT extractbb -B cropbox -O ./fig//intro/cobe.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
@@ -1319,3 +1321,6 @@ INPUT .tex_intermediates/main.bbl
 INPUT .tex_intermediates/main.bbl
 INPUT .tex_intermediates/main.bbl
 INPUT .tex_intermediates/main.bbl
+INPUT .tex_intermediates/main.aux
+INPUT .tex_intermediates/main.out
+INPUT .tex_intermediates/main.out

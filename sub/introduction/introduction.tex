@@ -41,13 +41,27 @@
     T_{\mu\nu}=\mqty(-\rho&0&0&0\\0&P&0&0\\0&0&P&0\\0&0&0&P)
 \end{equation}
 と表すことができる。ここで、$\rho$はエネルギー密度、$P$は圧力である。
+エネルギー運動量テンソルを用いてエネルギー保存則を考えると
+\begin{equation}
+    \label{eq:energyconservation}
+    \dot{\rho}+3\dfrac{\dot{a}}{a}(\rho+P)=0
+\end{equation}
+を得る。
 式\eqref{eq:rwmetric}、式\eqref{eq:emtensor}を式\eqref{eq:einstein}に代入し、$(0,\,0)$に注目すると
 \begin{align}
     \label{eq:friedmann}
-    \qty(\dfrac{\dot{a}}{a})^2 &= \dfrac{8\pi G}{3}\rho+\dfrac{\Lambda}{3}-\dfrac{K}{a^2}
+    H^2:=\qty(\dfrac{\dot{a}}{a})^2 &= \dfrac{8\pi G}{3}\rho+\dfrac{\Lambda}{3}-\dfrac{K}{a^2}
 \end{align}
-を得る。これをフリードマン方程式と呼ぶ。
-また、エネルギー運動量テンソルを用いて、エネルギー保存則を
+を得る。これをフリードマン方程式と呼ぶ。$H:=\dot{a}/a$はハッブル定数である。
+これまでのCMBの観測から、宇宙が平坦であると考えられている\cite{Bennett_2003}ため、以下では$K=0$とする。
+$\Lambda\mathrm{CDM}$モデルでは、宇宙を構成する成分として、物質、放射、ダークエネルギーが存在すると考え、
+エネルギー密度$\rho$は各成分のエネルギー密度の和として表される。すなわち、フリードマン方程式は
+\begin{equation}
+    \label{eq:friedmann2}
+    H^2=H_0^2\qty(\Omega_m(1+z)^3+\Omega_r(1+z)^4+\Omega_{\Lambda})
+\end{equation}
+と書ける。ここで、$\rho_m$は物質のエネルギー密度、$\rho_r$は放射のエネルギー密度、$\rho_{\Lambda}$はダークエネルギーのエネルギー密度である。
+
 \section{インフレーション宇宙論}
 
 \section{CMB偏光モード}
