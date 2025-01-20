@@ -50,6 +50,7 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 したがって、この変調信号は時系列データとして位相オフセット $4\chi_0 + 2(\theta_{\mathrm{det}} + \theta_{\mathrm{wire}})$ を持った
 角振動数 $4\omega_{\mathrm{HWP}}$ の正弦波としてみえる。
 理想的な時系列データのイメージを図\ref{fig:wiregrid_mod}に示す。
+$\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\tcdegree,\,15\tcdegree,\,60\tcdegree$に対して時系列データを生成した。
 これを復調することで、式\eqref{eq:so-hwp_demod}より
 \begin{equation}
     d_{\mathrm{d, det}} = \varepsilon\exp\qty[i2\qty(\theta_{\mathrm{wire}} + \theta_{\mathrm{det}})]
@@ -62,13 +63,13 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 この較正円を用いて補正を加え、最終的に検出器の偏光角 $\theta_{\mathrm{det}}$ を較正する。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\columnwidth]{draft/not-yet.png}
+    \includegraphics[width=0.8\columnwidth]{wiregrid/wiregrid_tod.pdf}
     \caption[スパースワイヤーグリッドによって生成される偏光信号の時系列データイメージ]{スパースワイヤーグリッドによって生成される偏光信号の時系列データイメージ}
     \label{fig:wiregrid_mod}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\columnwidth]{draft/not-yet.png}
+    \includegraphics[width=0.7\columnwidth]{wiregrid/wiregrid_calibration_circle.pdf}
     \caption{較正円のイメージ}
     \label{fig:calibration_circle}
 \end{figure}

@@ -1047,11 +1047,12 @@ INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_reflect.pdf
 INPUT ./fig//wiregrid/wire_through.pdf
 INPUT ./fig//wiregrid/wire_through.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_through.pdf
-INPUT ./fig//draft/not-yet.png
-INPUT ./fig//draft/not-yet.png
-INPUT extractbb -B cropbox -O ./fig//draft/not-yet.png
-INPUT ./fig//draft/not-yet.png
-INPUT ./fig//draft/not-yet.png
+INPUT ./fig//wiregrid/wiregrid_tod.pdf
+INPUT ./fig//wiregrid/wiregrid_tod.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_tod.pdf
+INPUT ./fig//wiregrid/wiregrid_calibration_circle.pdf
+INPUT ./fig//wiregrid/wiregrid_calibration_circle.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_calibration_circle.pdf
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_appearance.pdf

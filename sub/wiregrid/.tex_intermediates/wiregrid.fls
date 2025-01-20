@@ -584,6 +584,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
@@ -975,11 +976,12 @@ INPUT ../../fig//wiregrid/wire_through.pdf
 INPUT ../../fig//wiregrid/wire_through.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/wire_through.pdf
 OUTPUT .tex_intermediates/wiregrid.dvi
-INPUT ../../fig//draft/not-yet.png
-INPUT ../../fig//draft/not-yet.png
-INPUT extractbb -B cropbox -O ../../fig//draft/not-yet.png
-INPUT ../../fig//draft/not-yet.png
-INPUT ../../fig//draft/not-yet.png
+INPUT ../../fig//wiregrid/wiregrid_tod.pdf
+INPUT ../../fig//wiregrid/wiregrid_tod.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_tod.pdf
+INPUT ../../fig//wiregrid/wiregrid_calibration_circle.pdf
+INPUT ../../fig//wiregrid/wiregrid_calibration_circle.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_calibration_circle.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ../../fig//wiregrid/wiregrid_appearance.pdf
