@@ -16,13 +16,38 @@
 その後、CMB偏光について述べる。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{cobe.pdf}
-    \caption{COBE衛星によるCMBのスペクトル測定結果。}
+    \includegraphics[width=0.6\textwidth]{intro/cobe.pdf}
+    \caption{COBE衛星によるCMBのスペクトル測定値を黒体輻射のスペクトルでfittingした結果。}
     \label{fig:cobe}
 \end{figure}
 
 \section{$\Lambda\mathrm{CDM}$モデル}
-
+現在の標準的な宇宙モデルである$\Lambda\mathrm{CDM}$モデルについて述べる。
+まず、Einstein方程式は、計量テンソル$g_{\mu\nu}$、Einsteinテンソル$G_{\mu\nu}$とエネルギー運動量テンソル$T_{\mu\nu}$を用いて
+\begin{equation}
+    \label{eq:einstein}
+    G_{\mu\nu}+\Lambda g_{\mu\nu}=8\pi GT_{\mu\nu}
+\end{equation}
+とかける。ここで、$G$は重力定数、$\Lambda$は宇宙定数である。また、自然単位系を採用した。
+一様等方な宇宙では、その計量はフリードマン・ルメートル・ロバートソン・ウォーカー計量
+\begin{equation}
+    \label{eq:rwmetric}
+    ds^2=-dt^2+a^2(t)\qty[\frac{dr^2}{1-Kr^2}+r^2d\Omega^2]
+\end{equation}
+で記述される。ここで、$a(t)$はスケールファクター、$K$は宇宙の曲率を表す。
+また、宇宙の物質が完全流体であることを仮定すると、エネルギー運動量テンソルを
+\begin{equation}
+    \label{eq:emtensor}
+    T_{\mu\nu}=\mqty(-\rho&0&0&0\\0&P&0&0\\0&0&P&0\\0&0&0&P)
+\end{equation}
+と表すことができる。ここで、$\rho$はエネルギー密度、$P$は圧力である。
+式\eqref{eq:rwmetric}、式\eqref{eq:emtensor}を式\eqref{eq:einstein}に代入し、$(0,\,0)$に注目すると
+\begin{align}
+    \label{eq:friedmann}
+    \qty(\dfrac{\dot{a}}{a})^2 &= \dfrac{8\pi G}{3}\rho+\dfrac{\Lambda}{3}-\dfrac{K}{a^2}
+\end{align}
+を得る。これをフリードマン方程式と呼ぶ。
+また、エネルギー運動量テンソルを用いて、エネルギー保存則を
 \section{インフレーション宇宙論}
 
 \section{CMB偏光モード}
