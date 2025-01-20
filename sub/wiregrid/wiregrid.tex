@@ -50,7 +50,7 @@ $Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t) = \exp\qty[2i\theta_{\mathrm{wire}}]$ 
 したがって、この変調信号は時系列データとして位相オフセット $4\chi_0 + 2(\theta_{\mathrm{det}} + \theta_{\mathrm{wire}})$ を持った
 角振動数 $4\omega_{\mathrm{HWP}}$ の正弦波としてみえる。
 理想的な時系列データのイメージを図\ref{fig:wiregrid_mod}に示す。
-$\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\tcdegree,\,15\tcdegree,\,60\tcdegree$に対して時系列データを生成した。
+$\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\tcdegree,\,15\tcdegree,\,60\tcdegree$に対して時系列データのイメージを描いた。
 これを復調することで、式\eqref{eq:so-hwp_demod}より
 \begin{equation}
     d_{\mathrm{d, det}} = \varepsilon\exp\qty[i2\qty(\theta_{\mathrm{wire}} + \theta_{\mathrm{det}})]
@@ -58,9 +58,11 @@ $\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\tcdegree,\,1
 \end{equation}
 という偏光情報のみを得る。
 望遠鏡では光学系により生まれる偽偏光や、環境熱放射が非等方だった場合にはワイヤー角度に対して非等方な強度のワイヤー由来の偏光が観測され得る。
-これを取り除くため、さまざまなワイヤーの角度 $\theta_{\mathrm{wire}}$ でこの $d_{\mathrm{d, det}}$ を測定し、複素平面上で円(較正円と呼ぶ)を描く(\ref{fig:calibration_circle})。
+これを取り除くため、さまざまなワイヤーの角度$\theta_{\mathrm{wire}}$ でこの $d_{\mathrm{d, det}}$を測定し、複素平面上で円(較正円と呼ぶ)を描く。
+図\ref{fig:calibration_circle}に較正円のイメージを示す。
+$\theta_{\mathrm{wire}}$を
 光学系による偽偏光は較正円の原点がズレる効果として現れ、環境熱放射の非等方性は較正円を歪ませる効果として現れる。
-この較正円を用いて補正を加え、最終的に検出器の偏光角 $\theta_{\mathrm{det}}$ を較正する。
+この較正円を用いて補正を加え、最終的に検出器の偏光角$\theta_{\mathrm{det}}$を較正する。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\columnwidth]{wiregrid/wiregrid_tod.pdf}
@@ -69,7 +71,7 @@ $\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\tcdegree,\,1
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\columnwidth]{wiregrid/wiregrid_calibration_circle.pdf}
+    \includegraphics[width=0.6\columnwidth]{wiregrid/wiregrid_calibration_circle.pdf}
     \caption{較正円のイメージ}
     \label{fig:calibration_circle}
 \end{figure}
@@ -407,6 +409,8 @@ SOにおいて要求される絶対角度較正精度は $\delta\theta < 0.1\tcd
 さらに、観測サイトにおける品質管理の面を考えると、定期的かつ容易に測定できるようなシステムの開発が望まれる。
 こういった状況を受け、より正確にワイヤーのたわみを評価する手法と、その自動化手法を確立した。
 \ref{chap:wiresag}章にてこの詳細を論ずる。
+また、実際に使用されるスパースワイヤーグリッドのたわみを開発した装置を用いて評価した。
+\ref{chap:wiresag_swg}章にてこの詳細を述べる。
 \begin{table}[H]
     \centering
     \caption{先行研究によって評価された系統誤差}

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 JAN 2025 09:27
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 JAN 2025 10:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -627,64 +627,64 @@ File: ../../fig//wiregrid/wiregrid_calibration_circle.pdf Graphic file (type pdf
 <../../fig//wiregrid/wiregrid_calibration_circle.pdf>
  [2]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 83.
+(Font)              scaled to size 11.54663pt on input line 85.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 83.
+(Font)              scaled to size 11.54663pt on input line 85.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 83.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 83.
+(Font)              scaled to size 11.54663pt on input line 85.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 83.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 83.
+(Font)              scaled to size 11.54663pt on input line 85.
 
 
-LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 88.
+LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 90.
 
 File: ../../fig//wiregrid/wiregrid_appearance.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiregrid_appearance.pdf>
 File: ../../fig//wiregrid/wire_detail_view.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wire_detail_view.pdf>
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 109.
+(Font)              scaled to size 6.73553pt on input line 111.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 109.
+(Font)              scaled to size 4.8111pt on input line 111.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 109.
+(Font)              scaled to size 9.6222pt on input line 111.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 109.
+(Font)              scaled to size 6.73553pt on input line 111.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 109.
+(Font)              scaled to size 4.8111pt on input line 111.
 
-LaTeX Warning: Citation `swg:Murata_2023' on page 3 undefined on input line 109.
+LaTeX Warning: Citation `swg:Murata_2023' on page 3 undefined on input line 111.
 
 
-LaTeX Warning: Citation `swg:Murata_2023' on page 3 undefined on input line 109.
+LaTeX Warning: Citation `swg:Murata_2023' on page 3 undefined on input line 111.
 
 File: ../../fig//wiregrid/wire_attachment.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wire_attachment.pdf>
 [3]
 
-LaTeX Warning: Citation `swg:nakata' on page 4 undefined on input line 123.
+LaTeX Warning: Citation `swg:nakata' on page 4 undefined on input line 125.
 
 [4]
 
-LaTeX Warning: Citation `swg:nakata' on page 5 undefined on input line 130.
+LaTeX Warning: Citation `swg:nakata' on page 5 undefined on input line 132.
 
 File: ../../fig//wiregrid/rotation_parts.pdf Graphic file (type pdf)
 <../../fig//wiregrid/rotation_parts.pdf>
 File: ../../fig//wiregrid/wiregrid_actuator.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiregrid_actuator.pdf>
 
-LaTeX Warning: Citation `swg:Murata_2023' on page 5 undefined on input line 141.
+LaTeX Warning: Citation `swg:Murata_2023' on page 5 undefined on input line 143.
 
 
-LaTeX Warning: Citation `swg:Murata_2023' on page 5 undefined on input line 141.
+LaTeX Warning: Citation `swg:Murata_2023' on page 5 undefined on input line 143.
 
 [5]
 
-LaTeX Warning: Citation `swg:Murata_2023' on page 6 undefined on input line 162.
+LaTeX Warning: Citation `swg:Murata_2023' on page 6 undefined on input line 164.
 
 [6]
 File: ../../fig//wiregrid/abs_angle_overview.pdf Graphic file (type pdf)
@@ -697,7 +697,7 @@ File: ../../fig//wiregrid/tiltsensor_slope.pdf Graphic file (type pdf)
 File: ../../fig//wiregrid/tiltsensor_WGplane.pdf Graphic file (type pdf)
 <../../fig//wiregrid/tiltsensor_WGplane.pdf>
 
-Overfull \hbox (6.9902pt too wide) in paragraph at lines 247--261
+Overfull \hbox (6.9902pt too wide) in paragraph at lines 249--263
 [][]  []
  []
 
@@ -705,23 +705,23 @@ File: ../../fig//wiregrid/tiltsensor_at_site.pdf Graphic file (type pdf)
 <../../fig//wiregrid/tiltsensor_at_site.pdf>
 [8]
 
-LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 282.
+LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 284.
 
 
-LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 287.
+LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 289.
 
 
-LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 298.
+LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 300.
 
 
-LaTeX Warning: Citation `swg:murata' on page 9 undefined on input line 306.
+LaTeX Warning: Citation `swg:murata' on page 9 undefined on input line 308.
 
 
-LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 306.
+LaTeX Warning: Citation `swg:iijima' on page 9 undefined on input line 308.
 
 [9]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 316.
+(Font)              scaled to size 5.77332pt on input line 318.
 File: ../../fig//wiregrid/wiresag_def.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_def.pdf>
 File: ../../fig//wiregrid/wiresag_setup_overview_old.pdf Graphic file (type pdf)
@@ -730,34 +730,37 @@ File: ../../fig//wiregrid/wiresag_setup_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_setup_old.pdf>
 
 
-LaTeX Warning: Citation `swg:murata' on page 10 undefined on input line 344.
+LaTeX Warning: Citation `swg:murata' on page 10 undefined on input line 346.
 
 
-LaTeX Warning: Citation `swg:murata' on page 10 undefined on input line 344.
+LaTeX Warning: Citation `swg:murata' on page 10 undefined on input line 346.
 
 [10] [11]
 
-LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 374.
+LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 376.
 
 
-LaTeX Warning: Citation `swg:iijima' on page 12 undefined on input line 375.
+LaTeX Warning: Citation `swg:iijima' on page 12 undefined on input line 377.
 
 File: ../../fig//wiregrid/wiresag_picture_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_picture_old.pdf>
 File: ../../fig//wiregrid/wiresag_result_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_result_old.pdf>
 
-LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 390.
+LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 392.
 
 
-LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 390.
+LaTeX Warning: Citation `swg:murata' on page 12 undefined on input line 392.
 
 [12]
 
-LaTeX Warning: Reference `chap:tiltsensor' on page 13 undefined on input line 401.
+LaTeX Warning: Reference `chap:tiltsensor' on page 13 undefined on input line 403.
 
 
-LaTeX Warning: Reference `chap:wiresag' on page 13 undefined on input line 409.
+LaTeX Warning: Reference `chap:wiresag' on page 13 undefined on input line 411.
+
+
+LaTeX Warning: Reference `chap:wiresag_swg' on page 13 undefined on input line 413.
 
 [13] [14] (.tex_intermediates/wiregrid.aux)
 
@@ -767,12 +770,12 @@ Package rerunfilecheck Info: File `wiregrid.out' has not changed.
 (rerunfilecheck)             Checksum: FD1201CDCC6956FD47418181C4E0DC16;2828.
  ) 
 Here is how much of TeX's memory you used:
- 17756 strings out of 476677
- 344145 string characters out of 5804957
+ 17757 strings out of 476677
+ 344163 string characters out of 5804957
  1861490 words of memory out of 5000000
- 37952 multiletter control sequences out of 15000+600000
+ 37953 multiletter control sequences out of 15000+600000
  562516 words of font info for 119 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,15n,94p,486b,983s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiregrid.dvi (14 pages, 54576 bytes).
+Output written on .tex_intermediates/wiregrid.dvi (14 pages, 54936 bytes).
