@@ -15,6 +15,21 @@ C.~L. Bennett, M.~Halpern, G.~Hinshaw, N.~Jarosik, A.~Kogut, M.~Limon, S.~S. Mey
 \newblock {First-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Preliminary Maps and Basic Results}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 148(1):1--27, September 2003.
 
+\bibitem{10.1093/mnras/195.3.467}
+Katsuhiko Sato.
+\newblock First-order phase transition of a vacuum and the expansion of the universe.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 195(3):467--479, 07 1981.
+
+\bibitem{PhysRevD.23.347}
+Alan~H. Guth.
+\newblock Inflationary universe: A possible solution to the horizon and flatness problems.
+\newblock {\em Phys. Rev. D}, 23:347--356, Jan 1981.
+
+\bibitem{Tsujikawa_book}
+辻川信二.
+\newblock {\em 入門 現代の宇宙論}.
+\newblock 講談社サイエンティフィク, Jan 2022.
+
 \bibitem{so:current_status}
 Aashrita Mangu, Lance Corbett, Sanah Bhimani, Fred Carl, Samuel Day-Weiss, Brooke DiGia, Josquin Errard, Nicholas Galitzki, Masashi Hazumi, Shawn~W. Henderson, Amber Miller, Jenna Moore, Xue Song, Tran Tsan, Yuhan Wang, and Andrea Zonca.
 \newblock {The Simons Observatory: Design, Integration, and Current Status of Small Aperture Telescopes}.
@@ -49,7 +64,7 @@ K.~Yamada, B.~Bixler, Y.~Sakurai, P.~C. Ashton, J.~Sugiyama, K.~Arnold, J.~Begin
 \newblock {\em Review of Scientific Instruments}, 95(2), 2 2024.
 
 \bibitem{takakura_PhD}
-高倉理.
+Satoru Takakura.
 \newblock {\em Characterization of a continuous polarization modulator using a half-wave plate for measurements of degree-scale cosmic microwave background with the POLARBEAR experiment}.
 \newblock PhD thesis, 2017.
 

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 JAN 2025 01:52
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 JAN 2025 17:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -582,60 +582,70 @@ LaTeX Warning: Citation `1996ApJ...473..576F' on page 1 undefined on input line 
 File: ../../fig//intro/cobe.pdf Graphic file (type pdf)
 <../../fig//intro/cobe.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 20.
+(Font)              scaled to size 9.6222pt on input line 25.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 20.
+(Font)              scaled to size 9.6222pt on input line 25.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 24.
+(Font)              scaled to size 13.85594pt on input line 29.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 24.
+(Font)              scaled to size 13.85594pt on input line 29.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 24.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 24.
+(Font)              scaled to size 13.85594pt on input line 29.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 24.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 24.
+(Font)              scaled to size 13.85594pt on input line 29.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 24.
+(Font)              scaled to size 6.73553pt on input line 29.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 24.
+(Font)              scaled to size 9.6222pt on input line 29.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 24.
+(Font)              scaled to size 6.73553pt on input line 29.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 24.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Lambda' on input line 24.
+(hyperref)                removing `math shift' on input line 29.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 24.
+(hyperref)                removing `\Lambda' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 29.
 
 [1
 
 
 ]
 
-LaTeX Warning: Citation `Bennett_2003' on page 2 undefined on input line 77.
+LaTeX Warning: Citation `Bennett_2003' on page 2 undefined on input line 82.
 
-[2] [3] (.tex_intermediates/introduction.aux)
+[2]
+
+LaTeX Warning: Citation `10.1093/mnras/195.3.467' on page 3 undefined on input line 100.
+
+
+LaTeX Warning: Citation `PhysRevD.23.347' on page 3 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Tsujikawa_book' on page 3 undefined on input line 101.
+
+[3] (.tex_intermediates/introduction.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 5EA21D383218DFEB0145E4979939713E;815.
+(rerunfilecheck)             Checksum: 075DCD1294BD0F915FED0A02695B2FFA;815.
  ) 
 Here is how much of TeX's memory you used:
  17566 strings out of 476677
  337770 string characters out of 5804957
- 1858490 words of memory out of 5000000
+ 1859490 words of memory out of 5000000
  37783 multiletter control sequences out of 15000+600000
  561418 words of font info for 113 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,13n,94p,363b,965s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/introduction.dvi (3 pages, 13592 bytes).
+Output written on .tex_intermediates/introduction.dvi (3 pages, 14468 bytes).
