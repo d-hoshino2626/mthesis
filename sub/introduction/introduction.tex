@@ -138,13 +138,37 @@ $\mathcal{N}$はe-folding数と呼ばれ、典型的に$50<\mathcal{N}<60$程度
 \begin{equation}
     \dd{s}^2 = -\qty(1+2\Phi)\dd{t}^2 + a^2\qty(1-2\Psi)\qty(\delta_{ij}+h_{ij})\dd{x_i}\dd{x_j}
 \end{equation}
-といった揺らぎを与える。ここで、$\Phi$は重力ポテンシャル、$\Psi$は曲率揺らぎ、$h_{ij}$はテンソル揺らぎを表す。
-このときに引き伸ばされた揺らぎがCMBの温度異方性を作っていると考えられる。
+といった揺らぎを与える。
+ここで、$\Phi$は重力ポテンシャル、$\Psi$は曲率揺らぎ、$h_{ij}$はテンソル揺らぎを表し、いずれも微少量である。
+$h_{ij}$は重力波として見なすことができ、$z$軸正の方向に進む重力波は
+\begin{equation}
+    h_{ij} = \mqty(h_{+} & h_{\times} & 0\\
+                   h_{\times} & h_{+} & 0\\
+                   0 & 0 & 0
+                   )
+\end{equation}
+と2つの基本モード($+$モードと$\times$モード)を用いて表すことができる。
+図\ref{fig:gravitational_wave}に$+$モードと$\times$モードが作る空間の歪みを示す。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{intro/gravitational_wave.pdf}
+    \caption{重力波の$+$モード(上)と$\times$モード(下)が作る空間の歪み。
+    歪みのない時空上での円(点線)が、時空が歪むことで伸び縮みされ楕円(実線)になっている。}
+    \label{fig:gravitational_wave}
+\end{figure}
+
+
+
+
+
+これらの揺らぎがCMBの温度異方性を作る\cite{1967ApJ...147...73S}。
 以降の節では、はじめにCMBの温度異方性をどのように定式化し
 \colortext{red}{ここの文を最後に考える}
 
 \section{CMBパワースペクトル}
 \subsection{CMBの温度異方性とパワースペクトル}
+インフレーションによって生じた時空の歪みは、CMBの温度に異方性を作る。あ
 
 \subsection{CMBの偏光パターン}
 

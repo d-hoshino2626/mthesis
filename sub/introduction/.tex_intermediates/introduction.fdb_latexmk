@@ -1,26 +1,30 @@
 # Fdb version 4
-["dvipdf"] 1737464090 "introduction.dvi" "introduction.pdf" "introduction" 1737464090 0
-  "introduction.dvi" 1737464089 21200 8580dd8a653171abf753eb7a400dc6f0 "latex"
+["dvipdf"] 1737467784 "introduction.dvi" "introduction.pdf" "introduction" 1737467785 0
+  "introduction.dvi" 1737467784 23104 66cbd59213209081f0102bfdc1502a6f "latex"
   (generated)
   "introduction.pdf"
   (rewritten before read)
-["latex"] 1737464089 "introduction.tex" "introduction.dvi" "introduction" 1737464090 0
+["latex"] 1737467783 "introduction.tex" "introduction.dvi" "introduction" 1737467785 0
   "../../fig//intro/cobe.pdf" 1737371405 196817 146ac3b06193a945a8a5c32b2d79836f ""
+  "../../fig//intro/gravitational_wave.pdf" 1737466946 329140 8d9b86e18bea370396e4a97af609f296 ""
   "../../main.tex" 1737337650 3156 19f6cef682a95fbd857fdcfe92136ed7 ""
-  ".tex_intermediates/introduction.aux" 1737464089 3082 f5e3a1532986895565b9993ed0a7edb4 "latex"
-  ".tex_intermediates/introduction.out" 1737464089 1233 b598fbddfbd00dfe42ed25681a1cbc84 "latex"
+  ".tex_intermediates/introduction.aux" 1737467784 3726 a1859e483af0d82c38e5970cb0a2a8cc "latex"
+  ".tex_intermediates/introduction.out" 1737467784 1233 b598fbddfbd00dfe42ed25681a1cbc84 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1136768653 1536 73da8e8f1d2a4c957d51ca133585586b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tfm" 1136768653 1536 3290a75021d32d016616fe527bc9884c ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm" 1246382020 1496 c79f6914c6d39ffb3759967363d1be79 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm" 1246382020 1516 a3bf6a5e7ec4401b1f52092dfaaed242 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm" 1246382020 1508 6e807ff901c35a5f1fde0ca275533df8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm" 1246382020 1528 dab402b9d3774ca98baa037071cee7ae ""
@@ -29,6 +33,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm" 1136768653 1116 4e6ba9d7914baa6482fd69f67d126380 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm" 1136768653 1332 f817c21a1ba54560425663374f1b651a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm" 1136768653 1344 8a0be4fe4d376203000810ad4dc81558 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
@@ -137,7 +142,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "introduction.tex" 1737464088 10068 e9834dd3e5853504574cc99649e9af45 ""
+  "introduction.tex" 1737467783 11035 808528a80bbef2ce6a33b1c4662e9105 ""
   (generated)
   ".tex_intermediates/introduction.aux"
   ".tex_intermediates/introduction.log"

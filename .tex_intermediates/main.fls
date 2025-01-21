@@ -940,9 +940,14 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT .tex_intermediates/main.toc
 INPUT .tex_intermediates/main.toc
 INPUT .tex_intermediates/main.toc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT .tex_intermediates/main.toc
+INPUT ./sub/introduction/introduction.tex
+INPUT ./sub/introduction/introduction.tex
+INPUT ./sub/introduction/introduction.tex
+INPUT ./sub/introduction/introduction.tex
+INPUT ./sub/introduction/introduction.tex
+INPUT ./sub/introduction/introduction.tex
+INPUT ./sub/introduction/introduction.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -956,6 +961,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
@@ -966,17 +972,10 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
-OUTPUT .tex_intermediates/main.toc
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
-INPUT ./sub/introduction/introduction.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT ./fig//intro/cobe.pdf
 INPUT ./fig//intro/cobe.pdf
@@ -996,6 +995,16 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
+INPUT ./fig//intro/gravitational_wave.pdf
+INPUT ./fig//intro/gravitational_wave.pdf
+INPUT extractbb -B cropbox -O ./fig//intro/gravitational_wave.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
@@ -1003,6 +1012,7 @@ INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT ./fig//simons_observatory/so_site.pdf
 INPUT ./fig//simons_observatory/so_site.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/so_site.pdf
@@ -1018,16 +1028,9 @@ INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_angle.pdf
 INPUT ./fig//simons_observatory/sat_danmen.pdf
 INPUT ./fig//simons_observatory/sat_danmen.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_danmen.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./fig//simons_observatory/hwp_satoru.pdf
 INPUT ./fig//simons_observatory/hwp_satoru.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/hwp_satoru.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
@@ -1043,6 +1046,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT ./fig//simons_observatory/EtoB_leakage.pdf
 INPUT ./fig//simons_observatory/EtoB_leakage.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/EtoB_leakage.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./sub/wiregrid/wiregrid.tex
@@ -1321,6 +1325,3 @@ INPUT .tex_intermediates/main.bbl
 INPUT .tex_intermediates/main.bbl
 INPUT .tex_intermediates/main.bbl
 INPUT .tex_intermediates/main.bbl
-INPUT .tex_intermediates/main.aux
-INPUT .tex_intermediates/main.out
-INPUT .tex_intermediates/main.out
