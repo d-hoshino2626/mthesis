@@ -1003,6 +1003,3 @@ INPUT extractbb -B cropbox -O ../../fig//intro/planck_powerspectrum.pdf
 INPUT ../../fig//intro/thomson_polarization.pdf
 INPUT ../../fig//intro/thomson_polarization.pdf
 INPUT extractbb -B cropbox -O ../../fig//intro/thomson_polarization.pdf
-INPUT .tex_intermediates/introduction.aux
-INPUT .tex_intermediates/introduction.out
-INPUT .tex_intermediates/introduction.out

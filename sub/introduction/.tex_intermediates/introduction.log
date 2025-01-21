@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  22 JAN 2025 05:27
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  22 JAN 2025 07:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,84 +613,4 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 29.
-
-[1
-
-
-]
-
-LaTeX Warning: Citation `Bennett_2003' on page 2 undefined on input line 82.
-
-[2]
-
-LaTeX Warning: Citation `10.1093/mnras/195.3.467' on page 3 undefined on input line 100.
-
-
-LaTeX Warning: Citation `PhysRevD.23.347' on page 3 undefined on input line 100.
-
-
-LaTeX Warning: Citation `Tsujikawa_book' on page 3 undefined on input line 101.
-
-[3]
-File: ../../fig//intro/gravitational_wave.pdf Graphic file (type pdf)
-<../../fig//intro/gravitational_wave.pdf>
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 157.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 157.
-
-
-LaTeX Warning: Citation `1967ApJ...147...73S' on page 4 undefined on input line 162.
-
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 172.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 172.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 172.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 172.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 172.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 172.
-[4]
-
-LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 186.
-
-File: ../../fig//intro/planck_cmb.pdf Graphic file (type pdf)
-<../../fig//intro/planck_cmb.pdf>
-
-LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 191.
-
-
-LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 191.
-
-File: ../../fig//intro/planck_powerspectrum.pdf Graphic file (type pdf)
-<../../fig//intro/planck_powerspectrum.pdf>
-
-LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 198.
-
-
-LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 198.
-
-File: ../../fig//intro/thomson_polarization.pdf Graphic file (type pdf)
-<../../fig//intro/thomson_polarization.pdf>
-[5] [6] [7] (.tex_intermediates/introduction.aux)
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 9975B34B0B18CE64281F07FEB226D548;1909.
- ) 
-Here is how much of TeX's memory you used:
- 17615 strings out of 476677
- 339138 string characters out of 5804957
- 1859490 words of memory out of 5000000
- 37824 multiletter control sequences out of 15000+600000
- 563505 words of font info for 120 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 92i,14n,94p,719b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on .tex_intermediates/introduction.dvi (7 pages, 32332 bytes).
+(hyperref)                removing `math shift' on 
