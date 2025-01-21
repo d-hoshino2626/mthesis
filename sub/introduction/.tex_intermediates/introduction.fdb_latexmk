@@ -1,18 +1,18 @@
 # Fdb version 4
-["dvipdf"] 1737489322 "introduction.dvi" "introduction.pdf" "introduction" 1737489323 0
-  "introduction.dvi" 1737489322 32012 6d2bc85c5bd3273ac19468e21f7ace23 "latex"
+["dvipdf"] 1737491271 "introduction.dvi" "introduction.pdf" "introduction" 1737491271 0
+  "introduction.dvi" 1737491270 32332 289fbf254b92e70b9adcc4f05d608fb4 "latex"
   (generated)
   "introduction.pdf"
   (rewritten before read)
-["latex"] 1737489321 "introduction.tex" "introduction.dvi" "introduction" 1737489323 0
+["latex"] 1737491269 "introduction.tex" "introduction.dvi" "introduction" 1737491271 0
   "../../fig//intro/cobe.pdf" 1737371405 196817 146ac3b06193a945a8a5c32b2d79836f ""
   "../../fig//intro/gravitational_wave.pdf" 1737466946 329140 8d9b86e18bea370396e4a97af609f296 ""
   "../../fig//intro/planck_cmb.pdf" 1737471551 847450 5c36b0550dcbfddc99abc145d0f70595 ""
   "../../fig//intro/planck_powerspectrum.pdf" 1737471616 90817 bdf4c64940d99ad760403260a503f309 ""
   "../../fig//intro/thomson_polarization.pdf" 1737479144 593118 afdc448aba030e70cefe7c87e3c3fef1 ""
   "../../main.tex" 1737337650 3156 19f6cef682a95fbd857fdcfe92136ed7 ""
-  ".tex_intermediates/introduction.aux" 1737489322 6763 8abccb41b6d064972cfe85e76176835a "latex"
-  ".tex_intermediates/introduction.out" 1737489322 1909 9975b34b0b18ce64281f07feb226d548 "latex"
+  ".tex_intermediates/introduction.aux" 1737491270 7051 3252f0c290d429563fec2eba22ea2192 "latex"
+  ".tex_intermediates/introduction.out" 1737491270 1909 9975b34b0b18ce64281f07feb226d548 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -145,7 +145,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "introduction.tex" 1737489320 16040 310f3f3936272c5520391fcd9a638e8e ""
+  "introduction.tex" 1737491269 16295 0dbd2afae0031f4492fc64c2d6950604 ""
   (generated)
   ".tex_intermediates/introduction.aux"
   ".tex_intermediates/introduction.log"
