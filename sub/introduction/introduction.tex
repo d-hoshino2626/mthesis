@@ -162,8 +162,12 @@ $h_{ij}$は重力波として見なすことができ、$z$軸正の方向に進
 インフレーションによって生じた時空の歪みは、CMBの温度に異方性を作る\cite{1967ApJ...147...73S}。
 式\eqref{eq:jikuuyugami}中の$\Phi,\,\Psi$はスカラー揺らぎと呼ばれ、CMBの偏光にEモードと呼ばれる偏光パターンを、
 $h_{ij}$はテンソル揺らぎと呼ばれ、Bモードと呼ばれる特有の偏光パターンを生む。
+% 式\eqref{eq:jikuuyugami}中の$\Phi,\,\Psi$はスカラー揺らぎと呼ばれ、CMBの偏光にEモードと呼ばれる偏光パターンを、
+% $h_{ij}$はテンソル揺らぎと呼ばれ、Bモードと呼ばれる特有の偏光パターンを生む。
 本節では、はじめにCMBの温度異方性をどのように定式化するか述べ、過去の観測実験による結果を述べる。
 その後、温度異方性がどのような偏光パターンを生むかについて述べる。
+
+\colortext{red}{スカラー揺らぎを}
 \subsection{CMBの温度異方性とパワースペクトル}
 天球面上の各点におけるCMBの温度$T$に対して、温度揺らぎを$\Delta T = T-\bar{T}$と定義する。
 $\bar{T}$は平均温度である。この温度揺らぎ$\Delta T$を、球面調和関数$Y_{\ell m}$で展開すると
@@ -177,9 +181,24 @@ $\bar{T}$は平均温度である。この温度揺らぎ$\Delta T$を、球面�
 と書く。これは座標系によらないという点で優れた統計量となっている。
 また、$\ell$は天球を見込む立体角$\Delta \Omega$と対応づいており、おおよそ$\Delta\Omega \simeq 180\tcdegree/\ell$と結びつく。
 
-図\ref{}にPlanck衛星によって観測されたCMBの温度異方性の全天マップを示す。
-また、図\ref{}に同じくPlanck衛星によって得られたパワースペクトルを示す。
-\subsection{温度異方性による偏光の生成}
+図\ref{fig:planck_cmb}にPlanck衛星によって観測されたCMBの温度異方性の全天マップを示す。
+また、図\ref{fig:planck_powerspectrum}に同じくPlanck衛星によって得られたパワースペクトルを示す\cite{Planck_2020}。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{intro/planck_cmb.pdf}
+    \caption{Planck衛星によって得られた温度異方性の全天マップをモルワイデ図法で描いたもの\cite{Planck_2020}。
+    色の分布は平均温度との差を表しており、赤色が平均よりも高温な部分、青色が平均よりも低温な部分を表す。}
+    \label{fig:planck_cmb}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{intro/planck_powerspectrum.pdf}
+    \caption{Planck衛星によって得られたパワースペクトル\cite{Planck_2020}。
+    横軸に$\ell$、縦軸は\\$D^{TT}_{\ell}=\ell(\ell+1)C^{TT}_{\ell}/2\pi$を示している。}
+    \label{fig:planck_powerspectrum}
+\end{figure}
+\subsection{4重極温度異方性による偏光の生成}
+4重極
 
 \subsection{CMBの偏光パターン}
 

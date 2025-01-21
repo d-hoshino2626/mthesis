@@ -1,15 +1,17 @@
 # Fdb version 4
-["dvipdf"] 1737471412 "introduction.dvi" "introduction.pdf" "introduction" 1737471412 0
-  "introduction.dvi" 1737471412 25812 80a35a14105c88ca83bd64afbc51d2b6 "latex"
+["dvipdf"] 1737475187 "introduction.dvi" "introduction.pdf" "introduction" 1737475187 0
+  "introduction.dvi" 1737475187 27756 199e43b13e736d60b8fc49d5f0f8086a "latex"
   (generated)
   "introduction.pdf"
   (rewritten before read)
-["latex"] 1737471411 "introduction.tex" "introduction.dvi" "introduction" 1737471412 0
+["latex"] 1737475186 "introduction.tex" "introduction.dvi" "introduction" 1737475187 0
   "../../fig//intro/cobe.pdf" 1737371405 196817 146ac3b06193a945a8a5c32b2d79836f ""
   "../../fig//intro/gravitational_wave.pdf" 1737466946 329140 8d9b86e18bea370396e4a97af609f296 ""
+  "../../fig//intro/planck_cmb.pdf" 1737471551 847450 5c36b0550dcbfddc99abc145d0f70595 ""
+  "../../fig//intro/planck_powerspectrum.pdf" 1737471616 90817 bdf4c64940d99ad760403260a503f309 ""
   "../../main.tex" 1737337650 3156 19f6cef682a95fbd857fdcfe92136ed7 ""
-  ".tex_intermediates/introduction.aux" 1737471412 3967 325e6bec30bc614afe35f00c770f9616 "latex"
-  ".tex_intermediates/introduction.out" 1737471412 1431 73a3ae67c1ad96584b47d24b212d6759 "latex"
+  ".tex_intermediates/introduction.aux" 1737475187 5420 4e4f78c10eabf88f4f6f0a130f865fad "latex"
+  ".tex_intermediates/introduction.out" 1737475187 1452 e04df24b2e0f6f05c2d2ffeabf846b0e "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -142,7 +144,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "introduction.tex" 1737471410 12489 0bcd9e5d3697cebad2fdb2b7f16866a6 ""
+  "introduction.tex" 1737475185 13660 73a6ce7a98e953b68d1709d4fb7b628b ""
   (generated)
   ".tex_intermediates/introduction.aux"
   ".tex_intermediates/introduction.log"
