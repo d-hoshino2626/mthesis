@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 JAN 2025 20:57
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 JAN 2025 21:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,34 +632,33 @@ LaTeX Warning: Citation `PhysRevD.23.347' on page 3 undefined on input line 100.
 
 LaTeX Warning: Citation `Tsujikawa_book' on page 3 undefined on input line 101.
 
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 119.
+[3]
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 147.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 147.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 119.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 119.
+(Font)              scaled to size 11.54663pt on input line 147.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 119.
-
-LaTeX Warning: Reference `' on page 3 undefined on input line 119.
-
-
-LaTeX Warning: Reference `' on page 3 undefined on input line 119.
-
-[3] (.tex_intermediates/introduction.aux)
+(Font)              scaled to size 11.54663pt on input line 147.
+ [4] (.tex_intermediates/introduction.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 075DCD1294BD0F915FED0A02695B2FFA;815.
+(rerunfilecheck)             Checksum: B598FBDDFBD00DFE42ED25681A1CBC84;1233.
  ) 
 Here is how much of TeX's memory you used:
- 17570 strings out of 476677
- 337822 string characters out of 5804957
+ 17573 strings out of 476677
+ 337880 string characters out of 5804957
  1859490 words of memory out of 5000000
- 37787 multiletter control sequences out of 15000+600000
- 561527 words of font info for 114 fonts, out of 8000000 for 9000
+ 37790 multiletter control sequences out of 15000+600000
+ 562023 words of font info for 115 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,14n,94p,363b,965s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,14n,94p,363b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/introduction.dvi (3 pages, 18356 bytes).
+Output written on .tex_intermediates/introduction.dvi (4 pages, 21200 bytes).

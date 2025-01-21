@@ -28,16 +28,16 @@ CMBの強度が天球面上の各点においてわずかな違いはあれど�
 
 \section{$\Lambda\mathrm{CDM}$モデル}
 現在の標準的な宇宙モデルである$\Lambda\mathrm{CDM}$モデルについて述べる。
-まず、Einstein方程式は、計量テンソル$g_{\mu\nu}$、Einsteinテンソル$G_{\mu\nu}$とエネルギー運動量テンソル$T_{\mu\nu}$を用いて
+まず、アインシュタイン方程式は、計量テンソル$g_{\mu\nu}$、アインシュタインテンソル$G_{\mu\nu}$とエネルギー運動量テンソル$T_{\mu\nu}$を用いて
 \begin{equation}
     \label{eq:einstein}
     G_{\mu\nu}+\Lambda g_{\mu\nu}=8\pi GT_{\mu\nu}
 \end{equation}
 とかける。ここで、$G$は重力定数、$\Lambda$は宇宙定数である。また、自然単位系を採用した。
-一様等方な宇宙では、その計量はフリードマン・ルメートル・ロバートソン・ウォーカー計量
+一様等方な宇宙では、その計量はフリードマン・ルメートル・ロバートソン・ウォーカー計量(以下、FLRW計量と呼ぶ)
 \begin{equation}
     \label{eq:rwmetric}
-    ds^2=-dt^2+a^2(t)\qty[\frac{dr^2}{1-Kr^2}+r^2d\Omega^2]
+    \dd{s}^2=-\dd{t}^2+a^2(t)\qty[\frac{\dd{r}^2}{1-Kr^2}+r^2\dd{\Omega}^2]
 \end{equation}
 で記述される。ここで、$a(t)$はスケールファクター、$K$は宇宙の曲率を表す。
 また、宇宙の物質が完全流体であることを仮定すると、エネルギー運動量テンソルを
@@ -104,11 +104,13 @@ $\Lambda\mathrm{CDM}$モデルには、以下の3つの問題をもつ。
 
 一様等方な宇宙のもとでのインフラトンの運動方程式は
 \begin{equation}
+    \label{eq:EoM_infraton}
     \ddot{\phi}+3H\dot{\phi}+c^2\pdv{V}{\phi} = 0
 \end{equation}
 と与えられる。$H$はハッブル定数である。
 また、曲率$K=0$のフリードマン方程式\eqref{eq:friedmann}はインフラトンのエネルギー密度の寄与が主要であるとすると
 \begin{equation}
+    \label{eq:friedmann_infraton}
     3H^2M_{\mathrm{pl}}^2 = \dfrac{1}{2c^2}\dot{\phi}^2 +V(\phi)
 \end{equation}
 となる。$M_{\mathrm{pl}}=\sqrt{1/8\pi G}$は換算プランク質量である。
@@ -116,7 +118,7 @@ $\Lambda\mathrm{CDM}$モデルには、以下の3つの問題をもつ。
 \begin{align}
     \qty|\dfrac{\dot{\phi}^2}{V(\phi)}| \ll 1,\qquad \qty|\dfrac{\ddot{\phi}}{H\dot{\phi}}| \ll 1
 \end{align}
-を課す。式\eqref{}と\eqref{}から
+を課す。式\eqref{eq:EoM_infraton}と\eqref{eq:friedmann_infraton}から
 \begin{align}
     H^2 &= \dfrac{V(\phi)}{3M_{\mathrm{pl}}} \\
     \dot{H} &= -\dfrac{\dot{\phi}}{2c^2M_{\mathrm{pl}}^2}
@@ -126,12 +128,26 @@ $\Lambda\mathrm{CDM}$モデルには、以下の3つの問題をもつ。
     a&\propto e^{\mathcal{N}} \\
     \mathcal{N} &:= -\int_{t_f}^{t}H\dd{\tilde{t}} = -\dfrac{1}{M_{\mathrm{pl}}^2}\int_{\phi_f}^{\phi}\dfrac{V}{\partial V/\partial \phi}\dd{\tilde{\phi}}
 \end{align}
-のように指数関数的に増えていく。ここで、$t$はインフレーション中の時刻、$t_f$はインフレーションが終わる時刻であり、
+のように指数関数的に増大していく。ここで、$t$はインフレーション中の時刻、$t_f$はインフレーションが終わる時刻であり、
 $\phi_f$はインフレーションが終わる時刻での$\phi$である。
+$\mathcal{N}$はe-folding数と呼ばれ、典型的に$50<\mathcal{N}<60$程度だと考えられている。
 
 インフレーションにおけるスケール因子の指数関数的増加は空間の指数関数的膨張を引き起こす。
-時空が量子化されていると仮定し、
-\section{CMB偏光モード}
+また、この膨張に伴い、時空の量子揺らぎを古典的なスケールに引き延ばす。
+具体的には、FLRW計量\eqref{eq:rwmetric}をデカルト座標系で書き直した上で
+\begin{equation}
+    \dd{s}^2 = -\qty(1+2\Phi)\dd{t}^2 + a^2\qty(1-2\Psi)\qty(\delta_{ij}+h_{ij})\dd{x_i}\dd{x_j}
+\end{equation}
+といった揺らぎを与える。ここで、$\Phi$は重力ポテンシャル、$\Psi$は曲率揺らぎ、$h_{ij}$はテンソル揺らぎを表す。
+このときに引き伸ばされた揺らぎがCMBの温度異方性を作っていると考えられる。
+以降の節では、はじめにCMBの温度異方性をどのように定式化し
+\colortext{red}{ここの文を最後に考える}
+
+\section{CMBパワースペクトル}
+\subsection{CMBの温度異方性とパワースペクトル}
+
+\subsection{CMBの偏光パターン}
+
 \section{本論文の構成}
 
 \end{document}
