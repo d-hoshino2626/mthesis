@@ -136,6 +136,7 @@ $\mathcal{N}$はe-folding数と呼ばれ、典型的に$50<\mathcal{N}<60$程度
 また、この膨張に伴い、時空の量子揺らぎを古典的なスケールに引き延ばす。
 具体的には、FLRW計量\eqref{eq:rwmetric}をデカルト座標系で書き直した上で
 \begin{equation}
+    \label{eq:jikuuyugami}
     \dd{s}^2 = -\qty(1+2\Phi)\dd{t}^2 + a^2\qty(1-2\Psi)\qty(\delta_{ij}+h_{ij})\dd{x_i}\dd{x_j}
 \end{equation}
 といった揺らぎを与える。
@@ -149,7 +150,6 @@ $h_{ij}$は重力波として見なすことができ、$z$軸正の方向に進
 \end{equation}
 と2つの基本モード($+$モードと$\times$モード)を用いて表すことができる。
 図\ref{fig:gravitational_wave}に$+$モードと$\times$モードが作る空間の歪みを示す。
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{intro/gravitational_wave.pdf}
@@ -158,17 +158,28 @@ $h_{ij}$は重力波として見なすことができ、$z$軸正の方向に進
     \label{fig:gravitational_wave}
 \end{figure}
 
-
-
-
-
-これらの揺らぎがCMBの温度異方性を作る\cite{1967ApJ...147...73S}。
-以降の節では、はじめにCMBの温度異方性をどのように定式化し
-\colortext{red}{ここの文を最後に考える}
-
 \section{CMBパワースペクトル}
+インフレーションによって生じた時空の歪みは、CMBの温度に異方性を作る\cite{1967ApJ...147...73S}。
+式\eqref{eq:jikuuyugami}中の$\Phi,\,\Psi$はスカラー揺らぎと呼ばれ、CMBの偏光にEモードと呼ばれる偏光パターンを、
+$h_{ij}$はテンソル揺らぎと呼ばれ、Bモードと呼ばれる特有の偏光パターンを生む。
+本節では、はじめにCMBの温度異方性をどのように定式化するか述べ、過去の観測実験による結果を述べる。
+その後、温度異方性がどのような偏光パターンを生むかについて述べる。
 \subsection{CMBの温度異方性とパワースペクトル}
-インフレーションによって生じた時空の歪みは、CMBの温度に異方性を作る。あ
+天球面上の各点におけるCMBの温度$T$に対して、温度揺らぎを$\Delta T = T-\bar{T}$と定義する。
+$\bar{T}$は平均温度である。この温度揺らぎ$\Delta T$を、球面調和関数$Y_{\ell m}$で展開すると
+\begin{equation}
+    \Delta T = \sum_{\ell=1}^{\infty}\sum_{m=-\ell}^{\ell}a^{T}_{\ell m}Y_{\ell m}
+\end{equation}
+となる。この展開係数$a^{T}_{\ell m}$を用いて、に渡ってCMBパワースペクトル$C^{TT}_{\ell}$を
+\begin{equation}
+    C^{TT}_{\ell} = \dfrac{1}{2\ell+1}\sum_{m=-\ell}^{\ell}\qty(a^{T}_{\ell m})^{*}a^{T}_{\ell m}
+\end{equation}
+と書く。これは座標系によらないという点で優れた統計量となっている。
+また、$\ell$は天球を見込む立体角$\Delta \Omega$と対応づいており、おおよそ$\Delta\Omega \simeq 180\tcdegree/\ell$と結びつく。
+
+図\ref{}にPlanck衛星によって観測されたCMBの温度異方性の全天マップを示す。
+また、図\ref{}に同じくPlanck衛星によって得られたパワースペクトルを示す。
+\subsection{温度異方性による偏光の生成}
 
 \subsection{CMBの偏光パターン}
 

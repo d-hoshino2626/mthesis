@@ -1,15 +1,15 @@
 # Fdb version 4
-["dvipdf"] 1737467784 "introduction.dvi" "introduction.pdf" "introduction" 1737467785 0
-  "introduction.dvi" 1737467784 23104 66cbd59213209081f0102bfdc1502a6f "latex"
+["dvipdf"] 1737471412 "introduction.dvi" "introduction.pdf" "introduction" 1737471412 0
+  "introduction.dvi" 1737471412 25812 80a35a14105c88ca83bd64afbc51d2b6 "latex"
   (generated)
   "introduction.pdf"
   (rewritten before read)
-["latex"] 1737467783 "introduction.tex" "introduction.dvi" "introduction" 1737467785 0
+["latex"] 1737471411 "introduction.tex" "introduction.dvi" "introduction" 1737471412 0
   "../../fig//intro/cobe.pdf" 1737371405 196817 146ac3b06193a945a8a5c32b2d79836f ""
   "../../fig//intro/gravitational_wave.pdf" 1737466946 329140 8d9b86e18bea370396e4a97af609f296 ""
   "../../main.tex" 1737337650 3156 19f6cef682a95fbd857fdcfe92136ed7 ""
-  ".tex_intermediates/introduction.aux" 1737467784 3726 a1859e483af0d82c38e5970cb0a2a8cc "latex"
-  ".tex_intermediates/introduction.out" 1737467784 1233 b598fbddfbd00dfe42ed25681a1cbc84 "latex"
+  ".tex_intermediates/introduction.aux" 1737471412 3967 325e6bec30bc614afe35f00c770f9616 "latex"
+  ".tex_intermediates/introduction.out" 1737471412 1431 73a3ae67c1ad96584b47d24b212d6759 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -142,7 +142,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "introduction.tex" 1737467783 11035 808528a80bbef2ce6a33b1c4662e9105 ""
+  "introduction.tex" 1737471410 12489 0bcd9e5d3697cebad2fdb2b7f16866a6 ""
   (generated)
   ".tex_intermediates/introduction.aux"
   ".tex_intermediates/introduction.log"

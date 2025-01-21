@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 JAN 2025 22:56
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 JAN 2025 23:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -567,13 +567,30 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 95.
- (.tex_intermediates/main.toc)
+ (.tex_intermediates/main.toc
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 2.
+ [2
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2
-
-]
+ [3]
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 105.
@@ -584,16 +601,6 @@ Package fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 (./sub/introduction/introduction.tex
 第 1 章
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 10.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 10.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 10.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 10.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 10.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 7.69775pt on input line 10.
 File: ./fig//intro/cobe.pdf Graphic file (type pdf)
@@ -664,18 +671,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 170.
+(Font)              scaled to size 11.54663pt on input line 167.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 170.
+(Font)              scaled to size 11.54663pt on input line 167.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 170.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 170.
+(Font)              scaled to size 11.54663pt on input line 167.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 170.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 170.
-) (./sub/simons_observatory/simons_observatory.tex
+(Font)              scaled to size 11.54663pt on input line 167.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -684,21 +691,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [5]
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 180.
+
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 181.
+
+) (./sub/simons_observatory/simons_observatory.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[6]
 第 2 章
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 11.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 11.
-
-LaTeX Warning: Citation `so:current_status' on page 6 undefined on input line 11.
-
-
-LaTeX Warning: Citation `so:science_forecast' on page 6 undefined on input line 16.
-
 File: ./fig//simons_observatory/so_site.pdf Graphic file (type pdf)
 <./fig//simons_observatory/so_site.pdf>
 
@@ -708,33 +716,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[6
+[7
 
 ]
 File: ./fig//simons_observatory/so_noise_freq.pdf Graphic file (type pdf)
 <./fig//simons_observatory/so_noise_freq.pdf>
-
-
-LaTeX Warning: Citation `Kiuchi_2020' on page 7 undefined on input line 47.
-
 File: ./fig//simons_observatory/sat_baffle.pdf Graphic file (type pdf)
 <./fig//simons_observatory/sat_baffle.pdf>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
-[7]
-File: ./fig//simons_observatory/sat_angle.pdf Graphic file (type pdf)
-<./fig//simons_observatory/sat_angle.pdf>
-
-
-LaTeX Warning: Citation `Adachi_2020' on page 8 undefined on input line 70.
-
-
-LaTeX Warning: Citation `galitzki2024simonsobservatorydesignintegration' on page 8 undefined on input line 71.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -744,11 +732,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [8]
-File: ./fig//simons_observatory/sat_danmen.pdf Graphic file (type pdf)
-<./fig//simons_observatory/sat_danmen.pdf>
-
-
-LaTeX Warning: Citation `duff2024simonsobservatoryproductionlevelfabrication' on page 9 undefined on input line 92.
+File: ./fig//simons_observatory/sat_angle.pdf Graphic file (type pdf)
+<./fig//simons_observatory/sat_angle.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -758,8 +743,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [9]
-
-LaTeX Warning: Citation `so:hwp_yamada' on page 10 undefined on input line 100.
+File: ./fig//simons_observatory/sat_danmen.pdf Graphic file (type pdf)
+<./fig//simons_observatory/sat_danmen.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -769,21 +754,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [10]
-File: ./fig//simons_observatory/hwp_satoru.pdf Graphic file (type pdf)
-<./fig//simons_observatory/hwp_satoru.pdf>
-
-
-LaTeX Warning: Citation `takakura_PhD' on page 11 undefined on input line 151.
-
-
-LaTeX Warning: Citation `takakura_PhD' on page 11 undefined on input line 151.
-
-
-LaTeX Warning: Citation `so:Keating_2013' on page 11 undefined on input line 167.
-
-
-LaTeX Warning: Citation `so:Kaufman_2014' on page 11 undefined on input line 167.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -792,20 +762,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [11]
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 212.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 212.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 212.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 212.
+File: ./fig//simons_observatory/hwp_satoru.pdf Graphic file (type pdf)
+<./fig//simons_observatory/hwp_satoru.pdf>
 
-
-LaTeX Warning: Citation `so:Bryan_2018' on page 12 undefined on input line 217.
-
-File: ./fig//simons_observatory/EtoB_leakage.pdf Graphic file (type pdf)
-<./fig//simons_observatory/EtoB_leakage.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -814,14 +773,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [12]
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 231.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 231.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 231.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 212.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 212.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 231.
+(Font)              scaled to size 8.65997pt on input line 212.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 212.
+File: ./fig//simons_observatory/EtoB_leakage.pdf Graphic file (type pdf)
+<./fig//simons_observatory/EtoB_leakage.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -832,9 +793,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [13]
 
-LaTeX Warning: Citation `so:Zemcov_2010' on page 14 undefined on input line 242.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{15.49998pt}.
@@ -843,30 +801,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [14]
 
-LaTeX Warning: Citation `so:polarbear_cal' on page 15 undefined on input line 296.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-
-LaTeX Warning: Citation `so:Leitch_2002' on page 15 undefined on input line 299.
-
-
-LaTeX Warning: Citation `so:Takahashi_2008' on page 15 undefined on input line 301.
-
-
-LaTeX Warning: Citation `so:bicep2_syserr' on page 15 undefined on input line 303.
-
-
-LaTeX Warning: Citation `so:Hanson_2013' on page 15 undefined on input line 307.
-
-
-LaTeX Warning: Citation `so:Kusaka_2018' on page 15 undefined on input line 310.
-
-
-LaTeX Warning: Citation `so:Bischoff_2011' on page 15 undefined on input line 314.
-
-
-LaTeX Warning: Citation `so:SPT3G' on page 15 undefined on input line 317.
-
-) (./sub/wiregrid/wiregrid.tex
+[15]) (./sub/wiregrid/wiregrid.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -874,11 +815,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[15]
+[16]
 第 3 章
-
-LaTeX Warning: Citation `swg:Murata_2023' on page 16 undefined on input line 9.
-
 File: ./fig//wiregrid/wire_reflect.pdf Graphic file (type pdf)
 <./fig//wiregrid/wire_reflect.pdf>
 File: ./fig//wiregrid/wire_through.pdf Graphic file (type pdf)
@@ -890,7 +828,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[16
+[17
 
 ]
 File: ./fig//wiregrid/wiregrid_telescope_image.pdf Graphic file (type pdf)
@@ -907,30 +845,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[17]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
 [18]
-
-LaTeX Warning: Citation `swg:murata' on page 19 undefined on input line 102.
-
-File: ./fig//wiregrid/wiregrid_appearance.pdf Graphic file (type pdf)
-<./fig//wiregrid/wiregrid_appearance.pdf>
-File: ./fig//wiregrid/wire_detail_view.pdf Graphic file (type pdf)
-<./fig//wiregrid/wire_detail_view.pdf>
-
-LaTeX Warning: Citation `swg:Murata_2023' on page 19 undefined on input line 123.
-
-
-LaTeX Warning: Citation `swg:Murata_2023' on page 19 undefined on input line 123.
-
-File: ./fig//wiregrid/wire_attachment.pdf Graphic file (type pdf)
-<./fig//wiregrid/wire_attachment.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -939,21 +854,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [19]
-
-LaTeX Warning: Citation `swg:nakata' on page 20 undefined on input line 137.
-
-
-LaTeX Warning: Citation `swg:nakata' on page 20 undefined on input line 144.
-
-File: ./fig//wiregrid/rotation_parts.pdf Graphic file (type pdf)
-<./fig//wiregrid/rotation_parts.pdf>
-File: ./fig//wiregrid/wiregrid_actuator.pdf Graphic file (type pdf)
-<./fig//wiregrid/wiregrid_actuator.pdf>
-
-LaTeX Warning: Citation `swg:Murata_2023' on page 20 undefined on input line 155.
-
-
-LaTeX Warning: Citation `swg:Murata_2023' on page 20 undefined on input line 155.
+File: ./fig//wiregrid/wiregrid_appearance.pdf Graphic file (type pdf)
+<./fig//wiregrid/wiregrid_appearance.pdf>
+File: ./fig//wiregrid/wire_detail_view.pdf Graphic file (type pdf)
+<./fig//wiregrid/wire_detail_view.pdf>
+File: ./fig//wiregrid/wire_attachment.pdf Graphic file (type pdf)
+<./fig//wiregrid/wire_attachment.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -963,6 +869,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [20]
+File: ./fig//wiregrid/rotation_parts.pdf Graphic file (type pdf)
+<./fig//wiregrid/rotation_parts.pdf>
+File: ./fig//wiregrid/wiregrid_actuator.pdf Graphic file (type pdf)
+<./fig//wiregrid/wiregrid_actuator.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -972,13 +883,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [21]
 
-LaTeX Warning: Citation `swg:Murata_2023' on page 22 undefined on input line 176.
-
-File: ./fig//wiregrid/abs_angle_overview.pdf Graphic file (type pdf)
-<./fig//wiregrid/abs_angle_overview.pdf>
-File: ./fig//wiregrid/abs_angle_WG_plane.pdf Graphic file (type pdf)
-<./fig//wiregrid/abs_angle_WG_plane.pdf>
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{15.49998pt}.
@@ -986,6 +890,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [22]
+File: ./fig//wiregrid/abs_angle_overview.pdf Graphic file (type pdf)
+<./fig//wiregrid/abs_angle_overview.pdf>
+File: ./fig//wiregrid/abs_angle_WG_plane.pdf Graphic file (type pdf)
+<./fig//wiregrid/abs_angle_WG_plane.pdf>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[23]
 File: ./fig//wiregrid/tiltsensor_slope.pdf Graphic file (type pdf)
 <./fig//wiregrid/tiltsensor_slope.pdf>
 File: ./fig//wiregrid/tiltsensor_WGplane.pdf Graphic file (type pdf)
@@ -1004,32 +921,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[23]
-
-LaTeX Warning: Citation `swg:iijima' on page 24 undefined on input line 296.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
 [24]
-
-LaTeX Warning: Citation `swg:iijima' on page 25 undefined on input line 301.
-
-
-LaTeX Warning: Citation `swg:iijima' on page 25 undefined on input line 312.
-
-
-LaTeX Warning: Citation `swg:murata' on page 25 undefined on input line 320.
-
-
-LaTeX Warning: Citation `swg:iijima' on page 25 undefined on input line 320.
-
-File: ./fig//wiregrid/wiresag_def.pdf Graphic file (type pdf)
-<./fig//wiregrid/wiresag_def.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1038,16 +930,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [25]
-File: ./fig//wiregrid/wiresag_setup_overview_old.pdf Graphic file (type pdf)
-<./fig//wiregrid/wiresag_setup_overview_old.pdf>
-File: ./fig//wiregrid/wiresag_setup_old.pdf Graphic file (type pdf)
-<./fig//wiregrid/wiresag_setup_old.pdf>
-
-
-LaTeX Warning: Citation `swg:murata' on page 26 undefined on input line 358.
-
-
-LaTeX Warning: Citation `swg:murata' on page 26 undefined on input line 358.
+File: ./fig//wiregrid/wiresag_def.pdf Graphic file (type pdf)
+<./fig//wiregrid/wiresag_def.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1057,6 +941,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [26]
+File: ./fig//wiregrid/wiresag_setup_overview_old.pdf Graphic file (type pdf)
+<./fig//wiregrid/wiresag_setup_overview_old.pdf>
+File: ./fig//wiregrid/wiresag_setup_old.pdf Graphic file (type pdf)
+<./fig//wiregrid/wiresag_setup_old.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1066,21 +955,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [27]
 
-LaTeX Warning: Citation `swg:murata' on page 28 undefined on input line 388.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-
-LaTeX Warning: Citation `swg:iijima' on page 28 undefined on input line 389.
-
+[28]
 File: ./fig//wiregrid/wiresag_picture_old.pdf Graphic file (type pdf)
 <./fig//wiregrid/wiresag_picture_old.pdf>
 File: ./fig//wiregrid/wiresag_result_old.pdf Graphic file (type pdf)
 <./fig//wiregrid/wiresag_result_old.pdf>
 
-LaTeX Warning: Citation `swg:murata' on page 28 undefined on input line 405.
-
-
-LaTeX Warning: Citation `swg:murata' on page 28 undefined on input line 405.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1088,15 +974,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[28]) (./sub/tiltsensor/tiltsensor.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
-[29]
+[29]) (./sub/tiltsensor/tiltsensor.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1105,6 +983,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [30]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[31]
 第 4 章
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1113,7 +999,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[31
+[32
 
 ]
 File: ./fig//tiltsensor/tiltsensor_overview.pdf Graphic file (type pdf)
@@ -1128,7 +1014,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[32]
+[33]
 File: ./fig//tiltsensor/timedrift_tempX_daily.pdf Graphic file (type pdf)
 <./fig//tiltsensor/timedrift_tempX_daily.pdf>
 File: ./fig//tiltsensor/timedrift_angleX_daily.pdf Graphic file (type pdf)
@@ -1145,7 +1031,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[33]
+[34]
 File: ./fig//tiltsensor/temp_evaluation_system.pdf Graphic file (type pdf)
 <./fig//tiltsensor/temp_evaluation_system.pdf>
 File: ./fig//tiltsensor/bath_temp_usb.pdf Graphic file (type pdf)
@@ -1158,7 +1044,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[34]
+[35]
 File: ./fig//tiltsensor/camera_12degC.pdf Graphic file (type pdf)
 <./fig//tiltsensor/camera_12degC.pdf>
 File: ./fig//tiltsensor/camera_m18degC.pdf Graphic file (type pdf)
@@ -1171,7 +1057,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[35]
+[36]
 File: ./fig//tiltsensor/bath_tempX.pdf Graphic file (type pdf)
 <./fig//tiltsensor/bath_tempX.pdf>
 
@@ -1207,7 +1093,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[36]
+[37]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1215,7 +1101,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[37]
+[38]
 File: ./fig//tiltsensor/evaluation_system_kyoto.pdf Graphic file (type pdf)
 <./fig//tiltsensor/evaluation_system_kyoto.pdf>
 File: ./fig//tiltsensor/evalu_kyoto1.pdf Graphic file (type pdf)
@@ -1232,7 +1118,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[38]
+[39]
 File: ./fig//tiltsensor/angleY_huryou_test.pdf Graphic file (type pdf)
 <./fig//tiltsensor/angleY_huryou_test.pdf>
 
@@ -1243,7 +1129,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[39]) (./sub/wiresag/wiresag.tex
+[40]) (./sub/wiresag/wiresag.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1251,7 +1137,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[40]
+[41]
 第 5 章
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1260,7 +1146,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[41
+[42
 
 ]
 File: ./fig//wiresag/wiresag_system.pdf Graphic file (type pdf)
@@ -1275,7 +1161,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[42]
+[43]
 File: ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png Graphic file (type bmp)
 <./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png>
 
@@ -1286,10 +1172,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[43]
-
-LaTeX Warning: Citation `swg:murata' on page 44 undefined on input line 96.
-
+[44]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1297,7 +1180,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[44]
+[45]
 File: ./fig//wiresag/wiresag_concept.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_concept.pdf>
 File: ./fig//wiresag/wire_number.pdf Graphic file (type pdf)
@@ -1310,7 +1193,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[45]
+[46]
 File: ./fig//wiresag/wiresag_rotation.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_rotation.pdf>
 
@@ -1321,7 +1204,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[46]
+[47]
 File: ./fig//wiresag/wire_catenary_tilt.pdf Graphic file (type pdf)
 <./fig//wiresag/wire_catenary_tilt.pdf>
 
@@ -1332,7 +1215,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[47]
+[48]
 File: ./fig//wiresag/wiresag_scaler_target.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_scaler_target.pdf>
 
@@ -1343,7 +1226,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[48]
+[49]
 File: ./fig//wiresag/wiresag_scaler_brightness.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_scaler_brightness.pdf>
 File: ./fig//wiresag/wiresag_scaler_fitting.pdf Graphic file (type pdf)
@@ -1356,7 +1239,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[49]
+[50]
 File: ./fig//wiresag/wiresag_edge_target.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_edge_target.pdf>
 File: ./fig//wiresag/wiresag_edge_brightness.pdf Graphic file (type pdf)
@@ -1369,7 +1252,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[50]
+[51]
 File: ./fig//wiresag/wiresag_straight_edge_fit.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_straight_edge_fit.pdf>
 
@@ -1380,7 +1263,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[51]
+[52]
 File: ./fig//wiresag/wiresag_edge_target_span.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_edge_target_span.pdf>
 File: ./fig//wiresag/wiresag_straight_edge_positions_line.pdf Graphic file (type pdf)
@@ -1399,7 +1282,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[52]
+[53]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1407,7 +1290,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[53]
+[54]
 File: ./fig//wiresag/wiresag_wire_fit.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_wire_fit.pdf>
 File: ./fig//wiresag/wiresag_wire_positions.pdf Graphic file (type pdf)
@@ -1434,7 +1317,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[54]
+[55]
 File: ./fig//wiresag/wiresag_wire_se_positions_diff.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_wire_se_positions_diff.pdf>
 
@@ -1445,7 +1328,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[55]
+[56]
 File: ./fig//wiresag/wiresag_catenary.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_catenary.pdf>
 
@@ -1456,7 +1339,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[56]
+[57]
 File: ./fig//wiresag/wiresag_performance_zig.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_performance_zig.pdf>
 File: ./fig//wiresag/wiresag_performance_check_system.pdf Graphic file (type pdf)
@@ -1469,7 +1352,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[57]
+[58]
 File: ./fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_performance_check_result.pdf>
 
@@ -1480,7 +1363,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[58]
+[59]
 File: ./fig//wiresag/wiresag_concept_yoko.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_concept_yoko.pdf>
 
@@ -1491,15 +1374,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[59]) (./sub/wiresag_swg/wiresag_swg.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
-[60]
+[60]) (./sub/wiresag_swg/wiresag_swg.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1508,6 +1383,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [61]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[62]
 第 6 章
 File: ./fig//wiresag_swg/wiresag_sparse_wiregrid.pdf Graphic file (type pdf)
 <./fig//wiresag_swg/wiresag_sparse_wiregrid.pdf>
@@ -1518,7 +1401,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[62
+[63
 
 ]
 File: ./fig//wiresag_swg/swg_sag_before.pdf Graphic file (type pdf)
@@ -1539,7 +1422,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[63]
+[64]
 File: ./fig//wiresag_swg/swg_sag_comparison.pdf Graphic file (type pdf)
 <./fig//wiresag_swg/swg_sag_comparison.pdf>
 File: ./fig//wiresag_swg/swg_sag_angle_comparison.pdf Graphic file (type pdf)
@@ -1558,7 +1441,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[64]
+[65]
 File: ./fig//wiresag_swg/swg_sag_odd_comparison.pdf Graphic file (type pdf)
 <./fig//wiresag_swg/swg_sag_odd_comparison.pdf>
 File: ./fig//wiresag_swg/swg_sag_even_comparison.pdf Graphic file (type pdf)
@@ -1575,7 +1458,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[65]) (./sub/summary/summary.tex
+[66]) (./sub/summary/summary.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1583,7 +1466,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[66]
+[67]
 第 7 章
 ) (./sub/acknowledgement/acknowledgement.tex
 
@@ -1593,20 +1476,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[67
-
-]) (./sub/appendix/appendix.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
 [68
 
-]
-付 録 A  
+]) (./sub/appendix/appendix.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1617,6 +1489,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [69
 
 ]
+付 録 A  
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1624,7 +1497,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[70]) (.tex_intermediates/main.bbl
+[70
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1632,19 +1507,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[71]
-.tex_intermediates/main.bbl:36: Undefined control sequence.
-<argument> \@empty \apj 
-                        \xdef \UL@spfactor {\the \spacefactor }
-l.36 \newblock {\em \apj}
-                         , 147:73, January 1967. 
+[71]) (.tex_intermediates/main.bbl
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[72]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[73
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[74]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[75]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[76]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[77]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[78])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
+
+[79] (.tex_intermediates/main.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CE0F56CB75366067C9AB5B4362CE4777;12054.
+ ) 
 Here is how much of TeX's memory you used:
- 18488 strings out of 476677
- 368993 string characters out of 5804957
- 1875490 words of memory out of 5000000
- 38529 multiletter control sequences out of 15000+600000
- 569401 words of font info for 142 fonts, out of 8000000 for 9000
+ 18517 strings out of 476677
+ 369510 string characters out of 5804957
+ 1876490 words of memory out of 5000000
+ 38556 multiletter control sequences out of 15000+600000
+ 569292 words of font info for 141 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 72i,22n,81p,627b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,22n,81p,4007b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/main.dvi (75 pages, 284544 bytes).
+Output written on .tex_intermediates/main.dvi (84 pages, 357980 bytes).
