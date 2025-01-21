@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  22 JAN 2025 03:10
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  22 JAN 2025 04:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -677,12 +677,12 @@ LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 198.
 
 File: ../../fig//intro/thomson_polarization.pdf Graphic file (type pdf)
 <../../fig//intro/thomson_polarization.pdf>
-[5] [6] (.tex_intermediates/introduction.aux)
+[5] [6] [7] (.tex_intermediates/introduction.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 1399B76F09E24B343A4513EE5D321AAB;1520.
+(rerunfilecheck)             Checksum: 9975B34B0B18CE64281F07FEB226D548;1909.
  ) 
 Here is how much of TeX's memory you used:
  17615 strings out of 476677
@@ -693,4 +693,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  92i,14n,94p,575b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/introduction.dvi (6 pages, 30500 bytes).
+Output written on .tex_intermediates/introduction.dvi (7 pages, 32012 bytes).
