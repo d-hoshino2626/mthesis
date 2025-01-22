@@ -886,6 +886,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 INPUT .tex_intermediates/main.aux
 INPUT .tex_intermediates/main.aux
 INPUT .tex_intermediates/main.aux
@@ -934,15 +945,6 @@ INPUT ./sub/abstract/abstract.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT .tex_intermediates/main.toc
-INPUT .tex_intermediates/main.toc
-INPUT .tex_intermediates/main.toc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -956,6 +958,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
@@ -966,9 +969,19 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT .tex_intermediates/main.toc
+INPUT .tex_intermediates/main.toc
+INPUT .tex_intermediates/main.toc
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 OUTPUT .tex_intermediates/main.toc
 INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
@@ -977,7 +990,6 @@ INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT ./fig//intro/cobe.pdf
 INPUT ./fig//intro/cobe.pdf
 INPUT extractbb -B cropbox -O ./fig//intro/cobe.pdf
@@ -1066,7 +1078,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT ./fig//simons_observatory/EtoB_leakage.pdf
 INPUT ./fig//simons_observatory/EtoB_leakage.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/EtoB_leakage.pdf

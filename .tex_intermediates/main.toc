@@ -53,35 +53,37 @@
 \contentsline {section}{\numberline {4.5}初期不良の検証}{43}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}評価系}{43}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}評価結果とその考察}{45}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}まとめ}{46}{section.4.6}%
-\contentsline {chapter}{\numberline {第5章}ワイヤーのたわみ量の自動評価装置の開発}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}過去の測定手法における問題点と開発目標}{47}{section.5.1}%
-\contentsline {section}{\numberline {5.2}評価系の概要と評価原理}{47}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}評価系の概要}{47}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}評価原理}{50}{subsection.5.2.2}%
-\contentsline {paragraph}{カメラの回転とストレートエッジの傾きによる効果}{52}{section*.57}%
-\contentsline {paragraph}{スパースワイヤーグリッドの回転による効果}{53}{section*.59}%
-\contentsline {section}{\numberline {5.3}解析手法}{53}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}解析の流れ}{53}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}スケーラのfitting}{54}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}ストレートエッジとワイヤーのfitting}{56}{subsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.3.1}ストレートエッジのfitting}{57}{subsubsection.5.3.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.3.2}ワイヤーのfitting}{59}{subsubsection.5.3.3.2}%
-\contentsline {subsection}{\numberline {5.3.4}$z$ の算出}{61}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}カテナリーでのfitting}{61}{subsection.5.3.5}%
-\contentsline {section}{\numberline {5.4}開発した評価装置の妥当性の検証}{63}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}検証手法}{63}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}評価結果とその考察}{64}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}得られた誤差の考察}{65}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}まとめ}{66}{section.5.5}%
-\contentsline {chapter}{\numberline {第6章}スパースワイヤーグリッドのたわみ量の評価}{68}{chapter.6}%
-\contentsline {section}{\numberline {6.1}評価されたスパースワイヤーグリッドの詳細}{68}{section.6.1}%
-\contentsline {section}{\numberline {6.2}評価結果とその考察}{69}{section.6.2}%
-\contentsline {section}{\numberline {6.3}修繕後のスパースワイヤーグリッドの評価}{70}{section.6.3}%
-\contentsline {section}{\numberline {6.4}まとめ}{72}{section.6.4}%
-\contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{73}{chapter.7}%
-\contentsline {section}{\numberline {7.1}まとめ}{73}{section.7.1}%
-\contentsline {section}{\numberline {7.2}今後の展望}{74}{section.7.2}%
-\contentsline {chapter}{\numberline {付 録A }ストークスパラメータ}{76}{appendix.A}%
-\contentsline {section}{\numberline {A.1}ストークスパラメータの定義}{76}{section.A.1}%
-\contentsline {section}{\numberline {A.2}座標回転に対するストークスパラメータの変換}{77}{section.A.2}%
+\contentsline {section}{\numberline {4.6}まとめと偏光角較正への影響}{46}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}まとめ}{46}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}偏光角較正への影響}{47}{subsection.4.6.2}%
+\contentsline {chapter}{\numberline {第5章}ワイヤーのたわみ量の自動評価装置の開発}{48}{chapter.5}%
+\contentsline {section}{\numberline {5.1}過去の測定手法における問題点と開発目標}{48}{section.5.1}%
+\contentsline {section}{\numberline {5.2}評価系の概要と評価原理}{48}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}評価系の概要}{48}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}評価原理}{51}{subsection.5.2.2}%
+\contentsline {paragraph}{カメラの回転とストレートエッジの傾きによる効果}{53}{section*.57}%
+\contentsline {paragraph}{スパースワイヤーグリッドの回転による効果}{54}{section*.59}%
+\contentsline {section}{\numberline {5.3}解析手法}{54}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}解析の流れ}{54}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}スケーラのfitting}{55}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}ストレートエッジとワイヤーのfitting}{57}{subsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.3.1}ストレートエッジのfitting}{58}{subsubsection.5.3.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.3.2}ワイヤーのfitting}{60}{subsubsection.5.3.3.2}%
+\contentsline {subsection}{\numberline {5.3.4}$z$ の算出}{62}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}カテナリーでのfitting}{62}{subsection.5.3.5}%
+\contentsline {section}{\numberline {5.4}開発した評価装置の妥当性の検証}{64}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}検証手法}{64}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}評価結果とその考察}{65}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}得られた誤差の考察}{66}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}まとめ}{67}{section.5.5}%
+\contentsline {chapter}{\numberline {第6章}スパースワイヤーグリッドのたわみ量の評価}{69}{chapter.6}%
+\contentsline {section}{\numberline {6.1}評価されたスパースワイヤーグリッドの詳細}{69}{section.6.1}%
+\contentsline {section}{\numberline {6.2}評価結果とその考察}{70}{section.6.2}%
+\contentsline {section}{\numberline {6.3}修繕後のスパースワイヤーグリッドの評価}{71}{section.6.3}%
+\contentsline {section}{\numberline {6.4}まとめ}{73}{section.6.4}%
+\contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{74}{chapter.7}%
+\contentsline {section}{\numberline {7.1}まとめ}{74}{section.7.1}%
+\contentsline {section}{\numberline {7.2}今後の展望}{75}{section.7.2}%
+\contentsline {chapter}{\numberline {付 録A }ストークスパラメータ}{77}{appendix.A}%
+\contentsline {section}{\numberline {A.1}ストークスパラメータの定義}{77}{section.A.1}%
+\contentsline {section}{\numberline {A.2}座標回転に対するストークスパラメータの変換}{78}{section.A.2}%
