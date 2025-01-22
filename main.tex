@@ -34,13 +34,7 @@ bookmarkstype=toc
 \usepackage{multirow}
 \usepackage{xcolor}
 
-\usepackage[
-  backend=biber,
-  style=authoryear,
-  maxbibnames=3, % 参考文献一覧での最大著者数
-  minbibnames=1  % et al. で省略する場合の最小著者数
-]{biblatex}
-
+\usepackage[backend=biber,style=authoryear,maxnames=3,minnames=1]{biblatex}
 \addbibresource{refs.bib}
 
 % color text settings
@@ -88,10 +82,7 @@ bookmarkstype=toc
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subfile{./sub/title/title}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{document}
 
 \setlength{\abovedisplayskip}{15pt}
 \setlength{\belowdisplayskip}{15pt}
@@ -115,7 +106,6 @@ bookmarkstype=toc
 \fancyhead[RO,RE]{\thepage}
 
 %\linenumbers
-
 \subfile{./sub/introduction/introduction}
 \subfile{./sub/simons_observatory/simons_observatory}
 \subfile{./sub/wiregrid/wiregrid}
@@ -140,5 +130,7 @@ bookmarkstype=toc
 
 % \bibliography{refs}
 % \bibliographystyle{unsrt}
+
+\printbibliography
 
 \end{document}

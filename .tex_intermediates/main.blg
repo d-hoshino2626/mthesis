@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '.tex_intermediates/main.blg'
+[44] biber-darwin:340> INFO - === 木  1 23, 2025, 06:58:51
+[58] Biber.pm:419> INFO - Reading '.tex_intermediates/main.bcf'
+[106] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[113] bbl.pm:660> INFO - Writing '.tex_intermediates/main.bbl' with encoding 'UTF-8'
+[113] bbl.pm:763> INFO - Output to .tex_intermediates/main.bbl
+[113] Biber.pm:131> WARN - The file '.tex_intermediates/main.bcf' does not contain any citations!
+[113] Biber.pm:133> INFO - WARNINGS: 1

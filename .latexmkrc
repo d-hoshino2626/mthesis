@@ -10,9 +10,9 @@ $dvipdf = 'dvipdfmx %O -o %D %S';
 $max_repeat = 5;
 
 # bibtex系
-# `bibtex_use=2`を削除し、biberを明示的に使用
-$biber = 'biber --input-directory=.tex_intermediates';
-$bibtex = '';  # `bibtex`を無効化
+$bibtex_use=2;
+$biber = 'biber';
+$bibtex = 'upbibtex %O %S';
 
 # index
 $makeindex = 'upmendex %O -o %D %S -s jpbase';

@@ -1,19 +1,22 @@
 # Fdb version 4
-["bibtex main"] 0 "main.aux" "main.bbl" "main" 1737577815 -1
+["biber .tex_intermediates/main"] 1737583129 ".tex_intermediates/main.bcf" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1737583165 0
+  "./refs.bib" 1737506737 42535 289fc87b650fd08e57e2e0094664c304 ""
+  ".tex_intermediates/main.bcf" 1737583156 107749 c371bbf86c81291ed50eace8f052e179 "latex"
   (generated)
-  "main.bbl"
-  "main.blg"
+  ".tex_intermediates/main.bbl"
+  ".tex_intermediates/main.blg"
   (rewritten before read)
-["dvipdf"] 1737577807 "main.dvi" "main.pdf" "main" 1737577815 0
-  "main.dvi" 1737577806 352784 890067826695d4ba9206f9166034640c "latex"
+["dvipdf"] 1737583156 "main.dvi" "main.pdf" "main" 1737583165 0
+  "main.dvi" 1737583156 352784 edfda9c858ad0dd209abaf42b4f8cb91 "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1737577795 "main.tex" "main.dvi" "main" 1737577815 0
-  ".tex_intermediates/main.aux" 1737577806 62363 90fb622e55a88075116858d1bfa8f088 "latex"
-  ".tex_intermediates/main.out" 1737577806 12951 8f2afccffe2ef86f4230beeadc17ffe0 "latex"
-  ".tex_intermediates/main.run.xml" 1737577806 2305 1300eefeea0bd1ff96220bd9a78d8e1e "latex"
-  ".tex_intermediates/main.toc" 1737577806 8875 243e77c438416641bf41aaa9b2661ea5 "latex"
+["latex"] 1737583144 "main.tex" "main.dvi" "main" 1737583165 0
+  ".tex_intermediates/main.aux" 1737583156 62363 77a08cba029d1e8a080f57068e9fb9cb "latex"
+  ".tex_intermediates/main.bbl" 1737583131 466 ee04f40f768daeed26442158e95aba61 "biber .tex_intermediates/main"
+  ".tex_intermediates/main.out" 1737583156 12951 8f2afccffe2ef86f4230beeadc17ffe0 "latex"
+  ".tex_intermediates/main.run.xml" 1737583156 2305 1300eefeea0bd1ff96220bd9a78d8e1e "latex"
+  ".tex_intermediates/main.toc" 1737583156 8875 243e77c438416641bf41aaa9b2661ea5 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0600.tfm" 1136768653 1536 a00dc4928e5f91bd0b0c0839944035dd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0800.tfm" 1136768653 1536 f9f377d0a7a6ab86b894ea3edc27e42b ""
@@ -261,8 +264,7 @@
   "fig//wiresag_swg/swg_sag_even_comparison.pdf" 1737349563 19917 f57932e511b9cb23925e013a4b2d24a3 ""
   "fig//wiresag_swg/swg_sag_odd_comparison.pdf" 1737349563 19313 0031c3bd975e6c62c2c4404e02cbe324 ""
   "fig//wiresag_swg/wiresag_sparse_wiregrid.pdf" 1737214069 599512 3ca02ef2cf857d42606cf2cf2d55e186 ""
-  "main.bbl" 1737577073 0 d41d8cd98f00b204e9800998ecf8427e "bibtex main"
-  "main.tex" 1737577770 3375 58f4b81f4e55e2b193e64b1fc8719cbb ""
+  "main.tex" 1737583116 3262 6db7913258e6516667b7a4dd51ab3b9c ""
   "sub/abstract/abstract.tex" 1737546730 3582 a7842f29724a501c36367c7941474aef ""
   "sub/acknowledgement/acknowledgement.tex" 1734771423 156 75eabfb98aaf5970e88fb171241abf29 ""
   "sub/appendix/appendix.tex" 1736649885 6477 dd0e74c73ee903c52fcf0e3a869f48cf ""
