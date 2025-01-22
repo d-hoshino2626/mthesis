@@ -81,7 +81,7 @@
 \contentsline {section}{\numberline {6.4}まとめ}{72}{section.6.4}%
 \contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{73}{chapter.7}%
 \contentsline {section}{\numberline {7.1}まとめ}{73}{section.7.1}%
-\contentsline {section}{\numberline {7.2}今後の展望}{73}{section.7.2}%
-\contentsline {chapter}{\numberline {付 録A }ストークスパラメータ}{75}{appendix.A}%
-\contentsline {section}{\numberline {A.1}ストークスパラメータの定義}{75}{section.A.1}%
-\contentsline {section}{\numberline {A.2}座標回転に対するストークスパラメータの変換}{76}{section.A.2}%
+\contentsline {section}{\numberline {7.2}今後の展望}{74}{section.7.2}%
+\contentsline {chapter}{\numberline {付 録A }ストークスパラメータ}{76}{appendix.A}%
+\contentsline {section}{\numberline {A.1}ストークスパラメータの定義}{76}{section.A.1}%
+\contentsline {section}{\numberline {A.2}座標回転に対するストークスパラメータの変換}{77}{section.A.2}%
