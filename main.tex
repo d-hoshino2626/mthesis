@@ -34,6 +34,15 @@ bookmarkstype=toc
 \usepackage{multirow}
 \usepackage{xcolor}
 
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  maxbibnames=3, % 参考文献一覧での最大著者数
+  minbibnames=1  % et al. で省略する場合の最小著者数
+]{biblatex}
+
+\addbibresource{refs.bib}
+
 % color text settings
 \newcommand{\colortext}[2]{\textcolor{#1}{#2}}
 
@@ -129,7 +138,7 @@ bookmarkstype=toc
 %\addcontentsline{toc}{chapter}{図目次}
 %\listoffigures
 
-\bibliography{refs}
-\bibliographystyle{unsrt}
+% \bibliography{refs}
+% \bibliographystyle{unsrt}
 
 \end{document}
