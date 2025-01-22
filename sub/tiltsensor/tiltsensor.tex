@@ -18,6 +18,7 @@
 式\eqref{eq:wg_tiltsensor_slope1}\eqref{eq:wg_tiltsensor_slope2}より、重力参照計の各 $X$ 軸、$Y$ 軸の誤差を $\delta\theta_{X},\,\delta\theta_{Y}$ とすると、
 $\theta_{\mathrm{sens}}$ の誤差 $\delta\theta_{\mathrm{sens}}$ は
 \begin{align}
+    \label{eq:gosadenpa1}
     \delta\theta_{\mathrm{sens}} &= 
         \sqrt{\qty(\dfrac{\sin\beta}{\sin^2\alpha+\sin^2\beta} \delta\qty(\sin\alpha))^2 + \qty(\dfrac{\sin\alpha}{\sin^2\alpha+\sin^2\beta} \delta\qty(\sin\beta))^2}\\ 
     \delta\qty(\sin\alpha) &= \sqrt{\qty(\dv{\sin\alpha}{\theta_X}\delta\theta_X)^2+\qty(\dv{\sin\alpha}{\theta_Y}\delta\theta_Y)^2}\\
@@ -25,6 +26,7 @@ $\theta_{\mathrm{sens}}$ の誤差 $\delta\theta_{\mathrm{sens}}$ は
     \dv{\sin\alpha}{\theta_X} &= \cos\theta_{\mathrm{slope}1}\cos\theta_X - \sin\theta_{\mathrm{slope}1}\sin\theta_{\mathrm{slope}2}\dfrac{\sin\theta_X\cos\theta_X}{\sqrt{1-\sin^2\theta_X-\sin^2\theta_Y}} \\
     \dv{\sin\alpha}{\theta_Y} &= -\sin\theta_{\mathrm{slope}1}\cos\theta_{\mathrm{slope}2}\cos\theta_Y - \sin\theta_{\mathrm{slope}1}\sin\theta_{\mathrm{slope}2}\dfrac{\sin\theta_Y\cos\theta_Y}{\sqrt{1-\sin^2\theta_X-\sin^2\theta_Y}} \\
     \dv{\sin\beta}{\theta_X} &= \sin\theta_{\mathrm{slope}1}\cos\theta_X + \cos\theta_{\mathrm{slope}1}\sin\theta_{\mathrm{slope}2}\dfrac{\sin\theta_X\cos\theta_X}{\sqrt{1-\sin^2\theta_X-\sin^2\theta_Y}} \\
+    \label{eq:gosadnepa2}
     \dv{\sin\beta}{\theta_Y} &= \cos\theta_{\mathrm{slope}1}\cos\theta_{\mathrm{slope}2}\cos\theta_Y + \cos\theta_{\mathrm{slope}1}\sin\theta_{\mathrm{slope}2}\dfrac{\sin\theta_Y\cos\theta_Y}{\sqrt{1-\sin^2\theta_X-\sin^2\theta_Y}}
 \end{align}
 のように表される。
@@ -340,7 +342,7 @@ $Y$ 軸については、温度変化に対する出力角度の平均が $1.18\
     \label{fig:angleY_huryou_test}
 \end{figure}
 
-\section{まとめと$\theta_{\mathrm{ses}}$の誤差}
+\section{まとめと$\theta_{\mathrm{sens}}$の誤差}
 本章では、重力参照計 Sherborne Sensors 社 DSIC-2051-60 の評価を行った。
 長期間の実験期間にて絶対角度の精度を保証するため、長期間の出力の安定性を評価した。
 また、観測サイトの気温の変化に耐えうるかを確認するため、恒温槽を用いて温度変化に対する出力角度の変化を測定した。
@@ -359,5 +361,18 @@ $Y$ 軸に関しては、公称精度を大きく上回る $2.0\tcdegree$ 以上
 $Y$ 軸は初期不良により要求を満たさなかったが、修理により $X$ 軸と同程度の精度を達成できると期待される。
 すなわち、本重力参照計の各軸の精度は $\delta\theta_X\sim\delta\theta_Y<0.04\tcdegree$ となり、要求精度を満たすと見込んでいる。
 
-実際に望遠鏡の偏光角較正の精度として
+ワイヤーの絶対角度には、重力参照計の値は式\eqref{eq:wg_theta_sens}で表される$\theta_{\mathrm{sens}}$として効く。
+つまり、望遠鏡の偏光角較正の精度には、重力参照計の誤差$\delta\theta_{X},\,\delta\theta_{Y}$が
+式\eqref{eq:gosadenpa1}$\sim$\eqref{eq:gosadnepa2}を介して$\theta_{\mathrm{sens}}$の誤差$\delta\theta_{\mathrm{sens}}$として現れる。
+今回得られた$\delta\theta_{X}<0.04\tcdegree$と見込んでいる精度$\delta\theta_{Y}<0.04\tcdegree$がどの程度の$\delta\theta_{\mathrm{sens}}$を与えるのか計算する。
+ただし、$\delta\theta_{\mathrm{sens}}$は望遠鏡の姿勢、すなわちelevationとboresightの値によって変動する。
+なぜなら、望遠鏡の姿勢の変化は$\theta_{X},\,\theta_{Y}$の値を変えるからである。
+ここでは較正が行われる基本姿勢である$\mathrm{elevation}=50\tcdegree$と、$\mathrm{boresight}=0\tcdegree$のときを
+仮定して$\delta\theta_{\mathrm{sens}}$を算出する。望遠鏡がこの姿勢のとき、$\theta_{X}=\theta_{Y}=0$となるようにスロープを切った治具をつけているので(\ref{}項参照)
+\begin{equation}
+    \delta\theta_{\mathrm{sens}} \simeq 0.057\tcdegree
+\end{equation}
+となる。
+
+
 \end{document}
