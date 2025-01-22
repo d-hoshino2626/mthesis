@@ -342,7 +342,8 @@ $Y$ 軸については、温度変化に対する出力角度の平均が $1.18\
     \label{fig:angleY_huryou_test}
 \end{figure}
 
-\section{まとめと$\theta_{\mathrm{sens}}$の誤差}
+\section{まとめと偏光角較正への影響}
+\subsection{まとめ}
 本章では、重力参照計 Sherborne Sensors 社 DSIC-2051-60 の評価を行った。
 長期間の実験期間にて絶対角度の精度を保証するため、長期間の出力の安定性を評価した。
 また、観測サイトの気温の変化に耐えうるかを確認するため、恒温槽を用いて温度変化に対する出力角度の変化を測定した。
@@ -361,6 +362,7 @@ $Y$ 軸に関しては、公称精度を大きく上回る $2.0\tcdegree$ 以上
 $Y$ 軸は初期不良により要求を満たさなかったが、修理により $X$ 軸と同程度の精度を達成できると期待される。
 すなわち、本重力参照計の各軸の精度は $\delta\theta_X\sim\delta\theta_Y<0.04\tcdegree$ となり、要求精度を満たすと見込んでいる。
 
+\subsection{偏光角較正への影響}
 ワイヤーの絶対角度には、重力参照計の値は式\eqref{eq:wg_theta_sens}で表される$\theta_{\mathrm{sens}}$として効く。
 つまり、望遠鏡の偏光角較正の精度には、重力参照計の誤差$\delta\theta_{X},\,\delta\theta_{Y}$が
 式\eqref{eq:gosadenpa1}$\sim$\eqref{eq:gosadnepa2}を介して$\theta_{\mathrm{sens}}$の誤差$\delta\theta_{\mathrm{sens}}$として現れる。
@@ -372,7 +374,10 @@ $Y$ 軸は初期不良により要求を満たさなかったが、修理によ�
 \begin{equation}
     \delta\theta_{\mathrm{sens}} \simeq 0.057\tcdegree
 \end{equation}
-となる。
-
+となる。すなわち、重力参照計が与える偏光角較正の精度への影響は
+\begin{equation}
+    \delta\theta_{\mathrm{sens}} < 0.06\tcdegree
+\end{equation}
+と評価できる。
 
 \end{document}

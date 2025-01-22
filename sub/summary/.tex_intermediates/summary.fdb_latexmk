@@ -1,13 +1,13 @@
 # Fdb version 4
-["dvipdf"] 1737536380 "summary.dvi" "summary.pdf" "summary" 1737536380 0
-  "summary.dvi" 1737536380 7736 265ab5b731c1e8a4ddc42e126bcee3ec "latex"
+["dvipdf"] 1737536932 "summary.dvi" "summary.pdf" "summary" 1737536932 0
+  "summary.dvi" 1737536932 7708 66ae8412c1b5209aadfb672bbde3e6f1 "latex"
   (generated)
   "summary.pdf"
   (rewritten before read)
-["latex"] 1737536379 "summary.tex" "summary.dvi" "summary" 1737536380 0
+["latex"] 1737536961 "summary.tex" "summary.dvi" "summary" 1737536961 2
   "../../main.tex" 1737337650 3156 19f6cef682a95fbd857fdcfe92136ed7 ""
-  ".tex_intermediates/summary.aux" 1737536380 1078 95f2da2de52bad976e38b00f6b511c3e "latex"
-  ".tex_intermediates/summary.out" 1737536380 416 b5b560d6b63580f951b0fb6cc5d42682 "latex"
+  ".tex_intermediates/summary.aux" 1737536961 473 eff1f19101d11e24a409215b95c2242e "latex"
+  ".tex_intermediates/summary.out" 1737536961 54 05b9ff7757fe6a446d8f294b02146d28 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -129,7 +129,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "summary.tex" 1737536379 4091 f2aaae97851afc2d9e937b297ff46677 ""
+  "summary.tex" 1737536960 4115 bd13d27767f9f6d76ef83bfdd6ea726f ""
   (generated)
   ".tex_intermediates/summary.aux"
   ".tex_intermediates/summary.log"

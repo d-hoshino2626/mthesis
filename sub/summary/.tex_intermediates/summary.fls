@@ -966,7 +966,3 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-OUTPUT .tex_intermediates/summary.dvi
-INPUT .tex_intermediates/summary.aux
-INPUT .tex_intermediates/summary.out
-INPUT .tex_intermediates/summary.out
