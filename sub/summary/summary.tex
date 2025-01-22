@@ -32,7 +32,9 @@ $<0.06\tcdegree$と評価された。
 さらに、この評価装置を用いて、実際に使用されるスパースワイヤーグリッドのたわみを評価した。
 その評価結果はたわみによる偏光角への影響$\theta_{\mathrm{sag}}$にして、$\theta_{\mathrm{sag}}<0.03\tcdegree$であった。
 
-表\ref{}に、本研究で評価した系統誤差の値を更新した、スパースワイヤーグリッドの装置由来の系統誤差をまとめる。
+表\ref{tab:summary_systematic_error}に、本研究で評価した系統誤差の値を更新した、スパースワイヤーグリッドの装置由来の系統誤差をまとめる。
+偏光角較正の合計の系統誤差$\delta\theta$は$\delta\theta=0.084\tcdegree<0.09\tcdegree$であった。
+これはSimons Observatoryにおける要求精度$\delta\theta<0.1\tcdegree$を満たしている。
 \begin{table}
     \centering
     \caption{}
@@ -43,15 +45,16 @@ $<0.06\tcdegree$と評価された。
         ワイヤー設置精度 & $<0.02\tcdegree$ \\
         エンコーダ精度 & $<0.03\tcdegree$ \\
         エンコーダ零点 & $<0.04\tcdegree$ \\
-        重力参照計 & $<0.06\tcdegree$ \\
-        ワイヤーのたわみ & $<0.03$
+        重力参照計\footnote{これは望遠鏡が基本姿勢$\mathrm{elevation}=50\tcdegree,\,\mathrm{boresight}=0\tcdegree$をとっているときの値であることに注意。} & $<0.06\tcdegree$ \\
+        ワイヤーのたわみ & $<0.03$ \\
+        \hline
+        合計 & $<0.09$ \\
         \hline
         \hline
     \end{tabular}
+    \label{tab:summary_systematic_error}
 \end{table}
-
-\colortext{red}{書き途中です。もう少しかくのに時間がかかりそうなので、先にイントロの方をお願いします。}
-
-
 \section{今後の展望}
+今後の展望として、まず第一に初期不良で正常に動作していなかった重力参照計の$Y$軸の再評価が予定されている。
+
 \end{document}
