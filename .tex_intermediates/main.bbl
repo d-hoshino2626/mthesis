@@ -1,20 +1,166 @@
-% $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
-%
-\begingroup
-\makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
+\begin{thebibliography}{10}
 
-\endinput
+\bibitem{1965ApJ...142..419P}
+A.~A. {Penzias} and R.~W. {Wilson}.
+\newblock {A Measurement of Excess Antenna Temperature at 4080 Mc/s.}
+\newblock {\em Astrophysical Journal}, 142:419--421, July 1965.
 
+\bibitem{1996ApJ...473..576F}
+D.~J. {Fixsen}, E.~S. {Cheng}, J.~M. {Gales}, J.~C. {Mather}, R.~A. {Shafer}, and E.~L. {Wright}.
+\newblock {The Cosmic Microwave Background Spectrum from the Full COBE FIRAS Data Set}.
+\newblock {\em Astrophysical Journal}, 473:576, December 1996.
+
+\bibitem{Bennett_2003}
+C.~L. Bennett, M.~Halpern, G.~Hinshaw, et~al.
+\newblock {First-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Preliminary Maps and Basic Results}.
+\newblock {\em The Astrophysical Journal Supplement Series}, 148(1):1--27, September 2003.
+
+\bibitem{10.1093/mnras/195.3.467}
+Katsuhiko Sato.
+\newblock First-order phase transition of a vacuum and the expansion of the universe.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 195(3):467--479, 07 1981.
+
+\bibitem{PhysRevD.23.347}
+Alan~H. Guth.
+\newblock Inflationary universe: A possible solution to the horizon and flatness problems.
+\newblock {\em Phys. Rev. D}, 23:347--356, Jan 1981.
+
+\bibitem{Tsujikawa_book}
+辻川信二.
+\newblock {\em 入門 現代の宇宙論}.
+\newblock 講談社サイエンティフィク, Jan 2022.
+
+\bibitem{1967ApJ...147...73S}
+R.~K. {Sachs} and A.~M. {Wolfe}.
+\newblock {Perturbations of a Cosmological Model and Angular Variations of the Microwave Background}.
+\newblock {\em Astrophysical Journal}, 147:73, January 1967.
+
+\bibitem{Planck_2020}
+N.~Aghanim, Y.~Akrami, F.~Arroja, et~al.
+\newblock {Planck2018 results: I. Overview and the cosmological legacy of Planck}.
+\newblock {\em {Astronomy \& Astrophysics}}, 641:A1, September 2020.
+
+\bibitem{PhysRevLett.127.151301}
+P.~A.~R. Ade, Z.~Ahmed, M.~Amiri, D.~Barkats, R.~Basu Thakur, C.~A. Bischoff, D.~Beck, J.~J. Bock, H.~Boenish, E.~Bullock, V.~Buza, J.~R. Cheshire, J.~Connors, J.~Cornelison, M.~Crumrine, A.~Cukierman, E.~V. Denison, M.~Dierickx, L.~Duband, M.~Eiben, S.~Fatigoni, J.~P. Filippini, S.~Fliescher, N.~Goeckner-Wald, D.~C. Goldfinger, J.~Grayson, P.~Grimes, G.~Hall, G.~Halal, M.~Halpern, E.~Hand, S.~Harrison, S.~Henderson, S.~R. Hildebrandt, G.~C. Hilton, J.~Hubmayr, H.~Hui, K.~D. Irwin, J.~Kang, K.~S. Karkare, E.~Karpel, S.~Kefeli, S.~A. Kernasovskiy, J.~M. Kovac, C.~L. Kuo, K.~Lau, E.~M. Leitch, A.~Lennox, K.~G. Megerian, L.~Minutolo, L.~Moncelsi, Y.~Nakato, T.~Namikawa, H.~T. Nguyen, R.~O'Brient, R.~W. Ogburn, S.~Palladino, T.~Prouve, C.~Pryke, B.~Racine, C.~D. Reintsema, S.~Richter, A.~Schillaci, R.~Schwarz, B.~L. Schmitt, C.~D. Sheehy, A.~Soliman, T.~St. Germaine, B.~Steinbach, R.~V. Sudiwala, G.~P. Teply, K.~L. Thompson, J.~E. Tolan, C.~Tucker, A.~D. Turner, C.~Umilt\`a, C.~Verg\`es, A.~G. Vieregg, A.~Wandui, A.~C. Weber, D.~V. Wiebe, J.~Willmert, C.~L. Wong, W.~L.~K. Wu, H.~Yang, K.~W. Yoon, E.~Young, C.~Yu, L.~Zeng, C.~Zhang, and S.~Zhang.
+\newblock Improved constraints on primordial gravitational waves using planck, wmap, and bicep/keck observations through the 2018 observing season.
+\newblock {\em Phys. Rev. Lett.}, 127:151301, Oct 2021.
+
+\bibitem{so:current_status}
+Aashrita Mangu, Lance Corbett, Sanah Bhimani, Fred Carl, Samuel Day-Weiss, Brooke DiGia, Josquin Errard, Nicholas Galitzki, Masashi Hazumi, Shawn~W. Henderson, Amber Miller, Jenna Moore, Xue Song, Tran Tsan, Yuhan Wang, and Andrea Zonca.
+\newblock {The Simons Observatory: Design, Integration, and Current Status of Small Aperture Telescopes}.
+\newblock In {\em Proceedings of XVIII International Conference on Topics in Astroparticle and Underground Physics — PoS(TAUP2023)}, TAUP2023, page 003. Sissa Medialab, 1 2024.
+
+\bibitem{so:science_forecast}
+Peter Ade, James Aguirre, Zeeshan Ahmed, Simone Aiola, Aamir Ali, David Alonso, Marcelo~A. Alvarez, Kam Arnold, Peter Ashton, Jason Austermann, Humna Awan, Carlo Baccigalupi, Taylor Baildon, Darcy Barron, Nick Battaglia, Richard Battye, Eric Baxter, Andrew Bazarko, James~A. Beall, Rachel Bean, Dominic Beck, Shawn Beckman, Benjamin Beringue, Federico Bianchini, Steven Boada, David Boettger, J.~Richard Bond, Julian Borrill, Michael~L. Brown, Sarah~Marie Bruno, Sean Bryan, Erminia Calabrese, Victoria Calafut, Paolo Calisse, Julien Carron, Anthony Challinor, Grace Chesmore, Yuji Chinone, Jens Chluba, Hsiao-Mei~Sherry Cho, Steve Choi, Gabriele Coppi, Nicholas~F. Cothard, Kevin Coughlin, Devin Crichton, Kevin~D. Crowley, Kevin~T. Crowley, Ari Cukierman, John~M. D’Ewart, Rolando Dünner, Tijmen de~Haan, Mark Devlin, Simon Dicker, Joy Didier, Matt Dobbs, Bradley Dober, Cody~J. Duell, Shannon Duff, Adri Duivenvoorden, Jo~Dunkley, John Dusatko, Josquin Errard, Giulio Fabbian, Stephen Feeney, Simone Ferraro, Pedro Fluxà, Katherine Freese, Josef~C. Frisch, Andrei Frolov, George Fuller, Brittany Fuzia, Nicholas Galitzki, Patricio~A. Gallardo, Jose Tomas~Galvez Ghersi, Jiansong Gao, Eric Gawiser, Martina Gerbino, Vera Gluscevic, Neil Goeckner-Wald, Joseph Golec, Sam Gordon, Megan Gralla, Daniel Green, Arpi Grigorian, John Groh, Chris Groppi, Yilun Guan, Jon~E. Gudmundsson, Dongwon Han, Peter Hargrave, Masaya Hasegawa, Matthew Hasselfield, Makoto Hattori, Victor Haynes, Masashi Hazumi, Yizhou He, Erin Healy, Shawn~W. Henderson, Carlos Hervias-Caimapo, Charles~A. Hill, J.~Colin Hill, Gene Hilton, Matt Hilton, Adam~D. Hincks, Gary Hinshaw, Renée Hložek, Shirley Ho, Shuay-Pwu~Patty Ho, Logan Howe, Zhiqi Huang, Johannes Hubmayr, Kevin Huffenberger, John~P. Hughes, Anna Ijjas, Margaret Ikape, Kent Irwin, Andrew~H. Jaffe, Bhuvnesh Jain, Oliver Jeong, Daisuke Kaneko, Ethan~D. Karpel, Nobuhiko Katayama, Brian Keating, Sarah~S. Kernasovskiy, Reijo Keskitalo, Theodore Kisner, Kenji Kiuchi, Jeff Klein, Kenda Knowles, Brian Koopman, Arthur Kosowsky, Nicoletta Krachmalnicoff, Stephen~E. Kuenstner, Chao-Lin Kuo, Akito Kusaka, Jacob Lashner, Adrian Lee, Eunseong Lee, David Leon, Jason S.-Y. Leung, Antony Lewis, Yaqiong Li, Zack Li, Michele Limon, Eric Linder, Carlos Lopez-Caraballo, Thibaut Louis, Lindsay Lowry, Marius Lungu, Mathew Madhavacheril, Daisy Mak, Felipe Maldonado, Hamdi Mani, Ben Mates, Frederick Matsuda, Loïc Maurin, Phil Mauskopf, Andrew May, Nialh McCallum, Chris McKenney, Jeff McMahon, P.~Daniel Meerburg, Joel Meyers, Amber Miller, Mark Mirmelstein, Kavilan Moodley, Moritz Munchmeyer, Charles Munson, Sigurd Naess, Federico Nati, Martin Navaroli, Laura Newburgh, Ho~Nam Nguyen, Michael Niemack, Haruki Nishino, John Orlowski-Scherer, Lyman Page, Bruce Partridge, Julien Peloton, Francesca Perrotta, Lucio Piccirillo, Giampaolo Pisano, Davide Poletti, Roberto Puddu, Giuseppe Puglisi, Chris Raum, Christian~L. Reichardt, Mathieu Remazeilles, Yoel Rephaeli, Dominik Riechers, Felipe Rojas, Anirban Roy, Sharon Sadeh, Yuki Sakurai, Maria Salatino, Mayuri~Sathyanarayana Rao, Emmanuel Schaan, Marcel Schmittfull, Neelima Sehgal, Joseph Seibert, Uros Seljak, Blake Sherwin, Meir Shimon, Carlos Sierra, Jonathan Sievers, Precious Sikhosana, Maximiliano Silva-Feaver, Sara~M. Simon, Adrian Sinclair, Praween Siritanasak, Kendrick Smith, Stephen~R. Smith, David Spergel, Suzanne~T. Staggs, George Stein, Jason~R. Stevens, Radek Stompor, Aritoki Suzuki, Osamu Tajima, Satoru Takakura, Grant Teply, Daniel~B. Thomas, Ben Thorne, Robert Thornton, Hy~Trac, Calvin Tsai, Carole Tucker, Joel Ullom, Sunny Vagnozzi, Alexander~van Engelen, Jeff~Van Lanen, Daniel D.~Van Winkle, Eve~M. Vavagiakis, Clara Vergès, Michael Vissers, Kasey Wagoner, Samantha Walker, Jon Ward, Ben Westbrook, Nathan Whitehorn, Jason Williams, Joel Williams, Edward~J. Wollack, Zhilei Xu, Byeonghee Yu, Cyndia Yu, Fernando Zago, Hezi Zhang, and Ningfeng Zhu.
+\newblock {The Simons Observatory: science goals and forecasts}.
+\newblock {\em Journal of Cosmology and Astroparticle Physics}, 2019(02):056--056, February 2019.
+
+\bibitem{Kiuchi_2020}
+Kenji Kiuchi, Shunsuke Adachi, Aamir~M. Ali, Kam Arnold, Peter Ashton, Jason~E. Austermann, Andrew Bazako, James~A. Beall, Yuji Chinone, Gabriele Coppi, Kevin~D. Crowley, Kevin~T. Crowley, Simon Dicker, Bradley Dober, Shannon~M. Duff, Giulio Fabbian, Nicholas Galitzki, Joseph~E. Golec, Jon~E. Gudmundsson, Kathleen Harrington, Masaya Hasegawa, Makoto Hattori, Charles~A. Hill, Shuay-Pwu~Patty Ho, Johannes Hubmayr, Bradley~R. Johnson, Daisuke Kaneko, Nobuhiko Katayama, Brian Keating, Akito Kusaka, Jack Lashner, Adrian~T. Lee, Frederick Matsuda, Heather McCarrick, Masaaki Murata, Federico Nati, Yume Nishinomiya, Lyman Page, Mayuri~Sathyanarayana Rao, Christian~L. Reichardt, Kana Sakaguri, Yuki Sakurai, Joseph Sibert, Jacob Spisak, Osamu Tajima, Grant~P. Teply, Tomoki Terasaki, Tran Tsan, Samantha Walker, Edward~J. Wollack, Zhilei Xu, Kyohei Yamada, Mario Zannoni, and Ningfeng Zhu.
+\newblock The simons observatory small aperture telescope overview.
+\newblock In Heather~K. Marshall, Jason Spyromilio, and Tomonori Usuda, editors, {\em Ground-based and Airborne Telescopes VIII}, page 162. SPIE, December 2020.
+
+\bibitem{Adachi_2020}
+S.~Adachi, M.~Hattori, F.~Kanno, K.~Kiuchi, T.~Okada, and O.~Tajima.
+\newblock Production method of millimeter-wave absorber with 3d-printed mold.
+\newblock {\em Review of Scientific Instruments}, 91(1), January 2020.
+
+\bibitem{galitzki2024simonsobservatorydesignintegration}
+Nicholas Galitzki, Tran Tsan, Jake Spisak, Michael Randall, Max Silva-Feaver, Joseph Seibert, Jacob Lashner, Shunsuke Adachi, Sean~M. Adkins, Thomas Alford, Kam Arnold, Peter~C. Ashton, Jason~E. Austermann, Carlo Baccigalupi, Andrew Bazarko, James~A. Beall, Sanah Bhimani, Bryce Bixler, Gabriele Coppi, Lance Corbett, Kevin~D. Crowley, Kevin~T. Crowley, Samuel Day-Weiss, Simon Dicker, Peter~N. Dow, Cody~J. Duell, Shannon~M. Duff, Remington~G. Gerras, John~C. Groh, Jon~E. Gudmundsson, Kathleen Harrington, Masaya Hasegawa, Erin Healy, Shawn~W. Henderson, Johannes Hubmayr, Jeffrey Iuliano, Bradley~R. Johnson, Brian Keating, Ben Keller, Kenji Kiuchi, Anna~M. Kofman, Brian~J. Koopman, Akito Kusaka, Adrian~T. Lee, Richard~A. Lew, Lawrence~T. Lin, Michael~J Link, Tammy~J. Lucas, Marius Lungu, Aashrita Mangu, Jeffrey~J McMahon, Amber~D. Miller, Jenna~E. Moore, Magdy Morshed, Hironobu Nakata, Federico Nati, Laura~B. Newburgh, David~V. Nguyen, Michael~D. Niemack, Lyman~A. Page, Kana Sakaguri, Yuki Sakurai, Mayuri~Sathyanarayana Rao, Lauren~J. Saunders, Jordan~E. Shroyer, Junna Sugiyama, Osamu Tajima, Atsuto Takeuchi, Refilwe~Tanah Bua, Grant Teply, Tomoki Terasaki, Joel~N. Ullom, Jeffrey L.~Van Lanen, Eve~M. Vavagiakis, Michael~R Vissers, Liam Walters, Yuhan Wang, Zhilei Xu, Kyohei Yamada, and Kaiwen Zheng.
+\newblock The simons observatory: Design, integration, and testing of the small aperture telescopes, 2024.
+
+\bibitem{duff2024simonsobservatoryproductionlevelfabrication}
+Shannon~M. Duff, Jason Austermann, James~A. Beall, David~P. Daniel, Johannes Hubmayr, Greg~C. Jaehnig, Bradley~R. Johnson, Dante Jones, Michael~J. Link, Tammy~J. Lucas, Rita~F. Sonka, Suzanne~T. Staggs, Joel Ullom, and Yuhan Wang.
+\newblock The simons observatory: Production-level fabrication of the mid- and ultra-high-frequency wafers, 2024.
+
+\bibitem{so:hwp_yamada}
+K.~Yamada, B.~Bixler, Y.~Sakurai, P.~C. Ashton, J.~Sugiyama, K.~Arnold, J.~Begin, L.~Corbett, S.~Day-Weiss, N.~Galitzki, C.~A. Hill, B.~R. Johnson, B.~Jost, A.~Kusaka, B.~J. Koopman, J.~Lashner, A.~T. Lee, A.~Mangu, H.~Nishino, L.~A. Page, M.~J. Randall, D.~Sasaki, X.~Song, J.~Spisak, T.~Tsan, Y.~Wang, and P.~A. Williams.
+\newblock {The Simons Observatory: Cryogenic half wave plate rotation mechanism for the small aperture telescopes}.
+\newblock {\em Review of Scientific Instruments}, 95(2), 2 2024.
+
+\bibitem{takakura_PhD}
+Satoru Takakura.
+\newblock {\em Characterization of a continuous polarization modulator using a half-wave plate for measurements of degree-scale cosmic microwave background with the POLARBEAR experiment}.
+\newblock PhD thesis, 2017.
+
+\bibitem{so:Keating_2013}
+Brian~G. Keating, Meir Shimon, and Amit P.~S. Yadav.
+\newblock {SELF-CALIBRATION OF COSMIC MICROWAVE BACKGROUND POLARIZATION EXPERIMENTS}.
+\newblock {\em The Astrophysical Journal Letters}, 762(2):L23, dec 2012.
+
+\bibitem{so:Kaufman_2014}
+J.~P. Kaufman, N.~J. Miller, M.~Shimon, D.~Barkats, C.~Bischoff, I.~Buder, B.~G. Keating, J.~M. Kovac, P.~A.~R. Ade, R.~Aikin, J.~O. Battle, E.~M. Bierman, J.~J. Bock, H.~C. Chiang, C.~D. Dowell, L.~Duband, J.~Filippini, E.~F. Hivon, W.~L. Holzapfel, V.~V. Hristov, W.~C. Jones, S.~S. Kernasovskiy, C.~L. Kuo, E.~M. Leitch, P.~V. Mason, T.~Matsumura, H.~T. Nguyen, N.~Ponthieu, C.~Pryke, S.~Richter, G.~Rocha, C.~Sheehy, M.~Su, Y.~D. Takahashi, J.~E. Tolan, and K.~W. Yoon.
+\newblock {Self-calibration of BICEP1 three-year data and constraints on astrophysical polarization rotation}.
+\newblock {\em Phys. Rev. D}, 89:062006, 3 2014.
+
+\bibitem{so:Bryan_2018}
+Sean~A. Bryan, Grant~P. Teply, Sara~M. Simon, Martina Gerbino, Amir Ali, Yuji Chinone, Kevin Crowley, Giulio Fabbian, Patricio Gallardo, Neil Goeckner-Wald, Brian Keating, Brian Koopman, Akito Kusaka, Frederick Matsuda, Philip Mauskopf, Jeff McMahon, Federico Nati, Giuseppe Puglisi, Christian Reichardt, Maria Salatino, Zhilei Xu, and Ningfeng Zhu.
+\newblock {Development of calibration strategies for the Simons Observatory}.
+\newblock In Jonas Zmuidzinas and Jian-Rong Gao, editors, {\em Millimeter, Submillimeter, and Far-Infrared Detectors and Instrumentation for Astronomy IX}, page 135. SPIE, 7 2018.
+
+\bibitem{so:Zemcov_2010}
+M.~Zemcov, P.~Ade, J.~Bock, M.~Bowden, M.~L. Brown, G.~Cahill, P.~G. Castro, S.~Church, T.~Culverhouse, R.~B. Friedman, K.~Ganga, W.~K. Gear, S.~Gupta, J.~Hinderks, J.~Kovac, A.~E. Lange, E.~Leitch, S.~J. Melhuish, Y.~Memari, J.~A. Murphy, A.~Orlando, C.~O’ Sullivan, L.~Piccirillo, C.~Pryke, N.~Rajguru, B.~Rusholme, R.~Schwarz, A.~N. Taylor, K.~L. Thompson, A.~H. Turner, E.~Y.~S. Wu, and (QUaD collaboration).
+\newblock Characterization of the millimeter-wave polarization of centaurus a with quad.
+\newblock {\em The Astrophysical Journal}, 710(2):1541, feb 2010.
+
+\bibitem{so:polarbear_cal}
+The Polarbear Collaboration: P. A.~R. Ade, Y.~Akiba, A.~E. Anthony, K.~Arnold, M.~Atlas, D.~Barron, D.~Boettger, J.~Borrill, S.~Chapman, Y.~Chinone, M.~Dobbs, T.~Elleflot, J.~Errard, G.~Fabbian, C.~Feng, D.~Flanigan, A.~Gilbert, W.~Grainger, N.~W. Halverson, M.~Hasegawa, K.~Hattori, M.~Hazumi, W.~L. Holzapfel, Y.~Hori, J.~Howard, P.~Hyland, Y.~Inoue, G.~C. Jaehnig, A.~H. Jaffe, B.~Keating, Z.~Kermish, R.~Keskitalo, T.~Kisner, M.~Le Jeune, A.~T. Lee, E.~M. Leitch, E.~Linder, M.~Lungu, F.~Matsuda, T.~Matsumura, X.~Meng, N.~J. Miller, H.~Morii, S.~Moyerman, M.~J. Myers, M.~Navaroli, H.~Nishino, A.~Orlando, H.~Paar, J.~Peloton, D.~Poletti, E.~Quealy, G.~Rebeiz, C.~L. Reichardt, P.~L. Richards, C.~Ross, I.~Schanning, D.~E. Schenck, B.~D. Sherwin, A.~Shimizu, C.~Shimmin, M.~Shimon, P.~Siritanasak, G.~Smecher, H.~Spieler, N.~Stebor, B.~Steinbach, R.~Stompor, A.~Suzuki, S.~Takakura, T.~Tomaru, B.~Wilson, A.~Yadav, and O.~Zahn.
+\newblock {A MEASUREMENT OF THE COSMIC MICROWAVE BACKGROUND B-MODE POLARIZATION POWER SPECTRUM AT SUB-DEGREE SCALES WITH POLARBEAR}.
+\newblock {\em The Astrophysical Journal}, 794(2):171, oct 2014.
+
+\bibitem{so:Leitch_2002}
+E.~M. Leitch, J.~M. Kovac, C.~Pryke, J.~E. Carlstrom, N.~W. Halverson, W.~L. Holzapfel, M.~Dragovan, B.~Reddall, and E.~S. Sandberg.
+\newblock {Measurement of polarization with the Degree Angular Scale Interferometer}.
+\newblock {\em Nature}, 420(6917):763--771, 12 2002.
+
+\bibitem{so:Takahashi_2008}
+Yuki~D. Takahashi, Denis Barkats, John~O. Battle, Evan~M. Bierman, James~J. Bock, H.~Cynthia Chiang, C.~Darren Dowell, Eric~F. Hivon, William~L. Holzapfel, Viktor~V. Hristov, William~C. Jones, J.~P. Kaufman, Brian~G. Keating, John~M. Kovac, Chao-Lin Kuo, Andrew~E. Lange, Erik~M. Leitch, Peter~V. Mason, Tomotake Matsumura, Hien~T. Nguyen, Nicolas Ponthieu, Graca~M. Rocha, Ki~Won Yoon, P.~Ade, and L.~Duband.
+\newblock {CMB polarimetry with BICEP: instrument characterization, calibration, and performance}.
+\newblock In William~D. Duncan, Wayne~S. Holland, Stafford Withington, and Jonas Zmuidzinas, editors, {\em Millimeter and Submillimeter Detectors and Instrumentation for Astronomy IV}, volume 7020, page 70201D. SPIE, 8 2008.
+
+\bibitem{so:bicep2_syserr}
+P.~A.~R. Ade, R.~W. Aikin, D.~Barkats, S.~J. Benton, C.~A. Bischoff, J.~J. Bock, J.~A. Brevik, I.~Buder, E.~Bullock, C.~D. Dowell, L.~Duband, J.~P. Filippini, S.~Fliescher, S.~R. Golwala, M.~Halpern, M.~Hasselfield, S.~R. Hildebrandt, G.~C. Hilton, K.~D. Irwin, K.~S. Karkare, J.~P. Kaufman, B.~G. Keating, S.~A. Kernasovskiy, J.~M. Kovac, C.~L. Kuo, E.~M. Leitch, M.~Lueker, C.~B. Netterfield, H.~T. Nguyen, R.~O’Brient, R.~W.~Ogburn IV, A.~Orlando, C.~Pryke, S.~Richter, R.~Schwarz, C.~D. Sheehy, Z.~K. Staniszewski, R.~V. Sudiwala, G.~P. Teply, J.~E. Tolan, A.~D. Turner, A.~G. Vieregg, C.~L. Wong, and K.~W. Yoon.
+\newblock {Bicep2. III. INSTRUMENTAL SYSTEMATICS}.
+\newblock {\em The Astrophysical Journal}, 814(2):110, November 2015.
+
+\bibitem{so:Hanson_2013}
+D.~Hanson, S.~Hoover, A.~Crites, P.~A.~R. Ade, K.~A. Aird, J.~E. Austermann, J.~A. Beall, A.~N. Bender, B.~A. Benson, L.~E. Bleem, J.~J. Bock, J.~E. Carlstrom, C.~L. Chang, H.~C. Chiang, H-M. Cho, A.~Conley, T.~M. Crawford, T.~de~Haan, M.~A. Dobbs, W.~Everett, J.~Gallicchio, J.~Gao, E.~M. George, N.~W. Halverson, N.~Harrington, J.~W. Henning, G.~C. Hilton, G.~P. Holder, W.~L. Holzapfel, J.~D. Hrubes, N.~Huang, J.~Hubmayr, K.~D. Irwin, R.~Keisler, L.~Knox, A.~T. Lee, E.~Leitch, D.~Li, C.~Liang, D.~Luong-Van, G.~Marsden, J.~J. McMahon, J.~Mehl, S.~S. Meyer, L.~Mocanu, T.~E. Montroy, T.~Natoli, J.~P. Nibarger, V.~Novosad, S.~Padin, C.~Pryke, C.~L. Reichardt, J.~E. Ruhl, B.~R. Saliwanchik, J.~T. Sayre, K.~K. Schaffer, B.~Schulz, G.~Smecher, A.~A. Stark, K.~T. Story, C.~Tucker, K.~Vanderlinde, J.~D. Vieira, M.~P. Viero, G.~Wang, V.~Yefremenko, O.~Zahn, and M.~Zemcov.
+\newblock {Detection of B-Mode Polarization in the Cosmic Microwave Background with Data from the South Pole Telescope}.
+\newblock {\em Physical Review Letters}, 111(14), September 2013.
+
+\bibitem{so:Kusaka_2018}
+Akito Kusaka, John Appel, Thomas Essinger-Hileman, James~A. Beall, Luis~E. Campusano, Hsiao-Mei Cho, Steve~K. Choi, Kevin Crowley, Joseph~W. Fowler, Patricio Gallardo, Matthew Hasselfield, Gene Hilton, Shuay-Pwu~P. Ho, Kent Irwin, Norman Jarosik, Michael~D. Niemack, Glen~W. Nixon, Michael Nolta, Lyman A.~Page Jr., Gonzalo~A. Palma, Lucas Parker, Srinivasan Raghunathan, Carl~D. Reintsema, Jonathan Sievers, Sara~M. Simon, Suzanne~T. Staggs, Katerina Visnjic, and Ki-Won Yoon.
+\newblock {Results from the Atacama B-mode Search (ABS) experiment}.
+\newblock {\em Journal of Cosmology and Astroparticle Physics}, 2018(09):005--005, September 2018.
+
+\bibitem{so:Bischoff_2011}
+QUIET Collaboration, C.~Bischoff, A.~Brizius, I.~Buder, Y.~Chinone, K.~Cleary, R.~N. Dumoulin, A.~Kusaka, R.~Monsalve, S.~K. Næss, L.~B. Newburgh, R.~Reeves, K.~M. Smith, I.~K. Wehus, J.~A. Zuntz, J.~T.~L. Zwart, L.~Bronfman, R.~Bustos, S.~E. Church, C.~Dickinson, H.~K. Eriksen, P.~G. Ferreira, T.~Gaier, J.~O. Gundersen, M.~Hasegawa, M.~Hazumi, K.~M. Huffenberger, M.~E. Jones, P.~Kangaslahti, D.~J. Kapner, C.~R. Lawrence, M.~Limon, J.~May, J.~J. McMahon, A.~D. Miller, H.~Nguyen, G.~W. Nixon, T.~J. Pearson, L.~Piccirillo, S.~J.~E. Radford, A.~C.~S. Readhead, J.~L. Richards, D.~Samtleben, M.~Seiffert, M.~C. Shepherd, S.~T. Staggs, O.~Tajima, K.~L. Thompson, K.~Vanderlinde, R.~Williamson, and B.~Winstein.
+\newblock {FIRST SEASON QUIET OBSERVATIONS: MEASUREMENTS OF COSMIC MICROWAVE BACKGROUND POLARIZATION POWER SPECTRA AT 43 GHz IN THE MULTIPOLE RANGE {$25 \leq \ell \leq 475$}}.
+\newblock {\em The Astrophysical Journal}, 741(2):111, oct 2011.
+
+\bibitem{so:SPT3G}
+J.~A. Sobrin, A.~J. Anderson, A.~N. Bender, B.~A. Benson, D.~Dutcher, A.~Foster, N.~Goeckner-Wald, J.~Montgomery, A.~Nadolski, A.~Rahlin, P.~A.~R. Ade, Z.~Ahmed, E.~Anderes, M.~Archipley, J.~E. Austermann, J.~S. Avva, K.~Aylor, L.~Balkenhol, P.~S. Barry, R.~Basu Thakur, K.~Benabed, F.~Bianchini, L.~E. Bleem, F.~R. Bouchet, L.~Bryant, K.~Byrum, J.~E. Carlstrom, F.~W. Carter, T.~W. Cecil, C.~L. Chang, P.~Chaubal, G.~Chen, H.-M. Cho, T.-L. Chou, J.-F. Cliche, T.~M. Crawford, A.~Cukierman, C.~Daley, T.~de~Haan, E.~V. Denison, K.~Dibert, J.~Ding, M.~A. Dobbs, W.~Everett, C.~Feng, K.~R. Ferguson, J.~Fu, S.~Galli, A.~E. Gambrel, R.~W. Gardner, R.~Gualtieri, S.~Guns, N.~Gupta, R.~Guyser, N.~W. Halverson, A.~H. Harke-Hosemann, N.~L. Harrington, J.~W. Henning, G.~C. Hilton, E.~Hivon, G.~P. Holder, W.~L. Holzapfel, J.~C. Hood, D.~Howe, N.~Huang, K.~D. Irwin, O.~B. Jeong, M.~Jonas, A.~Jones, T.~S. Khaire, L.~Knox, A.~M. Kofman, M.~Korman, D.~L. Kubik, S.~Kuhlmann, C.-L. Kuo, A.~T. Lee, E.~M. Leitch, A.~E. Lowitz, C.~Lu, S.~S. Meyer, D.~Michalik, M.~Millea, T.~Natoli, H.~Nguyen, G.~I. Noble, V.~Novosad, Y.~Omori, S.~Padin, Z.~Pan, P.~Paschos, J.~Pearson, C.~M. Posada, K.~Prabhu, W.~Quan, C.~L. Reichardt, D.~Riebel, B.~Riedel, M.~Rouble, J.~E. Ruhl, B.~Saliwanchik, J.~T. Sayre, E.~Schiappucci, E.~Shirokoff, G.~Smecher, A.~A. Stark, J.~Stephen, K.~T. Story, A.~Suzuki, C.~Tandoi, K.~L. Thompson, B.~Thorne, C.~Tucker, C.~Umilta, L.~R. Vale, K.~Vanderlinde, J.~D. Vieira, G.~Wang, N.~Whitehorn, W.~L.~K. Wu, V.~Yefremenko, K.~W. Yoon, and M.~R. Young.
+\newblock {The Design and Integrated Performance of SPT-3G}.
+\newblock {\em The Astrophysical Journal Supplement Series}, 258(2):42, feb 2022.
+
+\bibitem{swg:Murata_2023}
+Masaaki Murata, Hironobu Nakata, Kengo Iijima, Shunsuke Adachi, Yudai Seino, Kenji Kiuchi, Frederick Matsuda, Michael~J. Randall, Kam Arnold, Nicholas Galitzki, Bradley~R. Johnson, Brian Keating, Akito Kusaka, John~B. Lloyd, Joseph Seibert, Maximiliano Silva-Feaver, Osamu Tajima, Tomoki Terasaki, and Kyohei Yamada.
+\newblock The simons observatory: A fully remote controlled calibration system with a sparse wire grid for cosmic microwave background telescopes.
+\newblock {\em Review of Scientific Instruments}, 94(12), December 2023.
+
+\bibitem{swg:murata}
+村田雅彬.
+\newblock {Simons Observatory 実験のためのスパースワイヤーグリッドを用いた偏光較正装置の開発 (Development of the sparse wire grid polarization calibrator for Simons Observatory experiment)}.
+\newblock 修士論文, 2021.
+
+\bibitem{swg:nakata}
+中田嘉信.
+\newblock {CMB偏光の精密観測にむけた遠隔較正システムSparse Wire Grid Calibratorの開発研究}.
+\newblock 修士論文, 2022.
+
+\bibitem{swg:iijima}
+飯島健五.
+\newblock {Simons Observatory 実験に用いる偏光角度較正手法の開発と性能評価(Development and characterization of a method for polarization-angle calibration for Simons Observatory experiment)}.
+\newblock 修士論文, 2023.
+
+\end{thebibliography}

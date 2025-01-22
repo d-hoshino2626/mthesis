@@ -1,9 +1,52 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is '.tex_intermediates/main.blg'
-[44] biber-darwin:340> INFO - === 木  1 23, 2025, 06:58:51
-[58] Biber.pm:419> INFO - Reading '.tex_intermediates/main.bcf'
-[106] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[113] bbl.pm:660> INFO - Writing '.tex_intermediates/main.bbl' with encoding 'UTF-8'
-[113] bbl.pm:763> INFO - Output to .tex_intermediates/main.bbl
-[113] Biber.pm:131> WARN - The file '.tex_intermediates/main.bcf' does not contain any citations!
-[113] Biber.pm:133> INFO - WARNINGS: 1
+This is upBibTeX, Version 0.99d-j0.36-u1.29 (utf8.uptex) (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: refs.bib
+Warning--empty school in takakura_PhD
+Warning--empty school in swg:murata
+Warning--empty school in swg:nakata
+Warning--empty school in swg:iijima
+You've used 33 entries,
+            1791 wiz_defined-function locations,
+            672 strings with 28470 characters,
+and the built_in function-call counts, 20114 in all, are:
+= -- 585
+> -- 3380
+< -- 5
++ -- 1138
+- -- 1105
+* -- 2543
+:= -- 4185
+add.period$ -- 101
+call.type$ -- 33
+change.case$ -- 34
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 321
+empty$ -- 664
+format.name$ -- 1105
+if$ -- 3555
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 28
+newline$ -- 166
+num.names$ -- 39
+pop$ -- 79
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 142
+stack$ -- 0
+substring$ -- 299
+swap$ -- 69
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 63
+width$ -- 35
+write$ -- 360
+is.kanji.str$ -- 0
+(There were 4 warnings)
