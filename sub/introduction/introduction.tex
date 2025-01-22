@@ -218,33 +218,65 @@ $xy$平面上には$x$軸上に高温領域が、$y$軸上に低温領域があ�
 
 \subsection{スカラー揺らぎが作る偏光}
 スカラー揺らぎは音波のような疎密波として伝わっていると理解され、疎密波の進む方向に対して交互に高温領域と低温領域が並ぶこととなる。
-図\ref{fig:scalar_polarization}にスカラー揺らぎが生成する温度異方性により生まれる偏光を示す。
+図\ref{fig:scalar_polarization}にスカラー揺らぎが生成する温度異方性により生まれる偏光パターンを示す。
 最終散乱面上の$x,\,y$平面にて、$y$軸方向に疎密波が進み、高温領域と低温領域を交互に作っている。
-天頂からの角度が$\theta$であるような天球面上の偏光を観測者が見ると、図\ref{fig:scalar_pol_theta}のようになる。
-\begin{figure}
+また、天頂からの角度が$\theta$であるような天球面上の偏光を観測者が見ると、図\ref{fig:scalar_pol_theta}のようになる。
+
+観測されるスカラー揺らぎの作る偏光パターンは図\ref{fig:Emode_Bmode}(左)のようになる。
+この偏光パターンはEモードとして知られ、空間対称なパターンを示す。
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{intro/scalar_polarization.pdf}
     \caption{スカラー揺らぎが生成する温度異方性により生まれる偏光。
     最終散乱面上での交互に高温・低温を繰り返す温度分布が偏光を生成し、観測者に届けている。}
     \label{fig:scalar_polarization}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{intro/scalar_pol_theta.pdf}
-    \caption{天球面上の天頂からの角度$\theta$}
+    \includegraphics[width=0.9\textwidth]{intro/scalar_pol_theta.pdf}
+    \caption{天球面上の天頂からの角度$\theta$の地点を見たときのスカラー揺らぎによって生成された偏光。
+    線の長さは偏光信号の強度を示している。}
     \label{fig:scalar_pol_theta}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{intro/Emode_Bmode.pdf}
+    \caption{(左)スカラー揺らぎが作るEモード偏光パターン。空間対象な形をしている。
+    (右)テンソル揺らぎが作るBモード偏光パターン。空間反対称な形をしている。}
+    \label{fig:Emode_Bmode}
 \end{figure}
 \subsection{テンソル揺らぎが作る偏光}
 テンソル揺らぎ、すなわち原始重力波の伝搬に伴う四重極の温度異方性を考える。
 図\ref{fig:gravitational_wave}にて示した伝搬モードにおいて、収縮している部分は空間を縮め、光子の波長を短くするため温度が高くなり、
 膨張している部分は空間を広げ、光子の波長を長くするために温度が低くなる。
-図\ref{fig:}に$h_{\times}$モードが$y$軸正の方向に伝搬する際に生む偏光を示す。
+図\ref{fig:tensor_polarization}に$h_{\times}$モードが$y$軸正の方向に伝搬する際に生む偏光を示す。
+この偏光は重力波の進行方向に対して$45\tcdegree$だけ傾いている。
+観測者が方位角に$45\tcdegree$、すなわち、$y_{\mathrm{obs}}$軸まわりに$45\tcdegree$だけ回転し、
+もともと見ていた$h_{\times}$モードが作っていた信号を見ると、$h_{+}$が作る偏光と同一のものが見える。
+図\ref{fig:tensor_polarization_theta}に、$h_{\times}$モードと$h_{+}$モードが天頂からの角度$\theta$の地点で作る偏光を示す。
 
-\begin{figure}
+このように、テンソル揺らぎによって作られる偏光は空間反対象なものである。
+図\ref{fig:Emode_Bmode}(右)に観測される偏光パターンを示す。これはBモードとして知られる。
+宇宙初期において、Bモードは原始重力波によってのみ生成される。
+そのため、Bモード偏光パターンの観測こそがインフレーションの直接的証拠となる。
+\begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{intro/tensor_polarization.pdf}
     \caption{テンソル揺らぎのうち、$h_{\times}$モードが作る偏光。}
+    \label{fig:tensor_polarization}
 \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{intro/tensor_pol_theta.pdf}
+    \caption{(上)天球面上の天頂からの角度$\theta$の地点を見たときの$h_{\times}$モードが生成する偏光。
+    (下)天球面上の天頂からの角度$\theta$の地点を見たときの$h_{+}$モードが生成する偏光。
+    これは、観測者が方位角方向に$45\tcdegree$だけ回転して$h_{\times}$モードが生成するを見たときのものと同一である。}
+    \label{fig:tensor_polarization_theta}
+\end{figure}
+
+\subsection{偏光のパワースペクトル}
+
 
 \subsection{テンソルスカラー比}
 テンソルスカラー比$r$は、原始重力波の相対的な振幅を表す量である。
@@ -253,8 +285,17 @@ $\Phi,\,\Psi$ による空間のスカラー揺らぎと、$h_{ij}$によるテ�
 \begin{equation}
     r := \dfrac{A_s}{A_t}
 \end{equation}
-と定義する。
+と定義する。$r$が大きいほどテンソル揺らぎはスカラー揺らぎに比べて大きいこととなる。
+$r$が0でないことはテンソル揺らぎの存在の証明となり、インフレーションの証明となる。
+テンソル揺らぎはBモード偏光を引き起こすため、CMB偏光観測実験により測定することができる。
+これまでの観測により、$r<0.032$(95\%信頼区間)を得ている\cite{}。
+
 
 \section{本論文の構成}
+本論文では、続く2章でCMB偏光観測実験Simons Observatoryの概要について述べ、原始重力波由来のBモード偏光観測に向けて
+検出器の応答偏光方向(偏光角)を$\delta\theta < 0.1\tcdegree$という精度で較正しなければならないことを説明する。
+3章では$\delta\theta<0.1\tcdegree$での偏光角較正を実現するために使用する、スパースワイヤーグリッドを用いた偏光角構成装置の概略について述べる。
+
+
 
 \end{document}

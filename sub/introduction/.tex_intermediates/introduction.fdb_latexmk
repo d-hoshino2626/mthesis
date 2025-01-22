@@ -1,21 +1,23 @@
 # Fdb version 4
-["dvipdf"] 1737500391 "introduction.dvi" "introduction.pdf" "introduction" 1737500391 0
-  "introduction.dvi" 1737500391 35516 27c29caf2f0d9a4c9dbd09746d189742 "latex"
+["dvipdf"] 1737503983 "introduction.dvi" "introduction.pdf" "introduction" 1737503983 0
+  "introduction.dvi" 1737503983 41424 484033639eaeebb8c079ccd771371b79 "latex"
   (generated)
   "introduction.pdf"
   (rewritten before read)
-["latex"] 1737500390 "introduction.tex" "introduction.dvi" "introduction" 1737500391 0
+["latex"] 1737503981 "introduction.tex" "introduction.dvi" "introduction" 1737503983 0
+  "../../fig//intro/Emode_Bmode.pdf" 1737502154 167086 790b831514c2133803e0a63a2b238085 ""
   "../../fig//intro/cobe.pdf" 1737371405 196817 146ac3b06193a945a8a5c32b2d79836f ""
   "../../fig//intro/gravitational_wave.pdf" 1737466946 329140 8d9b86e18bea370396e4a97af609f296 ""
   "../../fig//intro/planck_cmb.pdf" 1737471551 847450 5c36b0550dcbfddc99abc145d0f70595 ""
   "../../fig//intro/planck_powerspectrum.pdf" 1737471616 90817 bdf4c64940d99ad760403260a503f309 ""
   "../../fig//intro/scalar_pol_theta.pdf" 1737499324 115848 4d94783f7b753a2ace4e26e6b9c3f055 ""
   "../../fig//intro/scalar_polarization.pdf" 1737499205 416232 6cf1d223ad20f4c93a9d530a4feebb3e ""
-  "../../fig//intro/tensor_polarization.pdf" 1737500067 959606 78befdbde7056b8bfc8ec12fba6f61ab ""
+  "../../fig//intro/tensor_pol_theta.pdf" 1737501061 180575 88d87d4d1cf471c95b577aa452185fa8 ""
+  "../../fig//intro/tensor_polarization.pdf" 1737501115 935943 393ffb381169dc015fdcfb76ebb14d58 ""
   "../../fig//intro/thomson_polarization.pdf" 1737479144 593118 afdc448aba030e70cefe7c87e3c3fef1 ""
   "../../main.tex" 1737337650 3156 19f6cef682a95fbd857fdcfe92136ed7 ""
-  ".tex_intermediates/introduction.aux" 1737500391 8169 1f316c24ebd271916e5bb6c1c0015523 "latex"
-  ".tex_intermediates/introduction.out" 1737500391 1845 33b0a4a944b0dbe30847baf2b67bd7a1 "latex"
+  ".tex_intermediates/introduction.aux" 1737503982 10326 d51d519a084fa4c0b6efd5be6a0093d9 "latex"
+  ".tex_intermediates/introduction.out" 1737503983 2028 c7d22db102f8e22b8dfdb1d24c6c58ef "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -148,7 +150,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "introduction.tex" 1737500390 17991 584ef24e261b03b26a5a1af5139bd532 ""
+  "introduction.tex" 1737503980 21304 95429a17a8969490834621fd47dfd5f7 ""
   (generated)
   ".tex_intermediates/introduction.aux"
   ".tex_intermediates/introduction.log"

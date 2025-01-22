@@ -1003,3 +1003,12 @@ INPUT extractbb -B cropbox -O ../../fig//intro/planck_powerspectrum.pdf
 INPUT ../../fig//intro/thomson_polarization.pdf
 INPUT ../../fig//intro/thomson_polarization.pdf
 INPUT extractbb -B cropbox -O ../../fig//intro/thomson_polarization.pdf
+INPUT ../../fig//intro/scalar_polarization.pdf
+INPUT ../../fig//intro/scalar_polarization.pdf
+INPUT extractbb -B cropbox -O ../../fig//intro/scalar_polarization.pdf
+INPUT ../../fig//intro/scalar_pol_theta.pdf
+INPUT ../../fig//intro/scalar_pol_theta.pdf
+INPUT extractbb -B cropbox -O ../../fig//intro/scalar_pol_theta.pdf
+INPUT ../../fig//intro/Emode_Bmode.pdf
+INPUT ../../fig//intro/Emode_Bmode.pdf
+INPUT extractbb -B cropbox -O ../../fig//intro/Emode_Bmode.pdf
