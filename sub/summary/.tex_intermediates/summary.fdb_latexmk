@@ -1,18 +1,19 @@
 # Fdb version 4
-["dvipdf"] 1737349868 "summary.dvi" "summary.pdf" "summary" 1737349868 0
-  "summary.dvi" 1737349868 1128 fb1608f14b53b2f6f80772f62b7049e0 "latex"
+["dvipdf"] 1737507361 "summary.dvi" "summary.pdf" "summary" 1737507361 0
+  "summary.dvi" 1737507360 2140 730c4d132d66c4a5fabfe3c052418811 "latex"
   (generated)
   "summary.pdf"
   (rewritten before read)
-["latex"] 1737349867 "summary.tex" "summary.dvi" "summary" 1737349868 0
+["latex"] 1737507360 "summary.tex" "summary.dvi" "summary" 1737507361 0
   "../../main.tex" 1737337650 3156 19f6cef682a95fbd857fdcfe92136ed7 ""
-  ".tex_intermediates/summary.aux" 1737349868 726 c6fef26bcbd7b05e86b7d23f21c8f78a "latex"
-  ".tex_intermediates/summary.out" 1737349868 198 43cf1c4b0f562d810d0c3c5bdd7d5d17 "latex"
+  ".tex_intermediates/summary.aux" 1737507360 972 9c67540220833ee8fe6a93039152f649 "latex"
+  ".tex_intermediates/summary.out" 1737507360 453 c628a063feb19e2525744b282ed5286a "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/bxjatoucs/bxjatoucs-cid.tfm" 1571867428 92388 7031e5a1936cb30180e7c99464bb574a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/bxjatoucs/bxjatoucs-jis.tfm" 1571867428 31380 1d09ef146eecd6f0f49e1f330de6fb2e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm" 1522271273 812 52bd92aa20c58a398601cda6dd62c8d1 ""
@@ -105,7 +106,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "summary.tex" 1737349866 169 c8e3a6d3f560071e2b9325b1fb5e8b91 ""
+  "summary.tex" 1737507360 500 1730731ae78266dc567ded378885fa05 ""
   (generated)
   ".tex_intermediates/summary.aux"
   ".tex_intermediates/summary.log"

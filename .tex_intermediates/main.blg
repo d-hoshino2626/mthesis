@@ -7,46 +7,46 @@ Warning--empty school in takakura_PhD
 Warning--empty school in swg:murata
 Warning--empty school in swg:nakata
 Warning--empty school in swg:iijima
-You've used 31 entries,
+You've used 33 entries,
             1791 wiz_defined-function locations,
-            656 strings with 26840 characters,
-and the built_in function-call counts, 18760 in all, are:
-= -- 551
-> -- 3142
+            672 strings with 32081 characters,
+and the built_in function-call counts, 22807 in all, are:
+= -- 585
+> -- 4001
 < -- 5
-+ -- 1058
-- -- 1027
-* -- 2367
-:= -- 3897
-add.period$ -- 95
-call.type$ -- 31
-change.case$ -- 32
++ -- 1345
+- -- 1312
+* -- 2959
+:= -- 4806
+add.period$ -- 101
+call.type$ -- 33
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 303
-empty$ -- 624
-format.name$ -- 1027
-if$ -- 3321
+cite$ -- 37
+duplicate$ -- 321
+empty$ -- 664
+format.name$ -- 1312
+if$ -- 3969
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 26
-newline$ -- 156
-num.names$ -- 37
-pop$ -- 77
+int.to.str$ -- 33
+missing$ -- 28
+newline$ -- 166
+num.names$ -- 39
+pop$ -- 79
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 136
+skip$ -- 142
 stack$ -- 0
-substring$ -- 275
-swap$ -- 67
+substring$ -- 299
+swap$ -- 69
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 59
-width$ -- 33
-write$ -- 338
+while$ -- 63
+width$ -- 35
+write$ -- 360
 is.kanji.str$ -- 0
 (There were 4 warnings)

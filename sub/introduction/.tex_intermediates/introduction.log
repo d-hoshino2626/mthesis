@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  22 JAN 2025 08:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  22 JAN 2025 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -582,35 +582,132 @@ LaTeX Warning: Citation `1996ApJ...473..576F' on page 1 undefined on input line 
 File: ../../fig//intro/cobe.pdf Graphic file (type pdf)
 <../../fig//intro/cobe.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 25.
+(Font)              scaled to size 9.6222pt on input line 26.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 25.
+(Font)              scaled to size 9.6222pt on input line 26.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 29.
+(Font)              scaled to size 13.85594pt on input line 30.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 29.
+(Font)              scaled to size 13.85594pt on input line 30.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 29.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 29.
+(Font)              scaled to size 13.85594pt on input line 30.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 29.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 29.
+(Font)              scaled to size 13.85594pt on input line 30.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 29.
+(Font)              scaled to size 6.73553pt on input line 30.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 29.
+(Font)              scaled to size 9.6222pt on input line 30.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 29.
+(Font)              scaled to size 6.73553pt on input line 30.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 29.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Lambda' on input line 29.
+(hyperref)                removing `math shift' on input line 30.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on 
+(hyperref)                removing `\Lambda' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 30.
+
+[1
+
+
+]
+
+LaTeX Warning: Citation `Bennett_2003' on page 2 undefined on input line 83.
+
+[2]
+
+LaTeX Warning: Citation `10.1093/mnras/195.3.467' on page 3 undefined on input line 101.
+
+
+LaTeX Warning: Citation `PhysRevD.23.347' on page 3 undefined on input line 101.
+
+
+LaTeX Warning: Citation `Tsujikawa_book' on page 3 undefined on input line 102.
+
+[3]
+File: ../../fig//intro/gravitational_wave.pdf Graphic file (type pdf)
+<../../fig//intro/gravitational_wave.pdf>
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 158.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 158.
+
+
+LaTeX Warning: Citation `1967ApJ...147...73S' on page 4 undefined on input line 163.
+
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 173.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 173.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 173.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 173.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 173.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 173.
+[4]
+
+LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 187.
+
+File: ../../fig//intro/planck_cmb.pdf Graphic file (type pdf)
+<../../fig//intro/planck_cmb.pdf>
+
+LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 192.
+
+
+LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 192.
+
+File: ../../fig//intro/planck_powerspectrum.pdf Graphic file (type pdf)
+<../../fig//intro/planck_powerspectrum.pdf>
+
+LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Planck_2020' on page 5 undefined on input line 199.
+
+File: ../../fig//intro/thomson_polarization.pdf Graphic file (type pdf)
+<../../fig//intro/thomson_polarization.pdf>
+[5]
+File: ../../fig//intro/scalar_polarization.pdf Graphic file (type pdf)
+<../../fig//intro/scalar_polarization.pdf>
+File: ../../fig//intro/scalar_pol_theta.pdf Graphic file (type pdf)
+<../../fig//intro/scalar_pol_theta.pdf>
+ [6]
+File: ../../fig//intro/Emode_Bmode.pdf Graphic file (type pdf)
+<../../fig//intro/Emode_Bmode.pdf>
+ [7]
+File: ../../fig//intro/tensor_polarization.pdf Graphic file (type pdf)
+<../../fig//intro/tensor_polarization.pdf>
+File: ../../fig//intro/tensor_pol_theta.pdf Graphic file (type pdf)
+<../../fig//intro/tensor_pol_theta.pdf>
+ [8]
+
+LaTeX Warning: Citation `PhysRevLett.127.151301' on page 9 undefined on input line 295.
+
+[9] [10] (.tex_intermediates/introduction.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `introduction.out' has not changed.
+(rerunfilecheck)             Checksum: 33B0A4A944B0DBE30847BAF2B67BD7A1;1845.
+ ) 
+Here is how much of TeX's memory you used:
+ 17655 strings out of 476677
+ 340550 string characters out of 5804957
+ 1859490 words of memory out of 5000000
+ 37859 multiletter control sequences out of 15000+600000
+ 563505 words of font info for 120 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 92i,14n,94p,719b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on .tex_intermediates/introduction.dvi (10 pages, 42272 bytes).
