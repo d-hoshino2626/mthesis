@@ -1041,6 +1041,7 @@ INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./fig//simons_observatory/so_site.pdf
 INPUT ./fig//simons_observatory/so_site.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/so_site.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT ./fig//simons_observatory/so_noise_freq.pdf
 INPUT ./fig//simons_observatory/so_noise_freq.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/so_noise_freq.pdf
@@ -1080,9 +1081,9 @@ INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./fig//wiregrid/wire_reflect.pdf
 INPUT ./fig//wiregrid/wire_reflect.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_reflect.pdf
-INPUT ./fig//wiregrid/wire_through.pdf
-INPUT ./fig//wiregrid/wire_through.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_through.pdf
+INPUT ./fig//wiregrid/wiregrid_into_telescope.pdf
+INPUT ./fig//wiregrid/wiregrid_into_telescope.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_into_telescope.pdf
 INPUT ./fig//wiregrid/wiregrid_telescope_image.pdf
 INPUT ./fig//wiregrid/wiregrid_telescope_image.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_telescope_image.pdf
@@ -1217,9 +1218,9 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_system.pdf
 INPUT ./fig//wiresag/wiresag_system_front.pdf
 INPUT ./fig//wiresag/wiresag_system_front.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_system_front.pdf
-INPUT ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
-INPUT ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
-INPUT extractbb -B cropbox -O ./fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
+INPUT ./fig//wiresag/wiresag_pictures.pdf
+INPUT ./fig//wiresag/wiresag_pictures.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_pictures.pdf
 INPUT ./fig//wiresag/wiresag_concept.pdf
 INPUT ./fig//wiresag/wiresag_concept.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_concept.pdf
@@ -1241,12 +1242,12 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_scaler_brightness.pdf
 INPUT ./fig//wiresag/wiresag_scaler_fitting.pdf
 INPUT ./fig//wiresag/wiresag_scaler_fitting.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_scaler_fitting.pdf
+INPUT ./fig//wiresag/wiresag_edge_target1.pdf
+INPUT ./fig//wiresag/wiresag_edge_target1.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_edge_target1.pdf
 INPUT ./fig//wiresag/wiresag_edge_target.pdf
 INPUT ./fig//wiresag/wiresag_edge_target.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_edge_target.pdf
-INPUT ./fig//wiresag/wiresag_edge_brightness.pdf
-INPUT ./fig//wiresag/wiresag_edge_brightness.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_edge_brightness.pdf
 INPUT ./fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT ./fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_straight_edge_fit.pdf

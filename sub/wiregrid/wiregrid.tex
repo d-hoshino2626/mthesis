@@ -13,7 +13,7 @@ SOでは検出器の偏光角較正のために、人工偏光光源としてス
 \label{sec:wiregrid_principle}
 金属製のワイヤーが、周囲から来た入射光を反射することを考える。
 入射光の波長がワイヤーの直径よりも十分に長い場合、ワイヤー中の自由電子はワイヤーに沿う方向のみに動くと見なすことができ、ワイヤーは自身の軸に沿った偏光状態を持つ光のみを反射する。
-図\ref{fig:wire_polarization}に、ワイヤーの向きと揃った偏光方向をもつ入射光に対するワイヤーの振る舞いを示す。
+図\ref{fig:wire_reflect}に、ワイヤーの向きと揃った偏光方向をもつ入射光をワイヤーが反射する様子を示す。
 このようなワイヤーを望遠鏡の視野に置くと、ワイヤーは周囲の環境から来る熱放射を反射し、ワイヤー軸と同じ方向に偏光した光を望遠鏡に送り込む。
 実際には望遠鏡は空も視野に含み、無偏光な大気放射、ワイヤーからの偏光信号の重ね合わせが見える。
 \ref{sec:HWP}項にて述べた、極低温連続回転式半波長板という光学素子を用いることで無偏光な大気放射を取り除き、ワイヤーからの偏光信号のみを抽出して偏光角較正に用いる。
@@ -39,34 +39,42 @@ SOでは検出器の偏光角較正のために、人工偏光光源としてス
 %              }
 %     \label{fig:wire_polarization}
 % \end{figure}
-\begin{figure}[H]
-    \begin{minipage}[b]{0.48\columnwidth}
-        \centering
-        \includegraphics[width=\columnwidth]{wiregrid/wire_reflect.pdf}
-        \subcaption{}
-        \label{fig:wire_reflect}
-    \end{minipage}
-    \hspace{0.02\columnwidth}
-    \begin{minipage}[b]{0.48\columnwidth}
-        \centering
-        \includegraphics[width=\columnwidth]{wiregrid/wiregrid}
-        \subcaption{}
-        \label{fig:wire_through}
-    \end{minipage}
-    \centering
-    \caption{ワイヤーが作る偏光信号のイメージ。
-             (\subref{fig:wire_reflect})ワイヤーに沿う方向に偏光した光が入射し、まわりに散乱・透過する様子。
-             (\subref{fig:wire_through})ワイヤーに対し垂直な方向に偏光した光が反射されることなく透過する様子。
-             }
-    \label{fig:wire_polarization}
-\end{figure}
 % \begin{figure}[H]
+%     \begin{minipage}[b]{0.3\textwidth}
+%         \centering
+%         \includegraphics[width=\columnwidth]{wiregrid/wire_reflect.pdf}
+%         \subcaption{}
+%         \label{fig:wire_reflect}
+%     \end{minipage}
+%     \hspace{0.02\columnwidth}
+%     \begin{minipage}[b]{0.5\textwidth}
+%         \centering
+%         \includegraphics[width=\columnwidth]{wiregrid/wiregrid_into_telescope.pdf}
+%         \subcaption{}
+%         \label{fig:wire_grid_into_telescope}
+%     \end{minipage}
 %     \centering
-%     \includegraphics[width=0.5\textwidth]{wiregrid/wire_reflect.pdf}
-%     \label{fig:wire_reflect}
-%     \caption{ワイヤーが作る偏光信号のイメージ。ワイヤーに沿う方向に偏光した光が入射し、まわりに散乱・透過する様子。}
+%     \caption{ワイヤーが作る偏光信号のイメージ。
+%              (\subref{fig:wire_reflect})ワイヤーに沿う方向に偏光した光が入射し、まわりに散乱・透過する様子。
+%              (\subref{fig:wire_through})ワイヤーに対し垂直な方向に偏光した光が反射されることなく透過する様子。
+%              }
 %     \label{fig:wire_polarization}
 % \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{wiregrid/wire_reflect.pdf}
+    \label{fig:wire_reflect}
+    \caption{ワイヤーが作る偏光信号のイメージ。ワイヤーに沿う方向に偏光した光が入射し、まわりに散乱・透過する様子。}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{wiregrid/wiregrid_into_telescope.pdf}
+    \label{fig:wire_grid_into_telescope}
+    \caption{スパースワイヤーグリッド周囲の熱放射を反射し、その反射光が検出器に入射するイメージ。
+    簡略化のため、本来スパースワイヤーグリッドと検出器の間に入っているHWPを描いていない。
+    }
+\end{figure}
+
 
 \section{偏光角較正の原理}
 スパースワイヤーグリッドは望遠鏡の窓の目の前に設置され、前述した原理により直線偏光した光を望遠鏡に送り込む。
@@ -119,7 +127,7 @@ $\theta_{\mathrm{wire}}$を
 \section{較正装置の設計と特徴}
 較正円を描くためにはスパースワイヤーグリッドを回転させ、ワイヤーの角度を変化させる必要がある。
 また、本装置は望遠鏡の窓の前に設置されるという特性上、CMB観測時にはそれを取り外さなければならない。
-先行研究ではこのような回転・切り替え作業を手動にて行ってきたが、それに伴って短期間での再較正が困難であった。
+先行研究ではこのような回転・切り替え作業を手動にて行ってきたが、それに伴って高い頻度での再較正が困難であった。
 そこで、本装置ではワイヤーの回転と観測・較正の切り替えを自動で行う機構が開発・搭載され、10分程度での較正が実現されている。
 また、重力参照計を搭載しワイヤー絶対角度の高精度な測定を実現する。
 本節ではスパースワイヤーグリッド本体の設計、自動化機構と重力参照計を用いた絶対角度の測定方法について述べる。
@@ -311,8 +319,30 @@ $X,\,Y,\,Z$ 軸の基底ベクトルを $\bm{\hat{e}}_{X},\,\bm{\hat{e}}_{Y},\,\
 \end{figure}
 
 \section{系統誤差}
-本節では、ワイヤーの絶対角度を測定するにあたって考えられる系統誤差の要因と、先行研究によって評価されたその値について述べる。
-その後、評価を見直すべき点をまとめ、本論文の位置付けについて述べる。
+本節では、ワイヤーの絶対角度を測定するにあたって考えられる系統誤差の要因と、先行研究による評価について述べる。
+それぞれの系統誤差要因の評価方法について述べた評価を見直すべき点をまとめ、本論文の位置付けについて述べる。
+初めに表\ref{tab:systematic_errors_old}に先行研究によって評価された系統誤差の要因と、その値をまとめる。
+また、本研究での改善があったものには、その詳細を述べる章番号を記す。
+\begin{table}[H]
+    \centering
+    \caption{先行研究によって評価された系統誤差}
+    \begin{tabular}{ccc}
+        \hline
+        \hline
+        系統誤差要因 & 先行研究 & 本研究での改善の有無\\
+        \hline
+        ワイヤー設置精度 & $< 0.02\tcdegree$ \\
+        エンコーダ精度 & $<0.03\tcdegree$ \\
+        エンコーダ零点 & $<0.04\tcdegree$ \\
+        重力参照計 & $>0.1\tcdegree$ & 本研究で改善(\ref{chap:tiltsensor}章) \\
+        ワイヤーのたわみ & $<0.05\tcdegree$ & 本研究で改善(\ref{chap:wiresag}章・\ref{chap:wiresag_swg}章) \\
+        \hline
+        合計 & $>0.1\tcdegree$ \\
+        \hline
+        \hline
+    \end{tabular}
+    \label{tab:systematic_errors_old}
+\end{table}
 \subsection{ワイヤーの設置精度に伴う系統誤差}
 ワイヤーは $\SI{0.2}{mm}$ の溝に沿うような形で設置される。
 この範囲でのみワイヤーは動くと考えると、アルミニウムリングの中心部では $0.02\tcdegree$ の精度でワイヤーを揃えて張ることが可能である。
@@ -370,22 +400,4 @@ SOにおいて要求される絶対角度較正精度は $\delta\theta < 0.1\tcd
 \ref{chap:wiresag}章にてこの詳細を論ずる。
 また、実際に使用されるスパースワイヤーグリッドのたわみを開発した装置を用いて評価した。
 \ref{chap:wiresag_swg}章にてこの詳細を述べる。
-\begin{table}[H]
-    \centering
-    \caption{先行研究によって評価された系統誤差}
-    \begin{tabular}{|c|c|}
-        \hline
-        系統誤差要因 & 評価値 \\
-        \hline
-        ワイヤー設置精度 & $< 0.02\tcdegree$ \\
-        エンコーダ精度 & $<0.03\tcdegree$ \\
-        エンコーダ零点 & $<0.04\tcdegree$ \\
-        重力参照計 & $>0.1\tcdegree$ \\
-        ワイヤーのたわみ & $<0.05\tcdegree$ \\
-        \hline
-        合計 & $>0.1\tcdegree$ \\
-        \hline
-    \end{tabular}
-    \label{tab:systematic_errors_old}
-\end{table}
 \end{document}
