@@ -77,10 +77,10 @@
 \contentsline {subsection}{\numberline {5.4.3}得られた誤差の考察}{66}{subsection.5.4.3}%
 \contentsline {section}{\numberline {5.5}まとめ}{67}{section.5.5}%
 \contentsline {chapter}{\numberline {第6章}スパースワイヤーグリッドのたわみ量の評価}{69}{chapter.6}%
-\contentsline {section}{\numberline {6.1}評価されたスパースワイヤーグリッドの詳細}{69}{section.6.1}%
-\contentsline {section}{\numberline {6.2}評価結果とその考察}{70}{section.6.2}%
+\contentsline {section}{\numberline {6.1}評価されたスパースワイヤーグリッドのワイヤーの張り方}{69}{section.6.1}%
+\contentsline {section}{\numberline {6.2}評価結果とその考察}{69}{section.6.2}%
 \contentsline {section}{\numberline {6.3}修繕後のスパースワイヤーグリッドの評価}{71}{section.6.3}%
-\contentsline {section}{\numberline {6.4}まとめ}{73}{section.6.4}%
+\contentsline {section}{\numberline {6.4}まとめと今後の展望}{73}{section.6.4}%
 \contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{74}{chapter.7}%
 \contentsline {section}{\numberline {7.1}まとめ}{74}{section.7.1}%
 \contentsline {section}{\numberline {7.2}今後の展望}{75}{section.7.2}%

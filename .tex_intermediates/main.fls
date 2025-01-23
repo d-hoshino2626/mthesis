@@ -1296,9 +1296,6 @@ INPUT ./sub/wiresag_swg/wiresag_swg.tex
 INPUT ./sub/wiresag_swg/wiresag_swg.tex
 INPUT ./sub/wiresag_swg/wiresag_swg.tex
 INPUT ./sub/wiresag_swg/wiresag_swg.tex
-INPUT ./fig//wiresag_swg/wiresag_sparse_wiregrid.pdf
-INPUT ./fig//wiresag_swg/wiresag_sparse_wiregrid.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag_swg/wiresag_sparse_wiregrid.pdf
 INPUT ./fig//wiresag_swg/swg_sag_before.pdf
 INPUT ./fig//wiresag_swg/swg_sag_before.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_before.pdf
