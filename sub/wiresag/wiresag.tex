@@ -7,33 +7,38 @@
 
 \chapter{ワイヤーのたわみ量の自動評価装置の開発}
 \label{chap:wiresag}
-較正に使う直線偏光はワイヤーに沿う形で生成されるため、ワイヤーがたわんでいる部分から生成される光は
-その偏光角がワイヤーの張られた方向からずれる。そのため、ワイヤーのたわみは較正の精度に影響を及ぼし、系統誤差を生む。
-本章では、初めに\ref{subsec:wg_wiresag}項にて触れた、過去に行われたワイヤーのたわみの評価手法について説明し、その問題点を明らかにする。
+較正に使う直線偏光はワイヤーに沿う方向に生成されるため、
+ワイヤーがたわんでいる部分がつくる光はその偏光角がワイヤーの絶対角度からずれる。
+そのため、ワイヤーのたわみは較正の精度に影響を及ぼし、系統誤差を生む。
+本章では、初めに\ref{subsec:wg_wiresag}項にて触れた、先行研究\cite{swg:murata}\cite{swg:iijima}にて
+行われたワイヤーのたわみの評価手法について説明し、その問題点を明らかにする。
 続いて、本研究で過去の手法の問題点を解決するために開発したワイヤーのたわみの自動評価装置について説明する。
 その後、評価装置の妥当性の検証を行い、評価装置の持つ誤差について議論する。
 
 \section{過去の測定手法における問題点とそれを解決する開発目標の設定}
 \subsection{過去の測定手法における問題点}
-まず、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ とたわみ角 $\theta_{\mathrm{sag}}$ の定義を述べる。
+まず、ワイヤーのたわみ量$d_{\mathrm{sag}}$とたわみ角$\theta_{\mathrm{sag}}$という量の定義を述べる。
 図\ref{fig:wiresag_def}に示すように、ワイヤーは両端を固定された状態で重力によってたわんでいる。
 固定された両端を直線で結び、その直線とワイヤーの最下部との距離をたわみ量 $d_{\mathrm{sag}}$ とする。
-また、固定されたワイヤーの両端の距離を $L_{\mathrm{frame}}$ としたとき、たわみ角 $\theta_{\mathrm{sag}}$ を
+また、固定されたワイヤーの両端の距離を$L_{\mathrm{frame}}$としたとき、たわみ角$\theta_{\mathrm{sag}}$を
 \begin{equation}
     \theta_{\mathrm{sag}} = \arctan\qty(\dfrac{d_{\mathrm{sag}}}{L_{\mathrm{frame}}/2})
 \end{equation}
-と定める。
-図中のストレートエッジや、$z_{\text{left}},\,z_{\text{center}},\,z_{\text{right}}$ については後述する。
+と定める。この$\theta_{\mathrm{sag}}$こそが、較正の際に生じる系統誤差の原因である。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_def.pdf}
-    \caption{ワイヤーのたわみの定義}
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_def.pdf}
+    \caption{ワイヤーのたわみ量$d_\mathrm{sag}$とたわみ角$\theta_{\mathrm{sag}}$の定義。
+    重力に対して垂直に定義される水平面上にワイヤーの固定端が存在するように配置する。
+    このとき、ワイヤーの両端を結んだ直線と、重力によってたわんだワイヤーの最下部との距離をたわみ量$d_\mathrm{sag}$と定義する。
+    また、ワイヤーの端とワイヤーの最下部を結んだ直線と、水平面とのなす角をたわみ角$\theta_{\mathrm{sag}}$と定義する。
+    }
     \label{fig:wiresag_def}
 \end{figure}
-実際の評価系の概要を図\ref{fig:wiresag_setup_overview_old}に示す。
+過去の評価系の概要を図\ref{fig:wiresag_setup_overview_old}に示す。
+また、セットアップを正面からみたときの概念図を図\ref{}に、セットアップの横から見たときの概念図を図\ref{fig:wiresag_setup_old}に示す。
 スパースワイヤーグリッドを重力に対して垂直な水平面上に置き、その上に十分な真直度が保証されたストレートエッジを置く。
 ストレートエッジの位置をワイヤーの近くに調節し、横からカメラで撮影すると、撮影された画像におけるストレートエッジとワイヤーの間の距離 $z'$ を測定できる。
-セットアップの横から見た概念図を図\ref{fig:wiresag_setup_old}に示す。
 使用されたストレートエッジは大西測定株式会社製の 140-1000B であり、このストレートエッジは真直度A級 $\SI{30}{\mu m}$ が保証されている。
 各種パラメータを表\ref{tab:wiresag_setup_old}のように定義すると、$z'$ とストレートエッジから測った実際のワイヤーのたわみ $z$ の間の関係は
 \begin{align}
@@ -45,8 +50,10 @@
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_setup_overview_old.pdf}
-    \caption{ワイヤーのたわみを評価する系の概要}
-    \label{fig:wiresag_setup_overview_old}    
+    \caption{先行研究におけるワイヤーのたわみを評価する系の概要。
+    スパースワイヤーグリッドの上にストレートエッジを置き、ストレートエッジとワイヤーが同時に映るようにカメラで撮影する。
+    }
+    \label{fig:wiresag_setup_overview_old}
 \end{figure}
 \begin{figure}[H]
     \centering
