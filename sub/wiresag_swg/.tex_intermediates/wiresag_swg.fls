@@ -966,7 +966,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-OUTPUT .tex_intermediates/wiresag_swg.dvi
 INPUT ../../fig//wiresag_swg/swg_sag_before.pdf
 INPUT ../../fig//wiresag_swg/swg_sag_before.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_before.pdf
@@ -976,6 +975,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT ../../fig//wiresag_swg/swg_sag_angle_before.pdf
 INPUT ../../fig//wiresag_swg/swg_sag_angle_before.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_before.pdf
+OUTPUT .tex_intermediates/wiresag_swg.dvi
 INPUT ../../fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf
 INPUT ../../fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf
@@ -1005,15 +1005,15 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
-INPUT ../../fig//wiresag_swg/swg_sag_after_even_odd.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_after_even_odd.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_after_even_odd.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_odd_comparison.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_odd_comparison.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_odd_comparison.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_even_comparison.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_even_comparison.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_even_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_after_even_odd.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_after_even_odd.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_after_even_odd.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
 INPUT .tex_intermediates/wiresag_swg.aux
 INPUT .tex_intermediates/wiresag_swg.out
 INPUT .tex_intermediates/wiresag_swg.out

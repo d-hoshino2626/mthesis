@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  19 JAN 2025 01:29
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  23 JAN 2025 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,7 +487,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-LaTeX Info: Redefining \cite on input line 58.
+LaTeX Info: Redefining \cite on input line 59.
 ))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
  (.tex_intermediates/wiresag.aux)
@@ -591,6 +591,10 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 28.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 28.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 28.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 33.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 33.
@@ -621,8 +625,6 @@ File: ../../fig//wiresag/wiresag_system_front.pdf Graphic file (type pdf)
 File: ../../fig//wiresag/20241219_UHF_0_wire23_x467_gray.png Graphic file (type bmp)
 <../../fig//wiresag/20241219_UHF_0_wire23_x467_gray.png>
  [3]
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 96.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
@@ -647,8 +649,6 @@ File: ../../fig//wiresag/wiresag_rotation.pdf Graphic file (type pdf)
 File: ../../fig//wiresag/wire_catenary_tilt.pdf Graphic file (type pdf)
 <../../fig//wiresag/wire_catenary_tilt.pdf>
  [7]
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 309.
 File: ../../fig//wiresag/wiresag_scaler_target.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_scaler_target.pdf>
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -722,11 +722,15 @@ File: ../../fig//wiresag/wiresag_performance_zig.pdf Graphic file (type pdf)
 File: ../../fig//wiresag/wiresag_performance_check_system.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_performance_check_system.pdf>
  [17]
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 531.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 531.
 File: ../../fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_performance_check_result.pdf>
  [18]
 
-LaTeX Warning: Reference `fig:wiresag_setup_old' on page 19 undefined on input line 542.
+LaTeX Warning: Reference `fig:wiresag_setup_old' on page 19 undefined on input line 543.
 
 File: ../../fig//wiresag/wiresag_concept_yoko.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_concept_yoko.pdf>
@@ -738,12 +742,12 @@ Package rerunfilecheck Info: File `wiresag.out' has not changed.
 (rerunfilecheck)             Checksum: E2BCD0E8FD7D95123BC75287039F6593;2672.
  ) 
 Here is how much of TeX's memory you used:
- 17802 strings out of 476677
- 346966 string characters out of 5804957
+ 17819 strings out of 476677
+ 347143 string characters out of 5804957
  1857490 words of memory out of 5000000
- 37989 multiletter control sequences out of 15000+600000
- 564305 words of font info for 125 fonts, out of 8000000 for 9000
+ 37999 multiletter control sequences out of 15000+600000
+ 566579 words of font info for 133 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,17n,94p,411b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (20 pages, 73096 bytes).
+Output written on .tex_intermediates/wiresag.dvi (20 pages, 73952 bytes).

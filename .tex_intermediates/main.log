@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  23 JAN 2025 15:17
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  23 JAN 2025 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -963,7 +963,7 @@ File: ./fig//wiregrid/tiltsensor_slope.pdf Graphic file (type pdf)
 File: ./fig//wiregrid/tiltsensor_WGplane.pdf Graphic file (type pdf)
 <./fig//wiregrid/tiltsensor_WGplane.pdf>
 
-Overfull \hbox (6.9902pt too wide) in paragraph at lines 261--275
+Overfull \hbox (6.9902pt too wide) in paragraph at lines 262--276
 [][]  []
  []
 
@@ -1419,6 +1419,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [64]
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 531.
 File: ./fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type pdf)
 <./fig//wiresag/wiresag_performance_check_result.pdf>
 
@@ -1458,8 +1460,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [68]
 第 6 章
+File: ./fig//wiresag_swg/swg_sag_before.pdf Graphic file (type pdf)
+<./fig//wiresag_swg/swg_sag_before.pdf>
+File: ./fig//wiresag_swg/swg_sag_angle_before.pdf Graphic file (type pdf)
+<./fig//wiresag_swg/swg_sag_angle_before.pdf>
 
-LaTeX Warning: Reference `fig:wiresag_swg_sparse_wiregrid' on page 69 undefined on input line 19.
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 47--60
+[][] [] 
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1471,17 +1479,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [69
 
 ]
-File: ./fig//wiresag_swg/swg_sag_before.pdf Graphic file (type pdf)
-<./fig//wiresag_swg/swg_sag_before.pdf>
-File: ./fig//wiresag_swg/swg_sag_angle_before.pdf Graphic file (type pdf)
-<./fig//wiresag_swg/swg_sag_angle_before.pdf>
+File: ./fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf Graphic file (type pdf)
+<./fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 50--63
-[][] [] 
- []
-
-File: ./fig//wiresag_swg/swg_sag_before_even_odd.pdf Graphic file (type pdf)
-<./fig//wiresag_swg/swg_sag_before_even_odd.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1490,26 +1490,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [70]
+File: ./fig//wiresag_swg/swg_sag_after.pdf Graphic file (type pdf)
+<./fig//wiresag_swg/swg_sag_after.pdf>
+File: ./fig//wiresag_swg/swg_sag_angle_after.pdf Graphic file (type pdf)
+<./fig//wiresag_swg/swg_sag_angle_after.pdf>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 101--114
+[][] [] 
+ []
+
 File: ./fig//wiresag_swg/swg_sag_comparison.pdf Graphic file (type pdf)
 <./fig//wiresag_swg/swg_sag_comparison.pdf>
 File: ./fig//wiresag_swg/swg_sag_angle_comparison.pdf Graphic file (type pdf)
 <./fig//wiresag_swg/swg_sag_angle_comparison.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 106--120
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 118--132
 [][] [] 
  []
 
-File: ./fig//wiresag_swg/swg_sag_after_even_odd.pdf Graphic file (type pdf)
-<./fig//wiresag_swg/swg_sag_after_even_odd.pdf>
-File: ./fig//wiresag_swg/swg_sag_odd_comparison.pdf Graphic file (type pdf)
-<./fig//wiresag_swg/swg_sag_odd_comparison.pdf>
-File: ./fig//wiresag_swg/swg_sag_even_comparison.pdf Graphic file (type pdf)
-<./fig//wiresag_swg/swg_sag_even_comparison.pdf>
-
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 132--147
-[][] [] 
- []
-
+File: ./fig//wiresag_swg/swg_sag_angle_after_even_odd.pdf Graphic file (type pdf)
+<./fig//wiresag_swg/swg_sag_angle_after_even_odd.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1518,6 +1518,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [71]
+File: ./fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf Graphic file (type pdf)
+<./fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf>
+File: ./fig//wiresag_swg/swg_sag_angle_even_comparison.pdf Graphic file (type pdf)
+<./fig//wiresag_swg/swg_sag_angle_even_comparison.pdf>
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 145--160
+[][] [] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1643,12 +1652,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7D2CD81A1CA1231472A3A93811FF65C2;13047.
  ) 
 Here is how much of TeX's memory you used:
- 18578 strings out of 476677
- 371424 string characters out of 5804957
- 1876490 words of memory out of 5000000
- 38610 multiletter control sequences out of 15000+600000
+ 18596 strings out of 476677
+ 372299 string characters out of 5804957
+ 1875490 words of memory out of 5000000
+ 38626 multiletter control sequences out of 15000+600000
  569292 words of font info for 141 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 72i,22n,81p,1607b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,22n,83p,1607b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/main.dvi (90 pages, 387236 bytes).
+Output written on .tex_intermediates/main.dvi (90 pages, 388976 bytes).
