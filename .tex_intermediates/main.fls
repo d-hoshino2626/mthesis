@@ -970,7 +970,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT .tex_intermediates/main.toc
 INPUT .tex_intermediates/main.toc
 INPUT .tex_intermediates/main.toc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 OUTPUT .tex_intermediates/main.toc
 INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
@@ -979,6 +978,7 @@ INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
 INPUT ./sub/introduction/introduction.tex
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT ./fig//intro/cobe.pdf
 INPUT ./fig//intro/cobe.pdf
 INPUT extractbb -B cropbox -O ./fig//intro/cobe.pdf
@@ -1053,6 +1053,7 @@ INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_angle.pdf
 INPUT ./fig//simons_observatory/sat_danmen.pdf
 INPUT ./fig//simons_observatory/sat_danmen.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_danmen.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT ./fig//simons_observatory/hwp_satoru.pdf
 INPUT ./fig//simons_observatory/hwp_satoru.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/hwp_satoru.pdf
@@ -1199,12 +1200,15 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_def.pdf
 INPUT ./fig//wiregrid/wiresag_setup_overview_old.pdf
 INPUT ./fig//wiregrid/wiresag_setup_overview_old.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_overview_old.pdf
-INPUT ./fig//wiregrid/wiresag_setup_old.pdf
-INPUT ./fig//wiregrid/wiresag_setup_old.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_old.pdf
 INPUT ./fig//wiregrid/wiresag_picture_old.pdf
 INPUT ./fig//wiregrid/wiresag_picture_old.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_picture_old.pdf
+INPUT ./fig//wiregrid/wiresag_setup_old.pdf
+INPUT ./fig//wiregrid/wiresag_setup_old.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_old.pdf
+INPUT ./fig//wiresag/wiresag_setup_front_old.pdf
+INPUT ./fig//wiresag/wiresag_setup_front_old.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_setup_front_old.pdf
 INPUT ./fig//wiregrid/wiresag_result_old.pdf
 INPUT ./fig//wiregrid/wiresag_result_old.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_result_old.pdf
