@@ -584,6 +584,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
@@ -975,11 +976,15 @@ INPUT ../../fig//wiregrid/wire_through.pdf
 INPUT ../../fig//wiregrid/wire_through.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/wire_through.pdf
 OUTPUT wiregrid.dvi
-INPUT ../../fig//draft/not-yet.png
-INPUT ../../fig//draft/not-yet.png
-INPUT extractbb -B cropbox -O ../../fig//draft/not-yet.png
-INPUT ../../fig//draft/not-yet.png
-INPUT ../../fig//draft/not-yet.png
+INPUT ../../fig//wiregrid/wiregrid_telescope_image.pdf
+INPUT ../../fig//wiregrid/wiregrid_telescope_image.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_telescope_image.pdf
+INPUT ../../fig//wiregrid/wiregrid_tod.pdf
+INPUT ../../fig//wiregrid/wiregrid_tod.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_tod.pdf
+INPUT ../../fig//wiregrid/wiregrid_calibration_circle.pdf
+INPUT ../../fig//wiregrid/wiregrid_calibration_circle.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_calibration_circle.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ../../fig//wiregrid/wiregrid_appearance.pdf
@@ -1026,22 +1031,6 @@ INPUT extractbb -B cropbox -O ../../fig//wiregrid/tiltsensor_WGplane.pdf
 INPUT ../../fig//wiregrid/tiltsensor_at_site.pdf
 INPUT ../../fig//wiregrid/tiltsensor_at_site.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/tiltsensor_at_site.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-INPUT ../../fig//wiregrid/wiresag_def.pdf
-INPUT ../../fig//wiregrid/wiresag_def.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_def.pdf
-INPUT ../../fig//wiregrid/wiresag_setup_overview_old.pdf
-INPUT ../../fig//wiregrid/wiresag_setup_overview_old.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_setup_overview_old.pdf
-INPUT ../../fig//wiregrid/wiresag_setup_old.pdf
-INPUT ../../fig//wiregrid/wiresag_setup_old.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_setup_old.pdf
-INPUT ../../fig//wiregrid/wiresag_picture_old.pdf
-INPUT ../../fig//wiregrid/wiresag_picture_old.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_picture_old.pdf
-INPUT ../../fig//wiregrid/wiresag_result_old.pdf
-INPUT ../../fig//wiregrid/wiresag_result_old.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_result_old.pdf
 INPUT wiregrid.aux
 INPUT ./wiregrid.out
 INPUT ./wiregrid.out

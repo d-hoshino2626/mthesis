@@ -318,96 +318,14 @@ SOにおける要求絶対角度較正精度$\delta\theta \leq 0.1\tcdegree$を�
 \label{subsec:wg_wiresag}
 較正に使う直線偏光の方向はワイヤーに沿う方向であるため、ワイヤーがたわんでいる部分がつくる直線偏光はその偏光角が
 ワイヤーの絶対角度 $\theta_{\mathrm{wire}}$ からずれてしまい、系統誤差になる。
-詳細な手法は\ref{chap:wiresag}章にて述べるが、
-先行研究\cite{swg:murata}\cite{swg:iijima}ではワイヤーのたわみを原因とする
-偏光角較正$\theta_{\mathrm{sag}}$
+詳細な手法は\ref{chap:wiresag}章にて述べるが、先行研究\cite{swg:murata}\cite{swg:iijima}では、
+スパースワイヤーグリッドに張られたワイヤーの写真を撮影することで評価を行った。
+その結果、ワイヤーのたわみに起因する偏光角較正への誤差$\theta_{\mathrm{sag}}$は$\theta_{\mathrm{sag}}<0.05\tcdegree$と評価されている。
+この評価手法では、全ての写真を人間が撮影していたため、その評価値には人依存のバイアスやふらつきを含む可能性がある。
+また、撮影自体にも時間がかかるため、何度も繰り返し測定を行うことが難しいという問題があった。
 
-まず、ワイヤーのたわみ量 $d_{\mathrm{sag}}$ とたわみ角 $\theta_{\mathrm{sag}}$ の定義を述べる。
-図\ref{fig:wiresag_def}に示すように、ワイヤーは両端を固定された状態で重力によってたわんでいる。
-固定された両端を直線で結び、その直線とワイヤーの最下部との距離をたわみ量 $d_{\mathrm{sag}}$ とする。
-また、固定された両端の距離を $L_{\mathrm{frame}}$ としたとき、たわみ角 $\theta_{\mathrm{sag}}$ を
-\begin{equation}
-    \theta_{\mathrm{sag}} = \arctan\qty(\dfrac{d_{\mathrm{sag}}}{L_{\mathrm{frame}}/2})
-\end{equation}
-と定める。
-図中のストレートエッジや、$z_{\text{left}},\,z_{\text{center}},\,z_{\text{right}}$ については後述する。
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_def.pdf}
-    \caption{ワイヤーのたわみの定義}
-    \label{fig:wiresag_def}
-\end{figure}
-実際の評価系の概要を図\ref{fig:wiresag_setup_overview_old}に示す。
-スパースワイヤーグリッドを重力に対して垂直な水平面上に置き、その上に十分な真直度が保証されたストレートエッジを置く。
-ストレートエッジの位置をワイヤーの近くに調節し、横からカメラで撮影すると、撮影された画像におけるストレートエッジとワイヤーの間の距離 $z'$ を測定できる。
-セットアップの横から見た概念図を図\ref{fig:wiresag_setup_old}に示す。
-使用されたストレートエッジは大西測定株式会社製の 140-1000B であり、このストレートエッジは真直度A級 $\SI{30}{\mu m}$ が保証されている。
-各種パラメータを表\ref{tab:wiresag_setup_old}のように定義すると、$z'$ とストレートエッジから測った実際のワイヤーのたわみ $z$ の間の関係は
-\begin{align}
-    z &= \dfrac{z'}{\cos\phi} - \alpha\tan\phi - z_{\mathrm{s}} \\
-    \phi &= \arctan\qty(\dfrac{L}{\alpha+\beta})
-\end{align}
-となる。
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_setup_overview_old.pdf}
-    \caption{ワイヤーのたわみを評価する系の概要}
-    \label{fig:wiresag_setup_overview_old}    
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_setup_old.pdf}
-    \caption{先行研究におけるワイヤーのたわみを評価する系の概念図\cite{swg:murata}}
-    \label{fig:wiresag_setup_old}
-\end{figure}
-\begin{table}[H]
-    \centering
-    \caption{たわみ評価における各種パラメータの定義}
-    \begin{tabular}{|c|c|}
-        \hline
-        パラメータ & 定義 \\
-        \hline
-        $L$ & アルミニウムリング上面からカメラまでの鉛直距離 \\
-        $\phi$ & ストレートエッジの下端を見るカメラの視線がリング上面となす角 \\
-        $\alpha$ & ストレートエッジからワイヤーまでの水平距離 \\
-        $\beta$ & カメラからワイヤーまでの水平距離 \\
-        $z_{\mathrm{s}}$ & ストレートエッジの真直度 \\
-        $z$ & オフセット付きのワイヤーのたわみ量 \\
-        $z'$ & カメラで撮影した画像から測定されるストレートエッジとワイヤーの距離 \\
-        \hline
-    \end{tabular}
-    \label{tab:wiresag_setup_old}
-\end{table}
 
-写真は39本全てのワイヤーに対し、その中央と両端の3箇所で撮影された。
-これらの撮影においては、ストレートエッジの位置の調整、カメラの位置の調整といった作業が全て人力で行われ、
-一つのスパースワイヤーグリッドに対して累計4時間程度の作業時間を要した。
-両端ではたわみがないと考えられるため、中央で測定された $z_{\text{center}}$ から両端で測定された $z_{\text{left}},\,z_{\text{right}}$ の平均を差し引くことで正味のたわみ量を測定できる。
-また、ストレートエッジにはスケーラを貼り付けており、スケーラの目盛が写真のpixel数にしていくつなのかを測ることで
-$\SI{1}{pixel}$ が何\,$\mathrm{mm}$ に対応するのか較正している。
-
-実際に撮影された写真を図\ref{fig:wiresag_picture_old}に示す。
-撮影された写真に対して、先行研究\cite{swg:murata}では画像寸法測定ツール「Click Measure」を用いて手動で、
-\cite{swg:iijima}ではOpenCVライブラリを用いて二値化して、検出したストレートエッジの端とワイヤーの中心位置の距離を算出し、
-ワイヤーのたわみ角を $\theta_{\mathrm{sag}} < 0.05\tcdegree$ と評価している。
-この評価値は、各ワイヤーのたわみ角の絶対値をとったものの平均値と、誤差の平均を足し合わせたもので与えられる。
-全てのワイヤーに対する、評価されたたわみ角 $\theta_{\mathrm{sag}}$ の例を図\ref{fig:wiresag_result_old}に示す。
-横軸の wire number は測定されたワイヤーの番号を示し、縦軸はそのワイヤーのたわみ角を示す。
-また、青色の点は各ワイヤーに対して張られた際の張力から期待されるたわみ角を示している。
-いずれのワイヤーに対しても測定誤差が大きく、期待されるたわみ角から大きく外れたワイヤーが存在しているのかどうかの判別ができていない。
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_picture_old.pdf}
-    \caption{ワイヤーのたわみ評価にて撮影された写真の例}
-    \label{fig:wiresag_picture_old}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_result_old.pdf}
-    \caption{ワイヤーのたわみ評価の結果の例\cite{swg:murata}}
-    \label{fig:wiresag_result_old}    
-\end{figure}
 
 \subsection{系統誤差のまとめと本論文の位置付け}
 表\ref{tab:systematic_errors_old}に、先行研究において調べられた系統誤差の結果をまとめる。
