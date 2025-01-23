@@ -79,7 +79,7 @@ K.~Yamada, B.~Bixler, Y.~Sakurai, P.~C. Ashton, J.~Sugiyama, K.~Arnold, J.~Begin
 \newblock {\em Review of Scientific Instruments}, 95(2), 2 2024.
 
 \bibitem{takakura_PhD}
-Satoru Takakura.
+高倉 理.
 \newblock {\em {Characterization of a continuous polarization modulator using a half-wave plate for measurements of degree-scale cosmic microwave background with the POLARBEAR experiment}}.
 \newblock PhD thesis, 2017.
 
@@ -142,6 +142,11 @@ QUIET Collaboration, C.~Bischoff, A.~Brizius, I.~Buder, Y.~Chinone, K.~Cleary, R
 J.~A. Sobrin, A.~J. Anderson, A.~N. Bender, B.~A. Benson, D.~Dutcher, A.~Foster, N.~Goeckner-Wald, J.~Montgomery, A.~Nadolski, A.~Rahlin, P.~A.~R. Ade, Z.~Ahmed, E.~Anderes, M.~Archipley, J.~E. Austermann, J.~S. Avva, K.~Aylor, L.~Balkenhol, P.~S. Barry, R.~Basu Thakur, K.~Benabed, F.~Bianchini, L.~E. Bleem, F.~R. Bouchet, L.~Bryant, K.~Byrum, J.~E. Carlstrom, F.~W. Carter, T.~W. Cecil, C.~L. Chang, P.~Chaubal, G.~Chen, H.-M. Cho, T.-L. Chou, J.-F. Cliche, T.~M. Crawford, A.~Cukierman, C.~Daley, T.~de~Haan, E.~V. Denison, K.~Dibert, J.~Ding, M.~A. Dobbs, W.~Everett, C.~Feng, K.~R. Ferguson, J.~Fu, S.~Galli, A.~E. Gambrel, R.~W. Gardner, R.~Gualtieri, S.~Guns, N.~Gupta, R.~Guyser, N.~W. Halverson, A.~H. Harke-Hosemann, N.~L. Harrington, J.~W. Henning, G.~C. Hilton, E.~Hivon, G.~P. Holder, W.~L. Holzapfel, J.~C. Hood, D.~Howe, N.~Huang, K.~D. Irwin, O.~B. Jeong, M.~Jonas, A.~Jones, T.~S. Khaire, L.~Knox, A.~M. Kofman, M.~Korman, D.~L. Kubik, S.~Kuhlmann, C.-L. Kuo, A.~T. Lee, E.~M. Leitch, A.~E. Lowitz, C.~Lu, S.~S. Meyer, D.~Michalik, M.~Millea, T.~Natoli, H.~Nguyen, G.~I. Noble, V.~Novosad, Y.~Omori, S.~Padin, Z.~Pan, P.~Paschos, J.~Pearson, C.~M. Posada, K.~Prabhu, W.~Quan, C.~L. Reichardt, D.~Riebel, B.~Riedel, M.~Rouble, J.~E. Ruhl, B.~Saliwanchik, J.~T. Sayre, E.~Schiappucci, E.~Shirokoff, G.~Smecher, A.~A. Stark, J.~Stephen, K.~T. Story, A.~Suzuki, C.~Tandoi, K.~L. Thompson, B.~Thorne, C.~Tucker, C.~Umilta, L.~R. Vale, K.~Vanderlinde, J.~D. Vieira, G.~Wang, N.~Whitehorn, W.~L.~K. Wu, V.~Yefremenko, K.~W. Yoon, and M.~R. Young.
 \newblock {The Design and Integrated Performance of SPT-3G}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 258(2):42, feb 2022.
+
+\bibitem{Tajima_2012}
+O.~Tajima, H.~Nguyen, C.~Bischoff, et~al.
+\newblock Novel calibration system with sparse wires for cmb polarization receivers.
+\newblock {\em Journal of Low Temperature Physics}, 167:936--942, 2012.
 
 \bibitem{swg:Murata_2023}
 Masaaki Murata, Hironobu Nakata, Kengo Iijima, Shunsuke Adachi, Yudai Seino, Kenji Kiuchi, Frederick Matsuda, Michael~J. Randall, Kam Arnold, Nicholas Galitzki, Bradley~R. Johnson, Brian Keating, Akito Kusaka, John~B. Lloyd, Joseph Seibert, Maximiliano Silva-Feaver, Osamu Tajima, Tomoki Terasaki, and Kyohei Yamada.
