@@ -173,6 +173,7 @@ Eモード、Bモード偏光を表現する係数 $a_{\ell m}^{E}, a_{\ell m}^{
 \end{equation}
 は、偏光角の誤較正によって
 \begin{equation}
+    \label{eq:so-leakage}
     \mqty( C_{\mathrm{obs},\,\ell}^{TT} \\[1ex]
            C_{\mathrm{obs},\,\ell}^{TE} \\[1ex]
            C_{\mathrm{obs},\,\ell}^{TB} \\[1ex]
@@ -194,7 +195,7 @@ Eモード、Bモード偏光を表現する係数 $a_{\ell m}^{E}, a_{\ell m}^{
 \end{equation}
 となる。
 標準宇宙モデルが正しく、原始密度ゆらぎがパリティ不変だった場合では $C_{\ell}^{TB}=C_{\ell}^{EB}=0$ であるが、
-それでも偏光角の誤較正は $C_{\ell}^{EE}$ から $C_{\ell}^{BB}$ への漏れ込みを引き起こす:
+それでも偏光角の誤較正は $C_{\ell}^{EE}$ から $C_{\ell}^{BB}$ への漏れ込みを引き起こす。式\eqref{eq:so-leakage}から算出すると
 \begin{equation}
     \label{eq:so-EtoBleakage}
     C_{\mathrm{obs},\,\ell}^{BB} = \sin^2\qty(2\delta\theta)C_{\ell}^{EE} + \cos^2\qty(2\delta\theta)C_{\ell}^{BB}
@@ -202,17 +203,21 @@ Eモード、Bモード偏光を表現する係数 $a_{\ell m}^{E}, a_{\ell m}^{
 
 式\eqref{eq:so-EtoBleakage}に基づき、偏光角の誤較正が $C_{\ell}^{EE}$ から 
 $C_{\mathrm{obs}, \ell}^{BB}$ への漏れ込みとして及ぼす影響を図\ref{fig:so-EtoBleakage}に示す\footnote{図の作成には\href{http://class-code.net}{CLASS}を用いた。}。
-誤較正の目安として、 $\delta\theta = 10, 1, 0.1\tcdegree$ の場合をプロットした。
+テンソルスカラー比$r$は、BICEP2/KeckとPlanckの統合解析によって得られた$r=0.032$を上限とし、$r=0.001$までを描いた。
+誤較正の目安として、 $\delta\theta = 10\tcdegree, 1\tcdegree, 0.1\tcdegree$ の場合をプロットした。
+$\delta\theta=10\tcdegree$や$\delta\theta=1\tcdegree$では$C_{\ell}^{EE}$の漏れ込みが$C_{\ell}^{BB}$の大きさ以上に残ってしまう。
+この図からは、偏光角較正の要求精度が$\delta\theta < 0.1\tcdegree$であることが直感的に理解できる。
 
-偏光角較正の要求精度は望遠鏡の感度や、重力レンズ効果によって生まれたBモード相関を除去するdelensingの能率、ノイズなどによって変化する。
-SOにおいては、delensingの能率を 50\% とし、ノイズとして最も悲観的な場合を考えた場合においても、
-$\delta\theta \leq 0.1\tcdegree$ であればこの漏れ込みが生む $r$ への系統誤差は無視できるほどに小さくなる。~\cite{so:Bryan_2018}
+偏光角較正の要求精度は望遠鏡の感度や、ノイズなどにも依存する。
+SOでは、ノイズとして最も悲観的な場合を考えた場合でも
+$\delta\theta \leq 0.1\tcdegree$であればこの漏れ込みが生むテンソルスカラー比$r$への系統誤差は無視できるほどに小さくなる~\cite{so:Bryan_2018}。
 以上の理由から、SOでの偏光角較正の要求精度を $\delta\theta \leq 0.1\tcdegree$ と定める。
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{simons_observatory/EtoB_leakage.pdf}
-    \caption{偏光角の誤較正が $C_{\ell}^{EE}$ から $C_{\ell}^{BB}$ への漏れ込みとして及ぼす影響}
+    \caption{偏光角の誤較正が $C_{\ell}^{EE}$ から $C_{\ell}^{BB}$ への漏れ込みとして及ぼす影響。
+    BICEP/KeckとPlanckの統合解析によって得られた$r=0.032$を上限とし、$r=0.001$までを描いた。}
     \label{fig:so-EtoBleakage}
 \end{figure}
 
@@ -223,7 +228,8 @@ $\delta\theta \leq 0.1\tcdegree$ であればこの漏れ込みが生む $r$ へ
 \subsubsection{牡牛座かに星雲 (Tau A)}
 Tau Aは北天に昇る、強い直線偏光を放射する超新星残骸である。
 その光の偏光角は観測周波数に依存している可能性が指摘されており、さらに高分解能望遠鏡による観測では
-天体表面上の異なる位置での偏光方向の違いが見えるため、偏光角を一意に決定することが難しいという課題がある。
+天体表面上の異なる位置での偏光方向の違いが見えるため、偏光角を一意に決定することが難しく、
+系統誤差の見積もりに$0.4\tcdegree$の不定性があるという課題がある。
 また、偏光角は他の実験の観測結果にも依存しており、これらが潜在的な系統誤差として存在する。
 小さい天体であるために検出器全てを一度に照らすことができず、
 全ての検出器を較正するためにはスキャンを行う必要があるため、
@@ -231,7 +237,7 @@ Tau Aは北天に昇る、強い直線偏光を放射する超新星残骸であ
 さらに、SOの拠点であるチリのアタカマ砂漠は南半球に位置しており、TauA の昇る高度が高くないためSATでは検出器の一部でしか観測できない。
 \subsubsection{ケンタウルス座A (Cen A)}
 Cen Aは南天に昇る、直線偏光を放射する電波銀河である。
-QUaD実験にて、$0.5\tcdegree$ の絶対角度較正精度が保証された検出器群を用いて $90,\,\SI{150}{GHZ}$ の波長帯で観測され、その偏光角が測定されている~\cite{so:Zemcov_2010}。
+QUaD実験にて、$0.5\tcdegree$の絶対角度較正精度が保証された検出器群を用いて\SI{90}{GHz}と\SI{150}{GHZ}の波長帯で観測され、その偏光角が測定されている~\cite{so:Zemcov_2010}。
 南天に登るため南半球で比較的観測しやすいが、偏光角の観測周波数依存性や高分解能望遠鏡で見える内部構造の影響、他の実験の観測結果による依存といったTau Aと同様の要因による系統誤差を持ち得る。
 \subsubsection{月}
 月はその表面で反射された光が月の中心から放射状に広がった偏光信号となる。
@@ -267,7 +273,7 @@ QUaD実験にて、$0.5\tcdegree$ の絶対角度較正精度が保証された�
 $\delta\theta$ を求め、絶対角度較正を行う手法を自己較正と呼ぶ。
 自己較正の精度は相対角度較正の精度と検出データ量に依存するため、検出器数が増大によって精度の向上が期待される。
 しかし、$C_{\ell}^{EB}=0$ を仮定してしまうため、標準宇宙モデルを超えるような物理に対する感度を捨てる可能性がある。
-そのため、これらの物理を探る上では自己較正以外の手法を用いて絶対角度較正を行うことが重要である。
+別の言い方をすれば、標準宇宙モデルを仮定したデータ解析となってしまう。そのため、この自己較正以外の手法を用いて絶対角度較正を行うことが重要である。
 
 \subsubsection{偏光角較正手法のまとめとスパースワイヤーグリッドの採用理由}
 先行研究における偏光角較正の手法と、その精度を表\ref{tab:so-polarization_calibration}にまとめる。
@@ -279,21 +285,21 @@ SATではスパースワイヤーグリッドを用いた偏光角較正を採�
 このような理由から、他の手法よりも系統誤差の削減が期待でき、採用に至った。
 \begin{table}[H]
     \centering
-    \caption[先行研究における偏光角較正手法とその精度の比較]{先行研究における偏光角較正手法とその精度の比較。相対角度較正の場合には、精度の欄に(rel.)と記載している。}
+    \caption[先行研究における偏光角較正手法とその精度の比較]{先行研究における偏光角較正手法とその絶対角度較正精度の比較。
+    どの手法においても$\delta\theta < 0.1\tcdegree$を達成したものはない。}
     \begin{tabular}{cccc}
         \hline
         実験 & 観測周波数帯 [GHz] & 較正手法 & $\delta\theta$ \\
         \hline
         \hline
         \multirow{2}{*}{POLARBEAR\cite{so:polarbear_cal}} & \multirow{2}{*}{$150$} & Tau A & $0.43\tcdegree$ \\
-                                                          &                        & 自己較正 & $0.2\tcdegree$ \\
+                                                          &                        & 自己較正\footnotemark[1] & $0.2\tcdegree$ \\
         \hline
         DASI\cite{so:Leitch_2002} & $26\sim36$ & 月, デンスワイヤーグリッド & $0.4\tcdegree$ \\
         \hline
         BICEP\cite{so:Takahashi_2008} & $100,\,150,\,220$ & 誘電体シート & $0.7\tcdegree$ \\
         \hline
-        \multirow{2}{*}{BICEP2\cite{so:bicep2_syserr}} & \multirow{2}{*}{$150$} & 誘電体シート & $0.2\tcdegree$ (rel.) \\
-                                                       & & 自己較正 & $1\tcdegree$\\
+        BICEP2\cite{so:bicep2_syserr} & $150$ & 自己較正\footnotemark[1] & $1\tcdegree$\\
         \hline
         % BICEP3\cite{so:bicep3} & $95$ & デンスワイヤーグリッド & $0.3\tcdegree$ \\
         \multirow{2}{*}{SPTpol\cite{so:Hanson_2013}} & $150$ & \multirow{2}{*}{デンスワイヤーグリッド} & $1\tcdegree$ \\
@@ -301,7 +307,7 @@ SATではスパースワイヤーグリッドを用いた偏光角較正を採�
         \hline
         \multirow{3}{*}{ABS\cite{so:Kusaka_2018}} & \multirow{3}{*}{$145$} & スパースワイヤーグリッド & $1.1\tcdegree$ \\
                                                   &                        & Tau A & $1.9\tcdegree$ \\
-                                                  &                        & 自己較正 & $1.6\tcdegree$ \\
+                                                  &                        & 自己較正\footnotemark[1] & $1.6\tcdegree$ \\
         \hline
         \multirow{2}{*}{QUIET\cite{so:Bischoff_2011}} & \multirow{2}{*}{$43,\,94$} & 月 & $1\tcdegree$ \\
                                                       &                            & Tau A, スパースワイヤーグリッド & $3\tcdegree$ \\
@@ -313,4 +319,5 @@ SATではスパースワイヤーグリッドを用いた偏光角較正を採�
     \end{tabular}
     \label{tab:so-polarization_calibration}
 \end{table}
+\footnotetext[1]{標準宇宙モデル$(C_{\ell}^{EB}=0)$を仮定した手法であり、究極の較正手段とはなり得ない。}
 \end{document}
