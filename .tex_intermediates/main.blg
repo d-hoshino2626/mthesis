@@ -9,15 +9,15 @@ Warning--empty school in swg:nakata
 Warning--empty school in swg:iijima
 You've used 33 entries,
             1791 wiz_defined-function locations,
-            672 strings with 28470 characters,
-and the built_in function-call counts, 20114 in all, are:
+            672 strings with 19372 characters,
+and the built_in function-call counts, 13999 in all, are:
 = -- 585
-> -- 3380
+> -- 1970
 < -- 5
-+ -- 1138
-- -- 1105
-* -- 2543
-:= -- 4185
++ -- 668
+- -- 635
+* -- 1598
+:= -- 2775
 add.period$ -- 101
 call.type$ -- 33
 change.case$ -- 34
@@ -25,8 +25,8 @@ chr.to.int$ -- 0
 cite$ -- 37
 duplicate$ -- 321
 empty$ -- 664
-format.name$ -- 1105
-if$ -- 3555
+format.name$ -- 635
+if$ -- 2615
 int.to.chr$ -- 0
 int.to.str$ -- 33
 missing$ -- 28
