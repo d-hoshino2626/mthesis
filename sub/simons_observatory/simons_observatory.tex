@@ -115,7 +115,7 @@ HWPを通過したあとに1軸方向に感度を持つ片偏波のアンテナ�
 \begin{equation}
     d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i 4\chi)]
 \end{equation}
-となる。ここで、$\varepsilon$ は変調効率である。SOでは、HWPを$\SI{2}{Hz}$で回転させることで、連続的に入射する直線偏光による信号を$\SI{8}{Hz}$に変調して出力する。
+となる。ここで、$\varepsilon$ は変調効率である。つまり、SOのように、HWPを$\SI{2}{Hz}$で回転させると、連続的に入射する直線偏光の信号を$\SI{8}{Hz}$に変調して出力することになる。
 HWPの角振動数を$\omega_{\mathrm{HWP}}$とし、初期位相を$\chi_0$とすると、$\chi(t) = \omega_{\mathrm{HWP}}t + \chi_{0}$と表され、出力信号は
 \begin{equation}
     d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0))]
@@ -125,17 +125,8 @@ HWPの角振動数を$\omega_{\mathrm{HWP}}$とし、初期位相を$\chi_0$と�
     \label{eq:so-hwp_modulation}
     d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0 - 2\theta_{\mathrm{det}})}]
 \end{equation}
-となる。この信号のフーリエ変換は
-\begin{equation}
-    \label{eq:so-hwp_fourier}
-    \begin{split}
-        \tilde{d}_{\mathrm{m}, \mathrm{det}}(\Omega) = &\tilde{I}_{\mathrm{in}}(\Omega) \\
-            &+ \dfrac{\varepsilon}{2}\qty[\qty{\tilde{Q}_{\mathrm{in}}(\Omega+4\omega_{\mathrm{HWP}})+i\tilde{U}_{\mathrm{in}}(\Omega+4\omega_{\mathrm{HWP}})}\exp\qty{-i\qty(4\chi_0 - 2\theta_{\mathrm{det}})}] \\
-            &+ \dfrac{\varepsilon}{2}\qty[\qty{\tilde{Q}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})-i\tilde{U}_{\mathrm{in}}(\Omega-4\omega_{\mathrm{HWP}})}\exp\qty{-i\qty(4\chi_0 - 2\theta_{\mathrm{det}})}]
-    \end{split}
-\end{equation}
-である。この式はその偏光角をほとんど時間変化しない $\Omega\sim0$ であるような信号 $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ がHWPを通過することで、
-周波数 $\Omega + 4\omega_{\mathrm{HWP}}$ のところに変調されることを示している。
+となる。この式はその偏光角がほとんど時間変化しない $\Omega\sim0$ であるような信号 $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ がHWPを通過することで、
+周波数 $\Omega + 4\omega_{\mathrm{HWP}} \sim 4\omega_{\mathrm{HWP}}$ のところに変調されることを示している。
 このようにして、元々 $1/f$ ノイズが大きかった低周波帯の信号を、ノイズの少ない高周波帯に変換できる。
 式\eqref{eq:so-hwp_fourier}より、$Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HWP}}$ のまわりのみを通すバンドパスフィルタ $\mathcal{F}^{\mathrm{BPF}}$ を通した後、2倍して位相を元に戻せば良い。
 つまり、復調後に得られる信号 $d_{\mathrm{d, det}}$ は
@@ -155,7 +146,7 @@ HWPの角振動数を$\omega_{\mathrm{HWP}}$とし、初期位相を$\chi_0$と�
 
 \section{偏光角較正の重要性とその手法}
 \subsection{偏光角の誤較正に伴う偏光の漏れ込み}
-CMB偏光観測実験でのBモード観測において、検出器の偏光角を精度よく知ることは極めて重要である。
+CMB偏光観測実験でのBモード観測において、検出器の偏光角$\theta_{\mathrm{det}}$を精度よく知ることは極めて重要である。
 その重要性を示すため、本項では偏光角の誤較正が観測されたBモード偏光にどのような影響を及ぼすかを考え、
 SOにおいての要求偏光角較正精度を定める。
 
@@ -165,7 +156,7 @@ SOにおいての要求偏光角較正精度を定める。
     Q_{\mathrm{obs}} \pm iU_{\mathrm{obs}} &= e^{\pm i2\delta\theta}\qty(Q \pm iU) \\
     &= e^{\pm i2\delta\theta}\sum_{\ell=2}^{\infty}\sum_{m=-\ell}^{\ell} {}_{\pm 2}a_{\ell m}\ {}_{\pm 2}Y_{\ell m}(\theta, \phi)
 \end{align}
-と表される。\cite{so:Keating_2013}\cite{so:Kaufman_2014}
+とバイアスされた値となる。\cite{so:Keating_2013}\cite{so:Kaufman_2014}
 Eモード、Bモード偏光を表現する係数 $a_{\ell m}^{E}, a_{\ell m}^{B}$ を用いると、
 スピン2の球面調和関数で展開する際の係数 ${}_{\pm 2}a_{\ell m}$ は
 \begin{equation}
