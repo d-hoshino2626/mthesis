@@ -1019,9 +1019,9 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_system.pdf
 INPUT ../../fig//wiresag/wiresag_system_front.pdf
 INPUT ../../fig//wiresag/wiresag_system_front.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_system_front.pdf
-INPUT ../../fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
-INPUT ../../fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
-INPUT extractbb -B cropbox -O ../../fig//wiresag/20241219_UHF_0_wire23_x467_gray.png
+INPUT ../../fig//wiresag/wiresag_pictures.pdf
+INPUT ../../fig//wiresag/wiresag_pictures.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_pictures.pdf
 INPUT ../../fig//wiresag/wiresag_concept.pdf
 INPUT ../../fig//wiresag/wiresag_concept.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_concept.pdf
