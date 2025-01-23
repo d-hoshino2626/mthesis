@@ -168,6 +168,26 @@
 % また、カメラを動かすアクチュエータのレール下にはLEDテープライトを取り付け、撮影時にワイヤーを一様に照らすことで、
 % 撮影位置によって光量が変わることがないようにした。
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_system.pdf}
+    \caption{ワイヤーのたわみ量評価系の概観。
+    2つのアクチュエータによりスパースワイヤーグリッド・カメラを動かし、自動で撮影を行う。}
+    \label{fig:wiresag_system}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{wiresag/wiresag_system_front.pdf}
+    \caption{開発したワイヤーのたわみ量評価系を正面から見た概念図。}
+    \label{fig:wiresag_system_front}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{wiresag/20241219_UHF_0_wire23_x467_gray.png}
+    \caption{撮影されたストレートエッジとワイヤーの写真の例。}
+    \label{fig:wiresag_picture}    
+\end{figure}
+
 アクチュエータによる自動化を容易にするため、スパースワイヤーグリッドを鉛直方向に立てる(図\ref{fig:wiresag_system}右)。
 たわみの測定の基準となるストレートエッジはスパースワイヤーグリッドの目の前 $\SI{5}{mm}$ のところに固定されている。
 また、ストレートエッジにはカメラの $\SI{1}{pixel}$ が対応する長さを較正するためのスケーラが取り付けられている。
@@ -179,44 +199,27 @@
 また、カメラを動かすアクチュエータのレール下にはLEDテープライトを取り付け、撮影時にワイヤーを一様に照らすことで、
 撮影位置によって光量が変わることがないようにした。
 表\ref{}に、使用した機材の詳細をまとめる。
-
-\begin{figure}[H]
+\begin{table}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_system.pdf}
-    \caption{ワイヤーのたわみ量評価系の概観。
-    2つのアクチュエータによりスパースワイヤーグリッド・カメラを動かし、自動で撮影を行う。}
-    \label{fig:wiresag_system}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{wiresag/wiresag_system_front.pdf}
-    \caption{開発したワイヤーのたわみ量評価系を正面から見た概念図}
-    \label{fig:wiresag_system_front}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{wiresag/20241219_UHF_0_wire23_x467_gray.png}
-    \caption{撮影されたストレートエッジとワイヤーの写真の例}
-    \label{fig:wiresag_picture}    
-\end{figure}
-\begin{table}
-    \centering
-    \caption{使用した機材の詳細}
-    \begin{tabular}{|c|c|c|}
-        \hline
+    \caption{使用した機材の詳細。}
+    \begin{tabular}{ccc}
+        \hline\hline
         機材 & メーカー & 型番 \\
         \hline
         ストレートエッジ & 大西測定株式会社 & 140-1000B \\
-        スケーラ & 大西測定株式会社 & 140-1000B \\
-        カメラ & Basler & acA1920-155um \\
-        レンズ & Computar & M0814-MP2 \\
-        LEDテープライト & & \\
-        スパースワイヤーグリッド & & \\
-        アクチュエータ & Openbuilds & V-Slot NEMA 23 Linear Actuator (Belt Driven) \\
-        アクチュエータ & Openbuilds & V-Slot NEMA 17 Linear Actuator (Belt Driven) \\
-        モーションコントローラ & Galil & DMC-4020 \\
-        ステッピングモーター & Openbuilds & NEMA 23 Stepper Motor - High Torque Series \\
         \hline
+        アクチュエータ & \multirow{2}{*}{Openbuilds} & \multirow{2}{*}{V-Slot NEMA 17 Linear Actuator (Belt Driven)} \\
+        (カメラ用) & & \\
+        \hline
+        アクチュエータ & \multirow{2}{*}{Openbuilds} & \multirow{2}{*}{V-Slot NEMA 23 Linear Actuator (Belt Driven)} \\
+        (スパースワイヤーグリッド用) & & \\
+        \hline
+        ステッピングモーター & \multirow{2}{*}{Openbuilds} & \multirow{2}{*}{NEMA 23 Stepper Motor - High Torque Series} \\
+        (スパースワイヤーグリッド用) & & \\
+        \hline
+        アクチュエータコントローラ & Galil & DMC-4020 \\
+        \hline\hline
+    \end{tabular}
 \end{table}
 \subsection{評価原理}
 \label{subsec:wiresag_principle}
