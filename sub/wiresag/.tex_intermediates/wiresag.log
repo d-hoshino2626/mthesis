@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 03:27
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 04:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -717,10 +717,10 @@ File: ../../fig//wiresag/wiresag_scaler_brightness.pdf Graphic file (type pdf)
  [13]
 File: ../../fig//wiresag/wiresag_scaler_fitting.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_scaler_fitting.pdf>
+File: ../../fig//wiresag/wiresag_edge_target1.pdf Graphic file (type pdf)
+<../../fig//wiresag/wiresag_edge_target1.pdf>
 File: ../../fig//wiresag/wiresag_edge_target.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_edge_target.pdf>
-File: ../../fig//wiresag/wiresag_edge_brightness.pdf Graphic file (type pdf)
-<../../fig//wiresag/wiresag_edge_brightness.pdf>
  [14] [15]
 File: ../../fig//wiresag/wiresag_straight_edge_fit.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_straight_edge_fit.pdf>
@@ -781,7 +781,7 @@ Package rerunfilecheck Info: File `wiresag.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  17861 strings out of 476677
- 348663 string characters out of 5804957
+ 348642 string characters out of 5804957
  1856490 words of memory out of 5000000
  38035 multiletter control sequences out of 15000+600000
  566579 words of font info for 133 fonts, out of 8000000 for 9000

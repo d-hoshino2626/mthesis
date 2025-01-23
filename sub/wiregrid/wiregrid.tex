@@ -13,11 +13,32 @@ SOでは検出器の偏光角較正のために、人工偏光光源としてス
 \label{sec:wiregrid_principle}
 金属製のワイヤーが、周囲から来た入射光を反射することを考える。
 入射光の波長がワイヤーの直径よりも十分に長い場合、ワイヤー中の自由電子はワイヤーに沿う方向のみに動くと見なすことができ、ワイヤーは自身の軸に沿った偏光状態を持つ光のみを反射する。
-図\ref{fig:wire_polarization}に、異なる偏光方向をもつ入射光に対するワイヤーの振る舞いを示す。
+図\ref{fig:wire_polarization}に、ワイヤーの向きと揃った偏光方向をもつ入射光に対するワイヤーの振る舞いを示す。
 このようなワイヤーを望遠鏡の視野に置くと、ワイヤーは周囲の環境から来る熱放射を反射し、ワイヤー軸と同じ方向に偏光した光を望遠鏡に送り込む。
 実際には望遠鏡は空も視野に含み、無偏光な大気放射、ワイヤーからの偏光信号の重ね合わせが見える。
 \ref{sec:HWP}項にて述べた、極低温連続回転式半波長板という光学素子を用いることで無偏光な大気放射を取り除き、ワイヤーからの偏光信号のみを抽出して偏光角較正に用いる。
 また、ワイヤー間隔を調整することで実行的な放射温度を調整し、CMB望遠鏡の検出器に入射する光の強度を調整することができる。
+% \begin{figure}[H]
+%     \begin{minipage}[b]{0.48\columnwidth}
+%         \centering
+%         \includegraphics[width=\columnwidth]{wiregrid/wire_reflect.pdf}
+%         \subcaption{}
+%         \label{fig:wire_reflect}
+%     \end{minipage}
+%     \hspace{0.02\columnwidth}
+%     \begin{minipage}[b]{0.48\columnwidth}
+%         \centering
+%         \includegraphics[width=\columnwidth]{wiregrid/wire_through.pdf}
+%         \subcaption{}
+%         \label{fig:wire_through}
+%     \end{minipage}
+%     \centering
+%     \caption{ワイヤーが作る偏光信号のイメージ。
+%              (\subref{fig:wire_reflect})ワイヤーに沿う方向に偏光した光が入射し、まわりに散乱・透過する様子。
+%              (\subref{fig:wire_through})ワイヤーに対し垂直な方向に偏光した光が反射されることなく透過する様子。
+%              }
+%     \label{fig:wire_polarization}
+% \end{figure}
 \begin{figure}[H]
     \begin{minipage}[b]{0.48\columnwidth}
         \centering
@@ -28,7 +49,7 @@ SOでは検出器の偏光角較正のために、人工偏光光源としてス
     \hspace{0.02\columnwidth}
     \begin{minipage}[b]{0.48\columnwidth}
         \centering
-        \includegraphics[width=\columnwidth]{wiregrid/wire_through.pdf}
+        \includegraphics[width=\columnwidth]{wiregrid/wiregrid}
         \subcaption{}
         \label{fig:wire_through}
     \end{minipage}
@@ -39,6 +60,14 @@ SOでは検出器の偏光角較正のために、人工偏光光源としてス
              }
     \label{fig:wire_polarization}
 \end{figure}
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.5\textwidth]{wiregrid/wire_reflect.pdf}
+%     \label{fig:wire_reflect}
+%     \caption{ワイヤーが作る偏光信号のイメージ。ワイヤーに沿う方向に偏光した光が入射し、まわりに散乱・透過する様子。}
+%     \label{fig:wire_polarization}
+% \end{figure}
+
 \section{偏光角較正の原理}
 スパースワイヤーグリッドは望遠鏡の窓の目の前に設置され、前述した原理により直線偏光した光を望遠鏡に送り込む。
 望遠鏡とその窓の前に置かれたスパースワイヤーグリッドの概念図を図\ref{fig:wiregrid_telescope}に示す。
@@ -102,7 +131,7 @@ SOではアルミニウム製の内径$\SI{790}{mm}$、外径 $\SI{830}{mm}$ の
 タングステンワイヤーを $\SI{20}{mm}$ 間隔で$39$本張り巡らせたものを使用する\cite{swg:murata}。
 
 アルミニウムリング上には$\SI{0.2}{mm}$の幅で刻まれた溝があり、これによりワイヤーの位置を決める。
-$\SI{230}{g}$の重りをワイヤーにくくりつけてこの溝の上にワイヤーが沿うように設置することでピンと張った状態にし、
+図\ref{fig:wire_attachment}のように、$\SI{230}{g}$の重りをワイヤーにくくりつけてこの溝の上にワイヤーが沿うように設置することでピンと張った状態にし、
 Henkel 社製 の LOCTITE STYCAST 2850FTJ という接着剤を用いて固定する。
 なお、隣り合うワイヤーでは重りが干渉してしまうため、2回に分けてワイヤーを張る。
 接着剤による固定部分はサンドブラストされたネジ頭となっており、このネジを取り替えることで接着後であってもワイヤーを張り直すことができるようになっている。
@@ -286,8 +315,7 @@ $X,\,Y,\,Z$ 軸の基底ベクトルを $\bm{\hat{e}}_{X},\,\bm{\hat{e}}_{Y},\,\
 その後、評価を見直すべき点をまとめ、本論文の位置付けについて述べる。
 \subsection{ワイヤーの設置精度に伴う系統誤差}
 ワイヤーは $\SI{0.2}{mm}$ の溝に沿うような形で設置される。
-この範囲でのみワイヤーは動くと考えると、アルミニウムリングの中心部では $0.02\tcdegree$ の精度でワイヤーを張ることが可能である。
-この系統誤差は機械工作精度によって決まっている。
+この範囲でのみワイヤーは動くと考えると、アルミニウムリングの中心部では $0.02\tcdegree$ の精度でワイヤーを揃えて張ることが可能である。
 \subsection{エンコーダの測定精度に伴う系統誤差}
 磁気エンコーダが行う回転角度 $\theta_{\mathrm{enc}}$ の測定において、
 磁気エンコーダ自体の角度分解能は $0.004\tcdegree$ に相当する。

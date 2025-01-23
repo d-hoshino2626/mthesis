@@ -1043,12 +1043,12 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_scaler_brightness.pdf
 INPUT ../../fig//wiresag/wiresag_scaler_fitting.pdf
 INPUT ../../fig//wiresag/wiresag_scaler_fitting.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_scaler_fitting.pdf
+INPUT ../../fig//wiresag/wiresag_edge_target1.pdf
+INPUT ../../fig//wiresag/wiresag_edge_target1.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_edge_target1.pdf
 INPUT ../../fig//wiresag/wiresag_edge_target.pdf
 INPUT ../../fig//wiresag/wiresag_edge_target.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_edge_target.pdf
-INPUT ../../fig//wiresag/wiresag_edge_brightness.pdf
-INPUT ../../fig//wiresag/wiresag_edge_brightness.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_edge_brightness.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_fit.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_straight_edge_fit.pdf
