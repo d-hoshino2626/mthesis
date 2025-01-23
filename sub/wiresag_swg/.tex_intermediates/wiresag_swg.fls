@@ -979,9 +979,32 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_before.pdf
 INPUT ../../fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf
 INPUT ../../fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_after.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_after.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_after.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_angle_after.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_angle_after.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_after.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_comparison.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_comparison.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_comparison.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
+INPUT ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
+INPUT .tex_intermediates/wiresag_swg.aux
+INPUT .tex_intermediates/wiresag_swg.out
+INPUT .tex_intermediates/wiresag_swg.out

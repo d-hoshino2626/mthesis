@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  23 JAN 2025 17:54
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  23 JAN 2025 20:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -576,38 +576,38 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 16.
-
-LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 17.
-
-
-LaTeX Warning: Reference `fig:wiresag_result_old' on page 1 undefined on input line 19.
-
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 28.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 28.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 28.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 33.
+(Font)              scaled to size 11.54663pt on input line 17.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 33.
+(Font)              scaled to size 11.54663pt on input line 17.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 33.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 33.
+(Font)              scaled to size 11.54663pt on input line 17.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 33.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 33.
+(Font)              scaled to size 11.54663pt on input line 17.
 
-LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 36.
+LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig:wiresag_result_old' on page 1 undefined on input line 20.
+
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 30.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 30.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 30.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 30.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 30.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 30.
+
+LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 38.
 
 [1
 
@@ -616,9 +616,9 @@ LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 3
 File: ../../fig//wiresag/wiresag_system.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_system.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 65.
+(Font)              scaled to size 9.6222pt on input line 67.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 65.
+(Font)              scaled to size 9.6222pt on input line 67.
 File: ../../fig//wiresag/wiresag_system_front.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_system_front.pdf>
  [2]
@@ -626,16 +626,16 @@ File: ../../fig//wiresag/20241219_UHF_0_wire23_x467_gray.png Graphic file (type 
 <../../fig//wiresag/20241219_UHF_0_wire23_x467_gray.png>
  [3]
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 96.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 96.
+(Font)              scaled to size 7.69775pt on input line 98.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 96.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 96.
+(Font)              scaled to size 7.69775pt on input line 98.
 
 
-LaTeX Warning: Citation `swg:murata' on page 4 undefined on input line 96.
+LaTeX Warning: Citation `swg:murata' on page 4 undefined on input line 98.
 
 [4]
 File: ../../fig//wiresag/wiresag_concept.pdf Graphic file (type pdf)
@@ -652,15 +652,15 @@ File: ../../fig//wiresag/wire_catenary_tilt.pdf Graphic file (type pdf)
 File: ../../fig//wiresag/wiresag_scaler_target.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_scaler_target.pdf>
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 314.
+(Font)              scaled to size 6.73553pt on input line 316.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 314.
+(Font)              scaled to size 4.8111pt on input line 316.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 314.
+(Font)              scaled to size 9.6222pt on input line 316.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 314.
+(Font)              scaled to size 6.73553pt on input line 316.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 314.
+(Font)              scaled to size 4.8111pt on input line 316.
 File: ../../fig//wiresag/wiresag_scaler_brightness.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_scaler_brightness.pdf>
  [8]
@@ -680,13 +680,13 @@ File: ../../fig//wiresag/wiresag_edge_target_span.pdf Graphic file (type pdf)
 File: ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_straight_edge_positions_line.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 385.
+(Font)              scaled to size 8.65997pt on input line 387.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 385.
+(Font)              scaled to size 8.65997pt on input line 387.
 File: ../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 382--396
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 384--398
 [][] [] 
  []
 
@@ -698,17 +698,17 @@ File: ../../fig//wiresag/wiresag_wire_positions.pdf Graphic file (type pdf)
 File: ../../fig//wiresag/wiresag_wire_positions_rot.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_wire_positions_rot.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 423--437
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 425--439
 [][] [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 441.
+(hyperref)                removing `math shift' on input line 443.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 441.
+(hyperref)                removing `math shift' on input line 443.
 
 [14]
 File: ../../fig//wiresag/wiresag_wire_se_positions_diff.pdf Graphic file (type pdf)
@@ -723,9 +723,9 @@ File: ../../fig//wiresag/wiresag_performance_check_system.pdf Graphic file (type
 <../../fig//wiresag/wiresag_performance_check_system.pdf>
  [17]
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 531.
+(Font)              scaled to size 8.65997pt on input line 533.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 531.
+(Font)              scaled to size 4.8111pt on input line 533.
 File: ../../fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_performance_check_result.pdf>
  [18] [19] (.tex_intermediates/wiresag.aux)
@@ -733,15 +733,15 @@ File: ../../fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `wiresag.out' has not changed.
-(rerunfilecheck)             Checksum: C52F801602B31F00AE7A377C68690956;2505.
+(rerunfilecheck)             Checksum: 6D244BC01D0B32192DEDD5511D3A30F5;2943.
  ) 
 Here is how much of TeX's memory you used:
- 17806 strings out of 476677
- 346720 string characters out of 5804957
+ 17807 strings out of 476677
+ 346733 string characters out of 5804957
  1857490 words of memory out of 5000000
- 37987 multiletter control sequences out of 15000+600000
+ 37988 multiletter control sequences out of 15000+600000
  566579 words of font info for 133 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,17n,94p,411b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (19 pages, 68184 bytes).
+Output written on .tex_intermediates/wiresag.dvi (19 pages, 68916 bytes).
