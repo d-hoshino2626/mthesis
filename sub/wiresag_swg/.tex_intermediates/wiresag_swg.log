@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  23 JAN 2025 12:51
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  23 JAN 2025 13:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -626,20 +626,20 @@ File: ../../fig//wiresag_swg/swg_sag_comparison.pdf Graphic file (type pdf)
 File: ../../fig//wiresag_swg/swg_sag_angle_comparison.pdf Graphic file (type pdf)
 <../../fig//wiresag_swg/swg_sag_angle_comparison.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 96--110
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 106--120
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 110.
+(Font)              scaled to size 6.73553pt on input line 120.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 110.
+(Font)              scaled to size 4.8111pt on input line 120.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 110.
+(Font)              scaled to size 9.6222pt on input line 120.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 110.
+(Font)              scaled to size 6.73553pt on input line 120.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 110.
+(Font)              scaled to size 4.8111pt on input line 120.
 File: ../../fig//wiresag_swg/swg_sag_after_even_odd.pdf Graphic file (type pdf)
 <../../fig//wiresag_swg/swg_sag_after_even_odd.pdf>
 File: ../../fig//wiresag_swg/swg_sag_odd_comparison.pdf Graphic file (type pdf)
@@ -647,7 +647,7 @@ File: ../../fig//wiresag_swg/swg_sag_odd_comparison.pdf Graphic file (type pdf)
 File: ../../fig//wiresag_swg/swg_sag_even_comparison.pdf Graphic file (type pdf)
 <../../fig//wiresag_swg/swg_sag_even_comparison.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 122--137
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 132--147
 [][] [] 
  []
 
@@ -667,4 +667,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  92i,8n,94p,632b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag_swg.dvi (5 pages, 20836 bytes).
+Output written on .tex_intermediates/wiresag_swg.dvi (5 pages, 21284 bytes).
