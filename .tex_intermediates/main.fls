@@ -1122,21 +1122,6 @@ INPUT extractbb -B cropbox -O ./fig//wiregrid/tiltsensor_WGplane.pdf
 INPUT ./fig//wiregrid/tiltsensor_at_site.pdf
 INPUT ./fig//wiregrid/tiltsensor_at_site.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/tiltsensor_at_site.pdf
-INPUT ./fig//wiregrid/wiresag_def.pdf
-INPUT ./fig//wiregrid/wiresag_def.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_def.pdf
-INPUT ./fig//wiregrid/wiresag_setup_overview_old.pdf
-INPUT ./fig//wiregrid/wiresag_setup_overview_old.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_overview_old.pdf
-INPUT ./fig//wiregrid/wiresag_setup_old.pdf
-INPUT ./fig//wiregrid/wiresag_setup_old.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_old.pdf
-INPUT ./fig//wiregrid/wiresag_picture_old.pdf
-INPUT ./fig//wiregrid/wiresag_picture_old.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_picture_old.pdf
-INPUT ./fig//wiregrid/wiresag_result_old.pdf
-INPUT ./fig//wiregrid/wiresag_result_old.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_result_old.pdf
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
 INPUT ./sub/tiltsensor/tiltsensor.tex
@@ -1208,6 +1193,21 @@ INPUT ./sub/wiresag/wiresag.tex
 INPUT ./sub/wiresag/wiresag.tex
 INPUT ./sub/wiresag/wiresag.tex
 INPUT ./sub/wiresag/wiresag.tex
+INPUT ./fig//wiresag/wiresag_def.pdf
+INPUT ./fig//wiresag/wiresag_def.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_def.pdf
+INPUT ./fig//wiregrid/wiresag_setup_overview_old.pdf
+INPUT ./fig//wiregrid/wiresag_setup_overview_old.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_overview_old.pdf
+INPUT ./fig//wiregrid/wiresag_setup_old.pdf
+INPUT ./fig//wiregrid/wiresag_setup_old.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_setup_old.pdf
+INPUT ./fig//wiregrid/wiresag_picture_old.pdf
+INPUT ./fig//wiregrid/wiresag_picture_old.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_picture_old.pdf
+INPUT ./fig//wiregrid/wiresag_result_old.pdf
+INPUT ./fig//wiregrid/wiresag_result_old.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiresag_result_old.pdf
 INPUT ./fig//wiresag/wiresag_system.pdf
 INPUT ./fig//wiresag/wiresag_system.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_system.pdf
@@ -1286,9 +1286,6 @@ INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_performance_check_system.pd
 INPUT ./fig//wiresag/wiresag_performance_check_result.pdf
 INPUT ./fig//wiresag/wiresag_performance_check_result.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_performance_check_result.pdf
-INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
-INPUT ./fig//wiresag/wiresag_concept_yoko.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag/wiresag_concept_yoko.pdf
 INPUT ./sub/wiresag_swg/wiresag_swg.tex
 INPUT ./sub/wiresag_swg/wiresag_swg.tex
 INPUT ./sub/wiresag_swg/wiresag_swg.tex
@@ -1305,21 +1302,12 @@ INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_before.pdf
 INPUT ./fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf
 INPUT ./fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf
-INPUT ./fig//wiresag_swg/swg_sag_after.pdf
-INPUT ./fig//wiresag_swg/swg_sag_after.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_after.pdf
-INPUT ./fig//wiresag_swg/swg_sag_angle_after.pdf
-INPUT ./fig//wiresag_swg/swg_sag_angle_after.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_after.pdf
 INPUT ./fig//wiresag_swg/swg_sag_comparison.pdf
 INPUT ./fig//wiresag_swg/swg_sag_comparison.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_comparison.pdf
 INPUT ./fig//wiresag_swg/swg_sag_angle_comparison.pdf
 INPUT ./fig//wiresag_swg/swg_sag_angle_comparison.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_comparison.pdf
-INPUT ./fig//wiresag_swg/swg_sag_angle_after_even_odd.pdf
-INPUT ./fig//wiresag_swg/swg_sag_angle_after_even_odd.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_after_even_odd.pdf
 INPUT ./fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
 INPUT ./fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf

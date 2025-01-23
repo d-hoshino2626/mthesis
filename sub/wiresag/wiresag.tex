@@ -16,50 +16,70 @@
 その後、評価装置の妥当性の検証を行い、評価装置の持つ誤差について議論する。
 
 \section{過去の測定手法における問題点とそれを解決する開発目標の設定}
-\subsection{過去の測定手法における問題点}
+\subsection{過去の測定手法の概要}
 まず、ワイヤーのたわみ量$d_{\mathrm{sag}}$とたわみ角$\theta_{\mathrm{sag}}$という量の定義を述べる。
 図\ref{fig:wiresag_def}に示すように、ワイヤーは両端を固定された状態で重力によってたわんでいる。
 固定された両端を直線で結び、その直線とワイヤーの最下部との距離をたわみ量 $d_{\mathrm{sag}}$ とする。
 また、固定されたワイヤーの両端の距離を$L_{\mathrm{frame}}$としたとき、たわみ角$\theta_{\mathrm{sag}}$を
 \begin{equation}
+    \label{eq:sag}
     \theta_{\mathrm{sag}} = \arctan\qty(\dfrac{d_{\mathrm{sag}}}{L_{\mathrm{frame}}/2})
 \end{equation}
-と定める。この$\theta_{\mathrm{sag}}$こそが、較正の際に生じる系統誤差の原因である。
+と定める\footnote{厳密にはワイヤーの端における接線と重力に対して垂直に交わる水平面のなす角として定義するべきであるが、$L_{\mathrm{frame}}$に対して$d_{\mathrm{sag}}$が小さいため、式\eqref{eq:sag}の定義はこれと近似的に同値な定義である。}。
+この$\theta_{\mathrm{sag}}$こそが、較正精度に生じる系統誤差の一因であり、評価対象である。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_def.pdf}
     \caption{ワイヤーのたわみ量$d_\mathrm{sag}$とたわみ角$\theta_{\mathrm{sag}}$の定義。
-    重力に対して垂直に定義される水平面上にワイヤーの固定端が存在するように配置する。
-    このとき、ワイヤーの両端を結んだ直線と、重力によってたわんだワイヤーの最下部との距離をたわみ量$d_\mathrm{sag}$と定義する。
+    重力に対して垂直に定義される水平面上にワイヤーの固定端が存在するようにワイヤーを配置したときに、
+    ワイヤーの両端を結んだ直線と、重力によってたわんだワイヤーの最下部との距離をたわみ量$d_\mathrm{sag}$と定義する。
     また、ワイヤーの端とワイヤーの最下部を結んだ直線と、水平面とのなす角をたわみ角$\theta_{\mathrm{sag}}$と定義する。
     }
     \label{fig:wiresag_def}
 \end{figure}
 過去の評価系の概要を図\ref{fig:wiresag_setup_overview_old}に示す。
-また、セットアップを正面からみたときの概念図を図\ref{}に、セットアップの横から見たときの概念図を図\ref{fig:wiresag_setup_old}に示す。
-スパースワイヤーグリッドを重力に対して垂直な水平面上に置き、その上に十分な真直度が保証されたストレートエッジを置く。
-ストレートエッジの位置をワイヤーの近くに調節し、横からカメラで撮影すると、撮影された画像におけるストレートエッジとワイヤーの間の距離 $z'$ を測定できる。
-使用されたストレートエッジは大西測定株式会社製の 140-1000B であり、このストレートエッジは真直度A級 $\SI{30}{\mu m}$ が保証されている。
-各種パラメータを表\ref{tab:wiresag_setup_old}のように定義すると、$z'$ とストレートエッジから測った実際のワイヤーのたわみ $z$ の間の関係は
-\begin{align}
-    z &= \dfrac{z'}{\cos\phi} - \alpha\tan\phi - z_{\mathrm{s}} \\
-    \phi &= \arctan\qty(\dfrac{L}{\alpha+\beta})
-\end{align}
-となる。
-
+スパースワイヤーグリッドを重力に対して垂直な水平面上に置き、その上に十分な真直度が保証されたストレートエッジを設置する。
+ストレートエッジの位置をワイヤーの近くに調節し、横からカメラで撮影すると、撮影された画像におけるストレートエッジとワイヤーの間の距離$z'$をpixel数から測定できる。
+撮影された写真の例を図\ref{fig:wiresag_picture_old}に示す。
+ストレートエッジにはスケーラが取り付けられており、スケーラの目盛間隔\SI{1}{mm}が写真のpixel数にしていくつなのか測ることで、\SI{1}{pixel}の長さを較正する。
+使用されたストレートエッジは大西測定株式会社製の140-1000Bであり、このストレートエッジは真直度A級 $\SI{30}{\micro m}$ が保証されている。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_setup_overview_old.pdf}
+    \includegraphics[width=0.7\textwidth]{wiregrid/wiresag_setup_overview_old.pdf}
     \caption{先行研究におけるワイヤーのたわみを評価する系の概要。
-    スパースワイヤーグリッドの上にストレートエッジを置き、ストレートエッジとワイヤーが同時に映るようにカメラで撮影する。
+    スパースワイヤーグリッドの上にストレートエッジを置き、
+    ストレートエッジとワイヤーが同時に映る写真をカメラで撮影している。
     }
     \label{fig:wiresag_setup_overview_old}
 \end{figure}
 \begin{figure}[H]
     \centering
+    \includegraphics[width=0.7\textwidth]{wiregrid/wiresag_picture_old.pdf}
+    \caption{先行研究でのワイヤーのたわみの評価にて撮影された写真の例。
+    基準となるストレートエッジとワイヤーが同時に映るように撮影されている。
+    \SI{1}{pixel}が対応する長さを較正するためのスケーラがストレートエッジに取り付けられている。}
+    \label{fig:wiresag_picture_old}
+\end{figure}
+
+評価系を横からみたときの概念図を図\ref{fig:wiresag_setup_front_old}に、評価系を横から見たときの概念図を図\ref{fig:wiresag_setup_side_old}に示す。
+各種パラメータを表\ref{tab:wiresag_setup_old}のように定義すると、$z'$ とストレートエッジから測った実際のワイヤーのたわみ$z$の間の関係は
+\begin{align}
+    z &= \dfrac{z'}{\cos\phi} - \alpha\tan\phi - z_{\mathrm{s}} \\
+    \phi &= \arctan\qty(\dfrac{L}{\alpha+\beta})
+\end{align}
+となる。写真をワイヤーの両端・中心で撮影することで$z_\mathrm{left},\,z_\mathrm{center},\,z_\mathrm{right}$を測定する。
+\begin{figure}[H]
+    \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_setup_old.pdf}
     \caption{先行研究におけるワイヤーのたわみを評価する系の概念図\cite{swg:murata}}
-    \label{fig:wiresag_setup_old}
+    \label{fig:wiresag_setup_side_old}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_setup_front_old.pdf}
+    \caption{先行研究におけるワイヤーのたわみを評価する系を正面からみたときの概念図。
+    $z_\mathrm{left},\,z_\mathrm{center},\,z_\mathrm{right}$を測定することで$d_{\mathrm{sag}}$を評価する。}
+    \label{fig:wiresag_setup_front_old}
 \end{figure}
 \begin{table}[H]
     \centering
@@ -98,21 +118,12 @@ $\SI{1}{pixel}$ が何\,$\mathrm{mm}$ に対応するのか較正している。
 いずれのワイヤーに対しても測定誤差が大きく、期待されるたわみ角から大きく外れたワイヤーが存在しているのかどうかの判別ができていない。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_picture_old.pdf}
-    \caption{ワイヤーのたわみ評価にて撮影された写真の例}
-    \label{fig:wiresag_picture_old}
-\end{figure}
-\begin{figure}[H]
-    \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_result_old.pdf}
     \caption{ワイヤーのたわみ評価の結果の例\cite{swg:murata}}
     \label{fig:wiresag_result_old}    
 \end{figure}
 
 \subsection{hogege}
-
-
-
 過去の測定手法については\ref{subsec:wg_wiresag}項にて述べたとおりであり、その手法にはいくつかの問題点があった。
 一つ目の問題点は、その測定精度が低いことである。これにより、たわみ量の系統誤差への寄与を必要以上に大きく見積もっている疑いがある。
 また、図\ref{fig:wiresag_result_old}にて示されているように、各々のワイヤーに対してたわみ量が

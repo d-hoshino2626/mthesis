@@ -968,34 +968,48 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT ../../fig//wiresag/wiresag_def.pdf
 INPUT ../../fig//wiresag/wiresag_def.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_def.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
-OUTPUT .tex_intermediates/wiresag.dvi
 INPUT ../../fig//wiregrid/wiresag_setup_overview_old.pdf
 INPUT ../../fig//wiregrid/wiresag_setup_overview_old.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_setup_overview_old.pdf
-INPUT ../../fig//wiregrid/wiresag_setup_old.pdf
-INPUT ../../fig//wiregrid/wiresag_setup_old.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_setup_old.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+OUTPUT .tex_intermediates/wiresag.dvi
 INPUT ../../fig//wiregrid/wiresag_picture_old.pdf
 INPUT ../../fig//wiregrid/wiresag_picture_old.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_picture_old.pdf
+INPUT ../../fig//wiregrid/wiresag_setup_old.pdf
+INPUT ../../fig//wiregrid/wiresag_setup_old.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_setup_old.pdf
+INPUT ../../fig//wiresag/wiresag_setup_front_old.pdf
+INPUT ../../fig//wiresag/wiresag_setup_front_old.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_setup_front_old.pdf
 INPUT ../../fig//wiregrid/wiresag_result_old.pdf
 INPUT ../../fig//wiregrid/wiresag_result_old.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiresag_result_old.pdf
@@ -1044,9 +1058,6 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_edge_target_span.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT ../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf
 INPUT ../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf
@@ -1077,14 +1088,6 @@ INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_performance_zig.pdf
 INPUT ../../fig//wiresag/wiresag_performance_check_system.pdf
 INPUT ../../fig//wiresag/wiresag_performance_check_system.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_performance_check_system.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
 INPUT ../../fig//wiresag/wiresag_performance_check_result.pdf
 INPUT ../../fig//wiresag/wiresag_performance_check_result.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiresag/wiresag_performance_check_result.pdf
