@@ -1030,15 +1030,15 @@ INPUT extractbb -B cropbox -O ../../fig//tiltsensor/camera_12degC.pdf
 INPUT ../../fig//tiltsensor/camera_m18degC.pdf
 INPUT ../../fig//tiltsensor/camera_m18degC.pdf
 INPUT extractbb -B cropbox -O ../../fig//tiltsensor/camera_m18degC.pdf
-INPUT ../../fig//tiltsensor/bath_tempX.pdf
-INPUT ../../fig//tiltsensor/bath_tempX.pdf
-INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_tempX.pdf
+INPUT ../../fig//tiltsensor/bath_tempX.png
+INPUT ../../fig//tiltsensor/bath_tempX.png
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_tempX.png
 INPUT ../../fig//tiltsensor/angleX_temp_dep.pdf
 INPUT ../../fig//tiltsensor/angleX_temp_dep.pdf
 INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleX_temp_dep.pdf
-INPUT ../../fig//tiltsensor/bath_tempY.pdf
-INPUT ../../fig//tiltsensor/bath_tempY.pdf
-INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_tempY.pdf
+INPUT ../../fig//tiltsensor/bath_tempY.png
+INPUT ../../fig//tiltsensor/bath_tempY.png
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_tempY.png
 INPUT ../../fig//tiltsensor/angleY_temp_dep.pdf
 INPUT ../../fig//tiltsensor/angleY_temp_dep.pdf
 INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleY_temp_dep.pdf
@@ -1054,9 +1054,9 @@ INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evalu_kyoto2.pdf
 INPUT ../../fig//tiltsensor/evalu_kyoto3.pdf
 INPUT ../../fig//tiltsensor/evalu_kyoto3.pdf
 INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evalu_kyoto3.pdf
-INPUT ../../fig//tiltsensor/angleY_huryou_test.pdf
-INPUT ../../fig//tiltsensor/angleY_huryou_test.pdf
-INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleY_huryou_test.pdf
+INPUT ../../fig//tiltsensor/angleY_huryou_test.png
+INPUT ../../fig//tiltsensor/angleY_huryou_test.png
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleY_huryou_test.png
 INPUT .tex_intermediates/tiltsensor.aux
 INPUT .tex_intermediates/tiltsensor.out
 INPUT .tex_intermediates/tiltsensor.out
