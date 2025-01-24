@@ -39,13 +39,14 @@
 \end{figure}
 過去の評価系の概要を図\ref{fig:wiresag_setup_overview_old}に示す。
 スパースワイヤーグリッドを重力に対して垂直な水平面上に置き、その上に十分な真直度が保証されたストレートエッジを設置する。
-ストレートエッジの位置をワイヤーの近くに調節し、横からカメラで撮影すると、撮影された画像におけるストレートエッジとワイヤーの間の距離$z'$をpixel数から測定できる。
+ストレートエッジの位置をワイヤーの近くに調節し、カメラで撮影すると、
+撮影された画像におけるストレートエッジとワイヤーの間の距離$z'$をpixel数から推定できる。
 撮影された写真の例を図\ref{fig:wiresag_picture_old}に示す。
 ストレートエッジにはスケーラが取り付けられており、スケーラの目盛間隔\SI{1}{mm}が写真のpixel数にしていくつなのか測ることで、\SI{1}{pixel}の長さを較正する。
 使用されたストレートエッジは大西測定株式会社製の140-1000Bであり、このストレートエッジは真直度A級 $\SI{30}{\micro m}$ が保証されている。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{wiregrid/wiresag_setup_overview_old.pdf}
+    \includegraphics[width=0.65\textwidth]{wiregrid/wiresag_setup_overview_old.pdf}
     \caption{先行研究におけるワイヤーのたわみを評価する系の概要。
     スパースワイヤーグリッドの上にストレートエッジを置き、
     ストレートエッジとワイヤーが同時に映る写真をカメラで撮影している。
@@ -54,7 +55,7 @@
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{wiregrid/wiresag_picture_old.pdf}
+    \includegraphics[width=0.65\textwidth]{wiregrid/wiresag_picture_old.pdf}
     \caption{先行研究でのワイヤーのたわみの評価にて撮影された写真の例。
     基準となるストレートエッジとワイヤーが同時に映るように撮影されている。
     \SI{1}{pixel}が対応する長さを較正するためのスケーラがストレートエッジに取り付けられている。}
@@ -68,11 +69,11 @@
     \phi &= \arctan\qty(\dfrac{L}{\alpha+\beta})
 \end{align}
 となる。写真をワイヤーの両端・中心で撮影することで$z_\mathrm{left},\,z_\mathrm{center},\,z_\mathrm{right}$を測定し、
-たわみ量$d_{\mathrm{sag}}$をあ
+たわみ量$d_{\mathrm{sag}}$を
 \begin{equation}
     d_{\mathrm{sag}} =  z_{\mathrm{center}} - \dfrac{1}{2}\qty(z_{\mathrm{left}} + z_{\mathrm{right}})
 \end{equation}
-と評価し、式\eqref{eq:sag}を用いてたわみ角$\theta_{\mathrm{sag}}$を評価する。
+と評価する。さらに、式\eqref{eq:sag}を用いてたわみ角$\theta_{\mathrm{sag}}$を評価する。
 39本のワイヤーに対してこの評価を行った結果が、図\ref{fig:wiresag_result_old}である。
 横軸のwire numberはワイヤーの通し番号であり、縦軸はたわみ量を表す。
 先行研究\cite{swg:murata}では、たわみ角$\theta_{\mathrm{sag}}$の平均値が$0.02\tcdegree$、
@@ -81,7 +82,7 @@
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_setup_old.pdf}
-    \caption{先行研究におけるワイヤーのたわみを評価する系の概念図\cite{swg:murata}}
+    \caption{先行研究におけるワイヤーのたわみを評価する系の概念図\cite{swg:murata}。}
     \label{fig:wiresag_setup_side_old}
 \end{figure}
 \begin{figure}[H]
@@ -93,7 +94,7 @@
 \end{figure}
 \begin{table}[H]
     \centering
-    \caption{たわみ評価における各種パラメータの定義}
+    \caption{たわみ評価における各種パラメータの定義。}
     \begin{tabular}{|c|c|}
         \hline
         パラメータ & 定義 \\
@@ -112,7 +113,8 @@
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiregrid/wiresag_result_old.pdf}
-    \caption{ワイヤーのたわみ評価の結果の例\cite{swg:murata}}
+    \caption{ワイヤーのたわみ評価の結果の例\cite{swg:murata}。
+    横軸はワイヤーの通し番号を示し、縦軸はワイヤーのたわみ角を示す。}
     \label{fig:wiresag_result_old}    
 \end{figure}
 
@@ -270,13 +272,13 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept.pdf}
-    \caption{ワイヤーのたわみ量の評価原理}
+    \caption{ワイヤーのたわみ量の評価原理。}
     \label{fig:wiresag_concept}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{wiresag/wire_number.pdf}
-    \caption{スパースワイヤーグリッドにおけるワイヤー番号}
+    \caption{スパースワイヤーグリッドにおけるワイヤー番号。}
     \label{fig:wire_number}
 \end{figure}
 
@@ -312,7 +314,7 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_rotation.pdf}
-    \caption{ストレートエッジとワイヤーの回転前後の概念図}
+    \caption{ストレートエッジとワイヤーの回転前後の概念図。}
     \label{fig:wiresag_rotation}
 \end{figure}
 
@@ -344,7 +346,7 @@ $\theta_{\mathrm{camera}}$ はカメラの回転角を表し、 $\theta_{\mathrm
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wire_catenary_tilt.pdf}
-    \caption{ワイヤーの両端が重力に対して傾いている場合のワイヤーの描くカテナリーの概念図}
+    \caption{ワイヤーの両端が重力に対して傾いている場合のワイヤーの描くカテナリーの概念図。}
     \label{fig:wiresag_concept_tilt}
 \end{figure}
 
@@ -457,13 +459,13 @@ $a,\,b,\,c,\,d,\,\mathrm{offset}$はfitting parameter であり、$d$は目盛�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_scaler_target.pdf}
-    \caption{写真中における $y_{\mathrm{pix}}=\SI{200}{pixel}$ の目安}
+    \caption{写真中における $y_{\mathrm{pix}}=\SI{200}{pixel}$ の目安。}
     \label{fig:wiresag_scaler_target}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{wiresag/wiresag_scaler_brightness.pdf}
-    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ における輝度の例}
+    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ における輝度の例。}
     \label{fig:wiresag_scaler_brightness}
 \end{figure}
 
@@ -475,7 +477,7 @@ fittingに求められた$d_i$から、目盛間のpixel数を求めると、そ
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{wiresag/wiresag_scaler_fitting.pdf}
-    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ スケーラの輝度のfittingの結果の例}
+    \caption{$y_{\mathrm{pix}}=\SI{200}{pixel}$ スケーラの輝度のfittingの結果の例。}
     \label{fig:wiresag_scaler_fitting}
 \end{figure}
 
@@ -487,13 +489,13 @@ $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_edge_target1.pdf}
-    \caption{写真中における $x_{\mathrm{pix}}=\SI{1665}{pixel}$の目安}
+    \caption{写真中における $x_{\mathrm{pix}}=\SI{1665}{pixel}$の目安。}
     \label{fig:wiresag_edge_target}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_edge_target.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$における輝度の例}
+    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$における輝度の例。}
     \label{fig:wiresag_edge_brightness}
 \end{figure}
 \subsubsection{ストレートエッジのfitting}
@@ -508,7 +510,7 @@ $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{wiresag/wiresag_straight_edge_fit.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$におけるストレートエッジの輝度のfittingの結果の例}
+    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$におけるストレートエッジの輝度のfittingの結果の例。}
     \label{fig:wiresag_edge_fit}
 \end{figure}
 
@@ -521,7 +523,7 @@ $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_edge_target_span.pdf}
-    \caption{ストレートエッジのfittingの範囲}
+    \caption{ストレートエッジのfittingの範囲。}
     \label{fig:wiresag_edge_target_span}
 \end{figure}
 \begin{figure}[H]
@@ -537,8 +539,8 @@ $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高�
         \subcaption{}
         \label{fig:wiresag_straight_edge_positions_rot}
     \end{minipage}
-    \caption{(\subref{fig:wiresag_straight_edge_positions_line}) 回転前のストレートエッジの位置と直線による fitting の結果の例
-             (\subref{fig:wiresag_straight_edge_positions_rot}) 回転後のストレートエッジの位置の例
+    \caption{(\subref{fig:wiresag_straight_edge_positions_line}) 回転前のストレートエッジの位置と直線によるfittingの結果の例。
+             (\subref{fig:wiresag_straight_edge_positions_rot}) 回転後のストレートエッジの位置の例。
              }
     \label{fig:wiresag_straight_edge}
 \end{figure}
@@ -562,7 +564,7 @@ $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_wire_fit.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$ におけるワイヤーの輝度のfittingの結果の例}
+    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$ におけるワイヤーの輝度のfittingの結果の例。}
     \label{fig:wiresag_wire_fit}
 \end{figure}
 \begin{figure}[H]
@@ -578,8 +580,8 @@ $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高�
         \subcaption{}
         \label{fig:wiresag_wire_positions_rot}
     \end{minipage}
-    \caption{(\subref{fig:wiresag_wire_positions_line}) 回転前のワイヤーの位置の例
-             (\subref{fig:wiresag_wire_positions_rot}) 回転後のワイヤーの位置の例
+    \caption{(\subref{fig:wiresag_wire_positions_line}) 回転前のワイヤーの位置の例。
+             (\subref{fig:wiresag_wire_positions_rot}) 回転後のワイヤーの位置の例。
              }
     \label{fig:wiresag_wire_positions}
 \end{figure}
@@ -605,7 +607,7 @@ $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{wiresag/wiresag_wire_se_positions_diff.pdf}
-    \caption{回転後のワイヤーの位置からストレートエッジの位置を引いた値の例}
+    \caption{回転後のワイヤーの位置からストレートエッジの位置を引いた値の例。}
     \label{fig:wiresag_wire_se_positions_diff}    
 \end{figure}
 \subsection{カテナリーでのfitting}
@@ -642,7 +644,7 @@ $z$の誤差としては、ここまでの処理で得られた誤差を考え�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{wiresag/wiresag_catenary.pdf}
-    \caption{カテナリー曲線で fitting した結果の例}
+    \caption{カテナリー曲線で fitting した結果の例。}
     \label{fig:wiresag_catenary}
 \end{figure}
 \section{開発した評価装置の妥当性の検証}
@@ -658,14 +660,14 @@ $z$の誤差としては、ここまでの処理で得られた誤差を考え�
 重りは$\SI{158}{g},\,\SI{178}{g},\,\SI{190}{g},\,\SI{218}{g},\,\SI{228}{g},\,\SI{239}{g},\,\SI{250}{g}$のものを使用した。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{wiresag/wiresag_performance_zig.pdf}
-    \caption{ワイヤーを張るための治具}
+    \includegraphics[width=0.5\textwidth]{wiresag/wiresag_performance_zig.pdf}
+    \caption{ワイヤーを張るための治具。}
     \label{fig:wiresag_performance_zig}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{wiresag/wiresag_performance_check_system.pdf}
-    \caption{開発したたわみ量評価装置の妥当性の検証のための測定時の様子}
+    \includegraphics[width=0.8\textwidth]{wiresag/wiresag_performance_check_system.pdf}
+    \caption{開発したたわみ量評価装置の妥当性の検証のための測定時の様子。}
     \label{fig:wiresag_performance_cehck_system}
 \end{figure}
 
@@ -682,7 +684,7 @@ $z$の誤差としては、ここまでの処理で得られた誤差を考え�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{wiresag/wiresag_performance_check_result.pdf}
-    \caption{張力を変えた時のたわみ量の変化}
+    \caption{張力を変えた時のたわみ量の変化。}
     \label{fig:wiresag_performance_check_result}
 \end{figure}
 % \subsection{得られた誤差の考察}
