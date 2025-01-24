@@ -13,79 +13,79 @@
 \contentsline {section}{\numberline {2.2}Small Aperture Telescope (SAT)}{12}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}焦点面検出器}{14}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}極低温連続回転式半波長板 (HWP)}{15}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}偏光角較正の重要性とその手法}{16}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}偏光角の誤較正に伴う偏光の漏れ込み}{16}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}偏光角較正の重要性とその手法}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}偏光角の誤較正に伴う偏光の漏れ込み}{17}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}偏光角較正手法}{18}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}牡牛座かに星雲 (Tau A)}{18}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}牡牛座かに星雲 (Tau A)}{19}{subsubsection.2.3.2.1}%
 \contentsline {subsubsection}{\numberline {2.3.2.2}ケンタウルス座A (Cen A)}{19}{subsubsection.2.3.2.2}%
 \contentsline {subsubsection}{\numberline {2.3.2.3}月}{19}{subsubsection.2.3.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.2.4}誘電体シート}{19}{subsubsection.2.3.2.4}%
 \contentsline {subsubsection}{\numberline {2.3.2.5}デンスワイヤーグリッド}{19}{subsubsection.2.3.2.5}%
-\contentsline {subsubsection}{\numberline {2.3.2.6}スパースワイヤーグリッド}{19}{subsubsection.2.3.2.6}%
+\contentsline {subsubsection}{\numberline {2.3.2.6}スパースワイヤーグリッド}{20}{subsubsection.2.3.2.6}%
 \contentsline {subsubsection}{\numberline {2.3.2.7}自己較正}{20}{subsubsection.2.3.2.7}%
 \contentsline {subsubsection}{\numberline {2.3.2.8}偏光角較正手法のまとめとスパースワイヤーグリッドの採用理由}{20}{subsubsection.2.3.2.8}%
-\contentsline {chapter}{\numberline {第3章}スパースワイヤーグリッドを用いた偏光角較正装置}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}金属ワイヤーによる偏光信号の生成原理}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}偏光角較正の原理}{22}{section.3.2}%
-\contentsline {section}{\numberline {3.3}較正装置の設計と特徴}{24}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}スパースワイヤーグリッドの設計}{24}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}回転機構}{26}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}切り替え機構}{26}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}重力参照計}{27}{subsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.4.1}重力参照計を用いた $\theta _{\mathrm {wire}}$ の測定}{27}{subsubsection.3.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.3.4.2}重力参照計の設置}{28}{subsubsection.3.3.4.2}%
-\contentsline {section}{\numberline {3.4}系統誤差}{30}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}ワイヤーの設置精度に伴う系統誤差}{30}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}エンコーダの測定精度に伴う系統誤差}{30}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}エンコーダの零点測定に伴う系統誤差}{30}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}重力参照計の精度に伴う系統誤差}{30}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}ワイヤーのたわみに伴う系統誤差}{31}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}系統誤差のまとめと本論文の位置付け}{31}{subsection.3.4.6}%
-\contentsline {chapter}{\numberline {第4章}重力参照計の評価}{32}{chapter.4}%
-\contentsline {section}{\numberline {4.1}要求精度と評価内容}{32}{section.4.1}%
-\contentsline {section}{\numberline {4.2}重力参照計の概要}{33}{section.4.2}%
-\contentsline {section}{\numberline {4.3}長期間測定における出力の安定性の評価}{33}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}評価手法}{33}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}評価結果とその考察}{34}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}温度変動による出力の変化の評価}{36}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}評価手法}{36}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}評価結果とその考察}{37}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}初期不良の検証}{39}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}評価系}{39}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}評価結果とその考察}{40}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}まとめと偏光角較正への影響}{41}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}まとめ}{41}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}偏光角較正への影響}{42}{subsection.4.6.2}%
-\contentsline {chapter}{\numberline {第5章}ワイヤーのたわみ量の自動評価装置の開発}{43}{chapter.5}%
-\contentsline {section}{\numberline {5.1}過去の測定手法における問題点とそれを解決する開発目標の設定}{43}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}過去の測定手法の概要}{43}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}過去の測定手法の問題点}{47}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}開発目標の設定}{47}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}評価系の概要と評価原理}{48}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}評価系の概要}{48}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}評価原理}{50}{subsection.5.2.2}%
-\contentsline {paragraph}{カメラの回転とストレートエッジの傾きによる効果}{52}{section*.61}%
-\contentsline {paragraph}{スパースワイヤーグリッドの回転による効果}{53}{section*.63}%
-\contentsline {section}{\numberline {5.3}解析手法}{54}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}解析の流れ}{54}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}スケーラのfitting}{54}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}ストレートエッジとワイヤーのfitting}{57}{subsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.3.1}ストレートエッジのfitting}{58}{subsubsection.5.3.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.3.2}ワイヤーのfitting}{60}{subsubsection.5.3.3.2}%
-\contentsline {subsection}{\numberline {5.3.4}$z$ の算出}{62}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}カテナリーでのfitting}{62}{subsection.5.3.5}%
-\contentsline {section}{\numberline {5.4}開発した評価装置の妥当性の検証}{64}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}検証手法}{64}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}評価結果とその考察}{65}{subsection.5.4.2}%
-\contentsline {section}{\numberline {5.5}まとめ}{66}{section.5.5}%
-\contentsline {chapter}{\numberline {第6章}スパースワイヤーグリッドのたわみ量の評価}{67}{chapter.6}%
-\contentsline {section}{\numberline {6.1}評価されたスパースワイヤーグリッドのワイヤーの張り方}{67}{section.6.1}%
-\contentsline {section}{\numberline {6.2}評価結果とその考察}{67}{section.6.2}%
-\contentsline {section}{\numberline {6.3}修繕後のスパースワイヤーグリッドの評価}{69}{section.6.3}%
-\contentsline {section}{\numberline {6.4}まとめと今後の展望}{70}{section.6.4}%
-\contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{71}{chapter.7}%
-\contentsline {section}{\numberline {7.1}まとめ}{71}{section.7.1}%
-\contentsline {section}{\numberline {7.2}今後の展望}{72}{section.7.2}%
-\contentsline {chapter}{\numberline {付 録A }ストークスパラメータ}{74}{appendix.A}%
-\contentsline {section}{\numberline {A.1}ストークスパラメータの定義}{74}{section.A.1}%
-\contentsline {section}{\numberline {A.2}座標回転に対するストークスパラメータの変換}{75}{section.A.2}%
+\contentsline {chapter}{\numberline {第3章}スパースワイヤーグリッドを用いた偏光角較正装置}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}金属ワイヤーによる偏光信号の生成原理}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.2}偏光角較正の原理}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}較正装置の設計と特徴}{25}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}スパースワイヤーグリッドの設計}{25}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}回転機構}{27}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}切り替え機構}{27}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}重力参照計}{28}{subsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.1}重力参照計を用いた $\theta _{\mathrm {wire}}$ の測定}{28}{subsubsection.3.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.3.4.2}重力参照計の設置}{29}{subsubsection.3.3.4.2}%
+\contentsline {section}{\numberline {3.4}系統誤差}{31}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}ワイヤーの設置精度に伴う系統誤差}{31}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}エンコーダの測定精度に伴う系統誤差}{31}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}エンコーダの零点測定に伴う系統誤差}{31}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}重力参照計の精度に伴う系統誤差}{31}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}ワイヤーのたわみに伴う系統誤差}{32}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}系統誤差のまとめと本論文の位置付け}{32}{subsection.3.4.6}%
+\contentsline {chapter}{\numberline {第4章}重力参照計の評価}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}要求精度と評価内容}{33}{section.4.1}%
+\contentsline {section}{\numberline {4.2}重力参照計の概要}{34}{section.4.2}%
+\contentsline {section}{\numberline {4.3}長期間測定における出力の安定性の評価}{34}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}評価手法}{34}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}評価結果とその考察}{35}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}温度変動による出力の変化の評価}{37}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}評価手法}{37}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}評価結果とその考察}{38}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}初期不良の検証}{40}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}評価系}{40}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}評価結果とその考察}{41}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}まとめと偏光角較正への影響}{42}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}まとめ}{42}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}偏光角較正への影響}{43}{subsection.4.6.2}%
+\contentsline {chapter}{\numberline {第5章}ワイヤーのたわみ量の自動評価装置の開発}{44}{chapter.5}%
+\contentsline {section}{\numberline {5.1}過去の測定手法における問題点とそれを解決する開発目標の設定}{44}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}過去の測定手法の概要}{44}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}過去の測定手法の問題点}{48}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}開発目標の設定}{48}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}評価系の概要と評価原理}{49}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}評価系の概要}{49}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}評価原理}{51}{subsection.5.2.2}%
+\contentsline {paragraph}{カメラの回転とストレートエッジの傾きによる効果}{53}{section*.62}%
+\contentsline {paragraph}{スパースワイヤーグリッドの回転による効果}{54}{section*.64}%
+\contentsline {section}{\numberline {5.3}解析手法}{55}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}解析の流れ}{55}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}スケーラのfitting}{55}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}ストレートエッジとワイヤーのfitting}{58}{subsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.3.1}ストレートエッジのfitting}{59}{subsubsection.5.3.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.3.2}ワイヤーのfitting}{61}{subsubsection.5.3.3.2}%
+\contentsline {subsection}{\numberline {5.3.4}$z$ の算出}{63}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}カテナリーでのfitting}{63}{subsection.5.3.5}%
+\contentsline {section}{\numberline {5.4}開発した評価装置の妥当性の検証}{65}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}検証手法}{65}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}評価結果とその考察}{66}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}まとめ}{67}{section.5.5}%
+\contentsline {chapter}{\numberline {第6章}スパースワイヤーグリッドのたわみ量の評価}{68}{chapter.6}%
+\contentsline {section}{\numberline {6.1}評価されたスパースワイヤーグリッドのワイヤーの張り方}{68}{section.6.1}%
+\contentsline {section}{\numberline {6.2}評価結果とその考察}{68}{section.6.2}%
+\contentsline {section}{\numberline {6.3}修繕後のスパースワイヤーグリッドの評価}{70}{section.6.3}%
+\contentsline {section}{\numberline {6.4}まとめと今後の展望}{71}{section.6.4}%
+\contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{72}{chapter.7}%
+\contentsline {section}{\numberline {7.1}まとめ}{72}{section.7.1}%
+\contentsline {section}{\numberline {7.2}今後の展望}{73}{section.7.2}%
+\contentsline {chapter}{\numberline {付 録A }ストークスパラメータ}{75}{appendix.A}%
+\contentsline {section}{\numberline {A.1}ストークスパラメータの定義}{75}{section.A.1}%
+\contentsline {section}{\numberline {A.2}座標回転に対するストークスパラメータの変換}{76}{section.A.2}%

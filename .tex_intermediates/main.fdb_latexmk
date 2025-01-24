@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex .tex_intermediates/main"] 1737679879 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1737679894 0
+["bibtex .tex_intermediates/main"] 1737681357 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1737683106 0
   "./refs.bib" 1737677862 43669 449b9aa9ae33894ab78e366d177d4568 ""
-  ".tex_intermediates/main.aux" 1737679893 67694 33004e6cc9185bccf7e963dd763aaeb9 "latex"
+  ".tex_intermediates/main.aux" 1737683104 69175 116265df84e799b2e2261982a3a7bbf9 "latex"
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   ".tex_intermediates/main.bbl"
   ".tex_intermediates/main.blg"
   (rewritten before read)
-["dvipdf"] 1737679893 "main.dvi" "main.pdf" "main" 1737679894 0
-  "main.dvi" 1737679893 390296 aee2b212efc59d443ee149870ec2f1c2 "latex"
+["dvipdf"] 1737683105 "main.dvi" "main.pdf" "main" 1737683106 0
+  "main.dvi" 1737683104 393896 fe20a743092e35a12baa0de0dd4ff3e0 "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1737679879 "main.tex" "main.dvi" "main" 1737679894 0
-  ".tex_intermediates/main.aux" 1737679893 67694 33004e6cc9185bccf7e963dd763aaeb9 "latex"
-  ".tex_intermediates/main.bbl" 1737679879 15703 8e85eecbb715065876f08401bc2a0d90 "bibtex .tex_intermediates/main"
-  ".tex_intermediates/main.out" 1737679893 13541 8f107f57c48a9313d7c344d65db83c0d "latex"
-  ".tex_intermediates/main.toc" 1737679893 9165 496f6ef97973ccbddf9b87d400bf4286 "latex"
+["latex"] 1737683092 "main.tex" "main.dvi" "main" 1737683106 0
+  ".tex_intermediates/main.aux" 1737683104 69175 116265df84e799b2e2261982a3a7bbf9 "latex"
+  ".tex_intermediates/main.bbl" 1737681357 15703 8e85eecbb715065876f08401bc2a0d90 "bibtex .tex_intermediates/main"
+  ".tex_intermediates/main.out" 1737683104 13541 8f107f57c48a9313d7c344d65db83c0d "latex"
+  ".tex_intermediates/main.toc" 1737683104 9165 2912fcb0e3bd502cb9a3ad85e039d446 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0600.tfm" 1136768653 1536 a00dc4928e5f91bd0b0c0839944035dd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0800.tfm" 1136768653 1536 f9f377d0a7a6ab86b894ea3edc27e42b ""
@@ -175,6 +175,7 @@
   "fig//simons_observatory/sat_angle.pdf" 1737318293 1105315 eb68da02748743f839d1c70b84fc38da ""
   "fig//simons_observatory/sat_baffle.pdf" 1737307820 2177050 0febd1bca76093a63a6874f1fc6274cf ""
   "fig//simons_observatory/sat_danmen.pdf" 1737306537 1592234 9ff010b4dbabc2b96dcb8d061cfd6a89 ""
+  "fig//simons_observatory/sat_tes.pdf" 1737680738 1760953 941732cc833eb2c112b53c67ce8dbc3e ""
   "fig//simons_observatory/so_noise_freq.pdf" 1737310614 382475 424ac2f36e29c14240bb39b401305ef2 ""
   "fig//simons_observatory/so_site.pdf" 1737310047 2226613 b20fa905418965d83b7787a99e32a66f ""
   "fig//tiltsensor/angleX_temp_dep.pdf" 1736430860 392778 c9bf1e1f483118f5a1f2304c8dee9de5 ""
@@ -252,17 +253,17 @@
   "fig//wiresag_swg/swg_sag_before.pdf" 1737622600 22910 4ec59baa5ce2e57fa79af54e5711dda5 ""
   "fig//wiresag_swg/swg_sag_comparison.pdf" 1737632031 26111 d580b921f97fad94a3d29f1081a1273c ""
   "main.tex" 1737591049 3135 bdf2c0fdf5d3000dba9402c370cc7927 ""
-  "sub/abstract/abstract.tex" 1737546730 3582 a7842f29724a501c36367c7941474aef ""
-  "sub/acknowledgement/acknowledgement.tex" 1734771423 156 75eabfb98aaf5970e88fb171241abf29 ""
+  "sub/abstract/abstract.tex" 1737682711 3660 02f4fc78537483e246b892f25bbe7f6b ""
+  "sub/acknowledgement/acknowledgement.tex" 1737683039 193 f766ec58aadfbe0e39642401f766b63e ""
   "sub/appendix/appendix.tex" 1736649885 6477 dd0e74c73ee903c52fcf0e3a869f48cf ""
   "sub/introduction/introduction.tex" 1737679637 22978 cf58153bd4fcb9a780bf3dc95526b706 ""
-  "sub/simons_observatory/simons_observatory.tex" 1737679863 27381 96b6c27bcf0c9c4a8383bd34354acd5c ""
-  "sub/summary/summary.tex" 1737547615 6517 ff7fdf2f0bc0208e8da9b6b84d8b6cba ""
+  "sub/simons_observatory/simons_observatory.tex" 1737681396 28353 5a65c07fce1de1d326c55acb69fbb627 ""
+  "sub/summary/summary.tex" 1737682094 7564 7fcce86e519c865b17f41e0bc7a45e72 ""
   "sub/tiltsensor/tiltsensor.tex" 1737678153 27863 e27822896ab9b3dd4822e0532b85cbf0 ""
   "sub/title/title.tex" 1737217245 703 9d2385cd2d7fe86b6f3ffc8b156d7c1a ""
   "sub/wiregrid/wiregrid.tex" 1737677532 28875 13371335fbd0c76cd056303504f3a7ba ""
   "sub/wiresag/wiresag.tex" 1737678456 54338 9d0a040a14e1362c4bf09f4e050e029a ""
-  "sub/wiresag_swg/wiresag_swg.tex" 1737632731 14148 f225ee95c3cf461b4cd0cb2d708099db ""
+  "sub/wiresag_swg/wiresag_swg.tex" 1737683082 14148 6d463cb1bd39505a83dce3ce823332a3 ""
   (generated)
   ".tex_intermediates/main.aux"
   ".tex_intermediates/main.log"

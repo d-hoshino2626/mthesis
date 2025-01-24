@@ -1053,6 +1053,9 @@ INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_angle.pdf
 INPUT ./fig//simons_observatory/sat_danmen.pdf
 INPUT ./fig//simons_observatory/sat_danmen.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_danmen.pdf
+INPUT ./fig//simons_observatory/sat_tes.pdf
+INPUT ./fig//simons_observatory/sat_tes.pdf
+INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_tes.pdf
 INPUT ./fig//simons_observatory/hwp_satoru.pdf
 INPUT ./fig//simons_observatory/hwp_satoru.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/hwp_satoru.pdf
