@@ -93,15 +93,10 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 図\ref{fig:timedrift_Xaxis}および\ref{fig:timedrift_Yaxis}に測定された温度と角度を日毎に平均をとった結果を示す。
 誤差として、各日のデータ群の標準偏差を示している。
 $X$ 軸については、日毎に平均された出力角度の平均が $-0.0598\tcdegree$ となり、その標準偏差は $0.0028\tcdegree$ であった。
-この結果から、時間変化による出力角度の変化の精度を $\delta\theta_{X,\mathrm{time}} = 0.003\tcdegree$ であると結論づける。
+この結果から、$X$軸の時間変化による出力角度の変化の精度を $\delta\theta_{X,\mathrm{time}} = 0.003\tcdegree$ であると結論づける。
 $Y$ 軸については、日毎に平均された出力角度の平均が $-0.012\tcdegree$ となり、その標準偏差は $0.034\tcdegree$ であった。
-この結果から、時間変化による出力角度の変化の精度を $\delta\theta_{Y,\mathrm{time}} = 0.034\tcdegree$ であると結論づける。
+この結果から、$Y$軸の時間変化による出力角度の変化の精度を $\delta\theta_{Y,\mathrm{time}} = 0.034\tcdegree$ であると結論づける。
 表\ref{tab:timedrift_result}にこれらの結果をまとめる。
-$Y$ 軸の結果は $X$ 軸の結果に比べ非常に大きな値となっている。
-図\ref{fig:timedrift_Yaxis}(\subref{fig:timedrift_tempY})と
-図\ref{fig:timedrift_Yaxis}(\subref{fig:timedrift_angleY})を見比べると
-温度の変動に伴って出力角度が大きく変化しており、この精度の違いは温度変動による出力角度の変化が $X$ 軸と $Y$ 軸で異なることが原因であると考えられる。
-次節の温度変動による出力の変化の評価にてこれを検証する。
 \begin{figure}[H]
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
@@ -150,6 +145,32 @@ $Y$ 軸の結果は $X$ 軸の結果に比べ非常に大きな値となって�
     \end{tabular}
     \label{tab:timedrift_result}
 \end{table}
+
+$Y$軸の長期間測定に対する精度は$X$軸のものに比べ非常に悪い値となっている。
+この原因を探るため、図\ref{}に示すように$X$軸と$Y$軸の温度変化に対する出力角度の変化を比較した。
+この図から、$X$軸は温度の変化に対する相関がほとんどないのに対し、$Y$軸は温度変化に対する相関が極めて強いことが見て取れる。
+すなわち、長期間測定に対する安定性として評価された$Y$軸の精度は温度変化による影響を強く受けており、
+$X$軸の精度よりも悪い結果となっていると考えられる。
+次節にて温度変動による出力の変化を恒温層を用いて詳細に評価する。
+\begin{figure}[H]
+    \begin{minipage}[b]{0.45\columnwidth}
+        \centering
+        \includegraphics[width=1.0\columnwidth]{tiltsensor/timedrift_tempY_daily.pdf}
+        \subcaption{}
+        \label{fig:timedrift_tempY}
+    \end{minipage}
+    \hspace{2mm}
+    \begin{minipage}[b]{0.49\columnwidth}
+        \centering
+        \includegraphics[width=0.985\columnwidth]{tiltsensor/timedrift_angleY_daily.pdf}
+        \subcaption{}
+        \label{fig:timedrift_angleY}
+    \end{minipage}
+    \caption{日毎に平均化された1ヶ月間の $Y$ 軸の温度と角度の変化。
+    (\subref{fig:timedrift_tempY}) $Y$ 軸の出力温度 $T_{Y}$ の変化。
+    (\subref{fig:timedrift_angleY}) $Y$ 軸の出力角度 $\theta_{Y}$ の変化。}
+    \label{fig:timedrift_Yaxis}
+\end{figure}
 
 \section{温度変動による出力の変化の評価}
 \subsection{評価手法}

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 07:57
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 08:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -660,74 +660,75 @@ LaTeX Warning: Reference `eq:so-hwp_fourier' on page 5 undefined on input line 1
 File: ../../fig//simons_observatory/hwp_satoru.pdf Graphic file (type pdf)
 <../../fig//simons_observatory/hwp_satoru.pdf>
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 143.
+(Font)              scaled to size 6.73553pt on input line 144.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 143.
+(Font)              scaled to size 4.8111pt on input line 144.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 143.
+(Font)              scaled to size 9.6222pt on input line 144.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 143.
+(Font)              scaled to size 6.73553pt on input line 144.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 143.
+(Font)              scaled to size 4.8111pt on input line 144.
 
-LaTeX Warning: Citation `takakura_PhD' on page 5 undefined on input line 143.
+LaTeX Warning: Citation `takakura_PhD' on page 5 undefined on input line 144.
 
 
-LaTeX Warning: Citation `takakura_PhD' on page 5 undefined on input line 143.
+LaTeX Warning: Citation `takakura_PhD' on page 5 undefined on input line 144.
 
 [5]
 
-LaTeX Warning: Citation `so:Keating_2013' on page 6 undefined on input line 159.
+LaTeX Warning: Citation `so:Keating_2013' on page 6 undefined on input line 160.
 
 
-LaTeX Warning: Citation `so:Kaufman_2014' on page 6 undefined on input line 159.
+LaTeX Warning: Citation `so:Kaufman_2014' on page 6 undefined on input line 160.
 
 [6]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 205.
+(Font)              scaled to size 8.65997pt on input line 206.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 205.
+(Font)              scaled to size 8.65997pt on input line 206.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 205.
+(Font)              scaled to size 8.65997pt on input line 206.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 205.
+(Font)              scaled to size 5.77332pt on input line 206.
 
 
-LaTeX Warning: Citation `so:Bryan_2018' on page 7 undefined on input line 213.
+LaTeX Warning: Citation `so:Bryan_2018' on page 7 undefined on input line 214.
 
 File: ../../fig//simons_observatory/EtoB_leakage.pdf Graphic file (type pdf)
 <../../fig//simons_observatory/EtoB_leakage.pdf>
-[7] [8]
+[7]
 
-LaTeX Warning: Citation `so:Zemcov_2010' on page 9 undefined on input line 240.
+LaTeX Warning: Citation `so:Zemcov_2010' on page 8 undefined on input line 241.
 
+[8]
 
-LaTeX Warning: Reference `sec:wiregrid_principle' on page 9 undefined on input line 263.
+LaTeX Warning: Reference `sec:wiregrid_principle' on page 9 undefined on input line 264.
 
 [9]
 
-LaTeX Warning: Citation `so:polarbear_cal' on page 10 undefined on input line 295.
+LaTeX Warning: Citation `so:polarbear_cal' on page 10 undefined on input line 296.
 
 
-LaTeX Warning: Citation `so:Leitch_2002' on page 10 undefined on input line 298.
+LaTeX Warning: Citation `so:Leitch_2002' on page 10 undefined on input line 299.
 
 
-LaTeX Warning: Citation `so:Takahashi_2008' on page 10 undefined on input line 300.
+LaTeX Warning: Citation `so:Takahashi_2008' on page 10 undefined on input line 301.
 
 
-LaTeX Warning: Citation `so:bicep2_syserr' on page 10 undefined on input line 302.
+LaTeX Warning: Citation `so:bicep2_syserr' on page 10 undefined on input line 303.
 
 
-LaTeX Warning: Citation `so:Hanson_2013' on page 10 undefined on input line 305.
+LaTeX Warning: Citation `so:Hanson_2013' on page 10 undefined on input line 306.
 
 
-LaTeX Warning: Citation `so:Kusaka_2018' on page 10 undefined on input line 308.
+LaTeX Warning: Citation `so:Kusaka_2018' on page 10 undefined on input line 309.
 
 
-LaTeX Warning: Citation `so:Bischoff_2011' on page 10 undefined on input line 312.
+LaTeX Warning: Citation `so:Bischoff_2011' on page 10 undefined on input line 313.
 
 
-LaTeX Warning: Citation `so:SPT3G' on page 10 undefined on input line 315.
+LaTeX Warning: Citation `so:SPT3G' on page 10 undefined on input line 316.
 
 [10] (.tex_intermediates/simons_observatory.aux)
 
@@ -745,4 +746,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  92i,15n,94p,400b,983s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/simons_observatory.dvi (10 pages, 48248 bytes).
+Output written on .tex_intermediates/simons_observatory.dvi (10 pages, 48368 bytes).

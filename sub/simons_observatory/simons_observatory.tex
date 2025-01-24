@@ -98,7 +98,7 @@ TESボロメータにはOMT(Ortho-Mode Transducer)とフィードホーンが取
 宇宙から降り注ぐCMBと望遠鏡の間には地球の大気がある。
 そして大気の無偏光熱放射は時事刻々と変化する(つまり、常に揺らいでいる)。
 これは大気による $1/f$ ノイズとして知られ、CMB偏光観測実験においては、このノイズとCMB偏光信号を分離することが重要である。
-SATでは、この大気による熱放射を取り除くために、極低温連続回転式半波長板(cryogenic continuously rotating Half-Wave Plate, 以後、単にHWPと呼ぶ)を用いる。\cite{so:hwp_yamada}
+SATでは、この大気による熱放射を取り除くために、極低温連続回転式半波長板(cryogenic continuously rotating Half-Wave Plate, 以後、単にHWPと呼ぶ)を用いる\cite{so:hwp_yamada}。
 
 一般に、HWPは複屈折の特性を持つ素材からなり、素子中のある決まった軸(光軸)に対して電場成分を反転させる。
 すなわち、HWPに入射する光の電場 $\bm{E}$ はHWPを通過することで
@@ -140,7 +140,8 @@ HWPの角振動数を$\omega_{\mathrm{HWP}}$とし、初期位相を$\chi_0$と�
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{simons_observatory/hwp_satoru.pdf}
-    \caption{HWPを通過することで偏光角が変化することを示した概念図~\cite{takakura_PhD}}
+    \caption{HWPを通過することで偏光角が変化することを示した概念図~\cite{takakura_PhD}。
+    左から右に向かって直線偏光がHWPを通過している。}
     \label{fig:so-hwp_satoru}
 \end{figure}
 
@@ -156,7 +157,7 @@ SOにおいての要求偏光角較正精度を定める。
     Q_{\mathrm{obs}} \pm iU_{\mathrm{obs}} &= e^{\pm i2\delta\theta}\qty(Q \pm iU) \\
     &= e^{\pm i2\delta\theta}\sum_{\ell=2}^{\infty}\sum_{m=-\ell}^{\ell} {}_{\pm 2}a_{\ell m}\ {}_{\pm 2}Y_{\ell m}(\theta, \phi)
 \end{align}
-とバイアスされた値となる。\cite{so:Keating_2013}\cite{so:Kaufman_2014}
+とバイアスされた値となる\cite{so:Keating_2013}\cite{so:Kaufman_2014}。
 Eモード、Bモード偏光を表現する係数 $a_{\ell m}^{E}, a_{\ell m}^{B}$ を用いると、
 スピン2の球面調和関数で展開する際の係数 ${}_{\pm 2}a_{\ell m}$ は
 \begin{equation}
@@ -215,7 +216,7 @@ $\delta\theta \leq 0.1\tcdegree$であればこの漏れ込みが生むテンソ
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{simons_observatory/EtoB_leakage.pdf}
+    \includegraphics[width=0.80\textwidth]{simons_observatory/EtoB_leakage.pdf}
     \caption{偏光角の誤較正が $C_{\ell}^{EE}$ から $C_{\ell}^{BB}$ への漏れ込みとして及ぼす影響。
     BICEP/KeckとPlanckの統合解析によって得られた$r=0.032$を上限とし、$r=0.001$までを描いた。}
     \label{fig:so-EtoBleakage}

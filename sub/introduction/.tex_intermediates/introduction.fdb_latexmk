@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1737522835 "introduction.dvi" "introduction.pdf" "introduction" 1737522835 0
-  "introduction.dvi" 1737522835 42132 c666a77a81b44a0bfd164849eb321014 "latex"
+["dvipdf"] 1737674474 "introduction.dvi" "introduction.pdf" "introduction" 1737674474 0
+  "introduction.dvi" 1737674474 42108 0776666f440baf9b54a42f75d3573ce6 "latex"
   (generated)
   "introduction.pdf"
   (rewritten before read)
-["latex"] 1737522832 "introduction.tex" "introduction.dvi" "introduction" 1737522835 0
+["latex"] 1737674472 "introduction.tex" "introduction.dvi" "introduction" 1737674474 0
   "../../fig//intro/Emode_Bmode.pdf" 1737502154 167086 790b831514c2133803e0a63a2b238085 ""
   "../../fig//intro/cobe.pdf" 1737371405 196817 146ac3b06193a945a8a5c32b2d79836f ""
   "../../fig//intro/gravitational_wave.pdf" 1737466946 329140 8d9b86e18bea370396e4a97af609f296 ""
@@ -15,9 +15,9 @@
   "../../fig//intro/tensor_pol_theta.pdf" 1737501061 180575 88d87d4d1cf471c95b577aa452185fa8 ""
   "../../fig//intro/tensor_polarization.pdf" 1737501115 935943 393ffb381169dc015fdcfb76ebb14d58 ""
   "../../fig//intro/thomson_polarization.pdf" 1737479144 593118 afdc448aba030e70cefe7c87e3c3fef1 ""
-  "../../main.tex" 1737337650 3156 19f6cef682a95fbd857fdcfe92136ed7 ""
-  ".tex_intermediates/introduction.aux" 1737522834 10181 6af524c8222c5ed85c02df9bebbc3a0e "latex"
-  ".tex_intermediates/introduction.out" 1737522835 1741 4a50532df05ec864649504af2d62144b "latex"
+  "../../main.tex" 1737591049 3135 bdf2c0fdf5d3000dba9402c370cc7927 ""
+  ".tex_intermediates/introduction.aux" 1737674474 10181 443161f8f010df00f140748c1b80e823 "latex"
+  ".tex_intermediates/introduction.out" 1737674474 1741 4a50532df05ec864649504af2d62144b "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -150,7 +150,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "introduction.tex" 1737522830 22544 49b80ffc9f628de0619afa1040cbd6a6 ""
+  "introduction.tex" 1737674470 22550 b7f738742737e6eaeb7a4cc945e65744 ""
   (generated)
   ".tex_intermediates/introduction.aux"
   ".tex_intermediates/introduction.log"
