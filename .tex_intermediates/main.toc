@@ -72,7 +72,7 @@
 \contentsline {subsection}{\numberline {5.3.3}ストレートエッジとワイヤーのfitting}{58}{subsection.5.3.3}%
 \contentsline {subsubsection}{\numberline {5.3.3.1}ストレートエッジのfitting}{59}{subsubsection.5.3.3.1}%
 \contentsline {subsubsection}{\numberline {5.3.3.2}ワイヤーのfitting}{61}{subsubsection.5.3.3.2}%
-\contentsline {subsection}{\numberline {5.3.4}$z$ の算出}{63}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.4}$z$ の算出}{62}{subsection.5.3.4}%
 \contentsline {subsection}{\numberline {5.3.5}カテナリーでのfitting}{63}{subsection.5.3.5}%
 \contentsline {section}{\numberline {5.4}開発した評価装置の妥当性の検証}{65}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}検証手法}{65}{subsection.5.4.1}%

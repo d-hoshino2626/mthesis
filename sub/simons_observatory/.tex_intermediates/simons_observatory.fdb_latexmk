@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1737683566 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1737683566 0
-  "simons_observatory.dvi" 1737683566 50548 1c72c016e16a20b81a4a3949f60fbddd "latex"
+["dvipdf"] 1737686306 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1737686306 0
+  "simons_observatory.dvi" 1737686306 50568 ac4cfaa3d3b341db797bacb482232d26 "latex"
   (generated)
   "simons_observatory.pdf"
   (rewritten before read)
-["latex"] 1737683564 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1737683566 0
+["latex"] 1737686304 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1737686306 0
   "../../fig//simons_observatory/EtoB_leakage.pdf" 1737672345 579489 137ea6a4cd2b3c711a83b4c6627ec472 ""
   "../../fig//simons_observatory/hwp_satoru.pdf" 1737316523 712020 4eda6f859ce352a3e070c97dc02bf71a ""
   "../../fig//simons_observatory/sat_angle.pdf" 1737318293 1105315 eb68da02748743f839d1c70b84fc38da ""
@@ -13,9 +13,9 @@
   "../../fig//simons_observatory/sat_tes.pdf" 1737680738 1760953 941732cc833eb2c112b53c67ce8dbc3e ""
   "../../fig//simons_observatory/so_noise_freq.pdf" 1737310614 382475 424ac2f36e29c14240bb39b401305ef2 ""
   "../../fig//simons_observatory/so_site.pdf" 1737310047 2226613 b20fa905418965d83b7787a99e32a66f ""
-  "../../main.tex" 1737591049 3135 bdf2c0fdf5d3000dba9402c370cc7927 ""
-  ".tex_intermediates/simons_observatory.aux" 1737683566 8904 fcb1edb137690df3a0d064a23748138d "latex"
-  ".tex_intermediates/simons_observatory.out" 1737683566 1603 927ef66d742629407f9355fe71a5306f "latex"
+  "../../main.tex" 1737686000 3135 bdf2c0fdf5d3000dba9402c370cc7927 ""
+  ".tex_intermediates/simons_observatory.aux" 1737686306 8910 47abf99eb8d9cd7f7c26eef0378c1875 "latex"
+  ".tex_intermediates/simons_observatory.out" 1737686306 1603 927ef66d742629407f9355fe71a5306f "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -154,7 +154,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "simons_observatory.tex" 1737683564 28352 10e629b569aeb4156ec59b02c76bf130 ""
+  "simons_observatory.tex" 1737686304 28353 8ff43f9b02f5b316810f1055cd171855 ""
   (generated)
   ".tex_intermediates/simons_observatory.aux"
   ".tex_intermediates/simons_observatory.log"
