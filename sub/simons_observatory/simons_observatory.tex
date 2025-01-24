@@ -17,11 +17,12 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{simons_observatory/so_site.pdf}
-    \caption{Simons Observatory実験の概観}
+    \caption{Simons Observatory実験の観測サイトの概観。
+    左側に3台並んで建設されているのがSATであり、右側手前に1台建設されているのがLATである。}
     \label{fig:so_site}
 \end{figure}
 
-立体角 $\Omega$ 、開口面積 $A$、観測波長 $\lambda$ について、回折限界の関係式\cite{denpatenmongaku}
+立体角 $\Omega$ 、開口面積 $A$、観測波長 $\lambda$ について、回折限界の関係式\cite{text_radioastro}
 \begin{equation}
     \Omega \approx \dfrac{\lambda^2}{A}
 \end{equation}
@@ -39,7 +40,7 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{simons_observatory/so_noise_freq.pdf}
-    \caption{SATの観測帯域と、CMB偏光信号、ダスト放射、シンクロトロン放射の輝度温度の周波数依存性の比較}
+    \caption{SATの観測帯域と、CMB偏光信号、ダスト放射、シンクロトロン放射の輝度温度の周波数依存性の比較。}
     \label{fig:so_noise_freq}
 \end{figure}
 
@@ -55,14 +56,14 @@ SATはelevationと呼ばれる仰角方向の角度と、azimuthと呼ばれる�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{simons_observatory/sat_baffle.pdf}
-    \caption{SATのもつ3つのバッフル群の概観}
+    \caption{SATのもつ3つのバッフル群。これらのバッフルによって、地面からの熱放射や近隣の山からの照り返しに由来するノイズを削減する。}
     \label{fig:so-sat_baffle}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{simons_observatory/sat_angle.pdf}
-    \caption{SATの回転軸の概観}
-    \label{fig:so-sat_angle}    
+    \includegraphics[width=0.65\textwidth]{simons_observatory/sat_angle.pdf}
+    \caption{SATの回転軸。$\mathrm{Elevation}=50\tcdegree$がSATの基本姿勢である。}
+    \label{fig:so-sat_angle}
 \end{figure}
 
 図\ref{fig:so-sat}にSATの受信機部分の断面図を示す。
@@ -125,10 +126,10 @@ HWPの角振動数を$\omega_{\mathrm{HWP}}$とし、初期位相を$\chi_0$と�
     \label{eq:so-hwp_modulation}
     d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0 - 2\theta_{\mathrm{det}})}]
 \end{equation}
-となる。この式はその偏光角がほとんど時間変化しない $\Omega\sim0$ であるような信号 $Q_{\mathrm{in}}+iU_{\mathrm{in}}$ がHWPを通過することで、
-周波数 $\Omega + 4\omega_{\mathrm{HWP}} \sim 4\omega_{\mathrm{HWP}}$ のところに変調されることを示している。
-このようにして、元々 $1/f$ ノイズが大きかった低周波帯の信号を、ノイズの少ない高周波帯に変換できる。
-式\eqref{eq:so-hwp_fourier}より、$Q_{\mathrm{in}}+iU_{\mathrm{in}}$ を得るためには、$+4\omega_{\mathrm{HWP}}$ のまわりのみを通すバンドパスフィルタ $\mathcal{F}^{\mathrm{BPF}}$ を通した後、2倍して位相を元に戻せば良い。
+となる。この式はその偏光角がほとんど時間変化しない信号$Q_{\mathrm{in}}+iU_{\mathrm{in}}$がHWPを通過することで、
+周波数$4\omega_{\mathrm{HWP}}$のところに変調されることを示している。
+このようにして、元々$1/f$ノイズが大きかった低周波帯の信号を、ノイズの少ない高周波帯に変換できる。
+$Q_{\mathrm{in}}+iU_{\mathrm{in}}$を得るためには、$+4\omega_{\mathrm{HWP}}$ のまわりのみを通すバンドパスフィルタ$\mathcal{F}^{\mathrm{BPF}}$を通した後、2倍して位相を元に戻せば良い。
 つまり、復調後に得られる信号 $d_{\mathrm{d, det}}$ は
 \begin{align}
     d_{\mathrm{d, det}}(t) &= \mathcal{F}^{\mathrm{BPF}}\qty[d_{\mathrm{m,det}}(t)]\times 2\exp\qty{i\qty(4\omega_{\mathrm{HWP}}t + 4\chi_0)} \\

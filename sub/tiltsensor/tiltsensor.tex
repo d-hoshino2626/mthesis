@@ -147,29 +147,30 @@ $Y$ 軸については、日毎に平均された出力角度の平均が $-0.01
 \end{table}
 
 $Y$軸の長期間測定に対する精度は$X$軸のものに比べ非常に悪い値となっている。
-この原因を探るため、図\ref{}に示すように$X$軸と$Y$軸の温度変化に対する出力角度の変化を比較した。
+この原因を探るため、図\ref{fig:timedrift_tempcorr}に示すように$X$軸と$Y$軸の温度変化に対する出力角度の変化を比較した。
 この図から、$X$軸は温度の変化に対する相関がほとんどないのに対し、$Y$軸は温度変化に対する相関が極めて強いことが見て取れる。
 すなわち、長期間測定に対する安定性として評価された$Y$軸の精度は温度変化による影響を強く受けており、
 $X$軸の精度よりも悪い結果となっていると考えられる。
 次節にて温度変動による出力の変化を恒温層を用いて詳細に評価する。
 \begin{figure}[H]
-    \begin{minipage}[b]{0.45\columnwidth}
+    \begin{minipage}[b]{0.49\columnwidth}
         \centering
-        \includegraphics[width=1.0\columnwidth]{tiltsensor/timedrift_tempY_daily.pdf}
+        \includegraphics[width=0.985\columnwidth]{tiltsensor/timedrift_angleX_tempX.pdf}
         \subcaption{}
-        \label{fig:timedrift_tempY}
+        \label{fig:timedrift_angleX_tempcorr}
     \end{minipage}
     \hspace{2mm}
     \begin{minipage}[b]{0.49\columnwidth}
         \centering
-        \includegraphics[width=0.985\columnwidth]{tiltsensor/timedrift_angleY_daily.pdf}
+        \includegraphics[width=0.985\columnwidth]{tiltsensor/timedrift_angleY_tempY.pdf}
         \subcaption{}
-        \label{fig:timedrift_angleY}
+        \label{fig:timedrift_angleY_tempcorr}
     \end{minipage}
-    \caption{日毎に平均化された1ヶ月間の $Y$ 軸の温度と角度の変化。
-    (\subref{fig:timedrift_tempY}) $Y$ 軸の出力温度 $T_{Y}$ の変化。
-    (\subref{fig:timedrift_angleY}) $Y$ 軸の出力角度 $\theta_{Y}$ の変化。}
-    \label{fig:timedrift_Yaxis}
+    \caption{出力角度の温度変化に対する影響。
+    (\subref{fig:timedrift_angleX_tempcorr}) $X$軸の温度変化に対する出力角度$\theta_{X}$の変動。
+    (\subref{fig:timedrift_angleY_tempcorr}) $Y$軸の温度変化に対する出力角度$\theta_{Y}$の変動。
+    $Y$軸の温度相関が極めて強いことが見て取れる。}
+    \label{fig:timedrift_tempcorr}
 \end{figure}
 
 \section{温度変動による出力の変化の評価}
@@ -391,7 +392,9 @@ $Y$ 軸は初期不良により要求を満たさなかったが、修理によ�
 ただし、$\delta\theta_{\mathrm{sens}}$は望遠鏡の姿勢、すなわちelevationとboresightの値によって変動する。
 なぜなら、望遠鏡の姿勢の変化は$\theta_{X},\,\theta_{Y}$の値を変えるからである。
 ここでは較正が行われる基本姿勢である$\mathrm{elevation}=50\tcdegree$と、$\mathrm{boresight}=0\tcdegree$のときを
-仮定して$\delta\theta_{\mathrm{sens}}$を算出する。望遠鏡がこの姿勢のとき、$\theta_{X}=\theta_{Y}=0$となるようにスロープを切った治具をつけているので(\ref{}項参照)
+仮定して$\delta\theta_{\mathrm{sens}}$を算出する。望遠鏡がこの姿勢のとき、
+$\theta_{X}=\theta_{Y}=0$となるようにスロープを切った治具をつけているので、
+(\ref{subsubsec:wg_tiltsensor_slope}項を参照)
 \begin{equation}
     \delta\theta_{\mathrm{sens}} \simeq 0.057\tcdegree
 \end{equation}

@@ -978,15 +978,6 @@ INPUT extractbb -B cropbox -O ../../fig//simons_observatory/sat_baffle.pdf
 INPUT ../../fig//simons_observatory/sat_angle.pdf
 INPUT ../../fig//simons_observatory/sat_angle.pdf
 INPUT extractbb -B cropbox -O ../../fig//simons_observatory/sat_angle.pdf
-INPUT ../../fig//simons_observatory/sat_danmen.pdf
-INPUT ../../fig//simons_observatory/sat_danmen.pdf
-INPUT extractbb -B cropbox -O ../../fig//simons_observatory/sat_danmen.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
-INPUT ../../fig//simons_observatory/hwp_satoru.pdf
-INPUT ../../fig//simons_observatory/hwp_satoru.pdf
-INPUT extractbb -B cropbox -O ../../fig//simons_observatory/hwp_satoru.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
@@ -1001,6 +992,15 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
+INPUT ../../fig//simons_observatory/sat_danmen.pdf
+INPUT ../../fig//simons_observatory/sat_danmen.pdf
+INPUT extractbb -B cropbox -O ../../fig//simons_observatory/sat_danmen.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
+INPUT ../../fig//simons_observatory/hwp_satoru.pdf
+INPUT ../../fig//simons_observatory/hwp_satoru.pdf
+INPUT extractbb -B cropbox -O ../../fig//simons_observatory/hwp_satoru.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm

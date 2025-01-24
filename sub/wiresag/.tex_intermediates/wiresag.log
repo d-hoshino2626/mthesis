@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 04:18
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 09:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,18 +685,9 @@ File: ../../fig//wiresag/wiresag_system_front.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_system_front.pdf>
 File: ../../fig//wiresag/wiresag_pictures.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_pictures.pdf>
-[6]
+[6] [7]
 
-LaTeX Warning: Reference `' on page 7 undefined on input line 202.
-
-
-Overfull \hbox (42.09702pt too wide) in paragraph at lines 206--224
- [][] 
- []
-
-[7]
-
-LaTeX Warning: Citation `swg:murata' on page 8 undefined on input line 241.
+LaTeX Warning: Citation `swg:murata' on page 8 undefined on input line 242.
 
 [8]
 File: ../../fig//wiresag/wiresag_concept.pdf Graphic file (type pdf)
@@ -732,7 +723,7 @@ File: ../../fig//wiresag/wiresag_straight_edge_positions_line.pdf Graphic file (
 File: ../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 527--541
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 528--542
 [][] [] 
  []
 
@@ -744,17 +735,17 @@ File: ../../fig//wiresag/wiresag_wire_positions.pdf Graphic file (type pdf)
 File: ../../fig//wiresag/wiresag_wire_positions_rot.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_wire_positions_rot.pdf>
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 568--582
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 569--583
 [][] [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 586.
+(hyperref)                removing `math shift' on input line 587.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 586.
+(hyperref)                removing `math shift' on input line 587.
 
 [19]
 File: ../../fig//wiresag/wiresag_wire_se_positions_diff.pdf Graphic file (type pdf)
@@ -769,7 +760,7 @@ File: ../../fig//wiresag/wiresag_performance_check_system.pdf Graphic file (type
 <../../fig//wiresag/wiresag_performance_check_system.pdf>
  [22]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 676.
+(Font)              scaled to size 4.8111pt on input line 677.
 File: ../../fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_performance_check_result.pdf>
  [23] [24] (.tex_intermediates/wiresag.aux)
@@ -781,11 +772,11 @@ Package rerunfilecheck Info: File `wiresag.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  17861 strings out of 476677
- 348642 string characters out of 5804957
+ 348663 string characters out of 5804957
  1856490 words of memory out of 5000000
  38035 multiletter control sequences out of 15000+600000
  566579 words of font info for 133 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,17n,94p,728b,985s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (24 pages, 84100 bytes).
+Output written on .tex_intermediates/wiresag.dvi (24 pages, 84196 bytes).

@@ -3,51 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "denpatenmongaku"
 Warning--empty school in takakura_PhD
 Warning--empty school in swg:murata
 Warning--empty school in swg:nakata
 Warning--empty school in swg:iijima
-You've used 33 entries,
+You've used 34 entries,
             1791 wiz_defined-function locations,
-            675 strings with 19401 characters,
-and the built_in function-call counts, 14049 in all, are:
-= -- 596
-> -- 1964
+            679 strings with 19504 characters,
+and the built_in function-call counts, 14234 in all, are:
+= -- 611
+> -- 1975
 < -- 5
-+ -- 666
-- -- 633
-* -- 1598
-:= -- 2778
-add.period$ -- 101
-call.type$ -- 33
-change.case$ -- 34
++ -- 670
+- -- 636
+* -- 1608
+:= -- 2808
+add.period$ -- 104
+call.type$ -- 34
+change.case$ -- 35
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 322
-empty$ -- 672
-format.name$ -- 633
-if$ -- 2628
+cite$ -- 38
+duplicate$ -- 332
+empty$ -- 691
+format.name$ -- 636
+if$ -- 2671
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 28
-newline$ -- 166
-num.names$ -- 39
-pop$ -- 79
+int.to.str$ -- 34
+missing$ -- 30
+newline$ -- 171
+num.names$ -- 40
+pop$ -- 85
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 141
+skip$ -- 143
 stack$ -- 0
 substring$ -- 324
-swap$ -- 69
+swap$ -- 70
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 65
-width$ -- 35
-write$ -- 360
+while$ -- 66
+width$ -- 36
+write$ -- 371
 is.kanji.str$ -- 0
-(There were 5 warnings)
+(There were 4 warnings)

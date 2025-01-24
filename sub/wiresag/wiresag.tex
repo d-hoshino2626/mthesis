@@ -199,7 +199,7 @@
 複数の位置で撮影することにより、ワイヤー両端と中心でしか撮影していなかった過去の手法よりも高い精度でたわみ量を評価することができる。
 また、カメラを動かすアクチュエータのレール下にはLEDテープライトを取り付け、撮影時にワイヤーを一様に照らすことで、
 撮影位置によって光量が変わることがないようにした。
-表\ref{}に、使用した機材の詳細をまとめる。
+表\ref{tab:wiresag_equipment}に、使用した機材の詳細をまとめる。
 \begin{table}[H]
     \centering
     \caption{使用した機材の詳細。}
@@ -209,18 +209,19 @@
         \hline
         ストレートエッジ & 大西測定株式会社 & 140-1000B \\
         \hline
-        アクチュエータ & \multirow{2}{*}{Openbuilds} & \multirow{2}{*}{V-Slot NEMA 17 Linear Actuator (Belt Driven)} \\
-        (カメラ用) & & \\
+        アクチュエータ & \multirow{2}{*}{Openbuilds} & V-Slot NEMA 17 Linear Actuator\\
+        (カメラ用) & & (Belt Driven) \\
         \hline
-        アクチュエータ & \multirow{2}{*}{Openbuilds} & \multirow{2}{*}{V-Slot NEMA 23 Linear Actuator (Belt Driven)} \\
-        (スパースワイヤーグリッド用) & & \\
+        アクチュエータ & \multirow{2}{*}{Openbuilds} & V-Slot NEMA 23 Linear Actuator \\
+        (スパースワイヤーグリッド用) & & (Belt Driven) \\
         \hline
-        ステッピングモーター & \multirow{2}{*}{Openbuilds} & \multirow{2}{*}{NEMA 23 Stepper Motor - High Torque Series} \\
-        (スパースワイヤーグリッド用) & & \\
+        ステッピングモーター & \multirow{2}{*}{Openbuilds} & NEMA 23 Stepper Motor \\
+        (スパースワイヤーグリッド用) & & - High Torque Series \\
         \hline
         アクチュエータコントローラ & Galil & DMC-4020 \\
         \hline\hline
     \end{tabular}
+    \label{tab:wiresag_equipment}
 \end{table}
 \subsection{評価原理}
 \label{subsec:wiresag_principle}

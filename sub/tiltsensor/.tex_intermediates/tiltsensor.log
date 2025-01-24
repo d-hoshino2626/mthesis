@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 08:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 09:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,23 +490,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 LaTeX Info: Redefining \cite on input line 59.
 ))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
- (.tex_intermediates/tiltsensor.aux
-
-LaTeX Warning: Label `fig:timedrift_tempY' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:timedrift_tempY' multiply defined.
-
-
-LaTeX Warning: Label `fig:timedrift_angleY' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:timedrift_angleY' multiply defined.
-
-
-LaTeX Warning: Label `fig:timedrift_Yaxis' multiply defined.
-
-)
+ (.tex_intermediates/tiltsensor.aux)
 \openout1 = `tiltsensor.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -663,19 +647,21 @@ File: ../../fig//tiltsensor/timedrift_tempY_daily.pdf Graphic file (type pdf)
 File: ../../fig//tiltsensor/timedrift_angleY_daily.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/timedrift_angleY_daily.pdf>
  [3]
+File: ../../fig//tiltsensor/timedrift_angleX_tempX.pdf Graphic file (type pdf)
+<../../fig//tiltsensor/timedrift_angleX_tempX.pdf>
+File: ../../fig//tiltsensor/timedrift_angleY_tempY.pdf Graphic file (type pdf)
+<../../fig//tiltsensor/timedrift_angleY_tempY.pdf>
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 150.
+Overfull \hbox (1.45732pt too wide) in paragraph at lines 156--172
+[][]   [] 
+ []
 
-File: ../../fig//tiltsensor/timedrift_tempY_daily.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/timedrift_tempY_daily.pdf>
-File: ../../fig//tiltsensor/timedrift_angleY_daily.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/timedrift_angleY_daily.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 185.
+(Font)              scaled to size 7.69775pt on input line 186.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 185.
+(Font)              scaled to size 8.65997pt on input line 186.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 185.
+(Font)              scaled to size 5.77332pt on input line 186.
 [4]
 File: ../../fig//tiltsensor/temp_evaluation_system.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/temp_evaluation_system.pdf>
@@ -689,28 +675,28 @@ File: ../../fig//tiltsensor/camera_m18degC.pdf Graphic file (type pdf)
 File: ../../fig//tiltsensor/bath_tempX.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/bath_tempX.pdf>
 
-Overfull \hbox (20.48709pt too wide) in paragraph at lines 251--252
+Overfull \hbox (20.48709pt too wide) in paragraph at lines 252--253
  [][] 
  []
 
 File: ../../fig//tiltsensor/angleX_temp_dep.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/angleX_temp_dep.pdf>
 
-Overfull \hbox (13.31628pt too wide) in paragraph at lines 258--259
+Overfull \hbox (13.31628pt too wide) in paragraph at lines 259--260
  [][] 
  []
 
 File: ../../fig//tiltsensor/bath_tempY.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/bath_tempY.pdf>
 
-Overfull \hbox (20.48709pt too wide) in paragraph at lines 270--271
+Overfull \hbox (20.48709pt too wide) in paragraph at lines 271--272
  [][] 
  []
 
 File: ../../fig//tiltsensor/angleY_temp_dep.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/angleY_temp_dep.pdf>
 
-Overfull \hbox (6.1455pt too wide) in paragraph at lines 277--278
+Overfull \hbox (6.1455pt too wide) in paragraph at lines 278--279
  [][] 
  []
 
@@ -728,28 +714,25 @@ File: ../../fig//tiltsensor/angleY_huryou_test.pdf Graphic file (type pdf)
 <../../fig//tiltsensor/angleY_huryou_test.pdf>
  [9]
 
-LaTeX Warning: Reference `eq:wg_theta_sens' on page 10 undefined on input line 387.
+LaTeX Warning: Reference `eq:wg_theta_sens' on page 10 undefined on input line 388.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 394.
+LaTeX Warning: Reference `subsubsec:wg_tiltsensor_slope' on page 10 undefined on input line 397.
 
 [10] [11] (.tex_intermediates/tiltsensor.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `tiltsensor.out' has not changed.
 (rerunfilecheck)             Checksum: E03CB6741FC831B05EF0AC77E662344C;2370.
  ) 
 Here is how much of TeX's memory you used:
- 17773 strings out of 476677
- 344646 string characters out of 5804957
+ 17791 strings out of 476677
+ 345458 string characters out of 5804957
  1870490 words of memory out of 5000000
- 37962 multiletter control sequences out of 15000+600000
+ 37978 multiletter control sequences out of 15000+600000
  564681 words of font info for 126 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,13n,94p,455b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,13n,94p,506b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/tiltsensor.dvi (11 pages, 48748 bytes).
+Output written on .tex_intermediates/tiltsensor.dvi (11 pages, 48992 bytes).

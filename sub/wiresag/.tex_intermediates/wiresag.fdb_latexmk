@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1737659940 "wiresag.dvi" "wiresag.pdf" "wiresag" 1737659940 0
-  "wiresag.dvi" 1737659940 84100 d4e063b8509af0ba36e65c6f23e894e5 "latex"
+["dvipdf"] 1737678463 "wiresag.dvi" "wiresag.pdf" "wiresag" 1737678463 0
+  "wiresag.dvi" 1737678463 84196 e6e50b8d72d6a4571b8469f1b02236f6 "latex"
   (generated)
   "wiresag.pdf"
   (rewritten before read)
-["latex"] 1737659935 "wiresag.tex" "wiresag.dvi" "wiresag" 1737659940 0
+["latex"] 1737678459 "wiresag.tex" "wiresag.dvi" "wiresag" 1737678463 0
   "../../fig//wiregrid/wiresag_picture_old.pdf" 1736039654 2778040 5a3ac617a7a3fef3e4e4f0bb82b11efa ""
   "../../fig//wiregrid/wiresag_result_old.pdf" 1736754342 249068 56a5a1f14204d4810b7e4e033a49c74e ""
   "../../fig//wiregrid/wiresag_setup_old.pdf" 1736033058 439879 b630e8850ca4116a8b7428165d89749c ""
@@ -36,8 +36,8 @@
   "../../fig//wiresag/wiresag_wire_positions_rot.pdf" 1737098275 27872 9917e41529125e6ced43616c3c1b68cb ""
   "../../fig//wiresag/wiresag_wire_se_positions_diff.pdf" 1737098283 26773 625e0e6e7330f28c1bea7785e9515eef ""
   "../../main.tex" 1737591049 3135 bdf2c0fdf5d3000dba9402c370cc7927 ""
-  ".tex_intermediates/wiresag.aux" 1737659940 18805 bfbfc615ab879203967cf370e7f99bf0 "latex"
-  ".tex_intermediates/wiresag.out" 1737659940 3094 9e1f584ffba93b4c1d149709d8c9968a "latex"
+  ".tex_intermediates/wiresag.aux" 1737678463 18907 460450a82f6a15968bae13e62f8d2e13 "latex"
+  ".tex_intermediates/wiresag.out" 1737678463 3094 9e1f584ffba93b4c1d149709d8c9968a "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -178,7 +178,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiresag.tex" 1737659933 54335 202677c033601866a0ecd94109b93374 ""
+  "wiresag.tex" 1737678456 54338 9d0a040a14e1362c4bf09f4e050e029a ""
   (generated)
   ".tex_intermediates/wiresag.aux"
   ".tex_intermediates/wiresag.log"

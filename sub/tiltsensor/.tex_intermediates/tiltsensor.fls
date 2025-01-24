@@ -1002,10 +1002,12 @@ INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_tempY_daily.pdf
 INPUT ../../fig//tiltsensor/timedrift_angleY_daily.pdf
 INPUT ../../fig//tiltsensor/timedrift_angleY_daily.pdf
 INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_angleY_daily.pdf
-INPUT ../../fig//tiltsensor/timedrift_tempY_daily.pdf
-INPUT ../../fig//tiltsensor/timedrift_tempY_daily.pdf
-INPUT ../../fig//tiltsensor/timedrift_angleY_daily.pdf
-INPUT ../../fig//tiltsensor/timedrift_angleY_daily.pdf
+INPUT ../../fig//tiltsensor/timedrift_angleX_tempX.pdf
+INPUT ../../fig//tiltsensor/timedrift_angleX_tempX.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_angleX_tempX.pdf
+INPUT ../../fig//tiltsensor/timedrift_angleY_tempY.pdf
+INPUT ../../fig//tiltsensor/timedrift_angleY_tempY.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_angleY_tempY.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm

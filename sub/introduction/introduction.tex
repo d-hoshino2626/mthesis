@@ -17,13 +17,14 @@ CMBの強度が天球面上の各点においてわずかな違いはあれど�
 本章では、はじめに現在の標準的な宇宙モデルである$\Lambda\mathrm{CDM}$モデルの概要と抱える問題について述べ、
 次いでその問題の解決策としてインフレーションモデルについて述べる。
 その後、インフレーション由来が増幅する時空の歪みが、
-CMBの温度異方性と偏光パターンにどのような変化をもたらすかについて述べ、最後に本論文の構成について述べる。
-
-\colortext{red}{最後の本章で〜の部分は最後に考える。}
+CMBの温度異方性と偏光パターンにどのような変化をもたらすかについて述べ、
+宇宙初期においてBモード偏光パターンが原始重力波によって生じることを紹介する。
+最後に本論文の構成について述べる。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{intro/cobe.pdf}
-    \caption{COBE衛星によるCMBのスペクトル測定値を黒体輻射のスペクトルでfittingした結果。}
+    \caption{COBE衛星によるCMBのスペクトル測定値を黒体輻射のスペクトルでfittingした結果。
+    横軸は周波数を表し、縦軸は輝度を表す。}
     \label{fig:cobe}
 \end{figure}
 
@@ -53,7 +54,7 @@ CMBの温度異方性と偏光パターンにどのような変化をもたら�
     \dot{\rho}+3\dfrac{\dot{a}}{a}(\rho+P)=0
 \end{equation}
 を得る。
-式\eqref{eq:rwmetric}、式\eqref{eq:emtensor}を式\eqref{eq:einstein}に代入し、$(0,\,0)$に注目すると
+式\eqref{eq:rwmetric}、式\eqref{eq:emtensor}を式\eqref{eq:einstein}に代入し、$(0,\,0)$成分に注目すると
 \begin{align}
     \label{eq:friedmann}
     H^2:=\qty(\dfrac{\dot{a}}{a})^2 &= \dfrac{8\pi G}{3}\rho+\dfrac{\Lambda}{3}-\dfrac{K}{a^2}
@@ -80,10 +81,10 @@ CMBの温度異方性と偏光パターンにどのような変化をもたら�
     \label{eq:omegaconstraint}
     \Omega_{m}+\Omega_{r}+\Omega_{\Lambda}+\Omega_{K}=1
 \end{equation}
-を満たすが、これまでのCMBの観測は$\Omega_{m}+\Omega_{r}+\Omega_{\Lambda}=1$という結果を示しているため、宇宙は平坦であると考えられている\cite{Bennett_2003}。
+を満たすが、これまでのCMBの観測は$\Omega_{m}+\Omega_{r}+\Omega_{\Lambda}=1$という結果を示しているため、
+$\Omega_{K}=0$であり、宇宙は平坦であると考えられている\cite{Bennett_2003}。
 
-
-$\Lambda\mathrm{CDM}$モデルには、以下の3つの問題をもつ。
+$\Lambda\mathrm{CDM}$モデルは、以下の3つの問題をもつ。
 \begin{enumerate}
     \item 地平線問題：CMBの温度揺らぎは天球面上のどの方向を見ても$\Delta T/T\sim 10^{-5}$と非常に小さい。
     これは因果関係を持たないはずの2点の温度が高い精度で一致していることを意味しており、$\Lambda\mathrm{CDM}$モデルはこの理由を説明できない。
@@ -131,7 +132,8 @@ $\Lambda\mathrm{CDM}$モデルには、以下の3つの問題をもつ。
 \end{align}
 のように指数関数的に増大していく。ここで、$t$はインフレーション中の時刻、$t_f$はインフレーションが終わる時刻であり、
 $\phi_f$はインフレーションが終わる時刻での$\phi$である。
-$\mathcal{N}$はe-folding数と呼ばれ、典型的に$50<\mathcal{N}<60$程度だと考えられている。
+$\mathcal{N}$はe-folding数と呼ばれ、地平線問題・平坦性問題を解決するためには
+典型的に$50<\mathcal{N}<60$程度であればよいと考えられている。
 
 インフレーションにおけるスケール因子の指数関数的増加は空間の指数関数的膨張を引き起こす。
 また、この膨張に伴い、時空の量子揺らぎを古典的なスケールに引き延ばす。
@@ -153,7 +155,7 @@ $h_{ij}$は原始重力波として見なすことができ、$z$軸正の方向
 図\ref{fig:gravitational_wave}に$+$モードと$\times$モードが作る空間の歪みを示す。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{intro/gravitational_wave.pdf}
+    \includegraphics[width=0.7\textwidth]{intro/gravitational_wave.pdf}
     \caption{重力波の$+$モード(上)と$\times$モード(下)が作る空間の歪み。
     歪みのない時空上での円(点線)が、時空が歪むことで伸び縮みされ楕円(実線)になっている。}
     \label{fig:gravitational_wave}
@@ -161,8 +163,8 @@ $h_{ij}$は原始重力波として見なすことができ、$z$軸正の方向
 
 \section{CMBの温度異方性と偏光}
 インフレーションによって生じた時空の歪みは、CMBの温度に異方性を作る\cite{1967ApJ...147...73S}。
-式\eqref{eq:jikuuyugami}中の$\Phi,\,\Psi$はスカラー揺らぎと呼ばれる空間の原始揺らぎに基づく温度の揺らぎを、
-$h_{ij}$はテンソル揺らぎと呼ばれる空間の原始揺らぎに基づく温度の揺らぎを作る。
+式\eqref{eq:jikuuyugami}中の$\Phi,\,\Psi$はスカラー揺らぎと呼ばれる原始揺らぎに基づく温度の揺らぎを、
+$h_{ij}$はテンソル揺らぎと呼ばれる原始揺らぎに基づく温度の揺らぎを作る。
 CMBの偏光にEモードと呼ばれる偏光パターンを、Bモードと呼ばれる特有の偏光パターンを生む。
 % 式\eqref{eq:jikuuyugami}中の$\Phi,\,\Psi$はスカラー揺らぎと呼ばれ、CMBの偏光にEモードと呼ばれる偏光パターンを、
 % $h_{ij}$はテンソル揺らぎと呼ばれ、Bモードと呼ばれる特有の偏光パターンを生む。
@@ -200,6 +202,7 @@ $\bar{T}$は平均温度である。この温度揺らぎ$\Delta T$を、球面�
     \label{fig:planck_powerspectrum}
 \end{figure}
 \subsection{四重極温度異方性による偏光の生成}
+スカラー揺らぎとテンソル揺らぎは、CMBに四重極温度異方性を生じさせ、
 四重極温度異方性はトムソン散乱の散乱角の異方性と相まってCMBに偏光を生じさせる。
 図\ref{fig:thomson_polarization}に四重極温度異方性を持つ空間と、トムソン散乱による偏光の生成メカニズムを示す。
 最終散乱面上に$xy$平面にとり、最終散乱面から観測者に向かって$z$軸をとる。
@@ -261,20 +264,6 @@ $xy$平面上には$x$軸上に高温領域が、$y$軸上に低温領域があ�
 図\ref{fig:Emode_Bmode}(右)に観測される偏光パターンを示す。これはBモードとして知られる。
 宇宙初期において、Bモードは原始重力波によってのみ生成される。
 そのため、Bモード偏光パターンの観測こそがインフレーションの直接的証拠となる。
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=1.0\textwidth]{intro/tensor_polarization.pdf}
-    \caption{テンソル揺らぎのうち、$h_{\times}$モードが作る偏光。}
-    \label{fig:tensor_polarization}
-\end{figure}
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.8\textwidth]{intro/tensor_pol_theta.pdf}
-    \caption{(上)天球面上の天頂からの角度$\theta$の地点を見たときの$h_{\times}$モードが生成する偏光。
-    (下)天球面上の天頂からの角度$\theta$の地点を見たときの$h_{+}$モードが生成する偏光。
-    これは、観測者が方位角方向に$45\tcdegree$だけ回転して$h_{\times}$モードが生成するを見たときのものと同一である。}
-    \label{fig:tensor_polarization_theta}
-\end{figure}
 
 % \subsection{偏光パターンのパワースペクトル}
 % CMBの温度異方性についてパワースペクトル$C^{TT}_{\ell}$をとることで座標変換について普遍な量を作ることができたように、
@@ -294,7 +283,21 @@ $r$が0でないことはテンソル揺らぎの存在の証明となり、イ�
 テンソル揺らぎはBモード偏光を引き起こすため、CMB偏光観測実験により測定することができる。
 これまでの観測により、$r<0.032$(95\%信頼区間)を得ている\cite{PhysRevLett.127.151301}。
 
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{intro/tensor_polarization.pdf}
+    \caption{テンソル揺らぎのうち、$h_{\times}$モードが作る偏光。
+    観測者が方位角方向に$45\tcdegree$だけ回転することで、$h_{+}$モードが作る偏光と同一のものが見える。}
+    \label{fig:tensor_polarization}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{intro/tensor_pol_theta.pdf}
+    \caption{(上)天球面上の天頂からの角度$\theta$の地点を見たときの$h_{\times}$モードが生成する偏光。
+    (下)天球面上の天頂からの角度$\theta$の地点を見たときの$h_{+}$モードが生成する偏光。
+    これは、観測者が方位角方向に$45\tcdegree$だけ回転して$h_{\times}$モードが生成するを見たときのものと同一である。}
+    \label{fig:tensor_polarization_theta}
+\end{figure}
 \section{本論文の構成}
 本論文では、続く2章でCMB偏光観測実験Simons Observatoryの概要について述べ、原始重力波由来のBモード偏光観測に向けて
 検出器の応答偏光方向(偏光角)を$\delta\theta < 0.1\tcdegree$という精度で較正しなければならないことを説明する。
