@@ -69,7 +69,7 @@ fitting errorを統計的な誤差として、前章にて得られた$\SI{15}{\
 \end{figure}
 
 \section{奇数番目のワイヤーを修繕後の評価結果とその考察}
-奇数番目のワイヤーを切り、再度張り直すことで修繕されたスパースワイヤーグリッドのたわみ量を評価した。
+奇数番目のワイヤーを外し、再度張り直すことで修繕されたスパースワイヤーグリッドのたわみ量を評価した。
 修繕後のスパースワイヤーグリッドのたわみ量の評価結果を図\ref{fig:wiresag_swg_result_repair}(\subref{fig:wiresag_swg_sag_result_repair})に、
 たわみ角の評価結果を図\ref{fig:wiresag_swg_result_repair}(\subref{fig:wiresag_swg_sag_angle_result_repair})に示す。
 どちらの図中にも、比較のために修繕前の評価結果もあわせて示している。
@@ -89,9 +89,10 @@ fitting errorを統計的な誤差として、前章にて得られた$\SI{15}{\
 これらの図から、奇数番目は修繕によりたわみ角が小さくなっているが、偶数番目は修繕により大きくなっていることがわかる。
 修繕は奇数番目のワイヤーのみを張り直すことで行われたため、スパースワイヤーグリッドのワイヤーは2回に分けて張ることにより、先に張られたワイヤーがたわんでしまうことがわかった。
 
-今回の修繕では、たわみ角が$0.05\tcdegree$を超えるワイヤーが6本から2本に減った。
+今回の修繕(1回目)では、たわみ角が$0.05\tcdegree$を超えるワイヤーが6本から2本に減った。
 しかし、以前としてたわみ角が$0.05\tcdegree$を超えるワイヤーが存在している。
-そこで、この2本のワイヤーのみを張り直し、その他のワイヤーのたわみ角を悪化させずに2本のみを改善することができるか検証した。
+そこで、この2本のワイヤーのみを張り直し、修繕(2回目)を行う。
+これにより、その他のワイヤーのたわみ角を悪化させずに2本のみを修繕することができるか検証した。
 
 % 2本品質の悪いワイヤーはあるものの、今回の修繕後の結果を用いて、ワイヤーのたわみに起因する望遠鏡の偏光角較正への影響を算出する。
 % 修繕後のワイヤーのたわみ角の平均値は$0.020\tcdegree$(これは品質の悪い2本を入れた値であり、それらを除くと$0.015\tcdegree$)、たわみ角の誤差の平均値は$0.003\tcdegree$であった。
@@ -111,7 +112,8 @@ fitting errorを統計的な誤差として、前章にて得られた$\SI{15}{\
         \subcaption{}
         \label{fig:wiresag_swg_sag_angle_result_repair}
     \end{minipage}
-    \caption{(\subref{fig:wiresag_swg_sag_result_repair}) 修繕後のスパースワイヤーグリッドのたわみ量の評価結果。\ 
+    \caption{作成直後のスパースワイヤーグリッドのたわみの評価結果と、奇数番目を張り直し、1回目の修繕を行った後のスパースワイヤーグリッドのたわみの評価結果の比較。
+             (\subref{fig:wiresag_swg_sag_result_repair}) 修繕後のスパースワイヤーグリッドのたわみ量の評価結果。
              (\subref{fig:wiresag_swg_sag_angle_result_repair}) 修繕後のスパースワイヤーグリッドのたわみ角の評価結果。
              $0.05\tcdegree$を超えるたわみ角を有していたワイヤーが6本から2本に改善されている。}
     \label{fig:wiresag_swg_result_repair}
@@ -119,13 +121,13 @@ fitting errorを統計的な誤差として、前章にて得られた$\SI{15}{\
 \begin{figure}[H]
     \begin{minipage}[b]{0.5\hsize}
         \centering
-        \includegraphics[width=1.0\textwidth]{wiresag_swg/swg_sag_angle_odd_comparison.pdf}
+        \includegraphics[width=1.0\textwidth]{wiresag_swg/swg_sag_angle_odd_comparison.png}
         \subcaption{}
         \label{fig:wiresag_swg_sag_odd_comparison}
     \end{minipage}
     \begin{minipage}[b]{0.5\hsize}
         \centering
-        \includegraphics[width=1.0\textwidth]{wiresag_swg/swg_sag_angle_even_comparison.pdf}
+        \includegraphics[width=1.0\textwidth]{wiresag_swg/swg_sag_angle_even_comparison.png}
         \subcaption{}
         \label{fig:wiresag_swg_sag_even_comparison}
     \end{minipage}
@@ -137,13 +139,37 @@ fitting errorを統計的な誤差として、前章にて得られた$\SI{15}{\
 \end{figure}
 
 \section{たわみ角が$0.05\tcdegree$以上であるワイヤーを修繕後の評価結果とその考察}
-前節にてたわみ角が$0.05\tcdegree$以上であると評価された2本のワイヤーのみを張り直し、
-修繕されたスパースワイヤーグリッドのたわみ量を評価した。
-修繕後のたわみ量の評価結果を図\ref{}に、たわみ角の評価結果を図\ref{}に示す。
-どちらの図にも、前節にて行った奇数番目のワイヤーを修繕後の評価結果を比較のために合わせて示している。
+前節にてたわみ角が$0.05\tcdegree$以上であると評価された2本のワイヤーのみを張り直し、2回目の修繕を行ったスパースワイヤーグリッドのたわみ量を評価した。
+修繕後のたわみ量の評価結果を図\ref{fig:wiresag_swg_result_repair2}(\subref{fig:wiresag_swg_sag_result_repair2})に、
+たわみ角の評価結果を図\ref{fig:wiresag_swg_result_repair2}(\subref{fig:wiresag_swg_sag_angle_result_repair2})に示す。
+どちらの図にも、前節にて行った奇数番目のワイヤーを修繕後(1回目)の評価結果を比較のために合わせて示している。
+貼り直された2本はたわみ角が理論値程度まで改善しており、その他のワイヤーのたわみ角も悪化していないことがわかる。
+2回目の修繕後のたわみ角の平均値は$0.012\tcdegree$であり、1回目の修繕後のたわみ角の平均値$0.020\tcdegree$から$0.009\tcdegree$改善した。
+以上の結果から、本装置を用いてたわみ角の大きい($<0.05\tcdegree$)ワイヤーの選別し、張り直すことを繰り返すことで、
+スパースワイヤーグリッドの平均たわみ角を$0.01\tcdegree$程度まで改善することが可能であることが示された。
+
+このスパースワイヤーグリッド
 
 
-
+\begin{figure}[H]
+    \begin{minipage}[b]{0.5\hsize}
+        \centering
+        \includegraphics[width=1.0\textwidth]{wiresag_swg/swg_sag_comparison2.pdf}
+        \subcaption{}
+        \label{fig:wiresag_swg_sag_result_repair2}
+    \end{minipage}
+    \begin{minipage}[b]{0.5\hsize}
+        \centering
+        \includegraphics[width=1.0\textwidth]{wiresag_swg/swg_sag_angle_comparison2.pdf}
+        \subcaption{}
+        \label{fig:wiresag_swg_sag_angle_result_repair2}
+    \end{minipage}
+    \caption{1回目の修繕後のスパースワイヤーグリッドのたわみの評価結果と、$0.05\tcdegree$を超えるたわみ角を有していた2本のワイヤーを張り直し、2回目の修繕を行ったスパースワイヤーグリッドのたわみの評価結果の比較。
+             (\subref{fig:wiresag_swg_sag_result_repair2}) 修繕後のスパースワイヤーグリッドのたわみ量の評価結果。
+             (\subref{fig:wiresag_swg_sag_angle_result_repair2}) 修繕後のスパースワイヤーグリッドのたわみ角の評価結果。
+             $0.05\tcdegree$を超えるたわみ角を有していたワイヤーが2本から0本に改善されている。}
+    \label{fig:wiresag_swg_result_repair2}
+\end{figure}
 
 \section{まとめと今後の展望}
 本章では、開発したワイヤーのたわみ量の自動評価装置を用いて、望遠鏡の偏光角較正に使用されるスパースワイヤーグリッドのたわみ量を評価した。
@@ -159,7 +185,8 @@ fitting errorを統計的な誤差として、前章にて得られた$\SI{15}{\
 これによって張り直されたワイヤーのたわみ角が張り直す前の平均値$0.025\tcdegree$程度に抑えられれば、
 張り直した後のたわみ角の平均値は$0.016\tcdegree$程度に改善できる。
 各たわみ角の誤差が$0.003\tcdegree$から変わらなければ、ワイヤーのたわみによる偏光角較正への影響$\theta_{\mathrm{sag}}$は$\theta_{\mathrm{sag}}<0.02\tcdegree$に抑えられる。
-また、今後新たにスパースワイヤーグリッドにワイヤーを張る際には、すべてのワイヤーを同時に張るように張り方を改善することを提案する。
+また、本研究により、ワイヤーを張る手順に伴うリングの歪みがワイヤーのたわみの要因であることがつきとめられた。
+今後新たにスパースワイヤーグリッドにワイヤーを張る際には、すべてのワイヤーを同時に張るように張り方を改善することを提案する。
 % たわみ量をさらに抑えるためにはスパースワイヤーグリッドのワイヤーを張る工程を改善することが重要である。
 % まずはワイヤーをすべて同時に張ることで、ワイヤーのたわみ量を均一に抑えることができるか調べる必要がある。
 

@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex .tex_intermediates/main"] 1737692810 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1739690064 0
+["bibtex .tex_intermediates/main"] 1740076548 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1740076563 0
   "./refs.bib" 1737685986 44977 4df24ba036667e59c840e038c6943555 ""
-  ".tex_intermediates/main.aux" 1737692821 69513 77ea2f86539c9d0d7cdfbf8064046c6b "latex"
+  ".tex_intermediates/main.aux" 1740076560 72126 4db2be98ba830aebb816857edda0d255 "latex"
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   ".tex_intermediates/main.bbl"
   ".tex_intermediates/main.blg"
   (rewritten before read)
-["dvipdf"] 1739690061 "main.dvi" "main.pdf" "main" 1739690064 0
-  "main.dvi" 1737692821 384200 cd2c2408c29a9507cddeeb633a460dd9 "latex"
+["dvipdf"] 1740076560 "main.dvi" "main.pdf" "main" 1740076563 0
+  "main.dvi" 1740076560 388368 c1939621ff25e4a19f685f9e58021d15 "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1737692810 "main.tex" "main.dvi" "main" 1739690064 0
-  ".tex_intermediates/main.aux" 1737692821 69513 77ea2f86539c9d0d7cdfbf8064046c6b "latex"
-  ".tex_intermediates/main.bbl" 1737692810 9526 675d2b68fa0b381fa637bfeb1367ccaf "bibtex .tex_intermediates/main"
-  ".tex_intermediates/main.out" 1737692821 13541 8f107f57c48a9313d7c344d65db83c0d "latex"
-  ".tex_intermediates/main.toc" 1737692821 9165 8b27a7089394c36fb79d79f569353cbd "latex"
+["latex"] 1740076548 "main.tex" "main.dvi" "main" 1740076563 0
+  ".tex_intermediates/main.aux" 1740076560 72126 4db2be98ba830aebb816857edda0d255 "latex"
+  ".tex_intermediates/main.bbl" 1740076548 9526 675d2b68fa0b381fa637bfeb1367ccaf "bibtex .tex_intermediates/main"
+  ".tex_intermediates/main.out" 1740076560 13895 4ee2d234312c215f4374097fbeeb48b4 "latex"
+  ".tex_intermediates/main.toc" 1740076560 9338 277dd0e1c9fa7be3aaa4f67f8af46a30 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0600.tfm" 1136768653 1536 a00dc4928e5f91bd0b0c0839944035dd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0800.tfm" 1136768653 1536 f9f377d0a7a6ab86b894ea3edc27e42b ""
@@ -245,13 +245,15 @@
   "fig//wiresag/wiresag_wire_positions.pdf" 1737098275 21956 a817587dae8b0ae19e821d01cc582c78 ""
   "fig//wiresag/wiresag_wire_positions_rot.pdf" 1737098275 27872 9917e41529125e6ced43616c3c1b68cb ""
   "fig//wiresag/wiresag_wire_se_positions_diff.pdf" 1737098283 26773 625e0e6e7330f28c1bea7785e9515eef ""
-  "fig//wiresag_swg/swg_sag_angle_before.pdf" 1737622600 20099 f55040209dcc1957d2a0ff8fc37bbb27 ""
-  "fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf" 1737622620 17705 c67a2d464fadbe02aff568e17560f0b8 ""
-  "fig//wiresag_swg/swg_sag_angle_comparison.pdf" 1737632031 23750 e33ea96ba7341758338fe06921262a77 ""
-  "fig//wiresag_swg/swg_sag_angle_even_comparison.pdf" 1737632077 18783 7752e76192a00b7a8fca8bf51acdf70a ""
-  "fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf" 1737632077 18718 e2c6ad01c21a720ddc9482b94e02a8cf ""
-  "fig//wiresag_swg/swg_sag_before.pdf" 1737622600 22910 4ec59baa5ce2e57fa79af54e5711dda5 ""
-  "fig//wiresag_swg/swg_sag_comparison.pdf" 1737632031 26111 d580b921f97fad94a3d29f1081a1273c ""
+  "fig//wiresag_swg/swg_sag_angle_before.pdf" 1740073825 22992 15cd7e4330fd78fafbe36e8d7be1bb27 ""
+  "fig//wiresag_swg/swg_sag_angle_before_even_odd.pdf" 1740073998 18024 bae4abb7edbb9bb99858b6166759f6da ""
+  "fig//wiresag_swg/swg_sag_angle_comparison.pdf" 1740075664 26720 906386b9d24cc7af576d5e53fd889bcc ""
+  "fig//wiresag_swg/swg_sag_angle_comparison2.pdf" 1740074199 26013 886e1cb1884fa149f60aa2dbe992aea8 ""
+  "fig//wiresag_swg/swg_sag_angle_even_comparison.png" 1740075453 497789 f3e7738280457a735dc7d2fe4472e2e8 ""
+  "fig//wiresag_swg/swg_sag_angle_odd_comparison.png" 1740075473 564744 5aca15188d43423de54fd87de45c60e6 ""
+  "fig//wiresag_swg/swg_sag_before.pdf" 1740073825 26240 7ed6bd30f7019598a5d39112ef0dd617 ""
+  "fig//wiresag_swg/swg_sag_comparison.pdf" 1740075664 29955 7fcb53a448f7352ecd4fe8f69774f31f ""
+  "fig//wiresag_swg/swg_sag_comparison2.pdf" 1740074199 29220 45a00fc1880a0f3494e61a2fa3e725b5 ""
   "main.tex" 1737692799 3136 a7cb6f539e99c00f96f90e1ecb9db814 ""
   "sub/abstract/abstract.tex" 1737682711 3660 02f4fc78537483e246b892f25bbe7f6b ""
   "sub/appendix/appendix.tex" 1736649885 6477 dd0e74c73ee903c52fcf0e3a869f48cf ""
@@ -262,7 +264,7 @@
   "sub/title/title.tex" 1737217245 703 9d2385cd2d7fe86b6f3ffc8b156d7c1a ""
   "sub/wiregrid/wiregrid.tex" 1737677532 28875 13371335fbd0c76cd056303504f3a7ba ""
   "sub/wiresag/wiresag.tex" 1737689576 54514 fa9a8c92246e2d58e6aab311d369d341 ""
-  "sub/wiresag_swg/wiresag_swg.tex" 1737690523 14149 4661aa58591460d8cf434f573a2fad0a ""
+  "sub/wiresag_swg/wiresag_swg.tex" 1740076474 16871 4cbc88423f9be2c5134ece159302cda8 ""
   (generated)
   ".tex_intermediates/main.aux"
   ".tex_intermediates/main.log"

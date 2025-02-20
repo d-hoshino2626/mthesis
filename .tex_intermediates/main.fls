@@ -1320,12 +1320,18 @@ INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_comparison.pdf
 INPUT ./fig//wiresag_swg/swg_sag_angle_comparison.pdf
 INPUT ./fig//wiresag_swg/swg_sag_angle_comparison.pdf
 INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_comparison.pdf
-INPUT ./fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
-INPUT ./fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
-INPUT ./fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
-INPUT ./fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
-INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
+INPUT ./fig//wiresag_swg/swg_sag_angle_odd_comparison.png
+INPUT ./fig//wiresag_swg/swg_sag_angle_odd_comparison.png
+INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_odd_comparison.png
+INPUT ./fig//wiresag_swg/swg_sag_angle_even_comparison.png
+INPUT ./fig//wiresag_swg/swg_sag_angle_even_comparison.png
+INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_even_comparison.png
+INPUT ./fig//wiresag_swg/swg_sag_comparison2.pdf
+INPUT ./fig//wiresag_swg/swg_sag_comparison2.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_comparison2.pdf
+INPUT ./fig//wiresag_swg/swg_sag_angle_comparison2.pdf
+INPUT ./fig//wiresag_swg/swg_sag_angle_comparison2.pdf
+INPUT extractbb -B cropbox -O ./fig//wiresag_swg/swg_sag_angle_comparison2.pdf
 INPUT ./sub/summary/summary.tex
 INPUT ./sub/summary/summary.tex
 INPUT ./sub/summary/summary.tex

@@ -1000,18 +1000,24 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
-INPUT ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
-INPUT ../../fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_even_comparison.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.png
+INPUT ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.png
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_odd_comparison.png
+INPUT ../../fig//wiresag_swg/swg_sag_angle_even_comparison.png
+INPUT ../../fig//wiresag_swg/swg_sag_angle_even_comparison.png
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_even_comparison.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tfm
+INPUT ../../fig//wiresag_swg/swg_sag_comparison2.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_comparison2.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_comparison2.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_comparison2.pdf
+INPUT ../../fig//wiresag_swg/swg_sag_angle_comparison2.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiresag_swg/swg_sag_angle_comparison2.pdf
 INPUT .tex_intermediates/wiresag_swg.aux
 INPUT .tex_intermediates/wiresag_swg.out
 INPUT .tex_intermediates/wiresag_swg.out

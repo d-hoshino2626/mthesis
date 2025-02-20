@@ -81,11 +81,12 @@
 \contentsline {chapter}{\numberline {第6章}スパースワイヤーグリッドのたわみ量の評価}{66}{chapter.6}%
 \contentsline {section}{\numberline {6.1}評価されたスパースワイヤーグリッドのワイヤーの張り方}{66}{section.6.1}%
 \contentsline {section}{\numberline {6.2}評価結果とその考察}{66}{section.6.2}%
-\contentsline {section}{\numberline {6.3}修繕後のスパースワイヤーグリッドの評価}{68}{section.6.3}%
-\contentsline {section}{\numberline {6.4}まとめと今後の展望}{69}{section.6.4}%
-\contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{70}{chapter.7}%
-\contentsline {section}{\numberline {7.1}まとめ}{70}{section.7.1}%
-\contentsline {section}{\numberline {7.2}今後の展望}{71}{section.7.2}%
-\contentsline {chapter}{\numberline {付 録A }ストークスパラメータ}{72}{appendix.A}%
-\contentsline {section}{\numberline {A.1}ストークスパラメータの定義}{72}{section.A.1}%
-\contentsline {section}{\numberline {A.2}座標回転に対するストークスパラメータの変換}{73}{section.A.2}%
+\contentsline {section}{\numberline {6.3}奇数番目のワイヤーを修繕後の評価結果とその考察}{68}{section.6.3}%
+\contentsline {section}{\numberline {6.4}たわみ角が$0.05\tcdegree $以上であるワイヤーを修繕後の評価結果とその考察}{69}{section.6.4}%
+\contentsline {section}{\numberline {6.5}まとめと今後の展望}{70}{section.6.5}%
+\contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{71}{chapter.7}%
+\contentsline {section}{\numberline {7.1}まとめ}{71}{section.7.1}%
+\contentsline {section}{\numberline {7.2}今後の展望}{72}{section.7.2}%
+\contentsline {chapter}{\numberline {付 録A }ストークスパラメータ}{73}{appendix.A}%
+\contentsline {section}{\numberline {A.1}ストークスパラメータの定義}{73}{section.A.1}%
+\contentsline {section}{\numberline {A.2}座標回転に対するストークスパラメータの変換}{74}{section.A.2}%
