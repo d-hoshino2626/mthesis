@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 FEB 2025 16:38
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  20 FEB 2025 22:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -591,6 +591,20 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 7.69775pt on input line 23.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 23.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 25.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 25.
+
+LaTeX Warning: Citation `swg:murata' on page 1 undefined on input line 25.
+
+
+LaTeX Warning: Citation `swg:iijima' on page 1 undefined on input line 25.
+
 [1
 
 
@@ -670,12 +684,12 @@ Package rerunfilecheck Info: File `wiresag_swg.out' has not changed.
 (rerunfilecheck)             Checksum: FB411ED19F31F6CAF46ED48BA2F43CC5;1451.
  ) 
 Here is how much of TeX's memory you used:
- 17641 strings out of 476677
- 340797 string characters out of 5804957
+ 17644 strings out of 476677
+ 340835 string characters out of 5804957
  1852490 words of memory out of 5000000
- 37847 multiletter control sequences out of 15000+600000
- 563595 words of font info for 122 fonts, out of 8000000 for 9000
+ 37850 multiletter control sequences out of 15000+600000
+ 563704 words of font info for 123 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,8n,94p,632b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,8n,94p,632b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag_swg.dvi (4 pages, 22528 bytes).
+Output written on .tex_intermediates/wiresag_swg.dvi (4 pages, 22644 bytes).
