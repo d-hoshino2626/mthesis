@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1740130388 "wiresag.dvi" "wiresag.pdf" "wiresag" 1740130389 0
-  "wiresag.dvi" 1740130388 84016 bf622b09fa5ecdc84c08cc2832a15a0e "latex"
+["dvipdf"] 1740132923 "wiresag.dvi" "wiresag.pdf" "wiresag" 1740132923 0
+  "wiresag.dvi" 1740132922 84008 2333de213bc31b88fb0b53a72addd42e "latex"
   (generated)
   "wiresag.pdf"
   (rewritten before read)
-["latex"] 1740130383 "wiresag.tex" "wiresag.dvi" "wiresag" 1740130389 0
+["latex"] 1740132918 "wiresag.tex" "wiresag.dvi" "wiresag" 1740132923 0
   "../../fig//wiregrid/wiresag_picture_old.pdf" 1736039654 2778040 5a3ac617a7a3fef3e4e4f0bb82b11efa ""
   "../../fig//wiregrid/wiresag_result_old.pdf" 1736754342 249068 56a5a1f14204d4810b7e4e033a49c74e ""
   "../../fig//wiregrid/wiresag_setup_old.pdf" 1736033058 439879 b630e8850ca4116a8b7428165d89749c ""
@@ -27,17 +27,17 @@
   "../../fig//wiresag/wiresag_scaler_target.pdf" 1737098271 156802 43be4adeb6b41e1939302ffa9cd1ed3a ""
   "../../fig//wiresag/wiresag_setup_front_old.pdf" 1736840190 262586 9fafb550022a659d859a8f5b04477721 ""
   "../../fig//wiresag/wiresag_straight_edge_fit.pdf" 1737098276 17386 557301894977821623f2febb6f2256fe ""
-  "../../fig//wiresag/wiresag_straight_edge_positions_line.pdf" 1737098277 25738 e0d75cf09e34bf06bead8aaae73d7989 ""
-  "../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf" 1737098277 28895 cc02cfa3ad18fa3148a268caa098b263 ""
+  "../../fig//wiresag/wiresag_straight_edge_positions_line.pdf" 1740132718 25653 b4e9fdce876ac3d224b2900b42d3f095 ""
+  "../../fig//wiresag/wiresag_straight_edge_positions_rot.pdf" 1740132721 28104 c7a76b87303af24877227c2c2ff546f1 ""
   "../../fig//wiresag/wiresag_system.pdf" 1737195854 3308298 95d80937bbcbb11f904be19460a1d968 ""
   "../../fig//wiresag/wiresag_system_front.pdf" 1737202885 431159 0478710477a7bc0a5f3620fe40e768f1 ""
   "../../fig//wiresag/wiresag_wire_fit.pdf" 1737100439 17753 8997cfaca0a52ad2130b37c0c3588d9d ""
-  "../../fig//wiresag/wiresag_wire_positions.pdf" 1737098275 21956 a817587dae8b0ae19e821d01cc582c78 ""
-  "../../fig//wiresag/wiresag_wire_positions_rot.pdf" 1737098275 27872 9917e41529125e6ced43616c3c1b68cb ""
+  "../../fig//wiresag/wiresag_wire_positions.pdf" 1740132677 21917 07fb70e6e4438f94a752407e9c7fd679 ""
+  "../../fig//wiresag/wiresag_wire_positions_rot.pdf" 1740132677 26378 875438b176a04008cd7d087b21fc9edd ""
   "../../fig//wiresag/wiresag_wire_se_positions_diff.pdf" 1737098283 26773 625e0e6e7330f28c1bea7785e9515eef ""
   "../../main.tex" 1740124889 3174 48499bc10d9800aec94203d936c318a0 ""
-  ".tex_intermediates/wiresag.aux" 1740130388 19537 ca26aff215365e5cb92e7423e2f01908 "latex"
-  ".tex_intermediates/wiresag.out" 1740130388 3134 cb5b9d7fa27d2ba065c3e12f60e42216 "latex"
+  ".tex_intermediates/wiresag.aux" 1740132922 19537 ca26aff215365e5cb92e7423e2f01908 "latex"
+  ".tex_intermediates/wiresag.out" 1740132922 3134 cb5b9d7fa27d2ba065c3e12f60e42216 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -180,7 +180,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "wiresag.tex" 1740130379 54607 a0590ad93982e0640f0083e40e644f01 ""
+  "wiresag.tex" 1740132917 54603 ba3a468e2fc78330916a0c4b9d60c8c5 ""
   (generated)
   ".tex_intermediates/wiresag.aux"
   ".tex_intermediates/wiresag.log"

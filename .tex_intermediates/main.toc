@@ -69,9 +69,9 @@
 \contentsline {section}{\numberline {5.3}解析手法}{54}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}解析の流れ}{54}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}スケーラのfitting}{55}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}ストレートエッジとワイヤーのfitting}{57}{subsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.3.1}ストレートエッジのfitting}{58}{subsubsection.5.3.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.3.2}ワイヤーのfitting}{60}{subsubsection.5.3.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}ストレートエッジとワイヤー位置に対するfitting}{57}{subsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.3.1}ストレートエッジ位置のfitting}{58}{subsubsection.5.3.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.3.2}ワイヤー位置のfitting}{60}{subsubsection.5.3.3.2}%
 \contentsline {subsection}{\numberline {5.3.4}$z$ の算出}{61}{subsection.5.3.4}%
 \contentsline {subsection}{\numberline {5.3.5}カテナリーでのfitting}{62}{subsection.5.3.5}%
 \contentsline {section}{\numberline {5.4}開発した評価装置の妥当性の検証}{64}{section.5.4}%

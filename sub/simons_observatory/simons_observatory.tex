@@ -7,13 +7,18 @@
 \chapter{Simons Observatory実験}
 \section{Simons Observatory実験}
 Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠を拠点とする史上最大規模の地上CMB観測実験である。
-現在、口径$0.5\ \mathrm{m}$の小口径望遠鏡(Small Aperture Telescope, SAT)3台と、
-口径 $6\ \mathrm{m}$の大口径望遠鏡(Large Aperture Telescope, LAT)1台を用いた観測が進められており\cite{so:current_status}、
+現在、口径$\SI{0.5}{m}$の小口径望遠鏡(Small Aperture Telescope, SAT)\ 3台と、
+口径$6\ \mathrm{m}$の大口径望遠鏡(Large Aperture Telescope, LAT)\ 1台を用いた観測が進められており\cite{so:current_status}、
 今後さらに日本製の1台のSAT(JSAT)と、イギリス製の2台のSATが追加される予定である。図\ref{fig:so_site}に観測サイトの概観を示す。
 検出器としてはTES(Transition Edge Sensor)ボロメータを採用しており、SATにはそれぞれ約1万個ずつ、LATには約3万個の検出器が搭載されている。
 多数の検出器を用いたCMB偏光の高精度測定は、さまざまな物理へのアプローチを可能にする。
-例えば、SATではインフレーションに由来する原始重力波の検出をテンソルスカラー比$r$にして$\sigma(r)=0.003$の精度で行う。
-また、LATではニュートリノの有効世代数$N_\mathrm{eff}$を$\sigma(N_{\mathrm{eff}})=0.07$、ニュートリノ質量和$\Sigma m_\nu$を$\sigma(\Sigma m_\nu)=\SI{0.04}{eV}$の精度での測定を目指す\cite{so:science_forecast}。
+例えば、SATではインフレーションに由来する原始重力波の検出を目指し、その強度指標である
+テンソルスカラー比$r$に対して$\sigma(r)=0.003$の精度
+\footnote{ここで、$\sigma(X)$は値$X$のエラーバー(ガウス分布の1$\sigma$)を表す。
+          当該分野の論文でしばしば用いられる表記であり、本論文でもこれを踏襲する。}
+で行う。
+また、LATではニュートリノの有効世代数$N_\mathrm{eff}$を$\sigma(N_{\mathrm{eff}})=0.07$、
+ニュートリノ質量和$\Sigma m_\nu$を$\sigma(\Sigma m_\nu)=\SI{0.04}{eV}$の精度での測定を目指す\cite{so:science_forecast}。
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{simons_observatory/so_site.pdf}
@@ -27,13 +32,14 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
     \Omega \approx \dfrac{\lambda^2}{A}
 \end{equation}
 を考えると、より大きな口径$A$を持つ望遠鏡ほどより高い角度分解能を有し、小角度の相関を観測するのに適していることがわかる。
-その一方で、大口径の望遠鏡は一度に観測できる範囲も小さくなるため、大角度の相関を観測するのに時間を要し、時間変動による大気揺らぎの影響を受けやすくなってしまう。
+その一方で、大口径の望遠鏡は一度に観測できる視野範囲も小さくなるため、大角度の相関を観測するのに時間を要し、時間変動による大気揺らぎの影響を受けやすくなってしまう。
 以上の理由から、小口径で大角度相関を調べるSATと、大口径で小角度相関を調べるLATを組み合わせることで、
 広大な$\ell$に渡ってCMBパワースペクトルの精密な測定を行い、前述した様々な物理へのアプローチを実現する。
 \section{Small Aperture Telescope (SAT)}
 前述の通り、SATは小口径の望遠鏡であり、CMBの大角度相関、特に$30<\ell<300$を観測するために最適化されている。
-3台のSATのうち2台は$\SI{93}{GHz}$、$\SI{145}{GHz}$帯(MF帯)での観測を行い、1台は$\SI{225}{GHz}$、$\SI{280}{GHz}$帯(UHF帯)での観測を行う。
-また、日本グループが主導して追加される1台のSATは$\SI{27}{GHz}$、$\SI{39}{GHz}$帯(LF帯)での観測を行う。
+3台のSATのうち2台は$\SI{93}{GHz}$、$\SI{145}{GHz}$帯(Middle Frequency, MF帯)での観測を行い、
+1台は$\SI{225}{GHz}$、$\SI{280}{GHz}$帯(Ultra High Frequency, UHF帯)での観測を行う。
+また、日本グループが主導して追加される1台のSATは$\SI{27}{GHz}$、$\SI{39}{GHz}$帯(Low Frequency, LF帯)での観測を行う。
 このように複数の帯域に渡って観測を行う理由は、星間物質中の塵が熱的に放射するダスト放射や、
 超新星残骸中の磁場などによって加速された荷電粒子が放出するシンクロトロン放射などのフォアグラウンドを除去するためである。
 図\ref{fig:so_noise_freq}にSATの観測帯域と、CMB偏光信号、ダスト放射、シンクロトロン放射の輝度温度の周波数依存性を示す。

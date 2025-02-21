@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 FEB 2025 18:18
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 FEB 2025 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,34 +603,34 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 23.
 
-Package caption Warning: \label without proper reference on input line 48.
+Package caption Warning: \label without proper reference on input line 50.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 42.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 42.
+(Font)              scaled to size 10.53629pt on input line 44.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 42.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 42.
+(Font)              scaled to size 10.53629pt on input line 44.
 
-LaTeX Warning: Reference `tab:summary_systematic_error' on page 1 undefined on input line 42.
+LaTeX Warning: Reference `tab:summary_systematic_error' on page 1 undefined on input line 44.
 
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 49.
+(Font)              scaled to size 9.6222pt on input line 51.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 49.
+(Font)              scaled to size 9.6222pt on input line 51.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 64.
+(Font)              scaled to size 8.65997pt on input line 66.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 64.
+(Font)              scaled to size 8.65997pt on input line 66.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 65.
+(Font)              scaled to size 4.8111pt on input line 67.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 65.
+(Font)              scaled to size 8.65997pt on input line 67.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 65.
+(Font)              scaled to size 4.8111pt on input line 67.
 [1
 
 
@@ -650,4 +650,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  92i,15n,94p,358b,960s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/summary.dvi (2 pages, 12832 bytes).
+Output written on .tex_intermediates/summary.dvi (2 pages, 13360 bytes).
