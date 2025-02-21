@@ -43,33 +43,34 @@ $\delta\theta_{\mathrm{grabity}}<0.06\tcdegree$と評価された。
 偏光角較正の合計の系統誤差$\delta\theta$は$\delta\theta<0.09\tcdegree$であった。
 これはSimons Observatoryにおける要求精度$\delta\theta<0.1\tcdegree$を満たしている。
 
-\begin{center}
+\begin{table}
+    \centering
+    \label{tab:summary_systematic_error}
+    \caption{本論文で得た評価値を更新したスパースワイヤーグリッドの系統誤差のまとめ。}
     \begin{threeparttable}[H]
-        \centering
-        \caption{本論文で得た評価値を更新したスパースワイヤーグリッドの系統誤差のまとめ。}
-        \begin{tabular}{lc}
+        \begin{tabular}{cllc}
             \hline\hline
-            系統誤差要因 & 評価値 \\
+            系統誤差要因 & 先行研究 & 本研究 & \quad \\
             \hline
-            ワイヤー設置精度 & $<0.02\tcdegree$ \\
-            エンコーダ精度 & $<0.03\tcdegree$ \\
-            エンコーダ零点 & $<0.04\tcdegree$ \\
-            重力参照計\footnotemark[1]\footnotemark[2] & $<0.06\tcdegree$ \\
-            ワイヤーのたわみ & $<0.03\tcdegree$ \\
+            ワイヤー設置精度 & $<0.02\tcdegree$ & $<0.02\tcdegree$ & 先行研究を踏襲 \\
+            エンコーダ精度 & $<0.03\tcdegree$ & $<0.03\tcdegree$ & \char"3003 \\
+            エンコーダ零点 & $<0.04\tcdegree$ & $<0.04\tcdegree$ & \char"3003 \\
+            重力参照計 & $<0.3\tcdegree$ & $<0.06\tcdegree$ & 本研究で改善\tnote{*} \\
+            ワイヤーのたわみ & $<0.05\tcdegree$ & $<0.02\tcdegree$ & \char"3003 \\
             \hline
-            合計 & $<0.09\tcdegree$ \\
+            合計 & $<0.3\tcdegree$ & $<0.09\tcdegree$ \\
             \hline\hline
         \end{tabular}
-        \label{tab:summary_systematic_error}
+        \begin{tablenotes}[flushleft]\footnotesize
+            \item[*] $X$軸の精度が$\delta\theta_{X}<0.04\tcdegree$と評価値であるのに対し、$Y$軸の精度は見込み精度として$\delta\theta_{Y}<0.04\tcdegree$と仮定。
+        \end{tablenotes}
     \end{threeparttable}
-\end{center}
+\end{table}
 
-\footnotetext[1]{$X$軸の精度が$\delta\theta<0.04\tcdegree$と評価値であるのに対し、$Y$軸の精度は見込み精度として$\delta\theta_{Y}<0.04\tcdegree$ととったことに注意。}
-\footnotetext[2]{望遠鏡が基本姿勢$\mathrm{elevation}=50\tcdegree,\,\mathrm{boresight}=0\tcdegree$をとっているときの値であることに注意。}
 \section{今後の展望}
-今後の展望として、まず第一に初期不良で正常に動作していなかった重力参照計の$Y$軸の再評価が予定されている。
+今後の展望として、まず第一に初期不良で正常に動作していなかった重力参照計の$Y$軸の再評価が大切である。
 この評価によりその誤差が$\delta\theta_{Y}<0.04\tcdegree$であることが実証されれば、偏光角較正の装置に起因する系統誤差は
-疑い用もなく要求値である$\delta\theta<0.1\tcdegree$を満たすこととなる。
+疑いようもなく要求値である$\delta\theta<0.1\tcdegree$を満たすこととなる。
 
 本論文で開発したワイヤーのたわみの自動評価装置の結果によれば、ワイヤーのたわみ量にはワイヤーの張る順番に起因すると思われる傾向が存在していた。
 この系統誤差として懸念すべき量ではないものの、今後さらなる系統誤差の削減が必要になった場合にはワイヤーの張り方というところから改善する必要がある。

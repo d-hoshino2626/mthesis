@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 FEB 2025 16:57
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 FEB 2025 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -486,6 +486,25 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box89
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen271
+\lightrulewidth=\dimen272
+\cmidrulewidth=\dimen273
+\belowrulesep=\dimen274
+\belowbottomsep=\dimen275
+\aboverulesep=\dimen276
+\abovetopsep=\dimen277
+\cmidrulesep=\dimen278
+\cmidrulekern=\dimen279
+\defaultaddspace=\dimen280
+\@cmidla=\count324
+\@cmidlb=\count325
+\@aboverulesep=\dimen281
+\@belowrulesep=\dimen282
+\@thisruleclass=\count326
+\@lastruleclass=\count327
+\@thisrulewidth=\dimen283
 )
 LaTeX Info: Redefining \cite on input line 60.
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 79.
@@ -1538,6 +1557,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [70]
 第 7 章
 
+Package caption Warning: \label without proper reference on input line 63.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:summary_systematic_error' on page 71 undefined on input line 42.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{15.49998pt}.
@@ -1608,16 +1634,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [78] (.tex_intermediates/main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 971D5837280758C4403BD63ACF2C05F6;13943.
  ) 
 Here is how much of TeX's memory you used:
- 18667 strings out of 476677
- 374043 string characters out of 5804957
+ 18746 strings out of 476677
+ 375430 string characters out of 5804957
  1876490 words of memory out of 5000000
- 38696 multiletter control sequences out of 15000+600000
+ 38771 multiletter control sequences out of 15000+600000
  569292 words of font info for 141 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,19n,83p,829b,1180s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/main.dvi (84 pages, 390492 bytes).
+Output written on .tex_intermediates/main.dvi (84 pages, 390560 bytes).

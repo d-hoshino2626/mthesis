@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 12:32
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 FEB 2025 18:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -486,8 +486,30 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box89
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen271
+\lightrulewidth=\dimen272
+\cmidrulewidth=\dimen273
+\belowrulesep=\dimen274
+\belowbottomsep=\dimen275
+\aboverulesep=\dimen276
+\abovetopsep=\dimen277
+\cmidrulesep=\dimen278
+\cmidrulekern=\dimen279
+\defaultaddspace=\dimen280
+\@cmidla=\count324
+\@cmidlb=\count325
+\@aboverulesep=\dimen281
+\@belowrulesep=\dimen282
+\@thisruleclass=\count326
+\@lastruleclass=\count327
+\@thisrulewidth=\dimen283
 )
-LaTeX Info: Redefining \cite on input line 59.
+LaTeX Info: Redefining \cite on input line 60.
 ))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
  (.tex_intermediates/wiresag.aux)
@@ -538,6 +560,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 6.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 第 1 章
@@ -554,88 +577,88 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 8.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 13.
+(Font)              scaled to size 10.53629pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 13.
+(Font)              scaled to size 10.53629pt on input line 12.
 
-LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 13.
+LaTeX Warning: Reference `subsec:wg_wiresag' on page 1 undefined on input line 12.
 
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 13.
+(Font)              scaled to size 7.69775pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 13.
+(Font)              scaled to size 5.77332pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 13.
+(Font)              scaled to size 7.69775pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 13.
+(Font)              scaled to size 5.77332pt on input line 12.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 13.
+(Font)              scaled to size 7.69775pt on input line 12.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 13.
+(Font)              scaled to size 7.69775pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 13.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 13.
+(Font)              scaled to size 7.69775pt on input line 12.
 
-LaTeX Warning: Citation `swg:murata' on page 1 undefined on input line 13.
+LaTeX Warning: Citation `swg:murata' on page 1 undefined on input line 12.
 
 
-LaTeX Warning: Citation `swg:iijima' on page 1 undefined on input line 13.
+LaTeX Warning: Citation `swg:iijima' on page 1 undefined on input line 12.
 
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 18.
+(Font)              scaled to size 13.85594pt on input line 17.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 18.
+(Font)              scaled to size 13.85594pt on input line 17.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 17.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 17.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 18.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 18.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 18.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
+(Font)              scaled to size 11.54663pt on input line 18.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 18.
+(Font)              scaled to size 11.54663pt on input line 18.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 19.
+(Font)              scaled to size 8.65997pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 19.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 19.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 19.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 19.
+(Font)              scaled to size 8.65997pt on input line 27.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 19.
+(Font)              scaled to size 8.65997pt on input line 27.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 27.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 28.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 28.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 28.
+(Font)              scaled to size 5.77332pt on input line 27.
 File: ../../fig//wiresag/wiresag_def.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_def.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 37.
+(Font)              scaled to size 9.6222pt on input line 36.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 37.
+(Font)              scaled to size 9.6222pt on input line 36.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 37.
+(Font)              scaled to size 6.73553pt on input line 36.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 37.
+(Font)              scaled to size 9.6222pt on input line 36.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 37.
+(Font)              scaled to size 6.73553pt on input line 36.
 File: ../../fig//wiregrid/wiresag_setup_overview_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_setup_overview_old.pdf>
 [1
@@ -646,36 +669,36 @@ File: ../../fig//wiregrid/wiresag_picture_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_picture_old.pdf>
  [2]
 
-LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 79.
+LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 78.
 
 File: ../../fig//wiregrid/wiresag_setup_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_setup_old.pdf>
 
-LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 85.
+LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 84.
 
 
-LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 85.
+LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 84.
 
 File: ../../fig//wiresag/wiresag_setup_front_old.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_setup_front_old.pdf>
 File: ../../fig//wiregrid/wiresag_result_old.pdf Graphic file (type pdf)
 <../../fig//wiregrid/wiresag_result_old.pdf>
 
-LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 117.
+LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 116.
 
 
-LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 117.
+LaTeX Warning: Citation `swg:murata' on page 3 undefined on input line 116.
 
 [3]
 
-LaTeX Warning: Citation `swg:murata' on page 4 undefined on input line 122.
+LaTeX Warning: Citation `swg:murata' on page 4 undefined on input line 121.
 
 
-LaTeX Warning: Citation `swg:iijima' on page 4 undefined on input line 122.
+LaTeX Warning: Citation `swg:iijima' on page 4 undefined on input line 121.
 
 [4]
 
-LaTeX Warning: Reference `subsec:wg_wiresag' on page 5 undefined on input line 147.
+LaTeX Warning: Reference `subsec:wg_wiresag' on page 5 undefined on input line 146.
 
 File: ../../fig//wiresag/wiresag_system.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_system.pdf>
@@ -686,7 +709,7 @@ File: ../../fig//wiresag/wiresag_pictures.pdf Graphic file (type pdf)
 <../../fig//wiresag/wiresag_pictures.pdf>
  [6] [7]
 
-LaTeX Warning: Citation `swg:murata' on page 8 undefined on input line 244.
+LaTeX Warning: Citation `swg:murata' on page 8 undefined on input line 243.
 
 [8]
 File: ../../fig//wiresag/wiresag_concept.pdf Graphic file (type pdf)
@@ -767,19 +790,16 @@ File: ../../fig//wiresag/wiresag_performance_check_result.pdf Graphic file (type
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `wiresag.out' has not changed.
-(rerunfilecheck)             Checksum: 9E1F584FFBA93B4C1D149709D8C9968A;3094.
+(rerunfilecheck)             Checksum: CB5B9D7FA27D2BA065C3E12F60E42216;3134.
  ) 
 Here is how much of TeX's memory you used:
- 17861 strings out of 476677
- 348663 string characters out of 5804957
+ 17996 strings out of 476677
+ 351296 string characters out of 5804957
  1859490 words of memory out of 5000000
- 38035 multiletter control sequences out of 15000+600000
+ 38163 multiletter control sequences out of 15000+600000
  566579 words of font info for 133 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  92i,17n,94p,728b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag.dvi (22 pages, 83852 bytes).
+Output written on .tex_intermediates/wiresag.dvi (22 pages, 84016 bytes).

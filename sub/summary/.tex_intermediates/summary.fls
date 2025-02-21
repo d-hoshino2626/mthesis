@@ -913,6 +913,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT .tex_intermediates/summary.aux
 INPUT .tex_intermediates/summary.aux
 INPUT .tex_intermediates/summary.aux
@@ -976,7 +987,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-OUTPUT .tex_intermediates/summary.dvi
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
@@ -993,6 +1004,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
+OUTPUT .tex_intermediates/summary.dvi
 INPUT .tex_intermediates/summary.aux
 INPUT .tex_intermediates/summary.out
 INPUT .tex_intermediates/summary.out

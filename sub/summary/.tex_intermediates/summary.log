@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 FEB 2025 16:58
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 FEB 2025 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -489,6 +489,25 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box89
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen271
+\lightrulewidth=\dimen272
+\cmidrulewidth=\dimen273
+\belowrulesep=\dimen274
+\belowbottomsep=\dimen275
+\aboverulesep=\dimen276
+\abovetopsep=\dimen277
+\cmidrulesep=\dimen278
+\cmidrulekern=\dimen279
+\defaultaddspace=\dimen280
+\@cmidla=\count324
+\@cmidlb=\count325
+\@aboverulesep=\dimen281
+\@belowrulesep=\dimen282
+\@thisruleclass=\count326
+\@lastruleclass=\count327
+\@thisrulewidth=\dimen283
 )
 LaTeX Info: Redefining \cite on input line 60.
 ))
@@ -583,40 +602,52 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 7.69775pt on input line 23.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 23.
+
+Package caption Warning: \label without proper reference on input line 48.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 42.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 42.
+
+LaTeX Warning: Reference `tab:summary_systematic_error' on page 1 undefined on input line 42.
+
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 62.
+(Font)              scaled to size 9.6222pt on input line 49.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 62.
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\JY2/mc/m/n/10 差のまと
- []
-
+(Font)              scaled to size 9.6222pt on input line 49.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 64.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 64.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 65.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 65.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 65.
 [1
 
 
-]
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 67.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 67.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 67.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 67.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 67.
- [2] (.tex_intermediates/summary.aux)
+] [2] (.tex_intermediates/summary.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `summary.out' has not changed.
 (rerunfilecheck)             Checksum: B5B560D6B63580F951B0FB6CC5D42682;416.
  ) 
 Here is how much of TeX's memory you used:
- 17618 strings out of 476677
- 338760 string characters out of 5804957
- 1854490 words of memory out of 5000000
- 37832 multiletter control sequences out of 15000+600000
- 561225 words of font info for 114 fonts, out of 8000000 for 9000
+ 17694 strings out of 476677
+ 340092 string characters out of 5804957
+ 1856490 words of memory out of 5000000
+ 37904 multiletter control sequences out of 15000+600000
+ 561334 words of font info for 115 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,13n,94p,358b,1020s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,15n,94p,358b,960s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/summary.dvi (2 pages, 13000 bytes).
+Output written on .tex_intermediates/summary.dvi (2 pages, 12832 bytes).

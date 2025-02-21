@@ -7,11 +7,10 @@
 
 \chapter{ワイヤーのたわみ量の自動評価装置の開発}
 \label{chap:wiresag}
-較正に使う直線偏光はワイヤーに沿う方向に生成されるため、
-ワイヤーがたわんでいる部分がつくる光はその偏光角がワイヤーの絶対角度からずれる。
-そのため、ワイヤーのたわみは較正の精度に影響を及ぼし、系統誤差を生む。
-本章では、初めに\ref{subsec:wg_wiresag}項にて触れた先行研究\cite{swg:murata}\cite{swg:iijima}にて
-行われたワイヤーのたわみの評価手法について説明し、その問題点を明らかにするとともに開発目標を設定する。
+較正にはワイヤーに沿う方向に偏光した信号を用いる。
+そのため、ワイヤーにたわみがあると偏光角の較正に影響を及ぼし、系統誤差の要因となる。
+本章では、\ref{subsec:wg_wiresag}項にて触れた先行研究\cite{swg:murata}\cite{swg:iijima}での
+ワイヤーのたわみ評価の手法について、まず説明し、その問題点を明らかにするとともに開発目標を設定する。
 続いて、本研究で過去の手法の問題点を解決するために開発したワイヤーのたわみの自動評価装置について説明する。
 その後、評価装置の妥当性の検証を行い、評価装置のもつ誤差について議論する。
 
@@ -130,7 +129,7 @@
 撮影に必要なストレートエッジの位置の調整、カメラの位置の調整といった作業が全て人力で行われていた。
 その作業時間は1つのスパースワイヤーグリッドに対して累計4時間程度であり、
 スパースワイヤーグリッドの量産、品質の保証・管理のために繰り返し測定することが困難である。
-また、人力での測定はその測定結果に人依存のバイアスを産む可能性がある。
+また、人力での測定はその測定結果に人依存のバイアスを生む可能性もある。
 
 \subsection{開発目標の設定}
 以上の問題点を解決するため、
@@ -138,7 +137,7 @@
     \item 全てのワイヤーのたわみ量を自動的に評価可能であること
     \item ワイヤーのたわみ量を$\order{\SI{10}{\micro m}}$程度の精度で評価可能であること
 \end{enumerate}
-という2点の開発目標をもって新たなワイヤーのたわみ量の評価系を開発した。
+という2点の開発目標をもって、ワイヤーのたわみ量を測定するための新しい評価系を開発した。
 
 \section{評価系の概要と評価原理}
 \subsection{評価系の概要}
@@ -269,20 +268,20 @@ fitting を行い、best fit により得られた $a$ を用いてワイヤー�
 \end{align}
 となる。
 
-\begin{figure}[H]
+\begin{figure}[t!]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_concept.pdf}
     \caption{ワイヤーのたわみ量の評価原理。}
     \label{fig:wiresag_concept}
 \end{figure}
-\begin{figure}[H]
+\begin{figure}[t!]
     \centering
     \includegraphics[width=0.5\textwidth]{wiresag/wire_number.pdf}
     \caption{スパースワイヤーグリッドにおけるワイヤー番号。}
     \label{fig:wire_number}
 \end{figure}
 
-評価系が理想的でない場合について考える。
+続いて、評価系が理想的でない場合について考える。
 実際の評価系においてはカメラの回転、水平面からのストレートエッジの傾き、スパースワイヤーグリッドの回転により、重力方向を見誤る効果が生じる。
 これは測定した $z$ が重力に沿う方向で測っていないことを意味し、その効果を消去するためには補正が必要である。
 そこで、
@@ -481,7 +480,7 @@ fittingに求められた$d_i$から、目盛間のpixel数を求めると、そ
     \label{fig:wiresag_scaler_fitting}
 \end{figure}
 
-\subsection{ストレートエッジとワイヤーのfitting}
+\subsection{ストレートエッジとワイヤー位置に対するfitting}
 図\ref{fig:wiresag_edge_target}に撮影した写真、図\ref{fig:wiresag_edge_brightness}に写真中の$x$軸のpixel位置$x_{\mathrm{pix}}=\SI{1665}{pixel}$における輝度を示す。
 図\ref{fig:wiresag_edge_brightness}において、$x_{\mathrm{pix}}<600$あたりの緑でマスクされた輝度が低いところはスケーラの目盛の部分を表しており、
 $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高くなっている部分がストレートエッジの表面を、その後再び急激に低くなるところがストレートエッジの下端を表している。
@@ -495,10 +494,11 @@ $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{wiresag/wiresag_edge_target.pdf}
-    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$における輝度の例。}
+    \caption{$x_{\mathrm{pix}}=\SI{1665}{pixel}$における輝度の例。
+             図上部には、輝度から読み取ることができる装置の配置を$y_{\mathrm{pix}}$に合わせて概念的に描いた。}
     \label{fig:wiresag_edge_brightness}
 \end{figure}
-\subsubsection{ストレートエッジのfitting}
+\subsubsection{ストレートエッジ位置のfitting}
 ストレートエッジの下端の輝度は、理想的な場合は階段関数的である。
 実際にはカメラのピントによりぼやけてしまうため、シグモイド関数を用いてfittingを行う。
 つまり、ストレートエッジの下端の輝度$B_{\mathrm{SE}}(y)$を
@@ -545,7 +545,7 @@ $600 < x_{\mathrm{pix}} < 1100$あたりの赤でマスクされた輝度が高�
     \label{fig:wiresag_straight_edge}
 \end{figure}
 
-\subsubsection{ワイヤーのfitting}
+\subsubsection{ワイヤー位置のfitting}
 ワイヤーの輝度は理想的には階段関数的であり、急激に輝度を上げた後に急激に下げる。
 しかし、ワイヤーの直径は $\SI{0.1}{mm}$ と短く、カメラのピントによりぼやけてしまうため、ガウス関数を用いて fitting を行う。
 すなわち、ワイヤーの輝度 $B_{\mathrm{wire}}(x)$ を
