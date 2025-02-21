@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 FEB 2025 04:01
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  21 FEB 2025 14:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -690,7 +690,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 158--173
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `wiresag_swg.out' has not changed.
-(rerunfilecheck)             Checksum: FB411ED19F31F6CAF46ED48BA2F43CC5;1451.
+(rerunfilecheck)             Checksum: B0CAA57F4CC3C7EB2EF44E1B2196431F;1499.
  ) 
 Here is how much of TeX's memory you used:
  17663 strings out of 476677
@@ -701,4 +701,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  92i,8n,94p,834b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/wiresag_swg.dvi (5 pages, 27448 bytes).
+Output written on .tex_intermediates/wiresag_swg.dvi (5 pages, 26880 bytes).
