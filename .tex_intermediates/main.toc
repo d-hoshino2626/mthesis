@@ -83,7 +83,7 @@
 \contentsline {section}{\numberline {6.2}評価結果とその考察}{66}{section.6.2}%
 \contentsline {section}{\numberline {6.3}奇数番目のワイヤーを修繕後の評価結果とその考察}{68}{section.6.3}%
 \contentsline {section}{\numberline {6.4}たわみ角が$0.05\tcdegree $以上であるワイヤーを修繕後の評価結果とその考察}{69}{section.6.4}%
-\contentsline {section}{\numberline {6.5}まとめと今後の展望}{70}{section.6.5}%
+\contentsline {section}{\numberline {6.5}今後、さらに良くするためには？}{70}{section.6.5}%
 \contentsline {chapter}{\numberline {第7章}まとめと今後の展望}{71}{chapter.7}%
 \contentsline {section}{\numberline {7.1}まとめ}{71}{section.7.1}%
 \contentsline {section}{\numberline {7.2}今後の展望}{72}{section.7.2}%
