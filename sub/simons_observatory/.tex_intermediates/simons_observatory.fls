@@ -1008,9 +1008,9 @@ INPUT ../../fig//simons_observatory/so_site.pdf
 INPUT ../../fig//simons_observatory/so_site.pdf
 INPUT extractbb -B cropbox -O ../../fig//simons_observatory/so_site.pdf
 OUTPUT .tex_intermediates/simons_observatory.dvi
-INPUT ../../fig//simons_observatory/so_noise_freq.pdf
-INPUT ../../fig//simons_observatory/so_noise_freq.pdf
-INPUT extractbb -B cropbox -O ../../fig//simons_observatory/so_noise_freq.pdf
+INPUT ../../fig//simons_observatory/so_noise_freq.png
+INPUT ../../fig//simons_observatory/so_noise_freq.png
+INPUT extractbb -B cropbox -O ../../fig//simons_observatory/so_noise_freq.png
 INPUT ../../fig//simons_observatory/sat_baffle.pdf
 INPUT ../../fig//simons_observatory/sat_baffle.pdf
 INPUT extractbb -B cropbox -O ../../fig//simons_observatory/sat_baffle.pdf

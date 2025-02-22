@@ -45,20 +45,20 @@ Simons Observatory実験(以後、SOと呼ぶ)は、チリのアタカマ砂漠�
 図\ref{fig:so_noise_freq}にSATの観測帯域と、CMB偏光信号、ダスト放射、シンクロトロン放射の輝度温度の周波数依存性を示す。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth]{simons_observatory/so_noise_freq.pdf}
+    \includegraphics[width=0.75\textwidth]{simons_observatory/so_noise_freq.png}
     \caption{SATの観測帯域と、CMB偏光信号、ダスト放射、シンクロトロン放射の輝度温度の周波数依存性の比較。}
     \label{fig:so_noise_freq}
 \end{figure}
 
 図\ref{fig:so-sat_baffle}にSATの概観を示す。
-SATにはフォアバッフル・コムービングシールド・グラウンドスクリーンの3つのバッフル群を用いて地面からの熱放射や、
-近くの山からの照り返しを受信機が受信してしまうことで生じるノイズを抑えている\cite{Kiuchi_2020}。
+フォアバッフル・コムービングシールド・グラウンドスクリーンと呼ばれる3つのバッフル群を用いて地面からの熱放射や、
+近くの山からの照り返しを遮蔽することで、それらが受信機に混入することで生じる外来ノイズを抑えている\cite{Kiuchi_2020}。
 フォアバッフルはSATの受信機に取り付けられており、コムービングシールドはSATを支える構造物に取り付けられ、望遠鏡と共に動く。
 グラウンドスクリーンはSATを取り囲むように設置され、地面からの照り返しを遮断する。
 
 図\ref{fig:so-sat_angle}にSATの回転軸を示す。
-SATはelevationと呼ばれる仰角方向の角度と、azimuthと呼ばれる方位各方向に回転させることができる。
-また、一部のSATではboresightと呼ばれる視線方向に対する回転も可能である。
+SATはelevationと呼ばれる仰角方向の角度と、azimuthと呼ばれる方位角方向の角度を回転する機能に加えて、
+boresightと呼ばれる視線方向に対する回転も可能である。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{simons_observatory/sat_baffle.pdf}
@@ -73,12 +73,15 @@ SATはelevationと呼ばれる仰角方向の角度と、azimuthと呼ばれる�
 \end{figure}
 
 図\ref{fig:so-sat}にSATの受信機部分の断面図を示す。
-空から降ってきた光は窓を透過後、後述する極低温連続回転式半波長板(HWP)を通過・変調されたのちに光学筒を通って焦点面検出器に到達する。
-光学筒には3枚のシリコンレンズが搭載されており、入射してきた光を集光する。
-焦点面には後述するTESボロメータと呼ばれる超伝導検出器が搭載されており、受信機に斜めに挿さっている希釈冷凍機システムによって$\SI{100}{mK}$にまで冷却されている\cite{galitzki2024simonsobservatorydesignintegration}。
+CMBをはじめとする空からの光信号は窓を透過後、後述する極低温連続回転式半波長板(HWP)を通過する際に
+変調されたのち、光学筒で集光されて焦点面検出器に到達する。
+光学筒には3枚のシリコンレンズが搭載されている。
+焦点面にはTESボロメータが搭載されており、受信機に斜めに挿さっている希釈冷凍機システムによって
+$\SI{100}{mK}$にまで冷却・維持する\cite{galitzki2024simonsobservatorydesignintegration}。
 
 望遠鏡の窓の前面には、本論文にて扱うスパースワイヤーグリッドを用いた偏光角較正装置が取り付けられている。
-光学系の目の前に設置されているため、望遠鏡の窓から焦点面に至るまでのすべての光学系により生まれる偏光角の系統誤差を丸ごと較正することができる。
+望遠鏡のあらゆる光学系の目前(信号の入射経路の上流)に設置されているため、
+望遠鏡の窓から焦点面に至るまでのすべての光学系の不完全性によって生まれる系統的なバイアスを丸ごと較正することができる。
 また、望遠鏡の視野を覆うように配置されているため、すべての検出器を一度に較正することができる。
 \begin{figure}[H]
     \centering
@@ -87,7 +90,7 @@ SATはelevationと呼ばれる仰角方向の角度と、azimuthと呼ばれる�
     \label{fig:so-sat}
 \end{figure}
 
-\subsection{焦点面検出器}
+\subsection{焦点面検出器(TES)}
 超伝導物質は転移点付近で電気抵抗が急激にゼロに近づく性質を持つ。
 転移点以下の温度に制御された超伝導物質に光吸収体を接続すると、入射してきた光信号を光吸収体が熱に変換し、超伝導物質を温める。
 これによりその温度が転移点を超え、超伝導物質の電気抵抗が急激に増加する。
@@ -100,12 +103,12 @@ TESボロメータにはOMT(Ortho-Mode Transducer)とフィードホーンが取
 入射してきた光をフィードホーンによってOMTに導き、OMTによって直交する2つの偏光方向に分ける\cite{duff2024simonsobservatoryproductionlevelfabrication}。
 分けられた光はそれぞれ別のTESボロメータに導かれ、各TESボロメータで光の強度が測定される。
 このようにして、焦点面検出器は入射してきた光の偏光方向に対して感度を獲得している。
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{simons_observatory/sat_tes.pdf}
     \caption{(上)SATの焦点面検出器(\SI{1}{pixel})。
     左側がUHF帯を観測するSATに搭載されている検出器で、右側がMF帯を観測するSATに搭載されている検出機である。
-    どちらの検出器も、TESとボロメータを組み合わせた検出器である。
+    どちらの検出器も、TESとOMTを組み合わせた検出器である。
     (下)それぞれUHF帯・MF帯で使用されるフィードホーン群。1つのホーンに対し、1つの検出器が組み合わさる。}
     \label{fig:so-sat_detector}
 \end{figure}
@@ -115,9 +118,10 @@ TESボロメータにはOMT(Ortho-Mode Transducer)とフィードホーンが取
 宇宙から降り注ぐCMBと望遠鏡の間には地球の大気がある。
 そして大気の無偏光熱放射は時事刻々と変化する(つまり、常に揺らいでいる)。
 これは大気による $1/f$ ノイズとして知られ、CMB偏光観測実験においては、このノイズとCMB偏光信号を分離することが重要である。
-SATでは、この大気による熱放射を取り除くために、極低温連続回転式半波長板(cryogenic continuously rotating Half-Wave Plate, 以後、単にHWPと呼ぶ)を用いる\cite{so:hwp_yamada}。
+SATでは、この大気による熱放射を取り除くために、偏光信号を変調する装置「極低温連続回転式半波長板」
+(cryogenic continuously rotating Half-Wave Plate, 以後、単にHWPと呼ぶ)を用いる\cite{so:hwp_yamada}。
 
-一般に、HWPは複屈折の特性を持つ素材からなり、素子中のある決まった軸(光軸)に対して電場成分を反転させる。
+HWPは複屈折の特性を持つ素材からなり、素子中のある決まった軸(光軸)に対して電場成分を反転させる。
 すなわち、HWPに入射する光の電場 $\bm{E}$ はHWPを通過することで
 \begin{align}
     E_{1} &= E_{1} \\
@@ -125,31 +129,32 @@ SATでは、この大気による熱放射を取り除くために、極低温�
 \end{align}
 となる。ここで、1軸はHWPの光軸、2軸は1軸に垂直なHWP平面上の軸を表し、1軸に対して電場成分が反転している。
 入射光として偏光角がHWPの1軸から測って$\chi$であるような直線偏光した光を考える。
-HWPを通過した後の偏光角は$-\chi$となり、偏光が1軸対称に反転、つまり$-2\chi$だけ変化する(図\ref{fig:so-hwp_satoru})。
+HWPを通過した後の偏光軸の向きは$-\chi$となり、偏光の向きが1軸対称に反転、つまり$-2\chi$だけ変化する(図\ref{fig:so-hwp_satoru})。
 この性質により、ストークスパラメータ(定義は付録\ref{chap:stokes}を参照)が
 それぞれ$I_{\mathrm{in}}(t), Q_{\mathrm{in}}(t), U_{\mathrm{in}}(t)$であるような直線偏光した入射光を、
 HWPを通過したあとに1軸方向に感度を持つ片偏波のアンテナで電場強度を測った際の出力信号$d_m(t)$は
 \begin{equation}
-    d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i 4\chi)]
+    d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \eta\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i 4\chi)]
 \end{equation}
-となる。ここで、$\varepsilon$ は変調効率である。つまり、SOのように、HWPを$\SI{2}{Hz}$で回転させると、連続的に入射する直線偏光の信号を$\SI{8}{Hz}$に変調して出力することになる。
+となる。ここで、$\eta$ は変調効率であり、$\eta\sim1$である。つまり、SOのように、HWPを$\SI{2}{Hz}$で回転させると、連続的に入射する直線偏光の信号を$\SI{8}{Hz}$に変調して出力することになる。
 HWPの角振動数を$\omega_{\mathrm{HWP}}$とし、初期位相を$\chi_0$とすると、$\chi(t) = \omega_{\mathrm{HWP}}t + \chi_{0}$と表され、出力信号は
 \begin{equation}
-    d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0))]
+    d_{\mathrm{m}}(t) = I_{\mathrm{in}}(t) + \eta\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp(-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0))]
 \end{equation}
 となる。検出器はある偏光角方向$\theta_{\mathrm{det}}$にのみ感度を持つため、最終的に検出器が読み出す信号$d_{\mathrm{m}, \mathrm{det}}$は
 \begin{equation}
     \label{eq:so-hwp_modulation}
-    d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \varepsilon\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0 - 2\theta_{\mathrm{det}})}]
+    d_{\mathrm{m}, \mathrm{det}}(t) = I_{\mathrm{in}}(t) + \eta\Re\qty[\qty(Q_{\mathrm{in}}(t)+iU_{\mathrm{in}}(t))\exp\qty{-i \qty(4\omega_{\mathrm{HWP}}t + 4\chi_0 - 2\theta_{\mathrm{det}})}]
 \end{equation}
 となる。この式はその偏光角がほとんど時間変化しない信号$Q_{\mathrm{in}}+iU_{\mathrm{in}}$がHWPを通過することで、
 周波数$4\omega_{\mathrm{HWP}}$のところに変調されることを示している。
 このようにして、元々$1/f$ノイズが大きかった低周波帯の信号を、ノイズの少ない高周波帯に変換できる。
-$Q_{\mathrm{in}}+iU_{\mathrm{in}}$を得るためには、$+4\omega_{\mathrm{HWP}}$ のまわりのみを通すバンドパスフィルタ$\mathcal{F}^{\mathrm{BPF}}$を通した後、2倍して位相を元に戻せば良い。
-つまり、復調後に得られる信号 $d_{\mathrm{d, det}}$ は
+$Q_{\mathrm{in}}+iU_{\mathrm{in}}$を得るためには、データ解析の際に$+4\omega_{\mathrm{HWP}}$の
+まわりのみを通すバンドパスフィルタ$\mathcal{F}^{\mathrm{BPF}}$を通した後、2倍して位相を元に戻せば良い。
+つまり、データを復調処理した後に得られる信号$d_{\mathrm{d, det}}$は
 \begin{align}
     d_{\mathrm{d, det}}(t) &= \mathcal{F}^{\mathrm{BPF}}\qty[d_{\mathrm{m,det}}(t)]\times 2\exp\qty{i\qty(4\omega_{\mathrm{HWP}}t + 4\chi_0)} \\
-    &= \varepsilon\qty[Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t)]\exp\qty[i\qty(2\theta_{\mathrm{det}}+4\chi_0)]
+    &= \eta\qty[Q_{\mathrm{in}}(t) + iU_{\mathrm{in}}(t)]\exp\qty[i\qty(2\theta_{\mathrm{det}}+4\chi_0)]
     \label{eq:so-hwp_demod}
 \end{align}
 となる。ここで、$\chi_0$はHWPに搭載されているエンコーダによって決定されるオフセットである。
@@ -223,13 +228,14 @@ Eモード、Bモード偏光を表現する係数 $a_{\ell m}^{E}, a_{\ell m}^{
 $C_{\mathrm{obs}, \ell}^{BB}$ への漏れ込みとして及ぼす影響を図\ref{fig:so-EtoBleakage}に示す\footnote{図の作成には\href{http://class-code.net}{CLASS}を用いた。}。
 テンソルスカラー比$r$は、BICEP/KeckとPlanckの統合解析によって得られた$r=0.032$を上限とし、$r=0.001$までを描いた。
 誤較正の目安として、 $\delta\theta = 10\tcdegree, 1\tcdegree, 0.1\tcdegree$ の場合をプロットした。
+$C_{\ell}^{EE}$は$C_{\ell}^{BB}$と比較して$3\sim4$桁も大きな信号であるため、
 $\delta\theta=10\tcdegree$や$\delta\theta=1\tcdegree$では$C_{\ell}^{EE}$の漏れ込みが$C_{\ell}^{BB}$の大きさ以上に残ってしまう。
 この図からは、偏光角較正の要求精度が$\delta\theta < 0.1\tcdegree$であることが直感的に理解できる。
 
 偏光角較正の要求精度は望遠鏡の感度や、ノイズなどにも依存する。
 SOでは、ノイズとして最も悲観的な場合を考えた場合でも
-$\delta\theta \leq 0.1\tcdegree$であればこの漏れ込みが生むテンソルスカラー比$r$への系統誤差は無視できるほどに小さくなる~\cite{so:Bryan_2018}。
-以上の理由から、SOでの偏光角較正の要求精度を $\delta\theta \leq 0.1\tcdegree$ と定める。
+$\delta\theta < 0.1\tcdegree$であればこの漏れ込みが生むテンソルスカラー比$r$への系統誤差は無視できるほどに小さくなる~\cite{so:Bryan_2018}。
+以上の理由から、SOでの偏光角較正の要求精度を $\delta\theta < 0.1\tcdegree$ と定める。
 
 \begin{figure}[H]
     \centering
@@ -239,7 +245,7 @@ $\delta\theta \leq 0.1\tcdegree$であればこの漏れ込みが生むテンソ
     \label{fig:so-EtoBleakage}
 \end{figure}
 
-\subsection{偏光角較正手法}
+\subsection{偏光角の較正手法}
 偏光角較正には、検出器間の相対的な偏光角を較正する相対角度較正と、
 天球面上においてどの向きに検出器の偏光角が対応するかを較正する絶対角度較正が存在する。
 本項では代表的な較正手法を紹介したのち、先行研究においてどのような手法をとり、その精度がどの程度であったかをまとめる。
@@ -290,8 +296,9 @@ QUaD実験にて、$0.5\tcdegree$の絶対角度較正精度が保証された�
 これを利用して、相対角度較正を十分に行なった上で $C_{\ell}^{EB} = 0$ とおくことで
 $\delta\theta$ を求め、絶対角度較正を行う手法を自己較正と呼ぶ。
 自己較正の精度は相対角度較正の精度と検出データ量に依存するため、検出器数が増大によって精度の向上が期待される。
-しかし、$C_{\ell}^{EB}=0$を仮定してしまうため、標準宇宙モデルを超えるような物理に対する感度を捨てる可能性がある。
-別の言い方をすれば、標準宇宙モデルを仮定したデータ解析となってしまう。そのため、この自己較正以外の手法を用いて絶対角度較正を行うことが重要である。
+しかし、$C_{\ell}^{EB}=0$を仮定してしまうため、標準宇宙モデルを仮定したデータ解析となってしまう。
+別の言い方をすれば、標準宇宙モデルを超えるような物理に対する感度を捨てる可能性がある。
+そのため、この自己較正以外の手法を用いて絶対角度較正を行うことが重要である。
 
 \subsubsection{偏光角較正手法のまとめとスパースワイヤーグリッドの採用理由}
 先行研究における偏光角較正の手法と、その精度を表\ref{tab:so-polarization_calibration}にまとめる。
@@ -303,39 +310,44 @@ SATではスパースワイヤーグリッドを用いた偏光角較正を採�
 このような理由から、他の手法よりも系統誤差の削減が期待でき、採用に至った。
 \begin{table}[H]
     \centering
+    \label{tab:so-polarization_calibration}
     \caption[先行研究における偏光角較正手法とその精度の比較]{先行研究における偏光角較正手法とその絶対角度較正精度の比較。
     どの手法においても$\delta\theta < 0.1\tcdegree$を達成したものはない。}
-    \begin{tabular}{cccc}
-        \hline
-        実験 & 観測周波数帯 [GHz] & 較正手法 & $\delta\theta$ \\
-        \hline
-        \hline
-        \multirow{2}{*}{POLARBEAR\cite{so:polarbear_cal}} & \multirow{2}{*}{$150$} & Tau A & $0.43\tcdegree$ \\
-                                                          &                        & 自己較正\footnotemark[1] & $0.2\tcdegree$ \\
-        \hline
-        DASI\cite{so:Leitch_2002} & $26\sim36$ & 月, デンスワイヤーグリッド & $0.4\tcdegree$ \\
-        \hline
-        BICEP\cite{so:Takahashi_2008} & $100,\,150,\,220$ & 誘電体シート & $0.7\tcdegree$ \\
-        \hline
-        BICEP2\cite{so:bicep2_syserr} & $150$ & 自己較正\footnotemark[1] & $1\tcdegree$\\
-        \hline
-        % BICEP3\cite{so:bicep3} & $95$ & デンスワイヤーグリッド & $0.3\tcdegree$ \\
-        \multirow{2}{*}{SPTpol\cite{so:Hanson_2013}} & $150$ & \multirow{2}{*}{デンスワイヤーグリッド} & $1\tcdegree$ \\
-                                                     & $95$  & & $1.5\tcdegree$ \\
-        \hline
-        \multirow{3}{*}{ABS\cite{so:Kusaka_2018}} & \multirow{3}{*}{$145$} & スパースワイヤーグリッド & $1.1\tcdegree$ \\
-                                                  &                        & Tau A & $1.9\tcdegree$ \\
-                                                  &                        & 自己較正\footnotemark[1] & $1.6\tcdegree$ \\
-        \hline
-        \multirow{2}{*}{QUIET\cite{so:Bischoff_2011}} & \multirow{2}{*}{$43,\,94$} & 月 & $1\tcdegree$ \\
-                                                      &                            & Tau A, スパースワイヤーグリッド & $3\tcdegree$ \\
-        \hline
-        \multirow{3}{*}{SPT-3G\cite{so:SPT3G}} & $90$  & \multirow{3}{*}{Cen A} & $2.0\tcdegree$ \\
-                                               & $150$ &                        & $2.2\tcdegree$ \\
-                                               & $220$ &                        & $4.5\tcdegree$ \\
-        \hline
-    \end{tabular}
-    \label{tab:so-polarization_calibration}
+    \begin{threeparttable}[H]
+        \begin{tabular}{cccc}
+            \hline
+            \hline
+            実験 & 観測周波数帯 [GHz] & 較正手法 & $\delta\theta$ \\
+            \hline
+            \multirow{2}{*}{POLARBEAR\cite{so:polarbear_cal}} & \multirow{2}{*}{$150$} & Tau A & $0.43\tcdegree$ \\
+                                                              &                        & 自己較正\tnote[*] & $0.2\tcdegree$ \\
+            \hline
+            DASI\cite{so:Leitch_2002} & $26\sim36$ & 月, デンスワイヤーグリッド & $0.4\tcdegree$ \\
+            \hline
+            BICEP\cite{so:Takahashi_2008} & $100,\,150,\,220$ & 誘電体シート & $0.7\tcdegree$ \\
+            \hline
+            BICEP2\cite{so:bicep2_syserr} & $150$ & 自己較正\tnote[*] & $1\tcdegree$\\
+            \hline
+            % BICEP3\cite{so:bicep3} & $95$ & デンスワイヤーグリッド & $0.3\tcdegree$ \\
+            \multirow{2}{*}{SPTpol\cite{so:Hanson_2013}} & $150$ & \multirow{2}{*}{デンスワイヤーグリッド} & $1\tcdegree$ \\
+                                                         & $95$  & & $1.5\tcdegree$ \\
+            \hline
+            \multirow{3}{*}{ABS\cite{so:Kusaka_2018}} & \multirow{3}{*}{$145$} & スパースワイヤーグリッド & $1.1\tcdegree$ \\
+                                                      &                        & Tau A & $1.9\tcdegree$ \\
+                                                      &                        & 自己較正\tnote[*] & $1.6\tcdegree$ \\
+            \hline
+            \multirow{2}{*}{QUIET\cite{so:Bischoff_2011}} & \multirow{2}{*}{$43,\,94$} & 月 & $1\tcdegree$ \\
+                                                          &                            & Tau A, スパースワイヤーグリッド & $3\tcdegree$ \\
+            \hline
+            \multirow{3}{*}{SPT-3G\cite{so:SPT3G}} & $90$  & \multirow{3}{*}{Cen A} & $2.0\tcdegree$ \\
+                                                   & $150$ &                        & $2.2\tcdegree$ \\
+                                                   & $220$ &                        & $4.5\tcdegree$ \\
+            \hline
+            \hline
+        \end{tabular}
+        \begin{tablenotes}
+            \item[*] 標準宇宙モデル$(C_{\ell}^{EB}=0)$を仮定した手法であり、究極の較正手段とはなり得ない。
+        \end{tablenotes}
+    \end{threeparttable}
 \end{table}
-\footnotetext[1]{標準宇宙モデル$(C_{\ell}^{EB}=0)$を仮定した手法であり、究極の較正手段とはなり得ない。}
 \end{document}

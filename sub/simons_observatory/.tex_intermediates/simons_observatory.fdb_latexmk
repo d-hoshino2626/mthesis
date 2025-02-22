@@ -1,21 +1,21 @@
 # Fdb version 4
-["dvipdf"] 1740135556 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1740135556 0
-  "simons_observatory.dvi" 1740135556 51448 98676b6f81b83f670da5f2689600dd09 "latex"
+["dvipdf"] 1740216652 "simons_observatory.dvi" "simons_observatory.pdf" "simons_observatory" 1740216653 0
+  "simons_observatory.dvi" 1740216652 51404 34454781de76904efa0df66744b06767 "latex"
   (generated)
   "simons_observatory.pdf"
   (rewritten before read)
-["latex"] 1740135554 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1740135556 0
+["latex"] 1740216650 "simons_observatory.tex" "simons_observatory.dvi" "simons_observatory" 1740216653 0
   "../../fig//simons_observatory/EtoB_leakage.pdf" 1737672345 579489 137ea6a4cd2b3c711a83b4c6627ec472 ""
   "../../fig//simons_observatory/hwp_satoru.pdf" 1737316523 712020 4eda6f859ce352a3e070c97dc02bf71a ""
   "../../fig//simons_observatory/sat_angle.pdf" 1737318293 1105315 eb68da02748743f839d1c70b84fc38da ""
   "../../fig//simons_observatory/sat_baffle.pdf" 1737307820 2177050 0febd1bca76093a63a6874f1fc6274cf ""
   "../../fig//simons_observatory/sat_danmen.pdf" 1737306537 1592234 9ff010b4dbabc2b96dcb8d061cfd6a89 ""
   "../../fig//simons_observatory/sat_tes.pdf" 1737680738 1760953 941732cc833eb2c112b53c67ce8dbc3e ""
-  "../../fig//simons_observatory/so_noise_freq.pdf" 1737310614 382475 424ac2f36e29c14240bb39b401305ef2 ""
+  "../../fig//simons_observatory/so_noise_freq.png" 1740136274 625203 71157bc4e30b87e0f81377b7aa87f192 ""
   "../../fig//simons_observatory/so_site.pdf" 1737310047 2226613 b20fa905418965d83b7787a99e32a66f ""
   "../../main.tex" 1740124889 3174 48499bc10d9800aec94203d936c318a0 ""
-  ".tex_intermediates/simons_observatory.aux" 1740135556 8918 5041cec156c475c08c2c7dd6dfe0607d "latex"
-  ".tex_intermediates/simons_observatory.out" 1740135556 1603 927ef66d742629407f9355fe71a5306f "latex"
+  ".tex_intermediates/simons_observatory.aux" 1740216652 8980 52d0a284a92015719698ed09674b96a0 "latex"
+  ".tex_intermediates/simons_observatory.out" 1740216652 1642 e8eed74aff0113ab4b4b347bdb8bac8e "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -156,7 +156,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/euptex/uplatex.fmt" 1681465367 7810638 9cb4d65ec9e37fe0d22969910c94c3bc ""
   "/usr/local/texlive/2023/texmf.cnf" 1681465299 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "simons_observatory.tex" 1740135553 28681 1958748cd653a5130c331c0caa34c943 ""
+  "simons_observatory.tex" 1740216650 29117 bdc6e7e70c05b6d9105184ab984c9b5c ""
   (generated)
   ".tex_intermediates/simons_observatory.aux"
   ".tex_intermediates/simons_observatory.log"
