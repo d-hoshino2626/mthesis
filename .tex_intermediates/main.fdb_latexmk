@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex .tex_intermediates/main"] 1740132831 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1740132847 0
+["bibtex .tex_intermediates/main"] 1740231014 ".tex_intermediates/main.aux" ".tex_intermediates/main.bbl" ".tex_intermediates/main" 1740231029 0
   "./refs.bib" 1737685986 44977 4df24ba036667e59c840e038c6943555 ""
-  ".tex_intermediates/main.aux" 1740132843 72442 211d37f1c4ca3498fb97803a37035792 "latex"
+  ".tex_intermediates/main.aux" 1740231025 71999 79e1b78bd7936cbba35dc597e015dc66 "latex"
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   ".tex_intermediates/main.bbl"
   ".tex_intermediates/main.blg"
   (rewritten before read)
-["dvipdf"] 1740132843 "main.dvi" "main.pdf" "main" 1740132847 0
-  "main.dvi" 1740132843 390504 8dad90cca41097ca682556873e49b187 "latex"
+["dvipdf"] 1740231026 "main.dvi" "main.pdf" "main" 1740231029 0
+  "main.dvi" 1740231025 391268 ec0e69f14914e9411a262d2690580614 "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1740132831 "main.tex" "main.dvi" "main" 1740132847 0
-  ".tex_intermediates/main.aux" 1740132843 72442 211d37f1c4ca3498fb97803a37035792 "latex"
-  ".tex_intermediates/main.bbl" 1740132831 9526 675d2b68fa0b381fa637bfeb1367ccaf "bibtex .tex_intermediates/main"
-  ".tex_intermediates/main.out" 1740132843 13983 99041f9e9b670f3c787254a50d71f978 "latex"
-  ".tex_intermediates/main.toc" 1740132843 9383 af819f9972187ebfb091c4efdadd8b2b "latex"
+["latex"] 1740231014 "main.tex" "main.dvi" "main" 1740231029 0
+  ".tex_intermediates/main.aux" 1740231025 71999 79e1b78bd7936cbba35dc597e015dc66 "latex"
+  ".tex_intermediates/main.bbl" 1740231014 9526 675d2b68fa0b381fa637bfeb1367ccaf "bibtex .tex_intermediates/main"
+  ".tex_intermediates/main.out" 1740231025 14022 f72a21d63191b179152ee156fd53f56a "latex"
+  ".tex_intermediates/main.toc" 1740231025 9391 957267650690dd56aafbc884ccf285b6 "latex"
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0600.tfm" 1136768653 1536 a00dc4928e5f91bd0b0c0839944035dd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx0800.tfm" 1136768653 1536 f9f377d0a7a6ab86b894ea3edc27e42b ""
@@ -178,7 +178,7 @@
   "fig//simons_observatory/sat_baffle.pdf" 1737307820 2177050 0febd1bca76093a63a6874f1fc6274cf ""
   "fig//simons_observatory/sat_danmen.pdf" 1737306537 1592234 9ff010b4dbabc2b96dcb8d061cfd6a89 ""
   "fig//simons_observatory/sat_tes.pdf" 1737680738 1760953 941732cc833eb2c112b53c67ce8dbc3e ""
-  "fig//simons_observatory/so_noise_freq.pdf" 1737310614 382475 424ac2f36e29c14240bb39b401305ef2 ""
+  "fig//simons_observatory/so_noise_freq.png" 1740136274 625203 71157bc4e30b87e0f81377b7aa87f192 ""
   "fig//simons_observatory/so_site.pdf" 1737310047 2226613 b20fa905418965d83b7787a99e32a66f ""
   "fig//tiltsensor/angleX_temp_dep.pdf" 1736430860 392778 c9bf1e1f483118f5a1f2304c8dee9de5 ""
   "fig//tiltsensor/angleY_huryou_test.png" 1737692081 392739 95dc4d9b8be8a454c8d6c6aeca844916 ""
@@ -210,7 +210,6 @@
   "fig//wiregrid/tiltsensor_slope.pdf" 1736681679 857497 d7070a1bb20f3dcedec4e12fc3b0927b ""
   "fig//wiregrid/wire_attachment.pdf" 1736015925 3521102 77035975c8b96d136eeb5db51b26c9bb ""
   "fig//wiregrid/wire_detail_view.pdf" 1736010431 3160784 302b67eb592cdb7e8ffcd8883e3e59dd ""
-  "fig//wiregrid/wire_reflect.pdf" 1737619610 437039 9f65d116fba639d3e96b6e8d4e33d15b ""
   "fig//wiregrid/wiregrid_actuator.pdf" 1736019593 2814242 f1b739bda89c268a6f685964c7de0277 ""
   "fig//wiregrid/wiregrid_appearance.pdf" 1735747397 1000562 53a007677c690799e344dda96d63197a ""
   "fig//wiregrid/wiregrid_calibration_circle.pdf" 1737332655 373782 ff97c13937c6f58dd928f10ee7d7ba18 ""
@@ -259,13 +258,13 @@
   "main.tex" 1740124889 3174 48499bc10d9800aec94203d936c318a0 ""
   "sub/abstract/abstract.tex" 1737682711 3660 02f4fc78537483e246b892f25bbe7f6b ""
   "sub/appendix/appendix.tex" 1736649885 6477 dd0e74c73ee903c52fcf0e3a869f48cf ""
-  "sub/introduction/introduction.tex" 1737686196 22979 9812f2934c8c8f7654ff2c6b1eafa65e ""
-  "sub/simons_observatory/simons_observatory.tex" 1737686304 28353 8ff43f9b02f5b316810f1055cd171855 ""
-  "sub/summary/summary.tex" 1740129494 7833 46d0065aa5693de4a1c0c238eca04bd2 ""
+  "sub/introduction/introduction.tex" 1740134235 22794 6481091d6695c07f524b6fc15ff79253 ""
+  "sub/simons_observatory/simons_observatory.tex" 1740216650 29117 bdc6e7e70c05b6d9105184ab984c9b5c ""
+  "sub/summary/summary.tex" 1740133732 8203 c7f3413da91e96324fe55f2c6019ff38 ""
   "sub/tiltsensor/tiltsensor.tex" 1737692783 27847 73175a090478bad626dfcd8d7d70fe4b ""
   "sub/title/title.tex" 1737217245 703 9d2385cd2d7fe86b6f3ffc8b156d7c1a ""
-  "sub/wiregrid/wiregrid.tex" 1737677532 28875 13371335fbd0c76cd056303504f3a7ba ""
-  "sub/wiresag/wiresag.tex" 1740130379 54607 a0590ad93982e0640f0083e40e644f01 ""
+  "sub/wiregrid/wiregrid.tex" 1740230990 28772 0f966081f4ff999e018dfc70d525e3fe ""
+  "sub/wiresag/wiresag.tex" 1740132917 54603 ba3a468e2fc78330916a0c4b9d60c8c5 ""
   "sub/wiresag_swg/wiresag_swg.tex" 1740116674 17241 bf0ede71f54f38e1e9f6efbae7f4f310 ""
   (generated)
   ".tex_intermediates/main.aux"

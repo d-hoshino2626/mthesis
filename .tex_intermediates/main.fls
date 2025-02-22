@@ -1060,12 +1060,23 @@ INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
 INPUT ./sub/simons_observatory/simons_observatory.tex
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
 INPUT ./fig//simons_observatory/so_site.pdf
 INPUT ./fig//simons_observatory/so_site.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/so_site.pdf
-INPUT ./fig//simons_observatory/so_noise_freq.pdf
-INPUT ./fig//simons_observatory/so_noise_freq.pdf
-INPUT extractbb -B cropbox -O ./fig//simons_observatory/so_noise_freq.pdf
+INPUT ./fig//simons_observatory/so_noise_freq.png
+INPUT ./fig//simons_observatory/so_noise_freq.png
+INPUT extractbb -B cropbox -O ./fig//simons_observatory/so_noise_freq.png
 INPUT ./fig//simons_observatory/sat_baffle.pdf
 INPUT ./fig//simons_observatory/sat_baffle.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_baffle.pdf
@@ -1081,17 +1092,6 @@ INPUT extractbb -B cropbox -O ./fig//simons_observatory/sat_tes.pdf
 INPUT ./fig//simons_observatory/hwp_satoru.pdf
 INPUT ./fig//simons_observatory/hwp_satoru.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/hwp_satoru.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
 INPUT ./fig//simons_observatory/EtoB_leakage.pdf
 INPUT ./fig//simons_observatory/EtoB_leakage.pdf
 INPUT extractbb -B cropbox -O ./fig//simons_observatory/EtoB_leakage.pdf
@@ -1102,9 +1102,6 @@ INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./sub/wiregrid/wiregrid.tex
 INPUT ./sub/wiregrid/wiregrid.tex
-INPUT ./fig//wiregrid/wire_reflect.pdf
-INPUT ./fig//wiregrid/wire_reflect.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/wire_reflect.pdf
 INPUT ./fig//wiregrid/wiregrid_into_telescope.pdf
 INPUT ./fig//wiregrid/wiregrid_into_telescope.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_into_telescope.pdf
