@@ -108,7 +108,7 @@ $\chi_0=0,\,\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\t
 この較正円を用いて補正を加え、最終的に検出器の偏光角$\theta_{\mathrm{det}}$を較正する。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\columnwidth]{wiregrid/wiregrid_telescope_image.pdf}
+    \includegraphics[width=0.70\columnwidth]{wiregrid/wiregrid_telescope_image.pdf}
     \caption{望遠鏡の窓の前に設置されたスパースワイヤーグリッドの概念図。
     見やすさのため、スパースワイヤーグリッドは本来設置される位置よりも空側に描いている。
     }
@@ -121,9 +121,24 @@ $\chi_0=0,\,\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\t
     \label{fig:wiregrid_mod}
 \end{figure}
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\columnwidth]{wiregrid/wiregrid_calibration_circle.pdf}
-    \caption{理想的な較正円のイメージ。}
+    \begin{minipage}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=1.0\columnwidth]{wiregrid/wiregrid_calibration_circle.pdf}
+        \subcaption{}
+        \label{fig:calibration_circle1}
+    \end{minipage}
+    \hspace{0.02\columnwidth}
+    \begin{minipage}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=0.85\columnwidth]{wiregrid/wiregrid_kouseien2.png}
+        \subcaption{}
+        \label{fig:calibration_circle2}
+    \end{minipage}
+    \caption{ワイヤーの角度を$\theta_{\mathrm{wire,1}},\,\theta_{\mathrm{wire,2}},\,\cdots$と変化させた時の較正円のイメージ。
+    (\subref{fig:calibration_circle1})理想的な較正円のイメージ。\ 
+    (\subref{fig:calibration_circle2})スパースワイヤーグリッド以外からの余剰な偏光$\delta_{P}$
+    によって較正円の原点がズレた場合の較正円のイメージ。
+    }
     \label{fig:calibration_circle}
 \end{figure}
 \section{較正装置の設計と特徴}

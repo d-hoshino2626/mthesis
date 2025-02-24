@@ -1114,6 +1114,9 @@ INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_tod.pdf
 INPUT ./fig//wiregrid/wiregrid_calibration_circle.pdf
 INPUT ./fig//wiregrid/wiregrid_calibration_circle.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_calibration_circle.pdf
+INPUT ./fig//wiregrid/wiregrid_kouseien2.png
+INPUT ./fig//wiregrid/wiregrid_kouseien2.png
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_kouseien2.png
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_appearance.pdf

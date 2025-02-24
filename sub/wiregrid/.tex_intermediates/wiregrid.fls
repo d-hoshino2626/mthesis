@@ -1001,17 +1001,12 @@ INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_tod.pdf
 INPUT ../../fig//wiregrid/wiregrid_calibration_circle.pdf
 INPUT ../../fig//wiregrid/wiregrid_calibration_circle.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_calibration_circle.pdf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ../../fig//wiregrid/wiregrid_appearance.pdf
-INPUT ../../fig//wiregrid/wiregrid_appearance.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_appearance.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
-INPUT ../../fig//wiregrid/wire_detail_view.pdf
-INPUT ../../fig//wiregrid/wire_detail_view.pdf
-INPUT extractbb -B cropbox -O ../../fig//wiregrid/wire_detail_view.pdf
+INPUT ../../fig//wiregrid/wiregrid_kouseien2.png
+INPUT ../../fig//wiregrid/wiregrid_kouseien2.png
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_kouseien2.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
@@ -1026,6 +1021,14 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ../../fig//wiregrid/wiregrid_appearance.pdf
+INPUT ../../fig//wiregrid/wiregrid_appearance.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wiregrid_appearance.pdf
+INPUT ../../fig//wiregrid/wire_detail_view.pdf
+INPUT ../../fig//wiregrid/wire_detail_view.pdf
+INPUT extractbb -B cropbox -O ../../fig//wiregrid/wire_detail_view.pdf
 INPUT ../../fig//wiregrid/wire_attachment.pdf
 INPUT ../../fig//wiregrid/wire_attachment.pdf
 INPUT extractbb -B cropbox -O ../../fig//wiregrid/wire_attachment.pdf
