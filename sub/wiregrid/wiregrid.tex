@@ -108,9 +108,8 @@ $\chi_0=0,\,\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\t
 この較正円を用いて補正を加え、最終的に検出器の偏光角$\theta_{\mathrm{det}}$を較正する。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.70\columnwidth]{wiregrid/wiregrid_telescope_image.pdf}
+    \includegraphics[width=0.60\columnwidth]{wiregrid/wiregrid_telescope_image.pdf}
     \caption{望遠鏡の窓の前に設置されたスパースワイヤーグリッドの概念図。
-    見やすさのため、スパースワイヤーグリッドは本来設置される位置よりも空側に描いている。
     }
     \label{fig:wiregrid_telescope}
 \end{figure}
@@ -145,9 +144,18 @@ $\chi_0=0,\,\theta_{\mathrm{det}}=30\tcdegree$とし、$\theta_\mathrm{wire}=0\t
 較正円を描くためにはスパースワイヤーグリッドを回転させ、ワイヤーの角度を変化させる必要がある。
 また、本装置は望遠鏡の窓の前に設置されるという特性上、CMB観測時にはそれを取り外さなければならない。
 先行研究ではこのような回転・切り替え作業を手動にて行ってきたが、それに伴って高い頻度での再較正が困難であった。
-そこで、本装置ではワイヤーの回転と観測・較正の切り替えを自動で行うロボット機構が開発・搭載され、10分程度での較正が実現されている。
+そこで、本装置ではワイヤーの回転と観測モード・較正モードの切り替え(図\ref{fig:wiregrid_modes})を
+自動で行うロボット機構が開発・搭載され、10分程度での較正が実現されている。
 また、重力参照計を搭載しワイヤー絶対角度の高精度な測定を実現する。
 本節ではスパースワイヤーグリッド本体の設計、自動化機構と重力参照計を用いた絶対角度の測定方法について述べる。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\columnwidth]{wiregrid/wiregrid_mode_switch.pdf}
+    \caption{(左)CMB観測モード時のスパースワイヤーグリッドの様子。望遠鏡の視野の外に出ている。
+    (右)較正モード時のスパースワイヤーグリッドの様子。望遠鏡の窓の上に位置し、偏光信号を望遠鏡に送り込む。
+    }
+    \label{fig:wiregrid_modes}
+\end{figure}
 \subsection{スパースワイヤーグリッドの設計}
 \label{subsec:wg_design}
 スパースワイヤーグリッドの概観を図\ref{fig:swg}(\subref{fig:wiregrid_appearance})に示す。
@@ -191,6 +199,12 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
 モニターされた角度を用いてDCモーターへの電流を制御するシステムが開発されており、
 これによりスパースワイヤーグリッドを$\order{1\tcdegree}$の精度で$22.5\tcdegree$ずつ回転することで、
 図\ref{fig:calibration_circle}のような較正円を描く\cite{swg:nakata}。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\textwidth]{wiregrid/rotation_parts.pdf}
+    \caption{スパースワイヤーグリッドに搭載された回転機構の概観}
+    \label{fig:rotation_parts}
+\end{figure}
 \subsection{切り替え機構}
 本較正装置ではCMB観測モードと較正モードの切り替えを2本のアクチュエータによって
 スパースワイヤーグリッドを出し入れすることで実現している。
@@ -198,12 +212,6 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
 アクチュエータのモーターには Oriental motor 社製の PK269JDA という2相式ステッピングモーターを使用しており、
 アクチュエータの両端にあるリミットスイッチによりスパースワイヤーグリッドが端まで移動したことを認識、動作を止める。
 本機構によるスパースワイヤーグリッドの出し入れは片道で$90$秒程度となっており、CMB観測の時間を無駄にすることなく較正を行うことに貢献している\cite{swg:nakata}。
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.65\textwidth]{wiregrid/rotation_parts.pdf}
-    \caption{スパースワイヤーグリッドに搭載された回転機構の概観}
-    \label{fig:rotation_parts}
-\end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.65\textwidth]{wiregrid/wiregrid_actuator.pdf}
@@ -214,19 +222,19 @@ Crouzet USA 社製の STANDARD MOTOR 2900 RPM 12V というDCモーターを使�
 \subsection{重力参照計}
 \label{subsec:wg_tiltsensor}
 \subsubsection{重力参照計を用いた $\theta_{\mathrm{wire}}$ の測定}
-式\eqref{eq:wiregrid_mod}において、 $\theta_{\mathrm{wire}}$ は天球面上におけるワイヤーが作り出す偏光角(絶対角度)である。
-エンコーダはスパースワイヤーグリッドがその平面内において回転したワイヤーの角度(相対角度)を出力するので、
-別の手段を用いてこの平面が天球面上のどこに位置しているかを知る必要がある。
-これを知るために、重力を参照してその平面がどう傾いているのかを出力する2軸の重力参照計を導入する。
-ここでは、絶対角度がどのように測られるかについて述べる。
+式\eqref{eq:wiregrid_mod}において、 $\theta_{\mathrm{wire}}$ はワイヤーが作り出す天球面上における偏光信号の角度(絶対角度)である。
+エンコーダはスパースワイヤーグリッドがその平面内において回転したワイヤーの方向角度(相対角度)を出力するので、
+その平面座標を天球面座標に変換するための参照情報が必要である。
+具体的には、2軸の重力参照計を導入して重力を参照し、平面座標を天球面座標に変換する。
+つまり、重力参照計の精度が、絶対角度の較正精度をダイレクトに左右する。
 
 図\ref{fig:abs_angle}(\subref{fig:abs_angle_overview})のように各種平面、角度を定義する。$xy$ 平面として重力に対して垂直な平面を取り、$z$ 軸負の方向が重力方向となるように座標系を取る。
 図中に円環として描かれているのがスパースワイヤーグリッドであり、重力参照計が持つ2軸を $x',\,y'$ 軸とする。
 $\alpha,\,\beta$ は重力参照計が測定する角度であり、$x',\,y'$ 軸が $xy$ 平面となす角度である。
 図中にある horizontal line とは、$xy$ 平面と $x',\,y'$ 平面が交わる直線である。
-以上の定義から、$x'$ 軸と horizontal line がなす角 $\theta_{\mathrm{sens}}$ (図\ref{fig:abs_angle}(\subref{fig:abs_angle_WG_plane}))は
+以上の定義から、$x'$ 軸と horizontal line がなす角 $\theta_{\mathrm{gravity}}$ (図\ref{fig:abs_angle}(\subref{fig:abs_angle_WG_plane}))は
 \begin{equation}
-    \theta_{\mathrm{sens}} = \arctan\qty(\dfrac{\sin\alpha}{\sin\beta})
+    \theta_{\mathrm{gravity}} = \arctan\qty(\dfrac{\sin\alpha}{\sin\beta})
     \label{eq:wg_theta_sens}
 \end{equation}
 と表される\cite{swg:Murata_2023}。
@@ -235,7 +243,7 @@ $\alpha,\,\beta$ は重力参照計が測定する角度であり、$x',\,y'$ �
 $\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であり、$\theta_{\mathrm{enc}0}$ はエンコーダの零点と $x'$ 軸のなす角である。
 以上を用いることで、絶対角度は
 \begin{equation}
-    \theta_{\mathrm{wire}} = \theta_{\mathrm{enc}} + \theta_{\mathrm{enc}0} + \theta_{\mathrm{sens}}
+    \theta_{\mathrm{wire}} = \theta_{\mathrm{enc}} + \theta_{\mathrm{enc}0} + \theta_{\mathrm{gravity}}
 \end{equation}
 と測定される。
 \begin{figure}[tbp]
@@ -248,7 +256,7 @@ $\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であ�
     \hspace{0.06\columnwidth}
     \begin{minipage}[b]{0.40\columnwidth}
         \centering
-        \includegraphics[width=\columnwidth]{wiregrid/abs_angle_WG_plane.pdf}
+        \includegraphics[width=\columnwidth]{wiregrid/abs_angle_WG_plane2.png}
         \subcaption{}
         \label{fig:abs_angle_WG_plane}
     \end{minipage}
@@ -258,16 +266,17 @@ $\theta_{\mathrm{enc}}$ はエンコーダによって測定された値であ�
 
 \subsubsection{重力参照計の設置}
 \label{subsubsec:wg_tiltsensor_slope}
-重力参照計は自身の $X$ 軸、$Y$ 軸が重力に対して垂直な水平面に対する角度を出力し、
+重力参照計は自身の$X$軸、$Y$軸が重力に対して垂直な水平面に対する角度を出力し、
 スパースワイヤーグリッドの回転機構のベースプレートに取り付けられている。
-SATはelevation $50\tcdegree$ での観測を主要としており、
-スパースワイヤーグリッドは boresight $60\tcdegree$ のオフセットを持って設置されているため、
-これらのオフセットを打ち消し、重力参照計が両軸ともに $0\tcdegree$ を指すように設置されている。
+SATはelevation(地表から天頂に向かう仰角)$50\tcdegree$での観測を主要としており、
+スパースワイヤーグリッドはboresight(視線軸を中心とした回転角)$60\tcdegree$のオフセットを持って設置されている。
+そのため、これらelevationとboresightのオフセットを打ち消すように
+(つまり、重力参照計が両軸ともに$0\tcdegree$を指すように)、重力参照計が設置されている。
 図\ref{fig:tiltsensor_slope}に重力参照計を設置する治具を示す。
 上記のオフセットを打ち消すため、治具にスロープが切られている。
 スパースワイヤーグリッドに取り付けられた重力参照計の様子を図\ref{fig:tiltsensor_WGplane}、\ref{fig:tiltsensor_at_site}に示す。
-図\ref{fig:tiltsensor_WGplane}中の $x'$ 軸と $y'$ 軸は
-図\ref{fig:abs_angle_overview}(\subref{fig:abs_angle_WG_plane})中の $x'$ 軸と $y'$ 軸と同一のものであり、$X$ 軸と $Y$ 軸は重力参照計の軸を表す。
+図\ref{fig:tiltsensor_WGplane}中の$x'$軸と$y'$軸は
+図\ref{fig:abs_angle}(\subref{fig:abs_angle_overview})(\subref{fig:abs_angle_WG_plane})中の$x'$軸と$y'$軸と同一のものであり、$X$軸と$Y$軸は重力参照計の軸を表す。
 
 $X$ 軸と $Y$ 軸は $x'$ 軸と $y'$ 軸の間の変換について述べる。
 初めに、$x'y'z'$ 座標系が右手系になるように $z'$ 軸を取り、$XYZ$ 座標系が右手系になるように $Z$ 軸を取る。
@@ -295,11 +304,11 @@ $X,\,Y,\,Z$ 軸の基底ベクトルを $\bm{\hat{e}}_{X},\,\bm{\hat{e}}_{Y},\,\
 \end{equation}
 となる。これはすなわち、$x',\,y'$ 軸を $z'$ 軸まわりに $\theta_{\mathrm{slope}1}$ だけ回転し、
 これによって移った $x'$ 軸まわりに $\theta_{\mathrm{slope}2}$ だけ回転することで $X,\,Y$ 軸を得ることを意味する。
-これらの変換行列や角度は治具のデザインによって決まり、角度の設計値は $\theta_{\mathrm{slope}1} = 210\tcdegree,\,\theta_{\mathrm{slope}2} = 40\tcdegree$ である。
+これらの変換行列や角度は治具のデザインによって決まり、elevationとboresightのオフセットを打ち消すための角度の設計値は
+$(\theta_{\mathrm{slope}1},\,\theta_{\mathrm{slope}2}) = (210\tcdegree,\,40\tcdegree$)である。
 
-望遠鏡の姿勢からくる角度のオフセットを消すことにより、
-重力参照計が出力する角度は式\eqref{eq:wg_theta_sens}における $\alpha,\,\beta$ と一致しなくなる。
-このオフセットを考慮して、$\alpha,\,\beta$ を $\theta_X,\,\theta_Y$ を用いて表すと、式\eqref{eq:wg_tiltsensor_slope_trans}から
+望遠鏡の姿勢からくる角度のオフセットを消すことを考慮して、式\eqref{eq:wg_theta_sens}の$\sin\alpha,\,\sin\beta$
+を$\theta_X,\,\theta_Y$を用いて表すと、式\eqref{eq:wg_tiltsensor_slope_trans}から
 \begin{align}
     &\begin{split}
         \sin\alpha &= \cos\theta_{\mathrm{slope}1}\sin\theta_{X}-\sin\theta_{\mathrm{slope}1}\cos\theta_{\mathrm{slope}2}\sin\theta_{Y} \\
@@ -312,7 +321,7 @@ $X,\,Y,\,Z$ 軸の基底ベクトルを $\bm{\hat{e}}_{X},\,\bm{\hat{e}}_{Y},\,\
     \end{split}
     \label{eq:wg_tiltsensor_slope2}
 \end{align}
-となることがわかる。
+となる。
 \begin{figure}[H]
     \begin{minipage}[b]{0.55\columnwidth}
         \centering
@@ -338,8 +347,8 @@ $X,\,Y,\,Z$ 軸の基底ベクトルを $\bm{\hat{e}}_{X},\,\bm{\hat{e}}_{Y},\,\
 
 \section{系統誤差}
 本節では、ワイヤーの絶対角度を測定するにあたって考えられる系統誤差の要因と、先行研究による評価について述べる。
-それぞれの系統誤差要因の評価方法について述べた評価を見直すべき点をまとめ、本論文の位置付けについて述べる。
-初めに表\ref{tab:systematic_errors_old}に先行研究によって評価された系統誤差の要因と、その値をまとめる。
+それぞれの系統誤差要因の評価方法について述べた評価を見直すべき点を整理し、さらに本論文の位置付けについて述べる。
+表\ref{tab:systematic_errors_old}に先行研究\cite{swg:murata}\cite{swg:iijima}によって評価された系統誤差の要因と、その値を示す。
 また、本研究での改善があったものには、その詳細を述べる章番号を記す。
 \begin{table}[H]
     \centering
@@ -352,8 +361,8 @@ $X,\,Y,\,Z$ 軸の基底ベクトルを $\bm{\hat{e}}_{X},\,\bm{\hat{e}}_{Y},\,\
         ワイヤー設置精度 & $< 0.02\tcdegree$ \\
         エンコーダ精度 & $<0.03\tcdegree$ \\
         エンコーダ零点 & $<0.04\tcdegree$ \\
-        重力参照計 & $>0.1\tcdegree$ & 本研究で改善(\ref{chap:tiltsensor}章) \\
-        ワイヤーのたわみ & $<0.05\tcdegree$ & 本研究で改善(\ref{chap:wiresag}章・\ref{chap:wiresag_swg}章) \\
+        重力参照計 & $>0.1\tcdegree$ & 本研究で$0.06\tcdegree$に改善(\ref{chap:tiltsensor}章) \\
+        ワイヤーのたわみ & $<0.05\tcdegree$ & 本研究で$0.02\tcdegree$に改善(\ref{chap:wiresag}章・\ref{chap:wiresag_swg}章) \\
         \hline
         合計 & $>0.1\tcdegree$ \\
         \hline
@@ -374,48 +383,49 @@ $\theta_{\mathrm{enc}}$ の精度は必ずしも $0.004\tcdegree$ になると�
 その精度として $< 0.03\tcdegree$ を得ている。
 \subsection{エンコーダの零点測定に伴う系統誤差}
 $\theta_{\mathrm{enc}0}$ は実験室にて測られるエンコーダの零点である。
-ワイヤーの絶対角度が $\theta_{\mathrm{wire}} = 0\tcdegree$ となった状態で $\theta_{\mathrm{enc}}$ と $\theta_{\mathrm{sens}}$ を測定することで決定され、
+ワイヤーの絶対角度が $\theta_{\mathrm{wire}} = 0\tcdegree$ となった状態で $\theta_{\mathrm{enc}}$ と $\theta_{\mathrm{gravity}}$ を測定することで決定され、
 その精度は $< 0.04\tcdegree$ と測定されている~\cite{swg:iijima}。\\
 % \colortext{blue}{もう少し測定方法について述べるべきだろうか？}
 
 \subsection{重力参照計の精度に伴う系統誤差}
-重力参照計が出力する角度の精度は、$\theta_{\mathrm{sens}}$ の誤差として現れる。
-重力参照計が満たすべき要求として、
+重力参照計が出力する角度の精度は、$\theta_{\mathrm{gravity}}$ の精度に直結する。
+そのため、重力参照計が満たすべき要求として、
 \begin{itemize}
-    \item 長期間の測定において、そのオフセットの変動が小さいこと
-    \item 観測サイトにおける気温変動を考慮し、$\SI{-20}{\degreeCelsius}\sim\SI{20}{\degreeCelsius}$ での出力変動が小さいこと
+    \item 長期間の測定において、そのオフセットの変動が要求する較正精度よりも十分に小さいこと
+    \item 観測サイトにおける気温変動を考慮し、$\SI{-20}{\degreeCelsius}\sim\SI{20}{\degreeCelsius}$
+          での出力変動が要求する較正精度よりも十分に小さいこと
 \end{itemize}
 が挙げられる。
 これまで、Digi-Pas 社製の DWL5000-XY という製品の使用を予定されていたが、先行研究\cite{swg:iijima}にて
-2ヶ月の期間をあけて水平面を測定したところ、$0.3\tcdegree$近くの変動があり、
+2ヶ月の期間をあけて水平面を測定したところ、$0.3\tcdegree$程度の変動があり、これでは
 SOにおける要求絶対角度較正精度$\delta\theta \leq 0.1\tcdegree$を満たさないことが示された。
+本研究でこれを改善する。
 
 \subsection{ワイヤーのたわみに伴う系統誤差}
 \label{subsec:wg_wiresag}
-較正に使う直線偏光の方向はワイヤーに沿う方向であるため、ワイヤーがたわんでいる部分がつくる直線偏光はその偏光角が
-ワイヤーの絶対角度 $\theta_{\mathrm{wire}}$ からずれてしまい、系統誤差になる。
+較正に使う直線偏光の方向はワイヤーに沿う方向であるため、ワイヤーがたわんでいると、その部分がつくる直線偏光の向きは
+ワイヤーの絶対角度$\theta_{\mathrm{wire}}$からずれる。
 詳細な手法は\ref{chap:wiresag}章にて述べるが、先行研究\cite{swg:murata}\cite{swg:iijima}では、
 スパースワイヤーグリッドに張られたワイヤーの写真を、ワイヤーの両端と中心で撮影することで評価を行った。
-その結果、ワイヤーのたわみに起因する偏光角較正への誤差$\theta_{\mathrm{sag}}$は$\theta_{\mathrm{sag}}<0.05\tcdegree$と評価されている。
+その結果、ワイヤーのたわみに起因する偏光角の較正誤差$\theta_{\mathrm{sag}}$は$\theta_{\mathrm{sag}}<0.05\tcdegree$と評価した。
 この評価手法では、全ての写真を人間が撮影していたため、その評価値には人依存のバイアスやふらつきを含む可能性がある。
-また、撮影自体にも時間がかかるため、何度も繰り返し測定を行うことが難しいという問題があった。
+さらに、撮影自体にも時間がかかるため、何度も繰り返し測定を行うことが難しいという問題があった。
+本研究でこれを改善する。
 
 \subsection{系統誤差のまとめと本論文の位置付け}
-表\ref{tab:systematic_errors_old}に、先行研究において調べられた系統誤差の結果をまとめる。
 SOにおいて要求される絶対角度較正精度は $\delta\theta < 0.1\tcdegree$ であるが、
-表\ref{tab:systematic_errors_old}中の評価値はこれを満たしていない。
+上述のように表\ref{tab:systematic_errors_old}に示した先行研究では、まだこれを満たしていない。
 
-特に問題となるのが重力参照計の精度であり、特に長期間の出力安定性という点で要求精度を満たしていない。
-要求精度を満たすため、新たに Sherborne Sensors 社製の DSIC-2051-60 という重力参照計の導入を予定している。
-この新しい重力参照計の精度の検証を、\ref{chap:tiltsensor}章にて行う。
+特に問題となるのが重力参照計の精度であり、長期間の出力安定性という点で要求精度を満たしていない。
+要求精度を満たすため、新たな重力参照計の導入をする。
+\ref{chap:tiltsensor}章にてこの新しい重力参照計の精度の検証を行う。
 
-次点で系統誤差を生んでいるワイヤーのたわみに関しては、撮影箇所を人が決めていることに起因するバイアスが含まれている可能性があるだけでなく、
-1つのワイヤーに対して。
-また、測定精度が低く測定にかかる時間が長いことから、測定されたたわみから品質の低いワイヤーを選別して修繕を行う、
-といった品質を保証するためのフィードバックをかけることが困難である。
-さらに、観測サイトにおける品質管理の面を考えると、定期的かつ容易に測定できるようなシステムの開発が望まれる。
+次に大きな系統誤差の要因であるワイヤーのたわみに関しては、撮影箇所を人が決めていることに起因するバイアスが含まれている可能性がある。
+また、測定にかかる時間が長いことも問題である。
+もし、たわみの測定を短時間で行うことができれば、その測定結果をもとにたわみの大きなワイヤーを選別して改善を行うなどの
+フィードバックをかけることが可能になる。
+さらに、観測サイトにおける品質管理の面を考えると、現地で定期的にたわみを測定できるシステムの開発が望まれる。
 こういった状況を受け、より正確にワイヤーのたわみを評価する手法と、その自動化手法を確立した。
-\ref{chap:wiresag}章にてこの詳細を論ずる。
-また、実際に使用されるスパースワイヤーグリッドのたわみを開発した装置を用いて評価した。
-\ref{chap:wiresag_swg}章にてこの詳細を述べる。
+本論文では、ワイヤーのたわみを正確に自動測定する評価装置を開発し(\ref{chap:wiresag}章)、
+実際に使用されるスパースワイヤーグリッドの評価を行った(\ref{chap:wiresag_swg}章)。
 \end{document}

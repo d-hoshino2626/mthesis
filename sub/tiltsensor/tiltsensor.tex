@@ -7,19 +7,19 @@
 \chapter{重力参照計の評価}
 \label{chap:tiltsensor}
 
-\ref{chap:wiregrid}章にて述べたように、本較正装置では重力参照計を用いて絶対角度を測定する。
-これまでに使用が想定されていた Digi-Pas 社製の DWL5000-XY は長期間の測定における出力の変化が約$0.3\tcdegree$となり、要求性能を満たさなかった。
-今回新たに候補となった Sherborne Sensors 社製の DSIC-2051-60 を、長期間における出力の安定性と出力の温度依存性という観点から評価し、その精度を決定した。
+\ref{chap:wiregrid}章で述べたように、スパースワイヤーグリッドを用いた偏光角の較正装置では重力参照計を用いて絶対角度を測定する。
+これまでに使用が想定されていた重力参照計(Digi-Pas社製のDWL5000-XY)は長期安定性が不十分であった。
+今回新たに導入する重力参照計(Sherborne Sensors社製のDSIC-2051-60)を、長期間における出力の安定性と出力の温度依存性という観点から評価し、その精度を決定した。
 本章では、はじめに要求精度と評価すべき項目について確認したのち、本重力参照計の概要を共有、各評価項目の手法と結果について述べる。
 \section{要求精度と評価内容}
 要求される精度は、表\ref{tab:systematic_errors_old}中にある値から合計誤差が$\delta\theta < 0.1\tcdegree$となることであり、
-式\eqref{eq:wg_theta_sens}で表される$\theta_{\mathrm{sens}}$にして$\delta\theta_{\mathrm{sens}}<0.06\tcdegree$である。
+式\eqref{eq:wg_theta_sens}で表される$\theta_{\mathrm{gravity}}$の系統誤差を$0.06\tcdegree$未満にすることが求められる。
 これを重力参照計の要求精度に換算する。
 式\eqref{eq:wg_tiltsensor_slope1}\eqref{eq:wg_tiltsensor_slope2}より、重力参照計の各$X$軸、$Y$軸の誤差を$\delta\theta_{X},\,\delta\theta_{Y}$とすると、
-$\theta_{\mathrm{sens}}$の誤差$\delta\theta_{\mathrm{sens}}$は
+$\theta_{\mathrm{gravity}}$の誤差$\delta\theta_{\mathrm{gravity}}$は
 \begin{align}
     \label{eq:gosadenpa1}
-    \delta\theta_{\mathrm{sens}} &= 
+    \delta\theta_{\mathrm{gravity}} &= 
         \sqrt{\qty(\dfrac{\sin\beta}{\sin^2\alpha+\sin^2\beta} \delta\qty(\sin\alpha))^2 + \qty(\dfrac{\sin\alpha}{\sin^2\alpha+\sin^2\beta} \delta\qty(\sin\beta))^2}\\ 
     \delta\qty(\sin\alpha) &= \sqrt{\qty(\dv{\sin\alpha}{\theta_X}\delta\theta_X)^2+\qty(\dv{\sin\alpha}{\theta_Y}\delta\theta_Y)^2}\\
     \delta\qty(\sin\beta) &= \sqrt{\qty(\dv{\sin\beta}{\theta_X}\delta\theta_X)^2+\qty(\dv{\sin\beta}{\theta_Y}\delta\theta_Y)^2} \\
@@ -30,7 +30,7 @@ $\theta_{\mathrm{sens}}$の誤差$\delta\theta_{\mathrm{sens}}$は
     \dv{\sin\beta}{\theta_Y} &= \cos\theta_{\mathrm{slope}1}\cos\theta_{\mathrm{slope}2}\cos\theta_Y + \cos\theta_{\mathrm{slope}1}\sin\theta_{\mathrm{slope}2}\dfrac{\sin\theta_Y\cos\theta_Y}{\sqrt{1-\sin^2\theta_X-\sin^2\theta_Y}}
 \end{align}
 のように表される。
-$\theta_{\mathrm{slope}1}=210\tcdegree,\,\theta_{\mathrm{slope}2}=40\tcdegree$ は\ref{subsubsec:wg_tiltsensor_slope}にて導入したスロープの角度である。
+ここで、\ref{subsubsec:wg_tiltsensor_slope}項で記述したように$(\theta_{\mathrm{slope}1},\,\theta_{\mathrm{slope}2}) = (210\tcdegree,\,40\tcdegree)$である。
 重力参照計の両軸ともに同程度の誤差を持つと仮定し、スロープの角度から生じる誤差を無視すると、およそ $\delta\theta_{X} \sim \delta\theta_{Y} \leq 0.04\tcdegree$ が要求精度となる。
 
 SOは数年以上の長期間の実験期間が見込まれるため、それに応じて重力参照計も長期使用に耐え得る性能であることが求められる。
@@ -73,15 +73,15 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 \section{長期間測定における出力の安定性の評価}
 \subsection{評価手法}
 図\ref{fig:timedrift_evaluation_system}に評価系を示す。
-重力参照計を鉄製の厚み $\SI{10}{mm}$ のプレートの上に設置した。
+重力参照計を鉄製の厚み$\SI{10}{mm}$のプレートの上に設置した。
 このプレートには3つのアジャスターが取り付けられており、これを回すことでプレートの傾きを調整できる。
 プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ互いに垂直になるように設置し、これを参照して
 プレート全体が水平になるようにアジャスターで調整した。
-この時の水平度の精度は気泡管水準器の精度によって決まり、 $< 0.01\tcdegree$ である。
+気泡管水準器で目視する水平度は$<0.01\tcdegree$である。
 この系を長期間保持したまま、重力参照計の出力する温度と角度を測定した。
 測定期間は2024年3月8日から4月9日までの32日間である。
-また、測定系はカメラによって1時間ごとに撮影され、気泡管水準器の気泡の位置が変化していないかを確認した。
-その結果、気泡の位置に変動はあったものの水平度が $< 0.01\tcdegree$ に収まっていることが確認できた。
+また、測定系をカメラによって1時間ごとに撮影し、気泡管水準器の気泡の位置の変動の有無をモニターした。
+その結果、気泡の位置に変動はあったものの水平度が$<0.01\tcdegree$に収まっていることが確認できた。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{tiltsensor/timedrift_evaluation_system.pdf}
@@ -92,10 +92,10 @@ SOは数年以上の長期間の実験期間が見込まれるため、それに
 \subsection{評価結果とその考察}
 図\ref{fig:timedrift_Xaxis}および\ref{fig:timedrift_Yaxis}に測定された温度と角度を日毎に平均をとった結果を示す。
 誤差として、各日のデータ群の標準偏差を示している。
-$X$ 軸については、日毎に平均された出力角度の平均が $-0.0598\tcdegree$ となり、その標準偏差は $0.0028\tcdegree$ であった。
-この結果から、$X$軸の時間変化による出力角度の変化の精度を $\delta\theta_{X,\mathrm{time}} = 0.003\tcdegree$ であると結論づける。
-$Y$ 軸については、日毎に平均された出力角度の平均が $-0.012\tcdegree$ となり、その標準偏差は $0.034\tcdegree$ であった。
-この結果から、$Y$軸の時間変化による出力角度の変化の精度を $\delta\theta_{Y,\mathrm{time}} = 0.034\tcdegree$ であると結論づける。
+$X$軸については、日毎に平均された出力角度の平均が$-0.06\tcdegree$となり、その標準偏差は$0.003\tcdegree$であった。
+この結果から、$X$軸の時間変化による出力角度の変化の精度は十分小さいと確認できた。
+一方で、$Y$軸については、日毎に平均された出力角度の平均が $-0.012\tcdegree$ となり、その標準偏差は $0.034\tcdegree$であった。
+これは要求精度を満たすものであるが、$X$軸と桁違いにその精度が異なる。
 表\ref{tab:timedrift_result}にこれらの結果をまとめる。
 \begin{figure}[H]
     \begin{minipage}[b]{0.45\columnwidth}
@@ -140,18 +140,18 @@ $Y$ 軸については、日毎に平均された出力角度の平均が $-0.01
     \caption{長期間測定における重力参照計の出力の安定性の評価結果}
     \begin{tabular}{cccc} \hline
         & 平均 & 標準偏差 & 精度 \\ \hline\hline
-        $X$ 軸 & $-0.0598\tcdegree$ & $0.0028\tcdegree$ & $0.003\tcdegree$ \\ \hline
-        $Y$ 軸 & $-0.012\tcdegree$ & $0.034\tcdegree$ & $0.034\tcdegree$ \\ \hline
+        $X$ 軸 & $-0.06\tcdegree$ & $0.003\tcdegree$ \\
+        $Y$ 軸 & $-0.012\tcdegree$ & $0.034\tcdegree$
     \end{tabular}
     \label{tab:timedrift_result}
 \end{table}
 
-$Y$軸の長期間測定に対する精度は$X$軸のものに比べ非常に悪い値となっている。
-この原因を探るため、図\ref{fig:timedrift_tempcorr}に示すように$X$軸と$Y$軸の温度変化に対する出力角度の変化を比較した。
+$Y$軸の長期間測定に対する精度が$X$軸のものに比べ非常に悪い値となっている。
+原因を探るため、図\ref{fig:timedrift_tempcorr}に示すように$X$軸と$Y$軸の温度変化に対する出力角度の変化を比較した。
 この図から、$X$軸は温度の変化に対する相関がほとんどないのに対し、$Y$軸は温度変化に対する相関が極めて強いことが見て取れる。
-すなわち、長期間測定に対する安定性として評価された$Y$軸の精度は温度変化による影響を強く受けており、
-$X$軸の精度よりも悪い結果となっていると考えられる。
-次節にて温度変動による出力の変化を恒温層を用いて詳細に評価する。
+すなわち、長期間測定に対する安定性として評価された$Y$軸の精度は温度変化による影響を強く受け、
+$X$軸よりも悪い結果となっていると考えられる。
+そこで、恒温槽を用いて温度変動による出力の変化を詳細に評価することにした。
 \begin{figure}[H]
     \begin{minipage}[b]{0.49\columnwidth}
         \centering
@@ -175,17 +175,17 @@ $X$軸の精度よりも悪い結果となっていると考えられる。
 
 \section{温度変動による出力の変化の評価}
 \subsection{評価手法}
-図\ref{fig:temp_evaluation_system}に評価系を示す。
+図\ref{fig:temp_evaluation_system}に重力参照計の温度特性を評価する系を示す。
 重力参照計をアルミニウム製の厚み $\SI{30}{mm}$ のプレートの上に設置した。
 長期間測定における出力の変化の評価の際と同様に、
 このプレートには3つのアジャスターが取り付けられており、これを回すことでプレートの傾きを調整できる。
 プレートには新潟精機製の気泡管水準器 FLW-200002 を2つ互いに垂直になるように設置し、これを参照して
 プレート全体が水平になるようにアジャスターで調整した。
-この時の水平度の精度は気泡管水準器の精度によって決まり、 $< 0.01\tcdegree$ である。
-また、プレート上にはUSB温度計を設置し、周囲の空気の温度を測定した。
-以上の測定系を恒温槽\footnote{恒温槽は京都市産業技術研究所より拝借した。}に入れ、温度を変化させたときの出力を測定した。
+気泡管水準器で目視する水平度の精度は$< 0.01\tcdegree$である。
+また、プレート上にはUSB出力をもつ温度計を設置して、温度をモニターした。
+以上の測定系を恒温槽\footnote{恒温槽は京都市産業技術研究所の設備を使用した。}に入れ、温度を変化させたときの出力を測定した。
 
-図\ref{fig:bath_temp_usb}にUSB温度計を用いて測定した恒温槽内の温度 $T_{\mathrm{USB}}$ の変化の様子を示す。
+図\ref{fig:bath_temp_usb}に恒温槽内の温度$T_{\mathrm{USB}}$の変化の様子を示す。
 $\SI{20}{\degreeCelsius}$ から $\SI{-20}{\degreeCelsius}$ まで冷却したのち、再び $\SI{20}{\degreeCelsius}$ まで昇温し、出力の変化を測定した。
 各温度 $\SI{10}{\tcdegree}$ 刻みで$\SI{3}{時間}$ ほどかけて変化させ、温度が安定している状態が生まれるようにした。
 測定中にはWebカメラを用いて10分ごとに撮影し、気泡管水準器の気泡の位置が変化していないかを確認した。
@@ -227,8 +227,6 @@ $T_{\mathrm{USB}} \sim \SI{-18}{\degreeCelsius}$ で撮影された写真を示�
     \label{fig:evaluation_bath_camera}
 \end{figure}
 \subsection{評価結果とその考察}
-観測サイトでの気温変動は十分ゆっくりであるか、較正の時間帯を選ぶことで急激な温度変化を避けることができるため、
-恒温槽の温度が安定し、評価計全体と熱平衡であるような状態のデータを用いて評価を行う。
 図\ref{fig:evaluation_bath_Xaxis}に重力参照計の $X$ 軸が出力する温度 $T_{X}$ と、その温度が安定的になったときの出力角度 $\theta_{X}$ の変化を、
 図\ref{fig:evaluation_bath_Yaxis}に $Y$ 軸について同様の結果を示す。
 温度安定区間は、図\ref{fig:evaluation_bath_Xaxis}(\subref{fig:bath_tempX})、図\ref{fig:evaluation_bath_Yaxis}(\subref{fig:bath_tempY})において、緑色でマスクした部分である。
@@ -385,22 +383,22 @@ $Y$ 軸は初期不良により要求を満たさなかったが、修理によ�
 すなわち、本重力参照計の各軸の精度は $\delta\theta_X\sim\delta\theta_Y<0.04\tcdegree$ となり、要求精度を満たすと見込んでいる。
 
 \subsection{偏光角較正への影響}
-ワイヤーの絶対角度には、重力参照計の値は式\eqref{eq:wg_theta_sens}で表される$\theta_{\mathrm{sens}}$として効く。
+ワイヤーの絶対角度には、重力参照計の値は式\eqref{eq:wg_theta_sens}で表される$\theta_{\mathrm{gravity}}$として効く。
 つまり、望遠鏡の偏光角較正の精度には、重力参照計の誤差$\delta\theta_{X},\,\delta\theta_{Y}$が
-式\eqref{eq:gosadenpa1}$\sim$\eqref{eq:gosadnepa2}を介して$\theta_{\mathrm{sens}}$の誤差$\delta\theta_{\mathrm{sens}}$として現れる。
-今回得られた$\delta\theta_{X}<0.04\tcdegree$と見込んでいる精度$\delta\theta_{Y}<0.04\tcdegree$がどの程度の$\delta\theta_{\mathrm{sens}}$を与えるのか計算する。
-ただし、$\delta\theta_{\mathrm{sens}}$は望遠鏡の姿勢、すなわちelevationとboresightの値によって変動する。
+式\eqref{eq:gosadenpa1}$\sim$\eqref{eq:gosadnepa2}を介して$\theta_{\mathrm{gravity}}$の誤差$\delta\theta_{\mathrm{gravity}}$として現れる。
+今回得られた$\delta\theta_{X}<0.04\tcdegree$と見込んでいる精度$\delta\theta_{Y}<0.04\tcdegree$がどの程度の$\delta\theta_{\mathrm{gravity}}$を与えるのか計算する。
+ただし、$\delta\theta_{\mathrm{gravity}}$は望遠鏡の姿勢、すなわちelevationとboresightの値によって変動する。
 なぜなら、望遠鏡の姿勢の変化は$\theta_{X},\,\theta_{Y}$の値を変えるからである。
 ここでは較正が行われる基本姿勢である$\mathrm{elevation}=50\tcdegree$と、$\mathrm{boresight}=0\tcdegree$のときを
-仮定して$\delta\theta_{\mathrm{sens}}$を算出する。望遠鏡がこの姿勢のとき、
+仮定して$\delta\theta_{\mathrm{gravity}}$を算出する。望遠鏡がこの姿勢のとき、
 $\theta_{X}=\theta_{Y}=0$となるようにスロープを切った治具をつけているので、
 (\ref{subsubsec:wg_tiltsensor_slope}項を参照)
 \begin{equation}
-    \delta\theta_{\mathrm{sens}} \simeq 0.057\tcdegree
+    \delta\theta_{\mathrm{gravity}} \simeq 0.057\tcdegree
 \end{equation}
 となる。すなわち、重力参照計が与える偏光角較正の精度への影響は
 \begin{equation}
-    \delta\theta_{\mathrm{sens}} < 0.06\tcdegree
+    \delta\theta_{\mathrm{gravity}} < 0.06\tcdegree
 \end{equation}
 と評価できる。
 

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  25 FEB 2025 01:45
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  25 FEB 2025 02:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -929,6 +929,10 @@ File: ./fig//wiregrid/wiregrid_telescope_image.pdf Graphic file (type pdf)
 <./fig//wiregrid/wiregrid_telescope_image.pdf>
 File: ./fig//wiregrid/wiregrid_tod.pdf Graphic file (type pdf)
 <./fig//wiregrid/wiregrid_tod.pdf>
+File: ./fig//wiregrid/wiregrid_calibration_circle.pdf Graphic file (type pdf)
+<./fig//wiregrid/wiregrid_calibration_circle.pdf>
+File: ./fig//wiregrid/wiregrid_kouseien2.png Graphic file (type bmp)
+<./fig//wiregrid/wiregrid_kouseien2.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -938,10 +942,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [24]
-File: ./fig//wiregrid/wiregrid_calibration_circle.pdf Graphic file (type pdf)
-<./fig//wiregrid/wiregrid_calibration_circle.pdf>
-File: ./fig//wiregrid/wiregrid_kouseien2.png Graphic file (type bmp)
-<./fig//wiregrid/wiregrid_kouseien2.png>
+File: ./fig//wiregrid/wiregrid_mode_switch.pdf Graphic file (type pdf)
+<./fig//wiregrid/wiregrid_mode_switch.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -966,6 +968,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [26]
+File: ./fig//wiregrid/rotation_parts.pdf Graphic file (type pdf)
+<./fig//wiregrid/rotation_parts.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -974,8 +979,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [27]
-File: ./fig//wiregrid/rotation_parts.pdf Graphic file (type pdf)
-<./fig//wiregrid/rotation_parts.pdf>
 File: ./fig//wiregrid/wiregrid_actuator.pdf Graphic file (type pdf)
 <./fig//wiregrid/wiregrid_actuator.pdf>
 
@@ -997,8 +1000,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [29]
 File: ./fig//wiregrid/abs_angle_overview.pdf Graphic file (type pdf)
 <./fig//wiregrid/abs_angle_overview.pdf>
-File: ./fig//wiregrid/abs_angle_WG_plane.pdf Graphic file (type pdf)
-<./fig//wiregrid/abs_angle_WG_plane.pdf>
+File: ./fig//wiregrid/abs_angle_WG_plane2.png Graphic file (type bmp)
+<./fig//wiregrid/abs_angle_WG_plane2.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1013,7 +1016,7 @@ File: ./fig//wiregrid/tiltsensor_slope.pdf Graphic file (type pdf)
 File: ./fig//wiregrid/tiltsensor_WGplane.pdf Graphic file (type pdf)
 <./fig//wiregrid/tiltsensor_WGplane.pdf>
 
-Overfull \hbox (6.9902pt too wide) in paragraph at lines 317--331
+Overfull \hbox (6.9902pt too wide) in paragraph at lines 326--340
 [][]  []
  []
 
@@ -1658,12 +1661,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F72A21D63191B179152EE156FD53F56A;14022.
  ) 
 Here is how much of TeX's memory you used:
- 18749 strings out of 476677
- 375562 string characters out of 5804957
+ 18757 strings out of 476677
+ 375876 string characters out of 5804957
  1876490 words of memory out of 5000000
- 38774 multiletter control sequences out of 15000+600000
+ 38781 multiletter control sequences out of 15000+600000
  569292 words of font info for 141 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,19n,83p,829b,1187s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/main.dvi (85 pages, 392688 bytes).
+Output written on .tex_intermediates/main.dvi (85 pages, 393972 bytes).

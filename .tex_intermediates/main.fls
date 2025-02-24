@@ -1117,6 +1117,9 @@ INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_calibration_circle.pdf
 INPUT ./fig//wiregrid/wiregrid_kouseien2.png
 INPUT ./fig//wiregrid/wiregrid_kouseien2.png
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_kouseien2.png
+INPUT ./fig//wiregrid/wiregrid_mode_switch.pdf
+INPUT ./fig//wiregrid/wiregrid_mode_switch.pdf
+INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_mode_switch.pdf
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT ./fig//wiregrid/wiregrid_appearance.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_appearance.pdf
@@ -1135,9 +1138,9 @@ INPUT extractbb -B cropbox -O ./fig//wiregrid/wiregrid_actuator.pdf
 INPUT ./fig//wiregrid/abs_angle_overview.pdf
 INPUT ./fig//wiregrid/abs_angle_overview.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/abs_angle_overview.pdf
-INPUT ./fig//wiregrid/abs_angle_WG_plane.pdf
-INPUT ./fig//wiregrid/abs_angle_WG_plane.pdf
-INPUT extractbb -B cropbox -O ./fig//wiregrid/abs_angle_WG_plane.pdf
+INPUT ./fig//wiregrid/abs_angle_WG_plane2.png
+INPUT ./fig//wiregrid/abs_angle_WG_plane2.png
+INPUT extractbb -B cropbox -O ./fig//wiregrid/abs_angle_WG_plane2.png
 INPUT ./fig//wiregrid/tiltsensor_slope.pdf
 INPUT ./fig//wiregrid/tiltsensor_slope.pdf
 INPUT extractbb -B cropbox -O ./fig//wiregrid/tiltsensor_slope.pdf

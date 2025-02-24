@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 13:26
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  25 FEB 2025 03:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -486,8 +486,30 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box89
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen271
+\lightrulewidth=\dimen272
+\cmidrulewidth=\dimen273
+\belowrulesep=\dimen274
+\belowbottomsep=\dimen275
+\aboverulesep=\dimen276
+\abovetopsep=\dimen277
+\cmidrulesep=\dimen278
+\cmidrulekern=\dimen279
+\defaultaddspace=\dimen280
+\@cmidla=\count324
+\@cmidlb=\count325
+\@aboverulesep=\dimen281
+\@belowrulesep=\dimen282
+\@thisruleclass=\count326
+\@lastruleclass=\count327
+\@thisrulewidth=\dimen283
 )
-LaTeX Info: Redefining \cite on input line 59.
+LaTeX Info: Redefining \cite on input line 60.
 ))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
  (.tex_intermediates/tiltsensor.aux)
@@ -523,216 +545,4 @@ Package hyperref Info: Link coloring OFF on input line 6.
 
 
 Package siunitx Warning: Detected the "physics" package:
-(siunitx)                omitting definition of \qty.
 (siunitx)                
-(siunitx)                If you want to use \qty with the siunitx definition,
-(siunitx)                add 
-(siunitx)                
-(siunitx)                    \AtBeginDocument{\RenewCommandCopy\qty\SI}
-(siunitx)                
-(siunitx)                to your preamble.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 6.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
-Package caption Info: End \AtBeginDocument code.
-
-第 1 章
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 7.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 7.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 7.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 7.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 10.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 10.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 10.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 10.
-
-LaTeX Warning: Reference `chap:wiregrid' on page 1 undefined on input line 10.
-
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 11.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 11.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 11.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 11.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 14.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 14.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 14.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 14.
-
-LaTeX Warning: Reference `tab:systematic_errors_old' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Reference `eq:wg_theta_sens' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Reference `eq:wg_tiltsensor_slope1' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: Reference `eq:wg_tiltsensor_slope2' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: Reference `subsubsec:wg_tiltsensor_slope' on page 1 undefined on input line 33.
-
-[1
-
-
-]
-File: ../../fig//tiltsensor/tiltsensor_overview.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/tiltsensor_overview.pdf>
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 53.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 53.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 74.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 74.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 74.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 74.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 74.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 74.
-File: ../../fig//tiltsensor/timedrift_evaluation_system.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/timedrift_evaluation_system.pdf>
- [2]
-File: ../../fig//tiltsensor/timedrift_tempX_daily.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/timedrift_tempX_daily.pdf>
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 104.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 104.
-File: ../../fig//tiltsensor/timedrift_angleX_daily.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/timedrift_angleX_daily.pdf>
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 116.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 116.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 116.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 116.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 116.
-File: ../../fig//tiltsensor/timedrift_tempY_daily.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/timedrift_tempY_daily.pdf>
-File: ../../fig//tiltsensor/timedrift_angleY_daily.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/timedrift_angleY_daily.pdf>
- [3]
-File: ../../fig//tiltsensor/timedrift_angleX_tempX.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/timedrift_angleX_tempX.pdf>
-File: ../../fig//tiltsensor/timedrift_angleY_tempY.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/timedrift_angleY_tempY.pdf>
-
-Overfull \hbox (1.45732pt too wide) in paragraph at lines 156--172
-[][]   [] 
- []
-
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 186.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 186.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 186.
-[4]
-File: ../../fig//tiltsensor/temp_evaluation_system.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/temp_evaluation_system.pdf>
-File: ../../fig//tiltsensor/bath_temp_usb.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/bath_temp_usb.pdf>
-File: ../../fig//tiltsensor/camera_12degC.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/camera_12degC.pdf>
-File: ../../fig//tiltsensor/camera_m18degC.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/camera_m18degC.pdf>
- [5] [6]
-File: ../../fig//tiltsensor/bath_tempX.png Graphic file (type bmp)
-<../../fig//tiltsensor/bath_tempX.png>
-
-Overfull \hbox (20.48709pt too wide) in paragraph at lines 252--253
- [][] 
- []
-
-File: ../../fig//tiltsensor/angleX_temp_dep.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/angleX_temp_dep.pdf>
-
-Overfull \hbox (13.31628pt too wide) in paragraph at lines 259--260
- [][] 
- []
-
-File: ../../fig//tiltsensor/bath_tempY.png Graphic file (type bmp)
-<../../fig//tiltsensor/bath_tempY.png>
-
-Overfull \hbox (20.48709pt too wide) in paragraph at lines 271--272
- [][] 
- []
-
-File: ../../fig//tiltsensor/angleY_temp_dep.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/angleY_temp_dep.pdf>
-
-Overfull \hbox (6.1455pt too wide) in paragraph at lines 278--279
- [][] 
- []
-
-[7]
-File: ../../fig//tiltsensor/evaluation_system_kyoto.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/evaluation_system_kyoto.pdf>
-File: ../../fig//tiltsensor/evalu_kyoto1.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/evalu_kyoto1.pdf>
-File: ../../fig//tiltsensor/evalu_kyoto2.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/evalu_kyoto2.pdf>
-File: ../../fig//tiltsensor/evalu_kyoto3.pdf Graphic file (type pdf)
-<../../fig//tiltsensor/evalu_kyoto3.pdf>
- [8]
-File: ../../fig//tiltsensor/angleY_huryou_test.png Graphic file (type bmp)
-<../../fig//tiltsensor/angleY_huryou_test.png>
- [9]
-
-LaTeX Warning: Reference `eq:wg_theta_sens' on page 10 undefined on input line 388.
-
-
-LaTeX Warning: Reference `subsubsec:wg_tiltsensor_slope' on page 10 undefined on input line 397.
-
-[10] [11] (.tex_intermediates/tiltsensor.aux)
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `tiltsensor.out' has not changed.
-(rerunfilecheck)             Checksum: E03CB6741FC831B05EF0AC77E662344C;2370.
- ) 
-Here is how much of TeX's memory you used:
- 17792 strings out of 476677
- 345462 string characters out of 5804957
- 1870490 words of memory out of 5000000
- 37978 multiletter control sequences out of 15000+600000
- 564681 words of font info for 126 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 92i,13n,94p,506b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on .tex_intermediates/tiltsensor.dvi (11 pages, 48956 bytes).
