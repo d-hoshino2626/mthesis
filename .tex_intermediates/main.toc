@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {4.4}温度変動による出力の変化の評価}{38}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}評価手法}{38}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}評価結果とその考察}{39}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}初期不良の検証}{41}{section.4.5}%
+\contentsline {section}{\numberline {4.5}重力参照計の初期不良を結論づけるための追検証実験}{41}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}評価系}{41}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}評価結果とその考察}{42}{subsection.4.5.2}%
 \contentsline {section}{\numberline {4.6}まとめと偏光角較正への影響}{43}{section.4.6}%

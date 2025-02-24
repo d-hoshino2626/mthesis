@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  25 FEB 2025 02:43
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  25 FEB 2025 03:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1072,12 +1072,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [35]
 File: ./fig//tiltsensor/timedrift_tempX_daily.pdf Graphic file (type pdf)
 <./fig//tiltsensor/timedrift_tempX_daily.pdf>
-File: ./fig//tiltsensor/timedrift_angleX_daily.pdf Graphic file (type pdf)
-<./fig//tiltsensor/timedrift_angleX_daily.pdf>
+File: ./fig//tiltsensor/timedrift_angleX_daily.png Graphic file (type bmp)
+<./fig//tiltsensor/timedrift_angleX_daily.png>
 File: ./fig//tiltsensor/timedrift_tempY_daily.pdf Graphic file (type pdf)
 <./fig//tiltsensor/timedrift_tempY_daily.pdf>
-File: ./fig//tiltsensor/timedrift_angleY_daily.pdf Graphic file (type pdf)
-<./fig//tiltsensor/timedrift_angleY_daily.pdf>
+File: ./fig//tiltsensor/timedrift_angleY_daily.png Graphic file (type bmp)
+<./fig//tiltsensor/timedrift_angleY_daily.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1121,6 +1121,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [38]
+File: ./fig//tiltsensor/bath_tempX.png Graphic file (type bmp)
+<./fig//tiltsensor/bath_tempX.png>
+
+Overfull \hbox (20.48709pt too wide) in paragraph at lines 250--251
+ [][] 
+ []
+
+File: ./fig//tiltsensor/angleX_temp_dep.pdf Graphic file (type pdf)
+<./fig//tiltsensor/angleX_temp_dep.pdf>
+
+Overfull \hbox (13.31628pt too wide) in paragraph at lines 257--258
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -1129,31 +1143,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [39]
-File: ./fig//tiltsensor/bath_tempX.png Graphic file (type bmp)
-<./fig//tiltsensor/bath_tempX.png>
-
-Overfull \hbox (20.48709pt too wide) in paragraph at lines 252--253
- [][] 
- []
-
-File: ./fig//tiltsensor/angleX_temp_dep.pdf Graphic file (type pdf)
-<./fig//tiltsensor/angleX_temp_dep.pdf>
-
-Overfull \hbox (13.31628pt too wide) in paragraph at lines 259--260
- [][] 
- []
-
 File: ./fig//tiltsensor/bath_tempY.png Graphic file (type bmp)
 <./fig//tiltsensor/bath_tempY.png>
 
-Overfull \hbox (20.48709pt too wide) in paragraph at lines 271--272
+Overfull \hbox (20.48709pt too wide) in paragraph at lines 269--270
  [][] 
  []
 
 File: ./fig//tiltsensor/angleY_temp_dep.pdf Graphic file (type pdf)
 <./fig//tiltsensor/angleY_temp_dep.pdf>
 
-Overfull \hbox (6.1455pt too wide) in paragraph at lines 278--279
+Overfull \hbox (6.1455pt too wide) in paragraph at lines 276--277
  [][] 
  []
 
@@ -1658,7 +1658,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F72A21D63191B179152EE156FD53F56A;14022.
+(rerunfilecheck)             Checksum: 0833E6A3F153F8F4161AF1788512026E;14158.
  ) 
 Here is how much of TeX's memory you used:
  18757 strings out of 476677
@@ -1669,4 +1669,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,19n,83p,829b,1187s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/main.dvi (85 pages, 393972 bytes).
+Output written on .tex_intermediates/main.dvi (85 pages, 393016 bytes).

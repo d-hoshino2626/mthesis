@@ -990,3 +990,95 @@ OUTPUT .tex_intermediates/tiltsensor.dvi
 INPUT ../../fig//tiltsensor/tiltsensor_overview.pdf
 INPUT ../../fig//tiltsensor/tiltsensor_overview.pdf
 INPUT extractbb -B cropbox -O ../../fig//tiltsensor/tiltsensor_overview.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ../../fig//tiltsensor/timedrift_evaluation_system.pdf
+INPUT ../../fig//tiltsensor/timedrift_evaluation_system.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_evaluation_system.pdf
+INPUT ../../fig//tiltsensor/timedrift_tempX_daily.pdf
+INPUT ../../fig//tiltsensor/timedrift_tempX_daily.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_tempX_daily.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ../../fig//tiltsensor/timedrift_angleX_daily.png
+INPUT ../../fig//tiltsensor/timedrift_angleX_daily.png
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_angleX_daily.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
+INPUT ../../fig//tiltsensor/timedrift_tempY_daily.pdf
+INPUT ../../fig//tiltsensor/timedrift_tempY_daily.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_tempY_daily.pdf
+INPUT ../../fig//tiltsensor/timedrift_angleY_daily.png
+INPUT ../../fig//tiltsensor/timedrift_angleY_daily.png
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_angleY_daily.png
+INPUT ../../fig//tiltsensor/timedrift_angleX_tempX.pdf
+INPUT ../../fig//tiltsensor/timedrift_angleX_tempX.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_angleX_tempX.pdf
+INPUT ../../fig//tiltsensor/timedrift_angleY_tempY.pdf
+INPUT ../../fig//tiltsensor/timedrift_angleY_tempY.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/timedrift_angleY_tempY.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT ../../fig//tiltsensor/temp_evaluation_system.pdf
+INPUT ../../fig//tiltsensor/temp_evaluation_system.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/temp_evaluation_system.pdf
+INPUT ../../fig//tiltsensor/bath_temp_usb.pdf
+INPUT ../../fig//tiltsensor/bath_temp_usb.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_temp_usb.pdf
+INPUT ../../fig//tiltsensor/camera_12degC.pdf
+INPUT ../../fig//tiltsensor/camera_12degC.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/camera_12degC.pdf
+INPUT ../../fig//tiltsensor/camera_m18degC.pdf
+INPUT ../../fig//tiltsensor/camera_m18degC.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/camera_m18degC.pdf
+INPUT ../../fig//tiltsensor/bath_tempX.png
+INPUT ../../fig//tiltsensor/bath_tempX.png
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_tempX.png
+INPUT ../../fig//tiltsensor/angleX_temp_dep.pdf
+INPUT ../../fig//tiltsensor/angleX_temp_dep.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleX_temp_dep.pdf
+INPUT ../../fig//tiltsensor/bath_tempY.png
+INPUT ../../fig//tiltsensor/bath_tempY.png
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/bath_tempY.png
+INPUT ../../fig//tiltsensor/angleY_temp_dep.pdf
+INPUT ../../fig//tiltsensor/angleY_temp_dep.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleY_temp_dep.pdf
+INPUT ../../fig//tiltsensor/evaluation_system_kyoto.pdf
+INPUT ../../fig//tiltsensor/evaluation_system_kyoto.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evaluation_system_kyoto.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto1.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto1.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evalu_kyoto1.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto2.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto2.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evalu_kyoto2.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto3.pdf
+INPUT ../../fig//tiltsensor/evalu_kyoto3.pdf
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/evalu_kyoto3.pdf
+INPUT ../../fig//tiltsensor/angleY_huryou_test.png
+INPUT ../../fig//tiltsensor/angleY_huryou_test.png
+INPUT extractbb -B cropbox -O ../../fig//tiltsensor/angleY_huryou_test.png
+INPUT .tex_intermediates/tiltsensor.aux
+INPUT .tex_intermediates/tiltsensor.out
+INPUT .tex_intermediates/tiltsensor.out

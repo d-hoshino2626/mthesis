@@ -1166,15 +1166,15 @@ INPUT extractbb -B cropbox -O ./fig//tiltsensor/timedrift_evaluation_system.pdf
 INPUT ./fig//tiltsensor/timedrift_tempX_daily.pdf
 INPUT ./fig//tiltsensor/timedrift_tempX_daily.pdf
 INPUT extractbb -B cropbox -O ./fig//tiltsensor/timedrift_tempX_daily.pdf
-INPUT ./fig//tiltsensor/timedrift_angleX_daily.pdf
-INPUT ./fig//tiltsensor/timedrift_angleX_daily.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/timedrift_angleX_daily.pdf
+INPUT ./fig//tiltsensor/timedrift_angleX_daily.png
+INPUT ./fig//tiltsensor/timedrift_angleX_daily.png
+INPUT extractbb -B cropbox -O ./fig//tiltsensor/timedrift_angleX_daily.png
 INPUT ./fig//tiltsensor/timedrift_tempY_daily.pdf
 INPUT ./fig//tiltsensor/timedrift_tempY_daily.pdf
 INPUT extractbb -B cropbox -O ./fig//tiltsensor/timedrift_tempY_daily.pdf
-INPUT ./fig//tiltsensor/timedrift_angleY_daily.pdf
-INPUT ./fig//tiltsensor/timedrift_angleY_daily.pdf
-INPUT extractbb -B cropbox -O ./fig//tiltsensor/timedrift_angleY_daily.pdf
+INPUT ./fig//tiltsensor/timedrift_angleY_daily.png
+INPUT ./fig//tiltsensor/timedrift_angleY_daily.png
+INPUT extractbb -B cropbox -O ./fig//tiltsensor/timedrift_angleY_daily.png
 INPUT ./fig//tiltsensor/timedrift_angleX_tempX.pdf
 INPUT ./fig//tiltsensor/timedrift_angleX_tempX.pdf
 INPUT extractbb -B cropbox -O ./fig//tiltsensor/timedrift_angleX_tempX.pdf
