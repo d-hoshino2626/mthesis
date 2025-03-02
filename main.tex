@@ -111,11 +111,8 @@ bookmarkstype=toc
 \subfile{./sub/wiresag/wiresag}
 \subfile{./sub/wiresag_swg/wiresag_swg}
 \subfile{./sub/summary/summary}
-%\subfile{./sub/acknowledgement/acknowledgement}
+\subfile{./sub/acknowledgement/acknowledgement}
 
-\appendix
-\renewcommand{\chaptermark}[1]{\markboth{付録\ \thechapter\ ~#1}{}}
-\subfile{./sub/appendix/appendix.tex}
 %\clearpage
 
 %\fancyhead[LO,LE]{}
@@ -128,5 +125,9 @@ bookmarkstype=toc
 
 \bibliography{refs}
 \bibliographystyle{unsrt}
+
+\appendix
+\renewcommand{\chaptermark}[1]{\markboth{付録\ \thechapter\ ~#1}{}}
+\subfile{./sub/appendix/appendix.tex}
 
 \end{document}
