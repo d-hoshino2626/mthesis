@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  24 JAN 2025 12:34
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  3 MAR 2025 04:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -486,8 +486,30 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box89
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen271
+\lightrulewidth=\dimen272
+\cmidrulewidth=\dimen273
+\belowrulesep=\dimen274
+\belowbottomsep=\dimen275
+\aboverulesep=\dimen276
+\abovetopsep=\dimen277
+\cmidrulesep=\dimen278
+\cmidrulekern=\dimen279
+\defaultaddspace=\dimen280
+\@cmidla=\count324
+\@cmidlb=\count325
+\@aboverulesep=\dimen281
+\@belowrulesep=\dimen282
+\@thisruleclass=\count326
+\@lastruleclass=\count327
+\@thisrulewidth=\dimen283
 )
-LaTeX Info: Redefining \cite on input line 59.
+LaTeX Info: Redefining \cite on input line 60.
 ))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 6.
  (.tex_intermediates/acknowledgement.aux)
@@ -538,6 +560,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 6.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 7.
@@ -559,12 +582,12 @@ Package rerunfilecheck Info: File `acknowledgement.out' has not changed.
 (rerunfilecheck)             Checksum: 05B9FF7757FE6A446D8F294B02146D28;54.
  ) 
 Here is how much of TeX's memory you used:
- 17452 strings out of 476677
- 336322 string characters out of 5804957
- 1844490 words of memory out of 5000000
- 37702 multiletter control sequences out of 15000+600000
+ 17587 strings out of 476677
+ 338955 string characters out of 5804957
+ 1847490 words of memory out of 5000000
+ 37830 multiletter control sequences out of 15000+600000
  547695 words of font info for 62 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 92i,5n,94p,366b,957s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,5n,94p,366b,955s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex_intermediates/acknowledgement.dvi (1 page, 972 bytes).
+Output written on .tex_intermediates/acknowledgement.dvi (1 page, 3500 bytes).
