@@ -34,6 +34,15 @@ bookmarkstype=toc
 \usepackage{multirow}
 \usepackage{xcolor}
 \usepackage{threeparttable, booktabs}
+\usepackage{eso-pic}
+\usepackage{tikz}
+
+% 奨学金返還免除申請のためのコマンド。必要ない場合は削除すること。
+\newcommand{\scholarship}{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north east, xshift=-1cm, yshift=-1cm] at (current page.north east) {1-1};
+  \end{tikzpicture}%
+}
 
 % color text settings
 \newcommand{\colortext}[2]{\textcolor{#1}{#2}}
@@ -76,6 +85,13 @@ bookmarkstype=toc
 \makeatother
 
 \setcounter{secnumdepth}{3}
+
+% \AddToShipoutPictureBG*{%
+%   \begin{tikzpicture}[remember picture, overlay]
+%     \node[anchor=north east, xshift=-1cm, yshift=-1cm] at (current page.north east) {1-1};
+%   \end{tikzpicture}
+% }
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
