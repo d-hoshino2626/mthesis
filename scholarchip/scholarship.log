@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  10 MAR 2025 07:59
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.14)  10 MAR 2025 08:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -274,18 +274,18 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 8.
+(Font)              scaled to size 13.85594pt on input line 8.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 8.
+(Font)              scaled to size 13.85594pt on input line 8.
  [1
 
 ] (./scholarship.aux) ) 
 Here is how much of TeX's memory you used:
  11486 strings out of 476677
- 244187 string characters out of 5804957
+ 244184 string characters out of 5804957
  1843490 words of memory out of 5000000
  31799 multiletter control sequences out of 15000+600000
- 516101 words of font info for 56 fonts, out of 8000000 for 9000
+ 516100 words of font info for 56 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  100i,5n,104p,441b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
